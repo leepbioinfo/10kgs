@@ -1,0 +1,67 @@
+Query         SQK22560.1/327-418 
+Match_columns 92
+No_of_seqs    5 out of 15
+Neff          1.46314
+Searched_HMMs 107766
+Date          Mon Aug 23 18:26:57 2021
+Command       hhsearch -cpu 8 -i ../results/full.a3m -d /cluster/toolkit/production/databases/hh-suite/mmcif70/pdb70 -d /cluster/toolkit/production/databases/hh-suite/scope70/scope70 -d /cluster/toolkit/production/databases/hh-suite/pfama/pfama -d /cluster/toolkit/production/databases/hh-suite/TIGRFAM/TIGRFAM -o ../results/8654207.hhr -oa3m ../results/8654207.a3m -p 20 -Z 250 -loc -z 1 -b 1 -B 250 -ssm 2 -sc 1 -seq 1 -dbstrlen 10000 -norealign -maxres 32000 -contxt /cluster/toolkit/production/bioprogs/tools/hh-suite-build-new/data/context_data.crf 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF14876.8 ; RSF ; Respiratory   32.4      71 0.00066   29.3   1.8   47   28-75    141-188 (373)
+  2 PF14190.8 ; DUF4313 ; Domain o  27.0      95 0.00089   21.2   1.3   20   49-68     86-105 (105)
+  3 5IC9_D Putative uncharacterize  22.2 1.3E+02  0.0012   23.0   1.4   29   47-75     55-86  (175)
+  4 PF09717.12 ; CPW_WPC ; Plasmod  21.1 1.1E+02 0.00098   18.8   0.6   24   60-85      4-29  (58)
+
+No 1
+>PF14876.8 ; RSF ; Respiratory growth transcriptional regulator
+Probab=32.45  E-value=71  Score=29.26  Aligned_cols=47  Identities=30%  Similarity=0.518  Sum_probs=0.0  Template_Neff=2.600
+
+Q ss_pred             hHHHhcCCCCCccccccCCChhHHHHHhcCccccHHHHccccCC-CCcc
+Q SQK22560.1/327   28 DIAKQLRLPYPIDQASSAPNVFKTFFRALSPYDYTLYCRKWVKP-NLTC   75 (92)
+Q Consensus        28 diakqlrlpypid~~~~~~n~~~~~~~alSPyDYT~YCrkWsKp-nlTC   75 (92)
+                      +|.+.|||+.|...--. .|.+.+++=|-.|.+-..||.-|... +..|
+T Consensus       141 ~~~~sLrLI~psrr~lK-~n~LsKfiFAe~~Ds~nryCQFyD~n~~eIC  188 (373)
+T RSF1_YEAST/1-3  141 DIMKTLELPIPKRRDIK-GNHLSKLLFAKSPLTINTYCQFYDRRTKRIC  188 (373)
+T ss_pred             hHHHhccCcccCcccCC-CCchhhhhhccCCCCCCceeeeeeCCCCeec
+
+
+No 2
+>PF14190.8 ; DUF4313 ; Domain of unknown function (DUF4313)
+Probab=27.01  E-value=95  Score=21.21  Aligned_cols=20  Identities=15%  Similarity=0.383  Sum_probs=0.0  Template_Neff=7.700
+
+Q ss_pred             hHHHHHhcCccccHHHHccc
+Q SQK22560.1/327   49 FKTFFRALSPYDYTLYCRKW   68 (92)
+Q Consensus        49 ~~~~~~alSPyDYT~YCrkW   68 (92)
+                      ....++++.|--|..|+++|
+T Consensus        86 ~~~~l~~~~~~g~~~y~~~~  105 (105)
+T R5QKC5_9FIRM/2   86 DLSRLSRYDREGVEEFCRQW  105 (105)
+T ss_pred             eHHHHHhhCHHHHHHHHhhC
+
+
+No 3
+>5IC9_D Putative uncharacterized protein; solenoid structure, rRNA processing, 90S preribosome, protein binding, STRUCTURAL PROTEIN; 3.7A {Chaetomium thermophilum (strain DSM 1495 / CBS 144.50 / IMI 039719)}
+Probab=22.18  E-value=1.3e+02  Score=23.03  Aligned_cols=29  Identities=21%  Similarity=0.253  Sum_probs=0.0  Template_Neff=6.900
+
+Q ss_pred             ChhHHHHHhcCcccc---HHHHccccCCCCcc
+Q SQK22560.1/327   47 NVFKTFFRALSPYDY---TLYCRKWVKPNLTC   75 (92)
+Q Consensus        47 n~~~~~~~alSPyDY---T~YCrkWsKpnlTC   75 (92)
+                      +...++...|++.+-   ..||+.|..+..+|
+T Consensus        55 ~~l~~~v~~L~~~~l~~Ll~~~~~WNTnsr~~   86 (175)
+T 5IC9_D           55 KAVDDVLAKLSDEQIFQLLLRLRDWNTNARTA   86 (175)
+T ss_dssp             HHHHHHHHCCCSSHHHHHHHHHHHHHTSGGGH
+T ss_pred             HHHHHHHHcCCHHHHHHHHHHHHHcCCCcCcH
+
+
+No 4
+>PF09717.12 ; CPW_WPC ; Plasmodium falciparum domain of unknown function (CPW_WPC)
+Probab=21.11  E-value=1.1e+02  Score=18.85  Aligned_cols=24  Identities=38%  Similarity=0.851  Sum_probs=0.0  Template_Neff=7.700
+
+Q ss_pred             ccHHHH-ccc-cCCCCccCCCCCCCCCC
+Q SQK22560.1/327   60 DYTLYC-RKW-VKPNLTCTPQDDSQYPG   85 (92)
+Q Consensus        60 DYT~YC-rkW-sKpnlTCtp~D~e~yPG   85 (92)
+                      ||+..| ..| ...+..|.+-  ..|.|
+T Consensus         4 dy~~~CP~~W~~~~~~~C~ap--~~Y~G   29 (58)
+T A0A125YQQ3_TOX    4 DYTTTCPVDWTETEDGLCLPP--VEYGG   29 (58)
+T ss_pred             CccccCCCCCeeCCCCEeCCC--cccCC
+
+

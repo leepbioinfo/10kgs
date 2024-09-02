@@ -1,0 +1,477 @@
+Query         MPZ78938.1/145-235 
+Match_columns 91
+No_of_seqs    45 out of 49
+Neff          3.91333
+Searched_HMMs 107766
+Date          Mon Aug 16 19:45:08 2021
+Command       hhsearch -cpu 8 -i ../results/full.a3m -d /cluster/toolkit/production/databases/hh-suite/mmcif70/pdb70 -d /cluster/toolkit/production/databases/hh-suite/scope70/scope70 -d /cluster/toolkit/production/databases/hh-suite/pfama/pfama -d /cluster/toolkit/production/databases/hh-suite/TIGRFAM/TIGRFAM -o ../results/5314097.hhr -oa3m ../results/5314097.a3m -p 20 -Z 250 -loc -z 1 -b 1 -B 250 -ssm 2 -sc 1 -seq 1 -dbstrlen 10000 -norealign -maxres 32000 -contxt /cluster/toolkit/production/bioprogs/tools/hh-suite-build-new/data/context_data.crf 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF15540.8 ; Ntox47 ; Bacterial  93.7     1.2 1.1E-05   29.2   6.7   63    1-64     21-89  (108)
+  2 PF14090.8 ; HTH_39 ; Helix-tur  69.3      24 0.00023   21.6   3.6   35    3-37     31-67  (69)
+  3 PF15657.8 ; Tox-HNH-EHHH ; HNH  65.1      44 0.00041   20.9   4.2   35   29-64     12-55  (76)
+  4 PF09413.12 ; DUF2007 ; Putativ  33.7      64  0.0006   19.0   1.3   11    6-16     17-27  (69)
+  5 PF12558.10 ; DUF3744 ; ATP-bin  33.0      72 0.00067   21.1   1.5   12    7-18     16-27  (68)
+  6 PF13986.8 ; DUF4224 ; Domain o  32.9   1E+02 0.00094   18.8   2.0   15    1-15     15-29  (45)
+  7 TIGR03936 sam_1_link_chp; radi  31.3      60 0.00055   25.4   1.1   10    8-17     27-36  (208)
+  8 PF09601.12 ; DUF2459 ; Protein  30.2      75  0.0007   24.5   1.4   11    7-17    157-167 (173)
+  9 PF14026.8 ; DUF4242 ; Protein   28.0 1.4E+02  0.0013   19.3   2.2   17    1-17     56-72  (77)
+ 10 3BO6_A Hydrophilic protein, vi  27.9 1.6E+02  0.0015   24.4   2.9   28    7-34    164-191 (220)
+ 11 PF15385.8 ; SARG ; Specificall  27.4   1E+02 0.00094   28.9   1.9   14    2-15    291-304 (548)
+ 12 3I0U_A Phosphothreonine lyase   27.1 1.6E+02  0.0015   24.4   2.8   28    7-34    162-189 (218)
+ 13 5VID_F Bot.0671.2; mini-protei  26.4 1.2E+02  0.0011   21.1   1.7   12    2-13     39-50  (66)
+ 14 5VID_I Bot.0671.2; mini-protei  26.4 1.2E+02  0.0011   21.1   1.7   12    2-13     39-50  (66)
+ 15 d3o69a_ d.113.1.1 (A:) ADP-rib  25.7 1.1E+02   0.001   22.4   1.5   15    3-17     95-109 (190)
+ 16 2Z8N_B 27.5 kDa virulence prot  25.3 1.9E+02  0.0018   24.4   2.9   28    7-34    185-212 (241)
+ 17 4HAH_B 27.5 kDa virulence prot  25.3 1.9E+02  0.0018   24.4   2.9   28    7-34    185-212 (241)
+ 18 TIGR02150 IPP_isom_1; isopente  24.2 1.5E+02  0.0014   20.5   1.9   15    3-17     72-86  (158)
+ 19 d2azwa1 d.113.1.1 (A:2-143) Hy  24.1 1.3E+02  0.0012   20.4   1.5   12    3-14     58-69  (142)
+ 20 TIGR02117 chp_urease_rgn; cons  23.9 1.1E+02   0.001   24.5   1.4   11    7-17    185-195 (208)
+ 21 d4p0ea_ c.51.4.0 (A:) automate  22.6 1.3E+02  0.0012   23.5   1.4   22    1-22      8-29  (189)
+ 22 d2feka_ c.44.1.0 (A:) automate  22.4 1.9E+02  0.0017   20.4   2.1   18    6-23     50-67  (147)
+ 23 d4mpoa_ d.113.1.0 (A:) automat  22.0 1.6E+02  0.0015   20.6   1.8   13    2-14     51-63  (145)
+ 24 d2r7la2 d.142.1.9 (A:124-361)   21.8 1.8E+02  0.0017   22.7   2.1   18    2-19      2-19  (238)
+ 25 2KPQ_A Uncharacterized protein  21.4 2.6E+02  0.0024   19.5   2.6   28    2-29     72-99  (100)
+ 26 d2p5xa_ c.51.4.0 (A:) automate  21.2 1.4E+02  0.0013   23.5   1.4   22    1-22     11-32  (204)
+ 27 4OI3_B Nickel responsive prote  21.0 2.1E+02   0.002   19.7   2.1   18    1-18     64-81  (89)
+ 28 4S2X_A RNA pyrophosphohydrolas  20.9 2.1E+02  0.0019   18.6   2.0   16    2-17     49-64  (161)
+ 29 PF15255.8 ; CAP-ZIP_m ; WASH c  20.9 1.4E+02  0.0013   23.1   1.4   14    1-14    100-113 (138)
+ 30 d5deqa1 d.113.1.6 (A:1-149) Hy  20.7   2E+02  0.0018   20.1   2.0   15    2-16     58-72  (149)
+ 31 d1zrja1 a.140.2.1 (A:1-37) Het  20.3   2E+02  0.0019   15.4   1.6   12    6-17     12-23  (37)
+ 32 d5c7qa_ d.113.1.0 (A:) automat  20.3 1.6E+02  0.0014   22.3   1.5   15    2-16     87-101 (182)
+
+No 1
+>PF15540.8 ; Ntox47 ; Bacterial toxin 47
+Probab=93.73  E-value=1.2  Score=29.23  Aligned_cols=63  Identities=14%  Similarity=0.240  Sum_probs=0.0  Template_Neff=9.800
+
+Q ss_pred             ChHHHHHHHHHcCCCCcCCCeeee---eCCCCeEEEEEcC-CceEEEEEecCCCCCCCCCc--ccccCCC
+Q MPZ78938.1/145    1 RETVRLLAMRMAGIPVDAEPVDII---RNASGVQYVYDMD-GRNMLVTENTMDRSHPGQPH--WEAGEMK   64 (91)
+Q Consensus         1 sraARReAMR~aGIPTSqqP~sQ~---~~~~grqY~Ye~~-~~~~~V~~~~~D~~H~~~pH--WeAG~~K   64 (91)
+                      +..+..++++++|||.++..+.+.   .....-...|..+ +......-.-.+. .+..||  |.....+
+T Consensus        21 ~~~~~~~~~~~~g~~~~~~~~~~~~~~~~g~~~~~~~~~~~G~~~~~d~~~~~~-g~~~~h~~~~~~~~~   89 (108)
+T Q65M69_BACLD/4   21 YKDALDEAFKRTGVPKKEFKVTKWGKDENGKSFPVEWRSKNGAEVNIDVGHTKN-GPDVPHTGYQTAGKR   89 (108)
+T ss_pred             cHHHHHHHHHHhCCCccccceeecccCCCCCcccEEEEcCCCCEEEEEeccCCC-CCCCCceeeEeCccc
+
+
+No 2
+>PF14090.8 ; HTH_39 ; Helix-turn-helix domain
+Probab=69.26  E-value=24  Score=21.62  Aligned_cols=35  Identities=14%  Similarity=0.304  Sum_probs=0.0  Template_Neff=9.400
+
+Q ss_pred             HHHHHHHHHcCCCCcCCCeeeeeCCCC--eEEEEEcC
+Q MPZ78938.1/145    3 TVRLLAMRMAGIPVDAEPVDIIRNASG--VQYVYDMD   37 (91)
+Q Consensus         3 aARReAMR~aGIPTSqqP~sQ~~~~~g--rqY~Ye~~   37 (91)
+                      ++|--.||+.|+|+...+.......+.  +.-.|.+.
+T Consensus        31 ~~~I~~Lr~~G~~I~~~~~~~~~~~G~~~~~~~Y~l~   67 (69)
+T Q13T68_PARXL/2   31 RARIVELRKEGYRINTSYVHQLSECGRPHAVGLYTLI   67 (69)
+T ss_pred             HHHHHHHHHCCCceEeEEEEEECCCCCeEEEEEEEEe
+
+
+No 3
+>PF15657.8 ; Tox-HNH-EHHH ; HNH/Endo VII superfamily nuclease toxins
+Probab=65.09  E-value=44  Score=20.89  Aligned_cols=35  Identities=17%  Similarity=0.449  Sum_probs=0.0  Template_Neff=9.400
+
+Q ss_pred             CeEEEEEcC-CceEEEEEecCCCCC--------CCCCcccccCCC
+Q MPZ78938.1/145   29 GVQYVYDMD-GRNMLVTENTMDRSH--------PGQPHWEAGEMK   64 (91)
+Q Consensus        29 grqY~Ye~~-~~~~~V~~~~~D~~H--------~~~pHWeAG~~K   64 (91)
+                      +++|.|..+ +..++++.|..+...        . .||+.+...+
+T Consensus        12 ~r~y~~~~~~g~~~~i~~h~~gh~~~~~~~~~~~-~~H~n~~~~~   55 (76)
+T C9PMI9_9PAST/1   12 TREYHYTTPSGEKVVFQEHSLGHVYGPKGTLGNQ-GPHFNPRQYD   55 (76)
+T ss_pred             eeEEEEeCCCCCeEEEEEecCCccccCCCCCCCC-CCCcccccCC
+
+
+No 4
+>PF09413.12 ; DUF2007 ; Putative prokaryotic signal transducing protein
+Probab=33.74  E-value=64  Score=19.03  Aligned_cols=11  Identities=18%  Similarity=0.214  Sum_probs=0.0  Template_Neff=10.400
+
+Q ss_pred             HHHHHHcCCCC
+Q MPZ78938.1/145    6 LLAMRMAGIPV   16 (91)
+Q Consensus         6 ReAMR~aGIPT   16 (91)
+                      .++|+++|||.
+T Consensus        17 ~~~L~~~gI~~   27 (69)
+T A8MJ48_ALKOO/1   17 KAILDENNIPY   27 (69)
+T ss_pred             HHHHHHCCCCE
+
+
+No 5
+>PF12558.10 ; DUF3744 ; ATP-binding cassette cobalt transporter
+Probab=32.97  E-value=72  Score=21.13  Aligned_cols=12  Identities=17%  Similarity=0.337  Sum_probs=0.0  Template_Neff=6.900
+
+Q ss_pred             HHHHHcCCCCcC
+Q MPZ78938.1/145    7 LAMRMAGIPVDA   18 (91)
+Q Consensus         7 eAMR~aGIPTSq   18 (91)
+                      +|||.|||+++.
+T Consensus        16 ~ALk~ag~~l~~   27 (68)
+T Y430_STRR6/237   16 TTLRQLGVDLVK   27 (68)
+T ss_pred             HHHHHCCCCCCC
+
+
+No 6
+>PF13986.8 ; DUF4224 ; Domain of unknown function (DUF4224)
+Probab=32.87  E-value=1e+02  Score=18.77  Aligned_cols=15  Identities=13%  Similarity=0.330  Sum_probs=0.0  Template_Neff=7.000
+
+Q ss_pred             ChHHHHHHHHHcCCC
+Q MPZ78938.1/145    1 RETVRLLAMRMAGIP   15 (91)
+Q Consensus         1 sraARReAMR~aGIP   15 (91)
+                      .+++....|++.|||
+T Consensus        15 ~~~~Q~~wL~~~gI~   29 (45)
+T D5BYE7_NITHN/2   15 KPSCMIRQLRSYGLR   29 (45)
+T ss_pred             CHHHHHHHHHHcCCc
+
+
+No 7
+>TIGR03936 sam_1_link_chp; radical SAM-linked protein. This model describes an uncharacterized protein encoded adjacent to, or as a fusion protein with, an uncharacterized radical SAM protein.
+Probab=31.28  E-value=60  Score=25.38  Aligned_cols=10  Identities=60%  Similarity=1.022  Sum_probs=0.0  Template_Neff=8.000
+
+Q ss_pred             HHHHcCCCCc
+Q MPZ78938.1/145    8 AMRMAGIPVD   17 (91)
+Q Consensus         8 AMR~aGIPTS   17 (91)
+                      |||+||||+.
+T Consensus        27 alrRa~lp~~   36 (208)
+T TIGR03936        27 ALRRAGLPVA   36 (208)
+T ss_pred             HHHHcCCCce
+
+
+No 8
+>PF09601.12 ; DUF2459 ; Protein of unknown function (DUF2459)
+Probab=30.15  E-value=75  Score=24.54  Aligned_cols=11  Identities=18%  Similarity=0.262  Sum_probs=0.0  Template_Neff=7.300
+
+Q ss_pred             HHHHHcCCCCc
+Q MPZ78938.1/145    7 LAMRMAGIPVD   17 (91)
+Q Consensus         7 eAMR~aGIPTS   17 (91)
+                      ++||+||+|++
+T Consensus       157 ~~L~~aG~~~~  167 (173)
+T K8GKD6_9CYAN/4  157 NGLRAANVNTP  167 (173)
+T ss_pred             HHHHHCCCCCC
+
+
+No 9
+>PF14026.8 ; DUF4242 ; Protein of unknown function (DUF4242)
+Probab=28.05  E-value=1.4e+02  Score=19.30  Aligned_cols=17  Identities=18%  Similarity=0.225  Sum_probs=0.0  Template_Neff=8.500
+
+Q ss_pred             ChHHHHHHHHHcCCCCc
+Q MPZ78938.1/145    1 RETVRLLAMRMAGIPVD   17 (91)
+Q Consensus         1 sraARReAMR~aGIPTS   17 (91)
+                      |.++=+++++++|+|..
+T Consensus        56 s~e~v~~~~~~~g~p~d   72 (77)
+T H8GQA4_METAL/4   56 DEASVREHAEKGGFPAN   72 (77)
+T ss_pred             CHHHHHHHHHHhCCCCc
+
+
+No 10
+>3BO6_A Hydrophilic protein, virA protein; alpha/beta fold of phosphothreonine lyase, LYASE; HET: SO4; 1.4A {Chromobacterium violaceum}
+Probab=27.93  E-value=1.6e+02  Score=24.43  Aligned_cols=28  Identities=11%  Similarity=0.071  Sum_probs=0.0  Template_Neff=5.900
+
+Q ss_pred             HHHHHcCCCCcCCCeeeeeCCCCeEEEE
+Q MPZ78938.1/145    7 LAMRMAGIPVDAEPVDIIRNASGVQYVY   34 (91)
+Q Consensus         7 eAMR~aGIPTSqqP~sQ~~~~~grqY~Y   34 (91)
+                      ++|+++||..+.-|.|-....+|.--.|
+T Consensus       164 ~~L~~agI~pG~~p~SD~~~~~~~y~SY  191 (220)
+T 3BO6_A          164 SRLSESGLMPGQYPESDVHPENWKYVSY  191 (220)
+T ss_dssp             HHHHHTTCCBCCCCTTCBCCTTCSSEEE
+T ss_pred             HHHHHCCCCCCCCCCCCCCCCCceeEEE
+
+
+No 11
+>PF15385.8 ; SARG ; Specifically androgen-regulated gene protein
+Probab=27.41  E-value=1e+02  Score=28.86  Aligned_cols=14  Identities=29%  Similarity=0.484  Sum_probs=0.0  Template_Neff=5.900
+
+Q ss_pred             hHHHHHHHHHcCCC
+Q MPZ78938.1/145    2 ETVRLLAMRMAGIP   15 (91)
+Q Consensus         2 raARReAMR~aGIP   15 (91)
+                      ..||+||||+.|.+
+T Consensus       291 qKvR~EAL~KLGLL  304 (548)
+T L9JBL1_TUPCH/2  291 RKARREALEKLGLP  304 (548)
+T ss_pred             HHHHHHHHHHhCCC
+
+
+No 12
+>3I0U_A Phosphothreonine lyase ospF; Shigella flexneri, apo-structure, type III effector, phosphothreonine lyase, Lyase, Secreted, Virulence, Structural Genomics, Center for Structural; 2.7A {Shigella flexneri}
+Probab=27.05  E-value=1.6e+02  Score=24.40  Aligned_cols=28  Identities=14%  Similarity=0.080  Sum_probs=0.0  Template_Neff=5.900
+
+Q ss_pred             HHHHHcCCCCcCCCeeeeeCCCCeEEEE
+Q MPZ78938.1/145    7 LAMRMAGIPVDAEPVDIIRNASGVQYVY   34 (91)
+Q Consensus         7 eAMR~aGIPTSqqP~sQ~~~~~grqY~Y   34 (91)
+                      ++|+++||..+.-|.|-....++.--.|
+T Consensus       162 ~~L~~agI~pG~~p~SD~~~~~~~y~SY  189 (218)
+T 3I0U_A          162 SNLLRSKIAPGEYPASDVRPEDWKYVSY  189 (218)
+T ss_dssp             HHHHHTTCCBCCCCTTCBCCTTCSSEEE
+T ss_pred             HHHHhCCCCCCCCCCCCCCCCCcceEEE
+
+
+No 13
+>5VID_F Bot.0671.2; mini-protein binder, inhibitor, TOXIN; 2.75A {Clostridium botulinum}
+Probab=26.42  E-value=1.2e+02  Score=21.14  Aligned_cols=12  Identities=33%  Similarity=0.340  Sum_probs=0.0  Template_Neff=1.000
+
+Q ss_pred             hHHHHHHHHHcC
+Q MPZ78938.1/145    2 ETVRLLAMRMAG   13 (91)
+Q Consensus         2 raARReAMR~aG   13 (91)
+                      |.|-|.|||+||
+T Consensus        39 rdaarnalrkag   50 (66)
+T 5VID_F           39 RDAARNALRKAG   50 (66)
+T ss_dssp             HHHHHHHHHTTT
+T ss_pred             HHHHHHHHHHcC
+
+
+No 14
+>5VID_I Bot.0671.2; mini-protein binder, inhibitor, TOXIN; 2.75A {Clostridium botulinum}
+Probab=26.42  E-value=1.2e+02  Score=21.14  Aligned_cols=12  Identities=33%  Similarity=0.340  Sum_probs=0.0  Template_Neff=1.000
+
+Q ss_pred             hHHHHHHHHHcC
+Q MPZ78938.1/145    2 ETVRLLAMRMAG   13 (91)
+Q Consensus         2 raARReAMR~aG   13 (91)
+                      |.|-|.|||+||
+T Consensus        39 rdaarnalrkag   50 (66)
+T 5VID_I           39 RDAARNALRKAG   50 (66)
+T ss_dssp             HHHHHHHHHHHT
+T ss_pred             HHHHHHHHHHcC
+
+
+No 15
+>d3o69a_ d.113.1.1 (A:) ADP-ribose pyrophosphatase homologue YffH {Escherichia coli [TaxId: 562]}
+Probab=25.65  E-value=1.1e+02  Score=22.44  Aligned_cols=15  Identities=27%  Similarity=0.375  Sum_probs=0.0  Template_Neff=9.800
+
+Q ss_pred             HHHHHHHHHcCCCCc
+Q MPZ78938.1/145    3 TVRLLAMRMAGIPVD   17 (91)
+Q Consensus         3 aARReAMR~aGIPTS   17 (91)
+                      +|+||++.+.||...
+T Consensus        95 aa~REl~EE~Gi~~~  109 (190)
+T d3o69a_          95 CIRKAAIEETGYEVG  109 (190)
+T ss_dssp             HHHHHHHHHTSCCCS
+T ss_pred             HHHHHHHHHhCceee
+
+
+No 16
+>2Z8N_B 27.5 kDa virulence protein; short three-helix bundle, distorted beta-strand sheet, LYASE; HET: SO4; 1.8A {Salmonella typhimurium}
+Probab=25.25  E-value=1.9e+02  Score=24.42  Aligned_cols=28  Identities=11%  Similarity=0.075  Sum_probs=0.0  Template_Neff=5.800
+
+Q ss_pred             HHHHHcCCCCcCCCeeeeeCCCCeEEEE
+Q MPZ78938.1/145    7 LAMRMAGIPVDAEPVDIIRNASGVQYVY   34 (91)
+Q Consensus         7 eAMR~aGIPTSqqP~sQ~~~~~grqY~Y   34 (91)
+                      ++|+++||..+.-|.|-....+|.--.|
+T Consensus       185 ~~L~~agI~pG~~p~SD~~~~~~~Y~SY  212 (241)
+T 2Z8N_B          185 SRLSENGVISGQCPESDVHPENWKYLSY  212 (241)
+T ss_dssp             HHHHHTTCCBCCCCTTCBCCTTCSSEEE
+T ss_pred             HHHHHCCCCCCCCCCCCCCCCCceeEEE
+
+
+No 17
+>4HAH_B 27.5 kDa virulence protein; Phosphothreonine Lyase, Lyase; 1.8A {Salmonella enterica subsp. enterica serovar Typhimurium}
+Probab=25.25  E-value=1.9e+02  Score=24.42  Aligned_cols=28  Identities=11%  Similarity=0.075  Sum_probs=0.0  Template_Neff=5.800
+
+Q ss_pred             HHHHHcCCCCcCCCeeeeeCCCCeEEEE
+Q MPZ78938.1/145    7 LAMRMAGIPVDAEPVDIIRNASGVQYVY   34 (91)
+Q Consensus         7 eAMR~aGIPTSqqP~sQ~~~~~grqY~Y   34 (91)
+                      ++|+++||..+.-|.|-....+|.--.|
+T Consensus       185 ~~L~~agI~pG~~p~SD~~~~~~~Y~SY  212 (241)
+T 4HAH_B          185 SRLSENGVISGQCPESDVHPENWKYLSY  212 (241)
+T ss_dssp             HHHHHTTCCBCCCCTTCBCCTTCSSEEE
+T ss_pred             HHHHHCCCCCCCCCCCCCCCCCceeEEE
+
+
+No 18
+>TIGR02150 IPP_isom_1; isopentenyl-diphosphate delta-isomerase, type 1. This model represents type 1 of two non-homologous families of the enzyme isopentenyl-diphosphate delta-isomerase (IPP isomerase).
+Probab=24.19  E-value=1.5e+02  Score=20.48  Aligned_cols=15  Identities=27%  Similarity=0.255  Sum_probs=0.0  Template_Neff=10.600
+
+Q ss_pred             HHHHHHHHHcCCCCc
+Q MPZ78938.1/145    3 TVRLLAMRMAGIPVD   17 (91)
+Q Consensus         3 aARReAMR~aGIPTS   17 (91)
+                      +|.||.+.++||+.+
+T Consensus        72 ~a~Rel~ee~gi~~~   86 (158)
+T TIGR02150        72 AAIRRLRHELGIPAD   86 (158)
+T ss_pred             HHHHHHHHHhCCCcc
+
+
+No 19
+>d2azwa1 d.113.1.1 (A:2-143) Hypothetical protein EF1141 {Enterococcus faecalis [TaxId: 1351]}
+Probab=24.07  E-value=1.3e+02  Score=20.39  Aligned_cols=12  Identities=17%  Similarity=0.279  Sum_probs=0.0  Template_Neff=10.600
+
+Q ss_pred             HHHHHHHHHcCC
+Q MPZ78938.1/145    3 TVRLLAMRMAGI   14 (91)
+Q Consensus         3 aARReAMR~aGI   14 (91)
+                      +|+||++.+.||
+T Consensus        58 aa~Rel~EE~g~   69 (142)
+T d2azwa1          58 AIHREVLEELGI   69 (142)
+T ss_dssp             HHHHHHHHHHSE
+T ss_pred             HHHHHHHHHhCe
+
+
+No 20
+>TIGR02117 chp_urease_rgn; conserved hypothetical protein. This conserved hypothetical protein of unknown function is found in several Proteobacteria.
+Probab=23.85  E-value=1.1e+02  Score=24.52  Aligned_cols=11  Identities=36%  Similarity=0.555  Sum_probs=0.0  Template_Neff=7.000
+
+Q ss_pred             HHHHHcCCCCc
+Q MPZ78938.1/145    7 LAMRMAGIPVD   17 (91)
+Q Consensus         7 eAMR~aGIPTS   17 (91)
+                      ++||+||+|++
+T Consensus       185 ~~Lr~AG~~~~  195 (208)
+T TIGR02117       185 AALRSAGLRTG  195 (208)
+T ss_pred             HHHHHCCCCCC
+
+
+No 21
+>d4p0ea_ c.51.4.0 (A:) automated matches {Escherichia coli [TaxId: 83333]}
+Probab=22.59  E-value=1.3e+02  Score=23.49  Aligned_cols=22  Identities=9%  Similarity=0.063  Sum_probs=0.0  Template_Neff=7.700
+
+Q ss_pred             ChHHHHHHHHHcCCCCcCCCee
+Q MPZ78938.1/145    1 RETVRLLAMRMAGIPVDAEPVD   22 (91)
+Q Consensus         1 sraARReAMR~aGIPTSqqP~s   22 (91)
+                      +...|++.|+++|||....|..
+T Consensus         8 ~S~~R~~lL~~~gi~f~v~~~~   29 (189)
+T d4p0ea_           8 GSPRRQELLAQLGVTFERIVTG   29 (189)
+T ss_dssp             CCHHHHHHHHHTTCCEEECCCC
+T ss_pred             CCHHHHHHHHHcCCCeEEECCC
+
+
+No 22
+>d2feka_ c.44.1.0 (A:) automated matches {Escherichia coli K-12 [TaxId: 83333]}
+Probab=22.44  E-value=1.9e+02  Score=20.39  Aligned_cols=18  Identities=0%  Similarity=-0.014  Sum_probs=0.0  Template_Neff=9.700
+
+Q ss_pred             HHHHHHcCCCCcCCCeee
+Q MPZ78938.1/145    6 LLAMRMAGIPVDAEPVDI   23 (91)
+Q Consensus         6 ReAMR~aGIPTSqqP~sQ   23 (91)
+                      .++|++.||+++.....+
+T Consensus        50 ~~~l~~~gi~~~~~~~~~   67 (147)
+T d2feka_          50 ISVAAEHQLSLEGHCARQ   67 (147)
+T ss_dssp             HHHHHHTTCCCTTCCCCB
+T ss_pred             HHHHHHCCCCCCCcccee
+
+
+No 23
+>d4mpoa_ d.113.1.0 (A:) automated matches {Chlamydia trachomatis [TaxId: 471472]}
+Probab=22.05  E-value=1.6e+02  Score=20.55  Aligned_cols=13  Identities=15%  Similarity=0.220  Sum_probs=0.0  Template_Neff=9.800
+
+Q ss_pred             hHHHHHHHHHcCC
+Q MPZ78938.1/145    2 ETVRLLAMRMAGI   14 (91)
+Q Consensus         2 raARReAMR~aGI   14 (91)
+                      .+|+||++.+.||
+T Consensus        51 ~aa~REl~EE~G~   63 (145)
+T d4mpoa_          51 EAAERELVEETGL   63 (145)
+T ss_dssp             HHHHHHHHHHHCC
+T ss_pred             HHHHHHHHHHhCC
+
+
+No 24
+>d2r7la2 d.142.1.9 (A:124-361) 5-formaminoimidazole-4-carboxamide ribonucleotide synthetase PurP {Methanocaldococcus jannaschii [TaxId: 2190]}
+Probab=21.80  E-value=1.8e+02  Score=22.67  Aligned_cols=18  Identities=22%  Similarity=0.303  Sum_probs=0.0  Template_Neff=9.100
+
+Q ss_pred             hHHHHHHHHHcCCCCcCC
+Q MPZ78938.1/145    2 ETVRLLAMRMAGIPVDAE   19 (91)
+Q Consensus         2 raARReAMR~aGIPTSqq   19 (91)
+                      |..-+++|+++|||+..+
+T Consensus         2 K~~~~~~l~~~Gi~~p~~   19 (238)
+T d2r7la2           2 RSLEGKLLREAGLRVPKK   19 (238)
+T ss_dssp             HHHHHHHHHHHTCCCCCE
+T ss_pred             hHHHHHHHHHcCCCCCCE
+
+
+No 25
+>2KPQ_A Uncharacterized protein; Protein, Structural Genomics, PSI-2, Protein Structure Initiative, Northeast Structural Genomics Consortium, NESG, UNKNOWN FUNCTION; NMR {Agrobacterium tumefaciens str. C58}
+Probab=21.42  E-value=2.6e+02  Score=19.46  Aligned_cols=28  Identities=25%  Similarity=0.107  Sum_probs=0.0  Template_Neff=7.900
+
+Q ss_pred             hHHHHHHHHHcCCCCcCCCeeeeeCCCC
+Q MPZ78938.1/145    2 ETVRLLAMRMAGIPVDAEPVDIIRNASG   29 (91)
+Q Consensus         2 raARReAMR~aGIPTSqqP~sQ~~~~~g   29 (91)
+                      |.|=..|.+++||.+...+.+-....+|
+T Consensus        72 R~AF~~Aa~eagi~v~~~~~~~~~~~~~   99 (100)
+T 2KPQ_A           72 RTAFVAASRQAHCLMEDKAEAPNTIASG   99 (100)
+T ss_dssp             HHHHHHHHHHHTCCCCCCCSSCCCCSCC
+T ss_pred             HHHHHHHHHHCCCccCCccCCCCccCCC
+
+
+No 26
+>d2p5xa_ c.51.4.0 (A:) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+Probab=21.23  E-value=1.4e+02  Score=23.45  Aligned_cols=22  Identities=18%  Similarity=0.253  Sum_probs=0.0  Template_Neff=7.900
+
+Q ss_pred             ChHHHHHHHHHcCCCCcCCCee
+Q MPZ78938.1/145    1 RETVRLLAMRMAGIPVDAEPVD   22 (91)
+Q Consensus         1 sraARReAMR~aGIPTSqqP~s   22 (91)
+                      +...|++.|+++|||....|..
+T Consensus        11 ~S~~R~~lL~~~g~~f~v~~~~   32 (204)
+T d2p5xa_          11 ASPRRQEILSNAGLRFEVVPSK   32 (204)
+T ss_dssp             CCHHHHHHHHHTTCCCEECCCC
+T ss_pred             CCHHHHHHHHHCCCCeEEECCC
+
+
+No 27
+>4OI3_B Nickel responsive protein; nickel responsive protein, Structural Genomics, ferredoxin-like fold, a nickel responsive protein, nickel binding, METAL BINDING PROTEIN; HET: MSE; 1.3A {Streptomyces coelicolor}
+Probab=21.01  E-value=2.1e+02  Score=19.71  Aligned_cols=18  Identities=17%  Similarity=0.049  Sum_probs=0.0  Template_Neff=7.400
+
+Q ss_pred             ChHHHHHHHHHcCCCCcC
+Q MPZ78938.1/145    1 RETVRLLAMRMAGIPVDA   18 (91)
+Q Consensus         1 sraARReAMR~aGIPTSq   18 (91)
+                      |..+=|++.+++|+|...
+T Consensus        64 s~eaV~~~~~~aglp~d~   81 (89)
+T 4OI3_B           64 SAEAVQRVHERAGHKADE   81 (89)
+T ss_dssp             CHHHHHHHHHHHTCCCSE
+T ss_pred             CHHHHHHHHHHhCCCCCE
+
+
+No 28
+>4S2X_A RNA pyrophosphohydrolase; Nudix hydrolase, RNA pyrophosphohydrolase, hydrolase-RNA complex; HET: APC, SO4; 1.5A {Escherichia coli}
+Probab=20.95  E-value=2.1e+02  Score=18.56  Aligned_cols=16  Identities=6%  Similarity=0.092  Sum_probs=0.0  Template_Neff=12.300
+
+Q ss_pred             hHHHHHHHHHcCCCCc
+Q MPZ78938.1/145    2 ETVRLLAMRMAGIPVD   17 (91)
+Q Consensus         2 raARReAMR~aGIPTS   17 (91)
+                      .+|+|+++.+.||...
+T Consensus        49 ~~~~re~~ee~gl~~~   64 (161)
+T 4S2X_A           49 QAMYRELFEEVGLSRK   64 (161)
+T ss_dssp             HHHHHHCCCCCCCCGG
+T ss_pred             HHHHHHHHHHhCCCce
+
+
+No 29
+>PF15255.8 ; CAP-ZIP_m ; WASH complex subunit CAP-Z interacting, central region
+Probab=20.91  E-value=1.4e+02  Score=23.08  Aligned_cols=14  Identities=21%  Similarity=0.178  Sum_probs=0.0  Template_Neff=5.600
+
+Q ss_pred             ChHHHHHHHHHcCC
+Q MPZ78938.1/145    1 RETVRLLAMRMAGI   14 (91)
+Q Consensus         1 sraARReAMR~aGI   14 (91)
+                      +|.||+++++..++
+T Consensus       100 TR~aR~~a~~~S~~  113 (138)
+T WASC2_RAT/931-  100 TRAARRLAAQESSE  113 (138)
+T ss_pred             cHHHHHHHhhhccc
+
+
+No 30
+>d5deqa1 d.113.1.6 (A:1-149) Hypothetical protein BT0354, N-terminal domain {Bacteroides thetaiotaomicron [TaxId: 818]}
+Probab=20.73  E-value=2e+02  Score=20.09  Aligned_cols=15  Identities=7%  Similarity=0.319  Sum_probs=0.0  Template_Neff=10.000
+
+Q ss_pred             hHHHHHHHHHcCCCC
+Q MPZ78938.1/145    2 ETVRLLAMRMAGIPV   16 (91)
+Q Consensus         2 raARReAMR~aGIPT   16 (91)
+                      .+|+||+..+.||..
+T Consensus        58 ~~a~Re~~EE~Gl~~   72 (149)
+T d5deqa1          58 DAAKRVLAELTGLEN   72 (149)
+T ss_dssp             HHHHHHHHHHHCCCS
+T ss_pred             HHHHHHHHHHHCCCc
+
+
+No 31
+>d1zrja1 a.140.2.1 (A:1-37) Heterogeneous nuclear ribonucleoprotein U-like protein 1 {Human (Homo sapiens) [TaxId: 9606]}
+Probab=20.34  E-value=2e+02  Score=15.40  Aligned_cols=12  Identities=8%  Similarity=0.152  Sum_probs=0.0  Template_Neff=9.200
+
+Q ss_pred             HHHHHHcCCCCc
+Q MPZ78938.1/145    6 LLAMRMAGIPVD   17 (91)
+Q Consensus         6 ReAMR~aGIPTS   17 (91)
+                      ++.++..|||++
+T Consensus        12 k~~l~~~gl~~~   23 (37)
+T d1zrja1          12 REELQRRGLDTR   23 (37)
+T ss_dssp             HHHHHHTTCCCC
+T ss_pred             HHHHHHCCCCCC
+
+
+No 32
+>d5c7qa_ d.113.1.0 (A:) automated matches {Bdellovibrio bacteriovorus [TaxId: 264462]}
+Probab=20.33  E-value=1.6e+02  Score=22.31  Aligned_cols=15  Identities=13%  Similarity=0.082  Sum_probs=0.0  Template_Neff=8.600
+
+Q ss_pred             hHHHHHHHHHcCCCC
+Q MPZ78938.1/145    2 ETVRLLAMRMAGIPV   16 (91)
+Q Consensus         2 raARReAMR~aGIPT   16 (91)
+                      .+|+||++.++|+.+
+T Consensus        87 ~aa~REl~EEtG~~~  101 (182)
+T d5c7qa_          87 LTAKRELLEETGYEA  101 (182)
+T ss_dssp             HHHHHHHHHHHCEEE
+T ss_pred             HHHHHHHHHHhCeee
+
+

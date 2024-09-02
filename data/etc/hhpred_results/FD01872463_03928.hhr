@@ -1,0 +1,3157 @@
+Query         FD01845428_04546 hypothetical protein
+Match_columns 118
+No_of_seqs    2 out of 8
+Neff          1.11153
+Searched_HMMs 107766
+Date          Mon Aug 23 15:11:53 2021
+Command       hhsearch -cpu 8 -i ../results/full.a3m -d /cluster/toolkit/production/databases/hh-suite/mmcif70/pdb70 -d /cluster/toolkit/production/databases/hh-suite/scope70/scope70 -d /cluster/toolkit/production/databases/hh-suite/pfama/pfama -d /cluster/toolkit/production/databases/hh-suite/TIGRFAM/TIGRFAM -o ../results/7394188.hhr -oa3m ../results/7394188.a3m -p 20 -Z 250 -loc -z 1 -b 1 -B 250 -ssm 2 -sc 1 -seq 1 -dbstrlen 10000 -norealign -maxres 32000 -contxt /cluster/toolkit/production/bioprogs/tools/hh-suite-build-new/data/context_data.crf 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4KT3_A Uncharacterized protein  98.2 7.1E-05 6.6E-10   50.2   9.5   97    6-102    30-126 (177)
+  2 TIGR02541 flagell_FlgJ; flagel  97.9   7E-05 6.5E-10   58.0   5.6   90   10-99    145-244 (294)
+  3 5T1Q_B N-acetylmuramoyl-L-alan  96.1   0.039 3.6E-07   40.5   5.2   56   16-71     63-119 (359)
+  4 5T1Q_D N-acetylmuramoyl-L-alan  96.1   0.039 3.6E-07   40.5   5.2   56   16-71     63-119 (359)
+  5 3FI7_A Lmo1076 protein; Lister  94.0    0.72 6.6E-06   28.7   5.6   57    9-65     26-83  (183)
+  6 PF13406.8 ; SLT_2 ; Transglyco  93.9    0.29 2.7E-06   39.8   4.8   38   13-50     66-103 (297)
+  7 TIGR02282 MltB; lytic murein t  93.7    0.34 3.2E-06   39.5   5.0   38   13-50     61-98  (290)
+  8 d1qusa_ d.2.1.6 (A:) 36 kDa so  93.7    0.32 2.9E-06   40.6   4.9   38   13-50     91-128 (322)
+  9 TIGR02283 MltB_2; lytic murein  93.6    0.36 3.4E-06   39.8   5.0   38   13-50     67-104 (300)
+ 10 5DN4_A Peptidoglycan hydrolase  93.4     1.1   1E-05   28.1   5.8   57   16-72      6-66  (175)
+ 11 5ANZ_A SOLUBLE LYTIC TRANSGLYC  93.3    0.31 2.8E-06   39.6   4.0   38   13-50    112-149 (420)
+ 12 4Q2W_A Putative endo-beta-N-ac  93.2    0.64   6E-06   34.4   5.2   82   16-103   167-248 (290)
+ 13 1LTM_A 36 KDA SOLUBLE LYTIC TR  92.6    0.56 5.2E-06   38.5   4.7   38   13-50     89-126 (320)
+ 14 4QDN_A Flagellar protein FlgJ   91.0     2.6 2.4E-05   23.4   4.8   47   16-65      5-51  (136)
+ 15 4ANR_A SOLUBLE LYTIC TRANSGLYC  90.3     1.1   1E-05   37.4   4.2   38   13-50     86-123 (323)
+ 16 PF01832.22 ; Glucosaminidase ;  90.1     1.8 1.7E-05   24.0   3.7   54   25-78      5-58  (135)
+ 17 6FXP_A Uncharacterized protein  86.4     6.3 5.8E-05   29.0   5.5   86   16-101    96-188 (254)
+ 18 4PI8_A Autolysin E; autolysin,  85.4     4.5 4.2E-05   28.1   4.2   53   16-68     79-138 (228)
+ 19 6U0O_B LYZ2 domain-containing   84.3     7.4 6.9E-05   31.2   5.4   86   16-101   126-218 (297)
+ 20 6FXO_A Bifunctional autolysin;  83.1     7.1 6.6E-05   28.9   4.6   53   16-68     87-154 (244)
+ 21 PF18305.3 ; DNA_pol_A_exoN ; 3  83.0     4.5 4.1E-05   27.6   3.3   28   12-39     14-41  (85)
+ 22 2ZYC_A Peptidoglycan hydrolase  80.3      17 0.00016   22.0   4.8   50   16-65      5-58  (170)
+ 23 4XP8_A EtgA protein; peptidogl  80.2     8.4 7.8E-05   21.0   3.2   34   21-54      1-34  (88)
+ 24 PF07092.14 ; DUF1356 ; Protein  79.2     4.2 3.9E-05   31.3   2.4   52   49-105    40-91  (228)
+ 25 5WQW_A N-acetylglucosaminidase  76.1      15 0.00014   28.6   4.6   75   27-101    96-209 (271)
+ 26 3OTP_J Lysozyme C; typsin-like  62.0      17 0.00016   19.5   1.8   27   27-53      3-29  (44)
+ 27 d1bg6a1 a.100.1.5 (A:188-359)   60.0      44 0.00041   25.3   4.1   58   12-71     42-104 (172)
+ 28 2ZVF_E Alanyl-tRNA synthetase;  58.8      53 0.00049   21.8   3.9   27   13-39      5-31  (171)
+ 29 2ZVF_F Alanyl-tRNA synthetase;  58.8      53 0.00049   21.8   3.9   27   13-39      5-31  (171)
+ 30 d2x4ka1 d.80.1.0 (A:1-61) auto  57.3      21  0.0002   19.6   1.7   19   20-38     22-40  (61)
+ 31 d3abfa_ d.80.1.0 (A:) automate  56.7      22  0.0002   20.0   1.7   18   21-38     22-39  (64)
+ 32 3W6B_B Lysozyme-like chitinoly  56.0      39 0.00036   23.7   3.1   43    7-49     29-74  (183)
+ 33 PF16175.7 ; DUF4875 ; Domain o  55.0      22  0.0002   26.2   1.8   20   19-38    100-119 (120)
+ 34 6GI4_B Endo-type membrane-boun  54.2   1E+02 0.00093   20.9   4.6   38   14-51     16-53  (194)
+ 35 d3gxra_ d.2.1.5 (A:) automated  54.2      84 0.00078   22.4   4.5   36   15-50     39-74  (185)
+ 36 d4faza_ d.80.1.0 (A:) automate  54.1      23 0.00022   19.9   1.5   17   22-38     22-38  (62)
+ 37 4G9S_A Goose-type lysozyme; hy  54.1      91 0.00085   21.3   4.5   37   15-51     45-81  (187)
+ 38 6UKC_A Lysozyme; Litopenaeus v  53.7      20 0.00018   24.9   1.4   45   19-63      8-55  (144)
+ 39 d1qsaa2 d.2.1.6 (A:451-618) 70  52.9      58 0.00054   22.3   3.4   31   19-49      2-32  (168)
+ 40 d4fdxa_ d.80.1.0 (A:) automate  52.6      27 0.00025   19.7   1.6   17   22-38     22-38  (61)
+ 41 4FDY_A Similar to lipoprotein,  51.7      64  0.0006   23.2   3.6   34   17-50     26-61  (313)
+ 42 1GBS_A AUSTRALIAN BLACK SWAN E  50.7 1.2E+02  0.0011   20.2   4.5   37   15-51     43-79  (185)
+ 43 d3cb7a1 d.2.1.0 (A:5-126) auto  49.9      51 0.00047   23.2   2.9   27   24-50      6-37  (122)
+ 44 d6blma1 d.80.1.0 (A:2-66) auto  49.6      32  0.0003   19.9   1.6   17   22-38     22-38  (65)
+ 45 3M20_B 4-oxalocrotonate tautom  48.4      31 0.00029   18.7   1.4   17   22-38     21-37  (62)
+ 46 3M20_C 4-oxalocrotonate tautom  48.4      31 0.00029   18.7   1.4   17   22-38     21-37  (62)
+ 47 d2wkfa_ d.80.1.0 (A:) automate  47.8      24 0.00022   21.8   1.0   17   22-38     79-95  (101)
+ 48 d5cloc_ d.80.1.1 (C:) 4-oxaloc  47.6      33 0.00031   18.5   1.4   17   22-38     22-38  (54)
+ 49 d6blma2 d.80.1.0 (A:67-128) au  46.0      40 0.00038   19.1   1.6   18   21-38     21-38  (62)
+ 50 d4htla1 c.55.1.0 (A:1-119) aut  45.5      69 0.00064   19.7   2.7   31   22-52     85-118 (119)
+ 51 d1ldna2 d.162.1.1 (A:163-330)   45.4      51 0.00048   23.0   2.4   20   19-38      4-23  (168)
+ 52 PF08299.13 ; Bac_DnaA_C ; Bact  44.4      51 0.00048   18.9   1.9   20   21-40      2-21  (69)
+ 53 d1otfa_ d.80.1.1 (A:) 4-oxaloc  44.1      46 0.00043   18.5   1.7   17   22-38     22-38  (59)
+ 54 d4g9sa1 d.2.1.5 (A:7-185) auto  42.9   2E+02  0.0018   20.2   4.8   40   12-51     34-73  (179)
+ 55 5O29_A Transglycosylase; lytic  42.6 1.3E+02  0.0012   24.4   4.3   51    1-51    409-467 (596)
+ 56 d3bp8a2 c.55.1.10 (A:82-210) M  42.1      49 0.00046   20.9   1.7   31   22-52     96-129 (129)
+ 57 d1gbsa_ d.2.1.5 (A:) Lysozyme   41.1   2E+02  0.0019   20.4   4.7   39   13-51     41-79  (185)
+ 58 d3ej9a_ d.80.1.1 (A:) automate  40.5      48 0.00045   18.7   1.4   17   22-38     22-38  (62)
+ 59 PF17864.3 ; AAA_lid_4 ; RuvB A  40.1      89 0.00083   20.5   2.7   38   17-54      3-40  (74)
+ 60 PF01434.20 ; Peptidase_M41 ; P  40.0      70 0.00065   21.2   2.2   19   13-31    155-173 (185)
+ 61 PF11694.10 ; DUF3290 ; Protein  39.8      58 0.00054   25.3   2.1   51   18-71     79-129 (142)
+ 62 6IWJ_B Archeal Protein MK0293;  39.7 1.2E+02  0.0011   22.1   3.6   33   24-56     62-94  (102)
+ 63 d4m1qa2 d.162.1.0 (A:145-314)   38.8      61 0.00056   22.6   1.9   20   19-38      6-25  (170)
+ 64 6VVW_C Tautomerase; symmetric,  38.6      70 0.00065   20.2   2.0   18   21-38     82-99  (128)
+ 65 6VVW_D Tautomerase; symmetric,  38.6      70 0.00065   20.2   2.0   18   21-38     82-99  (128)
+ 66 d3fiqa_ b.60.1.0 (A:) automate  38.3      72 0.00067   21.2   2.1   22   18-39    123-144 (154)
+ 67 d3ej9b_ d.80.1.1 (B:) automate  38.2      54  0.0005   18.1   1.3   17   22-38     22-38  (59)
+ 68 4HPE_C Putative cell wall hydr  38.1 1.5E+02  0.0014   21.4   3.7   34   17-50     24-59  (308)
+ 69 4HPE_D Putative cell wall hydr  38.1 1.5E+02  0.0014   21.4   3.7   34   17-50     24-59  (308)
+ 70 PF14823.8 ; Sirohm_synth_C ; S  38.0      44 0.00041   22.0   1.1   13    3-15      3-15  (68)
+ 71 d2v6ba2 d.162.1.0 (A:165-324)   38.0      79 0.00073   21.7   2.3   20   19-38      4-23  (158)
+ 72 d1yt3a2 a.60.8.3 (A:295-375) R  37.0 2.1E+02  0.0019   18.3   3.9   32   15-46     11-42  (81)
+ 73 d1y7ta2 d.162.1.1 (A:154-332)   37.0      99 0.00092   21.6   2.7   22   17-38      3-24  (173)
+ 74 d4odda_ b.60.1.0 (A:) automate  36.6      78 0.00072   21.0   2.1   22   18-39    117-138 (149)
+ 75 d1juga_ d.2.1.2 (A:) Lysozyme   36.6 1.4E+02  0.0013   21.0   3.3   32   22-53      7-43  (125)
+ 76 d1llda2 d.162.1.1 (A:150-319)   36.5      74 0.00068   22.2   2.0   20   19-38      4-23  (170)
+ 77 PF13702.8 ; Lysozyme_like ; Ly  35.8 2.1E+02   0.002   18.8   3.9   34   17-50      3-38  (161)
+ 78 d4bgva2 d.162.1.0 (A:151-324)   35.8      84 0.00078   22.3   2.2   20   19-38      4-23  (174)
+ 79 d1nd9a_ a.6.1.6 (A:) N-termina  35.3      79 0.00073   17.7   1.7   13   27-39      8-20  (49)
+ 80 d2vb1a_ d.2.1.2 (A:) Lysozyme   34.7      96 0.00089   21.6   2.4   29   25-53      9-43  (129)
+ 81 5G5G_C PUTATIVE XANTHINE DEHYD  34.3      69 0.00064   28.1   2.0   19   20-38    473-491 (732)
+ 82 PF14174.8 ; YycC ; YycC-like p  34.3      68 0.00063   22.7   1.6   13   27-39     13-25  (50)
+ 83 d2pa6a1 d.54.1.1 (A:5-146) Eno  33.8 1.1E+02   0.001   21.0   2.5   20   21-40    118-137 (142)
+ 84 d3nepx2 d.162.1.0 (X:164-337)   33.7      97  0.0009   21.8   2.3   20   19-38      5-24  (170)
+ 85 d3iam2_ c.47.1.21 (2:) automat  33.7 2.2E+02  0.0021   21.4   4.2   40   11-50     27-71  (179)
+ 86 d3d0oa2 d.162.1.0 (A:149-312)   33.6   1E+02 0.00096   21.4   2.4   20   19-38      4-23  (164)
+ 87 5OHU_A Soluble lytic murein tr  33.0 1.7E+02  0.0015   24.0   3.6   51    1-51    451-509 (642)
+ 88 d4rora2 d.162.1.0 (A:146-320)   32.7      99 0.00092   21.8   2.2   20   19-38      4-23  (175)
+ 89 d1t3qb2 d.133.1.1 (B:166-786)   32.3      87  0.0008   27.7   2.2   19   20-38    346-364 (621)
+ 90 d2dfda2 d.162.1.1 (A:151-319)   32.2 1.3E+02  0.0012   21.2   2.7   22   17-38      3-24  (169)
+ 91 d3vkua2 d.162.1.1 (A:151-312)   32.1   1E+02 0.00096   21.3   2.2   20   19-38      4-23  (162)
+ 92 d4ln1a2 d.162.1.0 (A:148-314)   32.0      97  0.0009   21.5   2.0   20   19-38      4-23  (167)
+ 93 1FFV_E CUTL, MOLYBDOPROTEIN OF  31.5      77 0.00071   28.5   1.8   19   20-38    527-545 (803)
+ 94 d1hyha2 d.162.1.1 (A:167-329)   31.2 1.2E+02  0.0011   20.9   2.4   20   19-38      5-24  (163)
+ 95 1N62_B Carbon monoxide dehydro  31.0      85 0.00079   28.2   2.0   19   20-38    533-551 (809)
+ 96 d3dl2a2 d.162.1.0 (A:319-471)   31.0      95 0.00088   21.4   1.9   20   19-38      4-23  (153)
+ 97 PF02392.18 ; Ycf4 ; Ycf4        30.8      73 0.00067   23.5   1.4   20   18-37    159-178 (178)
+ 98 d3epqa1 c.55.1.10 (A:1-118) Pu  30.7 1.1E+02   0.001   19.6   2.0   34   19-52     82-118 (118)
+ 99 d1a5za2 d.162.1.1 (A:164-333)   30.6 1.1E+02 0.00098   21.6   2.1   20   19-38      5-24  (172)
+100 d2hjra2 d.162.1.0 (A:155-325)   30.6 1.3E+02  0.0012   21.2   2.4   20   19-38      6-25  (171)
+101 d3wswa2 d.162.1.0 (A:148-314)   30.4 1.2E+02  0.0011   21.2   2.2   20   19-38      4-23  (167)
+102 d1pzga2 d.162.1.1 (A:164-333)   30.0 1.2E+02  0.0011   21.4   2.2   20   19-38      5-24  (173)
+103 d1ez4a2 d.162.1.1 (A:163-334)   30.0 1.2E+02  0.0011   21.2   2.2   20   19-38      4-23  (171)
+104 d3b64a_ d.80.1.0 (A:) automate  30.0      58 0.00054   20.5   0.7   19   20-38     77-95  (112)
+105 PF19111.2 ; DUF5798 ; Family o  30.0 1.4E+02  0.0013   23.1   2.7   31   15-45     50-80  (89)
+106 4LG3_A Uncharacterized protein  29.6      92 0.00086   25.2   1.9   17   22-38    151-167 (183)
+107 d2hzga1 d.54.1.0 (A:4-128) aut  29.6 1.3E+02  0.0012   19.7   2.2   20   21-40    105-124 (125)
+108 d1y7ea1 b.49.3.1 (A:101-233) P  29.3 1.1E+02 0.00098   22.7   2.0   23   18-40    106-128 (133)
+109 d1yt3a1 a.60.8.3 (A:194-294) R  29.2 1.8E+02  0.0017   18.5   2.7   25   15-39     22-46  (101)
+110 d1hyea2 d.162.1.1 (A:146-313)   29.1 1.3E+02  0.0012   21.0   2.3   20   19-38      6-25  (168)
+111 d1smka2 d.162.1.0 (A:189-356)   28.9 1.4E+02  0.0013   20.9   2.4   22   17-38      3-24  (168)
+112 d3pqfa2 d.162.1.0 (A:148-315)   28.9 1.4E+02  0.0013   20.9   2.4   20   19-38      4-23  (168)
+113 PF07836.13 ; DmpG_comm ; DmpG-  28.8 1.7E+02  0.0016   18.4   2.6   38   12-49     11-48  (63)
+114 d5mdha2 d.162.1.1 (A:155-333)   28.8 1.3E+02  0.0012   21.3   2.3   20   19-38      4-23  (179)
+115 2V4I_E GLUTAMATE N-ACETYLTRANS  28.1      79 0.00073   25.3   1.3   23   17-39     78-100 (173)
+116 d4ropa1 d.54.1.0 (A:5-142) aut  27.9 1.5E+02  0.0014   20.1   2.4   20   21-40    116-135 (138)
+117 d2orma_ d.80.1.0 (A:) automate  27.9      86  0.0008   18.3   1.1   17   22-38     25-41  (67)
+118 d1hfoa_ d.80.1.3 (A:) Micropha  27.8      91 0.00084   19.6   1.3   18   21-38     77-94  (113)
+119 1QSA_A PROTEIN (SOLUBLE LYTIC   27.7 2.3E+02  0.0021   23.9   3.7   38   14-51    447-484 (618)
+120 d1b8pa2 d.162.1.1 (A:159-329)   27.6 1.6E+02  0.0015   20.6   2.5   20   19-38      4-23  (171)
+121 d1e5pa_ b.60.1.1 (A:) Aphrodis  27.5 1.4E+02  0.0013   19.9   2.1   22   18-39    118-139 (149)
+122 d3uj2a1 d.54.1.0 (A:2-139) aut  27.4 1.6E+02  0.0015   20.1   2.4   20   21-40    117-136 (138)
+123 3ABF_A 4-oxalocrotonate tautom  27.3 1.3E+02  0.0012   15.9   1.6   17   22-38     23-39  (64)
+124 d7mdha2 d.162.1.1 (A:198-385)   27.3 1.5E+02  0.0014   21.7   2.4   20   19-38      4-23  (188)
+125 4ZOH_A Putative oxidoreductase  27.1   1E+02 0.00096   27.2   1.9   19   20-38    447-465 (706)
+126 d4ajja2 d.162.1.1 (A:160-331)   27.0 1.5E+02  0.0014   20.8   2.4   20   19-38      6-25  (172)
+127 d1l0oc_ a.4.13.2 (C:) SigmaF {  27.0 2.1E+02  0.0019   15.2   2.8   20   25-44     35-54  (57)
+128 d2d4aa2 d.162.1.0 (A:141-307)   26.7 1.5E+02  0.0013   20.9   2.2   20   19-38      5-24  (167)
+129 PF11281.10 ; DUF3083 ; Protein  26.6 1.8E+02  0.0017   25.7   3.2   29    8-36    273-301 (315)
+130 d3tl2a2 d.162.1.0 (A:148-312)   26.5 1.6E+02  0.0015   20.5   2.4   20   19-38      6-25  (165)
+131 d1n62b2 d.133.1.1 (B:147-809)   26.5 1.1E+02  0.0011   27.3   2.0   19   20-38    387-405 (663)
+132 d1ur5a2 d.162.1.1 (A:144-308)   26.4 1.6E+02  0.0015   20.5   2.4   20   19-38      5-24  (165)
+133 d1xkia_ b.60.1.1 (A:) Von Ebne  26.3 1.7E+02  0.0016   18.8   2.3   22   18-39    113-134 (139)
+134 3KAN_A D-dopachrome tautomeras  26.3      57 0.00053   20.3   0.2   17   22-38     79-95  (117)
+135 3KAN_C D-dopachrome tautomeras  26.3      57 0.00053   20.3   0.2   17   22-38     79-95  (117)
+136 TIGR03209 P21_Cbot; clostridiu  26.2 1.3E+02  0.0012   18.5   1.7   14   25-38    127-140 (142)
+137 d2v65a2 d.162.1.0 (A:163-331)   26.1 1.6E+02  0.0015   20.7   2.3   20   19-38      6-25  (172)
+138 2W3S_F XANTHINE DEHYDROGENASE;  25.9 1.1E+02   0.001   27.5   1.8   19   20-38    493-511 (777)
+139 2NXO_A Hypothetical protein SC  25.7 4.6E+02  0.0042   19.0   4.5   43   13-56    214-257 (291)
+140 d4h83a1 d.54.1.0 (A:20-147) au  25.7 1.7E+02  0.0016   18.9   2.2   20   21-40    108-127 (128)
+141 d1t2da2 d.162.1.1 (A:151-315)   25.6 1.7E+02  0.0016   20.4   2.4   20   19-38      4-23  (165)
+142 d3t5sa1 d.80.1.0 (A:1-101) aut  25.2 1.1E+02 0.00098   19.0   1.2   19   20-38     77-95  (101)
+143 d2icta_ a.35.1.3 (A:) Antitoxi  25.2 3.7E+02  0.0035   17.5   3.8   28   21-48     50-77  (94)
+144 d2w3sb2 d.133.1.1 (B:124-777)   25.2 1.2E+02  0.0011   27.4   1.9   19   20-38    370-388 (654)
+145 1X93_A hypothetical protein HP  24.8 2.3E+02  0.0021   16.9   2.5   32   14-45      6-37  (55)
+146 1RM6_A 4-hydroxybenzoyl-CoA re  24.8 1.2E+02  0.0011   27.4   1.8   19   20-38    486-504 (769)
+147 d4uula2 d.162.1.0 (A:155-333)   24.8 1.8E+02  0.0016   20.7   2.3   20   19-38      4-23  (179)
+148 3C19_A Uncharacterized protein  24.7 2.5E+02  0.0023   22.8   3.4   26   24-49    140-165 (186)
+149 d1z05a3 c.55.1.10 (A:81-208) T  24.6 1.9E+02  0.0017   18.4   2.2   32   21-52     94-128 (128)
+150 d2op8a_ d.80.1.0 (A:) automate  24.6 1.4E+02  0.0013   16.8   1.5   17   22-38     22-38  (61)
+151 d4uuoa2 d.162.1.0 (A:154-332)   24.6 1.7E+02  0.0016   20.7   2.2   20   19-38      4-23  (179)
+152 d3fi9a2 d.162.1.0 (A:148-327)   24.4   2E+02  0.0018   20.6   2.5   22   17-38      3-24  (180)
+153 1T3Q_B quinoline 2-oxidoreduct  23.9 1.2E+02  0.0011   27.5   1.7   19   20-38    511-529 (788)
+154 d3fv9a1 d.54.1.0 (A:2-127) aut  23.6 1.9E+02  0.0018   18.7   2.2   20   21-40    106-125 (126)
+155 1HFO_E MIGRATION INHIBITORY FA  23.6      89 0.00083   19.0   0.7   17   22-38     78-94  (113)
+156 1HFO_F MIGRATION INHIBITORY FA  23.6      89 0.00083   19.0   0.7   17   22-38     78-94  (113)
+157 d1guza2 d.162.1.1 (A:143-305)   23.6 1.8E+02  0.0017   20.5   2.2   20   19-38      5-24  (163)
+158 d2xxja2 d.162.1.0 (A:142-310)   23.5   2E+02  0.0019   20.1   2.4   20   19-38      4-23  (169)
+159 PF16926.7 ; HisKA_4TM ; Archae  23.5 2.3E+02  0.0021   18.0   2.4   25   18-42    136-160 (165)
+160 d1gyya_ d.80.1.1 (A:) 4-oxaloc  23.1   1E+02 0.00094   19.9   0.9   17   22-38     23-39  (76)
+161 5Y6Q_C Aldehyde oxidase large   23.1 1.3E+02  0.0012   27.1   1.7   19   20-38    493-511 (775)
+162 d1rm6a2 d.133.1.1 (A:134-769)   23.1 1.3E+02  0.0012   26.8   1.8   19   20-38    353-371 (636)
+163 d3tqpa1 d.54.1.0 (A:2-138) aut  23.1 2.1E+02   0.002   19.4   2.4   20   21-40    116-135 (137)
+164 d2ra6a_ b.60.1.0 (A:) automate  23.0   2E+02  0.0019   18.4   2.1   22   18-39    112-133 (141)
+165 3FWU_A Macrophage migration in  23.0 1.1E+02 0.00098   20.3   0.9   19   20-38     98-116 (133)
+166 d1hfxa_ d.2.1.2 (A:) alpha-Lac  22.9 2.1E+02   0.002   20.8   2.5   27   27-53      8-41  (123)
+167 PF05509.13 ; TraY ; TraY domai  22.9 2.5E+02  0.0024   14.8   2.8   32   14-45      3-34  (49)
+168 4CFP_B MEMBRANE-BOUND LYTIC MU  22.8   5E+02  0.0046   20.9   4.6   37   15-51    169-205 (341)
+169 6LR3_F Macrophage migration in  22.8   1E+02 0.00093   19.8   0.8   17   22-38     79-95  (131)
+170 6LR3_L Macrophage migration in  22.8   1E+02 0.00093   19.8   0.8   17   22-38     79-95  (131)
+171 d2ptza2 d.54.1.1 (A:1-138) Eno  22.8 2.6E+02  0.0024   19.2   2.8   20   21-40    114-133 (138)
+172 d2ewda4 d.162.1.1 (A:165-333)   22.8 1.9E+02  0.0018   20.4   2.2   20   19-38      4-23  (171)
+173 PF10042.11 ; DUF2278 ; Unchara  22.8      72 0.00067   25.7   0.2   23   69-91    181-204 (215)
+174 PF01464.22 ; SLT ; Transglycos  22.7 2.8E+02  0.0026   15.3   2.9   29   23-51      2-30  (129)
+175 d2gpea_ a.43.1.11 (A:) automat  22.7 2.7E+02  0.0025   15.0   3.0   32   14-45      7-38  (47)
+176 d1nxha_ a.200.1.1 (A:) Hypothe  22.6 1.9E+02  0.0017   23.0   2.3   19   20-38     19-37  (124)
+177 d5ncka1 c.55.1.0 (A:1-123) aut  22.6   3E+02  0.0028   17.3   2.9   30   23-52     90-122 (123)
+178 d4jcoa1 c.2.1.5 (A:22-162) aut  22.4 1.4E+02  0.0013   18.4   1.3   18   23-40    125-142 (142)
+179 PF01187.20 ; MIF ; Macrophage   22.3 1.2E+02  0.0011   18.3   1.1   21   18-38     74-94  (114)
+180 3UNC_B Xanthine dehydrogenase/  22.3 1.4E+02  0.0013   28.8   1.9   19   20-38   1043-1061(1332)
+181 3FWT_A Macrophage migration in  22.2 1.3E+02  0.0012   19.8   1.2   19   20-38     98-116 (133)
+182 6CUQ_C Macrophage migration in  22.2      91 0.00084   20.5   0.5   18   21-38     85-102 (121)
+183 PF19600.1 ; DUF6105 ; Family o  22.2 3.1E+02  0.0029   22.0   3.4   26   18-43     36-61  (110)
+184 PF07638.13 ; Sigma70_ECF ; ECF  22.1   2E+02  0.0018   18.1   1.9   14   25-38    153-166 (183)
+185 1NXH_A MTH396 protein; Hypothe  22.0 1.9E+02  0.0018   23.0   2.3   19   20-38     21-39  (126)
+186 d2nxoa1 c.94.1.1 (A:5-281) Hyp  22.0 5.5E+02  0.0051   18.3   4.5   43   13-56    208-251 (277)
+187 PF02594.18 ; DUF167 ; Uncharac  21.9   2E+02  0.0018   18.9   2.0   21   18-38     37-57  (73)
+188 PF16777.7 ; RHH_7 ; Transcript  21.9 2.1E+02   0.002   13.6   3.0   32   14-45      3-34  (41)
+189 4BVW_A APOLIPOPROTEIN(A); HYDR  21.9      55 0.00051   18.1  -0.4   12   26-37      2-13  (98)
+190 d4jcoa2 d.162.1.1 (A:163-330)   21.9 2.2E+02   0.002   19.8   2.3   20   19-38      6-25  (161)
+191 TIGR03313 Se_sel_red_Mo; proba  21.9 1.5E+02  0.0014   28.5   2.0   19   20-38    687-705 (951)
+192 d1j1va_ a.4.12.2 (A:) Chromoso  21.9   2E+02  0.0018   18.4   2.0   20   21-40      4-23  (94)
+193 PF02738.20 ; Ald_Xan_dh_C2 ; M  21.8 1.4E+02  0.0013   25.5   1.7   19   20-38    333-351 (555)
+194 d5lvta_ a.55.1.0 (A:) automate  21.6 3.9E+02  0.0036   16.8   3.2   23   22-44      6-28  (91)
+195 d3nvvc2 d.133.1.1 (C:695-1325)  21.6 1.7E+02  0.0016   26.2   2.1   19   20-38    349-367 (631)
+196 d2cpga_ a.43.1.3 (A:) Transcri  21.4 2.5E+02  0.0024   14.3   2.9   32   14-45      7-38  (43)
+197 PF12685.9 ; SpoIIIAH ; SpoIIIA  21.3 2.1E+02   0.002   23.8   2.5   21   18-38    207-227 (229)
+198 PF09999.11 ; DUF2240 ; Unchara  21.0 1.7E+02  0.0016   22.4   1.8   15   26-40    125-139 (141)
+199 4UHW_A ALDEHYDE OXIDASE; OXIDO  20.9 1.7E+02  0.0015   28.5   2.1   19   20-38   1052-1070(1338)
+200 d2ce7a1 a.269.1.1 (A:411-603)   20.7 2.3E+02  0.0022   20.0   2.3   19   13-31    158-176 (193)
+201 d1ffvb2 d.133.1.1 (B:147-803)   20.7 1.6E+02  0.0015   26.4   1.9   19   20-38    381-399 (657)
+202 d4h7pa2 d.162.1.0 (A:156-324)   20.6 2.4E+02  0.0022   19.9   2.3   20   19-38      4-23  (169)
+203 3MB2_D 4-oxalocrotonate tautom  20.6 1.9E+02  0.0018   17.8   1.7   18   21-38     23-40  (72)
+204 3MB2_L 4-oxalocrotonate tautom  20.6 1.9E+02  0.0018   17.8   1.7   18   21-38     23-40  (72)
+205 d4wfva_ b.60.1.1 (A:) Lipocali  20.4 2.3E+02  0.0021   18.9   2.1   22   18-39    122-143 (153)
+206 TIGR03194 4hydrxCoA_A; 4-hydro  20.4 1.6E+02  0.0015   27.2   1.8   19   20-38    471-489 (746)
+207 3NVZ_C Xanthine dehydrogenase/  20.3 1.7E+02  0.0016   26.0   1.9   19   20-38    473-491 (755)
+208 TIGR03196 pucD; xanthine dehyd  20.2 1.8E+02  0.0017   27.0   2.1   19   20-38    494-512 (768)
+
+No 1
+>4KT3_A Uncharacterized protein; Glycoside hydrolase, Hydrolase, PFL_3036; HET: MSE; 1.4362A {Pseudomonas protegens}
+Probab=98.20  E-value=7.1e-05  Score=50.21  Aligned_cols=97  Identities=57%  Similarity=0.884  Sum_probs=74.5  Template_Neff=10.100
+
+Q ss_pred             HHhchhhHHHHHHHHHhHHHHHHHhcCCCHHHHHHHHHHHhhhcccchhhhccCeeeeecCccccCCccccCCCCCceEE
+Q FD01845428_045    6 KACNNVGAVRFVQEHMKVCEIIAKELDVPVENILGLAAAESQYGTGRIAREYNNYFSLQAPASFQSGRVHPKDSNKTWVA   85 (118)
+Q Consensus         6 kacnnvgavrfvqehmkvceiiakeldvpvenilglaaaesqygtgriareynnyfslqapasfqsgrvhpkdsnktwva   85 (118)
+                      +.|++...--|+....+.+...++..++|...+++.+..||.+|+.+++++.||+|.+............|.+.......
+T Consensus        30 ~~~~~~~~~~~~~~~~~~~~~~~~~~~i~~~~~~a~~~~es~~g~s~~~~~~~n~~gi~~~~~~~~~~~~~~~~~~~~~~  109 (177)
+T 4KT3_A           30 RLCNNISAVTFVSKYKAVCQPIADQLDLPVENLLGLAAQESQYGTGRIARELNNYFSMHAPAPLQIGAEAPLGNASIKVA  109 (177)
+T ss_dssp             GGGGCHHHHHHHHHHHHHHHHHHHHTTCCHHHHHHHHHHHHTTTTBHHHHHHCCTTCBBSSCTTCSEEECC----CCCEE
+T ss_pred             cccCCccHHHHHHHHHHHHHHHHHHHCCCHHHHHHHHHHHcCCCCcccchhhcCeeeeeecCCCcCcccccCCCcEEEEe
+Confidence            45667777789999999999999999999999999999999999999999999999998776555433444444455556
+
+
+Q ss_pred             ehhhHHHHHHHHHHHHH
+Q FD01845428_045   86 IFSSFSVCARSFAVKYG  102 (118)
+Q Consensus        86 if~~f~~~~~~~~~~~~  102 (118)
+                      -|..+.-..+.+...+.
+T Consensus       110 ~~~~~~~~~~~~~~~y~  126 (177)
+T 4KT3_A          110 KFDSFQKSAQSFASSFG  126 (177)
+T ss_dssp             ECSSHHHHHHHHHHHHH
+T ss_pred             eeCCHHHHHHHHHHHHH
+Confidence            77777766666665554
+
+
+No 2
+>TIGR02541 flagell_FlgJ; flagellar rod assembly protein/muramidase FlgJ. The N-terminal region of this protein acts directly in flagellar rod assembly.
+Probab=97.88  E-value=7e-05  Score=57.95  Aligned_cols=90  Identities=28%  Similarity=0.335  Sum_probs=64.2  Template_Neff=8.100
+
+Q ss_pred             hhhHHHHHHHHHhHHHHHHHhcCCCHHHHHHHHHHHhhhcccchhhh----ccCeeeeecCccccCCcc------ccCCC
+Q FD01845428_045   10 NVGAVRFVQEHMKVCEIIAKELDVPVENILGLAAAESQYGTGRIARE----YNNYFSLQAPASFQSGRV------HPKDS   79 (118)
+Q Consensus        10 nvgavrfvqehmkvceiiakeldvpvenilglaaaesqygtgriare----ynnyfslqapasfqsgrv------hpkds   79 (118)
+                      ..+..+|+..+.+.+...++.+++++.++++|+++|++||.+.+...    .+|+||+++...+.....      +..+.
+T Consensus       145 ~~~~~~fi~~~~~~a~~~a~~~gv~~~~~~AqaalESgwG~s~~~~~~g~~~~NlfGika~~~~~g~~~~~~t~e~~~g~  224 (294)
+T TIGR02541       145 PGHPKSFVNSMLPHARKAAQQLGVPPHLILAQAALESGWGQRQIRNADGSPSYNLFGIKASGSWQGKVVTTMTTEYVDGV  224 (294)
+T ss_pred             CCChHHHHHhhHHHHHHHHHHHCCCHHHHHHHHHHHccCCCccccCCCCCccccccccccccccCCceEEeeccceeCCc
+Confidence            44567899999999999999999999999999999999999988764    799999987665432211      11111
+
+
+Q ss_pred             CCceEEehhhHHHHHHHHHH
+Q FD01845428_045   80 NKTWVAIFSSFSVCARSFAV   99 (118)
+Q Consensus        80 nktwvaif~~f~~~~~~~~~   99 (118)
+                      .......|+.|.+..+.+.+
+T Consensus       225 ~~~~~~~f~~y~s~~~si~d  244 (294)
+T TIGR02541       225 AQKLTAKFRSYSSYEEAFSD  244 (294)
+T ss_pred             eehhhHHHhcCCCHHHHHHH
+Confidence            22223456666666655443
+
+
+No 3
+>5T1Q_B N-acetylmuramoyl-L-alanine amidase domain-containing protein SAOUHSC_02979; N-acetylmuramoyl-L-alanine Amidase, CSGID, Structural Genomics, Center for Structural Genomics of Infectious Diseases, HYDROLASE; HET: MSE, PGE; 2.15A {Staphylococcus aureus (strain NCTC 8325)}
+Probab=96.10  E-value=0.039  Score=40.46  Aligned_cols=56  Identities=25%  Similarity=0.316  Sum_probs=0.0  Template_Neff=10.700
+
+Q ss_pred             HHHHHHhHHHHHHHhcCCCHHHHHHHHHHHhhhcccchhhhcc-CeeeeecCccccC
+Q FD01845428_045   16 FVQEHMKVCEIIAKELDVPVENILGLAAAESQYGTGRIAREYN-NYFSLQAPASFQS   71 (118)
+Q Consensus        16 fvqehmkvceiiakeldvpvenilglaaaesqygtgriareyn-nyfslqapasfqs   71 (118)
+                      |+.........++++.+|+...+++.+..||.+|+.++++..+ |+|.+.+..+.+.
+T Consensus        63 ~i~~~~~~~~~~~~~~gi~~~~~~a~a~~Esg~G~s~~a~~~~~N~fgi~~~~~~~~  119 (359)
+T 5T1Q_B           63 FVKSIAKDAHRIGQDNDIYASVMIAQAILESDSGRSALAKSPNHNLFGIKGAFEGNS  119 (359)
+T ss_dssp             HHHHHHHHHHHHHHHTTBCHHHHHHHHHHHHTTTTSTTTSTTTCCSSCCBSCBTTBE
+T ss_pred             HHHHHHHHHHHHHHHcCCCHHHHHHHHHHHCCCCCchhcCCCCCCCcceecCCCCCc
+
+
+No 4
+>5T1Q_D N-acetylmuramoyl-L-alanine amidase domain-containing protein SAOUHSC_02979; N-acetylmuramoyl-L-alanine Amidase, CSGID, Structural Genomics, Center for Structural Genomics of Infectious Diseases, HYDROLASE; HET: PGE, MSE; 2.15A {Staphylococcus aureus (strain NCTC 8325)}
+Probab=96.10  E-value=0.039  Score=40.46  Aligned_cols=56  Identities=25%  Similarity=0.316  Sum_probs=0.0  Template_Neff=10.700
+
+Q ss_pred             HHHHHHhHHHHHHHhcCCCHHHHHHHHHHHhhhcccchhhhcc-CeeeeecCccccC
+Q FD01845428_045   16 FVQEHMKVCEIIAKELDVPVENILGLAAAESQYGTGRIAREYN-NYFSLQAPASFQS   71 (118)
+Q Consensus        16 fvqehmkvceiiakeldvpvenilglaaaesqygtgriareyn-nyfslqapasfqs   71 (118)
+                      |+.........++++.+|+...+++.+..||.+|+.++++..+ |+|.+.+..+.+.
+T Consensus        63 ~i~~~~~~~~~~~~~~gi~~~~~~a~a~~Esg~G~s~~a~~~~~N~fgi~~~~~~~~  119 (359)
+T 5T1Q_D           63 FVKSIAKDAHRIGQDNDIYASVMIAQAILESDSGRSALAKSPNHNLFGIKGAFEGNS  119 (359)
+T ss_dssp             HHHHHHHHHHHHHHHHTBCHHHHHHHHHHHHTTTTSTTTSTTTCCSSCCBSCBTTBE
+T ss_pred             HHHHHHHHHHHHHHHcCCCHHHHHHHHHHHCCCCCchhcCCCCCCCcceecCCCCCc
+
+
+No 5
+>3FI7_A Lmo1076 protein; Listeria monocytogenes, autolysin, N acetylglucosaminidase, peptidoglycan hydrolase, autoinhibition, GH73, HYDROLASE; 2.35A {Listeria monocytogenes serovar 1/2a (strain ATCC BAA-679 / EGD-e)}
+Probab=93.99  E-value=0.72  Score=28.69  Aligned_cols=57  Identities=18%  Similarity=0.272  Sum_probs=0.0  Template_Neff=12.200
+
+Q ss_pred             chhhHHHHHHHHHhHHHHHHHhcCCCHHHHHHHHHHHhhhcccchhhhcc-Ceeeeec
+Q FD01845428_045    9 NNVGAVRFVQEHMKVCEIIAKELDVPVENILGLAAAESQYGTGRIAREYN-NYFSLQA   65 (118)
+Q Consensus         9 nnvgavrfvqehmkvceiiakeldvpvenilglaaaesqygtgriareyn-nyfslqa   65 (118)
+                      .+...-.|+..-.+.+...++..++|.+.+++.+..|+.+|+..+++..+ ++|.+..
+T Consensus        26 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~es~~g~~~~~~~~~~~~~g~~~   83 (183)
+T 3FI7_A           26 TPTFQQTFINSISTQAMDLCKKYNLYPSVMIAQAALESNWGRSELGKAPNYNLFGIKG   83 (183)
+T ss_dssp             SCCHHHHHHHHHHHHHHHHHHHTTCCHHHHHHHHHHHHTTTTSTTTSTTTCCTTCCBS
+T ss_pred             ChhHHHHHHHHHHHHHHHHHHHHCCCHHHHHHHHHHHcCCCCCcccCCCCCCcceeEe
+
+
+No 6
+>PF13406.8 ; SLT_2 ; Transglycosylase SLT domain
+Probab=93.89  E-value=0.29  Score=39.77  Aligned_cols=38  Identities=18%  Similarity=0.210  Sum_probs=0.0  Template_Neff=7.200
+
+Q ss_pred             HHHHHHHHHhHHHHHHHhcCCCHHHHHHHHHHHhhhcc
+Q FD01845428_045   13 AVRFVQEHMKVCEIIAKELDVPVENILGLAAAESQYGT   50 (118)
+Q Consensus        13 avrfvqehmkvceiiakeldvpvenilglaaaesqygt   50 (118)
+                      +.+|.++|.++.+.++++.+||.+-|+++...||.||.
+T Consensus        66 g~~~~~~~~~~l~~~~~~ygV~~~ii~AI~~~ES~~g~  103 (297)
+T C5AXE1_METEA/3   66 GQAKLAQWSEVLGRIEAAYGVDRHILVAFWGVESNYGA  103 (297)
+T ss_pred             HHHHHHHHHHHHHHHHHHhCCCHHHHHHHHHHHcccCC
+
+
+No 7
+>TIGR02282 MltB; lytic murein transglycosylase B. This family consists of lytic murein transglycosylases (murein hydrolases) in the family of MltB, which is a membrane-bound lipoprotein in Escherichia coli.
+Probab=93.73  E-value=0.34  Score=39.47  Aligned_cols=38  Identities=26%  Similarity=0.471  Sum_probs=0.0  Template_Neff=7.000
+
+Q ss_pred             HHHHHHHHHhHHHHHHHhcCCCHHHHHHHHHHHhhhcc
+Q FD01845428_045   13 AVRFVQEHMKVCEIIAKELDVPVENILGLAAAESQYGT   50 (118)
+Q Consensus        13 avrfvqehmkvceiiakeldvpvenilglaaaesqygt   50 (118)
+                      ..+|.++|....+.++++.+||.+-|+++...||.||+
+T Consensus        61 g~~~~~~~~~~l~~~~~~ygV~~~il~AI~~~ES~fg~   98 (290)
+T TIGR02282        61 GVEFWKQHEDALNRAEQRYGVPPEIIVAIIGVETNYGR   98 (290)
+T ss_pred             HHHHHHHHHHHHHHHHHHHCCCHHHHHHHHHHHhhccc
+
+
+No 8
+>d1qusa_ d.2.1.6 (A:) 36 kDa soluble lytic transglycosylase, SLT35 {Escherichia coli [TaxId: 562]}
+Probab=93.72  E-value=0.32  Score=40.55  Aligned_cols=38  Identities=24%  Similarity=0.348  Sum_probs=0.0  Template_Neff=6.700
+
+Q ss_pred             HHHHHHHHHhHHHHHHHhcCCCHHHHHHHHHHHhhhcc
+Q FD01845428_045   13 AVRFVQEHMKVCEIIAKELDVPVENILGLAAAESQYGT   50 (118)
+Q Consensus        13 avrfvqehmkvceiiakeldvpvenilglaaaesqygt   50 (118)
+                      +.+|.++|.+..+.++++.+||.+-|+++...||.||.
+T Consensus        91 g~~~~~~~~~~l~~a~~~ygV~~~~i~AI~~vES~fG~  128 (322)
+T d1qusa_          91 GVVFWNQYEDALNRAWQVYGVPPEIIVGIIGVETRWGR  128 (322)
+T ss_dssp             HHHHHHHTHHHHHHHHHHHCCCHHHHHHHHHHHHTTTT
+T ss_pred             HHHHHHHHHHHHHHHHHHHCCCHHHHHHHHHHHhcccc
+
+
+No 9
+>TIGR02283 MltB_2; lytic murein transglycosylase. Members of this family are closely related to the MltB family lytic murein transglycosylases described by TIGR02282 and are likewise all proteobacterial, although that family and this one form clearly distinct clades.
+Probab=93.61  E-value=0.36  Score=39.85  Aligned_cols=38  Identities=26%  Similarity=0.386  Sum_probs=0.0  Template_Neff=6.700
+
+Q ss_pred             HHHHHHHHHhHHHHHHHhcCCCHHHHHHHHHHHhhhcc
+Q FD01845428_045   13 AVRFVQEHMKVCEIIAKELDVPVENILGLAAAESQYGT   50 (118)
+Q Consensus        13 avrfvqehmkvceiiakeldvpvenilglaaaesqygt   50 (118)
+                      +++|.++|....+.++++.+||.+-|+++...||.||.
+T Consensus        67 g~~~~~~~~~~l~~~~~~ygV~~~ii~Ai~~vES~fg~  104 (300)
+T TIGR02283        67 GRAMLQRYAALLARIEKRYGVPAEILLAIWGMESDFGA  104 (300)
+T ss_pred             HHHHHHHHHHHHHHHHHHHCCCHHHHHHHHHHHhhhcc
+
+
+No 10
+>5DN4_A Peptidoglycan hydrolase FlgJ; Glycoside hydrolase, family 73, FlgJ, Flagella, HYDROLASE; HET: IOD; 1.8A {Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720)}
+Probab=93.44  E-value=1.1  Score=28.09  Aligned_cols=57  Identities=32%  Similarity=0.421  Sum_probs=0.0  Template_Neff=11.900
+
+Q ss_pred             HHHHHHhHHHHHHHhcCCCHHHHHHHHHHHhhhcccchhhh----ccCeeeeecCccccCC
+Q FD01845428_045   16 FVQEHMKVCEIIAKELDVPVENILGLAAAESQYGTGRIARE----YNNYFSLQAPASFQSG   72 (118)
+Q Consensus        16 fvqehmkvceiiakeldvpvenilglaaaesqygtgriare----ynnyfslqapasfqsg   72 (118)
+                      |++...+.+...++..+++...++.-+..|+.+|+...+..    ++++|.+....+....
+T Consensus         6 ~~~~~~~~~~~~~~~~~~~~~~~~a~~~~es~~g~~~~~~~~~~~~~~~~g~~~~~~~~~~   66 (175)
+T 5DN4_A            6 FLARLSLPARLASEQSGVPHHLILAQAALESGWGQRQILRENGEPSYNVFGVKATASWKGP   66 (175)
+T ss_dssp             HHHHHHHHHHHHHHHHCCCHHHHHHHHHHHHTTTTSCCBCTTSCBCCCTTCCBCCTTCCSC
+T ss_pred             HHHHhHHHHHHHHHHHCCCHHHHHHHHHHHcCCCCchhhhhcCCCccceeEEEecCCCCCC
+
+
+No 11
+>5ANZ_A SOLUBLE LYTIC TRANSGLYCOSYLASE B3; HYDROLASE, LYTIC TRANSGLYCOSILASE, CELL WALL RECYCLING; HET: PEG; 1.614A {PSEUDOMONAS AERUGINOSA}
+Probab=93.28  E-value=0.31  Score=39.60  Aligned_cols=38  Identities=16%  Similarity=0.344  Sum_probs=0.0  Template_Neff=8.700
+
+Q ss_pred             HHHHHHHHHhHHHHHHHhcCCCHHHHHHHHHHHhhhcc
+Q FD01845428_045   13 AVRFVQEHMKVCEIIAKELDVPVENILGLAAAESQYGT   50 (118)
+Q Consensus        13 avrfvqehmkvceiiakeldvpvenilglaaaesqygt   50 (118)
+                      +..|.++|..+.+.++++.+||.+-|+++...||.||.
+T Consensus       112 ~~~~~~~~~~~l~~~~~~~gV~~~~l~Ai~~~ES~~g~  149 (420)
+T 5ANZ_A          112 GQARLAQHARILGEVDARYAVDADAVVAIWGMESNYGS  149 (420)
+T ss_dssp             HHHHHHHTHHHHHHHHHHHTCCHHHHHHHHHHHHTTTT
+T ss_pred             HHHHHHHHHHHHHHHHHHhCCCHHHheehhHHHhhhhh
+
+
+No 12
+>4Q2W_A Putative endo-beta-N-acetylglucosaminidase; all-beta module, GH73, Hydrolase; HET: GOL, MSE; 1.65A {Streptococcus pneumoniae}
+Probab=93.19  E-value=0.64  Score=34.40  Aligned_cols=82  Identities=21%  Similarity=0.298  Sum_probs=0.0  Template_Neff=9.900
+
+Q ss_pred             HHHHHHhHHHHHHHhcCCCHHHHHHHHHHHhhhcccchhhhccCeeeeecCccccCCccccCCCCCceEEehhhHHHHHH
+Q FD01845428_045   16 FVQEHMKVCEIIAKELDVPVENILGLAAAESQYGTGRIAREYNNYFSLQAPASFQSGRVHPKDSNKTWVAIFSSFSVCAR   95 (118)
+Q Consensus        16 fvqehmkvceiiakeldvpvenilglaaaesqygtgriareynnyfslqapasfqsgrvhpkdsnktwvaif~~f~~~~~   95 (118)
+                      ++..........+++.+|+..-++..+..|+.+|+..+++..+|+|.+.+..+      .|..+...|...-....-...
+T Consensus       167 ~l~~~~~~~~~a~~~~gi~~~~~~a~a~~Esg~G~s~~~~~~~N~~gi~a~~~------~~~~~~~~~~s~~~~i~~~a~  240 (290)
+T 4Q2W_A          167 LLENKGATFKEAEEHYHINALYLLAHSALESNWGRSKIAKDKNNFFGITAYDT------TPYLSAKTFDDVDKGILGATK  240 (290)
+T ss_dssp             TTTTCHHHHHHHHHHHCCCHHHHHHHHHHHHTTTTCHHHHHHTCTTCCC-----------------CCCHHHHHHHHHHH
+T ss_pred             hhcchHHHHHHHHHHHCCCHHHHHHHHHHHhcCCCCcccCccCCCCCeeCcCC------CCcccccccCCHHHHHHHHHH
+
+
+Q ss_pred             HHHHHHHH
+Q FD01845428_045   96 SFAVKYGD  103 (118)
+Q Consensus        96 ~~~~~~~~  103 (118)
+                      .+...+..
+T Consensus       241 ~l~~~y~~  248 (290)
+T 4Q2W_A          241 WIKENYID  248 (290)
+T ss_dssp             HHHHHTGG
+T ss_pred             HHHHccCC
+
+
+No 13
+>1LTM_A 36 KDA SOLUBLE LYTIC TRANSGLYCOSYLASE; GLYCOSYLTRANSFERASE, MURAMIDASE, TRANSGLYCOSYLASE, PEPTIDOGLYCAN MATURATION, LYSOZYME, PERIPLASMIC; HET: BCN; 1.7A {Escherichia coli} SCOP: d.2.1.6
+Probab=92.63  E-value=0.56  Score=38.49  Aligned_cols=38  Identities=24%  Similarity=0.348  Sum_probs=0.0  Template_Neff=7.300
+
+Q ss_pred             HHHHHHHHHhHHHHHHHhcCCCHHHHHHHHHHHhhhcc
+Q FD01845428_045   13 AVRFVQEHMKVCEIIAKELDVPVENILGLAAAESQYGT   50 (118)
+Q Consensus        13 avrfvqehmkvceiiakeldvpvenilglaaaesqygt   50 (118)
+                      +..|.++|....+.++++.+||.+-|+++...||.||.
+T Consensus        89 g~~~~~~~~~~l~~~~~~ygV~~~il~AI~~~ES~~G~  126 (320)
+T 1LTM_A           89 GVVFWNQYEDALNRAWQVYGVPPEIIVGIIGVETRWGR  126 (320)
+T ss_dssp             HHHHHHHTHHHHHHHHHHHCCCHHHHHHHHHHHHTTTT
+T ss_pred             HHHHHHHHHHHHHHHHHHHCCChHHHHHHHHHHhchhh
+
+
+No 14
+>4QDN_A Flagellar protein FlgJ [peptidoglycan hydrolase]; GH73 family (Cazy database), inverting mechanism, bacterial peptidoglycan hydrolysis, typical lysozyme alpha-beta fold with only the; 1.7A {Thermotoga maritima}
+Probab=90.99  E-value=2.6  Score=23.39  Aligned_cols=47  Identities=17%  Similarity=0.335  Sum_probs=0.0  Template_Neff=13.400
+
+Q ss_pred             HHHHHHhHHHHHHHhcCCCHHHHHHHHHHHhhhcccchhhhccCeeeeec
+Q FD01845428_045   16 FVQEHMKVCEIIAKELDVPVENILGLAAAESQYGTGRIAREYNNYFSLQA   65 (118)
+Q Consensus        16 fvqehmkvceiiakeldvpvenilglaaaesqygtgriareynnyfslqa   65 (118)
+                      |+....+.....++..+++...++..+..|+.+|+.+.   .+++|.+..
+T Consensus         5 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~s~~~~~~~---~~~~~~~~~   51 (136)
+T 4QDN_A            5 FLERFSESAFLLERLTGIDGKILLAQSALETGWGRHTV---GNNLFGIKK   51 (136)
+T ss_dssp             HHHHHHHHHHHHHHHHCCCHHHHHHHHHHHHTTTTSCC---TTCSSCCBT
+T ss_pred             HHHHHHHHHHHHHHHHCCCHHHHHHHHHHHhCCCCCCC---cccCCCcee
+
+
+No 15
+>4ANR_A SOLUBLE LYTIC TRANSGLYCOSYLASE B; LYASE, EF-HAND LIKE MOTIF, PEPTIDOGLYCAN; 1.84A {PSEUDOMONAS AERUGINOSA}
+Probab=90.27  E-value=1.1  Score=37.44  Aligned_cols=38  Identities=29%  Similarity=0.443  Sum_probs=0.0  Template_Neff=6.800
+
+Q ss_pred             HHHHHHHHHhHHHHHHHhcCCCHHHHHHHHHHHhhhcc
+Q FD01845428_045   13 AVRFVQEHMKVCEIIAKELDVPVENILGLAAAESQYGT   50 (118)
+Q Consensus        13 avrfvqehmkvceiiakeldvpvenilglaaaesqygt   50 (118)
+                      +..|.++|....+.++++.+||.+-|+++...||.||.
+T Consensus        86 g~~~~~~~~~~l~~~~~~ygVp~~il~AI~~vES~fg~  123 (323)
+T 4ANR_A           86 GVDFWNKHAEDLARAEKEYGVPAEIIVSIIGVETFFGR  123 (323)
+T ss_dssp             HHHHHHHTHHHHHHHHHHHCCCHHHHHHHHHHHHTTTT
+T ss_pred             HHHHHHHhHHHHHHHHHHHCCCHHHHHHHHchhcccCc
+
+
+No 16
+>PF01832.22 ; Glucosaminidase ; Mannosyl-glycoprotein endo-beta-N-acetylglucosaminidase
+Probab=90.06  E-value=1.8  Score=23.97  Aligned_cols=54  Identities=19%  Similarity=0.178  Sum_probs=0.0  Template_Neff=13.400
+
+Q ss_pred             HHHHHhcCCCHHHHHHHHHHHhhhcccchhhhccCeeeeecCccccCCccccCC
+Q FD01845428_045   25 EIIAKELDVPVENILGLAAAESQYGTGRIAREYNNYFSLQAPASFQSGRVHPKD   78 (118)
+Q Consensus        25 eiiakeldvpvenilglaaaesqygtgriareynnyfslqapasfqsgrvhpkd   78 (118)
+                      ...++..+++...++..+..|+.+|...+.+.++++|.+..-..+.+.-+....
+T Consensus         5 ~~~~~~~~~~~~~~~~~~~~~s~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   58 (135)
+T E3PRX0_ACESD/9    5 IKGYLEHNILPSLTIAQAILESNSGKSQLAIKGNNLFGIKADSRWTGKKINFPT   58 (135)
+T ss_pred             HHHHHHhCCCHHHHHHHHHHHcCCCCCccccccCCccCCCCCCCCCCCeEEeee
+
+
+No 17
+>6FXP_A Uncharacterized protein; lysozyme-like fold, N-acetylglucosaminidase, peptidoglycan hydrolase, GH73, HYDROLASE; HET: PG4; 2.03A {Staphylococcus aureus subsp. aureus Mu50}
+Probab=86.43  E-value=6.3  Score=28.96  Aligned_cols=86  Identities=15%  Similarity=0.099  Sum_probs=0.0  Template_Neff=9.800
+
+Q ss_pred             HHHHHHhHHHHHHHhcCCCHHHHHHHHHHHhhhcccchhh-------hccCeeeeecCccccCCccccCCCCCceEEehh
+Q FD01845428_045   16 FVQEHMKVCEIIAKELDVPVENILGLAAAESQYGTGRIAR-------EYNNYFSLQAPASFQSGRVHPKDSNKTWVAIFS   88 (118)
+Q Consensus        16 fvqehmkvceiiakeldvpvenilglaaaesqygtgriar-------eynnyfslqapasfqsgrvhpkdsnktwvaif~   88 (118)
+                      +...+-......++..+++..-++..+..|+.+|+..+++       .++|+|.+.+..+-....---....+.|...--
+T Consensus        96 ~l~~~~~~~~~~~~~~gi~~~~l~a~a~~Esg~g~s~~~~g~~~~~~~~~N~fgi~a~~~~~~~~g~~~a~~~~~~s~~~  175 (254)
+T 6FXP_A           96 TLLKHTDDFLKAAKDKHVNEVYLISHALLETGAVKSELANGVEIDGKKYYNFYGVGALDKDPIKTGAEYAKKHGWDTPEK  175 (254)
+T ss_dssp             HHHTTHHHHHHHHHHHTCCHHHHHHHHHTTSCGGGHHHHHCEEETTEEECCSSCTTCCSSSHHHHHHHHHHHTTCCSHHH
+T ss_pred             hhhhHHHHHHHHHHHhCCCHHHHHHHHHHHhcCCCCcccCCceeCCceeeccCCCccCCCCCcccccccchhcCCCCHHH
+
+
+Q ss_pred             hHHHHHHHHHHHH
+Q FD01845428_045   89 SFSVCARSFAVKY  101 (118)
+Q Consensus        89 ~f~~~~~~~~~~~  101 (118)
+                      ...-....+...+
+T Consensus       176 ai~~~a~~i~~~y  188 (254)
+T 6FXP_A          176 AISGGADFIHKHF  188 (254)
+T ss_dssp             HHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHcC
+
+
+No 18
+>4PI8_A Autolysin E; autolysin, peptidoglycan, glycosidase, HYDROLASE; HET: CL, AMU, NAG; 1.39A {Staphylococcus aureus}
+Probab=85.38  E-value=4.5  Score=28.09  Aligned_cols=53  Identities=23%  Similarity=0.327  Sum_probs=0.0  Template_Neff=10.700
+
+Q ss_pred             HHHHHHhHHHHHHHhcCCCHHHHHHHHHHHhhhcccchhhh-------ccCeeeeecCcc
+Q FD01845428_045   16 FVQEHMKVCEIIAKELDVPVENILGLAAAESQYGTGRIARE-------YNNYFSLQAPAS   68 (118)
+Q Consensus        16 fvqehmkvceiiakeldvpvenilglaaaesqygtgriare-------ynnyfslqapas   68 (118)
+                      ++...-......+++.+++..-++..+..|+.+|+..++..       ++|+|.+.+..+
+T Consensus        79 ~l~~~~~~~~~~~~~~~i~~~~l~a~a~~esg~g~s~~~~~~~~~~~~~~n~~gi~~~~~  138 (228)
+T 4PI8_A           79 ILENRGKVFLEAQEKYEVNVIYLVSHALVATGNGKSELAKGIKDGKKRYYNFFGIGAFDS  138 (228)
+T ss_dssp             GGTTCHHHHHHHHHHHTCCHHHHHHHHHHHTTTTTSTGGGCEEETTEEECCSSCCSCCSH
+T ss_pred             ccchHHHHHHHHHHHHCCCHHHHHHHHHHHcCCCCCccccCccCCCccceeeceeeccCC
+
+
+No 19
+>6U0O_B LYZ2 domain-containing protein; Glucosaminidase, Peptidoglycan hydrolase, CAAX protease, HYDROLASE; HET: PG4, SO4, AE3, OLC, FLC; 2.6A {Staphylococcus aureus (strain bovine RF122 / ET3-1)}
+Probab=84.31  E-value=7.4  Score=31.18  Aligned_cols=86  Identities=15%  Similarity=0.099  Sum_probs=0.0  Template_Neff=8.100
+
+Q ss_pred             HHHHHHhHHHHHHHhcCCCHHHHHHHHHHHhhhcccchhh-------hccCeeeeecCccccCCccccCCCCCceEEehh
+Q FD01845428_045   16 FVQEHMKVCEIIAKELDVPVENILGLAAAESQYGTGRIAR-------EYNNYFSLQAPASFQSGRVHPKDSNKTWVAIFS   88 (118)
+Q Consensus        16 fvqehmkvceiiakeldvpvenilglaaaesqygtgriar-------eynnyfslqapasfqsgrvhpkdsnktwvaif~   88 (118)
+                      +...+-+..-..+++.+|+..-+++.+..|+.+|+-.+++       .++|+|.+.+..+-....-.....++.|-..--
+T Consensus       126 ~l~g~g~~f~~a~~~~gIn~~~l~A~a~~EsG~G~S~la~g~~~~~~~~yN~FGi~a~~~~~~~~g~~~a~~~~~~s~~~  205 (297)
+T 6U0O_B          126 TLLKHTDDFLKAAKDKHVNEVYLISHALLETGAVKSELANGVEIDGKKYYNFYGVGALDKDPIKTGAEYAKKHGWDTPEK  205 (297)
+T ss_dssp             HHHHTHHHHHHHHHHTTCCHHHHHHHHHHTTSHHHHHHHTCEEETTEEECCSSCTTCCSSCHHHHHHHHHHHTTCCSHHH
+T ss_pred             chhhhHHHHHHHHHHhCCCHHHHHHHHHHHhCCCCCcccCceeeCCeEEeeecceeccCCCCccccceeccccCCCCHHH
+
+
+Q ss_pred             hHHHHHHHHHHHH
+Q FD01845428_045   89 SFSVCARSFAVKY  101 (118)
+Q Consensus        89 ~f~~~~~~~~~~~  101 (118)
+                      ++.-.++.+...+
+T Consensus       206 aI~~~a~~i~~~y  218 (297)
+T 6U0O_B          206 AISGGADFIHKHF  218 (297)
+T ss_dssp             HHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHhcC
+
+
+No 20
+>6FXO_A Bifunctional autolysin; peptidoglycan hydrolase, GH73, glycoside hydrolase family 73, autolysin, HYDROLASE; 2.5A {Staphylococcus aureus subsp. aureus Mu50}
+Probab=83.10  E-value=7.1  Score=28.87  Aligned_cols=53  Identities=19%  Similarity=0.282  Sum_probs=0.0  Template_Neff=9.500
+
+Q ss_pred             HHHHHHhHHHHHHHhcCCCHHHHHHHHHHHhhhcccchhhh---------------ccCeeeeecCcc
+Q FD01845428_045   16 FVQEHMKVCEIIAKELDVPVENILGLAAAESQYGTGRIARE---------------YNNYFSLQAPAS   68 (118)
+Q Consensus        16 fvqehmkvceiiakeldvpvenilglaaaesqygtgriare---------------ynnyfslqapas   68 (118)
+                      ++...-......++..+|+..-++..+..|+.+|+..+++.               ++|+|.+.+-.+
+T Consensus        87 ~l~~~~~~~~~a~~~~gi~~~~l~a~a~~Esg~g~s~~~~~~~~~~~~~~~~~~~~~~N~fgi~a~~~  154 (244)
+T 6FXO_A           87 VLENQGAAFNKAAQMYGINEVYLISHALLETGNGTSQLAKGADVVNNKVVTNSNTKYHNVFGIAAYDN  154 (244)
+T ss_dssp             TTSSCHHHHHHHHHHHTCCHHHHHHHHHHHTTTTTCHHHHC-------------CCCCCSSCTTCSSS
+T ss_pred             hhhhHHHHHHHHHHHHCCCHHHHHHHHHHHhCCCCCcccCCcceeCCeeecCCCCeeecccceeccCC
+
+
+No 21
+>PF18305.3 ; DNA_pol_A_exoN ; 3' to 5' exonuclease C-terminal domain
+Probab=83.00  E-value=4.5  Score=27.64  Aligned_cols=28  Identities=21%  Similarity=0.349  Sum_probs=0.0  Template_Neff=7.100
+
+Q ss_pred             hHHHHHHHHHhHHHHHHHhcCCCHHHHH
+Q FD01845428_045   12 GAVRFVQEHMKVCEIIAKELDVPVENIL   39 (118)
+Q Consensus        12 gavrfvqehmkvceiiakeldvpvenil   39 (118)
+                      .+-...+.-...+.-+|.+++||+||||
+T Consensus        14 ~a~~~l~~~r~~~~~~A~~l~ip~e~ll   41 (85)
+T A1A237_BIFAA/3   14 ERLQVLNRVRKAVSQIAEDTRTPVEIVI   41 (85)
+T ss_pred             HHHHHHHHHHHHHHHHHHHhCCCHHHcc
+
+
+No 22
+>2ZYC_A Peptidoglycan hydrolase FlgJ; HYDROLASE; 1.74A {Sphingomonas sp. A1}
+Probab=80.33  E-value=17  Score=21.97  Aligned_cols=50  Identities=28%  Similarity=0.426  Sum_probs=0.0  Template_Neff=12.600
+
+Q ss_pred             HHHHHHhHHHHHHHhcCCCHHHHHHHHHHHhhhcccchh----hhccCeeeeec
+Q FD01845428_045   16 FVQEHMKVCEIIAKELDVPVENILGLAAAESQYGTGRIA----REYNNYFSLQA   65 (118)
+Q Consensus        16 fvqehmkvceiiakeldvpvenilglaaaesqygtgria----reynnyfslqa   65 (118)
+                      |+..-...+...++..+++...++.-+..|+.+|+....    +..++++....
+T Consensus         5 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~s~~~~~~~~~~~~~~~~~~~~~~~   58 (170)
+T 2ZYC_A            5 FVDATWPQAAKAAQSLGVPAHFLVAQAALETGWGKSQIRNKDGTPSYNLFNIKA   58 (170)
+T ss_dssp             HHHHHHHHHHHHHHHHTSCHHHHHHHHHHHHTTTTTCCBCTTSCBCCCTTCCBC
+T ss_pred             HHHHHHHHHHHHHHHHCCCHHHHHHHHHHHcCCCCCcccCCCCCcccccccEEe
+
+
+No 23
+>4XP8_A EtgA protein; peptidoglycan hydrolase, hydrolase; HET: MSE; 2.03A {Escherichia coli}
+Probab=80.18  E-value=8.4  Score=21.01  Aligned_cols=34  Identities=24%  Similarity=0.226  Sum_probs=0.0  Template_Neff=12.200
+
+Q ss_pred             HhHHHHHHHhcCCCHHHHHHHHHHHhhhcccchh
+Q FD01845428_045   21 MKVCEIIAKELDVPVENILGLAAAESQYGTGRIA   54 (118)
+Q Consensus        21 mkvceiiakeldvpvenilglaaaesqygtgria   54 (118)
+                      +...+..++..+||...+.+++..||.++.....
+T Consensus         1 ~~~~~~~~~~~~v~~~~~~~i~~~es~~~~~~~~   34 (88)
+T 4XP8_A            1 MDCFEITGKAYNIDPLILKAIAWNESKNKNGIKS   34 (88)
+T ss_dssp             CCHHHHHHHHHTCCHHHHHHHHHHHHSSCCSCBC
+T ss_pred             CcHHHHHHHHhCCCHHHHHHHHHHhhcCCCCccc
+
+
+No 24
+>PF07092.14 ; DUF1356 ; Protein of unknown function (DUF1356)
+Probab=79.20  E-value=4.2  Score=31.31  Aligned_cols=52  Identities=23%  Similarity=0.393  Sum_probs=0.0  Template_Neff=8.100
+
+Q ss_pred             cccchhhhccCeeeeecCccccCCccccCCCCCceEEehhhHHHHHHHHHHHHHHhh
+Q FD01845428_045   49 GTGRIAREYNNYFSLQAPASFQSGRVHPKDSNKTWVAIFSSFSVCARSFAVKYGDAV  105 (118)
+Q Consensus        49 gtgriareynnyfslqapasfqsgrvhpkdsnktwvaif~~f~~~~~~~~~~~~~~~  105 (118)
+                      |||||+||..+-.-.-.|.+  ..|..|+   +||..+++.+-.|.-.+...+.-++
+T Consensus        40 g~G~ip~~~e~~lvaliP~~--D~rlkpr---rt~l~V~~~v~i~lli~~l~~ffl~   91 (228)
+T T106A_BOVIN/24   40 GSGEIPRELEKQLVALIPYG--DQRLKPR---HTKLSVFLAVSICLVTSSLIIFFLF   91 (228)
+T ss_pred             CccccChhHhhceeeeccCC--CccCCcc---chhHHHHHHHHHHHHHHHHHHHHhC
+
+
+No 25
+>5WQW_A N-acetylglucosaminidase; autolysin, glycoside hydrolase 73 family, HYDROLASE; HET: EDO; 1.76A {Clostridium perfringens (strain 13 / Type A)}
+Probab=76.12  E-value=15  Score=28.56  Aligned_cols=75  Identities=17%  Similarity=0.236  Sum_probs=0.0  Template_Neff=8.700
+
+Q ss_pred             HHHhcCCCHHHHHHHHHHHhhhcccchhhh---------------------------------ccCeeeeecCccccCCc
+Q FD01845428_045   27 IAKELDVPVENILGLAAAESQYGTGRIARE---------------------------------YNNYFSLQAPASFQSGR   73 (118)
+Q Consensus        27 iakeldvpvenilglaaaesqygtgriare---------------------------------ynnyfslqapasfqsgr   73 (118)
+                      .+++.+|+..-++..+..|+.+|+-.++..                                 ++|+|.+.+..+....+
+T Consensus        96 a~~~~~i~~~~l~a~a~~Etg~G~s~la~g~~~~~~~~~~~~~~~~~g~~~~~~~~~~~~~~~~yN~~gi~a~d~~~~~~  175 (271)
+T 5WQW_A           96 AAKAFNIDPIYLVAQCLHETGNGTSKLAKGVTITEIADESKPIYNGNGQLVGYHMIKLSKPVTVYNLFGIGAKDNSSVFP  175 (271)
+T ss_dssp             HHHHTTCCHHHHHHHHHHHHTTTTSHHHHCEEEEEEEEEEEEEECTTSCEEEEEEEEEEEEEEECCSSCTTCCCCBTTBT
+T ss_pred             HHHHhCCCHHHHHHHHHHHhcCCCcccccCceeccccccCCcccCCCCceecceeccCCCCceeecCcCcccCCCCCCCC
+
+
+Q ss_pred             cccCCCC------CceEEehhhHHHHHHHHHHHH
+Q FD01845428_045   74 VHPKDSN------KTWVAIFSSFSVCARSFAVKY  101 (118)
+Q Consensus        74 vhpkdsn------ktwvaif~~f~~~~~~~~~~~  101 (118)
+                      ..|....      ..|...-....-.+..+...+
+T Consensus       176 ~~~~~~g~~~a~~~~w~s~~~aI~~~a~~i~~~y  209 (271)
+T 5WQW_A          176 NRALILGTTYAYNRGWTSIENAIKGAAEFVSLNY  209 (271)
+T ss_dssp             THHHHHHHHHHHHTTCCSHHHHHHHHHHHHCCCC
+T ss_pred             ceeeecCceeeHHhCCCCHHHHHHHHHHHHHhcC
+
+
+No 26
+>3OTP_J Lysozyme C; typsin-like protease domain PDZ domains, protease, HYDROLASE; 3.76A {Escherichia coli}
+Probab=62.00  E-value=17  Score=19.54  Aligned_cols=27  Identities=19%  Similarity=0.083  Sum_probs=0.0  Template_Neff=9.800
+
+Q ss_pred             HHHhcCCCHHHHHHHHHHHhhhcccch
+Q FD01845428_045   27 IAKELDVPVENILGLAAAESQYGTGRI   53 (118)
+Q Consensus        27 iakeldvpvenilglaaaesqygtgri   53 (118)
+                      ++...++|...++.++..||.+.+..+
+T Consensus         3 ~~~~~~~~~~~~~~i~~~eS~~~~~~~   29 (44)
+T 3OTP_J            3 GDNYRGYSLGNWVSAAKFESNFNTQAT   29 (44)
+T ss_pred             cccccCCCHHHHHHHHHHHcCCCCCcc
+
+
+No 27
+>d1bg6a1 a.100.1.5 (A:188-359) N-(1-D-carboxylethyl)-L-norvaline dehydrogenase {Arthrobacter, strain 1c [TaxId: 1663]}
+Probab=59.98  E-value=44  Score=25.34  Aligned_cols=58  Identities=16%  Similarity=0.206  Sum_probs=0.0  Template_Neff=7.600
+
+Q ss_pred             hHHHHHHHHHhHHHHHHHhcCCCHHHHHHHHHHHhhhcc-----cchhhhccCeeeeecCccccC
+Q FD01845428_045   12 GAVRFVQEHMKVCEIIAKELDVPVENILGLAAAESQYGT-----GRIAREYNNYFSLQAPASFQS   71 (118)
+Q Consensus        12 gavrfvqehmkvceiiakeldvpvenilglaaaesqygt-----griareynnyfslqapasfqs   71 (118)
+                      .+.+++..--+-...|++.|++++..++  .....+||+     -...++..-|-++.+|.++++
+T Consensus        42 ~v~~~i~~lD~Er~ai~~alg~~~~~~~--~~~~~~y~~~~~~l~~~~~~~~~~~~~~~P~~~~~  104 (172)
+T d1bg6a1          42 SVGSLAEKVDAERIAIAKAFDLNVPSVC--EWYKESYGQSPATIYEAVQGNPAYRGIAGPINLNT  104 (172)
+T ss_dssp             HHHHHHHHHHHHHHHHHHTTTCCCCCHH--HHC-------CCSHHHHHHTCGGGTTCBCCSSSCC
+T ss_pred             HHHHHHHHHHHHHHHHHHHCCCCCCCHH--HHHHHHHCCChhhHHHHHhcCcccCCCCCCCCCcc
+
+
+No 28
+>2ZVF_E Alanyl-tRNA synthetase; Alanyl-tRNA synthetase, C-terminal, oligomerization domain, Aminoacyl-tRNA synthetase, ATP-binding, Cytoplasm, Ligase, Nucleotide-binding, Protein biosynthesis, Structural Genomics, NPPSFA; HET: MSE, SO4; 3.2A {Archaeoglobus fulgidus}
+Probab=58.81  E-value=53  Score=21.84  Aligned_cols=27  Identities=19%  Similarity=0.169  Sum_probs=0.0  Template_Neff=10.800
+
+Q ss_pred             HHHHHHHHHhHHHHHHHhcCCCHHHHH
+Q FD01845428_045   13 AVRFVQEHMKVCEIIAKELDVPVENIL   39 (118)
+Q Consensus        13 avrfvqehmkvceiiakeldvpvenil   39 (118)
+                      |.+++++..+..+-+++.|+++.+++.
+T Consensus         5 A~~~~~~~~~~~~~~~~~l~~~~~~l~   31 (171)
+T 2ZVF_E            5 AIEAVEEMERLLREASSILRVEPAKLP   31 (171)
+T ss_dssp             HHHHHHHHHHHHHHHHHHTTSCGGGHH
+T ss_pred             HHHHHHHHHHHHHHHHHHhCCCHHHHH
+
+
+No 29
+>2ZVF_F Alanyl-tRNA synthetase; Alanyl-tRNA synthetase, C-terminal, oligomerization domain, Aminoacyl-tRNA synthetase, ATP-binding, Cytoplasm, Ligase, Nucleotide-binding, Protein biosynthesis, Structural Genomics, NPPSFA; HET: SO4, MSE; 3.2A {Archaeoglobus fulgidus}
+Probab=58.81  E-value=53  Score=21.84  Aligned_cols=27  Identities=19%  Similarity=0.169  Sum_probs=0.0  Template_Neff=10.800
+
+Q ss_pred             HHHHHHHHHhHHHHHHHhcCCCHHHHH
+Q FD01845428_045   13 AVRFVQEHMKVCEIIAKELDVPVENIL   39 (118)
+Q Consensus        13 avrfvqehmkvceiiakeldvpvenil   39 (118)
+                      |.+++++..+..+-+++.|+++.+++.
+T Consensus         5 A~~~~~~~~~~~~~~~~~l~~~~~~l~   31 (171)
+T 2ZVF_F            5 AIEAVEEMERLLREASSILRVEPAKLP   31 (171)
+T ss_dssp             HHHHHHHHHHHHHHHHHHTTSCTTTHH
+T ss_pred             HHHHHHHHHHHHHHHHHHhCCCHHHHH
+
+
+No 30
+>d2x4ka1 d.80.1.0 (A:1-61) automated matches {Staphylococcus aureus [TaxId: 1280]}
+Probab=57.35  E-value=21  Score=19.59  Aligned_cols=19  Identities=16%  Similarity=0.181  Sum_probs=0.0  Template_Neff=10.700
+
+Q ss_pred             HHhHHHHHHHhcCCCHHHH
+Q FD01845428_045   20 HMKVCEIIAKELDVPVENI   38 (118)
+Q Consensus        20 hmkvceiiakeldvpveni   38 (118)
+                      ...+++++++.+++|.+.+
+T Consensus        22 ~~~l~~~l~~~~~~~~~~i   40 (61)
+T d2x4ka1          22 VSEVTDAVEKTTGANRQAI   40 (61)
+T ss_dssp             HHHHHHHHHHHHCCCGGGC
+T ss_pred             HHHHHHHHHHHHCCChhhE
+
+
+No 31
+>d3abfa_ d.80.1.0 (A:) automated matches {Thermus thermophilus HB8 [TaxId: 300852]}
+Probab=56.70  E-value=22  Score=19.95  Aligned_cols=18  Identities=22%  Similarity=0.462  Sum_probs=0.0  Template_Neff=10.500
+
+Q ss_pred             HhHHHHHHHhcCCCHHHH
+Q FD01845428_045   21 MKVCEIIAKELDVPVENI   38 (118)
+Q Consensus        21 mkvceiiakeldvpveni   38 (118)
+                      ..+++++++.+++|.++|
+T Consensus        22 ~~l~~~l~~~~~~~~~~i   39 (64)
+T d3abfa_          22 RRLTEMASRLLGEPYEEV   39 (64)
+T ss_dssp             HHHHHHHHHHTTCCGGGE
+T ss_pred             HHHHHHHHHHHCCCHHhE
+
+
+No 32
+>3W6B_B Lysozyme-like chitinolytic enzyme; GH family 23, enzyme, Glycoside hydrolase, chitinase, HYDROLASE; HET: GOL; 1.9A {Ralstonia}
+Probab=56.01  E-value=39  Score=23.66  Aligned_cols=43  Identities=7%  Similarity=-0.031  Sum_probs=0.0  Template_Neff=9.900
+
+Q ss_pred             HhchhhHHHHHHHHHhHHHHHHHhcCCC---HHHHHHHHHHHhhhc
+Q FD01845428_045    7 ACNNVGAVRFVQEHMKVCEIIAKELDVP---VENILGLAAAESQYG   49 (118)
+Q Consensus         7 acnnvgavrfvqehmkvceiiakeldvp---venilglaaaesqyg   49 (118)
+                      ++..-......++....+.-.++..++|   +..+++++..||.+.
+T Consensus        29 ~~~~~~~~~~~~~~~~~~~~~~~~~~i~~~~~~~l~ai~~~ES~~~   74 (183)
+T 3W6B_B           29 PTTVTKPAEVPSRIWTYVMNADNAYGKGGDFALLLSAVIKKESYFG   74 (183)
+T ss_dssp             --CCCCCTTSCHHHHHHHHHHHHHHTCTTHHHHHHHHHHHHHHTTT
+T ss_pred             CCCCCCccccCHHHHHHHHHHHHHHCCCcccHHHHHHHHHHHhhcC
+
+
+No 33
+>PF16175.7 ; DUF4875 ; Domain of unknown function (DUF4875)
+Probab=54.95  E-value=22  Score=26.19  Aligned_cols=20  Identities=15%  Similarity=0.119  Sum_probs=0.0  Template_Neff=6.700
+
+Q ss_pred             HHHhHHHHHHHhcCCCHHHH
+Q FD01845428_045   19 EHMKVCEIIAKELDVPVENI   38 (118)
+Q Consensus        19 ehmkvceiiakeldvpveni   38 (118)
+                      +..|.-+.|||.|++|+++|
+T Consensus       100 ~E~kl~~~IAkkl~i~~~~V  119 (120)
+T Q2SB25_HAHCH/5  100 YSEKLDEYVKSQLGHEPKYV  119 (120)
+T ss_pred             hhHHHHHHHHHHHCCCHHHC
+
+
+No 34
+>6GI4_B Endo-type membrane-bound lytic murein transglycosylase A; Lytic Transglycosylase, LYASE; 1.35A {Escherichia coli}
+Probab=54.20  E-value=1e+02  Score=20.95  Aligned_cols=38  Identities=18%  Similarity=0.134  Sum_probs=0.0  Template_Neff=10.900
+
+Q ss_pred             HHHHHHHHhHHHHHHHhcCCCHHHHHHHHHHHhhhccc
+Q FD01845428_045   14 VRFVQEHMKVCEIIAKELDVPVENILGLAAAESQYGTG   51 (118)
+Q Consensus        14 vrfvqehmkvceiiakeldvpvenilglaaaesqygtg   51 (118)
+                      .++..+...+.+.+++..+||...+.++...||.....
+T Consensus        16 ~~~~~~~~~~i~~~~~~~~v~~~ll~ai~~~es~~~~~   53 (194)
+T 6GI4_B           16 VQRAMQWMPISQKAGAAWGVDPQLITAIIAIESGGNPN   53 (194)
+T ss_dssp             HHHHHTTHHHHHHHHHHHTCCHHHHHHHHHHHTTTCTT
+T ss_pred             hHHHHHHHHHHHHHHHHHCCCHHHHHHHHHHHcCCCCC
+
+
+No 35
+>d3gxra_ d.2.1.5 (A:) automated matches {Atlantic cod (Gadus morhua) [TaxId: 8049]}
+Probab=54.19  E-value=84  Score=22.40  Aligned_cols=36  Identities=19%  Similarity=0.147  Sum_probs=0.0  Template_Neff=9.600
+
+Q ss_pred             HHHHHHHhHHHHHHHhcCCCHHHHHHHHHHHhhhcc
+Q FD01845428_045   15 RFVQEHMKVCEIIAKELDVPVENILGLAAAESQYGT   50 (118)
+Q Consensus        15 rfvqehmkvceiiakeldvpvenilglaaaesqygt   50 (118)
+                      ..+.+.....+..+++.+||.+-|..++..||.+|.
+T Consensus        39 ~~~~~~~~~~~~~a~~~~v~~~~l~ai~~~ES~~~~   74 (185)
+T d3gxra_          39 GRMEKYKSFINNVAKKHVVDPAVIAAIISRESRAGN   74 (185)
+T ss_dssp             HHHHTTHHHHHHHHHHHTCCHHHHHHHHHHHHTTTT
+T ss_pred             HHHHHHHHHHHHHHHHhCCCHHHHHHHHHHhcCCCC
+
+
+No 36
+>d4faza_ d.80.1.0 (A:) automated matches {Methylibium petroleiphilum [TaxId: 420662]}
+Probab=54.10  E-value=23  Score=19.93  Aligned_cols=17  Identities=29%  Similarity=0.558  Sum_probs=0.0  Template_Neff=10.300
+
+Q ss_pred             hHHHHHHHhcCCCHHHH
+Q FD01845428_045   22 KVCEIIAKELDVPVENI   38 (118)
+Q Consensus        22 kvceiiakeldvpveni   38 (118)
+                      .+++.+++.+++|.+++
+T Consensus        22 ~i~~~l~~~~~~~~~~i   38 (62)
+T d4faza_          22 KVTQAMMEAVGAPKENV   38 (62)
+T ss_dssp             HHHHHHHHHHCCCGGGC
+T ss_pred             HHHHHHHHHHCCCHHhE
+
+
+No 37
+>4G9S_A Goose-type lysozyme; hydrolase inhibitor, lysozyme, HYDROLASE-HYDROLASE INHIBITOR complex; HET: FLC; 0.95A {Salmo salar} SCOP: d.2.1.5, l.1.1.1
+Probab=54.06  E-value=91  Score=21.30  Aligned_cols=37  Identities=14%  Similarity=0.188  Sum_probs=0.0  Template_Neff=10.600
+
+Q ss_pred             HHHHHHHhHHHHHHHhcCCCHHHHHHHHHHHhhhccc
+Q FD01845428_045   15 RFVQEHMKVCEIIAKELDVPVENILGLAAAESQYGTG   51 (118)
+Q Consensus        15 rfvqehmkvceiiakeldvpvenilglaaaesqygtg   51 (118)
+                      +..++...+.+.+++..+||.+.+.+++..||..+.+
+T Consensus        45 ~~~~~~~~~~~~~a~~~gv~~~~~~ai~~~es~~~~~   81 (187)
+T 4G9S_A           45 VRMNKYKELITRVGQKHGLDPAIIAGIISRESRAGSA   81 (187)
+T ss_dssp             HHHHHHHHHHHHHHHHHTSCHHHHHHHHHHHHTTTTT
+T ss_pred             HHHHHHHHHHHHHHHHhCCCHHHHHHHHHHhccCCCC
+
+
+No 38
+>6UKC_A Lysozyme; Litopenaeus vannamei, lysozyme, Innate immunity, HYDROLASE; 2.25A {Penaeus vannamei} SCOP: d.2.1.0
+Probab=53.74  E-value=20  Score=24.91  Aligned_cols=45  Identities=20%  Similarity=0.339  Sum_probs=0.0  Template_Neff=9.100
+
+Q ss_pred             HHHhHHHHHHHhcCCCHHHH---HHHHHHHhhhcccchhhhccCeeee
+Q FD01845428_045   19 EHMKVCEIIAKELDVPVENI---LGLAAAESQYGTGRIAREYNNYFSL   63 (118)
+Q Consensus        19 ehmkvceiiakeldvpveni---lglaaaesqygtgriareynnyfsl   63 (118)
+                      +.-.+.+.++++.++|.+.+   +.+|-.||.+-++.+.+..+.....
+T Consensus         8 ~~Ce~~~~l~~~~~v~~~~l~~~~~ia~~ES~~~~~~~~~n~~g~~d~   55 (144)
+T 6UKC_A            8 GKCEFAELLKRDYYLSNDDIKNWVCIAEFESSFNTAAINRNRNRSTDY   55 (144)
+T ss_dssp             CHHHHHHHHHHHHCCCHHHHHHHHHHHHHHHTTBTTCEEECTTSCEEE
+T ss_pred             cHHHHHHHHHHhcCCChHhHHHhhheeEeccCCCccccccCCCCcCee
+
+
+No 39
+>d1qsaa2 d.2.1.6 (A:451-618) 70 kDa soluble lytic transglycosylase, SLT70 {Escherichia coli [TaxId: 562]}
+Probab=52.87  E-value=58  Score=22.30  Aligned_cols=31  Identities=13%  Similarity=0.224  Sum_probs=0.0  Template_Neff=10.100
+
+Q ss_pred             HHHhHHHHHHHhcCCCHHHHHHHHHHHhhhc
+Q FD01845428_045   19 EHMKVCEIIAKELDVPVENILGLAAAESQYG   49 (118)
+Q Consensus        19 ehmkvceiiakeldvpvenilglaaaesqyg   49 (118)
+                      +...+.+..+++.+||.+-|.+++..||.+.
+T Consensus         2 ~~~~~i~~~~~~~~i~~~ll~ai~~~ES~~~   32 (168)
+T d1qsaa2           2 AYNDLFKRYTSGKEIPQSYAMAIARQESAWN   32 (168)
+T ss_dssp             TTHHHHHHHHTTSSSCHHHHHHHHHHHHTTC
+T ss_pred             chHHHHHHHHhhcCCCHHHHHHHHHHHhcCC
+
+
+No 40
+>d4fdxa_ d.80.1.0 (A:) automated matches {Methylibium petroleiphilum [TaxId: 420662]}
+Probab=52.60  E-value=27  Score=19.68  Aligned_cols=17  Identities=24%  Similarity=0.524  Sum_probs=0.0  Template_Neff=10.200
+
+Q ss_pred             hHHHHHHHhcCCCHHHH
+Q FD01845428_045   22 KVCEIIAKELDVPVENI   38 (118)
+Q Consensus        22 kvceiiakeldvpveni   38 (118)
+                      .+++++++.+++|.+++
+T Consensus        22 ~l~~~l~~~~~~~~~~i   38 (61)
+T d4fdxa_          22 AITEAVVRTLDVRPDQV   38 (61)
+T ss_dssp             HHHHHHHHHHTCCGGGC
+T ss_pred             HHHHHHHHHhCCCHHHE
+
+
+No 41
+>4FDY_A Similar to lipoprotein, NLP/P60 family; Slt/lysozyme-like muramidase, NlpC/P60 LD endopeptidase, Structural Genomics, Joint Center for Structural Genomics, JCSG, Protein Structure Initiative; HET: MSE, OCS; 2.23A {Staphylococcus aureus subsp. aureus}
+Probab=51.68  E-value=64  Score=23.21  Aligned_cols=34  Identities=26%  Similarity=0.234  Sum_probs=0.0  Template_Neff=11.300
+
+Q ss_pred             HHHHHhHHHHHHHhcCCCH--HHHHHHHHHHhhhcc
+Q FD01845428_045   17 VQEHMKVCEIIAKELDVPV--ENILGLAAAESQYGT   50 (118)
+Q Consensus        17 vqehmkvceiiakeldvpv--enilglaaaesqygt   50 (118)
+                      +++.....+..|++.+||.  +.+++++..||.+..
+T Consensus        26 ~~~~~~~i~~~~~~~~v~~~~~~~~ai~~~Es~~~~   61 (313)
+T 4FDY_A           26 VLAHRPLIEKYGKEYGIEDYVSYILAIMQVESGGTA   61 (313)
+T ss_dssp             HHTTHHHHHHHHHHTTCGGGHHHHHHHHHHHTTTCS
+T ss_pred             HHhcHHHHHHHHHHhCChHHHHHHHHHHHHHcCCCC
+
+
+No 42
+>1GBS_A AUSTRALIAN BLACK SWAN EGG WHITE LYSOZYME; HYDROLASE (O-GLYCOSYL); 1.5A {Cygnus atratus} SCOP: d.2.1.5
+Probab=50.68  E-value=1.2e+02  Score=20.16  Aligned_cols=37  Identities=19%  Similarity=0.242  Sum_probs=0.0  Template_Neff=11.200
+
+Q ss_pred             HHHHHHHhHHHHHHHhcCCCHHHHHHHHHHHhhhccc
+Q FD01845428_045   15 RFVQEHMKVCEIIAKELDVPVENILGLAAAESQYGTG   51 (118)
+Q Consensus        15 rfvqehmkvceiiakeldvpvenilglaaaesqygtg   51 (118)
+                      ...++++.+.+-.++..+||.+.+.+++..||..+..
+T Consensus        43 ~~~~~~~~~~~~~~~~~gv~~~~~~a~~~~es~~~~~   79 (185)
+T 1GBS_A           43 KAMDRYKTIIKKVGEKLCVEPAVIAGIISRESHAGKV   79 (185)
+T ss_dssp             HHHHTSHHHHHHHHHHHTCCHHHHHHHHHHHHGGGTT
+T ss_pred             HHHHHHHHHHHHHHHHHCCCHHHHHHHHHHhccCCcc
+
+
+No 43
+>d3cb7a1 d.2.1.0 (A:5-126) automated matches {House fly (Musca domestica) [TaxId: 7370]}
+Probab=49.94  E-value=51  Score=23.16  Aligned_cols=27  Identities=33%  Similarity=0.589  Sum_probs=0.0  Template_Neff=8.200
+
+Q ss_pred             HHHH--HHhcCCCHHHH---HHHHHHHhhhcc
+Q FD01845428_045   24 CEII--AKELDVPVENI---LGLAAAESQYGT   50 (118)
+Q Consensus        24 ceii--akeldvpveni---lglaaaesqygt   50 (118)
+                      ||++  +++.+||...|   +.+|..||.+-+
+T Consensus         6 cev~~~~~~~~v~~~~l~~~~~ia~~ES~~~~   37 (122)
+T d3cb7a1           6 CSLAREMYKLGVPKNQLARWTCIAEHESSYNT   37 (122)
+T ss_dssp             HHHHHHHHHTTCCGGGHHHHHHHHHHHHSSBT
+T ss_pred             HHHHHHHHHhCCCHHHHHHHHHHHHhhcCCCc
+
+
+No 44
+>d6blma1 d.80.1.0 (A:2-66) automated matches {Burkholderia lata [TaxId: 482957]}
+Probab=49.59  E-value=32  Score=19.95  Aligned_cols=17  Identities=12%  Similarity=0.470  Sum_probs=0.0  Template_Neff=9.900
+
+Q ss_pred             hHHHHHHHhcCCCHHHH
+Q FD01845428_045   22 KVCEIIAKELDVPVENI   38 (118)
+Q Consensus        22 kvceiiakeldvpveni   38 (118)
+                      .+++++.+.+++|.+++
+T Consensus        22 ~i~~~l~~~l~v~~~~i   38 (65)
+T d6blma1          22 RLTGATVDSIGAPIESV   38 (65)
+T ss_dssp             HHHHHHHHHHCCCGGGC
+T ss_pred             HHHHHHHHHHCCCHHhe
+
+
+No 45
+>3M20_B 4-oxalocrotonate tautomerase, putative; 4-oxalocrotonate tautomerase, Archaeoglobus fulgidus, DmpI, thermophile, beta-alpha-beta, catalytic proline, ISOMERASE; 2.37A {Archaeoglobus fulgidus}
+Probab=48.38  E-value=31  Score=18.69  Aligned_cols=17  Identities=12%  Similarity=0.204  Sum_probs=0.0  Template_Neff=11.000
+
+Q ss_pred             hHHHHHHHhcCCCHHHH
+Q FD01845428_045   22 KVCEIIAKELDVPVENI   38 (118)
+Q Consensus        22 kvceiiakeldvpveni   38 (118)
+                      .+++.+++.+++|.+++
+T Consensus        21 ~i~~~~~~~~~~~~~~v   37 (62)
+T 3M20_B           21 RLTSVAAEIYGMDRSAI   37 (62)
+T ss_dssp             HHHHHHHHHHSSCSSSC
+T ss_pred             HHHHHHHHHHCCChhhE
+
+
+No 46
+>3M20_C 4-oxalocrotonate tautomerase, putative; 4-oxalocrotonate tautomerase, Archaeoglobus fulgidus, DmpI, thermophile, beta-alpha-beta, catalytic proline, ISOMERASE; 2.37A {Archaeoglobus fulgidus}
+Probab=48.38  E-value=31  Score=18.69  Aligned_cols=17  Identities=12%  Similarity=0.204  Sum_probs=0.0  Template_Neff=11.000
+
+Q ss_pred             hHHHHHHHhcCCCHHHH
+Q FD01845428_045   22 KVCEIIAKELDVPVENI   38 (118)
+Q Consensus        22 kvceiiakeldvpveni   38 (118)
+                      .+++.+++.+++|.+++
+T Consensus        21 ~i~~~~~~~~~~~~~~v   37 (62)
+T 3M20_C           21 RLTSVAAEIYGMDRSAI   37 (62)
+T ss_dssp             HHHHHHHHHTTCCGGGC
+T ss_pred             HHHHHHHHHHCCChhhE
+
+
+No 47
+>d2wkfa_ d.80.1.0 (A:) automated matches {Plasmodium falciparum [TaxId: 36329]}
+Probab=47.83  E-value=24  Score=21.82  Aligned_cols=17  Identities=18%  Similarity=0.485  Sum_probs=0.0  Template_Neff=10.300
+
+Q ss_pred             hHHHHHHHhcCCCHHHH
+Q FD01845428_045   22 KVCEIIAKELDVPVENI   38 (118)
+Q Consensus        22 kvceiiakeldvpveni   38 (118)
+                      ++++.++++|++|.++|
+T Consensus        79 ~i~~~l~~~l~i~~~~i   95 (101)
+T d2wkfa_          79 QITKLLVSNLNVKSRRI   95 (101)
+T ss_dssp             HHHHHHHHHHCCCGGGE
+T ss_pred             HHHHHHHHHhCCChheE
+
+
+No 48
+>d5cloc_ d.80.1.1 (C:) 4-oxalocrotonate tautomerase {Pseudomonas putida, XylH [TaxId: 303]}
+Probab=47.58  E-value=33  Score=18.46  Aligned_cols=17  Identities=35%  Similarity=0.737  Sum_probs=0.0  Template_Neff=10.600
+
+Q ss_pred             hHHHHHHHhcCCCHHHH
+Q FD01845428_045   22 KVCEIIAKELDVPVENI   38 (118)
+Q Consensus        22 kvceiiakeldvpveni   38 (118)
+                      .+++++++.+++|.+++
+T Consensus        22 ~i~~~~~~~~~~~~~~i   38 (54)
+T d5cloc_          22 EVSEAISRSLDAPLTSV   38 (54)
+T ss_dssp             HHHHHHHHHHTCCGGGC
+T ss_pred             HHHHHHHHHhCCChhce
+
+
+No 49
+>d6blma2 d.80.1.0 (A:67-128) automated matches {Burkholderia lata [TaxId: 482957]}
+Probab=45.95  E-value=40  Score=19.06  Aligned_cols=18  Identities=28%  Similarity=0.401  Sum_probs=0.0  Template_Neff=10.200
+
+Q ss_pred             HhHHHHHHHhcCCCHHHH
+Q FD01845428_045   21 MKVCEIIAKELDVPVENI   38 (118)
+Q Consensus        21 mkvceiiakeldvpveni   38 (118)
+                      ..+++.+++.|++|.+++
+T Consensus        21 ~~i~~~~~~~l~~~~~~v   38 (62)
+T d6blma2          21 AALSETSASVLDAPLQAT   38 (62)
+T ss_dssp             HHHHHHHHHHHTCCGGGC
+T ss_pred             HHHHHHHHHHhCCChHhE
+
+
+No 50
+>d4htla1 c.55.1.0 (A:1-119) automated matches {Listeria monocytogenes [TaxId: 169963]}
+Probab=45.46  E-value=69  Score=19.68  Aligned_cols=31  Identities=26%  Similarity=0.336  Sum_probs=0.0  Template_Neff=11.100
+
+Q ss_pred             hHHHHHHHhcCCCH---HHHHHHHHHHhhhcccc
+Q FD01845428_045   22 KVCEIIAKELDVPV---ENILGLAAAESQYGTGR   52 (118)
+Q Consensus        22 kvceiiakeldvpv---enilglaaaesqygtgr   52 (118)
+                      .+.+.+.+.+++|+   .++...|.+|..+|.++
+T Consensus        85 ~~~~~l~~~~~~~v~~~nd~~a~a~ae~~~~~~~  118 (119)
+T d4htla1          85 NLKEWLEAETGLPVAIENDANCALLAEKWLGKGQ  118 (119)
+T ss_dssp             EHHHHHHHHHCSCEEEEEHHHHHHHHHHHHSTTT
+T ss_pred             cHHHHHHHHHCCCEEEEccHHHHHHHHHHhCCCC
+
+
+No 51
+>d1ldna2 d.162.1.1 (A:163-330) Lactate dehydrogenase {Bacillus stearothermophilus [TaxId: 1422]}
+Probab=45.43  E-value=51  Score=22.95  Aligned_cols=20  Identities=10%  Similarity=0.268  Sum_probs=0.0  Template_Neff=9.700
+
+Q ss_pred             HHHhHHHHHHHhcCCCHHHH
+Q FD01845428_045   19 EHMKVCEIIAKELDVPVENI   38 (118)
+Q Consensus        19 ehmkvceiiakeldvpveni   38 (118)
+                      ++++....+|++|+++++++
+T Consensus         4 d~~R~~~~la~~l~v~~~~v   23 (168)
+T d1ldna2           4 DTARFRFLLGEYFSVAPQNV   23 (168)
+T ss_dssp             HHHHHHHHHHHHHTSCGGGE
+T ss_pred             HHHHHHHHHHHHhCCCHHhc
+
+
+No 52
+>PF08299.13 ; Bac_DnaA_C ; Bacterial dnaA protein helix-turn-helix
+Probab=44.37  E-value=51  Score=18.86  Aligned_cols=20  Identities=15%  Similarity=0.210  Sum_probs=0.0  Template_Neff=10.400
+
+Q ss_pred             HhHHHHHHHhcCCCHHHHHH
+Q FD01845428_045   21 MKVCEIIAKELDVPVENILG   40 (118)
+Q Consensus        21 mkvceiiakeldvpvenilg   40 (118)
+                      .++.+.+++..+++.+.+.+
+T Consensus         2 ~~i~~~v~~~~~i~~~~l~~   21 (69)
+T C6XRU6_HIRBI/4    2 DTIKDVVAKYYGVTKADLDS   21 (69)
+T ss_pred             hHHHHHHHHHHCCCHHHHcC
+
+
+No 53
+>d1otfa_ d.80.1.1 (A:) 4-oxalocrotonate tautomerase {Pseudomonas sp., DmpI [TaxId: 306]}
+Probab=44.12  E-value=46  Score=18.45  Aligned_cols=17  Identities=41%  Similarity=0.763  Sum_probs=0.0  Template_Neff=10.400
+
+Q ss_pred             hHHHHHHHhcCCCHHHH
+Q FD01845428_045   22 KVCEIIAKELDVPVENI   38 (118)
+Q Consensus        22 kvceiiakeldvpveni   38 (118)
+                      .+++++++.+++|.+++
+T Consensus        22 ~i~~~l~~~~~~~~~~i   38 (59)
+T d1otfa_          22 QVSEAMANSLDAPLERV   38 (59)
+T ss_dssp             HHHHHHHHHHTCCGGGC
+T ss_pred             HHHHHHHHhcCCCHHHE
+
+
+No 54
+>d4g9sa1 d.2.1.5 (A:7-185) automated matches {Atlantic salmon (Salmo salar) [TaxId: 8030]}
+Probab=42.86  E-value=2e+02  Score=20.24  Aligned_cols=40  Identities=13%  Similarity=0.175  Sum_probs=0.0  Template_Neff=9.900
+
+Q ss_pred             hHHHHHHHHHhHHHHHHHhcCCCHHHHHHHHHHHhhhccc
+Q FD01845428_045   12 GAVRFVQEHMKVCEIIAKELDVPVENILGLAAAESQYGTG   51 (118)
+Q Consensus        12 gavrfvqehmkvceiiakeldvpvenilglaaaesqygtg   51 (118)
+                      ....+.+++.....-.++..+||..-+.+++..||.+...
+T Consensus        34 ~~~~~~~~~~~~i~~~a~~~~i~~~~l~ai~~~ES~~~~~   73 (179)
+T d4g9sa1          34 HDLVRMNKYKELITRVGQKHGLDPAIIAGIISRESRAGSA   73 (179)
+T ss_dssp             HTHHHHHHHHHHHHHHHHHHTSCHHHHHHHHHHHHTTTTT
+T ss_pred             HhHHhHHHHHHHHHHHHHHcCCCHHHHHHHHHHHhcCCCc
+
+
+No 55
+>5O29_A Transglycosylase; lytic transglycosylases, acid/base catalysis, peptidoglycan, bacteria, hydrolase; 1.3785A {Neisseria meningitidis}
+Probab=42.60  E-value=1.3e+02  Score=24.38  Aligned_cols=51  Identities=24%  Similarity=0.311  Sum_probs=0.0  Template_Neff=11.000
+
+Q ss_pred             CCchhHHh--------chhhHHHHHHHHHhHHHHHHHhcCCCHHHHHHHHHHHhhhccc
+Q FD01845428_045    1 MGNYDKAC--------NNVGAVRFVQEHMKVCEIIAKELDVPVENILGLAAAESQYGTG   51 (118)
+Q Consensus         1 mgnydkac--------nnvgavrfvqehmkvceiiakeldvpvenilglaaaesqygtg   51 (118)
+                      +|+|+.|-        .+.-..||.+.+....+..++..+||.+-+.++.-.||.+...
+T Consensus       409 ~g~~~~Ai~~~~~~~~~~~~~~~~~~~~~~~~~~~a~~~~i~~~~~~ai~~~es~~~~~  467 (596)
+T 5O29_A          409 HGFYDMAVNSAERTDRKLNYTLRYISPFKDTVIRHAQNVNVDPAWVYGLIRQESRFVIG  467 (596)
+T ss_dssp             TTCHHHHHHHHHTCSSSCCHHHHTCCCCHHHHHHHHHHTTCCHHHHHHHHHHHHTTCTT
+T ss_pred             CCCHHHHHHHHhhccchhcchhhcchhcHHHHHHHHHHhCCCHHHHHHHHHHHcCCCCC
+
+
+No 56
+>d3bp8a2 c.55.1.10 (A:82-210) Mlc protein {Escherichia coli [TaxId: 562]}
+Probab=42.14  E-value=49  Score=20.91  Aligned_cols=31  Identities=29%  Similarity=0.506  Sum_probs=0.0  Template_Neff=10.800
+
+Q ss_pred             hHHHHHHHhcCCCH---HHHHHHHHHHhhhcccc
+Q FD01845428_045   22 KVCEIIAKELDVPV---ENILGLAAAESQYGTGR   52 (118)
+Q Consensus        22 kvceiiakeldvpv---enilglaaaesqygtgr   52 (118)
+                      .+.+.+.+.+++|+   .+.-..+-+|..+|++|
+T Consensus        96 ~~~~~l~~~~~~pv~~~nd~~~~a~~e~~~~~~~  129 (129)
+T d3bp8a2          96 PLGEALEQHTGVPVYIQHDISAWTMAEALFGASR  129 (129)
+T ss_dssp             CTTTHHHHTTCSCEEEEEHHHHHHHHHHHSSTTT
+T ss_pred             CHHHHHHHHHCCCEEEeCCccHHHHHHHHhcCCC
+
+
+No 57
+>d1gbsa_ d.2.1.5 (A:) Lysozyme {Australian black swan (Cygnus atratus) [TaxId: 8868]}
+Probab=41.07  E-value=2e+02  Score=20.40  Aligned_cols=39  Identities=18%  Similarity=0.243  Sum_probs=0.0  Template_Neff=9.800
+
+Q ss_pred             HHHHHHHHHhHHHHHHHhcCCCHHHHHHHHHHHhhhccc
+Q FD01845428_045   13 AVRFVQEHMKVCEIIAKELDVPVENILGLAAAESQYGTG   51 (118)
+Q Consensus        13 avrfvqehmkvceiiakeldvpvenilglaaaesqygtg   51 (118)
+                      .....++-....+..|++.++|.+-|.+++..||.++..
+T Consensus        41 ~~~~~~~~~~~i~~~a~~~~i~~~~i~ai~~~ES~~~~~   79 (185)
+T d1gbsa_          41 DLKAMDRYKTIIKKVGEKLCVEPAVIAGIISRESHAGKV   79 (185)
+T ss_dssp             HHHHHHTSHHHHHHHHHHHTCCHHHHHHHHHHHHGGGTT
+T ss_pred             hHHHHHHHHHHHHHHHHHHCCCHHHHHHHHHHHcCCCCc
+
+
+No 58
+>d3ej9a_ d.80.1.1 (A:) automated matches {Pseudomonas pavonaceae [TaxId: 47881]}
+Probab=40.47  E-value=48  Score=18.66  Aligned_cols=17  Identities=29%  Similarity=0.450  Sum_probs=0.0  Template_Neff=10.300
+
+Q ss_pred             hHHHHHHHhcCCCHHHH
+Q FD01845428_045   22 KVCEIIAKELDVPVENI   38 (118)
+Q Consensus        22 kvceiiakeldvpveni   38 (118)
+                      .+++++++.|++|.+++
+T Consensus        22 ~i~~~l~~~l~~~~~~i   38 (62)
+T d3ej9a_          22 GLLRVISEATGEPRENI   38 (62)
+T ss_dssp             HHHHHHHHHHCCCGGGC
+T ss_pred             HHHHHHHHHHCCChhhE
+
+
+No 59
+>PF17864.3 ; AAA_lid_4 ; RuvB AAA lid domain
+Probab=40.06  E-value=89  Score=20.47  Aligned_cols=38  Identities=26%  Similarity=0.318  Sum_probs=0.0  Template_Neff=7.800
+
+Q ss_pred             HHHHHhHHHHHHHhcCCCHHHHHHHHHHHhhhcccchh
+Q FD01845428_045   17 VQEHMKVCEIIAKELDVPVENILGLAAAESQYGTGRIA   54 (118)
+Q Consensus        17 vqehmkvceiiakeldvpvenilglaaaesqygtgria   54 (118)
+                      .+|-.++...-|+.+++++++-....-|..--||-|||
+T Consensus         3 ~~el~~Iv~~~a~~~~~~i~~~~~~~IA~~srgtPRia   40 (74)
+T A0A174J5W1_9AC    3 VEELAQIVTRSATILGVTIDHPSALEIGSRSRGTPRLA   40 (74)
+T ss_pred             HHHHHHHHHHHHHHhCCCCCchHHHHHHHhCCCCHHHH
+
+
+No 60
+>PF01434.20 ; Peptidase_M41 ; Peptidase family M41
+Probab=39.98  E-value=70  Score=21.18  Aligned_cols=19  Identities=21%  Similarity=0.343  Sum_probs=0.0  Template_Neff=11.200
+
+Q ss_pred             HHHHHHHHHhHHHHHHHhc
+Q FD01845428_045   13 AVRFVQEHMKVCEIIAKEL   31 (118)
+Q Consensus        13 avrfvqehmkvceiiakel   31 (118)
+                      +.+++++|.+.++.||++|
+T Consensus       155 ~~~ll~~~~~~i~~la~~L  173 (185)
+T FTSH_MYCPN/477  155 ARTIIKTNRKELELLVEAL  173 (185)
+T ss_pred             HHHHHHHCHHHHHHHHHHH
+
+
+No 61
+>PF11694.10 ; DUF3290 ; Protein of unknown function (DUF3290)
+Probab=39.78  E-value=58  Score=25.28  Aligned_cols=51  Identities=16%  Similarity=0.233  Sum_probs=0.0  Template_Neff=6.000
+
+Q ss_pred             HHHHhHHHHHHHhcCCCHHHHHHHHHHHhhhcccchhhhccCeeeeecCccccC
+Q FD01845428_045   18 QEHMKVCEIIAKELDVPVENILGLAAAESQYGTGRIAREYNNYFSLQAPASFQS   71 (118)
+Q Consensus        18 qehmkvceiiakeldvpvenilglaaaesqygtgriareynnyfslqapasfqs   71 (118)
+                      ++-....+-+||+++||+++|   ..-..+-..|-|-+--+.|+.+...+.++|
+T Consensus        79 ~q~~~fi~~vAk~~~V~~~~I---~vNst~l~dgmiikv~~~yY~v~~n~d~~s  129 (142)
+T J9W4W9_LACBU/2   79 GQITQTVKQIAKRLHVGTKSV---SINSTTQNANLMAKTPSGYYRVDYNADGSQ  129 (142)
+T ss_pred             HHHHHHHHHHHHHcCCCHhhe---EeecCccCCCcEEECCCCeEEEEEcCCCCe
+
+
+No 62
+>6IWJ_B Archeal Protein MK0293; Complex, Domain-swapping, Archea, Protein design, UNKNOWN FUNCTION; NMR {Methanopyrus kandleri AV19}
+Probab=39.67  E-value=1.2e+02  Score=22.13  Aligned_cols=33  Identities=21%  Similarity=0.371  Sum_probs=0.0  Template_Neff=6.400
+
+Q ss_pred             HHHHHHhcCCCHHHHHHHHHHHhhhcccchhhh
+Q FD01845428_045   24 CEIIAKELDVPVENILGLAAAESQYGTGRIARE   56 (118)
+Q Consensus        24 ceiiakeldvpvenilglaaaesqygtgriare   56 (118)
+                      |..||++.++|+..+...+.++-.-+......|
+T Consensus        62 l~~iA~~~gipl~ev~~~v~~~~~~~~~~~~~~   94 (102)
+T 6IWJ_B           62 CREIGEETGIPPREVKAMVEAAARVGGWVDLKE   94 (102)
+T ss_dssp             HHHHHHHHTSCHHHHHHHHHHHHHHCCEEETTT
+T ss_pred             HHHHHHHHCCCHHHHHHHHHHHHHcCCCCcccc
+
+
+No 63
+>d4m1qa2 d.162.1.0 (A:145-314) automated matches {Bacillus selenitireducens [TaxId: 439292]}
+Probab=38.78  E-value=61  Score=22.56  Aligned_cols=20  Identities=20%  Similarity=0.406  Sum_probs=0.0  Template_Neff=9.800
+
+Q ss_pred             HHHhHHHHHHHhcCCCHHHH
+Q FD01845428_045   19 EHMKVCEIIAKELDVPVENI   38 (118)
+Q Consensus        19 ehmkvceiiakeldvpveni   38 (118)
+                      ++++....||+.|+|+++++
+T Consensus         6 ds~R~~~~la~~l~v~~~~v   25 (170)
+T d4m1qa2           6 DTARFRFLLSEYFDIDVRNI   25 (170)
+T ss_dssp             HHHHHHHHHHHHHTSCGGGE
+T ss_pred             HHHHHHHHHHHHhCCChhce
+
+
+No 64
+>6VVW_C Tautomerase; symmetric, fused, 4-oxalocrotonate tautomerase, ISOMERASE; 2.1A {Advenella mimigardefordensis DPN7}
+Probab=38.59  E-value=70  Score=20.21  Aligned_cols=18  Identities=22%  Similarity=0.226  Sum_probs=0.0  Template_Neff=10.800
+
+Q ss_pred             HhHHHHHHHhcCCCHHHH
+Q FD01845428_045   21 MKVCEIIAKELDVPVENI   38 (118)
+Q Consensus        21 mkvceiiakeldvpveni   38 (118)
+                      ..+++.+++.+++|.++|
+T Consensus        82 ~~i~~~~~~~~~~~~~~i   99 (128)
+T 6VVW_C           82 AAINKTAVTTLDVSDSCI   99 (128)
+T ss_dssp             HHHHHHHHHHTTCCTTSE
+T ss_pred             HHHHHHHHHhcCCCHHHe
+
+
+No 65
+>6VVW_D Tautomerase; symmetric, fused, 4-oxalocrotonate tautomerase, ISOMERASE; 2.1A {Advenella mimigardefordensis DPN7}
+Probab=38.59  E-value=70  Score=20.21  Aligned_cols=18  Identities=22%  Similarity=0.226  Sum_probs=0.0  Template_Neff=10.800
+
+Q ss_pred             HhHHHHHHHhcCCCHHHH
+Q FD01845428_045   21 MKVCEIIAKELDVPVENI   38 (118)
+Q Consensus        21 mkvceiiakeldvpveni   38 (118)
+                      ..+++.+++.+++|.++|
+T Consensus        82 ~~i~~~~~~~~~~~~~~i   99 (128)
+T 6VVW_D           82 AAINKTAVTTLDVSDSCI   99 (128)
+T ss_dssp             HHHHHHHHHHTCCCTTCE
+T ss_pred             HHHHHHHHHhcCCCHHHe
+
+
+No 66
+>d3fiqa_ b.60.1.0 (A:) automated matches {Norway rat (Rattus norvegicus) [TaxId: 10116]}
+Probab=38.34  E-value=72  Score=21.16  Aligned_cols=22  Identities=23%  Similarity=0.359  Sum_probs=0.0  Template_Neff=10.500
+
+Q ss_pred             HHHHhHHHHHHHhcCCCHHHHH
+Q FD01845428_045   18 QEHMKVCEIIAKELDVPVENIL   39 (118)
+Q Consensus        18 qehmkvceiiakeldvpvenil   39 (118)
+                      +|+++..+-.++.+++|.++|.
+T Consensus       123 ~~~~~~~~~~~~~~g~~~~~i~  144 (154)
+T d3fiqa_         123 KAQKQELRKLAEEYNIPNENTQ  144 (154)
+T ss_dssp             HHHHHHHHHHHHHTTCCGGGCE
+T ss_pred             HHHHHHHHHHHHHcCCChhhee
+
+
+No 67
+>d3ej9b_ d.80.1.1 (B:) automated matches {Pseudomonas pavonaceae [TaxId: 47881]}
+Probab=38.22  E-value=54  Score=18.08  Aligned_cols=17  Identities=18%  Similarity=0.255  Sum_probs=0.0  Template_Neff=10.500
+
+Q ss_pred             hHHHHHHHhcCCCHHHH
+Q FD01845428_045   22 KVCEIIAKELDVPVENI   38 (118)
+Q Consensus        22 kvceiiakeldvpveni   38 (118)
+                      .+++.+++.+++|.+++
+T Consensus        22 ~i~~~~~~~~~~~~~~i   38 (59)
+T d3ej9b_          22 DVIDVTNKSIGSDPKII   38 (59)
+T ss_dssp             HHHHHHHHHHCCCGGGC
+T ss_pred             HHHHHHHHHhCCChhhE
+
+
+No 68
+>4HPE_C Putative cell wall hydrolase Tn916-like,CTn1-Orf17; Two domains protein, Slt/lysozyme-like muramidase, NlpC/P60 LD endopeptidase, Structural Genomics, Joint Center for Structural Genomics, JCSG; HET: OCS, GOL, MSE; 2.38A {Clostridium difficile}
+Probab=38.12  E-value=1.5e+02  Score=21.44  Aligned_cols=34  Identities=24%  Similarity=0.251  Sum_probs=0.0  Template_Neff=11.300
+
+Q ss_pred             HHHHHhHHHHHHHhcCCCH--HHHHHHHHHHhhhcc
+Q FD01845428_045   17 VQEHMKVCEIIAKELDVPV--ENILGLAAAESQYGT   50 (118)
+Q Consensus        17 vqehmkvceiiakeldvpv--enilglaaaesqygt   50 (118)
+                      +.+.....+-++++.+||.  .-+++++..||..+.
+T Consensus        24 ~~~~~~~~~~~~~~~~v~~~~~~~~ai~~~Es~~~~   59 (308)
+T 4HPE_C           24 VLKHQPMVEKYARENGISEYVNVLLAIIQVESGGTA   59 (308)
+T ss_dssp             HHTTHHHHHHHHHHTTCGGGHHHHHHHHHHHHTTCS
+T ss_pred             HHhcHHHHHHHHHHcCChHHHHHHHHHHHHHcCCCC
+
+
+No 69
+>4HPE_D Putative cell wall hydrolase Tn916-like,CTn1-Orf17; Two domains protein, Slt/lysozyme-like muramidase, NlpC/P60 LD endopeptidase, Structural Genomics, Joint Center for Structural Genomics, JCSG; HET: MSE, OCS, GOL; 2.38A {Clostridium difficile}
+Probab=38.12  E-value=1.5e+02  Score=21.44  Aligned_cols=34  Identities=24%  Similarity=0.251  Sum_probs=0.0  Template_Neff=11.300
+
+Q ss_pred             HHHHHhHHHHHHHhcCCCH--HHHHHHHHHHhhhcc
+Q FD01845428_045   17 VQEHMKVCEIIAKELDVPV--ENILGLAAAESQYGT   50 (118)
+Q Consensus        17 vqehmkvceiiakeldvpv--enilglaaaesqygt   50 (118)
+                      +.+.....+-++++.+||.  .-+++++..||..+.
+T Consensus        24 ~~~~~~~~~~~~~~~~v~~~~~~~~ai~~~Es~~~~   59 (308)
+T 4HPE_D           24 VLKHQPMVEKYARENGISEYVNVLLAIIQVESGGTA   59 (308)
+T ss_dssp             HHTTHHHHHHHHHHTTCGGGHHHHHHHHHHHHTTCS
+T ss_pred             HHhcHHHHHHHHHHcCChHHHHHHHHHHHHHcCCCC
+
+
+No 70
+>PF14823.8 ; Sirohm_synth_C ; Sirohaem biosynthesis protein C-terminal
+Probab=38.03  E-value=44  Score=22.03  Aligned_cols=13  Identities=38%  Similarity=0.613  Sum_probs=0.0  Template_Neff=7.200
+
+Q ss_pred             chhHHhchhhHHH
+Q FD01845428_045    3 NYDKACNNVGAVR   15 (118)
+Q Consensus         3 nydkacnnvgavr   15 (118)
+                      |..+||.|||.+|
+T Consensus         3 ~~g~av~~vG~LR   15 (68)
+T M2NBX3_BAUPA/1    3 NIGEAIKKVGVLR   15 (68)
+T ss_pred             cHHHHHHHHHHHH
+
+
+No 71
+>d2v6ba2 d.162.1.0 (A:165-324) automated matches {Deinococcus radiodurans [TaxId: 1299]}
+Probab=38.03  E-value=79  Score=21.75  Aligned_cols=20  Identities=10%  Similarity=0.185  Sum_probs=0.0  Template_Neff=9.800
+
+Q ss_pred             HHHhHHHHHHHhcCCCHHHH
+Q FD01845428_045   19 EHMKVCEIIAKELDVPVENI   38 (118)
+Q Consensus        19 ehmkvceiiakeldvpveni   38 (118)
+                      +++....+||+.|+++.++|
+T Consensus         4 D~~R~~~~ia~~l~v~~~~v   23 (158)
+T d2v6ba2           4 DSARFRHLMAQHAGVDGTHA   23 (158)
+T ss_dssp             HHHHHHHHHHHHHTSCGGGE
+T ss_pred             HHHHHHHHHHHHHCCCHhhc
+
+
+No 72
+>d1yt3a2 a.60.8.3 (A:295-375) Ribonuclease D {Escherichia coli [TaxId: 562]}
+Probab=36.98  E-value=2.1e+02  Score=18.33  Aligned_cols=32  Identities=3%  Similarity=0.031  Sum_probs=0.0  Template_Neff=8.800
+
+Q ss_pred             HHHHHHHhHHHHHHHhcCCCHHHHHHHHHHHh
+Q FD01845428_045   15 RFVQEHMKVCEIIAKELDVPVENILGLAAAES   46 (118)
+Q Consensus        15 rfvqehmkvceiiakeldvpvenilglaaaes   46 (118)
+                      ..+..=..+++.+|++++||.+-|..-...++
+T Consensus        11 ~~~~~L~~~~~~~A~~~~I~p~ll~~~~~l~~   42 (81)
+T d1yt3a2          11 KAFKAIKSLITDVSETHKISAELLASRRQINQ   42 (81)
+T ss_dssp             HHHHHHHHHHHHHHHHHTCCHHHHCCHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHhCCCHHHHCCHHHHHH
+
+
+No 73
+>d1y7ta2 d.162.1.1 (A:154-332) Malate dehydrogenase {Thermus thermophilus [TaxId: 274]}
+Probab=36.95  E-value=99  Score=21.63  Aligned_cols=22  Identities=23%  Similarity=0.277  Sum_probs=0.0  Template_Neff=9.800
+
+Q ss_pred             HHHHHhHHHHHHHhcCCCHHHH
+Q FD01845428_045   17 VQEHMKVCEIIAKELDVPVENI   38 (118)
+Q Consensus        17 vqehmkvceiiakeldvpveni   38 (118)
+                      ..+.++...+||+.|+|++.++
+T Consensus         3 ~ld~~R~~~~la~~l~v~~~~V   24 (173)
+T d1y7ta2           3 RLDHNRAKAQLAKKTGTGVDRI   24 (173)
+T ss_dssp             HHHHHHHHHHHHHHHTCCGGGE
+T ss_pred             hHHHHHHHHHHHHHHCCCHHHc
+
+
+No 74
+>d4odda_ b.60.1.0 (A:) automated matches {Canis lupus [TaxId: 9615]}
+Probab=36.58  E-value=78  Score=20.98  Aligned_cols=22  Identities=27%  Similarity=0.540  Sum_probs=0.0  Template_Neff=10.400
+
+Q ss_pred             HHHHhHHHHHHHhcCCCHHHHH
+Q FD01845428_045   18 QEHMKVCEIIAKELDVPVENIL   39 (118)
+Q Consensus        18 qehmkvceiiakeldvpvenil   39 (118)
+                      .|.++-.+-+++.+|+|.+||+
+T Consensus       117 ~~~~~~f~~~~~~~g~~~~~i~  138 (149)
+T d4odda_         117 EEDIAKFKKLSREKGIPEENII  138 (149)
+T ss_dssp             HHHHHHHHHHHHHTTCCGGGEE
+T ss_pred             HHHHHHHHHHHHHhCCCHHHee
+
+
+No 75
+>d1juga_ d.2.1.2 (A:) Lysozyme {Australian echidna (Tachyglossus aculeatus) [TaxId: 9261]}
+Probab=36.55  E-value=1.4e+02  Score=20.97  Aligned_cols=32  Identities=22%  Similarity=0.363  Sum_probs=0.0  Template_Neff=8.500
+
+Q ss_pred             hHHHHHHHh-----cCCCHHHHHHHHHHHhhhcccch
+Q FD01845428_045   22 KVCEIIAKE-----LDVPVENILGLAAAESQYGTGRI   53 (118)
+Q Consensus        22 kvceiiake-----ldvpvenilglaaaesqygtgri   53 (118)
+                      .+.+.|.+.     .++|+..++.+|-.||.+-+..+
+T Consensus         7 ~la~~l~~~~~~~~~~~~~~~~~aIa~~ES~~n~~a~   43 (125)
+T d1juga_           7 ELCKNLVAQGMNGYQHITLPNWVCTAFHESSYNTRAT   43 (125)
+T ss_dssp             HHHHHHHHTTCTTBTTBCHHHHHHHHHHHHTTBTTCE
+T ss_pred             HHHHHHHHCCCCCcCCCCHHHHHHHHHHHcCCCccce
+
+
+No 76
+>d1llda2 d.162.1.1 (A:150-319) Lactate dehydrogenase {Bifidobacterium longum, strain am101-2 [TaxId: 216816]}
+Probab=36.47  E-value=74  Score=22.16  Aligned_cols=20  Identities=25%  Similarity=0.424  Sum_probs=0.0  Template_Neff=9.800
+
+Q ss_pred             HHHhHHHHHHHhcCCCHHHH
+Q FD01845428_045   19 EHMKVCEIIAKELDVPVENI   38 (118)
+Q Consensus        19 ehmkvceiiakeldvpveni   38 (118)
+                      +++....++|++|+++.+++
+T Consensus         4 D~~R~~~~la~~l~v~~~~v   23 (170)
+T d1llda2           4 DSARLRFLIAQQTGVNVKNV   23 (170)
+T ss_dssp             HHHHHHHHHHHHHTCCGGGE
+T ss_pred             HHHHHHHHHHHHHCCChhhe
+
+
+No 77
+>PF13702.8 ; Lysozyme_like ; Lysozyme-like
+Probab=35.78  E-value=2.1e+02  Score=18.83  Aligned_cols=34  Identities=21%  Similarity=0.241  Sum_probs=0.0  Template_Neff=10.900
+
+Q ss_pred             HHHHHhHHHHHHHhcCCCH--HHHHHHHHHHhhhcc
+Q FD01845428_045   17 VQEHMKVCEIIAKELDVPV--ENILGLAAAESQYGT   50 (118)
+Q Consensus        17 vqehmkvceiiakeldvpv--enilglaaaesqygt   50 (118)
+                      +++...+.+-.++..+||.  ..+.+++..||....
+T Consensus         3 ~~~~~~~~~~~~~~~~v~~~~~~~~ai~~~es~~~~   38 (161)
+T A4VUN1_STRSY/2    3 VMTYQTMVQEVLAENDTPANEELVLAMIYTETKGQE   38 (161)
+T ss_pred             hhhhHHHHHHHHHHcCCChhHHHHHHHHHHHcCCCC
+
+
+No 78
+>d4bgva2 d.162.1.0 (A:151-324) automated matches {Picrophilus torridus [TaxId: 82076]}
+Probab=35.78  E-value=84  Score=22.26  Aligned_cols=20  Identities=25%  Similarity=0.546  Sum_probs=0.0  Template_Neff=9.500
+
+Q ss_pred             HHHhHHHHHHHhcCCCHHHH
+Q FD01845428_045   19 EHMKVCEIIAKELDVPVENI   38 (118)
+Q Consensus        19 ehmkvceiiakeldvpveni   38 (118)
+                      ++++...+||++|+++.+++
+T Consensus         4 d~~R~~~~la~~l~v~~~~v   23 (174)
+T d4bgva2           4 DSTRFRTFLAQELNVSFEDV   23 (174)
+T ss_dssp             HHHHHHHHHHHHHTCCGGGE
+T ss_pred             HHHHHHHHHHHHhCCCHHHc
+
+
+No 79
+>d1nd9a_ a.6.1.6 (A:) N-terminal subdomain of bacterial translation initiation factor IF2 {Escherichia coli [TaxId: 562]}
+Probab=35.31  E-value=79  Score=17.67  Aligned_cols=13  Identities=31%  Similarity=0.498  Sum_probs=0.0  Template_Neff=9.500
+
+Q ss_pred             HHHhcCCCHHHHH
+Q FD01845428_045   27 IAKELDVPVENIL   39 (118)
+Q Consensus        27 iakeldvpvenil   39 (118)
+                      +|++++++...++
+T Consensus         8 lak~l~~~~~~~~   20 (49)
+T d1nd9a_           8 LAAERQTSVERLV   20 (49)
+T ss_dssp             HHHHHSSSHHHHH
+T ss_pred             HHHHhCCCHHHHH
+
+
+No 80
+>d2vb1a_ d.2.1.2 (A:) Lysozyme {Chicken (Gallus gallus) [TaxId: 9031]}
+Probab=34.71  E-value=96  Score=21.61  Aligned_cols=29  Identities=21%  Similarity=0.098  Sum_probs=0.0  Template_Neff=8.700
+
+Q ss_pred             HHHHHhcCCCHH------HHHHHHHHHhhhcccch
+Q FD01845428_045   25 EIIAKELDVPVE------NILGLAAAESQYGTGRI   53 (118)
+Q Consensus        25 eiiakeldvpve------nilglaaaesqygtgri   53 (118)
+                      +.++++.+||..      -++.++-.||.+-+.-+
+T Consensus         9 ~~~~~~~~v~~~~~~~~~ll~ai~~~ES~~~~~a~   43 (129)
+T d2vb1a_           9 AAAMKRHGLDNYRGYSLGNWVCAAKFESNFNTQAT   43 (129)
+T ss_dssp             HHHHHHTTCTTBTTBCHHHHHHHHHHHHTTBTTCE
+T ss_pred             HHHHHHCCCCCcCCccHHHHHHHHHHHhcCcccce
+
+
+No 81
+>5G5G_C PUTATIVE XANTHINE DEHYDROGENASE YAGS FAD-BINDING SUBUNIT; OXIDOREDUCTASE, PAOABC, XANTHINE OXIDASE FAMILY, HETEROTRIMER, E.COLI DETOXIFICATION; HET: CL, FAD, GOL, MCN, ACT; 1.7A {ESCHERICHIA COLI}
+Probab=34.33  E-value=69  Score=28.07  Aligned_cols=19  Identities=26%  Similarity=0.415  Sum_probs=0.0  Template_Neff=9.500
+
+Q ss_pred             HHhHHHHHHHhcCCCHHHH
+Q FD01845428_045   20 HMKVCEIIAKELDVPVENI   38 (118)
+Q Consensus        20 hmkvceiiakeldvpveni   38 (118)
+                      +..++.++|++|++|.|.|
+T Consensus       473 ~t~~~qi~a~~Lgi~~~~v  491 (732)
+T 5G5G_C          473 YTILAQTAAEMLGVPLEQV  491 (732)
+T ss_dssp             HHHHHHHHHHHHTCCGGGE
+T ss_pred             hHHHHHHHHHHHCCCHHHe
+
+
+No 82
+>PF14174.8 ; YycC ; YycC-like protein
+Probab=34.33  E-value=68  Score=22.73  Aligned_cols=13  Identities=38%  Similarity=0.925  Sum_probs=0.0  Template_Neff=2.700
+
+Q ss_pred             HHHhcCCCHHHHH
+Q FD01845428_045   27 IAKELDVPVENIL   39 (118)
+Q Consensus        27 iakeldvpvenil   39 (118)
+                      +|+.|+||+|.|.
+T Consensus        13 La~~LnvPlE~iM   25 (50)
+T C6CW23_PAESJ/3   13 LSKQLGVPLEHLM   25 (50)
+T ss_pred             HHHHhCCCHHHHh
+
+
+No 83
+>d2pa6a1 d.54.1.1 (A:5-146) Enolase {Methanocaldococcus jannaschii [TaxId: 2190]}
+Probab=33.80  E-value=1.1e+02  Score=20.96  Aligned_cols=20  Identities=25%  Similarity=0.461  Sum_probs=0.0  Template_Neff=9.500
+
+Q ss_pred             HhHHHHHHHhcCCCHHHHHH
+Q FD01845428_045   21 MKVCEIIAKELDVPVENILG   40 (118)
+Q Consensus        21 mkvceiiakeldvpvenilg   40 (118)
+                      +-++.++||.+++|+-.+||
+T Consensus       118 ~Al~d~~ak~~~~pl~~~lg  137 (142)
+T d2pa6a1         118 LAVAKAAAATAKIPLYKYLG  137 (142)
+T ss_dssp             HHHHHHHHHHHTCCHHHHHH
+T ss_pred             HHHHHHHHHHcCCcHHHHhc
+
+
+No 84
+>d3nepx2 d.162.1.0 (X:164-337) automated matches {Salinibacter ruber [TaxId: 309807]}
+Probab=33.74  E-value=97  Score=21.79  Aligned_cols=20  Identities=35%  Similarity=0.559  Sum_probs=0.0  Template_Neff=9.600
+
+Q ss_pred             HHHhHHHHHHHhcCCCHHHH
+Q FD01845428_045   19 EHMKVCEIIAKELDVPVENI   38 (118)
+Q Consensus        19 ehmkvceiiakeldvpveni   38 (118)
+                      +.+.....||++|+|++++|
+T Consensus         5 ds~R~~~~la~~l~v~~~~v   24 (170)
+T d3nepx2           5 DTGRFRSFIAEELDVSVRDV   24 (170)
+T ss_dssp             HHHHHHHHHHHHHTCCGGGE
+T ss_pred             HHHHHHHHHHHHhCCCHHHe
+
+
+No 85
+>d3iam2_ c.47.1.21 (2:) automated matches {Thermus thermophilus HB8 [TaxId: 300852]}
+Probab=33.71  E-value=2.2e+02  Score=21.42  Aligned_cols=40  Identities=25%  Similarity=0.269  Sum_probs=0.0  Template_Neff=8.200
+
+Q ss_pred             hhHHHHHHHH-----HhHHHHHHHhcCCCHHHHHHHHHHHhhhcc
+Q FD01845428_045   11 VGAVRFVQEH-----MKVCEIIAKELDVPVENILGLAAAESQYGT   50 (118)
+Q Consensus        11 vgavrfvqeh-----mkvceiiakeldvpvenilglaaaesqygt   50 (118)
+                      +.+.+.+|++     ...-+.||+.|++|...|.|.+.--+.+-+
+T Consensus        27 l~~L~~~q~~~G~i~~~~~~~ia~~l~~~~~~v~~v~sfY~~~~~   71 (179)
+T d3iam2_          27 MPLLRRVQQEEGWIRPERIEEIARLVGTTPTEVMGVASFYSYYQF   71 (179)
+T ss_dssp             HHHHHHHHHHHSSCCHHHHHHHHHHHTSCHHHHHHHHTTCSSCCS
+T ss_pred             HHHHHHHHHHHCCCCHHHHHHHHHHHCCCHHHhhhhhhccHhhcc
+
+
+No 86
+>d3d0oa2 d.162.1.0 (A:149-312) automated matches {Staphylococcus aureus [TaxId: 93062]}
+Probab=33.58  E-value=1e+02  Score=21.43  Aligned_cols=20  Identities=10%  Similarity=0.343  Sum_probs=0.0  Template_Neff=9.700
+
+Q ss_pred             HHHhHHHHHHHhcCCCHHHH
+Q FD01845428_045   19 EHMKVCEIIAKELDVPVENI   38 (118)
+Q Consensus        19 ehmkvceiiakeldvpveni   38 (118)
+                      ++++....||+.|+++..++
+T Consensus         4 d~~R~~~~la~~l~~~~~~v   23 (164)
+T d3d0oa2           4 DSARFRLLLSEAFDVAPRSV   23 (164)
+T ss_dssp             HHHHHHHHHHHHHTSCGGGC
+T ss_pred             HHHHHHHHHHHHhCCCHHhc
+
+
+No 87
+>5OHU_A Soluble lytic murein transglycosylase; Lytic Transglycosylase, LYASE; HET: PO4; 2.2A {Pseudomonas aeruginosa}
+Probab=32.96  E-value=1.7e+02  Score=23.96  Aligned_cols=51  Identities=22%  Similarity=0.225  Sum_probs=0.0  Template_Neff=11.100
+
+Q ss_pred             CCchhHHhchhh--------HHHHHHHHHhHHHHHHHhcCCCHHHHHHHHHHHhhhccc
+Q FD01845428_045    1 MGNYDKACNNVG--------AVRFVQEHMKVCEIIAKELDVPVENILGLAAAESQYGTG   51 (118)
+Q Consensus         1 mgnydkacnnvg--------avrfvqehmkvceiiakeldvpvenilglaaaesqygtg   51 (118)
+                      +|+|++|.....        ..+|-..+.......++..+++.+-+.+++..||.+...
+T Consensus       451 ~g~~~~Ai~~~~~a~~~~~~~~~yP~~~~~~~~~~a~~~~~~~~~~~ai~~~es~~~~~  509 (642)
+T 5OHU_A          451 MQWYFPAIRSISQAQYWDDLDIRFPMAHRATLVREAKNRGLHSSWIFAITRQESAFMSD  509 (642)
+T ss_dssp             TTCHHHHHHHHHHTTCTTCHHHHSCCTTHHHHHHHHHHTTCCHHHHHHHHHHHHTTCTT
+T ss_pred             ccchHHHHHHHHhccchhhccccCChhhHHHHHHHHHHcCCCHHHHHHHHHHhhcCCCC
+
+
+No 88
+>d4rora2 d.162.1.0 (A:146-320) automated matches {Methylobacterium extorquens [TaxId: 419610]}
+Probab=32.68  E-value=99  Score=21.76  Aligned_cols=20  Identities=25%  Similarity=0.534  Sum_probs=0.0  Template_Neff=9.700
+
+Q ss_pred             HHHhHHHHHHHhcCCCHHHH
+Q FD01845428_045   19 EHMKVCEIIAKELDVPVENI   38 (118)
+Q Consensus        19 ehmkvceiiakeldvpveni   38 (118)
+                      ++++....||+.|+|+.+++
+T Consensus         4 Dt~R~~~~la~~l~v~~~~v   23 (175)
+T d4rora2           4 DSARFRHFLAEEFGVSVEDV   23 (175)
+T ss_dssp             HHHHHHHHHHHHHTCCGGGE
+T ss_pred             hHHHHHHHHHHHHCCCHHHe
+
+
+No 89
+>d1t3qb2 d.133.1.1 (B:166-786) Quinoline 2-oxidoreductase large subunit QorL {Pseudomonas putida [TaxId: 303]}
+Probab=32.31  E-value=87  Score=27.74  Aligned_cols=19  Identities=26%  Similarity=0.506  Sum_probs=0.0  Template_Neff=8.600
+
+Q ss_pred             HHhHHHHHHHhcCCCHHHH
+Q FD01845428_045   20 HMKVCEIIAKELDVPVENI   38 (118)
+Q Consensus        20 hmkvceiiakeldvpveni   38 (118)
+                      |.++..++|++|+||.|.|
+T Consensus       346 ~t~~aqi~Ae~Lgi~~~~V  364 (621)
+T d1t3qb2         346 ETTLAQIAADVLGVPASDV  364 (621)
+T ss_dssp             HHHHHHHHHHHHTSCGGGE
+T ss_pred             HHHHHHHHHHHHCCCHHHc
+
+
+No 90
+>d2dfda2 d.162.1.1 (A:151-319) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+Probab=32.18  E-value=1.3e+02  Score=21.16  Aligned_cols=22  Identities=5%  Similarity=0.108  Sum_probs=0.0  Template_Neff=9.600
+
+Q ss_pred             HHHHHhHHHHHHHhcCCCHHHH
+Q FD01845428_045   17 VQEHMKVCEIIAKELDVPVENI   38 (118)
+Q Consensus        17 vqehmkvceiiakeldvpveni   38 (118)
+                      ..+.++....||+.++|++.+|
+T Consensus         3 ~lD~~R~~~~la~~l~v~~~~v   24 (169)
+T d2dfda2           3 TLDIVRANTFVAELKGLDPARV   24 (169)
+T ss_dssp             HHHHHHHHHHHHHHHTCCGGGC
+T ss_pred             HHHHHHHHHHHHHHhCCCHHHc
+
+
+No 91
+>d3vkua2 d.162.1.1 (A:151-312) Lactate dehydrogenase {Lactobacillus casei [TaxId: 1582]}
+Probab=32.06  E-value=1e+02  Score=21.29  Aligned_cols=20  Identities=20%  Similarity=0.351  Sum_probs=0.0  Template_Neff=9.800
+
+Q ss_pred             HHHhHHHHHHHhcCCCHHHH
+Q FD01845428_045   19 EHMKVCEIIAKELDVPVENI   38 (118)
+Q Consensus        19 ehmkvceiiakeldvpveni   38 (118)
+                      +.++....||+.|+|+.++|
+T Consensus         4 d~~R~~~~la~~l~v~~~~v   23 (162)
+T d3vkua2           4 DTARFRQSIAKMVNVDARSV   23 (162)
+T ss_dssp             HHHHHHHHHHHHHTSCGGGE
+T ss_pred             HHHHHHHHHHHHhCCCHHhe
+
+
+No 92
+>d4ln1a2 d.162.1.0 (A:148-314) automated matches {Bacillus cereus [TaxId: 226900]}
+Probab=31.98  E-value=97  Score=21.54  Aligned_cols=20  Identities=15%  Similarity=0.311  Sum_probs=0.0  Template_Neff=9.800
+
+Q ss_pred             HHHhHHHHHHHhcCCCHHHH
+Q FD01845428_045   19 EHMKVCEIIAKELDVPVENI   38 (118)
+Q Consensus        19 ehmkvceiiakeldvpveni   38 (118)
+                      +.++....||+.|++++.++
+T Consensus         4 d~~R~~~~la~~l~v~~~~v   23 (167)
+T d4ln1a2           4 DSARFRYMLGEYFDIGPHNI   23 (167)
+T ss_dssp             HHHHHHHHHHHHHTSCGGGE
+T ss_pred             HHHHHHHHHHHHhCCChhhe
+
+
+No 93
+>1FFV_E CUTL, MOLYBDOPROTEIN OF CARBON MONOXIDE DEHYDROGENASE; HYDROLASE, DEHYDROGENASE; HET: FAD, PCD, CSZ, ARO, FES; 2.25A {Hydrogenophaga pseudoflava} SCOP: d.133.1.1, d.41.1.1
+Probab=31.52  E-value=77  Score=28.45  Aligned_cols=19  Identities=42%  Similarity=0.616  Sum_probs=0.0  Template_Neff=9.200
+
+Q ss_pred             HHhHHHHHHHhcCCCHHHH
+Q FD01845428_045   20 HMKVCEIIAKELDVPVENI   38 (118)
+Q Consensus        20 hmkvceiiakeldvpveni   38 (118)
+                      |..++.++|++|++|.|.|
+T Consensus       527 ~t~~~qi~a~~Lgi~~e~I  545 (803)
+T 1FFV_E          527 QTTYAQIIATELGIPSEVI  545 (803)
+T ss_dssp             HHHHHHHHHHHHTCCGGGE
+T ss_pred             HHHHHHHHHHHHCCCHHHE
+
+
+No 94
+>d1hyha2 d.162.1.1 (A:167-329) L-2-hydroxyisocapronate dehydrogenase, L-HICDH {Lactobacillus confusus [TaxId: 1583]}
+Probab=31.25  E-value=1.2e+02  Score=20.95  Aligned_cols=20  Identities=5%  Similarity=0.308  Sum_probs=0.0  Template_Neff=9.800
+
+Q ss_pred             HHHhHHHHHHHhcCCCHHHH
+Q FD01845428_045   19 EHMKVCEIIAKELDVPVENI   38 (118)
+Q Consensus        19 ehmkvceiiakeldvpveni   38 (118)
+                      +.++....+|+.|+|+++++
+T Consensus         5 Ds~R~~~~la~~l~v~~~~v   24 (163)
+T d1hyha2           5 DTARMQRAVGEAFDLDPRSV   24 (163)
+T ss_dssp             HHHHHHHHHHHHHTCCGGGC
+T ss_pred             HHHHHHHHHHHHhCCCHHhc
+
+
+No 95
+>1N62_B Carbon monoxide dehydrogenase large chain; CODH, molybdenum, molybdopterin, oxidoreductase; HET: MCN, FAD, CUB, FES; 1.09A {Oligotropha carboxidovorans} SCOP: d.133.1.1, d.41.1.1
+Probab=31.04  E-value=85  Score=28.21  Aligned_cols=19  Identities=37%  Similarity=0.683  Sum_probs=0.0  Template_Neff=9.200
+
+Q ss_pred             HHhHHHHHHHhcCCCHHHH
+Q FD01845428_045   20 HMKVCEIIAKELDVPVENI   38 (118)
+Q Consensus        20 hmkvceiiakeldvpveni   38 (118)
+                      +.+++.++|++|++|.|.|
+T Consensus       533 ~t~~~qi~a~~Lgi~~~~I  551 (809)
+T 1N62_B          533 ETTYAQIIATELGIPADDI  551 (809)
+T ss_dssp             HHHHHHHHHHHHTCCGGGE
+T ss_pred             HHHHHHHHHHHHCCCHHHC
+
+
+No 96
+>d3dl2a2 d.162.1.0 (A:319-471) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+Probab=31.00  E-value=95  Score=21.36  Aligned_cols=20  Identities=15%  Similarity=0.190  Sum_probs=0.0  Template_Neff=9.700
+
+Q ss_pred             HHHhHHHHHHHhcCCCHHHH
+Q FD01845428_045   19 EHMKVCEIIAKELDVPVENI   38 (118)
+Q Consensus        19 ehmkvceiiakeldvpveni   38 (118)
+                      ++++....+|+.++++++++
+T Consensus         4 dt~r~~~~la~~l~v~~~~v   23 (153)
+T d3dl2a2           4 DSQRLQYIITNVLKAQTSGK   23 (153)
+T ss_dssp             HHHHHHHCCCCCSCCCCCSC
+T ss_pred             HHHHHHHHHHHHHCCChhcc
+
+
+No 97
+>PF02392.18 ; Ycf4 ; Ycf4
+Probab=30.78  E-value=73  Score=23.49  Aligned_cols=20  Identities=30%  Similarity=0.312  Sum_probs=0.0  Template_Neff=8.600
+
+Q ss_pred             HHHHhHHHHHHHhcCCCHHH
+Q FD01845428_045   18 QEHMKVCEIIAKELDVPVEN   37 (118)
+Q Consensus        18 qehmkvceiiakeldvpven   37 (118)
+                      +++.+.++.|++-|++|+++
+T Consensus       159 ~~~~~~A~~I~~FL~~pi~~  178 (178)
+T K9TIF1_9CYAN/1  159 AELENEGAELARFLGVPLEG  178 (178)
+T ss_pred             HHHHHHHHHHHHHhCCCCCC
+
+
+No 98
+>d3epqa1 c.55.1.10 (A:1-118) Putative fructokinase YhdR {Bacillus subtilis [TaxId: 1423]}
+Probab=30.71  E-value=1.1e+02  Score=19.63  Aligned_cols=34  Identities=21%  Similarity=0.462  Sum_probs=0.0  Template_Neff=10.200
+
+Q ss_pred             HHHhHHHHHHHhcCCCH---HHHHHHHHHHhhhcccc
+Q FD01845428_045   19 EHMKVCEIIAKELDVPV---ENILGLAAAESQYGTGR   52 (118)
+Q Consensus        19 ehmkvceiiakeldvpv---enilglaaaesqygtgr   52 (118)
+                      +.+.+.+.+.+.+++|+   .+....|.+|..+|.+|
+T Consensus        82 ~~~~l~~~l~~~~~~pv~~~nd~~~~a~~e~~~~~~~  118 (118)
+T d3epqa1          82 RHYPFLQTVKNEMKIPVGFSTDVNAAALGEFLFGEAK  118 (118)
+T ss_dssp             BTCCHHHHHHHHHCSCEEEEEHHHHHHHHHHHHSTTT
+T ss_pred             ccCCHHHHHHHHhCCCEEEeChhhHHHHHHHHhccCC
+
+
+No 99
+>d1a5za2 d.162.1.1 (A:164-333) Lactate dehydrogenase {Thermotoga maritima [TaxId: 2336]}
+Probab=30.61  E-value=1.1e+02  Score=21.56  Aligned_cols=20  Identities=10%  Similarity=0.280  Sum_probs=0.0  Template_Neff=9.700
+
+Q ss_pred             HHHhHHHHHHHhcCCCHHHH
+Q FD01845428_045   19 EHMKVCEIIAKELDVPVENI   38 (118)
+Q Consensus        19 ehmkvceiiakeldvpveni   38 (118)
+                      ++++....||+.|+|++.+|
+T Consensus         5 d~~R~~~~la~~l~v~~~~v   24 (172)
+T d1a5za2           5 DTARLRTLIAQHCGFSPRSV   24 (172)
+T ss_dssp             HHHHHHHHHHHHHTCCGGGE
+T ss_pred             HHHHHHHHHHHHHCCCHhhe
+
+
+No 100
+>d2hjra2 d.162.1.0 (A:155-325) automated matches {Cryptosporidium parvum [TaxId: 5807]}
+Probab=30.60  E-value=1.3e+02  Score=21.16  Aligned_cols=20  Identities=10%  Similarity=0.232  Sum_probs=0.0  Template_Neff=9.700
+
+Q ss_pred             HHHhHHHHHHHhcCCCHHHH
+Q FD01845428_045   19 EHMKVCEIIAKELDVPVENI   38 (118)
+Q Consensus        19 ehmkvceiiakeldvpveni   38 (118)
+                      +.++....+|+.|+++.+++
+T Consensus         6 ds~R~~~~la~~l~v~~~~v   25 (171)
+T d2hjra2           6 DSARFRCNLSRALGVKPSDV   25 (171)
+T ss_dssp             HHHHHHHHHHHHHTSCGGGE
+T ss_pred             HHHHHHHHHHHHHCCCHHHc
+
+
+No 101
+>d3wswa2 d.162.1.0 (A:148-314) automated matches {Enterococcus mundtii [TaxId: 53346]}
+Probab=30.39  E-value=1.2e+02  Score=21.17  Aligned_cols=20  Identities=20%  Similarity=0.258  Sum_probs=0.0  Template_Neff=9.800
+
+Q ss_pred             HHHhHHHHHHHhcCCCHHHH
+Q FD01845428_045   19 EHMKVCEIIAKELDVPVENI   38 (118)
+Q Consensus        19 ehmkvceiiakeldvpveni   38 (118)
+                      ++++....||+.|+++..++
+T Consensus         4 D~~R~~~~la~~l~v~~~~v   23 (167)
+T d3wswa2           4 DTTRFRKEIALKLAVDPRSV   23 (167)
+T ss_dssp             HHHHHHHHHHHHHTCCGGGE
+T ss_pred             HHHHHHHHHHHHHCCCHHhe
+
+
+No 102
+>d1pzga2 d.162.1.1 (A:164-333) Lactate dehydrogenase {Toxoplasma gondii [TaxId: 5811]}
+Probab=30.03  E-value=1.2e+02  Score=21.37  Aligned_cols=20  Identities=15%  Similarity=0.293  Sum_probs=0.0  Template_Neff=9.700
+
+Q ss_pred             HHHhHHHHHHHhcCCCHHHH
+Q FD01845428_045   19 EHMKVCEIIAKELDVPVENI   38 (118)
+Q Consensus        19 ehmkvceiiakeldvpveni   38 (118)
+                      +.+.....||++|+|++.++
+T Consensus         5 ds~R~~~~la~~l~v~~~~v   24 (173)
+T d1pzga2           5 DSGRFRRYVADALSVSPRDV   24 (173)
+T ss_dssp             HHHHHHHHHHHHHTSCGGGE
+T ss_pred             HHHHHHHHHHHHhCCCHHHe
+
+
+No 103
+>d1ez4a2 d.162.1.1 (A:163-334) Lactate dehydrogenase {Lactobacillus pentosus [TaxId: 1589]}
+Probab=30.02  E-value=1.2e+02  Score=21.19  Aligned_cols=20  Identities=10%  Similarity=0.308  Sum_probs=0.0  Template_Neff=9.800
+
+Q ss_pred             HHHhHHHHHHHhcCCCHHHH
+Q FD01845428_045   19 EHMKVCEIIAKELDVPVENI   38 (118)
+Q Consensus        19 ehmkvceiiakeldvpveni   38 (118)
+                      ++++...+||+.|+++++++
+T Consensus         4 d~~R~~~~la~~l~v~~~~v   23 (171)
+T d1ez4a2           4 DSSRLRVALGKQFNVDPRSV   23 (171)
+T ss_dssp             HHHHHHHHHHHHHTCCGGGE
+T ss_pred             HHHHHHHHHHHHhCCCHhhc
+
+
+No 104
+>d3b64a_ d.80.1.0 (A:) automated matches {Leishmania major [TaxId: 5664]}
+Probab=30.00  E-value=58  Score=20.49  Aligned_cols=19  Identities=26%  Similarity=0.295  Sum_probs=0.0  Template_Neff=10.400
+
+Q ss_pred             HHhHHHHHHHhcCCCHHHH
+Q FD01845428_045   20 HMKVCEIIAKELDVPVENI   38 (118)
+Q Consensus        20 hmkvceiiakeldvpveni   38 (118)
+                      ...+++++.+.+++|.++|
+T Consensus        77 ~~~l~~~l~~~~~~~~~~i   95 (112)
+T d3b64a_          77 TSIVTAAITKECGIVADRI   95 (112)
+T ss_dssp             HHHHHHHHHHHHCCCGGGE
+T ss_pred             HHHHHHHHHHHhCCCccEE
+
+
+No 105
+>PF19111.2 ; DUF5798 ; Family of unknown function (DUF5798)
+Probab=29.96  E-value=1.4e+02  Score=23.12  Aligned_cols=31  Identities=13%  Similarity=0.055  Sum_probs=0.0  Template_Neff=3.500
+
+Q ss_pred             HHHHHHHhHHHHHHHhcCCCHHHHHHHHHHH
+Q FD01845428_045   15 RFVQEHMKVCEIIAKELDVPVENILGLAAAE   45 (118)
+Q Consensus        15 rfvqehmkvceiiakeldvpvenilglaaae   45 (118)
+                      |-+-|..-+.|.||.+.||.|+-|+.-|+.+
+T Consensus        50 ~elaeQRAlleAlAee~giDve~v~aea~i~   80 (89)
+T V4Y7S5_9ARCH/1   50 AEVAEQRAMMDRLLEANGLDPEAARGSLGDP   80 (89)
+T ss_pred             HHHHHHHHHHHHHHHHcCCCHHHHhhccCCC
+
+
+No 106
+>4LG3_A Uncharacterized protein; DUF487, PF16175 family, Structural Genomics, Joint Center for Structural Genomics, JCSG, Protein Structure Initiative, PSI-BIOLOGY, UNKNOWN; HET: SO4, MSE, EDO; 2.4A {Desulfovibrio piger}
+Probab=29.60  E-value=92  Score=25.19  Aligned_cols=17  Identities=35%  Similarity=0.677  Sum_probs=0.0  Template_Neff=6.000
+
+Q ss_pred             hHHHHHHHhcCCCHHHH
+Q FD01845428_045   22 KVCEIIAKELDVPVENI   38 (118)
+Q Consensus        22 kvceiiakeldvpveni   38 (118)
+                      ++-+.|||.|++|++.+
+T Consensus       151 kl~~~IAkkl~I~~~~v  167 (183)
+T 4LG3_A          151 RLKAAIAKKLKIPAEKV  167 (183)
+T ss_dssp             HHHHHHHHHHTSCGGGC
+T ss_pred             HHHHHHHHHhCCCHHHC
+
+
+No 107
+>d2hzga1 d.54.1.0 (A:4-128) automated matches {Rhodobacter sphaeroides [TaxId: 1063]}
+Probab=29.56  E-value=1.3e+02  Score=19.66  Aligned_cols=20  Identities=25%  Similarity=0.629  Sum_probs=0.0  Template_Neff=10.100
+
+Q ss_pred             HhHHHHHHHhcCCCHHHHHH
+Q FD01845428_045   21 MKVCEIIAKELDVPVENILG   40 (118)
+Q Consensus        21 mkvceiiakeldvpvenilg   40 (118)
+                      |-+..+.||..++|+-.+||
+T Consensus       105 ~Al~Dl~ak~~~~pl~~llg  124 (125)
+T d2hzga1         105 MALWDLLGRRLSAPAWALLG  124 (125)
+T ss_dssp             HHHHHHHHHHHTCBHHHHTT
+T ss_pred             HHHHHHHHHHhCCCHHHHhC
+
+
+No 108
+>d1y7ea1 b.49.3.1 (A:101-233) Probable aminopeptidase ApeA {Lyme disease spirochete (Borrelia burgdorferi) [TaxId: 139]}
+Probab=29.32  E-value=1.1e+02  Score=22.71  Aligned_cols=23  Identities=9%  Similarity=0.317  Sum_probs=0.0  Template_Neff=7.300
+
+Q ss_pred             HHHHhHHHHHHHhcCCCHHHHHH
+Q FD01845428_045   18 QEHMKVCEIIAKELDVPVENILG   40 (118)
+Q Consensus        18 qehmkvceiiakeldvpvenilg   40 (118)
+                      ..+..+-+.||++++++++.|+.
+T Consensus       106 ~~~~~ll~~la~~~gv~~~~Il~  128 (133)
+T d1y7ea1         106 KVKLATLQLIKEKYKIEEEDFVS  128 (133)
+T ss_dssp             HHHHHHHHHHHHHHCCCTTTTSS
+T ss_pred             hhcHHHHHHHHHHhCCCHHHccc
+
+
+No 109
+>d1yt3a1 a.60.8.3 (A:194-294) Ribonuclease D {Escherichia coli [TaxId: 562]}
+Probab=29.18  E-value=1.8e+02  Score=18.53  Aligned_cols=25  Identities=20%  Similarity=0.076  Sum_probs=0.0  Template_Neff=9.800
+
+Q ss_pred             HHHHHHHhHHHHHHHhcCCCHHHHH
+Q FD01845428_045   15 RFVQEHMKVCEIIAKELDVPVENIL   39 (118)
+Q Consensus        15 rfvqehmkvceiiakeldvpvenil   39 (118)
+                      +.+++-.+.-+.+|++.|+|...|+
+T Consensus        22 ~~~~~L~~wR~~~A~~~~~~~~~il   46 (101)
+T d1yt3a1          22 ACLQLLADWRLRKARERDLAVNFVV   46 (101)
+T ss_dssp             HHHHHHHHHHHHHHHHHTCCGGGTS
+T ss_pred             HHHHHHHHHHHHHHHHcCCChhhcc
+
+
+No 110
+>d1hyea2 d.162.1.1 (A:146-313) MJ0490, lactate/malate dehydrogenase {Methanococcus jannaschii [TaxId: 2190]}
+Probab=29.11  E-value=1.3e+02  Score=20.98  Aligned_cols=20  Identities=20%  Similarity=0.376  Sum_probs=0.0  Template_Neff=9.800
+
+Q ss_pred             HHHhHHHHHHHhcCCCHHHH
+Q FD01845428_045   19 EHMKVCEIIAKELDVPVENI   38 (118)
+Q Consensus        19 ehmkvceiiakeldvpveni   38 (118)
+                      +.++...+||+.|+|++.++
+T Consensus         6 d~~R~~~~la~~l~v~~~~v   25 (168)
+T d1hyea2           6 DSLRFKVAIAKFFGVHIDEV   25 (168)
+T ss_dssp             HHHHHHHHHHHHHTCCGGGE
+T ss_pred             HHHHHHHHHHHHHCCCHHHe
+
+
+No 111
+>d1smka2 d.162.1.0 (A:189-356) automated matches {Citrullus lanatus [TaxId: 3654]}
+Probab=28.92  E-value=1.4e+02  Score=20.86  Aligned_cols=22  Identities=9%  Similarity=0.276  Sum_probs=0.0  Template_Neff=9.700
+
+Q ss_pred             HHHHHhHHHHHHHhcCCCHHHH
+Q FD01845428_045   17 VQEHMKVCEIIAKELDVPVENI   38 (118)
+Q Consensus        17 vqehmkvceiiakeldvpveni   38 (118)
+                      ..+++.....||+.|+|++.+|
+T Consensus         3 ~ldt~R~~~~la~~l~v~~~~v   24 (168)
+T d1smka2           3 MLDVVRANTFVAEVLGLDPRDV   24 (168)
+T ss_dssp             HHHHHHHHHHHHHHHTCCGGGC
+T ss_pred             HHHHHHHHHHHHHHhCCChhhc
+
+
+No 112
+>d3pqfa2 d.162.1.0 (A:148-315) automated matches {Bacillus subtilis [TaxId: 1423]}
+Probab=28.90  E-value=1.4e+02  Score=20.95  Aligned_cols=20  Identities=5%  Similarity=0.213  Sum_probs=0.0  Template_Neff=9.700
+
+Q ss_pred             HHHhHHHHHHHhcCCCHHHH
+Q FD01845428_045   19 EHMKVCEIIAKELDVPVENI   38 (118)
+Q Consensus        19 ehmkvceiiakeldvpveni   38 (118)
+                      +.++....||+.|+++++++
+T Consensus         4 ds~R~~~~la~~l~v~~~~v   23 (168)
+T d3pqfa2           4 DSARFRFMLSEYFGAAPQNV   23 (168)
+T ss_dssp             HHHHHHHHHHHHHTSCGGGE
+T ss_pred             HHHHHHHHHHHHHCCCHHhc
+
+
+No 113
+>PF07836.13 ; DmpG_comm ; DmpG-like communication domain
+Probab=28.81  E-value=1.7e+02  Score=18.39  Aligned_cols=38  Identities=13%  Similarity=0.098  Sum_probs=0.0  Template_Neff=8.100
+
+Q ss_pred             hHHHHHHHHHhHHHHHHHhcCCCHHHHHHHHHHHhhhc
+Q FD01845428_045   12 GAVRFVQEHMKVCEIIAKELDVPVENILGLAAAESQYG   49 (118)
+Q Consensus        12 gavrfvqehmkvceiiakeldvpvenilglaaaesqyg   49 (118)
+                      |--.|--.++...+.+|++.+|++-.++--.+.....+
+T Consensus        11 G~~g~hSs~~~~i~~~a~~~~v~~~~Li~~~~~~~~v~   48 (63)
+T N0B2W3_9BACI/2   11 GYAGVYSSFALHAKRAATKYGIDSRDILVELGKRKAVG   48 (63)
+T ss_pred             HHhccccchHHHHHHHHHHHCCCHHHHHHHHHhhcCCC
+
+
+No 114
+>d5mdha2 d.162.1.1 (A:155-333) Malate dehydrogenase {Pig (Sus scrofa) [TaxId: 9823]}
+Probab=28.77  E-value=1.3e+02  Score=21.27  Aligned_cols=20  Identities=25%  Similarity=0.413  Sum_probs=0.0  Template_Neff=9.700
+
+Q ss_pred             HHHhHHHHHHHhcCCCHHHH
+Q FD01845428_045   19 EHMKVCEIIAKELDVPVENI   38 (118)
+Q Consensus        19 ehmkvceiiakeldvpveni   38 (118)
+                      +.|+...+||+++++++.+|
+T Consensus         4 d~~R~~~~la~~~~v~~~~v   23 (179)
+T d5mdha2           4 DHNRAKAQIALKLGVTSDDV   23 (179)
+T ss_dssp             HHHHHHHHHHHHHTCCGGGE
+T ss_pred             HHHHHHHHHHHHHCCCHHHc
+
+
+No 115
+>2V4I_E GLUTAMATE N-ACETYLTRANSFERASE 2 ALPHA CHAIN; CYTOPLASM, ACYL ENZYME, TRANSFERASE, NTN HYDROLASE, ACYLTRANSFERASE, ORNITHINE ACETYL TRANSFERASE; HET: AYA; 2.2A {STREPTOMYCES CLAVULIGERUS}
+Probab=28.10  E-value=79  Score=25.26  Aligned_cols=23  Identities=26%  Similarity=0.433  Sum_probs=0.0  Template_Neff=6.100
+
+Q ss_pred             HHHHHhHHHHHHHhcCCCHHHHH
+Q FD01845428_045   17 VQEHMKVCEIIAKELDVPVENIL   39 (118)
+Q Consensus        17 vqehmkvceiiakeldvpvenil   39 (118)
+                      .+.-.++|+.+|+.|+++.++||
+T Consensus        78 ~~~a~~~~~~~a~~l~~~~~~Vl  100 (173)
+T 2V4I_E           78 EENAREVREAVARALGLPEGEML  100 (173)
+T ss_dssp             HHHHHHHHHHHHHHTTCCGGGEE
+T ss_pred             HHHHHHHHHHHHHHhCCCcccEE
+
+
+No 116
+>d4ropa1 d.54.1.0 (A:5-142) automated matches {Synechococcus elongatus [TaxId: 269084]}
+Probab=27.91  E-value=1.5e+02  Score=20.15  Aligned_cols=20  Identities=25%  Similarity=0.489  Sum_probs=0.0  Template_Neff=9.600
+
+Q ss_pred             HhHHHHHHHhcCCCHHHHHH
+Q FD01845428_045   21 MKVCEIIAKELDVPVENILG   40 (118)
+Q Consensus        21 mkvceiiakeldvpvenilg   40 (118)
+                      +-++.+.||..++|+-.+||
+T Consensus       116 ~Al~d~~ak~~~~pl~~llg  135 (138)
+T d4ropa1         116 LATAHAAATSLNLPLYRYLG  135 (138)
+T ss_dssp             HHHHHHHHHHTTCCHHHHHH
+T ss_pred             HHHHHHHHHHcCCcHHHHhc
+
+
+No 117
+>d2orma_ d.80.1.0 (A:) automated matches {Helicobacter pylori [TaxId: 85963]}
+Probab=27.89  E-value=86  Score=18.31  Aligned_cols=17  Identities=24%  Similarity=0.366  Sum_probs=0.0  Template_Neff=9.900
+
+Q ss_pred             hHHHHHHHhcCCCHHHH
+Q FD01845428_045   22 KVCEIIAKELDVPVENI   38 (118)
+Q Consensus        22 kvceiiakeldvpveni   38 (118)
+                      .+++++.+.+++|.++|
+T Consensus        25 ~i~~~~~~~~~~~~~~i   41 (67)
+T d2orma_          25 GVSDLMVKVLNKNKASI   41 (67)
+T ss_dssp             HHHHHHHHHHCCCGGGC
+T ss_pred             HHHHHHHHHhCCChheE
+
+
+No 118
+>d1hfoa_ d.80.1.3 (A:) Microphage migration inhibition factor (MIF) {Trichinella spiralis [TaxId: 6334]}
+Probab=27.82  E-value=91  Score=19.57  Aligned_cols=18  Identities=17%  Similarity=0.457  Sum_probs=0.0  Template_Neff=10.500
+
+Q ss_pred             HhHHHHHHHhcCCCHHHH
+Q FD01845428_045   21 MKVCEIIAKELDVPVENI   38 (118)
+Q Consensus        21 mkvceiiakeldvpveni   38 (118)
+                      ..+++++++.+++|.++|
+T Consensus        77 ~~i~~~l~~~l~i~~~~i   94 (113)
+T d1hfoa_          77 AKLFDHLNTKLGIPKNRM   94 (113)
+T ss_dssp             HHHHHHHHHHHCCCGGGE
+T ss_pred             HHHHHHHHHHHCCChhhE
+
+
+No 119
+>1QSA_A PROTEIN (SOLUBLE LYTIC TRANSGLYCOSYLASE SLT70); ALPHA-SUPERHELIX, TRANSFERASE; HET: SO4, GOL; 1.65A {Escherichia coli} SCOP: a.118.5.1, d.2.1.6
+Probab=27.69  E-value=2.3e+02  Score=23.93  Aligned_cols=38  Identities=16%  Similarity=0.231  Sum_probs=0.0  Template_Neff=10.200
+
+Q ss_pred             HHHHHHHHhHHHHHHHhcCCCHHHHHHHHHHHhhhccc
+Q FD01845428_045   14 VRFVQEHMKVCEIIAKELDVPVENILGLAAAESQYGTG   51 (118)
+Q Consensus        14 vrfvqehmkvceiiakeldvpvenilglaaaesqygtg   51 (118)
+                      .||...+....+..++..+||..-+.+++..||.++..
+T Consensus       447 ~~~p~~~~~~~~~~~~~~~~~~~~~~~i~~~Es~~~~~  484 (618)
+T 1QSA_A          447 ERFPLAYNDLFKRYTSGKEIPQSYAMAIARQESAWNPK  484 (618)
+T ss_dssp             HHSCCTTHHHHHHHHTTSSSCHHHHHHHHHHHHTTCTT
+T ss_pred             HhCchhhHHHHHHHHhccCCCHHHHHHHHHHHhcCCCC
+
+
+No 120
+>d1b8pa2 d.162.1.1 (A:159-329) Malate dehydrogenase {Aquaspirillum arcticum [TaxId: 87645]}
+Probab=27.55  E-value=1.6e+02  Score=20.58  Aligned_cols=20  Identities=30%  Similarity=0.443  Sum_probs=0.0  Template_Neff=9.800
+
+Q ss_pred             HHHhHHHHHHHhcCCCHHHH
+Q FD01845428_045   19 EHMKVCEIIAKELDVPVENI   38 (118)
+Q Consensus        19 ehmkvceiiakeldvpveni   38 (118)
+                      ++++.-.+||+.++|+.+++
+T Consensus         4 D~~R~~~~la~~l~v~~~~v   23 (171)
+T d1b8pa2           4 DHNRALSQIAAKTGKPVSSI   23 (171)
+T ss_dssp             HHHHHHHHHHHHHTCCGGGE
+T ss_pred             HHHHHHHHHHHHHCCCHHHh
+
+
+No 121
+>d1e5pa_ b.60.1.1 (A:) Aphrodisin, a sex pheromone {Golden hamster (Mesocricetus auratus) [TaxId: 10036]}
+Probab=27.50  E-value=1.4e+02  Score=19.94  Aligned_cols=22  Identities=41%  Similarity=0.548  Sum_probs=0.0  Template_Neff=10.300
+
+Q ss_pred             HHHHhHHHHHHHhcCCCHHHHH
+Q FD01845428_045   18 QEHMKVCEIIAKELDVPVENIL   39 (118)
+Q Consensus        18 qehmkvceiiakeldvpvenil   39 (118)
+                      .+.++-.+-.++.+++|.+||+
+T Consensus       118 ~~~~~~f~~~~~~~gl~~~~i~  139 (149)
+T d1e5pa_         118 PEENEILVQFAHEKKIPVENIL  139 (149)
+T ss_dssp             HHHHHHHHHHHHHTTCCGGGEE
+T ss_pred             HHHHHHHHHHHHHCCCCHHHEe
+
+
+No 122
+>d3uj2a1 d.54.1.0 (A:2-139) automated matches {Anaerostipes caccae [TaxId: 411490]}
+Probab=27.38  E-value=1.6e+02  Score=20.06  Aligned_cols=20  Identities=30%  Similarity=0.506  Sum_probs=0.0  Template_Neff=9.600
+
+Q ss_pred             HhHHHHHHHhcCCCHHHHHH
+Q FD01845428_045   21 MKVCEIIAKELDVPVENILG   40 (118)
+Q Consensus        21 mkvceiiakeldvpvenilg   40 (118)
+                      +-++.+.||.+++|+-.+||
+T Consensus       117 ~Al~dl~ak~~~~pl~~llg  136 (138)
+T d3uj2a1         117 IACAKAAAAALGVPLYRFLG  136 (138)
+T ss_dssp             HHHHHHHHHHHTCCHHHHHH
+T ss_pred             HHHHHHHHHHhCCcHHHHhc
+
+
+No 123
+>3ABF_A 4-oxalocrotonate tautomerase; tautomerase, Isomerase; HET: SO4; 1.94A {Thermus thermophilus} SCOP: d.80.1.0
+Probab=27.33  E-value=1.3e+02  Score=15.89  Aligned_cols=17  Identities=24%  Similarity=0.522  Sum_probs=0.0  Template_Neff=11.600
+
+Q ss_pred             hHHHHHHHhcCCCHHHH
+Q FD01845428_045   22 KVCEIIAKELDVPVENI   38 (118)
+Q Consensus        22 kvceiiakeldvpveni   38 (118)
+                      .+++.+++.+++|.+.+
+T Consensus        23 ~i~~~~~~~~~~~~~~~   39 (64)
+T 3ABF_A           23 RLTEMASRLLGEPYEEV   39 (64)
+T ss_dssp             HHHHHHHHHTTCCGGGE
+T ss_pred             HHHHHHHHHHCCCHHHE
+
+
+No 124
+>d7mdha2 d.162.1.1 (A:198-385) Malate dehydrogenase {Sorghum (Sorghum vulgare), chloroplast [TaxId: 4558]}
+Probab=27.32  E-value=1.5e+02  Score=21.67  Aligned_cols=20  Identities=10%  Similarity=0.074  Sum_probs=0.0  Template_Neff=9.100
+
+Q ss_pred             HHHhHHHHHHHhcCCCHHHH
+Q FD01845428_045   19 EHMKVCEIIAKELDVPVENI   38 (118)
+Q Consensus        19 ehmkvceiiakeldvpveni   38 (118)
+                      ++++..-+||+.|+||+.++
+T Consensus         4 D~~R~~~~ia~~l~v~~~~v   23 (188)
+T d7mdha2           4 DENRAKCQLALKAGVFYDKV   23 (188)
+T ss_dssp             HHHHHHHHHHHHTTSCGGGE
+T ss_pred             HHHHHHHHHHHHHCCCHHHc
+
+
+No 125
+>4ZOH_A Putative oxidoreductase molybdopterin-binding subunit; xanthine oxidoreductase family, molybdopterin cofactor, flavin adenine dinucleotide, iron-sulfur cluster, OXIDOREDUCTASE; HET: PG4, FAD, PEG, MCN, 1PE; 2.2A {Sulfolobus tokodaii (strain DSM 16993 / JCM 10545 / NBRC 100140 / 7)}
+Probab=27.12  E-value=1e+02  Score=27.23  Aligned_cols=19  Identities=32%  Similarity=0.567  Sum_probs=0.0  Template_Neff=9.200
+
+Q ss_pred             HHhHHHHHHHhcCCCHHHH
+Q FD01845428_045   20 HMKVCEIIAKELDVPVENI   38 (118)
+Q Consensus        20 hmkvceiiakeldvpveni   38 (118)
+                      +..++.++|++|++|.|.|
+T Consensus       447 ~t~~~~~~a~~L~i~~~~v  465 (706)
+T 4ZOH_A          447 ATAFAQIAADVLELPIEKI  465 (706)
+T ss_dssp             HHHHHHHHHHHHTCCGGGE
+T ss_pred             HHHHHHHHHHHhCCCHHHE
+
+
+No 126
+>d4ajja2 d.162.1.1 (A:160-331) automated matches {Norway rat (Rattus norvegicus) [TaxId: 10116]}
+Probab=27.02  E-value=1.5e+02  Score=20.79  Aligned_cols=20  Identities=10%  Similarity=0.147  Sum_probs=0.0  Template_Neff=9.700
+
+Q ss_pred             HHHhHHHHHHHhcCCCHHHH
+Q FD01845428_045   19 EHMKVCEIIAKELDVPVENI   38 (118)
+Q Consensus        19 ehmkvceiiakeldvpveni   38 (118)
+                      +++.....||+.|++++.++
+T Consensus         6 d~~R~~~~la~~l~v~~~~v   25 (172)
+T d4ajja2           6 DSARFRYLMGERLGVHPLSC   25 (172)
+T ss_dssp             HHHHHHHHHHHHHTSCGGGE
+T ss_pred             HHHHHHHHHHHHHCCCHHHc
+
+
+No 127
+>d1l0oc_ a.4.13.2 (C:) SigmaF {Bacillus stearothermophilus [TaxId: 1422]}
+Probab=27.01  E-value=2.1e+02  Score=15.21  Aligned_cols=20  Identities=25%  Similarity=0.295  Sum_probs=0.0  Template_Neff=11.000
+
+Q ss_pred             HHHHHhcCCCHHHHHHHHHH
+Q FD01845428_045   25 EIIAKELDVPVENILGLAAA   44 (118)
+Q Consensus        25 eiiakeldvpvenilglaaa   44 (118)
+                      +.||++++++.+.+-.+..+
+T Consensus        35 ~eia~~l~~~~~~~~~~~~~   54 (57)
+T d1l0oc_          35 TEIADHLGISPEDVVLAQEA   54 (57)
+T ss_dssp             HHHHHHHTSCHHHHHHHHHH
+T ss_pred             HHHHHHHCCCHHHHHHHHHH
+
+
+No 128
+>d2d4aa2 d.162.1.0 (A:141-307) automated matches {Aeropyrum pernix [TaxId: 56636]}
+Probab=26.70  E-value=1.5e+02  Score=20.89  Aligned_cols=20  Identities=15%  Similarity=0.404  Sum_probs=0.0  Template_Neff=9.600
+
+Q ss_pred             HHHhHHHHHHHhcCCCHHHH
+Q FD01845428_045   19 EHMKVCEIIAKELDVPVENI   38 (118)
+Q Consensus        19 ehmkvceiiakeldvpveni   38 (118)
+                      +.++....||+.++|+++++
+T Consensus         5 d~~R~~~~la~~l~v~~~~v   24 (167)
+T d2d4aa2           5 DSARMAYYISQKLGVSFKSV   24 (167)
+T ss_dssp             HHHHHHHHHHHHHTSCGGGE
+T ss_pred             HHHHHHHHHHHHHCCCHHhe
+
+
+No 129
+>PF11281.10 ; DUF3083 ; Protein of unknown function (DUF3083)
+Probab=26.55  E-value=1.8e+02  Score=25.69  Aligned_cols=29  Identities=24%  Similarity=0.375  Sum_probs=0.0  Template_Neff=5.700
+
+Q ss_pred             hchhhHHHHHHHHHhHHHHHHHhcCCCHH
+Q FD01845428_045    8 CNNVGAVRFVQEHMKVCEIIAKELDVPVE   36 (118)
+Q Consensus         8 cnnvgavrfvqehmkvceiiakeldvpve   36 (118)
+                      ++..|+-||++.-..+.+-+|++|+++.+
+T Consensus       273 ~~r~gygkF~nqV~~~l~~~a~~L~~~~~  301 (315)
+T Q3IGW7_PSET1/4  273 NNEMGYGRFMNQVEKTIHTLCDELAINKQ  301 (315)
+T ss_pred             ccccCHHHHHHHHHHHHHHHHHHhCCChh
+
+
+No 130
+>d3tl2a2 d.162.1.0 (A:148-312) automated matches {Anthrax bacillus (Bacillus anthracis) [TaxId: 1392]}
+Probab=26.54  E-value=1.6e+02  Score=20.51  Aligned_cols=20  Identities=30%  Similarity=0.566  Sum_probs=0.0  Template_Neff=9.700
+
+Q ss_pred             HHHhHHHHHHHhcCCCHHHH
+Q FD01845428_045   19 EHMKVCEIIAKELDVPVENI   38 (118)
+Q Consensus        19 ehmkvceiiakeldvpveni   38 (118)
+                      ++++....||+.|+|+++++
+T Consensus         6 d~~R~~~~la~~l~v~~~~v   25 (165)
+T d3tl2a2           6 DTARFRTFIAQELNLSVKDI   25 (165)
+T ss_dssp             HHHHHHHHHHHHHTCCGGGE
+T ss_pred             HHHHHHHHHHHHhCCCHHHc
+
+
+No 131
+>d1n62b2 d.133.1.1 (B:147-809) Carbon monoxide (CO) dehydrogenase molybdoprotein {Oligotropha carboxidovorans, formerly Pseudomonas carboxydovorans [TaxId: 40137]}
+Probab=26.54  E-value=1.1e+02  Score=27.31  Aligned_cols=19  Identities=37%  Similarity=0.683  Sum_probs=0.0  Template_Neff=8.600
+
+Q ss_pred             HHhHHHHHHHhcCCCHHHH
+Q FD01845428_045   20 HMKVCEIIAKELDVPVENI   38 (118)
+Q Consensus        20 hmkvceiiakeldvpveni   38 (118)
+                      +.+.+.|+|++|+||.|.|
+T Consensus       387 ~t~~~qi~ae~Lgi~~~~I  405 (663)
+T d1n62b2         387 ETTYAQIIATELGIPADDI  405 (663)
+T ss_dssp             HHHHHHHHHHHHTCCGGGE
+T ss_pred             HHHHHHHHHHHHCCCHHHe
+
+
+No 132
+>d1ur5a2 d.162.1.1 (A:144-308) Malate dehydrogenase {Chloroflexus aurantiacus [TaxId: 1108]}
+Probab=26.43  E-value=1.6e+02  Score=20.55  Aligned_cols=20  Identities=30%  Similarity=0.419  Sum_probs=0.0  Template_Neff=9.700
+
+Q ss_pred             HHHhHHHHHHHhcCCCHHHH
+Q FD01845428_045   19 EHMKVCEIIAKELDVPVENI   38 (118)
+Q Consensus        19 ehmkvceiiakeldvpveni   38 (118)
+                      +.++...+||+.|++++.+|
+T Consensus         5 d~~R~~~~la~~l~v~~~~v   24 (165)
+T d1ur5a2           5 DAARYRTFIAMEAGVSVEDV   24 (165)
+T ss_dssp             HHHHHHHHHHHHHTCCGGGE
+T ss_pred             HHHHHHHHHHHHHCCCHHHc
+
+
+No 133
+>d1xkia_ b.60.1.1 (A:) Von Ebner's gland protein (VEGP, tear lipocalin) {Human (Homo sapiens) [TaxId: 9606]}
+Probab=26.33  E-value=1.7e+02  Score=18.77  Aligned_cols=22  Identities=27%  Similarity=0.246  Sum_probs=0.0  Template_Neff=10.900
+
+Q ss_pred             HHHHhHHHHHHHhcCCCHHHHH
+Q FD01845428_045   18 QEHMKVCEIIAKELDVPVENIL   39 (118)
+Q Consensus        18 qehmkvceiiakeldvpvenil   39 (118)
+                      +++++..+..++.++++.++|+
+T Consensus       113 ~~~~~~~~~~~~~~g~~~~~~~  134 (139)
+T d1xkia_         113 LEALEDFEKAAGARGLSTESIL  134 (139)
+T ss_dssp             CCCHHHHHHHHHHTTCTTSCEE
+T ss_pred             HHHHHHHHHHHHHcCCCHHHee
+
+
+No 134
+>3KAN_A D-dopachrome tautomerase; Immune response, CYTOKINE, Tautomerase, CYTOKINE-INHIBITOR complex; HET: RW1; 1.13A {Homo sapiens} SCOP: d.80.1.3
+Probab=26.26  E-value=57  Score=20.26  Aligned_cols=17  Identities=29%  Similarity=0.473  Sum_probs=0.0  Template_Neff=10.800
+
+Q ss_pred             hHHHHHHHhcCCCHHHH
+Q FD01845428_045   22 KVCEIIAKELDVPVENI   38 (118)
+Q Consensus        22 kvceiiakeldvpveni   38 (118)
+                      .+++++++.|++|.++|
+T Consensus        79 ~i~~~l~~~l~~~~~~v   95 (117)
+T 3KAN_A           79 HFFEFLTKELALGQDRI   95 (117)
+T ss_dssp             HHHHHHHHHHTCCGGGE
+T ss_pred             HHHHHHHHHhCCCCcEE
+
+
+No 135
+>3KAN_C D-dopachrome tautomerase; Immune response, CYTOKINE, Tautomerase, CYTOKINE-INHIBITOR complex; HET: RW1; 1.13A {Homo sapiens} SCOP: d.80.1.3
+Probab=26.26  E-value=57  Score=20.26  Aligned_cols=17  Identities=29%  Similarity=0.473  Sum_probs=0.0  Template_Neff=10.800
+
+Q ss_pred             hHHHHHHHhcCCCHHHH
+Q FD01845428_045   22 KVCEIIAKELDVPVENI   38 (118)
+Q Consensus        22 kvceiiakeldvpveni   38 (118)
+                      .+++++++.|++|.++|
+T Consensus        79 ~i~~~l~~~l~~~~~~v   95 (117)
+T 3KAN_C           79 HFFEFLTKELALGQDRI   95 (117)
+T ss_dssp             HHHHHHHHHHTCCGGGE
+T ss_pred             HHHHHHHHHhCCCCcEE
+
+
+No 136
+>TIGR03209 P21_Cbot; clostridium toxin-associated regulator BotR. Clostridium botulinum neurotoxin production is regulated by a regulatory sigma-70 protein, BotR transcription regulator.
+Probab=26.18  E-value=1.3e+02  Score=18.46  Aligned_cols=14  Identities=29%  Similarity=0.380  Sum_probs=0.0  Template_Neff=11.800
+
+Q ss_pred             HHHHHhcCCCHHHH
+Q FD01845428_045   25 EIIAKELDVPVENI   38 (118)
+Q Consensus        25 eiiakeldvpveni   38 (118)
+                      +-||+++++++.++
+T Consensus       127 ~eiA~~l~~s~~~v  140 (142)
+T TIGR03209       127 IDIAKKLHISRQSV  140 (142)
+T ss_pred             HHHHHHHCCCHHHh
+
+
+No 137
+>d2v65a2 d.162.1.0 (A:163-331) automated matches {Champsocephalus gunnari [TaxId: 52237]}
+Probab=26.10  E-value=1.6e+02  Score=20.67  Aligned_cols=20  Identities=10%  Similarity=0.265  Sum_probs=0.0  Template_Neff=9.700
+
+Q ss_pred             HHHhHHHHHHHhcCCCHHHH
+Q FD01845428_045   19 EHMKVCEIIAKELDVPVENI   38 (118)
+Q Consensus        19 ehmkvceiiakeldvpveni   38 (118)
+                      ++++....+|+.|+++++++
+T Consensus         6 d~~R~~~~la~~l~v~~~~v   25 (172)
+T d2v65a2           6 DSARFRHLIGEKLHLHPSSC   25 (172)
+T ss_dssp             HHHHHHHHHHHHHTCCGGGE
+T ss_pred             HHHHHHHHHHHHhCCCHHHc
+
+
+No 138
+>2W3S_F XANTHINE DEHYDROGENASE; XO, XDH, GOUT, IRON, XANTHINE, IRON-SULFUR, OXIDOREDUCTASE, PURINE METABOLISM, MOLYBDENUM COFACTOR, HYPOXANTHINE, HYPERURICEMIA, METAL-BINDING; HET: MOM, FAD, MTE, XAN, FES; 2.6A {RHODOBACTER CAPSULATUS} SCOP: d.41.1.1, d.133.1.1
+Probab=25.86  E-value=1.1e+02  Score=27.52  Aligned_cols=19  Identities=21%  Similarity=0.366  Sum_probs=0.0  Template_Neff=9.100
+
+Q ss_pred             HHhHHHHHHHhcCCCHHHH
+Q FD01845428_045   20 HMKVCEIIAKELDVPVENI   38 (118)
+Q Consensus        20 hmkvceiiakeldvpveni   38 (118)
+                      +..++.|+|++|+||.|+|
+T Consensus       493 ~t~~~qi~ae~Lgi~~~~I  511 (777)
+T 2W3S_F          493 HAKMVQVAAAVLGIDPVQV  511 (777)
+T ss_dssp             HHHHHHHHHHHHTSCGGGE
+T ss_pred             HHHHHHHHHHHHCCCHHHE
+
+
+No 139
+>2NXO_A Hypothetical protein SCO4506; Pfam, DUf178, NYSGXRC, 10093f, PSI-2, Structural Genomics, Protein Structure Initiative, New York SGX Research Center for; 2.04A {Streptomyces coelicolor} SCOP: c.94.1.1
+Probab=25.69  E-value=4.6e+02  Score=18.97  Aligned_cols=43  Identities=16%  Similarity=0.089  Sum_probs=0.0  Template_Neff=11.200
+
+Q ss_pred             HHHHHHHH-HhHHHHHHHhcCCCHHHHHHHHHHHhhhcccchhhh
+Q FD01845428_045   13 AVRFVQEH-MKVCEIIAKELDVPVENILGLAAAESQYGTGRIARE   56 (118)
+Q Consensus        13 avrfvqeh-mkvceiiakeldvpvenilglaaaesqygtgriare   56 (118)
+                      +++++++| ..+.+++++.++++.+-+..... .-.|..+...++
+T Consensus       214 a~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-~~~~~~~~~~~~  257 (291)
+T 2NXO_A          214 SRNLSLEEVEKVAEQAARWEAFDEDTLAKYFT-TLDFRFGAPQLE  257 (291)
+T ss_dssp             HHHHHHHTHHHHHHHHHTTSSSCHHHHHHHHH-HSBCCCSHHHHH
+T ss_pred             HHHHHHHcHHHHHHHHHHHcCCCHHHHHHHHH-hCCCCCCHHHHH
+
+
+No 140
+>d4h83a1 d.54.1.0 (A:20-147) automated matches {Marine actinobacterium [TaxId: 312284]}
+Probab=25.65  E-value=1.7e+02  Score=18.90  Aligned_cols=20  Identities=20%  Similarity=0.509  Sum_probs=0.0  Template_Neff=10.400
+
+Q ss_pred             HhHHHHHHHhcCCCHHHHHH
+Q FD01845428_045   21 MKVCEIIAKELDVPVENILG   40 (118)
+Q Consensus        21 mkvceiiakeldvpvenilg   40 (118)
+                      |-+.++.||..++|+-.++|
+T Consensus       108 ~Al~Dl~ak~~~~pl~~llg  127 (128)
+T d4h83a1         108 TAIWDAVGKALKMPLWKLWG  127 (128)
+T ss_dssp             HHHHHHHHHHTTCBHHHHTT
+T ss_pred             HHHHHHHHHHhCCCHHHHhC
+
+
+No 141
+>d1t2da2 d.162.1.1 (A:151-315) Lactate dehydrogenase {Malaria parasite (Plasmodium falciparum) [TaxId: 5833]}
+Probab=25.63  E-value=1.7e+02  Score=20.44  Aligned_cols=20  Identities=15%  Similarity=0.293  Sum_probs=0.0  Template_Neff=9.700
+
+Q ss_pred             HHHhHHHHHHHhcCCCHHHH
+Q FD01845428_045   19 EHMKVCEIIAKELDVPVENI   38 (118)
+Q Consensus        19 ehmkvceiiakeldvpveni   38 (118)
+                      +.++....||+.|+++++++
+T Consensus         4 D~~R~~~~la~~l~v~~~~v   23 (165)
+T d1t2da2           4 DTSRLKYYISQKLNVCPRDV   23 (165)
+T ss_dssp             HHHHHHHHHHHHHTSCGGGE
+T ss_pred             hHHHHHHHHHHHHCCCHHHc
+
+
+No 142
+>d3t5sa1 d.80.1.0 (A:1-101) automated matches {Giardia lamblia [TaxId: 184922]}
+Probab=25.21  E-value=1.1e+02  Score=18.97  Aligned_cols=19  Identities=11%  Similarity=0.268  Sum_probs=0.0  Template_Neff=10.400
+
+Q ss_pred             HHhHHHHHHHhcCCCHHHH
+Q FD01845428_045   20 HMKVCEIIAKELDVPVENI   38 (118)
+Q Consensus        20 hmkvceiiakeldvpveni   38 (118)
+                      ...+++.+.+.+++|.++|
+T Consensus        77 ~~~i~~~l~~~~gi~~~~i   95 (101)
+T d3t5sa1          77 SAAITGCLTQHFKVKPERV   95 (101)
+T ss_dssp             HHHHHHHHHHHHCCCGGGE
+T ss_pred             HHHHHHHHHHHhCCCcccE
+
+
+No 143
+>d2icta_ a.35.1.3 (A:) Antitoxin HigA {Escherichia coli [TaxId: 562]}
+Probab=25.19  E-value=3.7e+02  Score=17.54  Aligned_cols=28  Identities=14%  Similarity=-0.009  Sum_probs=0.0  Template_Neff=9.000
+
+Q ss_pred             HhHHHHHHHhcCCCHHHHHHHHHHHhhh
+Q FD01845428_045   21 MKVCEIIAKELDVPVENILGLAAAESQY   48 (118)
+Q Consensus        21 mkvceiiakeldvpvenilglaaaesqy   48 (118)
+                      ......|++.+|++++.++++-..-..+
+T Consensus        50 ~~~~~~i~~~l~~~~~~~~~~~~~~~~~   77 (94)
+T d2icta_          50 PEMAIKLSVVIGSSPQMWLNLQNAWSLA   77 (94)
+T ss_dssp             HHHHHHHHHHTCSCHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHCCCHHHHHHHHHHHHHH
+
+
+No 144
+>d2w3sb2 d.133.1.1 (B:124-777) Xanthine dehydrogenase chain B, C-terminal domain {Rhodobacter capsulatus [TaxId: 1061]}
+Probab=25.19  E-value=1.2e+02  Score=27.40  Aligned_cols=19  Identities=21%  Similarity=0.366  Sum_probs=0.0  Template_Neff=8.300
+
+Q ss_pred             HHhHHHHHHHhcCCCHHHH
+Q FD01845428_045   20 HMKVCEIIAKELDVPVENI   38 (118)
+Q Consensus        20 hmkvceiiakeldvpveni   38 (118)
+                      +..++.|+|++|+||.|.|
+T Consensus       370 ~t~~~qi~Ae~Lgi~~~~V  388 (654)
+T d2w3sb2         370 HAKMVQVAAAVLGIDPVQV  388 (654)
+T ss_dssp             HHHHHHHHHHHHTSCGGGE
+T ss_pred             HHHHHHHHHHHHCCCHHHE
+
+
+No 145
+>1X93_A hypothetical protein HP0222; HP0222, JHP0208, helicobacter, pylori, transcription, regulator, Arc, MetJ, Mnt, ParG, CopG, RepA; NMR {Helicobacter pylori} SCOP: a.43.1.3
+Probab=24.79  E-value=2.3e+02  Score=16.91  Aligned_cols=32  Identities=19%  Similarity=0.192  Sum_probs=0.0  Template_Neff=8.700
+
+Q ss_pred             HHHHHHHHhHHHHHHHhcCCCHHHHHHHHHHH
+Q FD01845428_045   14 VRFVQEHMKVCEIIAKELDVPVENILGLAAAE   45 (118)
+Q Consensus        14 vrfvqehmkvceiiakeldvpvenilglaaae   45 (118)
+                      +|+-.+-.+..+.+|++.++++..++.-+..+
+T Consensus         6 irl~~~~~~~l~~~A~~~~~s~s~~ir~~i~~   37 (55)
+T 1X93_A            6 LYFSDEQYQKLEKMANEEEESVGSYIKRYILK   37 (55)
+T ss_dssp             EEECHHHHHHHHHHHHHTTSCTTHHHHHHHHH
+T ss_pred             EECCHHHHHHHHHHHHHcCCCHHHHHHHHHHH
+
+
+No 146
+>1RM6_A 4-hydroxybenzoyl-CoA reductase alpha subunit; xanthine oxidase family, dimer heterotrimers, (a, b, c)2, OXIDOREDUCTASE; HET: FES, FAD, SF4, PCD, EPE; 1.6A {Thauera aromatica} SCOP: d.133.1.1, d.41.1.1
+Probab=24.78  E-value=1.2e+02  Score=27.36  Aligned_cols=19  Identities=21%  Similarity=0.317  Sum_probs=0.0  Template_Neff=9.100
+
+Q ss_pred             HHhHHHHHHHhcCCCHHHH
+Q FD01845428_045   20 HMKVCEIIAKELDVPVENI   38 (118)
+Q Consensus        20 hmkvceiiakeldvpveni   38 (118)
+                      +-.+.+++|++|++|.|+|
+T Consensus       486 ~t~~~qi~ae~Lgi~~~~I  504 (769)
+T 1RM6_A          486 NTMASQVAAEVLGVRLSRI  504 (769)
+T ss_dssp             HHHHHHHHHHHHTCCGGGE
+T ss_pred             hHHHHHHHHHHHCCCHHHE
+
+
+No 147
+>d4uula2 d.162.1.0 (A:155-333) automated matches {Trichomonas vaginalis [TaxId: 5722]}
+Probab=24.78  E-value=1.8e+02  Score=20.74  Aligned_cols=20  Identities=20%  Similarity=0.370  Sum_probs=0.0  Template_Neff=9.600
+
+Q ss_pred             HHHhHHHHHHHhcCCCHHHH
+Q FD01845428_045   19 EHMKVCEIIAKELDVPVENI   38 (118)
+Q Consensus        19 ehmkvceiiakeldvpveni   38 (118)
+                      +.+.....||+.|+|+..+|
+T Consensus         4 d~~R~~~~la~~l~v~~~~v   23 (179)
+T d4uula2           4 DQNRAYYEVASKLGVDVKDV   23 (179)
+T ss_dssp             HHHHHHHHHHHHHTSCGGGE
+T ss_pred             HHHHHHHHHHHHHCCCHHHc
+
+
+No 148
+>3C19_A Uncharacterized protein MK0293; UNCHARACTERIZED PROTEIN, PROTEIN MK0293, PROTEIN STRUCTURE INITIATIVE, PSI-2, New York SGX Research Center for Structural Genomics; 2.5A {Methanopyrus kandleri AV19}
+Probab=24.72  E-value=2.5e+02  Score=22.77  Aligned_cols=26  Identities=23%  Similarity=0.544  Sum_probs=0.0  Template_Neff=6.300
+
+Q ss_pred             HHHHHHhcCCCHHHHHHHHHHHhhhc
+Q FD01845428_045   24 CEIIAKELDVPVENILGLAAAESQYG   49 (118)
+Q Consensus        24 ceiiakeldvpvenilglaaaesqyg   49 (118)
+                      |..||++.|+|+..|...+.++...+
+T Consensus       140 l~~iA~~~g~p~~~v~~~v~~~~~~~  165 (186)
+T 3C19_A          140 CREIGEETGIPPREVKAMVEAAARVG  165 (186)
+T ss_dssp             HHHHHHHHCSCHHHHHHHHHHHHHHT
+T ss_pred             HHHHHHHHCCCHHHHHHHHHHHHHcC
+
+
+No 149
+>d1z05a3 c.55.1.10 (A:81-208) Transcriptional regulator VC2007 {Vibrio cholerae [TaxId: 666]}
+Probab=24.65  E-value=1.9e+02  Score=18.38  Aligned_cols=32  Identities=25%  Similarity=0.363  Sum_probs=0.0  Template_Neff=10.800
+
+Q ss_pred             HhHHHHHHHhcCCCH---HHHHHHHHHHhhhcccc
+Q FD01845428_045   21 MKVCEIIAKELDVPV---ENILGLAAAESQYGTGR   52 (118)
+Q Consensus        21 mkvceiiakeldvpv---enilglaaaesqygtgr   52 (118)
+                      +.+.+.+.+.+++|+   .++--.+.+|..+|.++
+T Consensus        94 ~~~~~~l~~~~~~~v~~~nd~~~~a~~e~~~~~~~  128 (128)
+T d1z05a3          94 LALGPEIYKATGLPVFVANDTRAWALAEKLFGHSQ  128 (128)
+T ss_dssp             BCHHHHHHHHHCSCEEEEEHHHHHHHHHHHHSTTT
+T ss_pred             ccchHHHHHHHCCCEEEeChHHHHHHHHHHhCCCC
+
+
+No 150
+>d2op8a_ d.80.1.0 (A:) automated matches {Bacillus subtilis [TaxId: 1423]}
+Probab=24.59  E-value=1.4e+02  Score=16.80  Aligned_cols=17  Identities=29%  Similarity=0.364  Sum_probs=0.0  Template_Neff=10.300
+
+Q ss_pred             hHHHHHHHhcCCCHHHH
+Q FD01845428_045   22 KVCEIIAKELDVPVENI   38 (118)
+Q Consensus        22 kvceiiakeldvpveni   38 (118)
+                      .+++++++.+++|.+++
+T Consensus        22 ~l~~~l~~~~~~~~~~~   38 (61)
+T d2op8a_          22 KVTEAVKETTGASEEKI   38 (61)
+T ss_dssp             HHHHHHHHHHCCCGGGC
+T ss_pred             HHHHHHHHHHCCCHHhE
+
+
+No 151
+>d4uuoa2 d.162.1.0 (A:154-332) automated matches {Trichomonas vaginalis [TaxId: 5722]}
+Probab=24.58  E-value=1.7e+02  Score=20.72  Aligned_cols=20  Identities=25%  Similarity=0.458  Sum_probs=0.0  Template_Neff=9.700
+
+Q ss_pred             HHHhHHHHHHHhcCCCHHHH
+Q FD01845428_045   19 EHMKVCEIIAKELDVPVENI   38 (118)
+Q Consensus        19 ehmkvceiiakeldvpveni   38 (118)
+                      +.++.-.+||+.|++++.++
+T Consensus         4 d~~R~~~~ia~~l~v~~~~v   23 (179)
+T d4uuoa2           4 DHNRMVGALAAKFGVTPEKI   23 (179)
+T ss_dssp             HHHHHHHHHHHHHTCCGGGE
+T ss_pred             hHHHHHHHHHHHHCCCHHHc
+
+
+No 152
+>d3fi9a2 d.162.1.0 (A:148-327) automated matches {Porphyromonas gingivalis [TaxId: 431947]}
+Probab=24.37  E-value=2e+02  Score=20.60  Aligned_cols=22  Identities=9%  Similarity=0.135  Sum_probs=0.0  Template_Neff=9.500
+
+Q ss_pred             HHHHHhHHHHHHHhcCCCHHHH
+Q FD01845428_045   17 VQEHMKVCEIIAKELDVPVENI   38 (118)
+Q Consensus        17 vqehmkvceiiakeldvpveni   38 (118)
+                      ..+.++....||+.++++++++
+T Consensus         3 ~lDt~R~~~~la~~l~~~~~~V   24 (180)
+T d3fi9a2           3 GLDSTRLQSELAKHFGIKQSLV   24 (180)
+T ss_dssp             CHHHHHHHHHHHHHHTSCGGGE
+T ss_pred             hHHHHHHHHHHHHHHCCCHHHc
+
+
+No 153
+>1T3Q_B quinoline 2-oxidoreductase large subunit; QOR, MOLYBDENUM, MCD, OXIDOREDUCTASE; HET: FAD, SO4, FES, GOL, MCN; 1.8A {Pseudomonas putida} SCOP: d.133.1.1, d.41.1.1
+Probab=23.92  E-value=1.2e+02  Score=27.48  Aligned_cols=19  Identities=26%  Similarity=0.506  Sum_probs=0.0  Template_Neff=9.000
+
+Q ss_pred             HHhHHHHHHHhcCCCHHHH
+Q FD01845428_045   20 HMKVCEIIAKELDVPVENI   38 (118)
+Q Consensus        20 hmkvceiiakeldvpveni   38 (118)
+                      +...+.++|++|++|.++|
+T Consensus       511 ~t~~~qi~ae~Lgi~~~~I  529 (788)
+T 1T3Q_B          511 ETTLAQIAADVLGVPASDV  529 (788)
+T ss_dssp             HHHHHHHHHHHHTSCGGGE
+T ss_pred             hHHHHHHHHHHHCCCHHHE
+
+
+No 154
+>d3fv9a1 d.54.1.0 (A:2-127) automated matches {Roseovarius nubinhibens [TaxId: 89187]}
+Probab=23.57  E-value=1.9e+02  Score=18.73  Aligned_cols=20  Identities=20%  Similarity=0.468  Sum_probs=0.0  Template_Neff=10.300
+
+Q ss_pred             HhHHHHHHHhcCCCHHHHHH
+Q FD01845428_045   21 MKVCEIIAKELDVPVENILG   40 (118)
+Q Consensus        21 mkvceiiakeldvpvenilg   40 (118)
+                      |-+..+.||..++|+..++|
+T Consensus       106 ~Al~dl~ak~~~~pl~~llg  125 (126)
+T d3fv9a1         106 IACWDIAAQAAGLPLCDMTG  125 (126)
+T ss_dssp             HHHHHHHHHHHTCBHHHHTT
+T ss_pred             HHHHHHHHHHhCCcHHHHhC
+
+
+No 155
+>1HFO_E MIGRATION INHIBITORY FACTOR; TAUTOMERASE; 1.65A {TRICHINELLA SPIRALIS} SCOP: d.80.1.3
+Probab=23.57  E-value=89  Score=19.02  Aligned_cols=17  Identities=18%  Similarity=0.497  Sum_probs=0.0  Template_Neff=11.100
+
+Q ss_pred             hHHHHHHHhcCCCHHHH
+Q FD01845428_045   22 KVCEIIAKELDVPVENI   38 (118)
+Q Consensus        22 kvceiiakeldvpveni   38 (118)
+                      ++++.+++.+++|.++|
+T Consensus        78 ~i~~~l~~~~~~~~~~i   94 (113)
+T 1HFO_E           78 KLFDHLNTKLGIPKNRM   94 (113)
+T ss_dssp             HHHHHHHHHHCCCGGGE
+T ss_pred             HHHHHHHHHHCCCcceE
+
+
+No 156
+>1HFO_F MIGRATION INHIBITORY FACTOR; TAUTOMERASE; 1.65A {TRICHINELLA SPIRALIS} SCOP: d.80.1.3
+Probab=23.57  E-value=89  Score=19.02  Aligned_cols=17  Identities=18%  Similarity=0.497  Sum_probs=0.0  Template_Neff=11.100
+
+Q ss_pred             hHHHHHHHhcCCCHHHH
+Q FD01845428_045   22 KVCEIIAKELDVPVENI   38 (118)
+Q Consensus        22 kvceiiakeldvpveni   38 (118)
+                      ++++.+++.+++|.++|
+T Consensus        78 ~i~~~l~~~~~~~~~~i   94 (113)
+T 1HFO_F           78 KLFDHLNTKLGIPKNRM   94 (113)
+T ss_dssp             HHHHHHHHHHCCCGGGE
+T ss_pred             HHHHHHHHHHCCCcceE
+
+
+No 157
+>d1guza2 d.162.1.1 (A:143-305) Malate dehydrogenase {Chlorobium vibrioforme [TaxId: 1098]}
+Probab=23.56  E-value=1.8e+02  Score=20.48  Aligned_cols=20  Identities=30%  Similarity=0.484  Sum_probs=0.0  Template_Neff=9.500
+
+Q ss_pred             HHHhHHHHHHHhcCCCHHHH
+Q FD01845428_045   19 EHMKVCEIIAKELDVPVENI   38 (118)
+Q Consensus        19 ehmkvceiiakeldvpveni   38 (118)
+                      +.++...+||++|+|+..++
+T Consensus         5 d~~R~~~~la~~l~v~~~~v   24 (163)
+T d1guza2           5 DAARFRSFIAMELGVSMQDI   24 (163)
+T ss_dssp             HHHHHHHHHHHHHTCCGGGE
+T ss_pred             HHHHHHHHHHHHHCCCHHHe
+
+
+No 158
+>d2xxja2 d.162.1.0 (A:142-310) automated matches {Thermus thermophilus HB8 [TaxId: 300852]}
+Probab=23.51  E-value=2e+02  Score=20.15  Aligned_cols=20  Identities=15%  Similarity=0.336  Sum_probs=0.0  Template_Neff=9.700
+
+Q ss_pred             HHHhHHHHHHHhcCCCHHHH
+Q FD01845428_045   19 EHMKVCEIIAKELDVPVENI   38 (118)
+Q Consensus        19 ehmkvceiiakeldvpveni   38 (118)
+                      ++++.-..||+.|+++.+++
+T Consensus         4 ds~R~~~~la~~l~v~~~~v   23 (169)
+T d2xxja2           4 DTARFRALLAEYLRVAPQSV   23 (169)
+T ss_dssp             HHHHHHHHHHHHHTSCGGGE
+T ss_pred             HHHHHHHHHHHHhCCCHHHc
+
+
+No 159
+>PF16926.7 ; HisKA_4TM ; Archaeal 4TM region of histidine kinase
+Probab=23.50  E-value=2.3e+02  Score=18.03  Aligned_cols=25  Identities=16%  Similarity=0.109  Sum_probs=0.0  Template_Neff=11.700
+
+Q ss_pred             HHHHhHHHHHHHhcCCCHHHHHHHH
+Q FD01845428_045   18 QEHMKVCEIIAKELDVPVENILGLA   42 (118)
+Q Consensus        18 qehmkvceiiakeldvpvenilgla   42 (118)
+                      ++..+.-..++-|+.-|...|.|.+
+T Consensus       136 ~~~~~~~~~isHelr~pl~~i~g~~  160 (165)
+T G0HS24_HALHT/2  136 NTLSFVNDLFRHDIANGLVVIDGRA  160 (165)
+T ss_pred             HHHHHHHHHHHHHhhccchhhhchh
+
+
+No 160
+>d1gyya_ d.80.1.1 (A:) 4-oxalocrotonate tautomerase homologue YdcE {Escherichia coli [TaxId: 562]}
+Probab=23.14  E-value=1e+02  Score=19.89  Aligned_cols=17  Identities=18%  Similarity=0.432  Sum_probs=0.0  Template_Neff=8.300
+
+Q ss_pred             hHHHHHHHhcCCCHHHH
+Q FD01845428_045   22 KVCEIIAKELDVPVENI   38 (118)
+Q Consensus        22 kvceiiakeldvpveni   38 (118)
+                      .+|+++++.+++|.++|
+T Consensus        23 ~it~~~~~~l~i~~~~i   39 (76)
+T d1gyya_          23 DITDVIIRHLNSKDSSI   39 (76)
+T ss_dssp             HHHHHHHHHHTCCGGGC
+T ss_pred             HHHHHHHHHhCCCcccE
+
+
+No 161
+>5Y6Q_C Aldehyde oxidase large subunit; aldehyde oxidase molybdenum enzyme Methylobacillus sp. KY4400, OXIDOREDUCTASE; HET: SO4, FAD, GOL, MCN; 2.5A {Methylobacillus sp. KY4400}
+Probab=23.14  E-value=1.3e+02  Score=27.06  Aligned_cols=19  Identities=26%  Similarity=0.247  Sum_probs=0.0  Template_Neff=9.200
+
+Q ss_pred             HHhHHHHHHHhcCCCHHHH
+Q FD01845428_045   20 HMKVCEIIAKELDVPVENI   38 (118)
+Q Consensus        20 hmkvceiiakeldvpveni   38 (118)
+                      +-..+.++|++|++|.|.|
+T Consensus       493 ~t~~~qivae~Lgi~~~~V  511 (775)
+T 5Y6Q_C          493 YTILAQTAADHLGVGSETI  511 (775)
+T ss_dssp             HHHHHHHHHHHHSSCGGGC
+T ss_pred             HHHHHHHHHHHHCCCHHHE
+
+
+No 162
+>d1rm6a2 d.133.1.1 (A:134-769) 4-hydroxybenzoyl-CoA reductase alpha subunit HrcA, C-terminal domain {Thauera aromatica [TaxId: 59405]}
+Probab=23.10  E-value=1.3e+02  Score=26.85  Aligned_cols=19  Identities=21%  Similarity=0.317  Sum_probs=0.0  Template_Neff=8.500
+
+Q ss_pred             HHhHHHHHHHhcCCCHHHH
+Q FD01845428_045   20 HMKVCEIIAKELDVPVENI   38 (118)
+Q Consensus        20 hmkvceiiakeldvpveni   38 (118)
+                      +-+++.|+|++|+||.|.|
+T Consensus       353 ~t~~~qi~Ae~Lgi~~e~V  371 (636)
+T d1rm6a2         353 NTMASQVAAEVLGVRLSRI  371 (636)
+T ss_dssp             HHHHHHHHHHHHTCCGGGE
+T ss_pred             HHHHHHHHHHHHCCCHHHE
+
+
+No 163
+>d3tqpa1 d.54.1.0 (A:2-138) automated matches {Coxiella burnetii [TaxId: 777]}
+Probab=23.06  E-value=2.1e+02  Score=19.43  Aligned_cols=20  Identities=30%  Similarity=0.473  Sum_probs=0.0  Template_Neff=9.600
+
+Q ss_pred             HhHHHHHHHhcCCCHHHHHH
+Q FD01845428_045   21 MKVCEIIAKELDVPVENILG   40 (118)
+Q Consensus        21 mkvceiiakeldvpvenilg   40 (118)
+                      +-+++++||..++|+-.+||
+T Consensus       116 ~Al~d~~ak~~g~pl~~~lg  135 (137)
+T d3tqpa1         116 LAVAYAAANNADLPLYRYLG  135 (137)
+T ss_dssp             HHHHHHHHHHTTCCHHHHHH
+T ss_pred             HHHHHHHHHHCCCCHHHHhc
+
+
+No 164
+>d2ra6a_ b.60.1.0 (A:) automated matches {Trichosurus vulpecula [TaxId: 9337]}
+Probab=23.02  E-value=2e+02  Score=18.38  Aligned_cols=22  Identities=32%  Similarity=0.092  Sum_probs=0.0  Template_Neff=11.000
+
+Q ss_pred             HHHHhHHHHHHHhcCCCHHHHH
+Q FD01845428_045   18 QEHMKVCEIIAKELDVPVENIL   39 (118)
+Q Consensus        18 qehmkvceiiakeldvpvenil   39 (118)
+                      ++.++.++-+++.++++.++|+
+T Consensus       112 ~~~~~~~~~~~~~~gl~~~~~~  133 (141)
+T d2ra6a_         112 NEIKKRFEEDFMNRGFRRENIL  133 (141)
+T ss_dssp             HHHHHHHHHHHHTTTCCGGGEE
+T ss_pred             HHHHHHHHHHHHHcCCCHHHee
+
+
+No 165
+>3FWU_A Macrophage migration inhibitory factor-like protein; homotrimer, tautomerase, CYTOKINE; 1.8A {Leishmania major} SCOP: d.80.1.0
+Probab=22.96  E-value=1.1e+02  Score=20.26  Aligned_cols=19  Identities=26%  Similarity=0.295  Sum_probs=0.0  Template_Neff=10.100
+
+Q ss_pred             HHhHHHHHHHhcCCCHHHH
+Q FD01845428_045   20 HMKVCEIIAKELDVPVENI   38 (118)
+Q Consensus        20 hmkvceiiakeldvpveni   38 (118)
+                      ...+++.+++.+++|.++|
+T Consensus        98 ~~~i~~~l~~~~~~~~~~v  116 (133)
+T 3FWU_A           98 TSIVTAAITKECGIVADRI  116 (133)
+T ss_dssp             HHHHHHHHHHHHCCCGGGE
+T ss_pred             HHHHHHHHHHHHCCCcceE
+
+
+No 166
+>d1hfxa_ d.2.1.2 (A:) alpha-Lactalbumin {Guinea pig (Cavia porcellus) [TaxId: 10141]}
+Probab=22.92  E-value=2.1e+02  Score=20.85  Aligned_cols=27  Identities=30%  Similarity=0.404  Sum_probs=0.0  Template_Neff=7.400
+
+Q ss_pred             HHHhc-------CCCHHHHHHHHHHHhhhcccch
+Q FD01845428_045   27 IAKEL-------DVPVENILGLAAAESQYGTGRI   53 (118)
+Q Consensus        27 iakel-------dvpvenilglaaaesqygtgri   53 (118)
+                      +|++|       ++++..++-+|-.||.+-|..+
+T Consensus         8 la~~L~~~~~~~~~~~~~~~cIa~~ES~~n~~a~   41 (123)
+T d1hfxa_           8 LSHELNDLAGYRDITLPEWLCIIFHISGYDTQAI   41 (123)
+T ss_dssp             HHHHTTTTTTGGGCCHHHHHHHHHHHHTTBTTCE
+T ss_pred             HHHHHHHHcCCCCCCHHHHHHHHHHHhCCCcccE
+
+
+No 167
+>PF05509.13 ; TraY ; TraY domain
+Probab=22.91  E-value=2.5e+02  Score=14.79  Aligned_cols=32  Identities=3%  Similarity=0.010  Sum_probs=0.0  Template_Neff=10.500
+
+Q ss_pred             HHHHHHHHhHHHHHHHhcCCCHHHHHHHHHHH
+Q FD01845428_045   14 VRFVQEHMKVCEIIAKELDVPVENILGLAAAE   45 (118)
+Q Consensus        14 vrfvqehmkvceiiakeldvpvenilglaaae   45 (118)
+                      +++-.+-....+.+|+..++++..++..+..+
+T Consensus         3 i~~~~~~~~~l~~~a~~~~~s~~~~i~~~i~~   34 (49)
+T A7N8V1_VIBCB/9    3 LTLDKQTYALLNQASQRSFRSLKKEASLRLID   34 (49)
+T ss_pred             eeeCHHHHHHHHHHHHhcCCCHHHHHHHHHHH
+
+
+No 168
+>4CFP_B MEMBRANE-BOUND LYTIC MUREIN TRANSGLYCOSYLASE C; LYASE; HET: P6G, NAG, CIT, AMV, AMU; 2.15A {ESCHERICHIA COLI}
+Probab=22.84  E-value=5e+02  Score=20.91  Aligned_cols=37  Identities=11%  Similarity=0.187  Sum_probs=0.0  Template_Neff=9.300
+
+Q ss_pred             HHHHHHHhHHHHHHHhcCCCHHHHHHHHHHHhhhccc
+Q FD01845428_045   15 RFVQEHMKVCEIIAKELDVPVENILGLAAAESQYGTG   51 (118)
+Q Consensus        15 rfvqehmkvceiiakeldvpvenilglaaaesqygtg   51 (118)
+                      +...........+|++.+||..-++++...||.+...
+T Consensus       169 ~~~~~~~~~i~~~a~~~~v~~~ll~ai~~~ES~~~p~  205 (341)
+T 4CFP_B          169 KRAHKYLGMVRQASRKYGVDESLILAIMQTQSSFNPY  205 (341)
+T ss_dssp             HHHGGGHHHHHHHHHHHTCCHHHHHHHHHHHHTTCTT
+T ss_pred             HHHHHHHHHHHHHHHHhCCCHHHHHHHHHHHcCCCCC
+
+
+No 169
+>6LR3_F Macrophage migration inhibitory factor; Oncomelania hupensis macrophage migration inhibitory factor, Isomerase, Beta-alpha-beta fold, CYTOKINE; HET: SO4; 1.77A {Oncomelania hupensis}
+Probab=22.82  E-value=1e+02  Score=19.83  Aligned_cols=17  Identities=24%  Similarity=0.407  Sum_probs=0.0  Template_Neff=10.600
+
+Q ss_pred             hHHHHHHHhcCCCHHHH
+Q FD01845428_045   22 KVCEIIAKELDVPVENI   38 (118)
+Q Consensus        22 kvceiiakeldvpveni   38 (118)
+                      .+++.+++.+++|.++|
+T Consensus        79 ~i~~~l~~~l~i~~~~i   95 (131)
+T 6LR3_F           79 DMEDMFIEHLNVRRERI   95 (131)
+T ss_dssp             HHHHHHHHHHCCCGGGE
+T ss_pred             HHHHHHHHHhCCChheE
+
+
+No 170
+>6LR3_L Macrophage migration inhibitory factor; Oncomelania hupensis macrophage migration inhibitory factor, Isomerase, Beta-alpha-beta fold, CYTOKINE; HET: SO4; 1.77A {Oncomelania hupensis}
+Probab=22.82  E-value=1e+02  Score=19.83  Aligned_cols=17  Identities=24%  Similarity=0.407  Sum_probs=0.0  Template_Neff=10.600
+
+Q ss_pred             hHHHHHHHhcCCCHHHH
+Q FD01845428_045   22 KVCEIIAKELDVPVENI   38 (118)
+Q Consensus        22 kvceiiakeldvpveni   38 (118)
+                      .+++.+++.+++|.++|
+T Consensus        79 ~i~~~l~~~l~i~~~~i   95 (131)
+T 6LR3_L           79 DMEDMFIEHLNVRRERI   95 (131)
+T ss_dssp             HHHHHHHHHHCCCGGGE
+T ss_pred             HHHHHHHHHhCCChheE
+
+
+No 171
+>d2ptza2 d.54.1.1 (A:1-138) Enolase {Trypanosome (Trypanosoma brucei) [TaxId: 5691]}
+Probab=22.81  E-value=2.6e+02  Score=19.22  Aligned_cols=20  Identities=25%  Similarity=0.350  Sum_probs=0.0  Template_Neff=9.400
+
+Q ss_pred             HhHHHHHHHhcCCCHHHHHH
+Q FD01845428_045   21 MKVCEIIAKELDVPVENILG   40 (118)
+Q Consensus        21 mkvceiiakeldvpvenilg   40 (118)
+                      |-+.++.||.+++|+-.++|
+T Consensus       114 ~Al~D~~ak~~~~pl~~llg  133 (138)
+T d2ptza2         114 MAISKAAAAAKGVPLYRYLA  133 (138)
+T ss_dssp             HHHHHHHHHHHTSCHHHHHH
+T ss_pred             HHHHHHHHHHcCCcHHHHHH
+
+
+No 172
+>d2ewda4 d.162.1.1 (A:165-333) Lactate dehydrogenase {Cryptosporidium parvum [TaxId: 5807]}
+Probab=22.81  E-value=1.9e+02  Score=20.38  Aligned_cols=20  Identities=15%  Similarity=0.353  Sum_probs=0.0  Template_Neff=9.600
+
+Q ss_pred             HHHhHHHHHHHhcCCCHHHH
+Q FD01845428_045   19 EHMKVCEIIAKELDVPVENI   38 (118)
+Q Consensus        19 ehmkvceiiakeldvpveni   38 (118)
+                      ++++...++|+.|++++.++
+T Consensus         4 dt~R~~~~la~~l~v~~~~v   23 (171)
+T d2ewda4           4 DSSRFRTFIAQHFGVNASDV   23 (171)
+T ss_dssp             HHHHHHHHHHHHHTSCGGGE
+T ss_pred             HHHHHHHHHHHHHCCCHHHe
+
+
+No 173
+>PF10042.11 ; DUF2278 ; Uncharacterized conserved protein (DUF2278)
+Probab=22.76  E-value=72  Score=25.70  Aligned_cols=23  Identities=30%  Similarity=0.664  Sum_probs=0.0  Template_Neff=6.900
+
+Q ss_pred             ccCCccccCCCCCc-eEEehhhHH
+Q FD01845428_045   69 FQSGRVHPKDSNKT-WVAIFSSFS   91 (118)
+Q Consensus        69 fqsgrvhpkdsnkt-wvaif~~f~   91 (118)
+                      +|.|-+--...+.. |.|+|+.|+
+T Consensus       181 ~QDGal~i~~~~~~~~~a~F~aF~  204 (215)
+T D2B378_STRRD/1  181 WQDGGLLLSLPAESRWIAIFLAFQ  204 (215)
+T ss_pred             cCCeEEEEEcCccccEEEEEEeec
+
+
+No 174
+>PF01464.22 ; SLT ; Transglycosylase SLT domain
+Probab=22.72  E-value=2.8e+02  Score=15.30  Aligned_cols=29  Identities=14%  Similarity=0.032  Sum_probs=0.0  Template_Neff=13.300
+
+Q ss_pred             HHHHHHHhcCCCHHHHHHHHHHHhhhccc
+Q FD01845428_045   23 VCEIIAKELDVPVENILGLAAAESQYGTG   51 (118)
+Q Consensus        23 vceiiakeldvpvenilglaaaesqygtg   51 (118)
+                      +.+-++++.+++...+.++...||.....
+T Consensus         2 ~~~~~~~~~~~~~~~~~~~~~~es~~~~~   30 (129)
+T YQBO_BACSU/135    2 AAIMATKTPMSWLPGLMTIAQHESGGNPK   30 (129)
+T ss_pred             HHHHHhcCCCCCHHHHHHHHHHhhCCCCC
+
+
+No 175
+>d2gpea_ a.43.1.11 (A:) automated matches {Escherichia coli [TaxId: 562]}
+Probab=22.66  E-value=2.7e+02  Score=14.98  Aligned_cols=32  Identities=13%  Similarity=0.072  Sum_probs=0.0  Template_Neff=10.000
+
+Q ss_pred             HHHHHHHHhHHHHHHHhcCCCHHHHHHHHHHH
+Q FD01845428_045   14 VRFVQEHMKVCEIIAKELDVPVENILGLAAAE   45 (118)
+Q Consensus        14 vrfvqehmkvceiiakeldvpvenilglaaae   45 (118)
+                      +++-.+-..-.+.+|++.+++.+.++--+..+
+T Consensus         7 i~l~~~~~~~l~~~a~~~~~s~s~~i~~~l~~   38 (47)
+T d2gpea_           7 VKLDDATRERIKSAATRIDRTPHWLIKQAIFS   38 (47)
+T ss_dssp             EEEEHHHHHHHHHHHHHTTCCHHHHHHHHHHH
+T ss_pred             eecCHHHHHHHHHHHHhcCCCHHHHHHHHHHH
+
+
+No 176
+>d1nxha_ a.200.1.1 (A:) Hypothetical protein MTH393 {Methanobacterium thermoautotrophicum [TaxId: 145262]}
+Probab=22.61  E-value=1.9e+02  Score=23.01  Aligned_cols=19  Identities=26%  Similarity=0.525  Sum_probs=0.0  Template_Neff=4.700
+
+Q ss_pred             HHhHHHHHHHhcCCCHHHH
+Q FD01845428_045   20 HMKVCEIIAKELDVPVENI   38 (118)
+Q Consensus        20 hmkvceiiakeldvpveni   38 (118)
+                      |-.+..-||++||+|.+.+
+T Consensus        19 ~ddvv~pis~~Lgi~~eel   37 (124)
+T d1nxha_          19 QEDVVKPLSRELEIDVEEF   37 (124)
+T ss_dssp             CCCCCTTTTTTGGGTHHHH
+T ss_pred             HHHcHHHHHHHhCCCHHHH
+
+
+No 177
+>d5ncka1 c.55.1.0 (A:1-123) automated matches {Fusobacterium nucleatum [TaxId: 851]}
+Probab=22.59  E-value=3e+02  Score=17.30  Aligned_cols=30  Identities=20%  Similarity=0.534  Sum_probs=0.0  Template_Neff=10.800
+
+Q ss_pred             HHHHHHHhcCCCH---HHHHHHHHHHhhhcccc
+Q FD01845428_045   23 VCEIIAKELDVPV---ENILGLAAAESQYGTGR   52 (118)
+Q Consensus        23 vceiiakeldvpv---enilglaaaesqygtgr   52 (118)
+                      +.+.+++.+++|+   .+.-..|.+|..+|.++
+T Consensus        90 ~~~~l~~~~~~~v~v~nd~~a~a~ae~~~~~~~  122 (123)
+T d5ncka1          90 LVKILEEKYNLPIVLENDVNCVALGEKWVGAGK  122 (123)
+T ss_dssp             HHHHHHHHHCSCEEEEEHHHHHHHHHHHHSTTT
+T ss_pred             HHHHHHHHhCCCEEEEchhHHHHHHHHHhcCCC
+
+
+No 178
+>d4jcoa1 c.2.1.5 (A:22-162) automated matches {Haloarcula marismortui [TaxId: 2238]}
+Probab=22.37  E-value=1.4e+02  Score=18.37  Aligned_cols=18  Identities=17%  Similarity=0.252  Sum_probs=0.0  Template_Neff=11.800
+
+Q ss_pred             HHHHHHHhcCCCHHHHHH
+Q FD01845428_045   23 VCEIIAKELDVPVENILG   40 (118)
+Q Consensus        23 vceiiakeldvpvenilg   40 (118)
+                      .+..+.++-+.|.++|+|
+T Consensus       125 ~~~~~~~~~~~~~~~~~g  142 (142)
+T d4jcoa1         125 LNRHLYEAGDRSREQVIG  142 (142)
+T ss_dssp             HHHHHHHHSCSCGGGEEE
+T ss_pred             HHHHHHHHcCCChHhcCC
+
+
+No 179
+>PF01187.20 ; MIF ; Macrophage migration inhibitory factor (MIF)
+Probab=22.35  E-value=1.2e+02  Score=18.35  Aligned_cols=21  Identities=24%  Similarity=0.521  Sum_probs=0.0  Template_Neff=11.200
+
+Q ss_pred             HHHHhHHHHHHHhcCCCHHHH
+Q FD01845428_045   18 QEHMKVCEIIAKELDVPVENI   38 (118)
+Q Consensus        18 qehmkvceiiakeldvpveni   38 (118)
+                      +-...+|+++++.++++.++|
+T Consensus        74 ~~~~~i~~~l~~~~~~~~~~i   94 (114)
+T MIF2_CAEEL/2-1   74 RNTAAITEFCGKELGLPKDKV   94 (114)
+T ss_pred             HHHHHHHHHHHHHHCCCcceE
+
+
+No 180
+>3UNC_B Xanthine dehydrogenase/oxidase; Xanthine Dehydrogenase, Oxidoreductase; HET: FAD, MTE, GOL, FES, SAL; 1.65A {Bos taurus}
+Probab=22.27  E-value=1.4e+02  Score=28.80  Aligned_cols=19  Identities=32%  Similarity=0.733  Sum_probs=0.0  Template_Neff=9.100
+
+Q ss_pred             HHhHHHHHHHhcCCCHHHH
+Q FD01845428_045   20 HMKVCEIIAKELDVPVENI   38 (118)
+Q Consensus        20 hmkvceiiakeldvpveni   38 (118)
+                      |.+++.|+|++|++|.|.|
+T Consensus      1043 ~t~~~qi~ae~Lgip~e~V 1061 (1332)
+T 3UNC_B         1043 HTKMVQVASKALKIPISKI 1061 (1332)
+T ss_dssp             HHHHHHHHHHHHTSCGGGE
+T ss_pred             hHHHHHHHHHHHCCCHHHe
+
+
+No 181
+>3FWT_A Macrophage migration inhibitory factor-like protein; homotrimer, tautomerase, CYTOKINE; 1.9A {Leishmania major} SCOP: d.80.1.0, l.1.1.1
+Probab=22.25  E-value=1.3e+02  Score=19.76  Aligned_cols=19  Identities=32%  Similarity=0.553  Sum_probs=0.0  Template_Neff=10.200
+
+Q ss_pred             HHhHHHHHHHhcCCCHHHH
+Q FD01845428_045   20 HMKVCEIIAKELDVPVENI   38 (118)
+Q Consensus        20 hmkvceiiakeldvpveni   38 (118)
+                      ...+++++++.+++|.+++
+T Consensus        98 ~~~i~~~l~~~l~~~~~~v  116 (133)
+T 3FWT_A           98 TPRIAAAITKECGIPAERI  116 (133)
+T ss_dssp             HHHHHHHHHHHHCCCGGGE
+T ss_pred             HHHHHHHHHHHHCCChheE
+
+
+No 182
+>6CUQ_C Macrophage migration inhibitory factor-like protein; SSGCID, Structural genomics, Seattle Structural Genomics Center for Infectious Disease, CYTOKINE; 2.45A {Entamoeba histolytica} SCOP: l.1.1.1, d.80.1.0
+Probab=22.22  E-value=91  Score=20.48  Aligned_cols=18  Identities=17%  Similarity=0.460  Sum_probs=0.0  Template_Neff=9.800
+
+Q ss_pred             HhHHHHHHHhcCCCHHHH
+Q FD01845428_045   21 MKVCEIIAKELDVPVENI   38 (118)
+Q Consensus        21 mkvceiiakeldvpveni   38 (118)
+                      ..+++.+.+.+++|.++|
+T Consensus        85 ~~l~~~l~~~l~i~~~~i  102 (121)
+T 6CUQ_C           85 DRYCKLLEQKAGIEGGNI  102 (121)
+T ss_dssp             HHHHHHHHHHHCCCGGGE
+T ss_pred             HHHHHHHHHHHCCCCceE
+
+
+No 183
+>PF19600.1 ; DUF6105 ; Family of unknown function (DUF6105)
+Probab=22.15  E-value=3.1e+02  Score=21.98  Aligned_cols=26  Identities=35%  Similarity=0.373  Sum_probs=0.0  Template_Neff=3.700
+
+Q ss_pred             HHHHhHHHHHHHhcCCCHHHHHHHHH
+Q FD01845428_045   18 QEHMKVCEIIAKELDVPVENILGLAA   43 (118)
+Q Consensus        18 qehmkvceiiakeldvpvenilglaa   43 (118)
+                      |-|..|-+|-..-|||++|.|-+|.+
+T Consensus        36 ~~hDlVF~iYG~iLGidP~~IP~lva   61 (110)
+T A0A1B9RZ89_9RH   36 QVHDLTFQIYGNVLGIPPETIPPLVA   61 (110)
+T ss_pred             HHHHHHHHHHHHHHCCCHHHcHHHHH
+
+
+No 184
+>PF07638.13 ; Sigma70_ECF ; ECF sigma factor
+Probab=22.14  E-value=2e+02  Score=18.09  Aligned_cols=14  Identities=29%  Similarity=0.484  Sum_probs=0.0  Template_Neff=12.300
+
+Q ss_pred             HHHHHhcCCCHHHH
+Q FD01845428_045   25 EIIAKELDVPVENI   38 (118)
+Q Consensus        25 eiiakeldvpveni   38 (118)
+                      +-||+++|++...+
+T Consensus       153 ~eIA~~lg~s~~~v  166 (183)
+T Q7UJC0_RHOBA/2  153 KEIAAELNLGLRTV  166 (183)
+T ss_pred             HHHHHHcCCCHHHH
+
+
+No 185
+>1NXH_A MTH396 protein; Hypothetical protein, Disulfide bonds, Homodimer, Structural Genomics, PSI, Protein Structure Initiative, Northeast Structural Genomics Consortium, NESG; HET: MSE; 2.8A {Methanothermobacter thermautotrophicus} SCOP: a.200.1.1
+Probab=22.02  E-value=1.9e+02  Score=22.97  Aligned_cols=19  Identities=26%  Similarity=0.525  Sum_probs=0.0  Template_Neff=4.700
+
+Q ss_pred             HHhHHHHHHHhcCCCHHHH
+Q FD01845428_045   20 HMKVCEIIAKELDVPVENI   38 (118)
+Q Consensus        20 hmkvceiiakeldvpveni   38 (118)
+                      |-.|..-||++||+|.+.+
+T Consensus        21 ~ddvv~pia~~Lgi~~eel   39 (126)
+T 1NXH_A           21 QEDVVKPLSRELEIDVEEF   39 (126)
+T ss_dssp             CCCCCTTTTTTGGGTHHHH
+T ss_pred             hHHcHHHHHHHhCCCHHHH
+
+
+No 186
+>d2nxoa1 c.94.1.1 (A:5-281) Hypothetical protein SCo4506 {Streptomyces coelicolor [TaxId: 1902]}
+Probab=22.00  E-value=5.5e+02  Score=18.34  Aligned_cols=43  Identities=16%  Similarity=0.089  Sum_probs=0.0  Template_Neff=11.300
+
+Q ss_pred             HHHHHHHH-HhHHHHHHHhcCCCHHHHHHHHHHHhhhcccchhhh
+Q FD01845428_045   13 AVRFVQEH-MKVCEIIAKELDVPVENILGLAAAESQYGTGRIARE   56 (118)
+Q Consensus        13 avrfvqeh-mkvceiiakeldvpvenilglaaaesqygtgriare   56 (118)
+                      +.+++.+| ..+.+++++.++++.+.+..... .-.|..+...++
+T Consensus       208 a~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-~~~~~~~~~~~~  251 (277)
+T d2nxoa1         208 SRNLSLEEVEKVAEQAARWEAFDEDTLAKYFT-TLDFRFGAPQLE  251 (277)
+T ss_dssp             HHHHHHHTHHHHHHHHHTTSSSCHHHHHHHHH-HSBCCCSHHHHH
+T ss_pred             HHhhhHHhHHHHHHHHHHHcCCCHHHHHHHHh-hCCccCCHHHHH
+
+
+No 187
+>PF02594.18 ; DUF167 ; Uncharacterised ACR, YggU family COG1872
+Probab=21.94  E-value=2e+02  Score=18.87  Aligned_cols=21  Identities=14%  Similarity=0.246  Sum_probs=0.0  Template_Neff=7.800
+
+Q ss_pred             HHHHhHHHHHHHhcCCCHHHH
+Q FD01845428_045   18 QEHMKVCEIIAKELDVPVENI   38 (118)
+Q Consensus        18 qehmkvceiiakeldvpveni   38 (118)
+                      +-...+++.+|+.|+||..+|
+T Consensus        37 ~AN~~li~~la~~l~v~~~~i   57 (73)
+T Q6AQ55_DESPS/1   37 KANKELIVFLSRLLDCRKCDI   57 (73)
+T ss_pred             hHHHHHHHHHHHHhCCCHHhE
+
+
+No 188
+>PF16777.7 ; RHH_7 ; Transcriptional regulator, RHH-like, CopG
+Probab=21.91  E-value=2.1e+02  Score=13.57  Aligned_cols=32  Identities=13%  Similarity=0.088  Sum_probs=0.0  Template_Neff=11.500
+
+Q ss_pred             HHHHHHHHhHHHHHHHhcCCCHHHHHHHHHHH
+Q FD01845428_045   14 VRFVQEHMKVCEIIAKELDVPVENILGLAAAE   45 (118)
+Q Consensus        14 vrfvqehmkvceiiakeldvpvenilglaaae   45 (118)
+                      +++-++-....+.+|+..+.++.+++..+..+
+T Consensus         3 ~~l~~~~~~~~~~~a~~~~~~~~~~v~~~i~~   34 (41)
+T O25288_HELPY/1    3 FYLSKDEHDVLRRLADEEVESVNSFVKRHILK   34 (41)
+T ss_pred             eeCCHHHHHHHHHHHHHcCCCHHHHHHHHHHH
+
+
+No 189
+>4BVW_A APOLIPOPROTEIN(A); HYDROLASE, CARDIOVASCULAR DISEASE, DRUG DISCOVERY, OPTICAL BIOSENSORS; HET: HKY; 2.0A {HOMO SAPIENS} SCOP: g.14.1.1
+Probab=21.91  E-value=55  Score=18.12  Aligned_cols=12  Identities=50%  Similarity=0.548  Sum_probs=0.0  Template_Neff=12.300
+
+Q ss_pred             HHHHhcCCCHHH
+Q FD01845428_045   26 IIAKELDVPVEN   37 (118)
+Q Consensus        26 iiakeldvpven   37 (118)
+                      ||||+-||+.++
+T Consensus         2 ~~~~~~~~~~~~   13 (98)
+T 4BVW_A            2 IAAKEEGVSLEK   13 (98)
+T ss_dssp             ------------
+T ss_pred             cccccCCCCccc
+
+
+No 190
+>d4jcoa2 d.162.1.1 (A:163-330) automated matches {Haloarcula marismortui [TaxId: 2238]}
+Probab=21.90  E-value=2.2e+02  Score=19.76  Aligned_cols=20  Identities=25%  Similarity=0.632  Sum_probs=0.0  Template_Neff=9.800
+
+Q ss_pred             HHHhHHHHHHHhcCCCHHHH
+Q FD01845428_045   19 EHMKVCEIIAKELDVPVENI   38 (118)
+Q Consensus        19 ehmkvceiiakeldvpveni   38 (118)
+                      +.++...++|++++++++++
+T Consensus         6 d~~R~~~~la~~l~v~~~~v   25 (161)
+T d4jcoa2           6 DSARFRYVLSEEFDAPVQNV   25 (161)
+T ss_dssp             HHHHHHHHHHHHHTCCGGGE
+T ss_pred             HHHHHHHHHHHHhCCCHHHe
+
+
+No 191
+>TIGR03313 Se_sel_red_Mo; probable selenate reductase, molybdenum-binding subunit. Our comparative genomics suggests this protein family to be a subunit of a selenium-dependent molybdenum hydroxylase, although the substrate is not specified.
+Probab=21.89  E-value=1.5e+02  Score=28.50  Aligned_cols=19  Identities=21%  Similarity=0.497  Sum_probs=0.0  Template_Neff=7.800
+
+Q ss_pred             HHhHHHHHHHhcCCCHHHH
+Q FD01845428_045   20 HMKVCEIIAKELDVPVENI   38 (118)
+Q Consensus        20 hmkvceiiakeldvpveni   38 (118)
+                      +-+++.|+|++|++|++.|
+T Consensus       687 ~T~~~qi~Ae~Lgi~~~~I  705 (951)
+T TIGR03313       687 DTVVSKLTAEVLHCPMDDV  705 (951)
+T ss_pred             HHHHHHHHHHHHCCCHHHe
+
+
+No 192
+>d1j1va_ a.4.12.2 (A:) Chromosomal replication initiation factor DnaA C-terminal domain IV {Escherichia coli [TaxId: 562]}
+Probab=21.86  E-value=2e+02  Score=18.35  Aligned_cols=20  Identities=15%  Similarity=0.316  Sum_probs=0.0  Template_Neff=9.500
+
+Q ss_pred             HhHHHHHHHhcCCCHHHHHH
+Q FD01845428_045   21 MKVCEIIAKELDVPVENILG   40 (118)
+Q Consensus        21 mkvceiiakeldvpvenilg   40 (118)
+                      ..+++.+++.++++.+.|.+
+T Consensus         4 ~~i~~~v~~~~~i~~~~l~~   23 (94)
+T d1j1va_           4 DNIQKTVAEYYKIKVADLLS   23 (94)
+T ss_dssp             HHHHHHHHHHTTCCHHHHHS
+T ss_pred             HHHHHHHHHHHCCCHHHHCC
+
+
+No 193
+>PF02738.20 ; Ald_Xan_dh_C2 ; Molybdopterin-binding domain of aldehyde dehydrogenase
+Probab=21.83  E-value=1.4e+02  Score=25.45  Aligned_cols=19  Identities=26%  Similarity=0.567  Sum_probs=0.0  Template_Neff=9.300
+
+Q ss_pred             HHhHHHHHHHhcCCCHHHH
+Q FD01845428_045   20 HMKVCEIIAKELDVPVENI   38 (118)
+Q Consensus        20 hmkvceiiakeldvpveni   38 (118)
+                      +...+.++|++|++|.|.|
+T Consensus       333 ~t~~~~~~ae~Lgi~~~~v  351 (555)
+T E8MZZ5_ANATU/1  333 NTILTQIAAETLHMPIEQV  351 (555)
+T ss_pred             hhHHHHHHHHHhCCCHHHE
+
+
+No 194
+>d5lvta_ a.55.1.0 (A:) automated matches {Lactococcus lactis [TaxId: 272623]}
+Probab=21.64  E-value=3.9e+02  Score=16.85  Aligned_cols=23  Identities=9%  Similarity=0.039  Sum_probs=0.0  Template_Neff=9.600
+
+Q ss_pred             hHHHHHHHhcCCCHHHHHHHHHH
+Q FD01845428_045   22 KVCEIIAKELDVPVENILGLAAA   44 (118)
+Q Consensus        22 kvceiiakeldvpvenilglaaa   44 (118)
+                      .+++.||++.+++...+...--+
+T Consensus         6 ~li~~ia~~~~~~~~~~~~~~~~   28 (91)
+T d5lvta_           6 DLIAEVAAKTGLTKKDSEKAVNA   28 (91)
+T ss_dssp             HHHHHHHHHHCCCHHHHHHHHHH
+T ss_pred             HHHHHHHHHHCCCHHHHHHHHHH
+
+
+No 195
+>d3nvvc2 d.133.1.1 (C:695-1325) automated matches {Cow (Bos taurus) [TaxId: 9913]}
+Probab=21.57  E-value=1.7e+02  Score=26.20  Aligned_cols=19  Identities=32%  Similarity=0.733  Sum_probs=0.0  Template_Neff=8.500
+
+Q ss_pred             HHhHHHHHHHhcCCCHHHH
+Q FD01845428_045   20 HMKVCEIIAKELDVPVENI   38 (118)
+Q Consensus        20 hmkvceiiakeldvpveni   38 (118)
+                      +..+..|+|++|+||.|.|
+T Consensus       349 ~t~~~qi~Ae~Lgv~~~~V  367 (631)
+T d3nvvc2         349 HTKMVQVASKALKIPISKI  367 (631)
+T ss_dssp             HHHHHHHHHHHHTSCGGGE
+T ss_pred             HHHHHHHHHHHHCCCHHHe
+
+
+No 196
+>d2cpga_ a.43.1.3 (A:) Transcriptional repressor CopG {Streptococcus agalactiae [TaxId: 1311]}
+Probab=21.44  E-value=2.5e+02  Score=14.25  Aligned_cols=32  Identities=13%  Similarity=0.311  Sum_probs=0.0  Template_Neff=10.600
+
+Q ss_pred             HHHHHHHHhHHHHHHHhcCCCHHHHHHHHHHH
+Q FD01845428_045   14 VRFVQEHMKVCEIIAKELDVPVENILGLAAAE   45 (118)
+Q Consensus        14 vrfvqehmkvceiiakeldvpvenilglaaae   45 (118)
+                      +++-.+-.+-.+.+|+..|++.+.++-.+..+
+T Consensus         7 i~l~~~~~~~l~~~a~~~~~s~~~~i~~~l~~   38 (43)
+T d2cpga_           7 ITLSESVLENLEKMAREMGLSKSAMISVALEN   38 (43)
+T ss_dssp             EEEEHHHHHHHHHHHHHHTCCHHHHHHHHHHH
+T ss_pred             eecCHHHHHHHHHHHHHhCCCHHHHHHHHHHH
+
+
+No 197
+>PF12685.9 ; SpoIIIAH ; SpoIIIAH-like protein
+Probab=21.29  E-value=2.1e+02  Score=23.81  Aligned_cols=21  Identities=19%  Similarity=0.496  Sum_probs=0.0  Template_Neff=6.300
+
+Q ss_pred             HHHHhHHHHHHHhcCCCHHHH
+Q FD01845428_045   18 QEHMKVCEIIAKELDVPVENI   38 (118)
+Q Consensus        18 qehmkvceiiakeldvpveni   38 (118)
+                      .+-.++.+|+.+++++|.+||
+T Consensus       207 ~~aaqI~diV~~~t~v~~~~I  227 (229)
+T D7GUJ8_9FIRM/7  207 QERAQIEDIVKRKTEIGADGI  227 (229)
+T ss_pred             HHHHHHHHHHHHHHCCChhhc
+
+
+No 198
+>PF09999.11 ; DUF2240 ; Uncharacterized protein conserved in archaea (DUF2240)
+Probab=20.99  E-value=1.7e+02  Score=22.40  Aligned_cols=15  Identities=20%  Similarity=0.333  Sum_probs=0.0  Template_Neff=6.600
+
+Q ss_pred             HHHHhcCCCHHHHHH
+Q FD01845428_045   26 IIAKELDVPVENILG   40 (118)
+Q Consensus        26 iiakeldvpvenilg   40 (118)
+                      ++|+|+||+++.++.
+T Consensus       125 lvAre~Gvdv~~~~~  139 (141)
+T A0A1U7EVC0_NAT  125 LYAHEHGLDVDDYAA  139 (141)
+T ss_pred             HHHHHcCCChHHHhh
+
+
+No 199
+>4UHW_A ALDEHYDE OXIDASE; OXIDOREDUCTASE, DRUG METABOLISM, MOLYBDENUM ENZYMES, XANTHINE OXIDASE ENZYMES; HET: MTE, FAD, MLI; 2.6A {HOMO SAPIENS}
+Probab=20.86  E-value=1.7e+02  Score=28.50  Aligned_cols=19  Identities=32%  Similarity=0.807  Sum_probs=0.0  Template_Neff=9.000
+
+Q ss_pred             HHhHHHHHHHhcCCCHHHH
+Q FD01845428_045   20 HMKVCEIIAKELDVPVENI   38 (118)
+Q Consensus        20 hmkvceiiakeldvpveni   38 (118)
+                      |.+++.+.|++|++|.|.|
+T Consensus      1052 ~t~~~qi~ae~Lgi~~~~V 1070 (1338)
+T 4UHW_A         1052 HTKMIQVVSRELRMPMSNV 1070 (1338)
+T ss_dssp             HHHHHHHHHHHTTCCGGGE
+T ss_pred             HHHHHHHHHHHhCCCHHHe
+
+
+No 200
+>d2ce7a1 a.269.1.1 (A:411-603) Cell division protein FtsH, C-terminal domain {Thermotoga maritima [TaxId: 2336]}
+Probab=20.74  E-value=2.3e+02  Score=20.05  Aligned_cols=19  Identities=21%  Similarity=0.190  Sum_probs=0.0  Template_Neff=10.000
+
+Q ss_pred             HHHHHHHHHhHHHHHHHhc
+Q FD01845428_045   13 AVRFVQEHMKVCEIIAKEL   31 (118)
+Q Consensus        13 avrfvqehmkvceiiakel   31 (118)
+                      +..++++|.++.+.||++|
+T Consensus       158 a~~ll~~~~~~l~~lA~~L  176 (193)
+T d2ce7a1         158 AKEIIRKYRKQLDNIVEIL  176 (193)
+T ss_dssp             HHHHHHHTHHHHHHHHHHH
+T ss_pred             HHHHHHHcHHHHHHHHHHH
+
+
+No 201
+>d1ffvb2 d.133.1.1 (B:147-803) Carbon monoxide (CO) dehydrogenase molybdoprotein {Hydrogenophaga pseudoflava [TaxId: 47421]}
+Probab=20.70  E-value=1.6e+02  Score=26.43  Aligned_cols=19  Identities=42%  Similarity=0.616  Sum_probs=0.0  Template_Neff=8.500
+
+Q ss_pred             HHhHHHHHHHhcCCCHHHH
+Q FD01845428_045   20 HMKVCEIIAKELDVPVENI   38 (118)
+Q Consensus        20 hmkvceiiakeldvpveni   38 (118)
+                      +..++.|+|++|+||.|.|
+T Consensus       381 ~t~~~qi~Ae~Lgi~~e~V  399 (657)
+T d1ffvb2         381 QTTYAQIIATELGIPSEVI  399 (657)
+T ss_dssp             HHHHHHHHHHHHTCCGGGE
+T ss_pred             HHHHHHHHHHHHCCCHHHE
+
+
+No 202
+>d4h7pa2 d.162.1.0 (A:156-324) automated matches {Leishmania major [TaxId: 347515]}
+Probab=20.58  E-value=2.4e+02  Score=19.91  Aligned_cols=20  Identities=25%  Similarity=0.620  Sum_probs=0.0  Template_Neff=9.600
+
+Q ss_pred             HHHhHHHHHHHhcCCCHHHH
+Q FD01845428_045   19 EHMKVCEIIAKELDVPVENI   38 (118)
+Q Consensus        19 ehmkvceiiakeldvpveni   38 (118)
+                      +.++....||+.|+|+++++
+T Consensus         4 d~~R~~~~la~~l~v~~~~v   23 (169)
+T d4h7pa2           4 DHNRALSLLARKAGVPVSQV   23 (169)
+T ss_dssp             HHHHHHHHHHHHHTSCGGGE
+T ss_pred             HHHHHHHHHHHHHCCCHHHc
+
+
+No 203
+>3MB2_D 4-oxalocrotonate tautomerase family enzyme - beta subunit; TRANS-3-CHLOROACRYLIC ACID DEHALOGENASE, CAAD, DEHALOGENASE, HYDROLASE, 4-Oxalocrotonate tautomerase, 4-OT, heterohexamer, Isomerase; HET: SO4; 2.41A {Chloroflexus aurantiacus}
+Probab=20.56  E-value=1.9e+02  Score=17.81  Aligned_cols=18  Identities=11%  Similarity=0.322  Sum_probs=0.0  Template_Neff=9.100
+
+Q ss_pred             HhHHHHHHHhcCCCHHHH
+Q FD01845428_045   21 MKVCEIIAKELDVPVENI   38 (118)
+Q Consensus        21 mkvceiiakeldvpveni   38 (118)
+                      ..+|+.+.+.+++|.+++
+T Consensus        23 ~~l~~~~~~~~~~~~~~v   40 (72)
+T 3MB2_D           23 AEASAIFQRVIGTPPGRL   40 (72)
+T ss_dssp             HHHHHHHHHHHCCCTTCC
+T ss_pred             HHHHHHHHHHHCCChhhe
+
+
+No 204
+>3MB2_L 4-oxalocrotonate tautomerase family enzyme - beta subunit; TRANS-3-CHLOROACRYLIC ACID DEHALOGENASE, CAAD, DEHALOGENASE, HYDROLASE, 4-Oxalocrotonate tautomerase, 4-OT, heterohexamer, Isomerase; HET: SO4; 2.41A {Chloroflexus aurantiacus}
+Probab=20.56  E-value=1.9e+02  Score=17.81  Aligned_cols=18  Identities=11%  Similarity=0.322  Sum_probs=0.0  Template_Neff=9.100
+
+Q ss_pred             HhHHHHHHHhcCCCHHHH
+Q FD01845428_045   21 MKVCEIIAKELDVPVENI   38 (118)
+Q Consensus        21 mkvceiiakeldvpveni   38 (118)
+                      ..+|+.+.+.+++|.+++
+T Consensus        23 ~~l~~~~~~~~~~~~~~v   40 (72)
+T 3MB2_L           23 AEASAIFQRVIGTPPGRL   40 (72)
+T ss_dssp             HHHHHHHHHHHCCCTTCC
+T ss_pred             HHHHHHHHHHHCCChhhe
+
+
+No 205
+>d4wfva_ b.60.1.1 (A:) Lipocalin allergen {Cow (Bos taurus), bos d 2 [TaxId: 9913]}
+Probab=20.43  E-value=2.3e+02  Score=18.88  Aligned_cols=22  Identities=32%  Similarity=0.409  Sum_probs=0.0  Template_Neff=10.500
+
+Q ss_pred             HHHHhHHHHHHHhcCCCHHHHH
+Q FD01845428_045   18 QEHMKVCEIIAKELDVPVENIL   39 (118)
+Q Consensus        18 qehmkvceiiakeldvpvenil   39 (118)
+                      .++++-.+-.++.++++.++|.
+T Consensus       122 ~~~~~~f~~~~~~~g~~~~~~~  143 (153)
+T d4wfva_         122 PEELEKYQQLNSERGVPNENIE  143 (153)
+T ss_dssp             HHHHHHHHHHHHHTTCCGGGCE
+T ss_pred             HHHHHHHHHHHHHcCCCHHHEe
+
+
+No 206
+>TIGR03194 4hydrxCoA_A; 4-hydroxybenzoyl-CoA reductase, alpha subunit. This model represents the largest chain, alpha, of the enzyme 4-hydroxybenzoyl-CoA reductase.
+Probab=20.37  E-value=1.6e+02  Score=27.16  Aligned_cols=19  Identities=21%  Similarity=0.281  Sum_probs=0.0  Template_Neff=8.200
+
+Q ss_pred             HHhHHHHHHHhcCCCHHHH
+Q FD01845428_045   20 HMKVCEIIAKELDVPVENI   38 (118)
+Q Consensus        20 hmkvceiiakeldvpveni   38 (118)
+                      +...+.|+|++|++|.++|
+T Consensus       471 ~t~~~qi~ae~Lgi~~~~V  489 (746)
+T TIGR03194       471 STIASQVAAEVLGVRLSRI  489 (746)
+T ss_pred             HHHHHHHHHHHHCCCHHHE
+
+
+No 207
+>3NVZ_C Xanthine dehydrogenase/oxidase; Hydroxylase, Homodimer, Xanthine Oxidase, Indole-3-Aldehyde, OXIDOREDUCTASE; HET: FAD, FES, MTE, I3A; 1.6A {Bos taurus} SCOP: d.41.1.0, d.133.1.1
+Probab=20.28  E-value=1.7e+02  Score=26.00  Aligned_cols=19  Identities=32%  Similarity=0.733  Sum_probs=0.0  Template_Neff=9.400
+
+Q ss_pred             HHhHHHHHHHhcCCCHHHH
+Q FD01845428_045   20 HMKVCEIIAKELDVPVENI   38 (118)
+Q Consensus        20 hmkvceiiakeldvpveni   38 (118)
+                      +-.++.|+|++|++|.|+|
+T Consensus       473 ~t~~aqi~ae~Lgi~~e~I  491 (755)
+T 3NVZ_C          473 HTKMVQVASKALKIPISKI  491 (755)
+T ss_dssp             HHHHHHHHHHHHTSCGGGE
+T ss_pred             HHHHHHHHHHHHCCCHHHE
+
+
+No 208
+>TIGR03196 pucD; xanthine dehydrogenase D subunit. This gene has been characterized in B. subtilis as the molybdopterin binding-subunit of xanthine dehydrogenase (pucD), acting in conjunction with pucC, the FAD-binding subunit and pucE, the FeS-binding subunit.
+Probab=20.22  E-value=1.8e+02  Score=26.97  Aligned_cols=19  Identities=26%  Similarity=0.307  Sum_probs=0.0  Template_Neff=8.200
+
+Q ss_pred             HHhHHHHHHHhcCCCHHHH
+Q FD01845428_045   20 HMKVCEIIAKELDVPVENI   38 (118)
+Q Consensus        20 hmkvceiiakeldvpveni   38 (118)
+                      +-.++.|+|++|+||.+.|
+T Consensus       494 ~t~~~qi~Ae~Lgi~~~~I  512 (768)
+T TIGR03196       494 LAAAEQIAMEELGCAAEDI  512 (768)
+T ss_pred             HHHHHHHHHHHHCCCHHHe
+
+

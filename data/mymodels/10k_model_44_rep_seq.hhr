@@ -1,0 +1,196 @@
+Query         ROM10126.1/183-285 
+Match_columns 103
+No_of_seqs    22 out of 28
+Neff          3.36842
+Searched_HMMs 107766
+Date          Mon Aug 16 19:52:32 2021
+Command       hhsearch -cpu 8 -i ../results/full.a3m -d /cluster/toolkit/production/databases/hh-suite/mmcif70/pdb70 -d /cluster/toolkit/production/databases/hh-suite/scope70/scope70 -d /cluster/toolkit/production/databases/hh-suite/pfama/pfama -d /cluster/toolkit/production/databases/hh-suite/TIGRFAM/TIGRFAM -o ../results/4432450.hhr -oa3m ../results/4432450.a3m -p 20 -Z 250 -loc -z 1 -b 1 -B 250 -ssm 2 -sc 1 -seq 1 -dbstrlen 10000 -norealign -maxres 32000 -contxt /cluster/toolkit/production/bioprogs/tools/hh-suite-build-new/data/context_data.crf 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF07302.13 ; AroM ; AroM prote  46.0      63 0.00059   24.4   3.1   80    6-92      6-85  (213)
+  2 d1auaa1 a.5.3.1 (A:4-96) N-ter  40.9      88 0.00082   21.3   2.9   41   46-95      3-43  (93)
+  3 2D7D_A UvrABC system protein B  34.1      66 0.00061   28.9   1.9   32   65-96    614-645 (661)
+  4 PF09517.12 ; RE_Eco29kI ; Eco2  31.5 2.5E+02  0.0023   22.4   4.4   65    4-72     34-126 (165)
+  5 1YD0_A UvrABC system protein C  29.6 2.8E+02  0.0026   17.6   4.5   58    1-58     25-88  (96)
+  6 2WSH_D ENDONUCLEASE II; GIY-YI  23.2 5.6E+02  0.0052   18.9   5.1   62    1-64     50-143 (143)
+  7 3MX1_A Eco29kIR; type II restr  22.6 4.8E+02  0.0044   22.4   4.7   94    4-101    96-233 (235)
+  8 d4gpra1 d.20.1.1 (A:1-148) aut  22.2 3.8E+02  0.0035   19.1   3.6   47   45-93     99-145 (148)
+  9 d2mrca_ a.21.1.0 (A:) automate  22.0 4.4E+02   0.004   17.2   4.0   27   73-99     55-81  (92)
+ 10 d1jata1 d.20.1.1 (A:2-152) Ubi  22.0   4E+02  0.0037   19.3   3.7   47   45-93    100-146 (151)
+
+No 1
+>PF07302.13 ; AroM ; AroM protein
+Probab=46.02  E-value=63  Score=24.38  Aligned_cols=80  Identities=11%  Similarity=0.144  Sum_probs=0.0  Template_Neff=10.000
+
+Q ss_pred             ecCCchhHhhHhhhHhhCCCCCceeeeEeeccCChhhHHHHHHHHHHhCcccCccccCCCCCCCCchHHHHhCCHHHHHH
+Q ROM10126.1/183    6 IGKGPVTRMNSSMLARIKGKANATQFAHLDFGDSKMGFMVEHRLMQKYNARNSAKFANSPNLNSPGKKYYEAADAKTQRK   85 (103)
+Q Consensus         6 IGKGp~~Rm~~Sm~~R~gg~~n~t~~~H~DfgddkmgfMVE~~LM~r~~A~~~p~faN~~~INSPGkK~y~~A~~~~~~~   85 (103)
+                      ||.||-+=+-..++.+.|...+....-.+|-       ++|.++.+.+....-.-+........++.+-.+.+.....+.
+T Consensus         6 ~g~~pr~~~~~~~~~~~~~~~~~~~~g~~~~-------~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   78 (213)
+T Q5WKI2_BACSK/4    6 IGQSPRVDMTPEMRPFLGADVEFVEAGALDS-------LSTEQIKALAPDPDEQTYVSRLRNGDSAKLSKQKLLPHLQAE   78 (213)
+T ss_pred             cCCCCCccchHHHHHHHCCCcEEEEEeCCCC-------CCHHHHHhhCCCCCCcceEEEcCCCCEEEecHHHHHHHHHHH
+
+
+Q ss_pred             HHHHHHH
+Q ROM10126.1/183   86 VNRLVTK   92 (103)
+Q Consensus        86 v~~~a~~   92 (103)
+                      ++.+.+.
+T Consensus        79 ~~~l~~~   85 (213)
+T Q5WKI2_BACSK/4   79 LQKVEKH   85 (213)
+T ss_pred             HHHHHhh
+
+
+No 2
+>d1auaa1 a.5.3.1 (A:4-96) N-terminal domain of phosphatidylinositol transfer protein sec14p {Baker's yeast (Saccharomyces cerevisiae) [TaxId: 4932]}
+Probab=40.88  E-value=88  Score=21.28  Aligned_cols=41  Identities=12%  Similarity=0.217  Sum_probs=0.0  Template_Neff=8.800
+
+Q ss_pred             HHHHHHHhCcccCccccCCCCCCCCchHHHHhCCHHHHHHHHHHHHHHHH
+Q ROM10126.1/183   46 EHRLMQKYNARNSAKFANSPNLNSPGKKYYEAADAKTQRKVNRLVTKLDN   95 (103)
+Q Consensus        46 E~~LM~r~~A~~~p~faN~~~INSPGkK~y~~A~~~~~~~v~~~a~~l~~   95 (103)
+                      |.+||..|.+..++.....         .+...++..+..++.+-..+..
+T Consensus         3 ~~~~~~~~~~~~~~~~~~~---------~~~~~~~~~~~~i~~lr~~l~~   43 (93)
+T d1auaa1           3 EKEFLESYPQNCPPDALPG---------TPGNLDSAQEKALAELRKLLED   43 (93)
+T ss_dssp             HHHHHTTSCCCCCTTSCTT---------STTTCCTTHHHHHHHHHHHHHH
+T ss_pred             chhhhccCCCCCCCCCCCC---------CCCCCCHHHHHHHHHHHHHHHH
+
+
+No 3
+>2D7D_A UvrABC system protein B; Helicase, Protein-DNA-ADP ternary complex, HYDROLASE-DNA COMPLEX; HET: ADP; 2.1A {Bacillus subtilis}
+Probab=34.14  E-value=66  Score=28.87  Aligned_cols=32  Identities=19%  Similarity=0.240  Sum_probs=0.0  Template_Neff=9.900
+
+Q ss_pred             CCCCCCchHHHHhCCHHHHHHHHHHHHHHHHH
+Q ROM10126.1/183   65 PNLNSPGKKYYEAADAKTQRKVNRLVTKLDNK   96 (103)
+Q Consensus        65 ~~INSPGkK~y~~A~~~~~~~v~~~a~~l~~k   96 (103)
+                      |+++.-|.+-+..+..+.++.|.++|.+|+.+
+T Consensus       614 p~L~~Lg~~~w~k~k~k~k~~~~~~A~eL~~~  645 (661)
+T 2D7D_A          614 PKLSKMTKKERQKVVEQMEHEMKEAAKALDFE  645 (661)
+T ss_dssp             --------HHHHHHHHHHHHHHHHHHHTTCHH
+T ss_pred             chhhhCCHHHHHHHHHHHHHHHHHHHHhcCHH
+
+
+No 4
+>PF09517.12 ; RE_Eco29kI ; Eco29kI restriction endonuclease
+Probab=31.55  E-value=2.5e+02  Score=22.42  Aligned_cols=65  Identities=28%  Similarity=0.303  Sum_probs=0.0  Template_Neff=6.900
+
+Q ss_pred             ceecCC--chhHhh----------HhhhHhh-------------CCCCCceeeeEeeccCChhhHHHHHHHHHHhCcccC
+Q ROM10126.1/183    4 SYIGKG--PVTRMN----------SSMLARI-------------KGKANATQFAHLDFGDSKMGFMVEHRLMQKYNARNS   58 (103)
+Q Consensus         4 ~YIGKG--p~~Rm~----------~Sm~~R~-------------gg~~n~t~~~H~DfgddkmgfMVE~~LM~r~~A~~~   58 (103)
+                      +||||-  +-.|..          .+.+.|+             ...+-....+.++--.+..--++|..|+.+|.-.-|
+T Consensus        34 IYVGKA~~~~~r~g~~~~~~~~~~~~L~~RL~~H~~si~~~~nl~~~df~~r~l~v~~~~~~~~~~~E~~LI~~~~P~WN  113 (165)
+T D4ZZ96_ARTPN/4   34 IYVGKEVPKGWRKAMQSFSVNSQGYELNNRIREHSRSINLGEGLEPSDFFCRFMILEGKESDFIGTVEAALIRIYQQIWN  113 (165)
+T ss_pred             EEEEEccCCccccccccccccccCCCHHHHHHHHHhhchhccCCCcccEEEEEEEeCCCcchhHHHHHHHHHHHhCCccc
+
+
+Q ss_pred             ---ccccCCCCCCCCch
+Q ROM10126.1/183   59 ---AKFANSPNLNSPGK   72 (103)
+Q Consensus        59 ---p~faN~~~INSPGk   72 (103)
+                         ..|-|.    -||+
+T Consensus       114 ~~i~GfG~~----~pG~  126 (165)
+T D4ZZ96_ARTPN/4  114 TLIDGFGNH----DPGK  126 (165)
+T ss_pred             cccCCCCCC----CCCC
+
+
+No 5
+>1YD0_A UvrABC system protein C; DNA BINDING PROTEIN; 1.5A {Thermotoga maritima}
+Probab=29.61  E-value=2.8e+02  Score=17.58  Aligned_cols=58  Identities=19%  Similarity=0.310  Sum_probs=0.0  Template_Neff=10.800
+
+Q ss_pred             CCcceecCCchhHhhHhhhHhhCCCC------CceeeeEeeccCChhhHHHHHHHHHHhCcccC
+Q ROM10126.1/183    1 GKISYIGKGPVTRMNSSMLARIKGKA------NATQFAHLDFGDSKMGFMVEHRLMQKYNARNS   58 (103)
+Q Consensus         1 g~~~YIGKGp~~Rm~~Sm~~R~gg~~------n~t~~~H~DfgddkmgfMVE~~LM~r~~A~~~   58 (103)
+                      +..+|||...--+-.-+...+.....      ...........+....+-+|..|++++....+
+T Consensus        25 ~~~lYvG~t~~l~~ri~~~~~~~~~~~~~~~~~~~~i~~~~~~~~~~~~~~e~~li~~~~p~~N   88 (96)
+T 1YD0_A           25 GVPIYIGKAKRLSNRLRSYLNPQTEKVFRIGEEADELETIVVMNEREAFILEANLIKKYRPKYN   88 (96)
+T ss_dssp             TEEEEEEEESSHHHHHHGGGSCSSHHHHHHHHHCSEEEEEECSSHHHHHHHHHHHHHHHCCTTC
+T ss_pred             CeEEEEEEcCCHHHHHHHhcCCCCcchHHHHhcccEEEEEEeCCHHHHHHHHHHHHHHHCCchh
+
+
+No 6
+>2WSH_D ENDONUCLEASE II; GIY-YIG, NUCLEASE, HYDROLASE; HET: MSE, PEG; 1.9A {ENTEROBACTERIA PHAGE T4}
+Probab=23.20  E-value=5.6e+02  Score=18.86  Aligned_cols=62  Identities=10%  Similarity=0.118  Sum_probs=0.0  Template_Neff=9.000
+
+Q ss_pred             CCcceecCCchhHhhHhhhHhhCC--CCC-------------------ceeeeEeeccCC-----------hhhHHHHHH
+Q ROM10126.1/183    1 GKISYIGKGPVTRMNSSMLARIKG--KAN-------------------ATQFAHLDFGDS-----------KMGFMVEHR   48 (103)
+Q Consensus         1 g~~~YIGKGp~~Rm~~Sm~~R~gg--~~n-------------------~t~~~H~Dfgdd-----------kmgfMVE~~   48 (103)
+                      +.-+|||+.  .....-+.+-..+  ...                   .+.....+..+.           ++...+|..
+T Consensus        50 ~~ilYIG~a--~~L~~Rl~~~~~~~~~~~~~~~~~~~~~i~~~~~~~~~v~~~~~~~~~~~~~~~~~~~~~~~~~~lE~~  127 (143)
+T 2WSH_D           50 DELVYIGKT--KNLRKRINYYRTAINRKDKTSDSTKSALIHSALKEGSKVEFYARQCFNLSMTNELGTMTIATIDLEAPL  127 (143)
+T ss_dssp             TEEEEEEEE--EEHHHHHHHHHHGGGCSSTTSCCHHHHHHHHHHHTTCCEEEEEEECCEEEEECSSCEEEEETHHHHHHH
+T ss_pred             CEEEEEEEc--CCHHHHHHHhhccccCCCCccchHHHHHHHHHHHCCCeEEEEEEecCCcccccccccccchHHHHhHHH
+
+
+Q ss_pred             HHHHhCcccCccccCC
+Q ROM10126.1/183   49 LMQKYNARNSAKFANS   64 (103)
+Q Consensus        49 LM~r~~A~~~p~faN~   64 (103)
+                      |+..+....+....+.
+T Consensus       128 li~~~~P~~N~~~~~~  143 (143)
+T 2WSH_D          128 FIKLFNPPWNIQHKKK  143 (143)
+T ss_dssp             HHHHHCCTTCC-----
+T ss_pred             HHHHHCChhhhhccCC
+
+
+No 7
+>3MX1_A Eco29kIR; type II restriction endonuclease, GIY-YIG endonuclease, HYDROLASE; 2.3A {Escherichia coli}
+Probab=22.60  E-value=4.8e+02  Score=22.38  Aligned_cols=94  Identities=16%  Similarity=0.201  Sum_probs=0.0  Template_Neff=6.500
+
+Q ss_pred             ceecCCch-----------------------hHhhHhhhHhhCCCCCceeeeEeeccCCh--hhHHHHHHHHHHhCcccC
+Q ROM10126.1/183    4 SYIGKGPV-----------------------TRMNSSMLARIKGKANATQFAHLDFGDSK--MGFMVEHRLMQKYNARNS   58 (103)
+Q Consensus         4 ~YIGKGp~-----------------------~Rm~~Sm~~R~gg~~n~t~~~H~Dfgddk--mgfMVE~~LM~r~~A~~~   58 (103)
+                      +||||.--                       ..-..|..++..-...-.....+-+.+..  ....+|..|+..|.-.-|
+T Consensus        96 IYVGKA~~~g~r~~~~~~~~~~~~~~Lr~RL~~H~rsi~~~~~L~l~df~~r~l~v~~~~~~~i~~~E~~LI~~~~P~wN  175 (235)
+T 3MX1_A           96 IYVGKAVPAGWRQSRISDHETRAGSELSNRIREHGRNIAKTSNLDLCDFSCRFVIFEATGSDMISTVQAALIKIYKPLWN  175 (235)
+T ss_dssp             SEEEEECCTTTSCSSCSSCSSCCCSHHHHHHHHHHHHHHTCSSCCGGGEEEEEEECCSGGGGGHHHHHHHHHHHHCCHHH
+T ss_pred             EEEEeecCcccccccccccccccCChHHHHHHHHHhhcccCCCCcHhhEEEEEEEccCCchhHHHHHHHHHHHHHCCccc
+
+
+Q ss_pred             c---cccCCCCCCCCchHH----------------HHhCCHHHHHHHHHHHHHHHHHHHhcC
+Q ROM10126.1/183   59 A---KFANSPNLNSPGKKY----------------YEAADAKTQRKVNRLVTKLDNKFKKSG  101 (103)
+Q Consensus        59 p---~faN~~~INSPGkK~----------------y~~A~~~~~~~v~~~a~~l~~kf~~~k  101 (103)
+                      .   .|-|.    .||.--                +++-.+......+.+.+++.+.|...+
+T Consensus       176 ~~~~GFG~~----~pG~~R~~~~~s~wD~lhPgr~wa~~~~~~~~~~~~i~~~i~~~~~~~~  233 (235)
+T 3MX1_A          176 TVVDGFGNH----TPGAGRFAQAKSDWDVIHPGREWAEKCTGVHSEPYFIEERIKQYFSKSN  233 (235)
+T ss_dssp             HTSCCTTCC----CCCSSCCCSCCCHHHHHSCCCGGGGGCCSCCCCHHHHHHHHHHHHHC--
+T ss_pred             cccCCCCCC----CCCCCcccCCCCCcceeccchHHHHhcCCCCCCHHHHHHHHHHHHhcCC
+
+
+No 8
+>d4gpra1 d.20.1.1 (A:1-148) automated matches {Entamoeba (Entamoeba histolytica) [TaxId: 5759]}
+Probab=22.21  E-value=3.8e+02  Score=19.06  Aligned_cols=47  Identities=6%  Similarity=0.053  Sum_probs=0.0  Template_Neff=10.100
+
+Q ss_pred             HHHHHHHHhCcccCccccCCCCCCCCchHHHHhCCHHHHHHHHHHHHHH
+Q ROM10126.1/183   45 VEHRLMQKYNARNSAKFANSPNLNSPGKKYYEAADAKTQRKVNRLVTKL   93 (103)
+Q Consensus        45 VE~~LM~r~~A~~~p~faN~~~INSPGkK~y~~A~~~~~~~v~~~a~~l   93 (103)
+                      |+.-|..-.....+|+..+.  .|..+..+|..-..+-.+.+.+.+++.
+T Consensus        99 i~~il~~l~~~l~~~~~~~~--~n~~a~~~~~~~~~~f~~~~~~~~~~~  145 (148)
+T d4gpra1          99 LSRVLLSISSLLTDPNPSDP--LDPEVANVLRANKKQFEDTAREWTRMY  145 (148)
+T ss_dssp             HHHHHHHHHHHHHCCCTTSC--SSHHHHHHHHHCHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHhCCCCCCC--CCHHHHHHHHHCHHHHHHHHHHHHHHh
+
+
+No 9
+>d2mrca_ a.21.1.0 (A:) automated matches {Plasmodium falciparum [TaxId: 36329]}
+Probab=22.03  E-value=4.4e+02  Score=17.17  Aligned_cols=27  Identities=4%  Similarity=0.069  Sum_probs=0.0  Template_Neff=10.000
+
+Q ss_pred             HHHHhCCHHHHHHHHHHHHHHHHHHHh
+Q ROM10126.1/183   73 KYYEAADAKTQRKVNRLVTKLDNKFKK   99 (103)
+Q Consensus        73 K~y~~A~~~~~~~v~~~a~~l~~kf~~   99 (103)
+                      +.+.+.+..++..+.+.|..+..+|+.
+T Consensus        55 ~~W~~ls~~ek~~y~~~a~~~~~~~~~   81 (92)
+T d2mrca_          55 EAWGQLSPAQKAPYEKKAQLDKVRYSK   81 (92)
+T ss_dssp             HHHHTCCHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHcCCHHHHHHHHHHHHHHHHHHHH
+
+
+No 10
+>d1jata1 d.20.1.1 (A:2-152) Ubiquitin conjugating enzyme, UBC {Baker's yeast (Saccharomyces cerevisiae), ubc13 [TaxId: 4932]}
+Probab=22.01  E-value=4e+02  Score=19.30  Aligned_cols=47  Identities=9%  Similarity=0.043  Sum_probs=0.0  Template_Neff=9.700
+
+Q ss_pred             HHHHHHHHhCcccCccccCCCCCCCCchHHHHhCCHHHHHHHHHHHHHH
+Q ROM10126.1/183   45 VEHRLMQKYNARNSAKFANSPNLNSPGKKYYEAADAKTQRKVNRLVTKL   93 (103)
+Q Consensus        45 VE~~LM~r~~A~~~p~faN~~~INSPGkK~y~~A~~~~~~~v~~~a~~l   93 (103)
+                      ++..|..-.....+|+..+.  +|.-..++|.+-...-.+.|.+.|++.
+T Consensus       100 i~~il~~i~~ll~~~~~~~~--~n~~~~~~~~~~~~~~~~~~~~~~~~~  146 (151)
+T d1jata1         100 IRTVLLSIQALLASPNPNDP--LANDVAEDWIKNEQGAKAKAREWTKLY  146 (151)
+T ss_dssp             HHHHHHHHHHHHHSCCTTST--TCCTTHHHHHHCHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHhCCCCCCC--CCHHHHHHHHHCHHHHHHHHHHHHHHH
+
+

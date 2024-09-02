@@ -1,0 +1,413 @@
+Query         FD01848346_03749 
+Match_columns 58
+No_of_seqs    1 out of 5
+Neff          1
+Searched_HMMs 107766
+Date          Tue Aug 24 15:46:50 2021
+Command       hhsearch -cpu 8 -i ../results/full.a3m -d /cluster/toolkit/production/databases/hh-suite/mmcif70/pdb70 -d /cluster/toolkit/production/databases/hh-suite/scope70/scope70 -d /cluster/toolkit/production/databases/hh-suite/pfama/pfama -d /cluster/toolkit/production/databases/hh-suite/TIGRFAM/TIGRFAM -o ../results/6854257.hhr -oa3m ../results/6854257.a3m -p 20 -Z 250 -loc -z 1 -b 1 -B 250 -ssm 2 -sc 1 -seq 1 -dbstrlen 10000 -norealign -maxres 32000 -contxt /cluster/toolkit/production/bioprogs/tools/hh-suite-build-new/data/context_data.crf 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF17393.4 ; DUF5402 ; Family o  62.3     8.9 8.3E-05   27.1   0.8   15   19-33     33-47  (120)
+  2 d1m8aa_ d.9.1.1 (A:) Macrophag  47.1      50 0.00047   17.9   2.0   22   20-42     25-46  (61)
+  3 d4zkcb_ d.9.1.1 (B:) automated  38.0      94 0.00087   17.1   2.2   22   20-42     25-46  (60)
+  4 d1g2sa_ d.9.1.1 (A:) Eotaxin-3  37.5      84 0.00078   18.3   2.1   22   20-42     31-52  (71)
+  5 d3n52a_ d.9.1.1 (A:) Macrophag  35.5      94 0.00087   17.4   2.0   22   20-42     28-49  (67)
+  6 d3fpub_ d.9.1.1 (B:) automated  35.0   1E+02 0.00094   17.5   2.1   22   20-42     31-52  (66)
+  7 d4zltf_ d.9.1.0 (F:) automated  34.2 1.2E+02  0.0011   17.0   2.3   22   20-42     25-46  (62)
+  8 d1zxta1 d.9.1.0 (A:5-71) autom  32.8 1.3E+02  0.0012   17.2   2.3   22   20-42     29-50  (67)
+  9 d5ob5a_ d.9.1.1 (A:) automated  31.9 1.1E+02 0.00098   17.0   1.8   22   20-42     27-48  (63)
+ 10 d4mhea1 d.9.1.0 (A:2-69) autom  31.4 1.4E+02  0.0013   17.0   2.3   22   20-42     31-52  (68)
+ 11 TIGR03995 target_X_rSAM; putat  31.3      75 0.00069   21.9   1.4   13   18-30     69-81  (84)
+ 12 d1el0a_ d.9.1.1 (A:) CC chemok  29.8 1.3E+02  0.0012   17.6   2.0   22   20-42     32-53  (74)
+ 13 d2q8re_ d.9.1.0 (E:) automated  29.4 1.6E+02  0.0015   16.5   2.3   22   20-42     29-50  (66)
+ 14 d2hcca_ d.9.1.1 (A:) Chemokine  28.9 1.4E+02  0.0013   16.9   2.1   22   20-42     27-48  (66)
+ 15 d2fhta1 d.9.1.1 (A:4-71) Macro  27.9 1.7E+02  0.0016   16.7   2.3   22   20-42     29-50  (68)
+ 16 d1f2la_ d.9.1.1 (A:) Chemokine  26.5 1.6E+02  0.0014   16.7   1.9   21   21-42     28-48  (64)
+ 17 d1ha6a_ d.9.1.1 (A:) Macrophag  26.4 1.6E+02  0.0015   16.8   2.0   22   20-42     29-50  (70)
+ 18 d1eqta_ d.9.1.1 (A:) RANTES (r  25.6   2E+02  0.0019   16.4   2.3   21   21-42     31-51  (67)
+ 19 d1tvxa_ d.9.1.1 (A:) Platelet   25.3 1.7E+02  0.0016   16.3   2.0   22   20-42     26-47  (64)
+ 20 d1esra_ d.9.1.1 (A:) Monocyte   25.2 2.1E+02  0.0019   16.7   2.3   22   20-42     33-54  (76)
+ 21 d1eiga_ d.9.1.1 (A:) Eotaxin-2  24.9 1.9E+02  0.0017   16.8   2.1   22   20-42     29-50  (73)
+ 22 d3tn2a_ d.9.1.1 (A:) automated  23.6   2E+02  0.0019   16.5   2.1   22   20-42     32-53  (68)
+ 23 5EKI_B C-C motif chemokine 21;  23.3   2E+02  0.0018   15.7   1.9   22   21-42     32-54  (79)
+ 24 d4xdxa_ d.9.1.1 (A:) Interleuk  21.1 2.4E+02  0.0023   16.0   2.0   22   20-42     29-50  (70)
+ 25 d1doka_ d.9.1.1 (A:) Monocyte   20.5 2.8E+02  0.0026   16.2   2.2   22   20-42     34-55  (72)
+ 26 d1eota_ d.9.1.1 (A:) Eotaxin {  20.3 2.5E+02  0.0024   16.3   2.0   22   20-42     31-52  (74)
+ 27 d2mgsa_ d.9.1.0 (A:) automated  20.2 2.7E+02  0.0025   15.9   2.1   22   20-42     29-50  (71)
+
+No 1
+>PF17393.4 ; DUF5402 ; Family of unknown function (DUF5402)
+Probab=62.27  E-value=8.9  Score=27.11  Aligned_cols=15  Identities=40%  Similarity=0.977  Sum_probs=0.0  Template_Neff=3.800
+
+Q ss_pred             eeccccCcceeeeec
+Q FD01848346_037   19 FTSRCGCRGSILTTR   33 (58)
+Q Consensus        19 ftsrcgcrgsilttr   33 (58)
+                      |..+|||.|-...+|
+T Consensus        33 Fal~CGC~Git~~~R   47 (120)
+T E3GY47_METFV/1   33 FKMACGCSGFLADIR   47 (120)
+T ss_pred             hcccccceeEEEEcc
+
+
+No 2
+>d1m8aa_ d.9.1.1 (A:) Macrophage inflammatory protein, MIP {Human (Homo sapiens), ccl20/mip-3a [TaxId: 9606]}
+Probab=47.09  E-value=50  Score=17.89  Aligned_cols=22  Identities=18%  Similarity=0.647  Sum_probs=0.0  Template_Neff=8.500
+
+Q ss_pred             eccccCcceeeeecceeEEEecc
+Q FD01848346_037   20 TSRCGCRGSILTTRQGCITICSD   42 (58)
+Q Consensus        20 tsrcgcrgsilttrqgciticsd   42 (58)
+                      .+.|....-|++++.| ..||.|
+T Consensus        25 ~~~C~~~avI~~tk~g-~~iC~~   46 (61)
+T d1m8aa_          25 NEGCDINAIIFHTKKK-LSVCAN   46 (61)
+T ss_dssp             TTTSSSCEEEEEETTC-CEEEEC
+T ss_pred             CCCCCCcEEEEEECCC-cEEEeC
+
+
+No 3
+>d4zkcb_ d.9.1.1 (B:) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+Probab=38.03  E-value=94  Score=17.10  Aligned_cols=22  Identities=32%  Similarity=0.619  Sum_probs=0.0  Template_Neff=8.100
+
+Q ss_pred             eccccCcceeeeecceeEEEecc
+Q FD01848346_037   20 TSRCGCRGSILTTRQGCITICSD   42 (58)
+Q Consensus        20 tsrcgcrgsilttrqgciticsd   42 (58)
+                      .+.|.-.+-|++|+.| -.+|.|
+T Consensus        25 ~~~C~~~avI~~tk~g-~~iC~~   46 (60)
+T d4zkcb_          25 SSHCPREAVIFKTKLD-KEICAD   46 (60)
+T ss_dssp             TTTCSSCCEEEEETTC-CCEEEC
+T ss_pred             CCCCCCceEEEEECCC-eEEEeC
+
+
+No 4
+>d1g2sa_ d.9.1.1 (A:) Eotaxin-3 {Human (Homo sapiens) [TaxId: 9606]}
+Probab=37.52  E-value=84  Score=18.25  Aligned_cols=22  Identities=32%  Similarity=0.791  Sum_probs=0.0  Template_Neff=7.600
+
+Q ss_pred             eccccCcceeeeecceeEEEecc
+Q FD01848346_037   20 TSRCGCRGSILTTRQGCITICSD   42 (58)
+Q Consensus        20 tsrcgcrgsilttrqgciticsd   42 (58)
+                      .+.|...+-|++|++| -.+|.|
+T Consensus        31 ~~~C~~~avI~~t~~g-~~iC~d   52 (71)
+T d1g2sa_          31 SNSCSQRAVIFTTKRG-KKVCTH   52 (71)
+T ss_dssp             CSSSSSCCEEEEETTS-CEEEEC
+T ss_pred             CCCCCCCeEEEEecCC-cEEecC
+
+
+No 5
+>d3n52a_ d.9.1.1 (A:) Macrophage inflammatory protein-2 {Mouse (Mus musculus) [TaxId: 10090]}
+Probab=35.46  E-value=94  Score=17.40  Aligned_cols=22  Identities=27%  Similarity=0.534  Sum_probs=0.0  Template_Neff=8.200
+
+Q ss_pred             eccccCcceeeeecceeEEEecc
+Q FD01848346_037   20 TSRCGCRGSILTTRQGCITICSD   42 (58)
+Q Consensus        20 tsrcgcrgsilttrqgciticsd   42 (58)
+                      .+.|.-.+-|+++.+| -.+|.|
+T Consensus        28 ~~~C~~~avI~~~~~g-~~iC~~   49 (67)
+T d3n52a_          28 GPHCAQTEVIATLKGG-QKVCLD   49 (67)
+T ss_dssp             CSSCSSCEEEEEETTS-CEEEEC
+T ss_pred             CCCCCCceEEEEeCCC-cEEEeC
+
+
+No 6
+>d3fpub_ d.9.1.1 (B:) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+Probab=35.00  E-value=1e+02  Score=17.53  Aligned_cols=22  Identities=32%  Similarity=0.739  Sum_probs=0.0  Template_Neff=7.800
+
+Q ss_pred             eccccCcceeeeecceeEEEecc
+Q FD01848346_037   20 TSRCGCRGSILTTRQGCITICSD   42 (58)
+Q Consensus        20 tsrcgcrgsilttrqgciticsd   42 (58)
+                      .+.|...+-|++|..| ..||.|
+T Consensus        31 ~~~C~~~aiIf~tk~g-~~iC~d   52 (66)
+T d3fpub_          31 SSQCSKPGVIFLTKRS-RQVCAD   52 (66)
+T ss_dssp             CTTSSSCCEEEEETTS-CEEEEC
+T ss_pred             CCCCCCCeEEEEECCC-cEEEcC
+
+
+No 7
+>d4zltf_ d.9.1.0 (F:) automated matches {Mouse (Mus musculus) [TaxId: 10090]}
+Probab=34.17  E-value=1.2e+02  Score=16.98  Aligned_cols=22  Identities=36%  Similarity=0.703  Sum_probs=0.0  Template_Neff=7.900
+
+Q ss_pred             eccccCcceeeeecceeEEEecc
+Q FD01848346_037   20 TSRCGCRGSILTTRQGCITICSD   42 (58)
+Q Consensus        20 tsrcgcrgsilttrqgciticsd   42 (58)
+                      .+.|.-.+-|++|+.| ..+|.|
+T Consensus        25 ~~~C~~~aiIf~t~~g-~~iC~d   46 (62)
+T d4zltf_          25 SSLCSQPGVIFLTKRN-RQICAD   46 (62)
+T ss_dssp             CTTBSSCEEEEEETTS-CEEEEE
+T ss_pred             CCCCCCCeEEEEecCC-eEEEeC
+
+
+No 8
+>d1zxta1 d.9.1.0 (A:5-71) automated matches {Human herpesvirus 8 [TaxId: 37296]}
+Probab=32.78  E-value=1.3e+02  Score=17.16  Aligned_cols=22  Identities=41%  Similarity=0.788  Sum_probs=0.0  Template_Neff=7.800
+
+Q ss_pred             eccccCcceeeeecceeEEEecc
+Q FD01848346_037   20 TSRCGCRGSILTTRQGCITICSD   42 (58)
+Q Consensus        20 tsrcgcrgsilttrqgciticsd   42 (58)
+                      .+.|...+-|++|+.| -.+|.|
+T Consensus        29 ~~~C~~~avIf~tk~g-~~iC~~   50 (67)
+T d1zxta1          29 SPACPKPGVILLTKRG-RQICAD   50 (67)
+T ss_dssp             CTTSSSCCEEEEETTC-CEEEEC
+T ss_pred             CCCCCCCeEEEEEcCC-eEEEeC
+
+
+No 9
+>d5ob5a_ d.9.1.1 (A:) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+Probab=31.88  E-value=1.1e+02  Score=16.99  Aligned_cols=22  Identities=23%  Similarity=0.463  Sum_probs=0.0  Template_Neff=8.200
+
+Q ss_pred             eccccCcceeeeecceeEEEecc
+Q FD01848346_037   20 TSRCGCRGSILTTRQGCITICSD   42 (58)
+Q Consensus        20 tsrcgcrgsilttrqgciticsd   42 (58)
+                      .+.|....-|+++..| -.||.|
+T Consensus        27 ~~~C~~~aiI~~~k~g-~~iC~~   48 (63)
+T d5ob5a_          27 GPHCAQTEVIATLKNG-QKACLN   48 (63)
+T ss_dssp             BTTBSSCEEEEEETTS-CEEEEC
+T ss_pred             CCCCcccEEEEEecCC-cEEEeC
+
+
+No 10
+>d4mhea1 d.9.1.0 (A:2-69) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+Probab=31.37  E-value=1.4e+02  Score=16.98  Aligned_cols=22  Identities=41%  Similarity=0.819  Sum_probs=0.0  Template_Neff=7.900
+
+Q ss_pred             eccccCcceeeeecceeEEEecc
+Q FD01848346_037   20 TSRCGCRGSILTTRQGCITICSD   42 (58)
+Q Consensus        20 tsrcgcrgsilttrqgciticsd   42 (58)
+                      .+.|....-|+++..| -.+|.|
+T Consensus        31 ~~~C~~~avI~~t~~g-~~iC~~   52 (68)
+T d4mhea1          31 SPQCPKPGVILLTKRG-RQICAD   52 (68)
+T ss_dssp             CTTCSSCCEEEEETTS-CEEEEC
+T ss_pred             CCCCCCCcEEEEEcCC-eEEEeC
+
+
+No 11
+>TIGR03995 target_X_rSAM; putative rSAM target protein, CGCGG family. Members of this family of small proteins, approx.
+Probab=31.35  E-value=75  Score=21.89  Aligned_cols=13  Identities=31%  Similarity=1.122  Sum_probs=0.0  Template_Neff=3.000
+
+Q ss_pred             eeeccccCcceee
+Q FD01848346_037   18 TFTSRCGCRGSIL   30 (58)
+Q Consensus        18 tftsrcgcrgsil   30 (58)
+                      .|..+|||.|-++
+T Consensus        69 ~yvdQCGCGGhV~   81 (84)
+T TIGR03995        69 EYVDQCGCGGHVT   81 (84)
+T ss_pred             EEEeccCCCceEE
+
+
+No 12
+>d1el0a_ d.9.1.1 (A:) CC chemokine I-309 {Human (Homo sapiens) [TaxId: 9606]}
+Probab=29.82  E-value=1.3e+02  Score=17.56  Aligned_cols=22  Identities=27%  Similarity=0.569  Sum_probs=0.0  Template_Neff=7.700
+
+Q ss_pred             eccccCcceeeeecceeEEEecc
+Q FD01848346_037   20 TSRCGCRGSILTTRQGCITICSD   42 (58)
+Q Consensus        20 tsrcgcrgsilttrqgciticsd   42 (58)
+                      .+.|...+-|++|..| -.+|.|
+T Consensus        32 ~~~C~~~aVIf~t~~g-k~iC~d   53 (74)
+T d1el0a_          32 SSICSNEGLIFKLKRG-KEACAL   53 (74)
+T ss_dssp             CGGGSSCCEEEEESSS-SEEEEC
+T ss_pred             CCCCCCceEEEEEcCC-cEEEeC
+
+
+No 13
+>d2q8re_ d.9.1.0 (E:) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+Probab=29.35  E-value=1.6e+02  Score=16.52  Aligned_cols=22  Identities=27%  Similarity=0.797  Sum_probs=0.0  Template_Neff=8.100
+
+Q ss_pred             eccccCcceeeeecceeEEEecc
+Q FD01848346_037   20 TSRCGCRGSILTTRQGCITICSD   42 (58)
+Q Consensus        20 tsrcgcrgsilttrqgciticsd   42 (58)
+                      .+.|.-.+-|++|+.| -.+|.|
+T Consensus        29 ~~~C~~~avI~~t~~g-~~iC~d   50 (66)
+T d2q8re_          29 NSQCSKPGIVFITKRG-HSVCTN   50 (66)
+T ss_dssp             CTTSSSCCEEEEETTS-CEEEEC
+T ss_pred             CCCCCCCeEEEEEcCC-eEEEcC
+
+
+No 14
+>d2hcca_ d.9.1.1 (A:) Chemokine hcc-2 (macrophage inflammatory protein-5) {Human (Homo sapiens) [TaxId: 9606]}
+Probab=28.93  E-value=1.4e+02  Score=16.92  Aligned_cols=22  Identities=32%  Similarity=0.753  Sum_probs=0.0  Template_Neff=7.800
+
+Q ss_pred             eccccCcceeeeecceeEEEecc
+Q FD01848346_037   20 TSRCGCRGSILTTRQGCITICSD   42 (58)
+Q Consensus        20 tsrcgcrgsilttrqgciticsd   42 (58)
+                      .+.|....-|++|+.| -.+|.|
+T Consensus        27 ~~~C~~~avI~~tk~g-~~iC~~   48 (66)
+T d2hcca_          27 SSECSKPGVIFLTKKG-RQVCAK   48 (66)
+T ss_dssp             CTTSSSCCEEEEETTT-EEEEEC
+T ss_pred             CCCCCCCEEEEEECCC-cEEEeC
+
+
+No 15
+>d2fhta1 d.9.1.1 (A:4-71) Macrophage inflammatory protein, MIP {Kaposi's sarcoma-associated herpesvirus, VMIP-II [TaxId: 37296]}
+Probab=27.87  E-value=1.7e+02  Score=16.73  Aligned_cols=22  Identities=32%  Similarity=0.747  Sum_probs=0.0  Template_Neff=7.800
+
+Q ss_pred             eccccCcceeeeecceeEEEecc
+Q FD01848346_037   20 TSRCGCRGSILTTRQGCITICSD   42 (58)
+Q Consensus        20 tsrcgcrgsilttrqgciticsd   42 (58)
+                      .+.|.-.+-|++|..| -.||.|
+T Consensus        29 ~~~C~~~aiIf~t~~g-k~iC~d   50 (68)
+T d2fhta1          29 SQLCSKPGVIFLTKRG-RQVCAD   50 (68)
+T ss_dssp             CTTSSSCEEEEEETTS-CEEEEE
+T ss_pred             CCCCCCCeEEEEEcCC-eEEEeC
+
+
+No 16
+>d1f2la_ d.9.1.1 (A:) Chemokine domain of fractalkine {Human (Homo sapiens) [TaxId: 9606]}
+Probab=26.50  E-value=1.6e+02  Score=16.69  Aligned_cols=21  Identities=48%  Similarity=0.803  Sum_probs=0.0  Template_Neff=7.800
+
+Q ss_pred             ccccCcceeeeecceeEEEecc
+Q FD01848346_037   21 SRCGCRGSILTTRQGCITICSD   42 (58)
+Q Consensus        21 srcgcrgsilttrqgciticsd   42 (58)
+                      +.|...+-|++|..| -.+|.|
+T Consensus        28 ~~C~~~avIf~t~~g-k~iC~~   48 (64)
+T d1f2la_          28 ASCGKRAIILETRQH-RLFCAD   48 (64)
+T ss_dssp             GGGSSCCEEEEETTC-CEEEEC
+T ss_pred             ccCCCCEEEEEECCC-CEEEeC
+
+
+No 17
+>d1ha6a_ d.9.1.1 (A:) Macrophage inflammatory protein, MIP {Mouse (Mus musculus), ccl20/mip-3a [TaxId: 10090]}
+Probab=26.35  E-value=1.6e+02  Score=16.80  Aligned_cols=22  Identities=23%  Similarity=0.611  Sum_probs=0.0  Template_Neff=7.900
+
+Q ss_pred             eccccCcceeeeecceeEEEecc
+Q FD01848346_037   20 TSRCGCRGSILTTRQGCITICSD   42 (58)
+Q Consensus        20 tsrcgcrgsilttrqgciticsd   42 (58)
+                      .+.|...+-|++|.+| -.||.|
+T Consensus        29 ~~~C~~~avI~~tk~g-~~iC~~   50 (70)
+T d1ha6a_          29 DEACDINAIIFHTKKR-KSVCAD   50 (70)
+T ss_dssp             SSSCSSCEEEEEESSS-SSEEEC
+T ss_pred             CCCCCCceEEEEecCC-cEEEcC
+
+
+No 18
+>d1eqta_ d.9.1.1 (A:) RANTES (regulated upon activation, normal T-cell expressed and secreted) {Human (Homo sapiens) [TaxId: 9606]}
+Probab=25.56  E-value=2e+02  Score=16.37  Aligned_cols=21  Identities=19%  Similarity=0.659  Sum_probs=0.0  Template_Neff=7.800
+
+Q ss_pred             ccccCcceeeeecceeEEEecc
+Q FD01848346_037   21 SRCGCRGSILTTRQGCITICSD   42 (58)
+Q Consensus        21 srcgcrgsilttrqgciticsd   42 (58)
+                      +.|...+-|++|..| ..+|.|
+T Consensus        31 ~~C~~~avI~~t~~g-~~iC~d   51 (67)
+T d1eqta_          31 GKCSNPAVVFVTRKN-RQVCAN   51 (67)
+T ss_dssp             TTSSSCCEEEEETTC-CEEEEC
+T ss_pred             CCCCCCEEEEEEcCC-eEEEeC
+
+
+No 19
+>d1tvxa_ d.9.1.1 (A:) Platelet basic protein, PBP {Human (Homo sapiens) [TaxId: 9606]}
+Probab=25.32  E-value=1.7e+02  Score=16.27  Aligned_cols=22  Identities=32%  Similarity=0.557  Sum_probs=0.0  Template_Neff=8.100
+
+Q ss_pred             eccccCcceeeeecceeEEEecc
+Q FD01848346_037   20 TSRCGCRGSILTTRQGCITICSD   42 (58)
+Q Consensus        20 tsrcgcrgsilttrqgciticsd   42 (58)
+                      .+.|....-|++|..| ..+|.|
+T Consensus        26 ~~~C~~~avI~~t~~g-~~vC~~   47 (64)
+T d1tvxa_          26 GTHCNQVEVIATLKDG-RKICLD   47 (64)
+T ss_dssp             BTTBCSCEEEEEETTS-CEEEEC
+T ss_pred             CCCCCceeEEEEEcCC-cEEEeC
+
+
+No 20
+>d1esra_ d.9.1.1 (A:) Monocyte chemoattractant protein-2 (MCP-2) {Human (Homo sapiens) [TaxId: 9606]}
+Probab=25.19  E-value=2.1e+02  Score=16.74  Aligned_cols=22  Identities=27%  Similarity=0.661  Sum_probs=0.0  Template_Neff=7.800
+
+Q ss_pred             eccccCcceeeeecceeEEEecc
+Q FD01848346_037   20 TSRCGCRGSILTTRQGCITICSD   42 (58)
+Q Consensus        20 tsrcgcrgsilttrqgciticsd   42 (58)
+                      .+.|...+-|++|..| -.||.|
+T Consensus        33 ~~~C~~~aiIf~tk~g-~~iC~d   54 (76)
+T d1esra_          33 NIQCPKEAVIFKTQRG-KEVCAD   54 (76)
+T ss_dssp             CTTSSSCCEEEEETTC-CEEEEC
+T ss_pred             CCCCCCceEEEEECCC-eEEEcC
+
+
+No 21
+>d1eiga_ d.9.1.1 (A:) Eotaxin-2 {Human (Homo sapiens) [TaxId: 9606]}
+Probab=24.88  E-value=1.9e+02  Score=16.80  Aligned_cols=22  Identities=41%  Similarity=0.694  Sum_probs=0.0  Template_Neff=7.800
+
+Q ss_pred             eccccCcceeeeecceeEEEecc
+Q FD01848346_037   20 TSRCGCRGSILTTRQGCITICSD   42 (58)
+Q Consensus        20 tsrcgcrgsilttrqgciticsd   42 (58)
+                      .+.|....-|++|+.| -.||.|
+T Consensus        29 ~~~C~~~avI~~t~~g-~~iC~d   50 (73)
+T d1eiga_          29 RSTCLKAGVIFTTKKG-QQSCGD   50 (73)
+T ss_dssp             CSSSSSCCEEEEETTS-CCEEEC
+T ss_pred             CCCCCCceEEEEecCC-cEEEcC
+
+
+No 22
+>d3tn2a_ d.9.1.1 (A:) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+Probab=23.60  E-value=2e+02  Score=16.48  Aligned_cols=22  Identities=23%  Similarity=0.608  Sum_probs=0.0  Template_Neff=7.700
+
+Q ss_pred             eccccCcceeeeecceeEEEecc
+Q FD01848346_037   20 TSRCGCRGSILTTRQGCITICSD   42 (58)
+Q Consensus        20 tsrcgcrgsilttrqgciticsd   42 (58)
+                      .+.|.-.+-|++|..| ..+|.|
+T Consensus        32 ~~~C~~~aiIf~t~~g-~~iC~~   53 (68)
+T d3tn2a_          32 SSLCSQPAVVFQTKRS-KQVCAD   53 (68)
+T ss_dssp             CTTSSSCCEEEEETTS-CEEEEC
+T ss_pred             CCCCCCCeEEEEEcCC-cEEEeC
+
+
+No 23
+>5EKI_B C-C motif chemokine 21; Cytokine, Chemokine, Chemotaxis, Inflammation, IMMUNE SYSTEM; HET: SO4; 1.9A {Homo sapiens} SCOP: d.9.1.0
+Probab=23.27  E-value=2e+02  Score=15.74  Aligned_cols=22  Identities=18%  Similarity=0.510  Sum_probs=0.0  Template_Neff=9.400
+
+Q ss_pred             ccccCcceeeeeccee-EEEecc
+Q FD01848346_037   21 SRCGCRGSILTTRQGC-ITICSD   42 (58)
+Q Consensus        21 srcgcrgsilttrqgc-iticsd   42 (58)
+                      +.|.-.+.|++++.|. -.+|.|
+T Consensus        32 ~~C~~~aii~~~k~~~~~~~C~~   54 (79)
+T 5EKI_B           32 LGCSIPAILFLPRKRSQAELCAD   54 (79)
+T ss_dssp             TTBCSCEEEEEESSTTSCCEEEC
+T ss_pred             CCCCCCEEEEEecCCCcceEeeC
+
+
+No 24
+>d4xdxa_ d.9.1.1 (A:) Interleukin-8, IL-8 {Human (Homo sapiens) [TaxId: 9606]}
+Probab=21.07  E-value=2.4e+02  Score=15.97  Aligned_cols=22  Identities=23%  Similarity=0.510  Sum_probs=0.0  Template_Neff=8.100
+
+Q ss_pred             eccccCcceeeeecceeEEEecc
+Q FD01848346_037   20 TSRCGCRGSILTTRQGCITICSD   42 (58)
+Q Consensus        20 tsrcgcrgsilttrqgciticsd   42 (58)
+                      .+.|....-|+++..| ..+|.|
+T Consensus        29 ~~~C~~~aiI~~tk~g-~~iC~~   50 (70)
+T d4xdxa_          29 GPHCANTEIIVKLSDG-RELCLD   50 (70)
+T ss_dssp             BTTBSSCEEEEEETTS-CEEEEC
+T ss_pred             CCCCCCcEEEEEECCC-cEEEeC
+
+
+No 25
+>d1doka_ d.9.1.1 (A:) Monocyte chemoattractant protein-1 (MCP-1, MCAF) {Human (Homo sapiens) [TaxId: 9606]}
+Probab=20.48  E-value=2.8e+02  Score=16.17  Aligned_cols=22  Identities=32%  Similarity=0.572  Sum_probs=0.0  Template_Neff=7.600
+
+Q ss_pred             eccccCcceeeeecceeEEEecc
+Q FD01848346_037   20 TSRCGCRGSILTTRQGCITICSD   42 (58)
+Q Consensus        20 tsrcgcrgsilttrqgciticsd   42 (58)
+                      .+.|-..+-|+++..| -.+|.|
+T Consensus        34 ~~~C~~~aiI~~tk~g-~~vC~~   55 (72)
+T d1doka_          34 SSKCPKEAVIFKTIVA-KEICAD   55 (72)
+T ss_dssp             CTTSSSCEEEEEETTC-CEEEEC
+T ss_pred             CCCCCCceEEEEEcCC-EEEEeC
+
+
+No 26
+>d1eota_ d.9.1.1 (A:) Eotaxin {Human (Homo sapiens) [TaxId: 9606]}
+Probab=20.29  E-value=2.5e+02  Score=16.29  Aligned_cols=22  Identities=27%  Similarity=0.662  Sum_probs=0.0  Template_Neff=7.800
+
+Q ss_pred             eccccCcceeeeecceeEEEecc
+Q FD01848346_037   20 TSRCGCRGSILTTRQGCITICSD   42 (58)
+Q Consensus        20 tsrcgcrgsilttrqgciticsd   42 (58)
+                      .+.|...+-|++|..| -.+|.|
+T Consensus        31 ~~~C~~~avI~~tk~g-~~~C~~   52 (74)
+T d1eota_          31 SGKCPQKAVIFKTKLA-KDICAD   52 (74)
+T ss_dssp             CSSSSSCEEEEEETTS-CEEEEC
+T ss_pred             CCCCCCceEEEEECCC-cEEEeC
+
+
+No 27
+>d2mgsa_ d.9.1.0 (A:) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+Probab=20.18  E-value=2.7e+02  Score=15.90  Aligned_cols=22  Identities=23%  Similarity=0.518  Sum_probs=0.0  Template_Neff=8.000
+
+Q ss_pred             eccccCcceeeeecceeEEEecc
+Q FD01848346_037   20 TSRCGCRGSILTTRQGCITICSD   42 (58)
+Q Consensus        20 tsrcgcrgsilttrqgciticsd   42 (58)
+                      .+.|....-|+++..| -.+|.|
+T Consensus        29 ~~~C~~~aiI~~tk~g-~~iC~~   50 (71)
+T d2mgsa_          29 GPQCSKVEVVASLKNG-KEICLD   50 (71)
+T ss_dssp             CSSCSSCEEEEEESSS-CEEEEC
+T ss_pred             CCCCCcceEEEEecCC-eEEEeC
+
+

@@ -1,0 +1,129 @@
+<pre>Query         PQK27444.1/1-69 
+</pre><pre>Match_columns 69
+</pre><pre>No_of_seqs    70 out of 446
+</pre><pre>Neff          3.8867
+</pre><pre>Searched_HMMs 107766
+</pre><pre>Date          Tue Aug 24 16:15:35 2021
+</pre><pre>Command       hhsearch -cpu 8 -i ../results/full.a3m -d /cluster/toolkit/production/databases/hh-suite/mmcif70/pdb70 -d /cluster/toolkit/production/databases/hh-suite/scope70/scope70 -d /cluster/toolkit/production/databases/hh-suite/pfama/pfama -d /cluster/toolkit/production/databases/hh-suite/TIGRFAM/TIGRFAM -o ../results/3071505.hhr -oa3m ../results/3071505.a3m -p 20 -Z 250 -loc -z 1 -b 1 -B 250 -ssm 2 -sc 1 -seq 1 -dbstrlen 10000 -norealign -maxres 32000 -contxt /cluster/toolkit/production/bioprogs/tools/hh-suite-build-new/data/context_data.crf 
+</pre><pre>
+</pre><pre> No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+</pre><pre>  1 PF20148.1 ; DUF6531 ; Domain o  99.1 3.1E-10 2.8E-15   61.4   3.3   55    9-68      1-56  (75)
+</pre><pre>  2 6P0X_B Salmonella plasmid viru  73.4     8.6   8E-05   29.4   2.7   46   11-61      6-51  (333)
+</pre><pre>  3 PF03534.15 ; SpvB ; Salmonella  56.8      36 0.00033   25.3   3.2   39   26-69     15-54  (289)
+</pre><pre>  4 6SUE_F TcdB2,TccC3; Complex, H  46.5      46 0.00043   32.1   2.8   52    5-61     23-74  (2439)
+</pre><pre>  5 PF07330.14 ; DUF1467 ; Protein  37.9      20 0.00018   24.0  -0.5   17    5-21     39-55  (83)
+</pre><pre>  6 6L7I_F TcdB1; protein transpor  29.5 1.2E+02  0.0011   28.5   2.8   52    5-61     23-74  (1476)
+</pre><pre>  7 5J81_A Envelopment polyprotein  26.8 1.7E+02  0.0016   26.1   3.0   35   24-68     26-60  (448)
+</pre><pre>  8 5KIS_A YenB; ABC toxin, RHS, T  20.2 2.4E+02  0.0023   26.7   2.8   52    5-61     27-78  (1491)
+</pre><pre>
+</pre><pre>No 1
+</pre><pre>>PF20148.1 ; DUF6531 ; Domain of unknown function (DUF6531)
+</pre><pre>Probab=99.08  E-value=3.1e-10  Score=61.36  Aligned_cols=55  Identities=33%  Similarity=0.454  Sum_probs=49.0  Template_Neff=11.800
+</pre><pre>
+</pre><pre>Q ss_pred             CCCCCccCCCccCCCCCcccCCCC-CCeeeeeeeeccCCCCCCCccccCCCCcCcceeEEe
+</pre><pre>Q PQK27444.1/1-6    9 GHPVNPLLGAKVLPGETDIALPGP-LPFILSRTYSSYRTKTPAPVGSLGPGWKMPADIRLQ   68 (69)
+</pre><pre>Q Consensus         9 G~PVNp~lGaKvL~ge~DfaLPgp-lp~v~~R~YsS~~~~~pa~~G~lGpGW~~p~dirLq   68 (69)
+</pre><pre>                      |+|||+..|.|++. ++|+.++++ .++.+.|.|.|...    ..+.+|+||...++.+++
+</pre><pre>T Consensus         1 g~pV~~~~g~~~~~-~~d~~~~g~~~~~~~~r~y~s~~~----~~~~~g~gw~~~~~~~~~   56 (75)
+</pre><pre>T A0A085WJS1_9DE    1 NSTVNMATGNLREQ-WTDLTLPAVGLPITWRRTYASRGN----GMTELGYGWMHSYGMYLR   56 (75)
+</pre><pre>T ss_pred             CCceeCCCCcEEEE-EeceEccCCCCCEEEEEEEcCCCC----CcCCCccCeecccCcEEE
+</pre><pre>Confidence            68999999999998 999999999 99999999999865    457899999999887664
+</pre><pre>
+</pre><pre>
+</pre><pre>No 2
+</pre><pre>>6P0X_B Salmonella plasmid virulence: SpvB; salmonella effector, SpvB, ADP-ribosyltransferase, UNKNOWN FUNCTION; HET: AKR, BTB, GOL, MLY; 2.4A {Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720)}
+</pre><pre>Probab=73.42  E-value=8.6  Score=29.41  Aligned_cols=46  Identities=22%  Similarity=0.224  Sum_probs=0.0  Template_Neff=9.000
+</pre><pre>
+</pre><pre>Q ss_pred             CCCccCCCccCCCCCcccCCCCCCeeeeeeeeccCCCCCCCccccCCCCcC
+</pre><pre>Q PQK27444.1/1-6   11 PVNPLLGAKVLPGETDIALPGPLPFILSRTYSSYRTKTPAPVGSLGPGWKM   61 (69)
+</pre><pre>Q Consensus        11 PVNp~lGaKvL~ge~DfaLPgplp~v~~R~YsS~~~~~pa~~G~lGpGW~~   61 (69)
+</pre><pre>                      |||+..|.=.+.-..-..--.-+.+-++.+|+|...     .|.+|-||.|
+</pre><pre>T Consensus         6 ~v~~~tG~~~isiPl~~~~~~~~~~~isL~Y~s~g~-----~g~vG~GW~L   51 (333)
+</pre><pre>T 6P0X_B            6 SQSGPDGLASITLPLPISAERGFAPALALHYSSGGG-----NGPFGVGWSC   51 (333)
+</pre><pre>T ss_dssp             ------CCCCEEEECCCCCSSSCCCCCEEEECTTCC-----CSTTCSSEEC
+</pre><pre>T ss_pred             ccCCCCCceeeeeecccccCCCcCCceEEEEcCCCC-----CCceeeccee
+</pre><pre>
+</pre><pre>
+</pre><pre>No 3
+</pre><pre>>PF03534.15 ; SpvB ; Salmonella virulence plasmid 65kDa B protein
+</pre><pre>Probab=56.82  E-value=36  Score=25.32  Aligned_cols=39  Identities=23%  Similarity=0.336  Sum_probs=0.0  Template_Neff=9.500
+</pre><pre>
+</pre><pre>Q ss_pred             cccCCCCCCeeeeeeeeccCCCCCCCccccCCCCcCcce-eEEeC
+</pre><pre>Q PQK27444.1/1-6   26 DIALPGPLPFILSRTYSSYRTKTPAPVGSLGPGWKMPAD-IRLQL   69 (69)
+</pre><pre>Q Consensus        26 DfaLPgplp~v~~R~YsS~~~~~pa~~G~lGpGW~~p~d-irLq~   69 (69)
+</pre><pre>                      .+...+-+...++..|+|...     .|.+|.||.|... |....
+</pre><pre>T Consensus        15 ~~~~~~g~~~~isL~Y~s~~~-----~g~~G~GWsL~~~~I~r~~   54 (289)
+</pre><pre>T S8C346_DACHA/7   15 TSSSRGGFGPLLNFAYNSGSG-----NGPYGFGWAIDIAKISRKT   54 (289)
+</pre><pre>T ss_pred             cCCCCCccCCeeEEEEeCCCC-----CCCceEceEeCCCEEEEec
+</pre><pre>
+</pre><pre>
+</pre><pre>No 4
+</pre><pre>>6SUE_F TcdB2,TccC3; Complex, Holotoxin, Photorhabdus, Insecticidal, TOXIN; 3.4A {Photorhabdus luminescens}
+</pre><pre>Probab=46.48  E-value=46  Score=32.07  Aligned_cols=52  Identities=17%  Similarity=0.198  Sum_probs=0.0  Template_Neff=10.300
+</pre><pre>
+</pre><pre>Q ss_pred             CcccCCCCCccCCCccCCCCCcccCCCCCCeeeeeeeeccCCCCCCCccccCCCCcC
+</pre><pre>Q PQK27444.1/1-6    5 GVTSGHPVNPLLGAKVLPGETDIALPGPLPFILSRTYSSYRTKTPAPVGSLGPGWKM   61 (69)
+</pre><pre>Q Consensus         5 g~~~G~PVNp~lGaKvL~ge~DfaLPgplp~v~~R~YsS~~~~~pa~~G~lGpGW~~   61 (69)
+</pre><pre>                      +...+.+++...|+-...=..++.--.-+-..++=.|+|...+     |+||-||.|
+</pre><pre>T Consensus        23 g~~~~~~~~~~tG~a~~siPi~~p~g~g~~P~lsL~Y~S~~gn-----g~~G~GW~L   74 (2439)
+</pre><pre>T 6SUE_F           23 GMGEALTPTGPDGMAALSLPLPISAGRGYAPAFTLNYNSGAGN-----SPFGLGWDC   74 (2439)
+</pre><pre>T ss_dssp             CCCCEECCCCTTCCCEEEEECCCCCTTTCCCCCEEEEETTCCC-----CTTCTTEEC
+</pre><pre>T ss_pred             cCCCCCCCCCCCcceEEEeeeecCCCCCccCceEEEEecCCCC-----CCeeeCeEe
+</pre><pre>
+</pre><pre>
+</pre><pre>No 5
+</pre><pre>>PF07330.14 ; DUF1467 ; Protein of unknown function (DUF1467)
+</pre><pre>Probab=37.88  E-value=20  Score=23.99  Aligned_cols=17  Identities=29%  Similarity=0.270  Sum_probs=0.0  Template_Neff=5.700
+</pre><pre>
+</pre><pre>Q ss_pred             CcccCCCCCccCCCccC
+</pre><pre>Q PQK27444.1/1-6    5 GVTSGHPVNPLLGAKVL   21 (69)
+</pre><pre>Q Consensus         5 g~~~G~PVNp~lGaKvL   21 (69)
+</pre><pre>                      |...|.|+||.++.|++
+</pre><pre>T Consensus        39 G~~~gAP~~p~l~~K~l   55 (83)
+</pre><pre>T A7HY32_PARL1/1   39 GTDAGAPARHGLLIKAG   55 (83)
+</pre><pre>T ss_pred             CCCCCCCccccHHHHHH
+</pre><pre>
+</pre><pre>
+</pre><pre>No 6
+</pre><pre>>6L7I_F TcdB1; protein transportation, TcdA1, TcdB1, TccC2, TOXIN-PROTEIN TRANSPORT complex; 2.9A {Photorhabdus luminescens}
+</pre><pre>Probab=29.53  E-value=1.2e+02  Score=28.48  Aligned_cols=52  Identities=19%  Similarity=0.202  Sum_probs=0.0  Template_Neff=9.200
+</pre><pre>
+</pre><pre>Q ss_pred             CcccCCCCCccCCCccCCCCCcccCCCCCCeeeeeeeeccCCCCCCCccccCCCCcC
+</pre><pre>Q PQK27444.1/1-6    5 GVTSGHPVNPLLGAKVLPGETDIALPGPLPFILSRTYSSYRTKTPAPVGSLGPGWKM   61 (69)
+</pre><pre>Q Consensus         5 g~~~G~PVNp~lGaKvL~ge~DfaLPgplp~v~~R~YsS~~~~~pa~~G~lGpGW~~   61 (69)
+</pre><pre>                      |+..+..++...|+-.+.--..+.-=.-+--.++=.|+|....     |+||.||.|
+</pre><pre>T Consensus        23 g~~~~~~~~~~~G~a~~siPi~~p~g~g~~P~lsL~Y~S~~gn-----G~~G~GW~l   74 (1476)
+</pre><pre>T 6L7I_F           23 GMGEALTPAGPDGMAALSLPLPISAGRGYAPSLTLNYNSGTGN-----SPFGLGWDC   74 (1476)
+</pre><pre>T ss_dssp             CSCCEECCCCTTCCCEEEEECCCCCCSSCCCCCEEEEETTCCE-----ETTEESEEC
+</pre><pre>T ss_pred             CCCCCCCCCCCCCceEEEeeeeccCCCCcCCeeEEEEcCCCCC-----CCceeeeee
+</pre><pre>
+</pre><pre>
+</pre><pre>No 7
+</pre><pre>>5J81_A Envelopment polyprotein; membrane fusion, virus, glycoprotein, class II, viral protein; HET: BMA, P33, NAG; 1.8A {Puumala virus (strain P360)}
+</pre><pre>Probab=26.75  E-value=1.7e+02  Score=26.13  Aligned_cols=35  Identities=23%  Similarity=0.398  Sum_probs=0.0  Template_Neff=2.900
+</pre><pre>
+</pre><pre>Q ss_pred             CCcccCCCCCCeeeeeeeeccCCCCCCCccccCCCCcCcceeEEe
+</pre><pre>Q PQK27444.1/1-6   24 ETDIALPGPLPFILSRTYSSYRTKTPAPVGSLGPGWKMPADIRLQ   68 (69)
+</pre><pre>Q Consensus        24 e~DfaLPgplp~v~~R~YsS~~~~~pa~~G~lGpGW~~p~dirLq   68 (69)
+</pre><pre>                      |.||+||+-.-+...|.-.+..+          .+=++|+.+.|+
+</pre><pre>T Consensus        26 ELDFSL~SsS~YtykR~L~~P~~----------~~~~ipf~~~i~   60 (448)
+</pre><pre>T 5J81_A           26 ELDFSLPSSASYTYRRQLQNPAN----------EQEKIPFHLQLS   60 (448)
+</pre><pre>T ss_dssp             EEEEEEETTCCEEEEEEECCTTT----------SSSCEEEEEEEC
+</pre><pre>T ss_pred             EEeeecCCCCceEEEEEecCCCC----------CCCeeceEEEEc
+</pre><pre>
+</pre><pre>
+</pre><pre>No 8
+</pre><pre>>5KIS_A YenB; ABC toxin, RHS, TOXIN; 2.4A {Yersinia entomophaga}
+</pre><pre>Probab=20.20  E-value=2.4e+02  Score=26.66  Aligned_cols=52  Identities=21%  Similarity=0.211  Sum_probs=0.0  Template_Neff=9.400
+</pre><pre>
+</pre><pre>Q ss_pred             CcccCCCCCccCCCccCCCCCcccCCCCCCeeeeeeeeccCCCCCCCccccCCCCcC
+</pre><pre>Q PQK27444.1/1-6    5 GVTSGHPVNPLLGAKVLPGETDIALPGPLPFILSRTYSSYRTKTPAPVGSLGPGWKM   61 (69)
+</pre><pre>Q Consensus         5 g~~~G~PVNp~lGaKvL~ge~DfaLPgplp~v~~R~YsS~~~~~pa~~G~lGpGW~~   61 (69)
+</pre><pre>                      +...+.+++...|+-.+.=-..+.-=.-+-..++=+|+|...     -|++|-||.|
+</pre><pre>T Consensus        27 g~~~~~~~~~~~G~~~~siPi~~p~g~g~~P~lsL~Y~S~~g-----ng~~G~GW~L   78 (1491)
+</pre><pre>T 5KIS_A           27 GMGESVGQAGPDGMVTFSIPLPFSAGRGVAPALSLSYSSGAG-----NGPFGMGWQC   78 (1491)
+</pre><pre>T ss_dssp             CSCCEECCCCTTCCCEEEEECCCCCTTSCCCCCEEEEETTCC-----CCTTSTTEEC
+</pre><pre>T ss_pred             cCCCCCCCCCCCCceEEEEeeecCCCCCCCCceEEEEcCCCC-----CCCceEceec
+</pre><pre>
+</pre><pre>
+</pre>

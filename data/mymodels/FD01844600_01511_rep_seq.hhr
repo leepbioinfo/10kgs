@@ -1,0 +1,674 @@
+Query         EEZ6199913.1/903-933 
+Match_columns 31
+No_of_seqs    6 out of 13
+Neff          1.67676
+Searched_HMMs 107766
+Date          Tue Aug 24 13:32:50 2021
+Command       hhsearch -cpu 8 -i ../results/full.a3m -d /cluster/toolkit/production/databases/hh-suite/mmcif70/pdb70 -d /cluster/toolkit/production/databases/hh-suite/scope70/scope70 -d /cluster/toolkit/production/databases/hh-suite/pfama/pfama -d /cluster/toolkit/production/databases/hh-suite/TIGRFAM/TIGRFAM -o ../results/2078235.hhr -oa3m ../results/2078235.a3m -p 20 -Z 250 -loc -z 1 -b 1 -B 250 -ssm 2 -sc 1 -seq 1 -dbstrlen 10000 -norealign -maxres 32000 -contxt /cluster/toolkit/production/bioprogs/tools/hh-suite-build-new/data/context_data.crf 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF03944.16 ; Endotoxin_C ; del  76.2     2.2   2E-05   24.1   0.2   14    5-18     48-61  (131)
+  2 d1dlca1 b.18.1.3 (A:500-644) d  72.9     3.1 2.9E-05   24.9   0.3   13    6-18     64-76  (145)
+  3 d2qkga3 b.18.1.0 (A:439-589) a  70.9       4 3.7E-05   24.3   0.4   13    6-18     63-75  (151)
+  4 d4arxa3 b.18.1.0 (A:463-609) a  70.3     4.2 3.9E-05   24.3   0.4   13    6-18     67-79  (147)
+  5 d1ji6a1 b.18.1.3 (A:503-652) d  68.7     4.9 4.6E-05   24.1   0.5   13    6-18     66-78  (150)
+  6 d1ciya1 b.18.1.3 (A:462-609) d  67.8       5 4.7E-05   23.9   0.4   18    1-18     58-75  (148)
+  7 d1w99a3 b.18.1.3 (A:472-641) d  64.4     6.2 5.7E-05   24.3   0.3   13    6-18     68-80  (170)
+  8 PF02367.19 ; TsaE ; Threonylca  53.6      19 0.00018   19.1   1.0   14    4-17    114-127 (127)
+  9 PF18079.3 ; AglB_L1 ; Archaeal  49.9      25 0.00023   19.6   1.1   14    4-17     41-54  (85)
+ 10 6HIZ_DC mS50; mitoribosome, tr  38.0      48 0.00044   28.4   1.5   19    4-23    766-784 (1165)
+ 11 1CIY_A CRYIA(A); TOXIN, DELTA-  36.4      31 0.00029   24.5   0.3   18    1-18    491-508 (590)
+ 12 7EAR_A Crystaline entomocidal   35.6      29 0.00027   25.1  -0.0   13    6-18    563-575 (644)
+ 13 6OVB_A Active core crystal tox  35.5      33  0.0003   24.4   0.3   18    1-18    483-500 (577)
+ 14 7AOR_ac mS50; Ribosome, Mitoch  35.2      57 0.00053   28.0   1.5   19    4-23    761-779 (1152)
+ 15 6OWK_A Pesticidal crystal prot  34.6      36 0.00033   24.7   0.3   14    5-18    522-535 (617)
+ 16 7ANE_ac mS50; Ribosome, Mitoch  33.4      65  0.0006   27.9   1.6   19    4-23    843-861 (1267)
+ 17 PF02772.18 ; S-AdoMet_synt_M ;  33.1      93 0.00086   16.9   1.7   20    1-20      4-23  (118)
+ 18 2C9K_A PESTICIDAL CRYSTAL PROT  29.9      59 0.00054   23.6   0.7   13    6-18    521-533 (612)
+ 19 d1xqaa1 d.32.1.2 (A:1-112) Hyp  28.8      59 0.00055   15.2   0.4   13    7-19     96-108 (112)
+ 20 1W99_A PESTICIDIAL CRYSTAL PRO  27.8      51 0.00048   23.7   0.2   14    5-18    455-468 (558)
+ 21 3EB7_A Insecticidal Delta-Endo  27.5      60 0.00055   23.5   0.5   18    1-18    496-513 (589)
+ 22 1JI6_A PESTICIDIAL CRYSTAL PRO  27.2      53 0.00049   23.8   0.2   14    5-18    504-517 (589)
+ 23 d1mxaa2 d.130.1.1 (A:108-231)   26.8 1.2E+02  0.0011   18.0   1.6   20    1-20      9-28  (124)
+ 24 5ZI1_A insecticidal crystal pr  26.2      61 0.00057   23.8   0.3   13    6-18    524-536 (609)
+ 25 PF19828.1 ; DUF6309 ; Family o  25.5 1.2E+02  0.0011   21.1   1.5   24    4-31     59-82  (185)
+ 26 d3so4a2 d.130.1.0 (A:115-238)   25.0 1.3E+02  0.0012   17.9   1.4   20    1-20      5-24  (124)
+ 27 d5h9ua2 d.130.1.0 (A:119-244)   23.8 1.5E+02  0.0014   17.7   1.5   20    1-20     10-29  (126)
+ 28 d2hj2a2 d.130.1.1 (A:126-251)   23.1 1.5E+02  0.0014   17.6   1.4   20    1-20      7-26  (126)
+ 29 PF02827.18 ; PKI ; cAMP-depend  22.8 2.2E+02   0.002   16.4   2.0   21   11-31     12-32  (69)
+ 30 d1klla_ d.32.1.2 (A:) Mitomyci  22.2      93 0.00086   14.9   0.4   13    7-19    109-121 (128)
+ 31 PF14507.8 ; CppA_C ; CppA C-te  22.0      78 0.00072   14.6   0.2   10   10-19     83-92  (94)
+ 32 4MJG_B hypothetical protein; P  21.7 3.1E+02  0.0029   17.8   2.7   26    2-29    159-190 (199)
+ 33 d3uh9a1 d.32.1.0 (A:2-139) aut  21.5      79 0.00074   15.9   0.1   10   10-19    104-113 (138)
+ 34 d1ukca_ c.69.1.17 (A:) Esteras  21.4 2.8E+02  0.0026   18.3   2.4   24    8-31     30-54  (517)
+ 35 4D8M_A Pesticidal crystal prot  21.2   1E+02 0.00094   22.1   0.6   14    5-18    501-514 (587)
+ 36 d4odja2 d.130.1.0 (A:131-259)   21.1 1.7E+02  0.0015   17.6   1.4   20    1-20      7-26  (129)
+ 37 PF05688.13 ; BIg21 ; Bacterial  21.1 1.6E+02  0.0015   16.8   1.3   20    4-24      4-23  (106)
+ 38 d3fcda1 d.32.1.0 (A:4-124) aut  21.0   1E+02 0.00095   14.7   0.5   13    7-19    102-114 (121)
+ 39 d3imla2 d.130.1.0 (A:115-235)   20.7 1.8E+02  0.0016   17.2   1.4   20    1-20      6-25  (121)
+ 40 d1kuta_ d.143.1.1 (A:) SAICAR   20.5 1.1E+02  0.0011   19.6   0.7   26    4-29    161-186 (224)
+ 41 d4le5a2 d.130.1.0 (A:118-243)   20.4 1.6E+02  0.0015   17.4   1.2   20    1-20      5-24  (126)
+ 42 PF18807.3 ; TTc_toxin_rep ; Tr  20.4      71 0.00066   16.0  -0.2   13    5-19     28-40  (45)
+ 43 1XQA_B Glyoxalase/Bleomycin re  20.2   1E+02 0.00096   14.1   0.4   13    7-19     97-109 (113)
+ 44 PF12681.9 ; Glyoxalase_2 ; Gly  20.0 1.1E+02   0.001   13.9   0.4   13    7-19    100-112 (119)
+ 45 d1f9za_ d.32.1.1 (A:) Glyoxala  20.0 1.1E+02   0.001   14.6   0.4   14    6-19    108-121 (135)
+
+No 1
+>PF03944.16 ; Endotoxin_C ; delta endotoxin
+Probab=76.20  E-value=2.2  Score=24.08  Aligned_cols=14  Identities=36%  Similarity=0.674  Sum_probs=0.0  Template_Neff=8.400
+
+Q ss_pred             ceeeccccCCCCCC
+Q EEZ6199913.1/9    5 DIRIPYATDPTGNR   18 (31)
+Q Consensus         5 di~~~YatDp~G~r   18 (31)
+                      .|||+||++..++.
+T Consensus        48 rIRiRyAs~~~~~l   61 (131)
+T C26AA_BACTF/52   48 RFRVRYATETEGEL   61 (131)
+T ss_pred             EEEEEEEeCCCeEE
+
+
+No 2
+>d1dlca1 b.18.1.3 (A:500-644) delta-Endotoxin, C-terminal domain {Bacillus thuringiensis tenebrionis, CRYIIIA (BT13) [TaxId: 1444]}
+Probab=72.86  E-value=3.1  Score=24.88  Aligned_cols=13  Identities=31%  Similarity=0.301  Sum_probs=0.0  Template_Neff=7.200
+
+Q ss_pred             eeeccccCCCCCC
+Q EEZ6199913.1/9    6 IRIPYATDPTGNR   18 (31)
+Q Consensus         6 i~~~YatDp~G~r   18 (31)
+                      |||+||++..|+.
+T Consensus        64 IRiRYAs~~~~~~   76 (145)
+T d1dlca1          64 ARIHYASTSQITF   76 (145)
+T ss_dssp             EEEEEEESSCEEE
+T ss_pred             EEEEEEeCCceEE
+
+
+No 3
+>d2qkga3 b.18.1.0 (A:439-589) automated matches {Bacillus thuringiensis [TaxId: 1428]}
+Probab=70.86  E-value=4  Score=24.31  Aligned_cols=13  Identities=23%  Similarity=0.365  Sum_probs=0.0  Template_Neff=7.500
+
+Q ss_pred             eeeccccCCCCCC
+Q EEZ6199913.1/9    6 IRIPYATDPTGNR   18 (31)
+Q Consensus         6 i~~~YatDp~G~r   18 (31)
+                      |||+||++..|..
+T Consensus        63 IRiRYAs~~~~~~   75 (151)
+T d2qkga3          63 VRIRYCSSVDFDL   75 (151)
+T ss_dssp             EEEEEEESSCEEE
+T ss_pred             EEEEEeeCCCcEE
+
+
+No 4
+>d4arxa3 b.18.1.0 (A:463-609) automated matches {Bacillus thuringiensis [TaxId: 29339]}
+Probab=70.27  E-value=4.2  Score=24.31  Aligned_cols=13  Identities=23%  Similarity=0.347  Sum_probs=0.0  Template_Neff=7.300
+
+Q ss_pred             eeeccccCCCCCC
+Q EEZ6199913.1/9    6 IRIPYATDPTGNR   18 (31)
+Q Consensus         6 i~~~YatDp~G~r   18 (31)
+                      |||+||++..|+.
+T Consensus        67 IRiRYAs~~~~~~   79 (147)
+T d4arxa3          67 VRVRYASVTPIHL   79 (147)
+T ss_dssp             EEEEEECSSCEEE
+T ss_pred             EEEEEEeCCCcEE
+
+
+No 5
+>d1ji6a1 b.18.1.3 (A:503-652) delta-Endotoxin, C-terminal domain {Bacillus thuringiensis, CRY3bb1 [TaxId: 1428]}
+Probab=68.66  E-value=4.9  Score=24.09  Aligned_cols=13  Identities=31%  Similarity=0.434  Sum_probs=0.0  Template_Neff=7.300
+
+Q ss_pred             eeeccccCCCCCC
+Q EEZ6199913.1/9    6 IRIPYATDPTGNR   18 (31)
+Q Consensus         6 i~~~YatDp~G~r   18 (31)
+                      |||+||++..|..
+T Consensus        66 IRiRYAs~~~~~l   78 (150)
+T d1ji6a1          66 VRIRYASTTNLRL   78 (150)
+T ss_dssp             EEEEEEESSCEEE
+T ss_pred             EEEEEEeCCCceE
+
+
+No 6
+>d1ciya1 b.18.1.3 (A:462-609) delta-Endotoxin, C-terminal domain {Bacillus thuringiensis, CRYIA (A) [TaxId: 1428]}
+Probab=67.80  E-value=5  Score=23.92  Aligned_cols=18  Identities=22%  Similarity=0.309  Sum_probs=0.0  Template_Neff=7.400
+
+Q ss_pred             CCCcceeeccccCCCCCC
+Q EEZ6199913.1/9    1 APDLDIRIPYATDPTGNR   18 (31)
+Q Consensus         1 a~~ldi~~~YatDp~G~r   18 (31)
+                      .....|||+||++..|+.
+T Consensus        58 ~~~Y~IRiRYAs~~~~~~   75 (148)
+T d1ciya1          58 SQRYRVRIRYASTTNLQF   75 (148)
+T ss_dssp             TCCEEEEEEEEESSCEEE
+T ss_pred             cceEEEEEEEEeCCCcEE
+
+
+No 7
+>d1w99a3 b.18.1.3 (A:472-641) delta-Endotoxin, C-terminal domain {Bacillus thuringiensis, Cry4Ba [TaxId: 1428]}
+Probab=64.42  E-value=6.2  Score=24.30  Aligned_cols=13  Identities=31%  Similarity=0.391  Sum_probs=0.0  Template_Neff=7.100
+
+Q ss_pred             eeeccccCCCCCC
+Q EEZ6199913.1/9    6 IRIPYATDPTGNR   18 (31)
+Q Consensus         6 i~~~YatDp~G~r   18 (31)
+                      |||+||++..|+.
+T Consensus        68 IRiRYAs~~~~~l   80 (170)
+T d1w99a3          68 LRIRYAANSPIVL   80 (170)
+T ss_dssp             EEEEEEESSCCEE
+T ss_pred             EEEEEEeCCCcEE
+
+
+No 8
+>PF02367.19 ; TsaE ; Threonylcarbamoyl adenosine biosynthesis protein TsaE
+Probab=53.64  E-value=19  Score=19.10  Aligned_cols=14  Identities=43%  Similarity=0.676  Sum_probs=0.0  Template_Neff=9.900
+
+Q ss_pred             cceeeccccCCCCC
+Q EEZ6199913.1/9    4 LDIRIPYATDPTGN   17 (31)
+Q Consensus         4 ldi~~~YatDp~G~   17 (31)
+                      ++|+|-|.||.+-+
+T Consensus       114 ~~~~~~~~~~~~~~  127 (127)
+T F3ZW75_MAHA5/5  114 MHIRILYGTDENQR  127 (127)
+T ss_pred             EEEEEEecCccccC
+
+
+No 9
+>PF18079.3 ; AglB_L1 ; Archaeal glycosylation protein B long peripheral domain
+Probab=49.89  E-value=25  Score=19.57  Aligned_cols=14  Identities=29%  Similarity=0.707  Sum_probs=0.0  Template_Neff=7.000
+
+Q ss_pred             cceeeccccCCCCC
+Q EEZ6199913.1/9    4 LDIRIPYATDPTGN   17 (31)
+Q Consensus         4 ldi~~~YatDp~G~   17 (31)
+                      ..+++||+|+..|.
+T Consensus        41 ~~~~VPY~T~~~~~   54 (85)
+T Q0W803_METAR/7   41 YSFTVPYPTGMAGD   54 (85)
+T ss_pred             EEEEeeccCCCCCc
+
+
+No 10
+>6HIZ_DC mS50; mitoribosome, translation, Trypanosoma, small ribosomal subunit, 9S rRNA, ribosomal protein, RIBOSOME; HET: UTP, SPD, GTP; 3.08A {Trypanosoma brucei brucei}
+Probab=37.96  E-value=48  Score=28.43  Aligned_cols=19  Identities=32%  Similarity=0.728  Sum_probs=0.0  Template_Neff=2.800
+
+Q ss_pred             cceeeccccCCCCCCCCCCc
+Q EEZ6199913.1/9    4 LDIRIPYATDPTGNRLPDPE   23 (31)
+Q Consensus         4 ldi~~~YatDp~G~rl~~~e   23 (31)
+                      .++.||| ||.+|+++|.-|
+T Consensus       766 ~evyLPy-tDa~G~~Lp~GE  784 (1165)
+T 6HIZ_DC         766 VELYLPY-RDANGELLAQGE  784 (1165)
+T ss_dssp             EEEECCS-BCTTSCBCCCEE
+T ss_pred             EEEEccc-ccCCCCcCCCce
+
+
+No 11
+>1CIY_A CRYIA(A); TOXIN, DELTA-ENDOTOXIN CRYIA(A), ICP; 2.25A {Bacillus thuringiensis} SCOP: f.1.3.1, b.77.2.1, b.18.1.3
+Probab=36.39  E-value=31  Score=24.49  Aligned_cols=18  Identities=22%  Similarity=0.309  Sum_probs=0.0  Template_Neff=8.200
+
+Q ss_pred             CCCcceeeccccCCCCCC
+Q EEZ6199913.1/9    1 APDLDIRIPYATDPTGNR   18 (31)
+Q Consensus         1 a~~ldi~~~YatDp~G~r   18 (31)
+                      ..+..||||||++..++.
+T Consensus       491 ~~~Y~IRiRYAs~~~~~l  508 (590)
+T 1CIY_A          491 SQRYRVRIRYASTTNLQF  508 (590)
+T ss_dssp             TCCEEEEEEEEESSCEEE
+T ss_pred             cccEEEEEEEEeCCceEE
+
+
+No 12
+>7EAR_A Crystaline entomocidal protoxin; crystal-forming, protein delivery, cell-permeable, endosome-escapable, TOXIN; 2.2A {Bacillus thuringiensis}
+Probab=35.64  E-value=29  Score=25.10  Aligned_cols=13  Identities=31%  Similarity=0.301  Sum_probs=0.0  Template_Neff=8.000
+
+Q ss_pred             eeeccccCCCCCC
+Q EEZ6199913.1/9    6 IRIPYATDPTGNR   18 (31)
+Q Consensus         6 i~~~YatDp~G~r   18 (31)
+                      ||||||++..|++
+T Consensus       563 IRiRYAs~~~~~l  575 (644)
+T 7EAR_A          563 ARIHYASTSQITF  575 (644)
+T ss_dssp             EEEEEEESSCEEE
+T ss_pred             EEEEEEcCCeEEE
+
+
+No 13
+>6OVB_A Active core crystal toxin protein 1D; Bacillus thuringiensis, Cry toxin, B.t., TOXIN; 2.611A {Bacillus thuringiensis} SCOP: b.77.2.0, f.1.3.0, b.18.1.0
+Probab=35.47  E-value=33  Score=24.40  Aligned_cols=18  Identities=22%  Similarity=0.281  Sum_probs=0.0  Template_Neff=8.100
+
+Q ss_pred             CCCcceeeccccCCCCCC
+Q EEZ6199913.1/9    1 APDLDIRIPYATDPTGNR   18 (31)
+Q Consensus         1 a~~ldi~~~YatDp~G~r   18 (31)
+                      ..+..||||||++..++.
+T Consensus       483 ~~~Y~IRiRYAs~~~~~~  500 (577)
+T 6OVB_A          483 PQSYYIRFRYASVANRSG  500 (577)
+T ss_dssp             CEEEEEEEEEEESSSEEE
+T ss_pred             CCeEEEEEEEEecCceEE
+
+
+No 14
+>7AOR_ac mS50; Ribosome, Mitochondria, Kinetoplastid; HET: UTP, GTP;{Trypanosoma cruzi (strain CL Brener)}
+Probab=35.21  E-value=57  Score=27.98  Aligned_cols=19  Identities=37%  Similarity=0.816  Sum_probs=0.0  Template_Neff=2.900
+
+Q ss_pred             cceeeccccCCCCCCCCCCc
+Q EEZ6199913.1/9    4 LDIRIPYATDPTGNRLPDPE   23 (31)
+Q Consensus         4 ldi~~~YatDp~G~rl~~~e   23 (31)
+                      .++.||| ||++|+++|.-|
+T Consensus       761 ~evyLPy-tda~G~~Lp~GE  779 (1152)
+T 7AOR_ac         761 AELYLPY-TDASGVPIPQGE  779 (1152)
+T ss_dssp             EEEECCS-BCTTSSBCCCEE
+T ss_pred             EEEEccc-cCCCCCCCCCce
+
+
+No 15
+>6OWK_A Pesticidal crystal protein Cry1Be, Cry1K-like protein chimera; Bacillus thuringiensis, Cry toxin, B.t., TOXIN; 2.698A {Bacillus thuringiensis} SCOP: b.77.2.0, f.1.3.0, b.18.1.0
+Probab=34.62  E-value=36  Score=24.74  Aligned_cols=14  Identities=29%  Similarity=0.299  Sum_probs=0.0  Template_Neff=7.700
+
+Q ss_pred             ceeeccccCCCCCC
+Q EEZ6199913.1/9    5 DIRIPYATDPTGNR   18 (31)
+Q Consensus         5 di~~~YatDp~G~r   18 (31)
+                      .||||||++..+++
+T Consensus       522 riRiRYAs~~~~~~  535 (617)
+T 6OWK_A          522 RARIRYASTTNLRI  535 (617)
+T ss_dssp             EEEEEEEESSCEEE
+T ss_pred             EEEEEEecCCCeEE
+
+
+No 16
+>7ANE_ac mS50; Ribosome, Mitochondria, Kinetoplastid; HET: NAD; 3.9A {Leishmania major}
+Probab=33.42  E-value=65  Score=27.95  Aligned_cols=19  Identities=42%  Similarity=0.920  Sum_probs=0.0  Template_Neff=2.700
+
+Q ss_pred             cceeeccccCCCCCCCCCCc
+Q EEZ6199913.1/9    4 LDIRIPYATDPTGNRLPDPE   23 (31)
+Q Consensus         4 ldi~~~YatDp~G~rl~~~e   23 (31)
+                      .++.||| ||.+|+++|.-|
+T Consensus       843 ~EvyLPy-tdA~G~~LP~GE  861 (1267)
+T 7ANE_ac         843 TEVFLPY-VDAAGRRLPNGE  861 (1267)
+T ss_pred             EEEEecc-cCCCCCCCCCce
+
+
+No 17
+>PF02772.18 ; S-AdoMet_synt_M ; S-adenosylmethionine synthetase, central domain
+Probab=33.14  E-value=93  Score=16.93  Aligned_cols=20  Identities=35%  Similarity=0.449  Sum_probs=0.0  Template_Neff=9.100
+
+Q ss_pred             CCCcceeeccccCCCCCCCC
+Q EEZ6199913.1/9    1 APDLDIRIPYATDPTGNRLP   20 (31)
+Q Consensus         1 a~~ldi~~~YatDp~G~rl~   20 (31)
+                      |.|-.|-+.|||+..-+.+|
+T Consensus         4 agDq~~~~GyA~~~t~~~lP   23 (118)
+T R6TBB4_9FIRM/1    4 AGDQGIMFGFACDETPELMP   23 (118)
+T ss_pred             CCcceEEeeEecCCCcccCC
+
+
+No 18
+>2C9K_A PESTICIDAL CRYSTAL PROTEIN CRY4AA; TOXIN, INSECT TOXIN, BIOINSECTICICIDE, PORE FORMATION, RECEPTOR RECOGNITION, SPORULATION; 2.8A {BACILLUS THURINGIENSIS}
+Probab=29.87  E-value=59  Score=23.56  Aligned_cols=13  Identities=46%  Similarity=0.761  Sum_probs=0.0  Template_Neff=7.900
+
+Q ss_pred             eeeccccCCCCCC
+Q EEZ6199913.1/9    6 IRIPYATDPTGNR   18 (31)
+Q Consensus         6 i~~~YatDp~G~r   18 (31)
+                      ||||||.+..+++
+T Consensus       521 iRiRYAs~~~~~~  533 (612)
+T 2C9K_A          521 IRIRYASNGSANT  533 (612)
+T ss_dssp             EEEEEEECSCTTS
+T ss_pred             EEEEEEeCCCCee
+
+
+No 19
+>d1xqaa1 d.32.1.2 (A:1-112) Hypothetical protein BC3580 {Bacillus cereus [TaxId: 1396]}
+Probab=28.83  E-value=59  Score=15.17  Aligned_cols=13  Identities=23%  Similarity=0.358  Sum_probs=0.0  Template_Neff=12.100
+
+Q ss_pred             eeccccCCCCCCC
+Q EEZ6199913.1/9    7 RIPYATDPTGNRL   19 (31)
+Q Consensus         7 ~~~YatDp~G~rl   19 (31)
+                      ...|..||.|+++
+T Consensus        96 ~~~~~~Dp~G~~~  108 (112)
+T d1xqaa1          96 YTFYVEAPGGFTI  108 (112)
+T ss_dssp             EEEEEEETTTEEE
+T ss_pred             EEEEEECCCCCEE
+
+
+No 20
+>1W99_A PESTICIDIAL CRYSTAL PROTEIN CRY4BA; MEMBRANE PORE, BIO-INSECTICIDE, DIPTERAN SPECIFICITY, CONFORMATIONAL CHANGE, HYDROPHOBIC PATCH, TOXIN; HET: BR; 1.75A {BACILLUS THURINGIENSIS SEROVAR ISRAELENSIS} SCOP: f.1.3.1, b.77.2.1, b.18.1.3
+Probab=27.80  E-value=51  Score=23.70  Aligned_cols=14  Identities=29%  Similarity=0.366  Sum_probs=0.0  Template_Neff=7.700
+
+Q ss_pred             ceeeccccCCCCCC
+Q EEZ6199913.1/9    5 DIRIPYATDPTGNR   18 (31)
+Q Consensus         5 di~~~YatDp~G~r   18 (31)
+                      .|||+||.+..++.
+T Consensus       455 ~iRiRYAs~~~~~l  468 (558)
+T 1W99_A          455 GLRIRYAANSPIVL  468 (558)
+T ss_dssp             EEEEEEEESSCCEE
+T ss_pred             EEEEEEeeCCCeEE
+
+
+No 21
+>3EB7_A Insecticidal Delta-Endotoxin Cry8Ea1; Endotoxin, Cry8E, Bacillus Thuringiensis, TOXIN; HET: ACT, SO4; 2.3A {Bacillus Thuringiensis} SCOP: b.18.1.0, f.1.3.0, b.77.2.0
+Probab=27.48  E-value=60  Score=23.48  Aligned_cols=18  Identities=17%  Similarity=0.285  Sum_probs=0.0  Template_Neff=7.800
+
+Q ss_pred             CCCcceeeccccCCCCCC
+Q EEZ6199913.1/9    1 APDLDIRIPYATDPTGNR   18 (31)
+Q Consensus         1 a~~ldi~~~YatDp~G~r   18 (31)
+                      ..+..||||||.+..+++
+T Consensus       496 ~~~Y~iRiRYAs~~~~~~  513 (589)
+T 3EB7_A          496 SQKYRVRIRYCSSVDFDL  513 (589)
+T ss_dssp             TCEEEEEEEEEESSCEEE
+T ss_pred             CCeEEEEEEEeeCCceEE
+
+
+No 22
+>1JI6_A PESTICIDIAL CRYSTAL PROTEIN CRY3BB; Cry3Bb1, TOXIN; 2.4A {Bacillus thuringiensis} SCOP: f.1.3.1, b.77.2.1, b.18.1.3
+Probab=27.20  E-value=53  Score=23.79  Aligned_cols=14  Identities=29%  Similarity=0.396  Sum_probs=0.0  Template_Neff=7.700
+
+Q ss_pred             ceeeccccCCCCCC
+Q EEZ6199913.1/9    5 DIRIPYATDPTGNR   18 (31)
+Q Consensus         5 di~~~YatDp~G~r   18 (31)
+                      .||||||.+..|++
+T Consensus       504 riRiRYAs~~~~~l  517 (589)
+T 1JI6_A          504 RVRIRYASTTNLRL  517 (589)
+T ss_dssp             EEEEEEEESSCEEE
+T ss_pred             EEEEEEeeCCceEE
+
+
+No 23
+>d1mxaa2 d.130.1.1 (A:108-231) S-adenosylmethionine synthetase {Escherichia coli [TaxId: 562]}
+Probab=26.81  E-value=1.2e+02  Score=18.04  Aligned_cols=20  Identities=35%  Similarity=0.459  Sum_probs=0.0  Template_Neff=7.000
+
+Q ss_pred             CCCcceeeccccCCCCCCCC
+Q EEZ6199913.1/9    1 APDLDIRIPYATDPTGNRLP   20 (31)
+Q Consensus         1 a~~ldi~~~YatDp~G~rl~   20 (31)
+                      |.|--|-+-|||+...+.+|
+T Consensus         9 AgDQgim~GyA~~et~~~mP   28 (124)
+T d1mxaa2           9 AGDQGLMFGYATNETDVLMP   28 (124)
+T ss_dssp             CSSCEEEEEEEETTSTTSSC
+T ss_pred             CCceeEEeceecCCCcccCC
+
+
+No 24
+>5ZI1_A insecticidal crystal protein Cry7Cal; insecticidal crystal protein, TOXIN; 2.3A {Bacillus thuringiensis}
+Probab=26.24  E-value=61  Score=23.75  Aligned_cols=13  Identities=31%  Similarity=0.562  Sum_probs=0.0  Template_Neff=7.500
+
+Q ss_pred             eeeccccCCCCCC
+Q EEZ6199913.1/9    6 IRIPYATDPTGNR   18 (31)
+Q Consensus         6 i~~~YatDp~G~r   18 (31)
+                      ||||||++..+++
+T Consensus       524 iRiRYAs~~~~~l  536 (609)
+T 5ZI1_A          524 VRVRYAATGDGVM  536 (609)
+T ss_dssp             EEEEEEESSCEEE
+T ss_pred             EEEEEeecCceeE
+
+
+No 25
+>PF19828.1 ; DUF6309 ; Family of unknown function (DUF6309)
+Probab=25.51  E-value=1.2e+02  Score=21.08  Aligned_cols=24  Identities=38%  Similarity=0.646  Sum_probs=0.0  Template_Neff=3.600
+
+Q ss_pred             cceeeccccCCCCCCCCCCcCCCCCCCC
+Q EEZ6199913.1/9    4 LDIRIPYATDPTGNRLPDPELHPDSTLT   31 (31)
+Q Consensus         4 ldi~~~YatDp~G~rl~~~e~~P~stsT   31 (31)
+                      |+|.+|+-+-..|.+    ||.|.+++|
+T Consensus        59 L~VvLPwH~~E~G~~----eLvP~tGlT   82 (185)
+T A0A1M6BFB0_9AC   59 LGVVLPWHLAEGGAR----ELVPRTGLT   82 (185)
+T ss_pred             hhcccccccccCCCc----cccCCCCCc
+
+
+No 26
+>d3so4a2 d.130.1.0 (A:115-238) automated matches {Entamoeba (Entamoeba histolytica) [TaxId: 5759]}
+Probab=25.04  E-value=1.3e+02  Score=17.86  Aligned_cols=20  Identities=40%  Similarity=0.544  Sum_probs=0.0  Template_Neff=7.200
+
+Q ss_pred             CCCcceeeccccCCCCCCCC
+Q EEZ6199913.1/9    1 APDLDIRIPYATDPTGNRLP   20 (31)
+Q Consensus         1 a~~ldi~~~YatDp~G~rl~   20 (31)
+                      |.|--|-.-|||+.+.+.+|
+T Consensus         5 AgDQgim~GyA~~et~~~mP   24 (124)
+T d3so4a2           5 AGDQGIMFGYATDESKEMMP   24 (124)
+T ss_dssp             CSSCEEEEEEEETTSTTSSC
+T ss_pred             CCceEEEecEecCCChhccC
+
+
+No 27
+>d5h9ua2 d.130.1.0 (A:119-244) automated matches {Thermus thermophilus [TaxId: 262724]}
+Probab=23.78  E-value=1.5e+02  Score=17.74  Aligned_cols=20  Identities=40%  Similarity=0.524  Sum_probs=0.0  Template_Neff=7.000
+
+Q ss_pred             CCCcceeeccccCCCCCCCC
+Q EEZ6199913.1/9    1 APDLDIRIPYATDPTGNRLP   20 (31)
+Q Consensus         1 a~~ldi~~~YatDp~G~rl~   20 (31)
+                      |.|--|-+-||++.+.+.+|
+T Consensus        10 AgDQgimfGyA~~et~~~mP   29 (126)
+T d5h9ua2          10 AGDQGLMFGYATDETPELMP   29 (126)
+T ss_dssp             CSSCEEEEEEEETTSTTSSC
+T ss_pred             CCceEEEeceecCCCcccCC
+
+
+No 28
+>d2hj2a2 d.130.1.1 (A:126-251) S-adenosylmethionine synthetase {Human (Homo sapiens), isoform type-2 [TaxId: 9606]}
+Probab=23.11  E-value=1.5e+02  Score=17.64  Aligned_cols=20  Identities=40%  Similarity=0.537  Sum_probs=0.0  Template_Neff=7.200
+
+Q ss_pred             CCCcceeeccccCCCCCCCC
+Q EEZ6199913.1/9    1 APDLDIRIPYATDPTGNRLP   20 (31)
+Q Consensus         1 a~~ldi~~~YatDp~G~rl~   20 (31)
+                      |.|--|-+-||++.+.+.+|
+T Consensus         7 AgDQgim~GyA~~et~~~mP   26 (126)
+T d2hj2a2           7 AGDQGLMFGYATDETEECMP   26 (126)
+T ss_dssp             BSSCEEEEEEEETTSTTSSC
+T ss_pred             CCcceEEeceecCCChhhcC
+
+
+No 29
+>PF02827.18 ; PKI ; cAMP-dependent protein kinase inhibitor
+Probab=22.78  E-value=2.2e+02  Score=16.42  Aligned_cols=21  Identities=19%  Similarity=0.357  Sum_probs=0.0  Template_Neff=5.100
+
+Q ss_pred             ccCCCCCCCCCCcCCCCCCCC
+Q EEZ6199913.1/9   11 ATDPTGNRLPDPELHPDSTLT   31 (31)
+Q Consensus        11 atDp~G~rl~~~e~~P~stsT   31 (31)
+                      ++++.|||-+-+++..++...
+T Consensus        12 ssgRtGRRNAlpDI~~~~~~~   32 (69)
+T F7A760_HORSE/2   12 SSARTGRRNAVPDIQGSAATG   32 (69)
+T ss_pred             ccCCCCCCCCCCCccCcccCC
+
+
+No 30
+>d1klla_ d.32.1.2 (A:) Mitomycin resistance protein D, MRD {Streptomyces lavendulae [TaxId: 1914]}
+Probab=22.18  E-value=93  Score=14.89  Aligned_cols=13  Identities=38%  Similarity=0.675  Sum_probs=0.0  Template_Neff=12.100
+
+Q ss_pred             eeccccCCCCCCC
+Q EEZ6199913.1/9    7 RIPYATDPTGNRL   19 (31)
+Q Consensus         7 ~~~YatDp~G~rl   19 (31)
+                      +.-|.+||.|+++
+T Consensus       109 ~~~~~~dp~G~~~  121 (128)
+T d1klla_         109 RYAIVKDPDGNVV  121 (128)
+T ss_dssp             EEEEEECTTSCEE
+T ss_pred             EEEEEECCCCCEE
+
+
+No 31
+>PF14507.8 ; CppA_C ; CppA C-terminal
+Probab=21.97  E-value=78  Score=14.64  Aligned_cols=10  Identities=20%  Similarity=0.252  Sum_probs=0.0  Template_Neff=11.600
+
+Q ss_pred             cccCCCCCCC
+Q EEZ6199913.1/9   10 YATDPTGNRL   19 (31)
+Q Consensus        10 YatDp~G~rl   19 (31)
+                      |..||.|+++
+T Consensus        83 ~~~dp~g~~~   92 (94)
+T Q8DP81_STRR6/1   83 LGKDRNNVEL   92 (94)
+T ss_pred             EEECCCCCEE
+
+
+No 32
+>4MJG_B hypothetical protein; PF16145 family, DUF4853, Structural Genomics, Joint Center for Structural Genomics, JCSG, Protein Structure Initiative, PSI-BIOLOGY, UNKNOWN; HET: GOL, SO4, MSE; 2.65A {Actinomyces odontolyticus}
+Probab=21.71  E-value=3.1e+02  Score=17.83  Aligned_cols=26  Identities=35%  Similarity=0.598  Sum_probs=0.0  Template_Neff=6.800
+
+Q ss_pred             CCcceeeccccCCCCCCCCCCcCC------CCCC
+Q EEZ6199913.1/9    2 PDLDIRIPYATDPTGNRLPDPELH------PDST   29 (31)
+Q Consensus         2 ~~ldi~~~YatDp~G~rl~~~e~~------P~st   29 (31)
+                      |++.++|.=|+|+++  .|.|.+.      |+|+
+T Consensus       159 p~~~~~~~~~~d~~~--~~~p~~~~~~~~~~~~~  190 (199)
+T 4MJG_B          159 PGMHVTISDNTNPDL--HPVPTLTTGAHVTPQSG  190 (199)
+T ss_dssp             TTEEEEEECCSSSSS--SCEEEEEECC-------
+T ss_pred             CCCceEEecCCCCCC--CCCCCCCCCCccCCCcC
+
+
+No 33
+>d3uh9a1 d.32.1.0 (A:2-139) automated matches {Bacillus anthracis [TaxId: 198094]}
+Probab=21.46  E-value=79  Score=15.90  Aligned_cols=10  Identities=50%  Similarity=1.092  Sum_probs=0.0  Template_Neff=11.400
+
+Q ss_pred             cccCCCCCCC
+Q EEZ6199913.1/9   10 YATDPTGNRL   19 (31)
+Q Consensus        10 YatDp~G~rl   19 (31)
+                      |.+||.|+++
+T Consensus       104 ~~~Dp~G~~~  113 (138)
+T d3uh9a1         104 YFTDPDGHKF  113 (138)
+T ss_dssp             EEECTTCCEE
+T ss_pred             EEECCCCCEE
+
+
+No 34
+>d1ukca_ c.69.1.17 (A:) Esterase EstA {Aspergillus niger [TaxId: 5061]}
+Probab=21.44  E-value=2.8e+02  Score=18.30  Aligned_cols=24  Identities=29%  Similarity=0.607  Sum_probs=0.0  Template_Neff=10.400
+
+Q ss_pred             eccccCCCCC-CCCCCcCCCCCCCC
+Q EEZ6199913.1/9    8 IPYATDPTGN-RLPDPELHPDSTLT   31 (31)
+Q Consensus         8 ~~YatDp~G~-rl~~~e~~P~stsT   31 (31)
+                      ||||.-|.|+ |...|+.......+
+T Consensus        30 Ipya~~p~g~~Rf~~p~~~~~~~~~   54 (517)
+T d1ukca_          30 MRYASPPIGDLRFRAPQDPPANQTL   54 (517)
+T ss_dssp             EESSCCCCGGGTTSCCCCCCCCCSC
+T ss_pred             CCCCCCCCCCCCCCCCCCCCCCCCC
+
+
+No 35
+>4D8M_A Pesticidal crystal protein cry5Ba; glycolipid binding, LIPID BINDING PROTEIN, Structural Genomics, Berkeley Structural Genomics Center, BSGC; 2.3A {Bacillus thuringiensis}
+Probab=21.17  E-value=1e+02  Score=22.12  Aligned_cols=14  Identities=36%  Similarity=0.529  Sum_probs=0.0  Template_Neff=8.200
+
+Q ss_pred             ceeeccccCCCCCC
+Q EEZ6199913.1/9    5 DIRIPYATDPTGNR   18 (31)
+Q Consensus         5 di~~~YatDp~G~r   18 (31)
+                      .||++||+...+++
+T Consensus       501 ~IRiRyAs~~~~~l  514 (587)
+T 4D8M_A          501 EIRCRYASKGDNNV  514 (587)
+T ss_dssp             EEEEEEEESSCEEE
+T ss_pred             EEEEEEEcCCCCeE
+
+
+No 36
+>d4odja2 d.130.1.0 (A:131-259) automated matches {Cryptosporidium hominis [TaxId: 237895]}
+Probab=21.12  E-value=1.7e+02  Score=17.61  Aligned_cols=20  Identities=35%  Similarity=0.486  Sum_probs=0.0  Template_Neff=7.000
+
+Q ss_pred             CCCcceeeccccCCCCCCCC
+Q EEZ6199913.1/9    1 APDLDIRIPYATDPTGNRLP   20 (31)
+Q Consensus         1 a~~ldi~~~YatDp~G~rl~   20 (31)
+                      |.|--|-.-|||+.+.+.+|
+T Consensus         7 AGDQgimfGyA~~et~~~mP   26 (129)
+T d4odja2           7 AGDQGMMFGYATNETKELMP   26 (129)
+T ss_dssp             BSSCEEEEEEEETTSTTSSC
+T ss_pred             cCcceEEecEecCCCccccc
+
+
+No 37
+>PF05688.13 ; BIg21 ; Bacterial Immunoglobulin-like 21
+Probab=21.05  E-value=1.6e+02  Score=16.80  Aligned_cols=20  Identities=15%  Similarity=0.371  Sum_probs=0.0  Template_Neff=7.500
+
+Q ss_pred             cceeeccccCCCCCCCCCCcC
+Q EEZ6199913.1/9    4 LDIRIPYATDPTGNRLPDPEL   24 (31)
+Q Consensus         4 ldi~~~YatDp~G~rl~~~e~   24 (31)
+                      +.+++. ++|.+|+++++..|
+T Consensus         4 i~ltvt-~~d~~G~pv~~~~~   23 (106)
+T A0A085HKG2_9GA    4 ITLTIT-TLGCDGSPSPNTAF   23 (106)
+T ss_pred             eEEEEE-EeCCCCCccCCceE
+
+
+No 38
+>d3fcda1 d.32.1.0 (A:4-124) automated matches {Uncultured bacterium [TaxId: 77133]}
+Probab=21.00  E-value=1e+02  Score=14.75  Aligned_cols=13  Identities=31%  Similarity=0.314  Sum_probs=0.0  Template_Neff=11.900
+
+Q ss_pred             eeccccCCCCCCC
+Q EEZ6199913.1/9    7 RIPYATDPTGNRL   19 (31)
+Q Consensus         7 ~~~YatDp~G~rl   19 (31)
+                      +.-|..||.|+++
+T Consensus       102 ~~~~~~Dp~G~~~  114 (121)
+T d3fcda1         102 REFQVRMPDGDWL  114 (121)
+T ss_dssp             EEEEEECTTSCEE
+T ss_pred             EEEEEECCCCCEE
+
+
+No 39
+>d3imla2 d.130.1.0 (A:115-235) automated matches {Burkholderia pseudomallei [TaxId: 28450]}
+Probab=20.70  E-value=1.8e+02  Score=17.19  Aligned_cols=20  Identities=35%  Similarity=0.474  Sum_probs=0.0  Template_Neff=7.200
+
+Q ss_pred             CCCcceeeccccCCCCCCCC
+Q EEZ6199913.1/9    1 APDLDIRIPYATDPTGNRLP   20 (31)
+Q Consensus         1 a~~ldi~~~YatDp~G~rl~   20 (31)
+                      |.|--|-+-||++.+.+.+|
+T Consensus         6 AgDQgim~GyA~~et~~~mP   25 (121)
+T d3imla2           6 AGDQGLMFGYACDETPELMP   25 (121)
+T ss_dssp             BSSCEEEEEEEETTSTTSCC
+T ss_pred             CCceEEEeceecCCChhhCC
+
+
+No 40
+>d1kuta_ d.143.1.1 (A:) SAICAR synthase {Thermotoga maritima [TaxId: 2336]}
+Probab=20.52  E-value=1.1e+02  Score=19.64  Aligned_cols=26  Identities=31%  Similarity=0.552  Sum_probs=0.0  Template_Neff=7.400
+
+Q ss_pred             cceeeccccCCCCCCCCCCcCCCCCC
+Q EEZ6199913.1/9    4 LDIRIPYATDPTGNRLPDPELHPDST   29 (31)
+Q Consensus         4 ldi~~~YatDp~G~rl~~~e~~P~st   29 (31)
+                      .|+.+.+..|.+|+..-.-|+.|||.
+T Consensus       161 vD~K~EfG~~~~g~ivl~DeitpDs~  186 (224)
+T d1kuta_         161 WDIKYEFGLDKDGNVVLGDEISPDTF  186 (224)
+T ss_dssp             EEEEECEEECTTCCEEECSCCSTTTE
+T ss_pred             ceEEEEEEECCCCCEEEEeecCCCCc
+
+
+No 41
+>d4le5a2 d.130.1.0 (A:118-243) automated matches {Campylobacter jejuni [TaxId: 195099]}
+Probab=20.40  E-value=1.6e+02  Score=17.43  Aligned_cols=20  Identities=25%  Similarity=0.340  Sum_probs=0.0  Template_Neff=7.300
+
+Q ss_pred             CCCcceeeccccCCCCCCCC
+Q EEZ6199913.1/9    1 APDLDIRIPYATDPTGNRLP   20 (31)
+Q Consensus         1 a~~ldi~~~YatDp~G~rl~   20 (31)
+                      |.|--|-+-||||.+.+.+|
+T Consensus         5 AgDQgim~GyA~~et~~~mP   24 (126)
+T d4le5a2           5 AGDQGIMFGFASCEAEEYMP   24 (126)
+T ss_dssp             BSSCEEEEEEEETTBGGGBC
+T ss_pred             CCceEEEeceecCCChhhcC
+
+
+No 42
+>PF18807.3 ; TTc_toxin_rep ; Tripartite Tc toxins repeat
+Probab=20.36  E-value=71  Score=16.03  Aligned_cols=13  Identities=8%  Similarity=0.345  Sum_probs=0.0  Template_Neff=6.700
+
+Q ss_pred             ceeeccccCCCCCCC
+Q EEZ6199913.1/9    5 DIRIPYATDPTGNRL   19 (31)
+Q Consensus         5 di~~~YatDp~G~rl   19 (31)
+                      +|.-.|  |++||.+
+T Consensus        28 ~v~~~F--D~~GN~~   40 (45)
+T A0A380SCC3_YER   28 EVDALF--TAGGQQK   40 (45)
+T ss_pred             HHHHhc--CCCCccc
+
+
+No 43
+>1XQA_B Glyoxalase/Bleomycin resistance protein; Dioxygenase, Glyoxalase/Bleomycin resistance, structural genomics, Midwest Center for Structural Genomics, MCSG, Protein Structure Initiative, PSI, UNKNOWN; HET: MSE, P6G; 1.8A {Bacillus cereus ATCC 14579} SCOP: d.32.1.2
+Probab=20.19  E-value=1e+02  Score=14.06  Aligned_cols=13  Identities=23%  Similarity=0.358  Sum_probs=0.0  Template_Neff=12.500
+
+Q ss_pred             eeccccCCCCCCC
+Q EEZ6199913.1/9    7 RIPYATDPTGNRL   19 (31)
+Q Consensus         7 ~~~YatDp~G~rl   19 (31)
+                      ..-+..||.|+.+
+T Consensus        97 ~~~~~~dp~G~~~  109 (113)
+T 1XQA_B           97 YTFYVEAPGGFTI  109 (113)
+T ss_dssp             EEEEEEETTTEEE
+T ss_pred             EEEEEEcCCCCEE
+
+
+No 44
+>PF12681.9 ; Glyoxalase_2 ; Glyoxalase-like domain
+Probab=20.03  E-value=1.1e+02  Score=13.88  Aligned_cols=13  Identities=23%  Similarity=0.360  Sum_probs=0.0  Template_Neff=12.800
+
+Q ss_pred             eeccccCCCCCCC
+Q EEZ6199913.1/9    7 RIPYATDPTGNRL   19 (31)
+Q Consensus         7 ~~~YatDp~G~rl   19 (31)
+                      ..-|..||.|+++
+T Consensus       100 ~~~~~~dp~G~~~  112 (119)
+T A5HYY7_CLOBH/3  100 RVVRIYDPDHHII  112 (119)
+T ss_pred             EEEEEECCCCCEE
+
+
+No 45
+>d1f9za_ d.32.1.1 (A:) Glyoxalase I (lactoylglutathione lyase) {Escherichia coli [TaxId: 562]}
+Probab=20.02  E-value=1.1e+02  Score=14.59  Aligned_cols=14  Identities=29%  Similarity=0.710  Sum_probs=0.0  Template_Neff=12.400
+
+Q ss_pred             eeeccccCCCCCCC
+Q EEZ6199913.1/9    6 IRIPYATDPTGNRL   19 (31)
+Q Consensus         6 i~~~YatDp~G~rl   19 (31)
+                      .+..|-.||.|+++
+T Consensus       108 ~~~~~~~dp~G~~~  121 (135)
+T d1f9za_         108 TVIAFVEDPDGYKI  121 (135)
+T ss_dssp             CEEEEEECTTSCEE
+T ss_pred             cEEEEEECCCCcEE
+
+

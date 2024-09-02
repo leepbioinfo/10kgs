@@ -1,0 +1,1633 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>body { margin: 0; }.markdown-body { -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; max-width: 960px; margin: 28px auto 60px auto; padding: 8px; color: #24292f; background-color: #ffffff; font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji"; font-size: 16px; line-height: 1.5; word-wrap: break-word;}.markdown-body .octicon { display: inline-block; fill: currentColor; vertical-align: text-bottom;}.markdown-body pre { position: relative;}.markdown-body pre .copied { visibility: hidden; display: flex; position: absolute; cursor: pointer; color: #a5afbb; top: 6px; right: 6px; border-radius: 5px; background: #e3e3e3; padding: 6px; font-size: 12px; transition: all .3s;}.markdown-body pre:hover .copied { visibility: visible;}.markdown-body pre:hover .copied:hover { background: #4caf50; color: #fff;}.markdown-body pre:hover .copied:active,.markdown-body pre .copied.active { background: #2e9b33; color: #fff;}.markdown-body pre .copied .octicon-copy { display: block;}.markdown-body pre .copied .octicon-check { display: none;}.markdown-body pre .active .octicon-copy { display: none;}.markdown-body pre .active .octicon-check { display: block;}.markdown-body .octicon-video { border: 1px solid #d0d7de !important; border-radius: 6px !important; display: block;}.markdown-body .octicon-video summary { border-bottom: 1px solid #d0d7de !important; padding: 8px 16px !important; cursor: pointer;}.markdown-body .octicon-video > video { display: block !important; max-width: 100% !important; padding: 2px; box-sizing: border-box; border-bottom-right-radius: 6px !important; border-bottom-left-radius: 6px !important;}.markdown-body details.octicon-video:not([open])>*:not(summary) { display: none !important;}.markdown-body details.octicon-video:not([open]) > summary { border-bottom: 0 !important;}.markdown-body .octicon-video summary > svg + span { margin: 4px !important;}.markdown-body h1:hover a.anchor .octicon-link:before,.markdown-body h2:hover a.anchor .octicon-link:before,.markdown-body h3:hover a.anchor .octicon-link:before,.markdown-body h4:hover a.anchor .octicon-link:before,.markdown-body h5:hover a.anchor .octicon-link:before,.markdown-body h6:hover a.anchor .octicon-link:before { width: 16px; height: 16px; content: ' '; display: inline-block; background-color: currentColor; -webkit-mask-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' version='1.1' aria-hidden='true'><path fill-rule='evenodd' d='M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z'></path></svg>"); mask-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' version='1.1' aria-hidden='true'><path fill-rule='evenodd' d='M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z'></path></svg>");}.markdown-body a.anchor { float: left; padding-right: 4px; margin-left: -20px; line-height: 1; min-width: 16px;}.markdown-body a.anchor:focus { outline: none;}.markdown-body h1:hover a.anchor,.markdown-body h2:hover a.anchor,.markdown-body h3:hover a.anchor,.markdown-body h4:hover a.anchor,.markdown-body h5:hover a.anchor,.markdown-body h6:hover a.anchor { text-decoration: none;}.markdown-body h1:hover a.anchor .octicon-link,.markdown-body h2:hover a.anchor .octicon-link,.markdown-body h3:hover a.anchor .octicon-link,.markdown-body h4:hover a.anchor .octicon-link,.markdown-body h5:hover a.anchor .octicon-link,.markdown-body h6:hover a.anchor .octicon-link { visibility: visible;}.markdown-body details,.markdown-body figcaption,.markdown-body figure { display: block;}.markdown-body summary { display: list-item;}.markdown-body a { background-color: transparent; color: #0969da; text-decoration: none;}.markdown-body a:active,.markdown-body a:hover { outline-width: 0;}.markdown-body abbr[title] { border-bottom: none; -webkit-text-decoration: underline dotted; text-decoration: underline dotted;}.markdown-body b,.markdown-body strong { font-weight: 600;}.markdown-body dfn { font-style: italic;}.markdown-body h1 { margin: .67em 0; font-weight: 600; padding-bottom: .3em; font-size: 2em; border-bottom: 1px solid hsla(210,18%,87%,1);}.markdown-body mark { background-color: #ff0; color: #24292f;}.markdown-body small { font-size: 90%;}.markdown-body sub,.markdown-body sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline;}.markdown-body sub { bottom: -0.25em;}.markdown-body sup { top: -0.5em;}.markdown-body img { border-style: none; max-width: 100%; box-sizing: content-box; background-color: #ffffff;}.markdown-body code,.markdown-body kbd,.markdown-body pre,.markdown-body samp { font-family: monospace,monospace; font-size: 1em;}.markdown-body figure { margin: 1em 40px;}.markdown-body hr { box-sizing: content-box; overflow: hidden; background: transparent; border-bottom: 1px solid hsla(210,18%,87%,1); height: .25em; padding: 0; margin: 24px 0; background-color: #d0d7de; border: 0;}.markdown-body html [type=button],.markdown-body [type=reset],.markdown-body [type=submit] { -webkit-appearance: button;}.markdown-body [type=button]::-moz-focus-inner,.markdown-body [type=reset]::-moz-focus-inner,.markdown-body [type=submit]::-moz-focus-inner { border-style: none; padding: 0;}.markdown-body [type=button]:-moz-focusring,.markdown-body [type=reset]:-moz-focusring,.markdown-body [type=submit]:-moz-focusring { outline: 1px dotted ButtonText;}.markdown-body [type=checkbox],.markdown-body [type=radio] { box-sizing: border-box; padding: 0;}.markdown-body [type=number]::-webkit-inner-spin-button,.markdown-body [type=number]::-webkit-outer-spin-button { height: auto;}.markdown-body [type=search] { -webkit-appearance: textfield; outline-offset: -2px;}.markdown-body [type=search]::-webkit-search-cancel-button,.markdown-body [type=search]::-webkit-search-decoration { -webkit-appearance: none;}.markdown-body ::-webkit-input-placeholder { color: inherit; opacity: .54;}.markdown-body ::-webkit-file-upload-button { -webkit-appearance: button; font: inherit;}.markdown-body a:hover { text-decoration: underline;}.markdown-body hr::before { display: table; content: "";}.markdown-body hr::after { display: table; clear: both; content: "";}.markdown-body table { border-spacing: 0; border-collapse: collapse; display: block; width: max-content; max-width: 100%; overflow: auto;}.markdown-body td,.markdown-body th { padding: 0;}.markdown-body details summary { cursor: pointer;}.markdown-body details:not([open])>*:not(summary) { display: none !important;}.markdown-body kbd { display: inline-block; padding: 3px 5px; font: 11px ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace; line-height: 10px; color: #24292f; vertical-align: middle; background-color: #f6f8fa; border: solid 1px rgba(175,184,193,0.2); border-bottom-color: rgba(175,184,193,0.2); border-radius: 6px; box-shadow: inset 0 -1px 0 rgba(175,184,193,0.2);}.markdown-body h1,.markdown-body h2,.markdown-body h3,.markdown-body h4,.markdown-body h5,.markdown-body h6 { margin-top: 24px; margin-bottom: 16px; font-weight: 600; line-height: 1.25;}.markdown-body h2 { font-weight: 600; padding-bottom: .3em; font-size: 1.5em; border-bottom: 1px solid hsla(210,18%,87%,1);}.markdown-body h3 { font-weight: 600; font-size: 1.25em;}.markdown-body h4 { font-weight: 600; font-size: 1em;}.markdown-body h5 { font-weight: 600; font-size: .875em;}.markdown-body h6 { font-weight: 600; font-size: .85em; color: #57606a;}.markdown-body p { margin-top: 0; margin-bottom: 10px;}.markdown-body blockquote { margin: 0; padding: 0 1em; color: #57606a; border-left: .25em solid #d0d7de;}.markdown-body ul,.markdown-body ol { margin-top: 0; margin-bottom: 0; padding-left: 2em;}.markdown-body ol ol,.markdown-body ul ol { list-style-type: lower-roman;}.markdown-body ul ul ol,.markdown-body ul ol ol,.markdown-body ol ul ol,.markdown-body ol ol ol { list-style-type: lower-alpha;}.markdown-body ul ul,.markdown-body ul ol,.markdown-body ol ol,.markdown-body ol ul { margin-top: 0; margin-bottom: 0;}.markdown-body dd { margin-left: 0;}.markdown-body tt,.markdown-body code { font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace; font-size: 12px;}.markdown-body pre { margin-top: 0; margin-bottom: 0; font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace; word-wrap: normal;}.markdown-body :-ms-input-placeholder { color: #6e7781; opacity: 1;}.markdown-body ::-ms-input-placeholder { color: #6e7781; opacity: 1;}.markdown-body ::placeholder { color: #6e7781; opacity: 1;}.markdown-body [data-catalyst] { display: block;}.markdown-body g-emoji { font-family: "Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"; font-size: 1em; font-style: normal !important; font-weight: 400; line-height: 1; vertical-align: -0.075em;}.markdown-body g-emoji img { width: 1em; height: 1em;}.markdown-body::before { display: table; content: "";}.markdown-body::after { display: table; clear: both; content: "";}.markdown-body>*:first-child { margin-top: 0 !important;}.markdown-body>*:last-child { margin-bottom: 0 !important;}.markdown-body a:not([href]) { color: inherit; text-decoration: none;}.markdown-body .absent { color: #cf222e;}.markdown-body p,.markdown-body blockquote,.markdown-body ul,.markdown-body ol,.markdown-body dl,.markdown-body table,.markdown-body pre,.markdown-body details { margin-top: 0; margin-bottom: 16px;}.markdown-body blockquote>:first-child { margin-top: 0;}.markdown-body blockquote>:last-child { margin-bottom: 0;}.markdown-body sup>a::before { content: "[";}.markdown-body sup>a::after { content: "]";}.markdown-body h1 .octicon-link,.markdown-body h2 .octicon-link,.markdown-body h3 .octicon-link,.markdown-body h4 .octicon-link,.markdown-body h5 .octicon-link,.markdown-body h6 .octicon-link { color: #24292f; vertical-align: middle; visibility: hidden;}.markdown-body h1 tt,.markdown-body h1 code,.markdown-body h2 tt,.markdown-body h2 code,.markdown-body h3 tt,.markdown-body h3 code,.markdown-body h4 tt,.markdown-body h4 code,.markdown-body h5 tt,.markdown-body h5 code,.markdown-body h6 tt,.markdown-body h6 code { padding: 0 .2em; font-size: inherit;}.markdown-body ul.no-list,.markdown-body ol.no-list { padding: 0; list-style-type: none;}.markdown-body ol[type="1"] { list-style-type: decimal;}.markdown-body ol[type=a] { list-style-type: lower-alpha;}.markdown-body ol[type=i] { list-style-type: lower-roman;}.markdown-body div>ol:not([type]) { list-style-type: decimal;}.markdown-body ul ul,.markdown-body ul ol,.markdown-body ol ol,.markdown-body ol ul { margin-top: 0; margin-bottom: 0;}.markdown-body li>p { margin-top: 16px;}.markdown-body li+li { margin-top: .25em;}.markdown-body dl { padding: 0;}.markdown-body dl dt { padding: 0; margin-top: 16px; font-size: 1em; font-style: italic; font-weight: 600;}.markdown-body dl dd { padding: 0 16px; margin-bottom: 16px;}.markdown-body table th { font-weight: 600;}.markdown-body table th,.markdown-body table td { padding: 6px 13px; border: 1px solid #d0d7de;}.markdown-body table tr { background-color: #ffffff; border-top: 1px solid hsla(210,18%,87%,1);}.markdown-body table tr:nth-child(2n) { background-color: #f6f8fa;}.markdown-body table img { background-color: transparent;}.markdown-body img[align=right] { padding-left: 20px;}.markdown-body img[align=left] { padding-right: 20px;}.markdown-body .emoji { max-width: none; vertical-align: text-top; background-color: transparent;}.markdown-body span.frame { display: block; overflow: hidden;}.markdown-body span.frame>span { display: block; float: left; width: auto; padding: 7px; margin: 13px 0 0; overflow: hidden; border: 1px solid #d0d7de;}.markdown-body span.frame span img { display: block; float: left;}.markdown-body span.frame span span { display: block; padding: 5px 0 0; clear: both; color: #24292f;}.markdown-body span.align-center { display: block; overflow: hidden; clear: both;}.markdown-body span.align-center>span { display: block; margin: 13px auto 0; overflow: hidden; text-align: center;}.markdown-body span.align-center span img { margin: 0 auto; text-align: center;}.markdown-body span.align-right { display: block; overflow: hidden; clear: both;}.markdown-body span.align-right>span { display: block; margin: 13px 0 0; overflow: hidden; text-align: right;}.markdown-body span.align-right span img { margin: 0; text-align: right;}.markdown-body span.float-left { display: block; float: left; margin-right: 13px; overflow: hidden;}.markdown-body span.float-left span { margin: 13px 0 0;}.markdown-body span.float-right { display: block; float: right; margin-left: 13px; overflow: hidden;}.markdown-body span.float-right>span { display: block; margin: 13px auto 0; overflow: hidden; text-align: right;}.markdown-body code,.markdown-body tt { padding: .2em .4em; margin: 0; font-size: 85%; background-color: rgba(175,184,193,0.2); border-radius: 6px;}.markdown-body code br,.markdown-body tt br { display: none;}.markdown-body del code { text-decoration: inherit;}.markdown-body pre code { font-size: 100%;}.markdown-body pre>code { padding: 0; margin: 0; word-break: normal; white-space: pre; background: transparent; border: 0;}.markdown-body .highlight { margin-bottom: 16px;}.markdown-body .highlight pre { margin-bottom: 0; word-break: normal;}.markdown-body pre code { padding: 16px; overflow: auto; font-size: 85%; line-height: 1.45; background-color: #f6f8fa; border-radius: 6px;}.markdown-body pre code,.markdown-body pre tt { display: block; margin: 0; word-wrap: normal; border: 0;}.markdown-body .csv-data td,.markdown-body .csv-data th { padding: 5px; overflow: hidden; font-size: 12px; line-height: 1; text-align: left; white-space: nowrap;}.markdown-body .csv-data .blob-num { padding: 10px 8px 9px; text-align: right; background: #ffffff; border: 0;}.markdown-body .csv-data tr { border-top: 0;}.markdown-body .csv-data th { font-weight: 600; background: #f6f8fa; border-top: 0;}.markdown-body .footnotes { font-size: 12px; color: #57606a; border-top: 1px solid #d0d7de;}.markdown-body .footnotes ol { padding-left: 16px;}.markdown-body .footnotes li { position: relative;}.markdown-body .footnotes li:target::before { position: absolute; top: -8px; right: -8px; bottom: -8px; left: -24px; pointer-events: none; content: ""; border: 2px solid #0969da; border-radius: 6px;}.markdown-body .footnotes li:target { color: #24292f;}.markdown-body .footnotes .data-footnote-backref g-emoji { font-family: monospace;}.markdown-body [hidden] { display: none !important;}.markdown-body ::-webkit-calendar-picker-indicator { filter: invert(50%);}/** language color **/.markdown-body .token.tag .attr-value { color: #032f62;}.markdown-body .token.property,.markdown-body .token.tag,.markdown-body .token.boolean,.markdown-body .token.number,.markdown-body .token.function-name,.markdown-body .token.constant,.markdown-body .token.symbol,.markdown-body .token.deleted { color: #0060c9;}.markdown-body .token.punctuation { color: #a0a0a0;}.markdown-body code[class*="language-"] { color: black;}.markdown-body code[class*="language-"] .token.selector,.markdown-body code[class*="language-"] .token.string,.markdown-body code[class*="language-"] .token.attr-name,.markdown-body code[class*="language-"] .token.content,.markdown-body code[class*="language-"] .token.char,.markdown-body code[class*="language-"] .token.class-name,.markdown-body code[class*="language-"] .token.function,.markdown-body code[class*="language-"] .token.builtin { color: #6f42c1;}.markdown-body code[class*="language-"] .token.inserted { color: #22863a; background-color: #f0fff4;}.markdown-body code[class*="language-"] .token.deleted { color: #b31d28; background-color: #ffeef0;}.markdown-body code[class*="language-"] .code-block { color: #032f62;}.markdown-body code[class*="language-"] .token.comment,.markdown-body code[class*="language-"] .token.block-comment,.markdown-body code[class*="language-"] .token.prolog,.markdown-body code[class*="language-"] .token.doctype,.markdown-body code[class*="language-"] .token.cdata { color: #7D8B99;}.markdown-body code[class*="language-"] .token.punctuation { color: #a0a0a0;}.markdown-body code[class*="language-"] .token.operator,.markdown-body code[class*="language-"] .token.entity,.markdown-body code[class*="language-"] .token.variable { color: #d73a49; background: rgba(255, 255, 255, 0.5);}.markdown-body code[class*="language-"] .token.url { color: #0027ff;}.markdown-body code[class*="language-"] .token.atrule,.markdown-body code[class*="language-"] .token.attr-value { color: #004698;}.markdown-body code[class*="language-"] .token.keyword { color: #d63200;}.markdown-body code[class*="language-"] .token.regex,.markdown-body code[class*="language-"] .token.important { color: #e90;}.markdown-body code[class*="language-"] .token.string { color: #0a53c1;}</style>
+    <style></style>
+  </head>
+  <body>
+    <div class="markdown-body">
+      <table>
+        <thead>
+          <tr>
+            <th align="right">model</th>
+            <th align="right">genomes</th>
+            <th align="right">locus</th>
+            <th align="right">t6ss_neighbor</th>
+            <th align="right">c100i100</th>
+            <th align="left">Aligment</th>
+            <th align="left">function</th>
+            <th align="left">seed</th>
+            <th align="left">logo</th>
+            <th align="left">aravind</th>
+            <th align="left">pfam</th>
+            <th align="left">hhpred</th>
+            <th align="left">pfam(locus)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td align="right">Sal_0</td>
+            <td align="right">520</td>
+            <td align="right">531</td>
+            <td align="right">485</td>
+            <td align="right">67</td>
+            <td align="left"><a href="data/mymodels/aln_html/10k_model_0_rep_seq.aln.html">html </a><a href="data/mymodels/10k_model_0_rep_seq.aln">fasta </a><a href="data/mymodels/10k_model_0.hmm">hmm</a></td>
+            <td align="left">HNH</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_0.seed.fa">FD01851563_04358</a></td>
+            <td align="left"><a href="data/mymodels/figs/10k_model_0.svg">svg </a><a href="data/mymodels/figs/10k_model_0.png">png</a></td>
+            <td align="left">ColE7</td>
+            <td align="left">LHH</td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/10k_model_0_rep_seq.html">6W0V_A Pyocin S (96%) Tox-HNH-HHH (96%)</a></td>
+            <td align="left">PAAR_motif(432), LHH(318), RHS(111), RHS_repeat(100), Pyocin_S(40), HNH(21), T6SS_HCP(17), Cloacin(13), E2R135(13), Phage_GPD(12), Phage_base_V(12), T6SS_Vgr(12), DUF2345(12)</td>
+          </tr>
+          <tr>
+            <td align="right">Sal_1</td>
+            <td align="right">1</td>
+            <td align="right">1</td>
+            <td align="right">1</td>
+            <td align="right">1</td>
+            <td align="left"><a href="data/mymodels/aln_html/10k_model_1_rep_seq.aln.html">html </a><a href="data/mymodels/10k_model_1_rep_seq.aln">fasta </a><a href="data/mymodels/10k_model_1.hmm">hmm</a></td>
+            <td align="left">Sal_1(Ntox18)</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_1.seed.fa">FD01847924_02385</a></td>
+            <td align="left"><a href="data/mymodels/figs/10k_model_1.svg">svg </a><a href="data/mymodels/figs/10k_model_1.png">png</a></td>
+            <td align="left">Ntox 18</td>
+            <td align="left">-</td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/10k_model_1_rep_seq.html">5T87_G CdiA toxin (62%)</a></td>
+            <td align="left">PAAR_motif(1), RHS_repeat(1), RHS(1)</td>
+          </tr>
+          <tr>
+            <td align="right">Sal_2</td>
+            <td align="right">1</td>
+            <td align="right">1</td>
+            <td align="right">1</td>
+            <td align="right">1</td>
+            <td align="left"><a href="data/mymodels/aln_html/10k_model_2_rep_seq.aln.html">html </a><a href="data/mymodels/10k_model_2_rep_seq.aln">fasta </a><a href="data/mymodels/10k_model_2.hmm">hmm</a></td>
+            <td align="left">Sal_2(Ntox37)</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_2.seed.fa">FD01848247_03769</a></td>
+            <td align="left"><a href="data/mymodels/figs/10k_model_2.svg">svg </a><a href="data/mymodels/figs/10k_model_2.png">png</a></td>
+            <td align="left">-</td>
+            <td align="left">-</td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/10k_model_2_rep_seq.html">New Ntox37 (32%)</a></td>
+            <td align="left">PAAR_motif(1), RHS_repeat(1), RHS(1)</td>
+          </tr>
+          <tr>
+            <td align="right">Sal_3</td>
+            <td align="right">1580</td>
+            <td align="right">1581</td>
+            <td align="right">1210</td>
+            <td align="right">95</td>
+            <td align="left"><a href="data/mymodels/aln_html/10k_model_3_rep_seq.aln.html">html </a><a href="data/mymodels/10k_model_3_rep_seq.aln">fasta </a><a href="data/mymodels/10k_model_3.hmm">hmm</a></td>
+            <td align="left">Ntox47</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_3.seed.fa">FD01542955_04107</a></td>
+            <td align="left"><a href="data/mymodels/figs/10k_model_3.svg">svg </a><a href="data/mymodels/figs/10k_model_3.png">png</a></td>
+            <td align="left">Ntox 47</td>
+            <td align="left">Ntox47</td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/10k_model_3_rep_seq.html">5T86_A(99%) Ntox47(69%)</a></td>
+            <td align="left">RHS(1573), Ntox47(1573), RHS_repeat(1559), PAAR_motif(13), Trehalase(2)</td>
+          </tr>
+          <tr>
+            <td align="right">Sal_4</td>
+            <td align="right">4112</td>
+            <td align="right">4162</td>
+            <td align="right">19</td>
+            <td align="right">66</td>
+            <td align="left"><a href="data/mymodels/aln_html/10k_model_4_rep_seq.aln.html">html </a><a href="data/mymodels/10k_model_4_rep_seq.aln">fasta </a><a href="data/mymodels/10k_model_4.hmm">hmm</a></td>
+            <td align="left">Prok-JAB</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_4.seed.fa">FD01845394_01196</a></td>
+            <td align="left"><a href="data/mymodels/figs/10k_model_4.svg">svg </a><a href="data/mymodels/figs/10k_model_4.png">png</a></td>
+            <td align="left">JAB</td>
+            <td align="left">Prok-JAB</td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/10k_model_4_rep_seq.html">DUF4329(99%) 2ZNR_A AMSH-like protease(89%)</a></td>
+            <td align="left">Prok-JAB(4135), NLPC_P60(2930), RHS_repeat(14), RHS(14), DUF4329(14), PAAR_motif(9), OCRE(8)</td>
+          </tr>
+          <tr>
+            <td align="right">Sal_5</td>
+            <td align="right">363</td>
+            <td align="right">363</td>
+            <td align="right">46</td>
+            <td align="right">23</td>
+            <td align="left"><a href="data/mymodels/aln_html/10k_model_5_rep_seq.aln.html">html </a><a href="data/mymodels/10k_model_5_rep_seq.aln">fasta </a><a href="data/mymodels/10k_model_5.hmm">hmm</a></td>
+            <td align="left">Pertussis_S1</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_5.seed.fa">FD01848796_01148</a></td>
+            <td align="left"><a href="data/mymodels/figs/10k_model_5.svg">svg </a><a href="data/mymodels/figs/10k_model_5.png">png</a></td>
+            <td align="left">Tox-ART-RSE</td>
+            <td align="left">Pertussis_S1</td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/10k_model_5_rep_seq.html">2KXI_A ArtA (98%)</a></td>
+            <td align="left">Pertussis_S1(313), RHS(49), RHS_repeat(47), PAAR_motif(44), Fimbrial(1)</td>
+          </tr>
+          <tr>
+            <td align="right">Sal_6</td>
+            <td align="right">9</td>
+            <td align="right">9</td>
+            <td align="right">5</td>
+            <td align="right">9</td>
+            <td align="left"><a href="data/mymodels/aln_html/10k_model_6_rep_seq.aln.html">html </a><a href="data/mymodels/10k_model_6_rep_seq.aln">fasta </a><a href="data/mymodels/10k_model_6.hmm">hmm</a></td>
+            <td align="left">WHH</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_6.seed.fa">FD01543195_01066</a></td>
+            <td align="left"><a href="data/mymodels/figs/10k_model_6.svg">svg </a><a href="data/mymodels/figs/10k_model_6.png">png</a></td>
+            <td align="left">Tox-WHH</td>
+            <td align="left">WHH</td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/10k_model_6_rep_seq.html">WHH (98%) Colicin-DNase (98%)</a></td>
+            <td align="left">RHS(9), WHH(9), RHS_repeat(8), PAAR_motif(4), Ntox47(1)</td>
+          </tr>
+          <tr>
+            <td align="right">Sal_7</td>
+            <td align="right">35</td>
+            <td align="right">35</td>
+            <td align="right">31</td>
+            <td align="right">12</td>
+            <td align="left"><a href="data/mymodels/aln_html/10k_model_7_rep_seq.aln.html">html </a><a href="data/mymodels/10k_model_7_rep_seq.aln">fasta </a><a href="data/mymodels/10k_model_7.hmm">hmm</a></td>
+            <td align="left">Sal_7(REAse-3)</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_7.seed.fa">FD01845395_04232</a></td>
+            <td align="left"><a href="data/mymodels/figs/10k_model_7.svg">svg </a><a href="data/mymodels/figs/10k_model_7.png">png</a></td>
+            <td align="left">REAse-3</td>
+            <td align="left">-</td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/10k_model_7_rep_seq.html">MmcB-like DNA repair protein (95% NucS (93%) Obs only 1 iteration after 2 iteration it collects different things</a></td>
+            <td align="left">RHS(34), RHS_repeat(33), PAAR_motif(29), Minor_tail_Z(5), DUF769(1)</td>
+          </tr>
+          <tr>
+            <td align="right">Sal_8</td>
+            <td align="right">9</td>
+            <td align="right">9</td>
+            <td align="right">7</td>
+            <td align="right">6</td>
+            <td align="left"><a href="data/mymodels/aln_html/10k_model_8_rep_seq.aln.html">html </a><a href="data/mymodels/10k_model_8_rep_seq.aln">fasta </a><a href="data/mymodels/10k_model_8.hmm">hmm</a></td>
+            <td align="left">Sal_8(HNH)</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_8.seed.fa">FD01845435_03730</a></td>
+            <td align="left"><a href="data/mymodels/figs/10k_model_8.svg">svg </a><a href="data/mymodels/figs/10k_model_8.png">png</a></td>
+            <td align="left">-</td>
+            <td align="left">-</td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/10k_model_8_rep_seq.html">6HPB_C mRNA interferase toxin HicA (89%) HicA (74%) Ntox37 (63%)</a></td>
+            <td align="left">RHS_repeat(8), RHS(8), PAAR_motif(6), HTH_Tnp_Tc3_2(1), HNH_3(1)</td>
+          </tr>
+          <tr>
+            <td align="right">Sal_9</td>
+            <td align="right">6161</td>
+            <td align="right">6476</td>
+            <td align="right">272</td>
+            <td align="right">162</td>
+            <td align="left"><a href="data/mymodels/aln_html/10k_model_9_rep_seq.aln.html">html </a><a href="data/mymodels/10k_model_9_rep_seq.aln">fasta </a><a href="data/mymodels/10k_model_9.hmm">hmm</a></td>
+            <td align="left">WHH</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_9.seed.fa">FD01846333_02533</a></td>
+            <td align="left"><a href="data/mymodels/figs/10k_model_9.svg">svg </a><a href="data/mymodels/figs/10k_model_9.png">png</a></td>
+            <td align="left">Tox-WHH/ICLR-HTH</td>
+            <td align="left">Colicin-DNase /HTH_IclR</td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/10k_model_9_rep_seq.html">Colicin DNAse (99%) WHH (98%)</a></td>
+            <td align="left">HTH_IclR(6134), RHS(291), RHS_repeat(287), PAAR_motif(262), Colicin-DNase(250), WHH(51), PRODH(13), TAL_FSA(7), Cupin_2(6), Wzy_C_2(4), BPL_LplA_LipB(3)</td>
+          </tr>
+          <tr>
+            <td align="right">Sal_10</td>
+            <td align="right">103</td>
+            <td align="right">104</td>
+            <td align="right">91</td>
+            <td align="right">21</td>
+            <td align="left"><a href="data/mymodels/aln_html/10k_model_10_rep_seq.aln.html">html </a><a href="data/mymodels/10k_model_10_rep_seq.aln">fasta </a><a href="data/mymodels/10k_model_10.hmm">hmm</a></td>
+            <td align="left">Sal_10(Tox-ParBc)</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_10.seed.fa">FD01873445_00923</a></td>
+            <td align="left"><a href="data/mymodels/figs/10k_model_10.svg">svg </a><a href="data/mymodels/figs/10k_model_10.png">png</a></td>
+            <td align="left">Tox-ParBL1</td>
+            <td align="left">-</td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/10k_model_10_rep_seq.html">ParBc (98%)</a></td>
+            <td align="left">RHS_repeat(104), RHS(104), PAAR_motif(89)</td>
+          </tr>
+          <tr>
+            <td align="right">Sal_11</td>
+            <td align="right">23</td>
+            <td align="right">23</td>
+            <td align="right">18</td>
+            <td align="right">8</td>
+            <td align="left"><a href="data/mymodels/aln_html/10k_model_11_rep_seq.aln.html">html </a><a href="data/mymodels/10k_model_11_rep_seq.aln">fasta </a><a href="data/mymodels/10k_model_11.hmm">hmm</a></td>
+            <td align="left">WHH</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_11.seed.fa">FD01852532_01397</a></td>
+            <td align="left"><a href="data/mymodels/figs/10k_model_11.svg">svg </a><a href="data/mymodels/figs/10k_model_11.png">png</a></td>
+            <td align="left">Tox-WHH</td>
+            <td align="left">WHH</td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/10k_model_11_rep_seq.html">Colicin-DNase ; DNase/tRNase domain (97%)</a></td>
+            <td align="left">RHS_repeat(19), RHS(19), WHH(19), PAAR_motif(4), PIN_8(4)</td>
+          </tr>
+          <tr>
+            <td align="right">Sal_12</td>
+            <td align="right">15</td>
+            <td align="right">16</td>
+            <td align="right">6</td>
+            <td align="right">8</td>
+            <td align="left"><a href="data/mymodels/aln_html/10k_model_12_rep_seq.aln.html">html </a><a href="data/mymodels/10k_model_12_rep_seq.aln">fasta </a><a href="data/mymodels/10k_model_12.hmm">hmm</a></td>
+            <td align="left">Sal_12(DUF2188)</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_12.seed.fa">FD01848827_02686</a></td>
+            <td align="left"><a href="data/mymodels/figs/10k_model_12.svg">svg </a><a href="data/mymodels/figs/10k_model_12.png">png</a></td>
+            <td align="left">-</td>
+            <td align="left">-</td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/10k_model_12_rep_seq.html">DUF2188 (70%)</a></td>
+            <td align="left">RHS(8), RHS_repeat(7), Ntox47(5), PAAR_motif(4), LUD_dom(3), Fer4_8(3), DUF3390(3)</td>
+          </tr>
+          <tr>
+            <td align="right">Sal_13</td>
+            <td align="right">15</td>
+            <td align="right">16</td>
+            <td align="right">8</td>
+            <td align="right">11</td>
+            <td align="left"><a href="data/mymodels/aln_html/10k_model_13_rep_seq.aln.html">html </a><a href="data/mymodels/10k_model_13_rep_seq.aln">fasta </a><a href="data/mymodels/10k_model_13.hmm">hmm</a></td>
+            <td align="left">Tox-ART-HYD1</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_13.seed.fa">FD01873430_03463</a></td>
+            <td align="left"><a href="data/mymodels/figs/10k_model_13.svg">svg </a><a href="data/mymodels/figs/10k_model_13.png">png</a></td>
+            <td align="left">Tox-ART-HYD1</td>
+            <td align="left">Tox-ART-HYD1</td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/10k_model_13_rep_seq.html">Tox-ART-HYD1 (98%)</a></td>
+            <td align="left">RHS_repeat(8), RHS(8), Tox-ART-HYD1(8), PAAR_motif(5), DUF2971(4)</td>
+          </tr>
+          <tr>
+            <td align="right">Sal_14</td>
+            <td align="right">6103</td>
+            <td align="right">6110</td>
+            <td align="right">3</td>
+            <td align="right">123</td>
+            <td align="left"><a href="data/mymodels/aln_html/10k_model_14_rep_seq.aln.html">html </a><a href="data/mymodels/10k_model_14_rep_seq.aln">fasta </a><a href="data/mymodels/10k_model_14.hmm">hmm</a></td>
+            <td align="left">Sal_14(GH-E)</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_14.seed.fa">FD01849515_02436</a></td>
+            <td align="left"><a href="data/mymodels/figs/10k_model_14.svg">svg </a><a href="data/mymodels/figs/10k_model_14.png">png</a></td>
+            <td align="left">HNHGH-E/Aldo_ket_red</td>
+            <td align="left">GH-E/Aldo_ket_red</td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/10k_model_14_rep_seq.html">GH-E ; HNH/ENDO VII (97%)</a></td>
+            <td align="left">Aldo_ket_red(6103), RHS(4), GH-E(4), PAAR_motif(3), RHS_repeat(3), IpgD(2), HSDR_N(1), SWI2_SNF2(1)</td>
+          </tr>
+          <tr>
+            <td align="right">Sal_15</td>
+            <td align="right">18</td>
+            <td align="right">18</td>
+            <td align="right">8</td>
+            <td align="right">11</td>
+            <td align="left"><a href="data/mymodels/aln_html/10k_model_15_rep_seq.aln.html">html </a><a href="data/mymodels/10k_model_15_rep_seq.aln">fasta </a><a href="data/mymodels/10k_model_15.hmm">hmm</a></td>
+            <td align="left">Sal_15</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_15.seed.fa">FD01845429_02373</a></td>
+            <td align="left"><a href="data/mymodels/figs/10k_model_15.svg">svg </a><a href="data/mymodels/figs/10k_model_15.png">png</a></td>
+            <td align="left">-</td>
+            <td align="left">-</td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/10k_model_15_rep_seq.html">DUF1348 (50%) 6MVJ_A Endoglucanase V (45%)</a></td>
+            <td align="left">RHS(16), RHS_repeat(15), PAAR_motif(4)</td>
+          </tr>
+          <tr>
+            <td align="right">Sal_16</td>
+            <td align="right">6171</td>
+            <td align="right">6183</td>
+            <td align="right">11</td>
+            <td align="right">17</td>
+            <td align="left"><a href="data/mymodels/aln_html/10k_model_16_rep_seq.aln.html">html </a><a href="data/mymodels/10k_model_16_rep_seq.aln">fasta </a><a href="data/mymodels/10k_model_16.hmm">hmm</a></td>
+            <td align="left">Sal_16</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_16.seed.fa">FD01845424_03165</a></td>
+            <td align="left"><a href="data/mymodels/figs/10k_model_16.svg">svg </a><a href="data/mymodels/figs/10k_model_16.png">png</a></td>
+            <td align="left">Tox-Ribonuclease/LRP-HTH</td>
+            <td align="left">Ribonuclease/HTH_24+AsnC_trans_reg</td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/10k_model_16_rep_seq.html">Ribonuclease (99%) 1PYL_B (99%)</a></td>
+            <td align="left">AsnC_trans_reg(6171), HTH_24(6170), RHS_repeat(12), RHS(12), Ribonuclease(12), PAAR_motif(11), HTH_AsnC-type(1)</td>
+          </tr>
+          <tr>
+            <td align="right">Sal_17</td>
+            <td align="right">44</td>
+            <td align="right">44</td>
+            <td align="right">27</td>
+            <td align="right">11</td>
+            <td align="left"><a href="data/mymodels/aln_html/10k_model_17_rep_seq.aln.html">html </a><a href="data/mymodels/10k_model_17_rep_seq.aln">fasta </a><a href="data/mymodels/10k_model_17.hmm">hmm</a></td>
+            <td align="left">Sal_17(Tox-ParBc)</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_17.seed.fa">FD01848675_02448</a></td>
+            <td align="left"><a href="data/mymodels/figs/10k_model_17.svg">svg </a><a href="data/mymodels/figs/10k_model_17.png">png</a></td>
+            <td align="left">Tox-ParBL1</td>
+            <td align="left">-</td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/10k_model_17_rep_seq.html">6KY4_A Sulfiredoxin (96%) ParBc (95%)</a></td>
+            <td align="left">RHS_repeat(27), RHS(27), PAAR_motif(24), ParBc(5), Cauli_AT(4)</td>
+          </tr>
+          <tr>
+            <td align="right">Sal_18</td>
+            <td align="right">47</td>
+            <td align="right">47</td>
+            <td align="right">30</td>
+            <td align="right">16</td>
+            <td align="left"><a href="data/mymodels/aln_html/10k_model_18_rep_seq.aln.html">html </a><a href="data/mymodels/10k_model_18_rep_seq.aln">fasta </a><a href="data/mymodels/10k_model_18.hmm">hmm</a></td>
+            <td align="left">Tox-HNH-EHHH</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_18.seed.fa">FD01845351_04304</a></td>
+            <td align="left"><a href="data/mymodels/figs/10k_model_18.svg">svg </a><a href="data/mymodels/figs/10k_model_18.png">png</a></td>
+            <td align="left">Tox-HNH-EHHH</td>
+            <td align="left">Tox-HNH-EHHH</td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/10k_model_18_rep_seq.html">Tox-HNH-EHHH (97%) Ntox47 (88%)</a></td>
+            <td align="left">Tox-HNH-EHHH(47), RHS_repeat(35), RHS(35), PAAR_motif(26)</td>
+          </tr>
+          <tr>
+            <td align="right">Sal_19</td>
+            <td align="right">34</td>
+            <td align="right">34</td>
+            <td align="right">31</td>
+            <td align="right">8</td>
+            <td align="left"><a href="data/mymodels/aln_html/10k_model_19_rep_seq.aln.html">html </a><a href="data/mymodels/10k_model_19_rep_seq.aln">fasta </a><a href="data/mymodels/10k_model_19.hmm">hmm</a></td>
+            <td align="left">Sal_19</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_19.seed.fa">FD01851368_03298</a></td>
+            <td align="left"><a href="data/mymodels/figs/10k_model_19.svg">svg </a><a href="data/mymodels/figs/10k_model_19.png">png</a></td>
+            <td align="left">-</td>
+            <td align="left">-</td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/10k_model_19_rep_seq.html">?</a></td>
+            <td align="left">RHS(33), RHS_repeat(32), PAAR_motif(10), DUF551(1)</td>
+          </tr>
+          <tr>
+            <td align="right">Sal_20</td>
+            <td align="right">49</td>
+            <td align="right">52</td>
+            <td align="right">51</td>
+            <td align="right">7</td>
+            <td align="left"><a href="data/mymodels/aln_html/10k_model_20_rep_seq.aln.html">html </a><a href="data/mymodels/10k_model_20_rep_seq.aln">fasta </a><a href="data/mymodels/10k_model_20.hmm">hmm</a></td>
+            <td align="left">Sal_20(Colicin E5)</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_20.seed.fa">FD01848538_01952</a></td>
+            <td align="left"><a href="data/mymodels/figs/10k_model_20.svg">svg </a><a href="data/mymodels/figs/10k_model_20.png">png</a></td>
+            <td align="left">ColD</td>
+            <td align="left">-</td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/10k_model_20_rep_seq.html">DUF4258 (98%) 2FHZ_B Colicin-E5 (91%)</a></td>
+            <td align="left">RHS_repeat(52), RHS(52), PAAR_motif(46)</td>
+          </tr>
+          <tr>
+            <td align="right">Sal_21</td>
+            <td align="right">63</td>
+            <td align="right">63</td>
+            <td align="right">61</td>
+            <td align="right">8</td>
+            <td align="left"><a href="data/mymodels/aln_html/10k_model_21_rep_seq.aln.html">html </a><a href="data/mymodels/10k_model_21_rep_seq.aln">fasta </a><a href="data/mymodels/10k_model_21.hmm">hmm</a></td>
+            <td align="left">Sal_21(Ntox37)</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_21.seed.fa">FD01852914_04161</a></td>
+            <td align="left"><a href="data/mymodels/figs/10k_model_21.svg">svg </a><a href="data/mymodels/figs/10k_model_21.png">png</a></td>
+            <td align="left">-</td>
+            <td align="left">-</td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/10k_model_21_rep_seq.html">Ntox37 (56%)</a></td>
+            <td align="left">RHS_repeat(63), RHS(63), PAAR_motif(15)</td>
+          </tr>
+          <tr>
+            <td align="right">Sal_22</td>
+            <td align="right">37</td>
+            <td align="right">37</td>
+            <td align="right">4</td>
+            <td align="right">10</td>
+            <td align="left"><a href="data/mymodels/aln_html/10k_model_22_rep_seq.aln.html">html </a><a href="data/mymodels/10k_model_22_rep_seq.aln">fasta </a><a href="data/mymodels/10k_model_22.hmm">hmm</a></td>
+            <td align="left">Sal_22(DUF5749)</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_22.seed.fa">FD01849511_03367</a></td>
+            <td align="left"><a href="data/mymodels/figs/10k_model_22.svg">svg </a><a href="data/mymodels/figs/10k_model_22.png">png</a></td>
+            <td align="left">Ntox7 (Just a few)</td>
+            <td align="left">-</td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/10k_model_22_rep_seq.html">DUF5749 (71%)</a></td>
+            <td align="left">RHS_repeat(5), RHS(5), PT-VENN(2), PAAR_motif(2)</td>
+          </tr>
+          <tr>
+            <td align="right">Sal_23</td>
+            <td align="right">44</td>
+            <td align="right">44</td>
+            <td align="right">6</td>
+            <td align="right">13</td>
+            <td align="left"><a href="data/mymodels/aln_html/10k_model_23_rep_seq.aln.html">html </a><a href="data/mymodels/10k_model_23_rep_seq.aln">fasta </a><a href="data/mymodels/10k_model_23.hmm">hmm</a></td>
+            <td align="left">EndoU_bacteria</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_23.seed.fa">FD01852812_02122</a></td>
+            <td align="left"><a href="data/mymodels/figs/10k_model_23.svg">svg </a><a href="data/mymodels/figs/10k_model_23.png">png</a></td>
+            <td align="left">EndoU</td>
+            <td align="left">EndoU_bacteria</td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/10k_model_23_rep_seq.html">EndoU (98%)</a></td>
+            <td align="left">EndoU_bacteria(41), RHS(38), RHS_repeat(37), DUF4585(31), PAAR_motif(6), DUF4203(1)</td>
+          </tr>
+          <tr>
+            <td align="right">Sal_24</td>
+            <td align="right">44</td>
+            <td align="right">44</td>
+            <td align="right">41</td>
+            <td align="right">12</td>
+            <td align="left"><a href="data/mymodels/aln_html/10k_model_24_rep_seq.aln.html">html </a><a href="data/mymodels/10k_model_24_rep_seq.aln">fasta </a><a href="data/mymodels/10k_model_24.hmm">hmm</a></td>
+            <td align="left">Sal_24(ART)</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_24.seed.fa">FD01875531_02409</a></td>
+            <td align="left"><a href="data/mymodels/figs/10k_model_24.svg">svg </a><a href="data/mymodels/figs/10k_model_24.png">png</a></td>
+            <td align="left">CARP-ART</td>
+            <td align="left">-</td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/10k_model_24_rep_seq.html">?</a></td>
+            <td align="left">RHS(44), RHS_repeat(42), PAAR_motif(40)</td>
+          </tr>
+          <tr>
+            <td align="right">Sal_25</td>
+            <td align="right">6168</td>
+            <td align="right">6450</td>
+            <td align="right">129</td>
+            <td align="right">105</td>
+            <td align="left"><a href="data/mymodels/aln_html/10k_model_25_rep_seq.aln.html">html </a><a href="data/mymodels/10k_model_25_rep_seq.aln">fasta </a><a href="data/mymodels/10k_model_25.hmm">hmm</a></td>
+            <td align="left">Sal_25(Glycine ziper)</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_25.seed.fa">FD01845382_02687</a></td>
+            <td align="left"><a href="data/mymodels/figs/10k_model_25.svg">svg </a><a href="data/mymodels/figs/10k_model_25.png">png</a></td>
+            <td align="left">Rick_17kDa_Anti</td>
+            <td align="left">Rick_17kDa_Anti</td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/10k_model_25_rep_seq.html">colicin 4 cysteine d1cola Colicin A (95%)</a></td>
+            <td align="left">Rick_17kDa_Anti(6167), Chlam_OMP6(1710), PAAR_motif(101), RHS_repeat(93), RHS(92), Gly-zipper_YMGG(78), Tox-HNH-EHHH(64), DNase_NucA_NucB(17), X8(4), 5TM-5TMR_LYT(4), DUF5638(4), Colicin(3), PhageMin_Tail(3), Calici_MSP(2), DcuA_DcuB(2), DUF3487(2), Tape_meas_lam_C(1), TINF2_N(1), MerR-DNA-bind(1), MFS_1(1), 7TM_GPCR_Srj(1)</td>
+          </tr>
+          <tr>
+            <td align="right">Sal_26</td>
+            <td align="right">2787</td>
+            <td align="right">2787</td>
+            <td align="right">2</td>
+            <td align="right">49</td>
+            <td align="left"><a href="data/mymodels/aln_html/10k_model_26_rep_seq.aln.html">html </a><a href="data/mymodels/10k_model_26_rep_seq.aln">fasta </a><a href="data/mymodels/10k_model_26.hmm">hmm</a></td>
+            <td align="left">Sal_26(REase_Mrr)</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_26.seed.fa">FD01872531_01916</a></td>
+            <td align="left"><a href="data/mymodels/figs/10k_model_26.svg">svg </a><a href="data/mymodels/figs/10k_model_26.png">png</a></td>
+            <td align="left">REase_Mrr</td>
+            <td align="left">Mrr_cat</td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/10k_model_26_rep_seq.html">Tox-REase-7 (99%) DUF6177 (92%)</a></td>
+            <td align="left">Mrr_cat(2783), EVE(18), Tox-REase-7(4), RHS_repeat(3), RHS(3), PAAR_motif(2)</td>
+          </tr>
+          <tr>
+            <td align="right">Sal_27</td>
+            <td align="right">13</td>
+            <td align="right">13</td>
+            <td align="right">1</td>
+            <td align="right">11</td>
+            <td align="left"><a href="data/mymodels/aln_html/10k_model_27_rep_seq.aln.html">html </a><a href="data/mymodels/10k_model_27_rep_seq.aln">fasta </a><a href="data/mymodels/10k_model_27.hmm">hmm</a></td>
+            <td align="left">Sal_27</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_27.seed.fa">FD01845383_00299</a></td>
+            <td align="left"><a href="data/mymodels/figs/10k_model_27.svg">svg </a><a href="data/mymodels/figs/10k_model_27.png">png</a></td>
+            <td align="left">-</td>
+            <td align="left">TraG_N</td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/10k_model_27_rep_seq.html">?</a></td>
+            <td align="left">TraG_N(11), PAAR_motif(1), RHS_repeat(1), RHS(1)</td>
+          </tr>
+          <tr>
+            <td align="right">Sal_28</td>
+            <td align="right">5</td>
+            <td align="right">5</td>
+            <td align="right">4</td>
+            <td align="right">4</td>
+            <td align="left"><a href="data/mymodels/aln_html/10k_model_28_rep_seq.aln.html">html </a><a href="data/mymodels/10k_model_28_rep_seq.aln">fasta </a><a href="data/mymodels/10k_model_28.hmm">hmm</a></td>
+            <td align="left">Sal_28</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_28.seed.fa">FD01848354_04494</a></td>
+            <td align="left"><a href="data/mymodels/figs/10k_model_28.svg">svg </a><a href="data/mymodels/figs/10k_model_28.png">png</a></td>
+            <td align="left">-</td>
+            <td align="left">-</td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/10k_model_28_rep_seq.html">?</a></td>
+            <td align="left">RHS(4), RHS_repeat(3), PAAR_motif(2)</td>
+          </tr>
+          <tr>
+            <td align="right">Sal_29</td>
+            <td align="right">18</td>
+            <td align="right">19</td>
+            <td align="right">10</td>
+            <td align="right">11</td>
+            <td align="left"><a href="data/mymodels/aln_html/10k_model_29_rep_seq.aln.html">html </a><a href="data/mymodels/10k_model_29_rep_seq.aln">fasta </a><a href="data/mymodels/10k_model_29.hmm">hmm</a></td>
+            <td align="left">Sal_29</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_29.seed.fa">FD01849511_04481</a></td>
+            <td align="left"><a href="data/mymodels/figs/10k_model_29.svg">svg </a><a href="data/mymodels/figs/10k_model_29.png">png</a></td>
+            <td align="left">-</td>
+            <td align="left">-</td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/10k_model_29_rep_seq.html">?</a></td>
+            <td align="left">RHS(10), PAAR_motif(9), RHS_repeat(9), PAP2(5), Big_13(1), Big_6(1)</td>
+          </tr>
+          <tr>
+            <td align="right">Sal_30</td>
+            <td align="right">0</td>
+            <td align="right">0</td>
+            <td align="right">0</td>
+            <td align="right">0</td>
+            <td align="left"><a href="data/mymodels/aln_html/10k_model_30_rep_seq.aln.html">html </a><a href="data/mymodels/10k_model_30_rep_seq.aln">fasta </a><a href="data/mymodels/10k_model_30.hmm">hmm</a></td>
+            <td align="left">Sal_30</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_30.seed.fa">FD01543154_02323</a></td>
+            <td align="left"><a href="data/mymodels/figs/10k_model_30.svg">svg </a><a href="data/mymodels/figs/10k_model_30.png">png</a></td>
+            <td align="left"></td>
+            <td align="left"></td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/10k_model_30_rep_seq.html">Tox-HNH-EHHH (99%) Ntox47 (90%)</a></td>
+            <td align="left"></td>
+          </tr>
+          <tr>
+            <td align="right">Sal_31</td>
+            <td align="right">78</td>
+            <td align="right">78</td>
+            <td align="right">44</td>
+            <td align="right">21</td>
+            <td align="left"><a href="data/mymodels/aln_html/10k_model_31_rep_seq.aln.html">html </a><a href="data/mymodels/10k_model_31_rep_seq.aln">fasta </a><a href="data/mymodels/10k_model_31.hmm">hmm</a></td>
+            <td align="left">Tox-HNH-EHHH</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_31.seed.fa">FD01848895_02820</a></td>
+            <td align="left"><a href="data/mymodels/figs/10k_model_31.svg">svg </a><a href="data/mymodels/figs/10k_model_31.png">png</a></td>
+            <td align="left">Tox-HNH-EHHH</td>
+            <td align="left">Tox-HNH-EHHH</td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/10k_model_31_rep_seq.html">Tox-HNH-EHHH (97%) Ntox47 (73%)</a></td>
+            <td align="left">Tox-HNH-EHHH(77), RHS_repeat(62), RHS(62), PAAR_motif(40)</td>
+          </tr>
+          <tr>
+            <td align="right">Sal_32</td>
+            <td align="right">3</td>
+            <td align="right">3</td>
+            <td align="right">0</td>
+            <td align="right">3</td>
+            <td align="left"><a href="data/mymodels/aln_html/10k_model_32_rep_seq.aln.html">html </a><a href="data/mymodels/10k_model_32_rep_seq.aln">fasta </a><a href="data/mymodels/10k_model_32.hmm">hmm</a></td>
+            <td align="left">Sal_32(Ntox47)</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_32.seed.fa">FD01543133_03431</a></td>
+            <td align="left"><a href="data/mymodels/figs/10k_model_32.svg">svg </a><a href="data/mymodels/figs/10k_model_32.png">png</a></td>
+            <td align="left">-</td>
+            <td align="left">-</td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/10k_model_32_rep_seq.html">Ntox47 (43%)</a></td>
+            <td align="left">PAP2(1), 3HBOH(1), YfdX(1)</td>
+          </tr>
+          <tr>
+            <td align="right">Sal_33</td>
+            <td align="right">27</td>
+            <td align="right">27</td>
+            <td align="right">17</td>
+            <td align="right">8</td>
+            <td align="left"><a href="data/mymodels/aln_html/10k_model_33_rep_seq.aln.html">html </a><a href="data/mymodels/10k_model_33_rep_seq.aln">fasta </a><a href="data/mymodels/10k_model_33.hmm">hmm</a></td>
+            <td align="left">DNase_NucA_NucB</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_33.seed.fa">FD01844648_01401</a></td>
+            <td align="left"><a href="data/mymodels/figs/10k_model_33.svg">svg </a><a href="data/mymodels/figs/10k_model_33.png">png</a></td>
+            <td align="left">Tox-CompNuc</td>
+            <td align="left">DNase_NucA_NucB</td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/10k_model_33_rep_seq.html">NucA_NucB (98%)</a></td>
+            <td align="left">DNase_NucA_NucB(25), RHS(19), PAAR_motif(17), RHS_repeat(17), ABC_tran(2)</td>
+          </tr>
+          <tr>
+            <td align="right">Sal_34</td>
+            <td align="right">573</td>
+            <td align="right">584</td>
+            <td align="right">7</td>
+            <td align="right">21</td>
+            <td align="left"><a href="data/mymodels/aln_html/10k_model_34_rep_seq.aln.html">html </a><a href="data/mymodels/10k_model_34_rep_seq.aln">fasta </a><a href="data/mymodels/10k_model_34.hmm">hmm</a></td>
+            <td align="left">Sal_34(HmuY)</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_34.seed.fa">FD01848386_04431</a></td>
+            <td align="left"><a href="data/mymodels/figs/10k_model_34.svg">svg </a><a href="data/mymodels/figs/10k_model_34.png">png</a></td>
+            <td align="left">Ntox19 (just few of them)</td>
+            <td align="left">RelE/Peptidase_S26</td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/10k_model_34_rep_seq.html">HmuY (59%) DUF1609 (43%)</a></td>
+            <td align="left">RelE(472), Peptidase_S26(101), RHS_repeat(9), RHS(9), DUF4150(7)</td>
+          </tr>
+          <tr>
+            <td align="right">Sal_35</td>
+            <td align="right">139</td>
+            <td align="right">145</td>
+            <td align="right">53</td>
+            <td align="right">30</td>
+            <td align="left"><a href="data/mymodels/aln_html/10k_model_35_rep_seq.aln.html">html </a><a href="data/mymodels/10k_model_35_rep_seq.aln">fasta </a><a href="data/mymodels/10k_model_35.hmm">hmm</a></td>
+            <td align="left">AHH</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_35.seed.fa">FD01851518_01498</a></td>
+            <td align="left"><a href="data/mymodels/figs/10k_model_35.svg">svg </a><a href="data/mymodels/figs/10k_model_35.png">png</a></td>
+            <td align="left">AHH</td>
+            <td align="left">AHH</td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/10k_model_35_rep_seq.html">AHH (96%)</a></td>
+            <td align="left">AHH(71), Fic_N(71), Fic(71), RHS(70), RHS_repeat(66), DUF4203(53), PAAR_motif(53), CxC5(2), ZapB(1)</td>
+          </tr>
+          <tr>
+            <td align="right">Sal_36</td>
+            <td align="right">0</td>
+            <td align="right">0</td>
+            <td align="right">0</td>
+            <td align="right">0</td>
+            <td align="left"><a href="data/mymodels/aln_html/10k_model_36_rep_seq.aln.html">html </a><a href="data/mymodels/10k_model_36_rep_seq.aln">fasta </a><a href="data/mymodels/10k_model_36.hmm">hmm</a></td>
+            <td align="left">Sal_36(Ntox47)</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_36.seed.fa">FD01873138_03996</a></td>
+            <td align="left"><a href="data/mymodels/figs/10k_model_36.svg">svg </a><a href="data/mymodels/figs/10k_model_36.png">png</a></td>
+            <td align="left">-</td>
+            <td align="left">-</td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/10k_model_36_rep_seq.html">Ntox47 (99%)</a></td>
+            <td align="left"></td>
+          </tr>
+          <tr>
+            <td align="right">Sal_37</td>
+            <td align="right">289</td>
+            <td align="right">289</td>
+            <td align="right">0</td>
+            <td align="right">3</td>
+            <td align="left"><a href="data/mymodels/aln_html/10k_model_37_rep_seq.aln.html">html </a><a href="data/mymodels/10k_model_37_rep_seq.aln">fasta </a><a href="data/mymodels/10k_model_37.hmm">hmm</a></td>
+            <td align="left">Sal_37(5_nucleotid_C)</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_37.seed.fa">FD01844407_04441</a></td>
+            <td align="left"><a href="data/mymodels/figs/10k_model_37.svg">svg </a><a href="data/mymodels/figs/10k_model_37.png">png</a></td>
+            <td align="left">Calcineurin</td>
+            <td align="left">5_nucleotid_C</td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/10k_model_37_rep_seq.html">BPA_C ; beta porphyranase A C-terminal (75%) Tox-ART-HYD1 (62%)</a></td>
+            <td align="left">5_nucleotid_C(289)</td>
+          </tr>
+          <tr>
+            <td align="right">Sal_38</td>
+            <td align="right">186</td>
+            <td align="right">186</td>
+            <td align="right">36</td>
+            <td align="right">49</td>
+            <td align="left"><a href="data/mymodels/aln_html/10k_model_38_rep_seq.aln.html">html </a><a href="data/mymodels/10k_model_38_rep_seq.aln">fasta </a><a href="data/mymodels/10k_model_38.hmm">hmm</a></td>
+            <td align="left">Tox-ART-HYD3</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_38.seed.fa">FD01543122_02343</a></td>
+            <td align="left"><a href="data/mymodels/figs/10k_model_38.svg">svg </a><a href="data/mymodels/figs/10k_model_38.png">png</a></td>
+            <td align="left">Tox-ART-HYD3</td>
+            <td align="left">Tox-ART-HYD3</td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/10k_model_38_rep_seq.html">Tox-ART-HYD1 (99%)</a></td>
+            <td align="left">RHS(142), Tox-ART-HYD1(142), RHS_repeat(120), AAA_lid_9(80), AAA(54), P33MONOX(47), DUF4203(19), PAAR_motif(19)</td>
+          </tr>
+          <tr>
+            <td align="right">Sal_39</td>
+            <td align="right">33</td>
+            <td align="right">33</td>
+            <td align="right">0</td>
+            <td align="right">2</td>
+            <td align="left"><a href="data/mymodels/aln_html/10k_model_39_rep_seq.aln.html">html </a><a href="data/mymodels/10k_model_39_rep_seq.aln">fasta </a><a href="data/mymodels/10k_model_39.hmm">hmm</a></td>
+            <td align="left">Sal_39(EndoU_bacteria)</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_39.seed.fa">FD01543147_02276</a></td>
+            <td align="left"><a href="data/mymodels/figs/10k_model_39.svg">svg </a><a href="data/mymodels/figs/10k_model_39.png">png</a></td>
+            <td align="left">-</td>
+            <td align="left">-</td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/10k_model_39_rep_seq.html">EndoU_bacteria (98%)</a></td>
+            <td align="left"></td>
+          </tr>
+          <tr>
+            <td align="right">Sal_40</td>
+            <td align="right">135</td>
+            <td align="right">135</td>
+            <td align="right">10</td>
+            <td align="right">11</td>
+            <td align="left"><a href="data/mymodels/aln_html/10k_model_40_rep_seq.aln.html">html </a><a href="data/mymodels/10k_model_40_rep_seq.aln">fasta </a><a href="data/mymodels/10k_model_40.hmm">hmm</a></td>
+            <td align="left">Sal_40(ParBC)</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_40.seed.fa">FD01876805_01866</a></td>
+            <td align="left"><a href="data/mymodels/figs/10k_model_40.svg">svg </a><a href="data/mymodels/figs/10k_model_40.png">png</a></td>
+            <td align="left">ParBC</td>
+            <td align="left">-</td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/10k_model_40_rep_seq.html">d1vz0a2 (97%) ParBc_2 ; Putative ParB-like nuclease (84%)</a></td>
+            <td align="left">RHS(13), SdiA-regulated(10), DUF4203(4), PAAR_motif(4), RHS_repeat(4), ParBc(1)</td>
+          </tr>
+          <tr>
+            <td align="right">Sal_41</td>
+            <td align="right">25</td>
+            <td align="right">25</td>
+            <td align="right">19</td>
+            <td align="right">17</td>
+            <td align="left"><a href="data/mymodels/aln_html/10k_model_41_rep_seq.aln.html">html </a><a href="data/mymodels/10k_model_41_rep_seq.aln">fasta </a><a href="data/mymodels/10k_model_41.hmm">hmm</a></td>
+            <td align="left">Sal_41(Ntox47)</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_41.seed.fa">FD01848883_01893</a></td>
+            <td align="left"><a href="data/mymodels/figs/10k_model_41.svg">svg </a><a href="data/mymodels/figs/10k_model_41.png">png</a></td>
+            <td align="left">Tox-HNH-EHHH</td>
+            <td align="left">Ntox47</td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/10k_model_41_rep_seq.html">Ntox47 (93%)</a></td>
+            <td align="left">RHS(23), RHS_repeat(21), DUF4203(13), PAAR_motif(13), Ntox47(6), Phage_GPD(2)</td>
+          </tr>
+          <tr>
+            <td align="right">Sal_42</td>
+            <td align="right">37</td>
+            <td align="right">37</td>
+            <td align="right">19</td>
+            <td align="right">12</td>
+            <td align="left"><a href="data/mymodels/aln_html/10k_model_42_rep_seq.aln.html">html </a><a href="data/mymodels/10k_model_42_rep_seq.aln">fasta </a><a href="data/mymodels/10k_model_42.hmm">hmm</a></td>
+            <td align="left">Sal_42(Ntox10?)</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_42.seed.fa">FD01543233_04014</a></td>
+            <td align="left"><a href="data/mymodels/figs/10k_model_42.svg">svg </a><a href="data/mymodels/figs/10k_model_42.png">png</a></td>
+            <td align="left">-</td>
+            <td align="left">few DUF1018</td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/10k_model_42_rep_seq.html">? jackhmmer overlap ntox10 nterm</a></td>
+            <td align="left">RHS(26), RHS_repeat(24), DUF1018(10), DUF4203(8), PAAR_motif(8), HTH_3(1)</td>
+          </tr>
+          <tr>
+            <td align="right">Sal_43</td>
+            <td align="right">14</td>
+            <td align="right">14</td>
+            <td align="right">6</td>
+            <td align="right">9</td>
+            <td align="left"><a href="data/mymodels/aln_html/10k_model_43_rep_seq.aln.html">html </a><a href="data/mymodels/10k_model_43_rep_seq.aln">fasta </a><a href="data/mymodels/10k_model_43.hmm">hmm</a></td>
+            <td align="left">WHH</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_43.seed.fa">FD01543278_02063</a></td>
+            <td align="left"><a href="data/mymodels/figs/10k_model_43.svg">svg </a><a href="data/mymodels/figs/10k_model_43.png">png</a></td>
+            <td align="left">Tox-WHH</td>
+            <td align="left">Tox-WHH</td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/10k_model_43_rep_seq.html">Colicin-DNase (99%) WHH ; A nuclease of the HNH/ENDO (98%)</a></td>
+            <td align="left">RHS_repeat(6), RHS(6), WHH(6), DUF3829(5), DUF4203(5), PAAR_motif(5), EspA(2), PgaD(1)</td>
+          </tr>
+          <tr>
+            <td align="right">Sal_44</td>
+            <td align="right">311</td>
+            <td align="right">318</td>
+            <td align="right">35</td>
+            <td align="right">36</td>
+            <td align="left"><a href="data/mymodels/aln_html/10k_model_44_rep_seq.aln.html">html </a><a href="data/mymodels/10k_model_44_rep_seq.aln">fasta </a><a href="data/mymodels/10k_model_44.hmm">hmm</a></td>
+            <td align="left">Sal_44(GIY-YIG)</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_44.seed.fa">FD01543529_00968</a></td>
+            <td align="left"><a href="data/mymodels/figs/10k_model_44.svg">svg </a><a href="data/mymodels/figs/10k_model_44.png">png</a></td>
+            <td align="left">-</td>
+            <td align="left">-</td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/10k_model_44_rep_seq.html">AroM (46%) GIY-YIG endonuclease (22%)</a></td>
+            <td align="left">RHS(62), RHS_repeat(47), DUF4203(34), PAAR_motif(34), GIY-YIG(2)</td>
+          </tr>
+          <tr>
+            <td align="right">Sal_45</td>
+            <td align="right">449</td>
+            <td align="right">456</td>
+            <td align="right">51</td>
+            <td align="right">37</td>
+            <td align="left"><a href="data/mymodels/aln_html/10k_model_45_rep_seq.aln.html">html </a><a href="data/mymodels/10k_model_45_rep_seq.aln">fasta </a><a href="data/mymodels/10k_model_45.hmm">hmm</a></td>
+            <td align="left">Sal_45(DUF1778)</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_45.seed.fa">FD01543557_01792</a></td>
+            <td align="left"><a href="data/mymodels/figs/10k_model_45.svg">svg </a><a href="data/mymodels/figs/10k_model_45.png">png</a></td>
+            <td align="left">TraJ-RHH/LON-AAA</td>
+            <td align="left">DUF1778</td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/10k_model_45_rep_seq.html">?</a></td>
+            <td align="left">DUF1778(249), RHS(81), Ead_Ea22(71), RHS_repeat(65), Lip_prot_lig_C(45), BPL_LplA_LipB(44), DUF4203(23), PAAR_motif(23), MbeD_MobD(10)</td>
+          </tr>
+          <tr>
+            <td align="right">Sal_46</td>
+            <td align="right">6125</td>
+            <td align="right">6147</td>
+            <td align="right">4</td>
+            <td align="right">126</td>
+            <td align="left"><a href="data/mymodels/aln_html/10k_model_46_rep_seq.aln.html">html </a><a href="data/mymodels/10k_model_46_rep_seq.aln">fasta </a><a href="data/mymodels/10k_model_46.hmm">hmm</a></td>
+            <td align="left">GIY-YIG</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_46.seed.fa">FD01543571_03842</a></td>
+            <td align="left"><a href="data/mymodels/figs/10k_model_46.svg">svg </a><a href="data/mymodels/figs/10k_model_46.png">png</a></td>
+            <td align="left">Tox-URI1+ComEA-HHH</td>
+            <td align="left">GIY-YIG+UVR+UvrC_HhH_N+HHH_5</td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/10k_model_46_rep_seq.html">1YD0_A UvrABC (98%) GIY-YIG (96%)</a></td>
+            <td align="left">GIY-YIG(6132), UVR(6119), UvrC_HhH_N(6119), HHH_5(6117), NiFeSe_Hases(15), DUF4203(4), PAAR_motif(4), RHS_repeat(4), RHS(4)</td>
+          </tr>
+          <tr>
+            <td align="right">Sal_47</td>
+            <td align="right">3</td>
+            <td align="right">3</td>
+            <td align="right">3</td>
+            <td align="right">1</td>
+            <td align="left"><a href="data/mymodels/aln_html/10k_model_47_rep_seq.aln.html">html </a><a href="data/mymodels/10k_model_47_rep_seq.aln">fasta </a><a href="data/mymodels/10k_model_47.hmm">hmm</a></td>
+            <td align="left">Sal_47(DEAM_Toxin)</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_47.seed.fa">FD01845416_04125</a></td>
+            <td align="left"><a href="data/mymodels/figs/10k_model_47.svg">svg </a><a href="data/mymodels/figs/10k_model_47.png">png</a></td>
+            <td align="left">DEAM_Toxin8</td>
+            <td align="left">-</td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/10k_model_47_rep_seq.html">Toxin-deaminase (96%)</a></td>
+            <td align="left">DUF4203(3), PAAR_motif(3), RHS_repeat(3), RHS(3)</td>
+          </tr>
+          <tr>
+            <td align="right">Sal_48</td>
+            <td align="right">26</td>
+            <td align="right">26</td>
+            <td align="right">23</td>
+            <td align="right">13</td>
+            <td align="left"><a href="data/mymodels/aln_html/10k_model_48_rep_seq.aln.html">html </a><a href="data/mymodels/10k_model_48_rep_seq.aln">fasta </a><a href="data/mymodels/10k_model_48.hmm">hmm</a></td>
+            <td align="left">WHH</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_48.seed.fa">FD01846370_02732</a></td>
+            <td align="left"><a href="data/mymodels/figs/10k_model_48.svg">svg </a><a href="data/mymodels/figs/10k_model_48.png">png</a></td>
+            <td align="left">Tox-WHH</td>
+            <td align="left"></td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/10k_model_48_rep_seq.html">Colicin-DNase (99%) WHH (99%)</a></td>
+            <td align="left">RHS(26), WHH(26), RHS_repeat(24), DUF4203(17), PAAR_motif(17)</td>
+          </tr>
+          <tr>
+            <td align="right">Sal_49</td>
+            <td align="right">15</td>
+            <td align="right">15</td>
+            <td align="right">1</td>
+            <td align="right">4</td>
+            <td align="left"><a href="data/mymodels/aln_html/10k_model_49_rep_seq.aln.html">html </a><a href="data/mymodels/10k_model_49_rep_seq.aln">fasta </a><a href="data/mymodels/10k_model_49.hmm">hmm</a></td>
+            <td align="left">Sal_49(ART-HYD3)</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_49.seed.fa">FD01847913_04013</a></td>
+            <td align="left"><a href="data/mymodels/figs/10k_model_49.svg">svg </a><a href="data/mymodels/figs/10k_model_49.png">png</a></td>
+            <td align="left">ART-HYD3</td>
+            <td align="left">DUF1471</td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/10k_model_49_rep_seq.html">6LUH_B N(omega)-hydroxy-L-arginine amidinohydrolase (35%)</a></td>
+            <td align="left">DUF1471(11), RHS(4), RHS_repeat(3), DUF4203(1), PAAR_motif(1)</td>
+          </tr>
+          <tr>
+            <td align="right">Sal_50</td>
+            <td align="right">12</td>
+            <td align="right">12</td>
+            <td align="right">9</td>
+            <td align="right">6</td>
+            <td align="left"><a href="data/mymodels/aln_html/10k_model_50_rep_seq.aln.html">html </a><a href="data/mymodels/10k_model_50_rep_seq.aln">fasta </a><a href="data/mymodels/10k_model_50.hmm">hmm</a></td>
+            <td align="left">AHH</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_50.seed.fa">FD01848239_02317</a></td>
+            <td align="left"><a href="data/mymodels/figs/10k_model_50.svg">svg </a><a href="data/mymodels/figs/10k_model_50.png">png</a></td>
+            <td align="left">AHH</td>
+            <td align="left">AHH</td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/10k_model_50_rep_seq.html">AHH (99%)</a></td>
+            <td align="left">RHS(12), AHH(12), RHS_repeat(10), DUF4203(6), PAAR_motif(6)</td>
+          </tr>
+          <tr>
+            <td align="right">Sal_51</td>
+            <td align="right">6</td>
+            <td align="right">6</td>
+            <td align="right">4</td>
+            <td align="right">5</td>
+            <td align="left"><a href="data/mymodels/aln_html/10k_model_51_rep_seq.aln.html">html </a><a href="data/mymodels/10k_model_51_rep_seq.aln">fasta </a><a href="data/mymodels/10k_model_51.hmm">hmm</a></td>
+            <td align="left">Sal_51(CARP-ART)</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_51.seed.fa">FD01848903_02404</a></td>
+            <td align="left"><a href="data/mymodels/figs/10k_model_51.svg">svg </a><a href="data/mymodels/figs/10k_model_51.png">png</a></td>
+            <td align="left">CARP-ART</td>
+            <td align="left">-</td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/10k_model_51_rep_seq.html">AroM (27%) RE_Eco29kI (21%)</a></td>
+            <td align="left">RHS_repeat(5), RHS(5), DUF4203(3), PAAR_motif(3)</td>
+          </tr>
+          <tr>
+            <td align="right">Sal_52</td>
+            <td align="right">4</td>
+            <td align="right">4</td>
+            <td align="right">1</td>
+            <td align="right">3</td>
+            <td align="left"><a href="data/mymodels/aln_html/10k_model_52_rep_seq.aln.html">html </a><a href="data/mymodels/10k_model_52_rep_seq.aln">fasta </a><a href="data/mymodels/10k_model_52.hmm">hmm</a></td>
+            <td align="left">AHH</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_52.seed.fa">FD01849383_03612</a></td>
+            <td align="left"><a href="data/mymodels/figs/10k_model_52.svg">svg </a><a href="data/mymodels/figs/10k_model_52.png">png</a></td>
+            <td align="left">AHH</td>
+            <td align="left">AHH</td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/10k_model_52_rep_seq.html">AHH (99%)</a></td>
+            <td align="left">RHS(4), AHH(4), RHS_repeat(2), DUF4203(1), PAAR_motif(1)</td>
+          </tr>
+          <tr>
+            <td align="right">Sal_53</td>
+            <td align="right">0</td>
+            <td align="right">0</td>
+            <td align="right">0</td>
+            <td align="right">0</td>
+            <td align="left"><a href="data/mymodels/aln_html/10k_model_53_rep_seq.aln.html">html </a><a href="data/mymodels/10k_model_53_rep_seq.aln">fasta </a><a href="data/mymodels/10k_model_53.hmm">hmm</a></td>
+            <td align="left">GIY-YIG</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_53.seed.fa">FD01872540_02612</a></td>
+            <td align="left"><a href="data/mymodels/figs/10k_model_53.svg">svg </a><a href="data/mymodels/figs/10k_model_53.png">png</a></td>
+            <td align="left">-</td>
+            <td align="left">-</td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/10k_model_53_rep_seq.html">1YD6_D UvrC (92%) GIY-YIG (92%)</a></td>
+            <td align="left"></td>
+          </tr>
+          <tr>
+            <td align="right">Sal_54</td>
+            <td align="right">3</td>
+            <td align="right">3</td>
+            <td align="right">2</td>
+            <td align="right">2</td>
+            <td align="left"><a href="data/mymodels/aln_html/10k_model_54_rep_seq.aln.html">html </a><a href="data/mymodels/10k_model_54_rep_seq.aln">fasta </a><a href="data/mymodels/10k_model_54.hmm">hmm</a></td>
+            <td align="left">Sal_54(Tox-URI)</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_54.seed.fa">FD01875457_03725</a></td>
+            <td align="left"><a href="data/mymodels/figs/10k_model_54.svg">svg </a><a href="data/mymodels/figs/10k_model_54.png">png</a></td>
+            <td align="left">Tox-URI</td>
+            <td align="left">-</td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/10k_model_54_rep_seq.html">Tox-URI2 (96%) 1YD0_A (95%) GIY_YIG (92%)</a></td>
+            <td align="left">RHS_repeat(3), RHS(3), DUF4203(2), PAAR_motif(2)</td>
+          </tr>
+          <tr>
+            <td align="right">Sal_55</td>
+            <td align="right">3</td>
+            <td align="right">3</td>
+            <td align="right">2</td>
+            <td align="right">2</td>
+            <td align="left"><a href="data/mymodels/aln_html/10k_model_55_rep_seq.aln.html">html </a><a href="data/mymodels/10k_model_55_rep_seq.aln">fasta </a><a href="data/mymodels/10k_model_55.hmm">hmm</a></td>
+            <td align="left">AHH</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_55.seed.fa">FD01872972_02767</a></td>
+            <td align="left"><a href="data/mymodels/figs/10k_model_55.svg">svg </a><a href="data/mymodels/figs/10k_model_55.png">png</a></td>
+            <td align="left">Tox-AHH</td>
+            <td align="left">AHH</td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/10k_model_55_rep_seq.html">AHH (93%)</a></td>
+            <td align="left">DUF4203(2), PAAR_motif(2), RHS_repeat(2), RHS(2), AHH(2)</td>
+          </tr>
+          <tr>
+            <td align="right">Sal_56</td>
+            <td align="right">33</td>
+            <td align="right">33</td>
+            <td align="right">15</td>
+            <td align="right">8</td>
+            <td align="left"><a href="data/mymodels/aln_html/10k_model_56_rep_seq.aln.html">html </a><a href="data/mymodels/10k_model_56_rep_seq.aln">fasta </a><a href="data/mymodels/10k_model_56.hmm">hmm</a></td>
+            <td align="left">Sal_56(Ntox18)</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_56.seed.fa">FD01873511_01678</a></td>
+            <td align="left"><a href="data/mymodels/figs/10k_model_56.svg">svg </a><a href="data/mymodels/figs/10k_model_56.png">png</a></td>
+            <td align="left">Ntox18</td>
+            <td align="left">-</td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/10k_model_56_rep_seq.html">5T87_G CdiA toxin (66%)</a></td>
+            <td align="left">RHS(6), RHS_repeat(3), DUF4203(1), PAAR_motif(1)</td>
+          </tr>
+          <tr>
+            <td align="right">Sal_57</td>
+            <td align="right">1453</td>
+            <td align="right">1469</td>
+            <td align="right">1198</td>
+            <td align="right">60</td>
+            <td align="left"><a href="data/mymodels/aln_html/10k_model_57_rep_seq.aln.html">html </a><a href="data/mymodels/10k_model_57_rep_seq.aln">fasta </a><a href="data/mymodels/10k_model_57.hmm">hmm</a></td>
+            <td align="left">Sal_57(Tox-ART)</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_57.seed.fa">FD01872943_03028</a></td>
+            <td align="left"><a href="data/mymodels/figs/10k_model_57.svg">svg </a><a href="data/mymodels/figs/10k_model_57.png">png</a></td>
+            <td align="left">-</td>
+            <td align="left">-</td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/10k_model_57_rep_seq.html">Tox-Art HYD1 (42%)</a></td>
+            <td align="left">RHS(1243), RHS_repeat(1197), DUF4203(1181), PAAR_motif(1181), DUF4365(226), TPR_11(226), TPR_14(226), TPR_1(226), TPR_2(226)</td>
+          </tr>
+          <tr>
+            <td align="right">Sal_58</td>
+            <td align="right">1899</td>
+            <td align="right">1899</td>
+            <td align="right">1598</td>
+            <td align="right">141</td>
+            <td align="left"><a href="data/mymodels/aln_html/10k_model_58_rep_seq.aln.html">html </a><a href="data/mymodels/10k_model_58_rep_seq.aln">fasta </a><a href="data/mymodels/10k_model_58.hmm">hmm</a></td>
+            <td align="left">Ntox47</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_58.seed.fa">FD01844471_04082</a></td>
+            <td align="left"><a href="data/mymodels/figs/10k_model_58.svg">svg </a><a href="data/mymodels/figs/10k_model_58.png">png</a></td>
+            <td align="left">Ntox47</td>
+            <td align="left">Ntox47</td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/10k_model_58_rep_seq.html">Ntox47 (99%)</a></td>
+            <td align="left">Ntox47(1898), RHS(1893), RHS_repeat(521), PAAR_motif(377), DUF4203(376), HTH_8(1), rve(1), AAA_lid_9(1), P33MONOX(1)</td>
+          </tr>
+          <tr>
+            <td align="right">Sal_59</td>
+            <td align="right">1139</td>
+            <td align="right">1187</td>
+            <td align="right">8</td>
+            <td align="right">74</td>
+            <td align="left"><a href="data/mymodels/aln_html/10k_model_59_rep_seq.aln.html">html </a><a href="data/mymodels/10k_model_59_rep_seq.aln">fasta </a><a href="data/mymodels/10k_model_59.hmm">hmm</a></td>
+            <td align="left">Prok-JAB</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_59.seed.fa">FD01543564_04149</a></td>
+            <td align="left"><a href="data/mymodels/figs/10k_model_59.svg">svg </a><a href="data/mymodels/figs/10k_model_59.png">png</a></td>
+            <td align="left">Jab</td>
+            <td align="left">Prok-JAB</td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/10k_model_59_rep_seq.html">DUF4329 (99%) 5LD9_JAMM1 JAMM/MPN+ metalloprotease (96%)</a></td>
+            <td align="left">Prok-JAB(1154), NLPC_P60(1151), DUF4329(25), RHS(15), RHS_repeat(10), OCRE(8), RadC(8), PAAR_motif(7), GrpE(1)</td>
+          </tr>
+          <tr>
+            <td align="right">Sal_60</td>
+            <td align="right">223</td>
+            <td align="right">223</td>
+            <td align="right">68</td>
+            <td align="right">21</td>
+            <td align="left"><a href="data/mymodels/aln_html/10k_model_60_rep_seq.aln.html">html </a><a href="data/mymodels/10k_model_60_rep_seq.aln">fasta </a><a href="data/mymodels/10k_model_60.hmm">hmm</a></td>
+            <td align="left">Sal_60</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_60.seed.fa">FD01844767_04578</a></td>
+            <td align="left"><a href="data/mymodels/figs/10k_model_60.svg">svg </a><a href="data/mymodels/figs/10k_model_60.png">png</a></td>
+            <td align="left">PT-COG5412</td>
+            <td align="left">-</td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/10k_model_60_rep_seq.html">?</a></td>
+            <td align="left">RHS(214), RHS_repeat(211), PAAR_motif(68)</td>
+          </tr>
+          <tr>
+            <td align="right">Sal_61</td>
+            <td align="right">6199</td>
+            <td align="right">32037</td>
+            <td align="right">1548</td>
+            <td align="right">418</td>
+            <td align="left"><a href="data/mymodels/aln_html/10k_model_61_rep_seq.aln.html">html </a><a href="data/mymodels/10k_model_61_rep_seq.aln">fasta </a><a href="data/mymodels/10k_model_61.hmm">hmm</a></td>
+            <td align="left">Sal_61(PipA)</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_61.seed.fa">FD01848865_03503</a></td>
+            <td align="left"><a href="data/mymodels/figs/10k_model_61.svg">svg </a><a href="data/mymodels/figs/10k_model_61.png">png</a></td>
+            <td align="left">Tox-ALFMPTase/Tox-HopH1</td>
+            <td align="left">PipA/Peptidase_M91</td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/10k_model_61_rep_seq.html">Peptidase_M91 (99%)</a></td>
+            <td align="left">Peptidase_M48(12292), PipA(11615), LPAM_1(6141), Zn_peptidase(6048), Peptidase_M91(1638), Reprolysin_2(1467), Peptidase_M78(267), RHS(177), RHS_repeat(172), Peptidase_M64(19), OCRE(12), DUF2268(7), PAAR_motif(1), Aspzincin_M35(1), DUF4157(1), Reprolysin_5(1)</td>
+          </tr>
+          <tr>
+            <td align="right">Sal_62</td>
+            <td align="right">29</td>
+            <td align="right">29</td>
+            <td align="right">8</td>
+            <td align="right">10</td>
+            <td align="left"><a href="data/mymodels/aln_html/10k_model_62_rep_seq.aln.html">html </a><a href="data/mymodels/10k_model_62_rep_seq.aln">fasta </a><a href="data/mymodels/10k_model_62.hmm">hmm</a></td>
+            <td align="left">Sal_62</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_62.seed.fa">FD01872527_04452</a></td>
+            <td align="left"><a href="data/mymodels/figs/10k_model_62.svg">svg </a><a href="data/mymodels/figs/10k_model_62.png">png</a></td>
+            <td align="left">-</td>
+            <td align="left">-</td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/10k_model_62_rep_seq.html">?</a></td>
+            <td align="left">RHS(16), RHS_repeat(14), LPAM_1(12), PAAR_motif(8), OCRE(2)</td>
+          </tr>
+          <tr>
+            <td align="right">Sal_63</td>
+            <td align="right">117</td>
+            <td align="right">119</td>
+            <td align="right">12</td>
+            <td align="right">24</td>
+            <td align="left"><a href="data/mymodels/aln_html/10k_model_63_rep_seq.aln.html">html </a><a href="data/mymodels/10k_model_63_rep_seq.aln">fasta </a><a href="data/mymodels/10k_model_63.hmm">hmm</a></td>
+            <td align="left">Sal_63</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_63.seed.fa">ILPIMOCI_02349</a></td>
+            <td align="left"><a href="data/mymodels/figs/10k_model_63.svg">svg </a><a href="data/mymodels/figs/10k_model_63.png">png</a></td>
+            <td align="left">-</td>
+            <td align="left">-</td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/10k_model_63_rep_seq.html">?</a></td>
+            <td align="left">RHS(15), RHS_repeat(10), OCRE(10), PAAR_motif(4), DUF769(1)</td>
+          </tr>
+          <tr>
+            <td align="right">Sal_64</td>
+            <td align="right">31</td>
+            <td align="right">68</td>
+            <td align="right">46</td>
+            <td align="right">47</td>
+            <td align="left"><a href="data/mymodels/aln_html/FD01876182_02112_rep_seq.aln.html">html </a><a href="data/mymodels/FD01876182_02112_rep_seq.aln">fasta </a><a href="data/mymodels/Sal_64.hmm">hmm</a></td>
+            <td align="left">Sal_64(DUF2345)</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_64.seed.fa">FD01876182_02112</a></td>
+            <td align="left"><a href="data/mymodels/figs/Sal_64.svg">svg </a><a href="data/mymodels/figs/Sal_64.png">png</a></td>
+            <td align="left">DUF2345</td>
+            <td align="left">DUF2345</td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/FD01876182_02112_rep_seq.html">Baseplate central spike (6P20_C 3A1M_A)</a></td>
+            <td align="left">DUF2345(53), Phage_GPD(30), Phage_base_V(30), T6SS_Vgr(24), Pyocin_S(14), HNH(12), Gp5_C(7)</td>
+          </tr>
+          <tr>
+            <td align="right">Sal_65</td>
+            <td align="right">42</td>
+            <td align="right">62</td>
+            <td align="right">39</td>
+            <td align="right">8</td>
+            <td align="left"><a href="data/mymodels/aln_html/FD01848339_03324_rep_seq.aln.html">html </a><a href="data/mymodels/FD01848339_03324_rep_seq.aln">fasta </a><a href="data/mymodels/Sal_65.hmm">hmm</a></td>
+            <td align="left">Sal_65(DUF2345)</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_65.seed.fa">FD01848339_03324</a></td>
+            <td align="left"><a href="data/mymodels/figs/Sal_65.svg">svg </a><a href="data/mymodels/figs/Sal_65.png">png</a></td>
+            <td align="left">DUF2345</td>
+            <td align="left">DUF2345</td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/FD01848339_03324_rep_seq.html">Baseplate assembly protein V (6J0M_C 3QR8_A)</a></td>
+            <td align="left">DUF2345(24), DUF2829(20), Phage_base_V(17), DUF3540(12), Fimbrial(1)</td>
+          </tr>
+          <tr>
+            <td align="right">Sal_66</td>
+            <td align="right">4</td>
+            <td align="right">4</td>
+            <td align="right">0</td>
+            <td align="right">3</td>
+            <td align="left"><a href="data/mymodels/aln_html/FD01543135_04207_rep_seq.aln.html">html </a><a href="data/mymodels/FD01543135_04207_rep_seq.aln">fasta </a><a href="data/mymodels/Sal_66.hmm">hmm</a></td>
+            <td align="left">Sal_66</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_66.seed.fa">FD01543135_04207</a></td>
+            <td align="left"><a href="data/mymodels/figs/Sal_66.svg">svg </a><a href="data/mymodels/figs/Sal_66.png">png</a></td>
+            <td align="left">-</td>
+            <td align="left">-</td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/FD01543135_04207_rep_seq.html">?</a></td>
+            <td align="left">TraI_2(1), RHS_repeat(1), RHS(1)</td>
+          </tr>
+          <tr>
+            <td align="right">Sal_67</td>
+            <td align="right">48</td>
+            <td align="right">48</td>
+            <td align="right">0</td>
+            <td align="right">11</td>
+            <td align="left"><a href="data/mymodels/aln_html/FD01873488_00349_rep_seq.aln.html">html </a><a href="data/mymodels/FD01873488_00349_rep_seq.aln">fasta </a><a href="data/mymodels/Sal_67.hmm">hmm</a></td>
+            <td align="left">Sal_67(RepC)</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_67.seed.fa">FD01873488_00349</a></td>
+            <td align="left"><a href="data/mymodels/figs/Sal_67.svg">svg </a><a href="data/mymodels/figs/Sal_67.png">png</a></td>
+            <td align="left">-</td>
+            <td align="left">-</td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/FD01873488_00349_rep_seq.html">RepC 6K8E_D HTH-type transcriptional regulator SarX</a></td>
+            <td align="left">AAA_25(46), CopG_antitoxin(2), LMBR1(2), dCache_2(1)</td>
+          </tr>
+          <tr>
+            <td align="right">Sal_68</td>
+            <td align="right">4370</td>
+            <td align="right">5230</td>
+            <td align="right">1012</td>
+            <td align="right">218</td>
+            <td align="left"><a href="data/mymodels/aln_html/FD01876251_03631_rep_seq.aln.html">html </a><a href="data/mymodels/FD01876251_03631_rep_seq.aln">fasta </a><a href="data/mymodels/Sal_68.hmm">hmm</a></td>
+            <td align="left">Sal_68(DUF1441)</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_68.seed.fa">FD01876251_03631</a></td>
+            <td align="left"><a href="data/mymodels/figs/Sal_68.svg">svg </a><a href="data/mymodels/figs/Sal_68.png">png</a></td>
+            <td align="left">CHTH/Preader1</td>
+            <td align="left">DUF1441</td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/FD01876251_03631_rep_seq.html">Tail-associated lysozyme gp5 6P2A_C</a></td>
+            <td align="left">DUF1441(4092), Phage_base_V(1071), Gp5_C(900), DUF2345(15), Phage_GPD(13), T6SS_Vgr(13), MotCF(7), Phage_Mu_Gam(2), bCoV_NSP1(1), DNA_circ_N(1)</td>
+          </tr>
+          <tr>
+            <td align="right">Sal_69</td>
+            <td align="right">6</td>
+            <td align="right">7</td>
+            <td align="right">0</td>
+            <td align="right">4</td>
+            <td align="left"><a href="data/mymodels/aln_html/FD01850236_02508_rep_seq.aln.html">html </a><a href="data/mymodels/FD01850236_02508_rep_seq.aln">fasta </a><a href="data/mymodels/Sal_69.hmm">hmm</a></td>
+            <td align="left">Sal_69</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_69.seed.fa">FD01850236_02508</a></td>
+            <td align="left"><a href="data/mymodels/figs/Sal_69.svg">svg </a><a href="data/mymodels/figs/Sal_69.png">png</a></td>
+            <td align="left">-</td>
+            <td align="left">-</td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/FD01850236_02508_rep_seq.html">4KU0_C Tail-associated lysozyme and 4UHV</a></td>
+            <td align="left">Phage_GPD(1), Phage_base_V(1), Gp5_C(1)</td>
+          </tr>
+          <tr>
+            <td align="right">Sal_70</td>
+            <td align="right">6115</td>
+            <td align="right">6127</td>
+            <td align="right">12</td>
+            <td align="right">197</td>
+            <td align="left"><a href="data/mymodels/aln_html/FD01843868_02881_rep_seq.aln.html">html </a><a href="data/mymodels/FD01843868_02881_rep_seq.aln">fasta </a><a href="data/mymodels/Sal_70.hmm">hmm</a></td>
+            <td align="left">Sal_70(Bactofilin)</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_70.seed.fa">FD01843868_02881</a></td>
+            <td align="left"><a href="data/mymodels/figs/Sal_70.svg">svg </a><a href="data/mymodels/figs/Sal_70.png">png</a></td>
+            <td align="left">-</td>
+            <td align="left">Bactofilin, small overlap</td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/FD01843868_02881_rep_seq.html">3QR7_B Baseplate assembly protein V</a></td>
+            <td align="left">Bactofilin(6113), B_solenoid_ydck(6076), Hexapep(37), Phage_base_V(12), DUF3540(10), DUF2314(8), PapJ(1)</td>
+          </tr>
+          <tr>
+            <td align="right">Sal_71</td>
+            <td align="right">3</td>
+            <td align="right">5</td>
+            <td align="right">0</td>
+            <td align="right">5</td>
+            <td align="left"><a href="data/mymodels/aln_html/FD01852929_04343_rep_seq.aln.html">html </a><a href="data/mymodels/FD01852929_04343_rep_seq.aln">fasta </a><a href="data/mymodels/Sal_71.hmm">hmm</a></td>
+            <td align="left">Sal_71</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_71.seed.fa">FD01852929_04343</a></td>
+            <td align="left"><a href="data/mymodels/figs/Sal_71.svg">svg </a><a href="data/mymodels/figs/Sal_71.png">png</a></td>
+            <td align="left">-</td>
+            <td align="left">-</td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/FD01852929_04343_rep_seq.html">?</a></td>
+            <td align="left">HTH_23(1)</td>
+          </tr>
+          <tr>
+            <td align="right">Sal_72</td>
+            <td align="right">15</td>
+            <td align="right">15</td>
+            <td align="right">0</td>
+            <td align="right">4</td>
+            <td align="left"><a href="data/mymodels/aln_html/FD01847078_03885_rep_seq.aln.html">html </a><a href="data/mymodels/FD01847078_03885_rep_seq.aln">fasta </a><a href="data/mymodels/Sal_72.hmm">hmm</a></td>
+            <td align="left">Sal_72</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_72.seed.fa">FD01847078_03885</a></td>
+            <td align="left"><a href="data/mymodels/figs/Sal_72.svg">svg </a><a href="data/mymodels/figs/Sal_72.png">png</a></td>
+            <td align="left">-</td>
+            <td align="left">-</td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/FD01847078_03885_rep_seq.html">LOR</a></td>
+            <td align="left">RHS_repeat(13), DUF3986(12)</td>
+          </tr>
+          <tr>
+            <td align="right">Sal_73</td>
+            <td align="right">3164</td>
+            <td align="right">3236</td>
+            <td align="right">0</td>
+            <td align="right">63</td>
+            <td align="left"><a href="data/mymodels/aln_html/FD01542846_04512_rep_seq.aln.html">html </a><a href="data/mymodels/FD01542846_04512_rep_seq.aln">fasta </a><a href="data/mymodels/Sal_73.hmm">hmm</a></td>
+            <td align="left">Sal_73</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_73.seed.fa">FD01542846_04512</a></td>
+            <td align="left"><a href="data/mymodels/figs/Sal_73.svg">svg </a><a href="data/mymodels/figs/Sal_73.png">png</a></td>
+            <td align="left">-</td>
+            <td align="left">-</td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/FD01542846_04512_rep_seq.html">4RU3_A puncturing protein gp41 3VTN_A</a></td>
+            <td align="left">Phage_Mu_Gp45(3203), Apex(3096), TrwC(23), AAA_30(23), UvrD_C_2(23), Phage_spike(13), SH3_13(4), Gp138_N(4), Cupin_6(1)</td>
+          </tr>
+          <tr>
+            <td align="right">Sal_74</td>
+            <td align="right">284</td>
+            <td align="right">301</td>
+            <td align="right">40</td>
+            <td align="right">57</td>
+            <td align="left"><a href="data/mymodels/aln_html/FD01875535_04555_rep_seq.aln.html">html </a><a href="data/mymodels/FD01875535_04555_rep_seq.aln">fasta </a><a href="data/mymodels/Sal_74.hmm">hmm</a></td>
+            <td align="left">RHS</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_74.seed.fa">FD01875535_04555</a></td>
+            <td align="left"><a href="data/mymodels/figs/Sal_74.svg">svg </a><a href="data/mymodels/figs/Sal_74.png">png</a></td>
+            <td align="left">RHS</td>
+            <td align="left">RHS</td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/FD01875535_04555_rep_seq.html">?</a></td>
+            <td align="left">RHS(277), RHS_repeat(180), Peptidase_M91(158), PAAR_motif(33), OCRE(30), DUF4329(4), PLA2G12(4)</td>
+          </tr>
+          <tr>
+            <td align="right">Sal_75</td>
+            <td align="right">2093</td>
+            <td align="right">2121</td>
+            <td align="right">2093</td>
+            <td align="right">107</td>
+            <td align="left"><a href="data/mymodels/aln_html/FD01845411_04345_rep_seq.aln.html">html </a><a href="data/mymodels/FD01845411_04345_rep_seq.aln">fasta </a><a href="data/mymodels/Sal_75.hmm">hmm</a></td>
+            <td align="left">Phage_spike</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_75.seed.fa">FD01845411_04345</a></td>
+            <td align="left"><a href="data/mymodels/figs/Sal_75.svg">svg </a><a href="data/mymodels/figs/Sal_75.png">png</a></td>
+            <td align="left">Phage_spike</td>
+            <td align="left">Phage_spike</td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/FD01845411_04345_rep_seq.html">3QR7_B Baseplate assembly protein</a></td>
+            <td align="left">Phage_spike(2121), Apex(2117), Phage_base_V(2095)</td>
+          </tr>
+          <tr>
+            <td align="right">Sal_76</td>
+            <td align="right">117</td>
+            <td align="right">120</td>
+            <td align="right">76</td>
+            <td align="right">22</td>
+            <td align="left"><a href="data/mymodels/aln_html/FD01872467_03672_rep_seq.aln.html">html </a><a href="data/mymodels/FD01872467_03672_rep_seq.aln">fasta </a><a href="data/mymodels/Sal_76.hmm">hmm</a></td>
+            <td align="left">Sal_76</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_76.seed.fa">FD01872467_03672</a></td>
+            <td align="left"><a href="data/mymodels/figs/Sal_76.svg">svg </a><a href="data/mymodels/figs/Sal_76.png">png</a></td>
+            <td align="left">-</td>
+            <td align="left">-</td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/FD01872467_03672_rep_seq.html">?</a></td>
+            <td align="left">PAAR_motif(111), RHS_repeat(10), RHS(3)</td>
+          </tr>
+          <tr>
+            <td align="right">Sal_77</td>
+            <td align="right">13</td>
+            <td align="right">13</td>
+            <td align="right">7</td>
+            <td align="right">5</td>
+            <td align="left"><a href="data/mymodels/aln_html/FD01848346_03749_rep_seq.aln.html">html </a><a href="data/mymodels/FD01848346_03749_rep_seq.aln">fasta </a><a href="data/mymodels/Sal_77.hmm">hmm</a></td>
+            <td align="left">Sal_77</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_77.seed.fa">FD01848346_03749</a></td>
+            <td align="left"><a href="data/mymodels/figs/Sal_77.svg">svg </a><a href="data/mymodels/figs/Sal_77.png">png</a></td>
+            <td align="left">-</td>
+            <td align="left">-</td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/FD01848346_03749_rep_seq.html">?</a></td>
+            <td align="left">RHS_repeat(5), RHS(5)</td>
+          </tr>
+          <tr>
+            <td align="right">Sal_78</td>
+            <td align="right">348</td>
+            <td align="right">350</td>
+            <td align="right">335</td>
+            <td align="right">45</td>
+            <td align="left"><a href="data/mymodels/aln_html/FD01845424_02298_rep_seq.aln.html">html </a><a href="data/mymodels/FD01845424_02298_rep_seq.aln">fasta </a><a href="data/mymodels/Sal_78.hmm">hmm</a></td>
+            <td align="left">Sal_78</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_78.seed.fa">FD01845424_02298</a></td>
+            <td align="left"><a href="data/mymodels/figs/Sal_78.svg">svg </a><a href="data/mymodels/figs/Sal_78.png">png</a></td>
+            <td align="left">-</td>
+            <td align="left">-</td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/FD01845424_02298_rep_seq.html">4S36_A Phage baseplate protein</a></td>
+            <td align="left">Phage_base_V(333), Phage_spike(262), N_methyl(6), Shufflon_N(6), DUF3060(5), Lipin_N(5), Collar(2)</td>
+          </tr>
+          <tr>
+            <td align="right">Sal_79</td>
+            <td align="right">83</td>
+            <td align="right">96</td>
+            <td align="right">90</td>
+            <td align="right">34</td>
+            <td align="left"><a href="data/mymodels/aln_html/FD01875527_03914_rep_seq.aln.html">html </a><a href="data/mymodels/FD01875527_03914_rep_seq.aln">fasta </a><a href="data/mymodels/Sal_79.hmm">hmm</a></td>
+            <td align="left">Sal_79(Tle1)</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_79.seed.fa">FD01875527_03914</a></td>
+            <td align="left"><a href="data/mymodels/figs/Sal_79.svg">svg </a><a href="data/mymodels/figs/Sal_79.png">png</a></td>
+            <td align="left">-</td>
+            <td align="left">-</td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/FD01875527_03914_rep_seq.html">Tle1 6SJL</a></td>
+            <td align="left">DUF2235(95), T6SS_HCP(74), DUF4150(14), PAAR_motif(2)</td>
+          </tr>
+          <tr>
+            <td align="right">Sal_80</td>
+            <td align="right">809</td>
+            <td align="right">868</td>
+            <td align="right">814</td>
+            <td align="right">164</td>
+            <td align="left"><a href="data/mymodels/aln_html/FD01847867_02109_rep_seq.aln.html">html </a><a href="data/mymodels/FD01847867_02109_rep_seq.aln">fasta </a><a href="data/mymodels/Sal_80.hmm">hmm</a></td>
+            <td align="left">Sal_80(DUF6531)</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_80.seed.fa">FD01847867_02109</a></td>
+            <td align="left"><a href="data/mymodels/figs/Sal_80.svg">svg </a><a href="data/mymodels/figs/Sal_80.png">png</a></td>
+            <td align="left">-</td>
+            <td align="left">-</td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/FD01847867_02109_rep_seq.html">6OX6_A Tas1</a></td>
+            <td align="left">RHS_repeat(858), RHS(841), PAAR_motif(808), Colicin-DNase(228), Tox-HNH-EHHH(66), WHH(42), OCRE(26), EndoU_bacteria(18), DNase_NucA_NucB(17), Ntox47(13), DUF4585(13), Ribonuclease(11), DUF4329(9), DUF4150(8), Tox-ART-HYD1(5), DUF4203(3), Phage_portal(3), GH-E(3), Tox-REase-7(2), Tox-PL-2(1), MNHE(1), SpaA(1)</td>
+          </tr>
+          <tr>
+            <td align="right">Sal_81</td>
+            <td align="right">39</td>
+            <td align="right">40</td>
+            <td align="right">35</td>
+            <td align="right">13</td>
+            <td align="left"><a href="data/mymodels/aln_html/FD01844770_04409_rep_seq.aln.html">html </a><a href="data/mymodels/FD01844770_04409_rep_seq.aln">fasta </a><a href="data/mymodels/Sal_81.hmm">hmm</a></td>
+            <td align="left">Sal_81(DUF2345)</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_81.seed.fa">FD01844770_04409</a></td>
+            <td align="left"><a href="data/mymodels/figs/Sal_81.svg">svg </a><a href="data/mymodels/figs/Sal_81.png">png</a></td>
+            <td align="left">Nuc-Kinase</td>
+            <td align="left">DUF2345</td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/FD01844770_04409_rep_seq.html">4KU0_C Tail-associated lysozyme</a></td>
+            <td align="left">DUF2345(26), Phage_GPD(13), Phage_base_V(13), Gp5_C(6), T6SS_Vgr(5)</td>
+          </tr>
+          <tr>
+            <td align="right">Sal_82</td>
+            <td align="right">56</td>
+            <td align="right">56</td>
+            <td align="right">0</td>
+            <td align="right">7</td>
+            <td align="left"><a href="data/mymodels/aln_html/FD01844672_04394_rep_seq.aln.html">html </a><a href="data/mymodels/FD01844672_04394_rep_seq.aln">fasta </a><a href="data/mymodels/Sal_82.hmm">hmm</a></td>
+            <td align="left">Sal_82(6ATY_A)</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_82.seed.fa">FD01844672_04394</a></td>
+            <td align="left"><a href="data/mymodels/figs/Sal_82.svg">svg </a><a href="data/mymodels/figs/Sal_82.png">png</a></td>
+            <td align="left">-</td>
+            <td align="left">-</td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/FD01844672_04394_rep_seq.html">? 6ATY_A Venom protein</a></td>
+            <td align="left">RHS(5), RHS_repeat(3), OCRE(1)</td>
+          </tr>
+          <tr>
+            <td align="right">Sal_83</td>
+            <td align="right">33</td>
+            <td align="right">35</td>
+            <td align="right">0</td>
+            <td align="right">20</td>
+            <td align="left"><a href="data/mymodels/aln_html/FD01543502_04073_rep_seq.aln.html">html </a><a href="data/mymodels/FD01543502_04073_rep_seq.aln">fasta </a><a href="data/mymodels/Sal_83.hmm">hmm</a></td>
+            <td align="left">Sal_83(TseH)</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_83.seed.fa">FD01543502_04073</a></td>
+            <td align="left"><a href="data/mymodels/figs/Sal_83.svg">svg </a><a href="data/mymodels/figs/Sal_83.png">png</a></td>
+            <td align="left">-</td>
+            <td align="left">DDE_Tnp_IS66</td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/FD01543502_04073_rep_seq.html">6V98_A Cysteine hydrolase <em>André</em></a></td>
+            <td align="left">DDE_Tnp_IS66(19), DDE_Tnp_IS66_C(16), zf-IS66(15), Peptidase_C97(8), RHS(7), LZ_Tnp_IS66(7), OCRE(3), RHS_repeat(2), SlyX(1)</td>
+          </tr>
+          <tr>
+            <td align="right">Sal_84</td>
+            <td align="right">59</td>
+            <td align="right">62</td>
+            <td align="right">10</td>
+            <td align="right">15</td>
+            <td align="left"><a href="data/mymodels/aln_html/FD01848815_03932_rep_seq.aln.html">html </a><a href="data/mymodels/FD01848815_03932_rep_seq.aln">fasta </a><a href="data/mymodels/Sal_84.hmm">hmm</a></td>
+            <td align="left">Sal_84(Phage_lysis)</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_84.seed.fa">FD01848815_03932</a></td>
+            <td align="left"><a href="data/mymodels/figs/Sal_84.svg">svg </a><a href="data/mymodels/figs/Sal_84.png">png</a></td>
+            <td align="left">-</td>
+            <td align="left">Phage_lysis</td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/FD01848815_03932_rep_seq.html">4S36_A Phage baseplate protein GP45</a></td>
+            <td align="left">Phage_lysis(34), Shufflon_N(15), N_methyl(13), Apex(11), Phage_base_V(10), DUF1344(3), Phage_Mu_Gp45(2), Gp138_N(1), Bactofilin(1)</td>
+          </tr>
+          <tr>
+            <td align="right">Sal_85</td>
+            <td align="right">4899</td>
+            <td align="right">7014</td>
+            <td align="right">5448</td>
+            <td align="right">874</td>
+            <td align="left"><a href="data/mymodels/aln_html/FD01847301_04342_rep_seq.aln.html">html </a><a href="data/mymodels/FD01847301_04342_rep_seq.aln">fasta </a><a href="data/mymodels/Sal_85.hmm">hmm</a></td>
+            <td align="left">RHS</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_85.seed.fa">FD01847301_04342</a></td>
+            <td align="left"><a href="data/mymodels/figs/Sal_85.svg">svg </a><a href="data/mymodels/figs/Sal_85.png">png</a></td>
+            <td align="left">RHS</td>
+            <td align="left">OCRE</td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/FD01847301_04342_rep_seq.html">Tc toxin 6SUE or 4A1K_A PUTATIVE L, D-TRANSPEPT</a></td>
+            <td align="left">RHS(6794), RHS_repeat(5153), Ntox47(3477), PAAR_motif(2665), DUF4203(1879), OCRE(284), Colicin-DNase(250), Tox-ART-HYD1(150), WHH(101), AHH(88), AAA_lid_9(82), AAA(55), P33MONOX(49), EndoU_bacteria(38), DUF4329(36), DUF4585(31), Peptidase_M91(24), Ribonuclease(12), Peptidase_C97(7), Minor_tail_Z(5), Tox-HNH-EHHH(4), GIY-YIG(4), GH-E(4), PLA2G12(3), GrpE(2), Tox-PL-2(1), MNHE(1), SpaA(1), CdiA_C(1), DUF463(1), ADPRTs_Tse2(1)</td>
+          </tr>
+          <tr>
+            <td align="right">Sal_86</td>
+            <td align="right">658</td>
+            <td align="right">698</td>
+            <td align="right">1126</td>
+            <td align="right">125</td>
+            <td align="left"><a href="data/mymodels/aln_html/FD01845409_04160_rep_seq.aln.html">html </a><a href="data/mymodels/FD01845409_04160_rep_seq.aln">fasta </a><a href="data/mymodels/Sal_86.hmm">hmm</a></td>
+            <td align="left">Sal_86(DUF2345)</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_86.seed.fa">FD01845409_04160</a></td>
+            <td align="left"><a href="data/mymodels/figs/Sal_86.svg">svg </a><a href="data/mymodels/figs/Sal_86.png">png</a></td>
+            <td align="left">DUF2345</td>
+            <td align="left">Gp5_C/DUF2345</td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/FD01845409_04160_rep_seq.html">3QR8_A Baseplate assembly GP45</a></td>
+            <td align="left">Phage_base_V(616), Phage_GPD(611), Gp5_C(514), DUF2345(190), T6SS_Vgr(11), DUF3378(1), Fibrinogen_BP(1), Big_13(1)</td>
+          </tr>
+          <tr>
+            <td align="right">Sal_87</td>
+            <td align="right">941</td>
+            <td align="right">945</td>
+            <td align="right">920</td>
+            <td align="right">137</td>
+            <td align="left"><a href="data/mymodels/aln_html/FD01851345_04324_rep_seq.aln.html">html </a><a href="data/mymodels/FD01851345_04324_rep_seq.aln">fasta </a><a href="data/mymodels/Sal_87.hmm">hmm</a></td>
+            <td align="left">Sal_87</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_87.seed.fa">FD01851345_04324</a></td>
+            <td align="left"><a href="data/mymodels/figs/Sal_87.svg">svg </a><a href="data/mymodels/figs/Sal_87.png">png</a></td>
+            <td align="left">-</td>
+            <td align="left">-</td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/FD01851345_04324_rep_seq.html">4KU0_C Tail-associated lysozyme</a></td>
+            <td align="left">Phage_base_V(826), Phage_GPD(822), G8(10), AC_1(10), Autotransporter(10)</td>
+          </tr>
+          <tr>
+            <td align="right">Sal_88</td>
+            <td align="right">3376</td>
+            <td align="right">3377</td>
+            <td align="right">3343</td>
+            <td align="right">212</td>
+            <td align="left"><a href="data/mymodels/aln_html/FD01851313_04342_rep_seq.aln.html">html </a><a href="data/mymodels/FD01851313_04342_rep_seq.aln">fasta </a><a href="data/mymodels/Sal_88.hmm">hmm</a></td>
+            <td align="left">Sal_88</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_88.seed.fa">FD01851313_04342</a></td>
+            <td align="left"><a href="data/mymodels/figs/Sal_88.svg">svg </a><a href="data/mymodels/figs/Sal_88.png">png</a></td>
+            <td align="left">-</td>
+            <td align="left">-</td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/FD01851313_04342_rep_seq.html">4KU0_C Tail-associated lysozym</a></td>
+            <td align="left">Phage_base_V(3266), Phage_GPD(3234), Gp5_C(96), FimA(20), DUF4115(7)</td>
+          </tr>
+          <tr>
+            <td align="right">Sal_89</td>
+            <td align="right">4938</td>
+            <td align="right">7135</td>
+            <td align="right">3802</td>
+            <td align="right">272</td>
+            <td align="left"><a href="data/mymodels/aln_html/FD01846866_04075_rep_seq.aln.html">html </a><a href="data/mymodels/FD01846866_04075_rep_seq.aln">fasta </a><a href="data/mymodels/Sal_89.hmm">hmm</a></td>
+            <td align="left">Sal_89(Baseplate_J)</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_89.seed.fa">FD01846866_04075</a></td>
+            <td align="left"><a href="data/mymodels/figs/Sal_89.svg">svg </a><a href="data/mymodels/figs/Sal_89.png">png</a></td>
+            <td align="left">-</td>
+            <td align="left">Baseplate_J</td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/FD01846866_04075_rep_seq.html">Pyocin R2 6U5B</a></td>
+            <td align="left">Baseplate_J(7108), DUF2014(1318), AAA_15(15), LPD7(1)</td>
+          </tr>
+          <tr>
+            <td align="right">Sal_90</td>
+            <td align="right">3810</td>
+            <td align="right">4146</td>
+            <td align="right">3665</td>
+            <td align="right">145</td>
+            <td align="left"><a href="data/mymodels/aln_html/FD01845365_00629_rep_seq.aln.html">html </a><a href="data/mymodels/FD01845365_00629_rep_seq.aln">fasta </a><a href="data/mymodels/Sal_90.hmm">hmm</a></td>
+            <td align="left">Phage_spike</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_90.seed.fa">FD01845365_00629</a></td>
+            <td align="left"><a href="data/mymodels/figs/Sal_90.svg">svg </a><a href="data/mymodels/figs/Sal_90.png">png</a></td>
+            <td align="left">-</td>
+            <td align="left">Phage_spike</td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/FD01845365_00629_rep_seq.html">4S36_A Phage baseplate protein GP45</a></td>
+            <td align="left">Phage_spike(3716), Phage_base_V(3657), Phage_lysis(272), Gp138_N(117), Apex(115), Shufflon_N(34), Phage_Mu_Gp45(32), Lipin_N(6), Collar(5), S_tail_recep_bd(5), N_methyl(3), T2SSN(2), TamB(1), HlyD_D23(1), FapA(1)</td>
+          </tr>
+          <tr>
+            <td align="right">Sal_91</td>
+            <td align="right">49</td>
+            <td align="right">49</td>
+            <td align="right">0</td>
+            <td align="right">13</td>
+            <td align="left"><a href="data/mymodels/aln_html/FD01876784_02410_rep_seq.aln.html">html </a><a href="data/mymodels/FD01876784_02410_rep_seq.aln">fasta </a><a href="data/mymodels/Sal_91.hmm">hmm</a></td>
+            <td align="left">Sal_91(Sod_Fe_N)</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_91.seed.fa">FD01876784_02410</a></td>
+            <td align="left"><a href="data/mymodels/figs/Sal_91.svg">svg </a><a href="data/mymodels/figs/Sal_91.png">png</a></td>
+            <td align="left">-</td>
+            <td align="left">Sod_Fe_N</td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/FD01876784_02410_rep_seq.html">?</a></td>
+            <td align="left">Sod_Fe_N(49), Sod_Fe_C(49)</td>
+          </tr>
+          <tr>
+            <td align="right">Sal_92</td>
+            <td align="right">115</td>
+            <td align="right">182</td>
+            <td align="right">0</td>
+            <td align="right">21</td>
+            <td align="left"><a href="data/mymodels/aln_html/FD01876874_03928_rep_seq.aln.html">html </a><a href="data/mymodels/FD01876874_03928_rep_seq.aln">fasta </a><a href="data/mymodels/Sal_92.hmm">hmm</a></td>
+            <td align="left">Sal_92(Phage_HK97_TLTM)</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_92.seed.fa">FD01876874_03928</a></td>
+            <td align="left"><a href="data/mymodels/figs/Sal_92.svg">svg </a><a href="data/mymodels/figs/Sal_92.png">png</a></td>
+            <td align="left">-</td>
+            <td align="left">Phage_HK97_TLTM</td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/FD01876874_03928_rep_seq.html">3AAM_A Endonuclease IV BER</a></td>
+            <td align="left">Phage_HK97_TLTM(37), Tape_meas_lam_C(37)</td>
+          </tr>
+          <tr>
+            <td align="right">Sal_93</td>
+            <td align="right">2064</td>
+            <td align="right">2065</td>
+            <td align="right">2046</td>
+            <td align="right">208</td>
+            <td align="left"><a href="data/mymodels/aln_html/FD01845054_03339_rep_seq.aln.html">html </a><a href="data/mymodels/FD01845054_03339_rep_seq.aln">fasta </a><a href="data/mymodels/Sal_93.hmm">hmm</a></td>
+            <td align="left">RHS</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_93.seed.fa">FD01845054_03339</a></td>
+            <td align="left"><a href="data/mymodels/figs/Sal_93.svg">svg </a><a href="data/mymodels/figs/Sal_93.png">png</a></td>
+            <td align="left">-</td>
+            <td align="left">-</td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/FD01845054_03339_rep_seq.html">?</a></td>
+            <td align="left">RHS_repeat(2063), PAAR_motif(2047), DUF4203(2046), RHS(1895), Ntox47(381), AHH(62), WHH(23), Tox-ART-HYD1(19), GIY-YIG(4), TrbL(2), EndoU_bacteria(1)</td>
+          </tr>
+          <tr>
+            <td align="right">Sal_94</td>
+            <td align="right">6159</td>
+            <td align="right">8062</td>
+            <td align="right">1894</td>
+            <td align="right">460</td>
+            <td align="left"><a href="data/mymodels/aln_html/FD01849291_04464_rep_seq.aln.html">html </a><a href="data/mymodels/FD01849291_04464_rep_seq.aln">fasta </a><a href="data/mymodels/Sal_94.hmm">hmm</a></td>
+            <td align="left">RHS</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_94.seed.fa">FD01849291_04464</a></td>
+            <td align="left"><a href="data/mymodels/figs/Sal_94.svg">svg </a><a href="data/mymodels/figs/Sal_94.png">png</a></td>
+            <td align="left">-</td>
+            <td align="left">Glyco_hydro_31</td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/FD01849291_04464_rep_seq.html">?</a></td>
+            <td align="left">Glyco_hydro_31(6141), Gal_mutarotas_2(6117), RHS_repeat(1921), RHS(1896), PAAR_motif(1860), DUF4203(1859), Ntox47(383), AHH(63), Tox-ART-HYD1(27), WHH(26), GIY-YIG(4), EndoU_bacteria(1), MFS_2(1)</td>
+          </tr>
+          <tr>
+            <td align="right">Sal_95</td>
+            <td align="right">74</td>
+            <td align="right">74</td>
+            <td align="right">0</td>
+            <td align="right">15</td>
+            <td align="left"><a href="data/mymodels/aln_html/FD01845406_04698_rep_seq.aln.html">html </a><a href="data/mymodels/FD01845406_04698_rep_seq.aln">fasta </a><a href="data/mymodels/Sal_95.hmm">hmm</a></td>
+            <td align="left">Sal_95</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_95.seed.fa">FD01845406_04698</a></td>
+            <td align="left"><a href="data/mymodels/figs/Sal_95.svg">svg </a><a href="data/mymodels/figs/Sal_95.png">png</a></td>
+            <td align="left">-</td>
+            <td align="left">-</td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/FD01845406_04698_rep_seq.html">Shigella flexneri OspC Post Invasion</a></td>
+            <td align="left">DUF4116(53), TTc_toxin_rep(18)</td>
+          </tr>
+          <tr>
+            <td align="right">Sal_96</td>
+            <td align="right">6160</td>
+            <td align="right">6208</td>
+            <td align="right">16</td>
+            <td align="right">81</td>
+            <td align="left"><a href="data/mymodels/aln_html/FD01850236_01738_rep_seq.aln.html">html </a><a href="data/mymodels/FD01850236_01738_rep_seq.aln">fasta </a><a href="data/mymodels/Sal_96.hmm">hmm</a></td>
+            <td align="left">Sal_96(WaaY)</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_96.seed.fa">FD01850236_01738</a></td>
+            <td align="left"><a href="data/mymodels/figs/Sal_96.svg">svg </a><a href="data/mymodels/figs/Sal_96.png">png</a></td>
+            <td align="left">CR-Kinase</td>
+            <td align="left">WaaY</td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/FD01850236_01738_rep_seq.html">4KU0_C Tail-associated lysozyme</a></td>
+            <td align="left">WaaY(6162), Phage_CI_C(30), Phage_GPD(14), Phage_base_V(14)</td>
+          </tr>
+          <tr>
+            <td align="right">Sal_97</td>
+            <td align="right">26</td>
+            <td align="right">26</td>
+            <td align="right">1</td>
+            <td align="right">9</td>
+            <td align="left"><a href="data/mymodels/aln_html/FD01847549_00048_rep_seq.aln.html">html </a><a href="data/mymodels/FD01847549_00048_rep_seq.aln">fasta </a><a href="data/mymodels/Sal_97.hmm">hmm</a></td>
+            <td align="left">Sal_97</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_97.seed.fa">FD01847549_00048</a></td>
+            <td align="left"><a href="data/mymodels/figs/Sal_97.svg">svg </a><a href="data/mymodels/figs/Sal_97.png">png</a></td>
+            <td align="left">-</td>
+            <td align="left">-</td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/FD01847549_00048_rep_seq.html">1XFX_C Calmodulin-sensitive adenylate cyclase Anthrax_toxA</a></td>
+            <td align="left">Peripla_BP_4(6), RHS_repeat(6), TTc_toxin_rep(6)</td>
+          </tr>
+          <tr>
+            <td align="right">Sal_98</td>
+            <td align="right">33</td>
+            <td align="right">35</td>
+            <td align="right">35</td>
+            <td align="right">19</td>
+            <td align="left"><a href="data/mymodels/aln_html/FD01848869_02564_rep_seq.aln.html">html </a><a href="data/mymodels/FD01848869_02564_rep_seq.aln">fasta </a><a href="data/mymodels/Sal_98.hmm">hmm</a></td>
+            <td align="left">Pyocin_S</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_98.seed.fa">FD01848869_02564</a></td>
+            <td align="left"><a href="data/mymodels/figs/Sal_98.svg">svg </a><a href="data/mymodels/figs/Sal_98.png">png</a></td>
+            <td align="left">-</td>
+            <td align="left">-</td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/FD01848869_02564_rep_seq.html">?</a></td>
+            <td align="left">Pyocin_S(31), T6SS_HCP(17), DUF2345(16), Phage_GPD(14), Phage_base_V(14), T6SS_Vgr(14), HNH(12), PAAR_motif(2)</td>
+          </tr>
+          <tr>
+            <td align="right">Sal_99</td>
+            <td align="right">2326</td>
+            <td align="right">2356</td>
+            <td align="right">2147</td>
+            <td align="right">243</td>
+            <td align="left"><a href="data/mymodels/aln_html/FD01877462_04625_rep_seq.aln.html">html </a><a href="data/mymodels/FD01877462_04625_rep_seq.aln">fasta </a><a href="data/mymodels/Sal_99.hmm">hmm</a></td>
+            <td align="left">RHS</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_99.seed.fa">FD01877462_04625</a></td>
+            <td align="left"><a href="data/mymodels/figs/Sal_99.svg">svg </a><a href="data/mymodels/figs/Sal_99.png">png</a></td>
+            <td align="left">-</td>
+            <td align="left">-</td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/FD01877462_04625_rep_seq.html">DUF6531 tox Tranlocation?</a></td>
+            <td align="left">RHS_repeat(2351), RHS(2178), PAAR_motif(2139), DUF4203(2048), Ntox47(558), AHH(62), WHH(24), Tox-ART-HYD1(19), DUF4329(9), Peptidase_M91(6), GIY-YIG(4), PLA2G12(4), CdiA_C(1), EndoU_bacteria(1), OCRE(1), Colicin-DNase(1)</td>
+          </tr>
+          <tr>
+            <td align="right">Sal_100</td>
+            <td align="right">2</td>
+            <td align="right">3</td>
+            <td align="right">0</td>
+            <td align="right">3</td>
+            <td align="left"><a href="data/mymodels/aln_html/FD01852929_04320_rep_seq.aln.html">html </a><a href="data/mymodels/FD01852929_04320_rep_seq.aln">fasta </a><a href="data/mymodels/Sal_100.hmm">hmm</a></td>
+            <td align="left">Sal_100</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_100.seed.fa">FD01852929_04320</a></td>
+            <td align="left"><a href="data/mymodels/figs/Sal_100.svg">svg </a><a href="data/mymodels/figs/Sal_100.png">png</a></td>
+            <td align="left">-</td>
+            <td align="left">-</td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/FD01852929_04320_rep_seq.html">beta-pore-forming toxins ?</a></td>
+            <td align="left">PAAR_motif(3)</td>
+          </tr>
+          <tr>
+            <td align="right">Sal_101</td>
+            <td align="right">29</td>
+            <td align="right">41</td>
+            <td align="right">35</td>
+            <td align="right">27</td>
+            <td align="left"><a href="data/mymodels/aln_html/FD01845401_00304_rep_seq.aln.html">html </a><a href="data/mymodels/FD01845401_00304_rep_seq.aln">fasta </a><a href="data/mymodels/Sal_101.hmm">hmm</a></td>
+            <td align="left">Sal_101(DUF2345)</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_101.seed.fa">FD01845401_00304</a></td>
+            <td align="left"><a href="data/mymodels/figs/Sal_101.svg">svg </a><a href="data/mymodels/figs/Sal_101.png">png</a></td>
+            <td align="left">DUF2345</td>
+            <td align="left">DUF2345</td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/FD01845401_00304_rep_seq.html">1WTH_A Tail-associated lysozym</a></td>
+            <td align="left">DUF2345(33), Phage_GPD(23), Phage_base_V(23), T6SS_Vgr(15), Pyocin_S(14), HNH(12), PrgH(1), Big_13(1)</td>
+          </tr>
+          <tr>
+            <td align="right">Sal_102</td>
+            <td align="right">23</td>
+            <td align="right">23</td>
+            <td align="right">7</td>
+            <td align="right">5</td>
+            <td align="left"><a href="data/mymodels/aln_html/FD01846512_03854_rep_seq.aln.html">html </a><a href="data/mymodels/FD01846512_03854_rep_seq.aln">fasta </a><a href="data/mymodels/Sal_102.hmm">hmm</a></td>
+            <td align="left">Sal_102</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_102.seed.fa">FD01846512_03854</a></td>
+            <td align="left"><a href="data/mymodels/figs/Sal_102.svg">svg </a><a href="data/mymodels/figs/Sal_102.png">png</a></td>
+            <td align="left">-</td>
+            <td align="left">-</td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/FD01846512_03854_rep_seq.html">TIGR01641 phageSPP1_gp7</a></td>
+            <td align="left">RHS(23), OCRE(17), RHS_repeat(6)</td>
+          </tr>
+          <tr>
+            <td align="right">Sal_103</td>
+            <td align="right">5680</td>
+            <td align="right">6100</td>
+            <td align="right">105</td>
+            <td align="right">201</td>
+            <td align="left"><a href="data/mymodels/aln_html/FD01844600_01511_rep_seq.aln.html">html </a><a href="data/mymodels/FD01844600_01511_rep_seq.aln">fasta </a><a href="data/mymodels/Sal_103.hmm">hmm</a></td>
+            <td align="left">Sal_103(AidB_N)</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_103.seed.fa">FD01844600_01511</a></td>
+            <td align="left"><a href="data/mymodels/figs/Sal_103.svg">svg </a><a href="data/mymodels/figs/Sal_103.png">png</a></td>
+            <td align="left">RHS, few of them</td>
+            <td align="left">AidB_N</td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/FD01844600_01511_rep_seq.html">Endotoxin_C short aln</a></td>
+            <td align="left">AidB_N(5675), Acyl-CoA_dh_M(5675), Acyl-CoA_dh_1(5675), RHS_repeat(425), RHS(417), Peptidase_M91(165), PAAR_motif(92), DUF4329(9), PLA2G12(4), OCRE(2)</td>
+          </tr>
+          <tr>
+            <td align="right">Sal_104</td>
+            <td align="right">3614</td>
+            <td align="right">4179</td>
+            <td align="right">3574</td>
+            <td align="right">202</td>
+            <td align="left"><a href="data/mymodels/aln_html/FD01872471_03674_rep_seq.aln.html">html </a><a href="data/mymodels/FD01872471_03674_rep_seq.aln">fasta </a><a href="data/mymodels/Sal_104.hmm">hmm</a></td>
+            <td align="left">Phage_spike</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_104.seed.fa">FD01872471_03674</a></td>
+            <td align="left"><a href="data/mymodels/figs/Sal_104.svg">svg </a><a href="data/mymodels/figs/Sal_104.png">png</a></td>
+            <td align="left"></td>
+            <td align="left">Phage_spike</td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/FD01872471_03674_rep_seq.html">4S36_A Phage baseplate protein GP45</a></td>
+            <td align="left">Apex(4064), Phage_base_V(3516), Phage_spike(2049), Gp138_N(541), Saf-Nte_pilin(94), DUF2208(2)</td>
+          </tr>
+          <tr>
+            <td align="right">Sal_105</td>
+            <td align="right">6126</td>
+            <td align="right">6567</td>
+            <td align="right">61</td>
+            <td align="right">110</td>
+            <td align="left"><a href="data/mymodels/aln_html/FD01843848_01541_rep_seq.aln.html">html </a><a href="data/mymodels/FD01843848_01541_rep_seq.aln">fasta </a><a href="data/mymodels/Sal_105.hmm">hmm</a></td>
+            <td align="left">Sal_104(IpaC_SipC)</td>
+            <td align="left"><a href="data/mymodels/seed_regions/Sal_105.seed.fa">FD01843848_01541</a></td>
+            <td align="left"><a href="data/mymodels/figs/Sal_105.svg">svg </a><a href="data/mymodels/figs/Sal_105.png">png</a></td>
+            <td align="left"></td>
+            <td align="left">IpaC_SipC</td>
+            <td align="left"><a href="data/mymodels/hhr_in_html/FD01843848_01541_rep_seq.html">4S36_A Phage baseplate protein GP45</a></td>
+            <td align="left">IpaC_SipC(6123), Apex(361), Gp138_N(359), Phage_spike(66), Phage_base_V(61), DUF4998(9), META(4), ABC_membrane(1), ABC_tran(1)</td>
+          </tr>
+        </tbody>
+      </table>
+      <script>function copied(target, str) {
+target.classList.add('active');
+copyTextToClipboard(target.dataset.code, function() {
+setTimeout(() => {
+target.classList.remove('active');
+}, 2000);
+});
+}</script>
+      <script src="https://unpkg.com/@uiw/copy-to-clipboard/dist/copy-to-clipboard.umd.js"></script>
+    </div>
+  </body>
+</html>

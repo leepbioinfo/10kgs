@@ -1,0 +1,543 @@
+Query         EDP9633565.1/40-156 
+Match_columns 117
+No_of_seqs    28 out of 32
+Neff          2.82892
+Searched_HMMs 107766
+Date          Sat Aug 14 15:19:59 2021
+Command       hhsearch -cpu 8 -i ../results/full.a3m -d /cluster/toolkit/production/databases/hh-suite/mmcif70/pdb70 -d /cluster/toolkit/production/databases/hh-suite/scope70/scope70 -d /cluster/toolkit/production/databases/hh-suite/pfama/pfama -d /cluster/toolkit/production/databases/hh-suite/TIGRFAM/TIGRFAM -o ../results/9147778.hhr -oa3m ../results/9147778.a3m -p 20 -Z 250 -loc -z 1 -b 1 -B 250 -ssm 2 -sc 1 -seq 1 -dbstrlen 10000 -norealign -maxres 32000 -contxt /cluster/toolkit/production/bioprogs/tools/hh-suite-build-new/data/context_data.crf 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF13600.8 ; DUF4140 ; N-termin  42.2   2E+02  0.0019   20.0   4.8   40   66-105    13-54  (100)
+  2 d1zswa2 d.32.1.10 (A:145-314)   41.6 1.2E+02  0.0011   21.4   3.8   39   41-85     85-123 (170)
+  3 d1lwha2 c.1.8.1 (A:1-391) 4-al  36.8 1.1E+02   0.001   24.9   3.3   35   38-80     65-99  (391)
+  4 d3omsa_ d.32.1.0 (A:) automate  36.3 1.5E+02  0.0014   19.8   3.4   39   41-85     83-122 (129)
+  5 d5brqa1 c.1.8.0 (A:6-478) auto  35.4 1.2E+02  0.0011   25.5   3.4   35   38-80     72-106 (473)
+  6 d5v91a_ d.32.1.0 (A:) automate  34.0 2.7E+02  0.0025   18.7   4.3   38   41-85     73-110 (138)
+  7 d1twua_ d.32.1.8 (A:) Hypothet  29.3 2.9E+02  0.0027   18.0   3.8   38   41-84     85-123 (137)
+  8 PF08496.12 ; Peptidase_S49_N ;  28.8 1.1E+02 0.00099   24.8   2.1   19   87-105   120-139 (146)
+  9 PF14620.8 ; YPEB ; YpeB sporul  28.7 2.8E+02  0.0026   24.2   4.5   55   45-105   287-346 (361)
+ 10 d5do8a1 c.1.8.1 (A:3-477) auto  27.7 2.1E+02   0.002   24.1   3.6   32   38-77     73-104 (475)
+ 11 d4m8ua1 c.1.8.1 (A:2-482) auto  26.4 1.9E+02  0.0017   24.6   3.1   35   38-80     72-106 (481)
+ 12 PF13670.8 ; PepSY_2 ; Peptidas  26.2 3.4E+02  0.0032   17.5   5.2   48   44-102    28-77  (81)
+ 13 d2wl9a1 d.32.1.0 (A:1-134) aut  26.1 2.9E+02  0.0027   18.3   3.4   39   41-85     71-114 (134)
+ 14 d1klla_ d.32.1.2 (A:) Mitomyci  26.1 3.2E+02   0.003   17.6   3.5   39   41-84     79-118 (128)
+ 15 1TWU_A Hypothetical protein yy  25.8 3.3E+02   0.003   17.8   3.5   39   41-85     87-126 (139)
+ 16 2RK0_B Glyoxalase/Bleomycin re  25.2 2.8E+02  0.0026   18.1   3.1   38   42-85     83-120 (136)
+ 17 d3l20a1 d.32.1.0 (A:4-151) aut  24.6   3E+02  0.0028   19.3   3.4   39   41-85     94-135 (148)
+ 18 2CTF_A Vigilin; K homology typ  24.3      78 0.00072   19.6   0.5   19   37-55      1-19  (102)
+ 19 4PAV_B Glyoxalase family prote  24.1 3.3E+02  0.0031   18.2   3.4   40   41-85     99-138 (145)
+ 20 4PAV_D Glyoxalase family prote  24.1 3.3E+02  0.0031   18.2   3.4   40   41-85     99-138 (145)
+ 21 d1tsja_ d.32.1.7 (A:) Hypothet  23.2 3.4E+02  0.0032   18.1   3.3   39   41-85     82-121 (129)
+ 22 d2ehza1 d.32.1.0 (A:4-137) aut  23.1   4E+02  0.0037   17.5   3.6   39   41-85     71-114 (134)
+ 23 d2ze0a1 c.1.8.0 (A:2-471) auto  22.6 2.6E+02  0.0024   23.6   3.2   29   38-72     73-101 (474)
+ 24 3GHJ_A Putative integron gene   22.4 3.7E+02  0.0034   18.1   3.4   38   43-86     96-135 (141)
+ 25 d3vgfa2 c.1.8.1 (A:91-490) Gly  22.1 2.8E+02  0.0026   23.2   3.3   29   38-72     73-101 (400)
+ 26 d1npba_ d.32.1.2 (A:) Fosfomyc  21.7 3.9E+02  0.0036   18.2   3.4   36   43-85     75-110 (140)
+ 27 d1qhoa4 c.1.8.1 (A:1-407) Cycl  21.7 3.6E+02  0.0033   22.9   3.8   32   38-77    103-134 (407)
+ 28 d4aiea1 c.1.8.0 (A:2-465) auto  21.7   3E+02  0.0028   23.2   3.4   35   38-80     72-106 (464)
+ 29 d1jaea2 c.1.8.1 (A:1-378) Anim  21.6 2.9E+02  0.0027   23.2   3.3   29   38-72     70-98  (378)
+ 30 d1lkda1 d.32.1.3 (A:2-132) 2,3  21.4   4E+02  0.0037   17.4   3.3   39   41-85     68-111 (131)
+ 31 d2zica1 c.1.8.0 (A:1-463) auto  20.8 2.8E+02  0.0026   23.4   3.1   29   38-72     74-102 (463)
+ 32 TIGR03806 chp_HNE_0200; conser  20.7   3E+02  0.0028   24.2   3.4   51   55-107    46-104 (317)
+ 33 PF00903.27 ; Glyoxalase ; Glyo  20.6 3.1E+02  0.0029   16.5   2.5   39   41-85     75-116 (120)
+ 34 d1aqma2 c.1.8.1 (A:1-354) Bact  20.4 3.1E+02  0.0029   22.8   3.2   29   38-72     60-88  (354)
+ 35 d3vm7a1 c.1.8.0 (A:22-400) aut  20.3 3.7E+02  0.0035   22.4   3.6   32   38-77     92-123 (379)
+ 36 PF07790.13 ; Pilin_N ; Archaea  20.1 3.3E+02   0.003   18.4   2.8   24   78-101    53-77  (77)
+
+No 1
+>PF13600.8 ; DUF4140 ; N-terminal domain of unknown function (DUF4140)
+Probab=42.24  E-value=2e+02  Score=20.00  Aligned_cols=40  Identities=15%  Similarity=0.221  Sum_probs=0.0  Template_Neff=9.100
+
+Q ss_pred             eeeEecCCCCCcEEECCCCCCCCCCeEEEEeCCC--CcEEee
+Q EDP9633565.1/4   66 FYDIPINPDNKSIVYHPDGSTSIPDKIRIRNNGN--GTFHGF  105 (117)
+Q Consensus        66 ~~~F~lp~g~~siv~~PdGtt~~at~i~vrnng~--GT~Hgy  105 (117)
+                      ...++|++|...+++..=.....++.|+|+..++  .++++.
+T Consensus        13 ~~~~~l~~G~~~i~i~~Lp~~i~~~Sl~v~~~~~~~~~i~~v   54 (100)
+T A7HCS6_ANADF/3   13 VAKVELPDGPTRVVLEGLPDELDDDSIRVEGKGAAKARVFGV   54 (100)
+T ss_pred             EEEEEcCCCCeEEEEcCCCCccCccceEEEEeccccEEEEEE
+
+
+No 2
+>d1zswa2 d.32.1.10 (A:145-314) Hypothetical protein BC1024 {Bacillus cereus [TaxId: 1396]}
+Probab=41.59  E-value=1.2e+02  Score=21.42  Aligned_cols=39  Identities=18%  Similarity=-0.016  Sum_probs=0.0  Template_Neff=11.100
+
+Q ss_pred             CHHHHHHHHHHHhcCCCCCCCCCcceeeEecCCCCCcEEECCCCC
+Q EDP9633565.1/4   41 NKNDLKYAGQQAAKLPAGPNGTKGSFYDIPINPDNKSIVYHPDGS   85 (117)
+Q Consensus        41 Sk~Dl~YA~~~Aa~L~p~~~~~~g~~~~F~lp~g~~siv~~PdGt   85 (117)
+                      +++|++.+.+++...+.      -.......+......+.+|||.
+T Consensus        85 ~~~dv~~~~~~l~~~g~------~~~~~~~~~~~~~~~~~Dp~G~  123 (170)
+T d1zswa2          85 NDAELAYWEEQVKQRGF------HSSGIIDRFYFKSLYFRESNGI  123 (170)
+T ss_dssp             SHHHHHHHHHHHHHTTC------CCCCCEECSSEEEEEEECTTCC
+T ss_pred             CHHHHHHHHHHHHHCCC------cccceeecCCeEEEEEEcCCCc
+
+
+No 3
+>d1lwha2 c.1.8.1 (A:1-391) 4-alpha-glucanotransferase {Thermotoga maritima [TaxId: 2336]}
+Probab=36.81  E-value=1.1e+02  Score=24.87  Aligned_cols=35  Identities=6%  Similarity=0.055  Sum_probs=0.0  Template_Neff=11.100
+
+Q ss_pred             CCCCHHHHHHHHHHHhcCCCCCCCCCcceeeEecCCCCCcEEE
+Q EDP9633565.1/4   38 KWGNKNDLKYAGQQAAKLPAGPNGTKGSFYDIPINPDNKSIVY   80 (117)
+Q Consensus        38 qwGSk~Dl~YA~~~Aa~L~p~~~~~~g~~~~F~lp~g~~siv~   80 (117)
+                      .||+.+||+...++|.+++-        ...+++..++.|.-+
+T Consensus        65 ~~Gt~~~~~~Li~~ah~~gi--------~vilD~v~nh~s~~~   99 (391)
+T d1lwha2          65 EYGSEREFKEMIEAFHDSGI--------KVVLDLPIHHTGFLH   99 (391)
+T ss_dssp             GGCCHHHHHHHHHHHHHTTC--------EEEEEECTTBCCTTS
+T ss_pred             hhCCHHHHHHHHHHHHHCCC--------EEEEEeCCccccccC
+
+
+No 4
+>d3omsa_ d.32.1.0 (A:) automated matches {Bacillus cereus [TaxId: 226900]}
+Probab=36.27  E-value=1.5e+02  Score=19.82  Aligned_cols=39  Identities=8%  Similarity=-0.153  Sum_probs=0.0  Template_Neff=11.200
+
+Q ss_pred             CHHHHHHHHHHHhcCCCCCCCCCcceeeEecCCC-CCcEEECCCCC
+Q EDP9633565.1/4   41 NKNDLKYAGQQAAKLPAGPNGTKGSFYDIPINPD-NKSIVYHPDGS   85 (117)
+Q Consensus        41 Sk~Dl~YA~~~Aa~L~p~~~~~~g~~~~F~lp~g-~~siv~~PdGt   85 (117)
+                      +.+|++.+.+++..++.      =....-..+-+ ....+.+|||.
+T Consensus        83 ~~~d~~~~~~~l~~~g~------~~~~~~~~~~~~~~~~~~Dp~G~  122 (129)
+T d3omsa_          83 TEEEIDTVFHKLAQDGA------ILMPLGSYPFSKKFGWLNDKYGV  122 (129)
+T ss_dssp             SHHHHHHHHHHHHTTCE------EEEEEEEETTEEEEEEEECTTSC
+T ss_pred             CHHHHHHHHHHHhcCce------EEeccccccccccEEEEEcCCce
+
+
+No 5
+>d5brqa1 c.1.8.0 (A:6-478) automated matches {Bacillus licheniformis [TaxId: 279010]}
+Probab=35.42  E-value=1.2e+02  Score=25.48  Aligned_cols=35  Identities=14%  Similarity=0.072  Sum_probs=0.0  Template_Neff=11.000
+
+Q ss_pred             CCCCHHHHHHHHHHHhcCCCCCCCCCcceeeEecCCCCCcEEE
+Q EDP9633565.1/4   38 KWGNKNDLKYAGQQAAKLPAGPNGTKGSFYDIPINPDNKSIVY   80 (117)
+Q Consensus        38 qwGSk~Dl~YA~~~Aa~L~p~~~~~~g~~~~F~lp~g~~siv~   80 (117)
+                      .||+.+||+...+.|..++-        ...+++..++.|..+
+T Consensus        72 ~~Gt~~d~~~li~~~h~~Gi--------~vilD~v~nh~s~~~  106 (473)
+T d5brqa1          72 EYGTMADFEELLEEAHKRGI--------KVIMDLVVNHTSTEH  106 (473)
+T ss_dssp             GGCCHHHHHHHHHHHHHTTC--------EEEEEECCSEEETTS
+T ss_pred             ccCCHHHHHHHHHHHHHCCC--------EEEEEeecCCCccCC
+
+
+No 6
+>d5v91a_ d.32.1.0 (A:) automated matches {Klebsiella pneumoniae [TaxId: 573]}
+Probab=34.02  E-value=2.7e+02  Score=18.70  Aligned_cols=38  Identities=11%  Similarity=0.224  Sum_probs=0.0  Template_Neff=11.500
+
+Q ss_pred             CHHHHHHHHHHHhcCCCCCCCCCcceeeEecCCCCCcEEECCCCC
+Q EDP9633565.1/4   41 NKNDLKYAGQQAAKLPAGPNGTKGSFYDIPINPDNKSIVYHPDGS   85 (117)
+Q Consensus        41 Sk~Dl~YA~~~Aa~L~p~~~~~~g~~~~F~lp~g~~siv~~PdGt   85 (117)
+                      +.+|++.+.+++..++.       .....+.+.+....+.+|||.
+T Consensus        73 ~~~d~~~~~~~l~~~g~-------~~~~~~~~~~~~~~~~dp~G~  110 (138)
+T d5v91a_          73 SEADFASFAARLEAAGV-------AVWKLNRSEGASHYFLDPDGH  110 (138)
+T ss_dssp             CHHHHHHHHHHHHHTTC-------CEEECSCSSSSEEEEECTTCC
+T ss_pred             cHHHHHHHHHHHHHcCC-------eEEEecCCCceEEEEECCCCC
+
+
+No 7
+>d1twua_ d.32.1.8 (A:) Hypothetical protein YycE {Bacillus subtilis [TaxId: 1423]}
+Probab=29.28  E-value=2.9e+02  Score=18.00  Aligned_cols=38  Identities=13%  Similarity=0.051  Sum_probs=0.0  Template_Neff=12.100
+
+Q ss_pred             CHHHHHHHHHHHhcCCCCCCCCCcceeeEecCCC-CCcEEECCCC
+Q EDP9633565.1/4   41 NKNDLKYAGQQAAKLPAGPNGTKGSFYDIPINPD-NKSIVYHPDG   84 (117)
+Q Consensus        41 Sk~Dl~YA~~~Aa~L~p~~~~~~g~~~~F~lp~g-~~siv~~PdG   84 (117)
+                      +.+|++.+.+++..++.      -......-..+ ....+..|+|
+T Consensus        85 ~~~d~~~~~~~l~~~g~------~~~~~~~~~~~~~~~~~~dp~G  123 (137)
+T d1twua_          85 NAVELAAITSKLKHMGY------QEVESENPYWSNGGVTIEDPDG  123 (137)
+T ss_dssp             CHHHHHHHHHHHHHTTC------CEECCSSHHHHSSEEEEECTTC
+T ss_pred             CHHHHHHHHHHHHHcCC------CccCCCCCCccCccEEEECCCC
+
+
+No 8
+>PF08496.12 ; Peptidase_S49_N ; Peptidase family S49 N-terminal
+Probab=28.85  E-value=1.1e+02  Score=24.76  Aligned_cols=19  Identities=26%  Similarity=0.632  Sum_probs=0.0  Template_Neff=6.300
+
+Q ss_pred             CCCCeEEEEeC-CCCcEEee
+Q EDP9633565.1/4   87 SIPDKIRIRNN-GNGTFHGF  105 (117)
+Q Consensus        87 ~~at~i~vrnn-g~GT~Hgy  105 (117)
+                      .+.|.+.||-. +.|++|||
+T Consensus       120 ~~~DeVvvrleSpGG~V~~Y  139 (146)
+T Q6ML34_BDEBA/2  120 TPSDEVVVRVESPGGVVHGY  139 (146)
+T ss_pred             CCCCEEEEEEeeCCceecch
+
+
+No 9
+>PF14620.8 ; YPEB ; YpeB sporulation
+Probab=28.70  E-value=2.8e+02  Score=24.25  Aligned_cols=55  Identities=13%  Similarity=0.112  Sum_probs=0.0  Template_Neff=8.800
+
+Q ss_pred             HHHHHHHHhcCCCCCCCCCcceeeEecCCCCCcEEECC----CCCCCCCCeEEEEeCC-CCcEEee
+Q EDP9633565.1/4   45 LKYAGQQAAKLPAGPNGTKGSFYDIPINPDNKSIVYHP----DGSTSIPDKIRIRNNG-NGTFHGF  105 (117)
+Q Consensus        45 l~YA~~~Aa~L~p~~~~~~g~~~~F~lp~g~~siv~~P----dGtt~~at~i~vrnng-~GT~Hgy  105 (117)
+                      .+.|.+..+.+++      .++........+....|.=    +|-+..++.|.|+++. +|.+-+|
+T Consensus       287 ~~~A~~fL~~~g~------~~~~~~~~~~~~~~~~~~f~~~~~Gv~~~~d~i~V~V~~~~G~Vv~~  346 (361)
+T D9S297_THEOJ/1  287 VDKARKFLEARGY------ANMEPTGSLREDNSLTVTFAYKQGDVLVYPDFVKVEVALDDGQVVGF  346 (361)
+T ss_pred             HHHHHHHHHHCCC------CCcEEEEEEEECCEEEEEEEEEECCEEEcCCeEEEEEECCCCcEEEE
+
+
+No 10
+>d5do8a1 c.1.8.1 (A:3-477) automated matches {Listeria monocytogenes [TaxId: 169963]}
+Probab=27.66  E-value=2.1e+02  Score=24.11  Aligned_cols=32  Identities=9%  Similarity=0.047  Sum_probs=0.0  Template_Neff=11.100
+
+Q ss_pred             CCCCHHHHHHHHHHHhcCCCCCCCCCcceeeEecCCCCCc
+Q EDP9633565.1/4   38 KWGNKNDLKYAGQQAAKLPAGPNGTKGSFYDIPINPDNKS   77 (117)
+Q Consensus        38 qwGSk~Dl~YA~~~Aa~L~p~~~~~~g~~~~F~lp~g~~s   77 (117)
+                      .||+.+||+...+.|.+.+-        ...+++..++.|
+T Consensus        73 ~~Gt~~d~~~lv~~~h~~gi--------~vi~D~v~nh~~  104 (475)
+T d5do8a1          73 EYGDMATFDQLLQGLHDRDM--------KLVMDLVVNHTS  104 (475)
+T ss_dssp             TTCCHHHHHHHHHHHHHTTC--------EEEEEECCSBCC
+T ss_pred             hhCCHHHHHHHHHHHHHCCC--------EEEEEEecccCc
+
+
+No 11
+>d4m8ua1 c.1.8.1 (A:2-482) automated matches {Bacillus subtilis [TaxId: 224308]}
+Probab=26.38  E-value=1.9e+02  Score=24.64  Aligned_cols=35  Identities=14%  Similarity=0.045  Sum_probs=0.0  Template_Neff=10.900
+
+Q ss_pred             CCCCHHHHHHHHHHHhcCCCCCCCCCcceeeEecCCCCCcEEE
+Q EDP9633565.1/4   38 KWGNKNDLKYAGQQAAKLPAGPNGTKGSFYDIPINPDNKSIVY   80 (117)
+Q Consensus        38 qwGSk~Dl~YA~~~Aa~L~p~~~~~~g~~~~F~lp~g~~siv~   80 (117)
+                      .||+.+||+...+.|.+.+-        ...+++..++.|..+
+T Consensus        72 ~~Gt~~~~~~li~~~h~~gi--------~vilD~v~nh~s~~~  106 (481)
+T d4m8ua1          72 KFGTNEDMFQLIDEVHKRGM--------KIVMDLVVNHTSDEH  106 (481)
+T ss_dssp             TTCCHHHHHHHHHHHHHTTC--------EEEEEECCSBCCTTS
+T ss_pred             ccCCHHHHHHHHHHHHHCCC--------EEEEEEeccccccCC
+
+
+No 12
+>PF13670.8 ; PepSY_2 ; Peptidase propeptide and YPEB domain
+Probab=26.21  E-value=3.4e+02  Score=17.47  Aligned_cols=48  Identities=8%  Similarity=-0.035  Sum_probs=0.0  Template_Neff=10.000
+
+Q ss_pred             HHHHHHHHHhcCCCCCCCCCcceeeEecCCC-CCcEEECCCCCCCCCCeEEEEeCC-CCcE
+Q EDP9633565.1/4   44 DLKYAGQQAAKLPAGPNGTKGSFYDIPINPD-NKSIVYHPDGSTSIPDKIRIRNNG-NGTF  102 (117)
+Q Consensus        44 Dl~YA~~~Aa~L~p~~~~~~g~~~~F~lp~g-~~siv~~PdGtt~~at~i~vrnng-~GT~  102 (117)
+                      +.+.+.+++...++      +....+++..+ .--+.+.++|     ..+.|+.+. +|.+
+T Consensus        28 ~~~~~~~~~~~~~~------~~~~~~~~~~~~~y~v~~~~~g-----~~~~v~id~~tG~i   77 (81)
+T Q1QMT6_NITHX/5   28 PADQVIQKLMEKGY------TDVSKLEADDGRCWEAKAMLNG-----VRQKIYLDPRSGEV   77 (81)
+T ss_pred             CHHHHHHHHHHCCC------cceEEEEeCCCCeEEEEEecCC-----eEEEEEEcCCCCce
+
+
+No 13
+>d2wl9a1 d.32.1.0 (A:1-134) automated matches {Rhodococcus sp. [TaxId: 186196]}
+Probab=26.15  E-value=2.9e+02  Score=18.30  Aligned_cols=39  Identities=10%  Similarity=0.015  Sum_probs=0.0  Template_Neff=11.700
+
+Q ss_pred             CHHHHHHHHHHHhcCCCCCCCCCcceeeEecCCCC-----CcEEECCCCC
+Q EDP9633565.1/4   41 NKNDLKYAGQQAAKLPAGPNGTKGSFYDIPINPDN-----KSIVYHPDGS   85 (117)
+Q Consensus        41 Sk~Dl~YA~~~Aa~L~p~~~~~~g~~~~F~lp~g~-----~siv~~PdGt   85 (117)
+                      +.+|++.+.+++..++.      ............     ...+.+|+|.
+T Consensus        71 ~~~~~~~~~~~l~~~g~------~~~~~~~~~~~~~~~~~~~~~~dp~G~  114 (134)
+T d2wl9a1          71 GPVELDELAEQLKNAGI------PFEVASDADAAERRVLGLVKLHDPGGN  114 (134)
+T ss_dssp             SHHHHHHHHHHHHHTTC------CCEECCHHHHHHTTEEEEEEEECTTCC
+T ss_pred             CHHHHHHHHHHHHHCCC------CeEeCCccchhhheeEEEEEEECCCCC
+
+
+No 14
+>d1klla_ d.32.1.2 (A:) Mitomycin resistance protein D, MRD {Streptomyces lavendulae [TaxId: 1914]}
+Probab=26.14  E-value=3.2e+02  Score=17.57  Aligned_cols=39  Identities=15%  Similarity=0.124  Sum_probs=0.0  Template_Neff=12.100
+
+Q ss_pred             CHHHHHHHHHHHhcCCCCCCCCCcceeeEecCCC-CCcEEECCCC
+Q EDP9633565.1/4   41 NKNDLKYAGQQAAKLPAGPNGTKGSFYDIPINPD-NKSIVYHPDG   84 (117)
+Q Consensus        41 Sk~Dl~YA~~~Aa~L~p~~~~~~g~~~~F~lp~g-~~siv~~PdG   84 (117)
+                      +.+|++.+.++++.++.     +-.......+.+ ....+..|||
+T Consensus        79 ~~~d~~~~~~~l~~~g~-----~~~~~~~~~~~~~~~~~~~dp~G  118 (128)
+T d1klla_          79 DTASVDKKYAELVDAGY-----EGHLKPWNAVWGQRYAIVKDPDG  118 (128)
+T ss_dssp             SHHHHHHHHHHHHHTTC-----EEEEEEEECTTSEEEEEEECTTS
+T ss_pred             CHHHHHHHHHHHHHCCC-----cccccccccCCceEEEEEECCCC
+
+
+No 15
+>1TWU_A Hypothetical protein yycE; Structural genomics, Protein structure initiative, MCSG, duplication of the alpha-beta sandwichs. Bacillus subtilis, PSI, Midwest Center; 2.0A {Bacillus subtilis} SCOP: d.32.1.8
+Probab=25.84  E-value=3.3e+02  Score=17.83  Aligned_cols=39  Identities=15%  Similarity=0.170  Sum_probs=0.0  Template_Neff=12.100
+
+Q ss_pred             CHHHHHHHHHHHhcCCCCCCCCCccee-eEecCCCCCcEEECCCCC
+Q EDP9633565.1/4   41 NKNDLKYAGQQAAKLPAGPNGTKGSFY-DIPINPDNKSIVYHPDGS   85 (117)
+Q Consensus        41 Sk~Dl~YA~~~Aa~L~p~~~~~~g~~~-~F~lp~g~~siv~~PdGt   85 (117)
+                      |.+|++.+.+++..++.      -... ......+....+.+|+|.
+T Consensus        87 ~~~d~~~~~~~l~~~g~------~~~~~~~~~~~~~~~~~~dp~G~  126 (139)
+T 1TWU_A           87 NAVELAAITSKLKHMGY------QEVESENPYWSNGGVTIEDPDGW  126 (139)
+T ss_dssp             CHHHHHHHHHHHHHTTC------CEECCSSHHHHSSEEEEECTTCC
+T ss_pred             ChhhHHHHHHHHHhCCC------eeecCCCCCCcCccEEEECCCCC
+
+
+No 16
+>2RK0_B Glyoxalase/Bleomycin resistance protein/dioxygenase domain; 11002z, Glyoxylase, Bleomycin resistance protein, dioxygenase domain, PSI-II, NewYork Structural GenomiX research consortium (NYSGRC), Structural Genomics; HET: MSE; 2.04A {Frankia sp.}
+Probab=25.17  E-value=2.8e+02  Score=18.07  Aligned_cols=38  Identities=16%  Similarity=-0.047  Sum_probs=0.0  Template_Neff=12.100
+
+Q ss_pred             HHHHHHHHHHHhcCCCCCCCCCcceeeEecCCCCCcEEECCCCC
+Q EDP9633565.1/4   42 KNDLKYAGQQAAKLPAGPNGTKGSFYDIPINPDNKSIVYHPDGS   85 (117)
+Q Consensus        42 k~Dl~YA~~~Aa~L~p~~~~~~g~~~~F~lp~g~~siv~~PdGt   85 (117)
+                      .+|++.+.+++...+.      -.......+.+....+.+|||.
+T Consensus        83 ~~~~~~~~~~l~~~g~------~~~~~~~~~~~~~~~~~dp~G~  120 (136)
+T 2RK0_B           83 MTDLDVLEERLAKAGA------AFTPTQELPFGWILAFRDADNI  120 (136)
+T ss_dssp             HHHHHHHHHHHHHTTC------CEEEEEEETTEEEEEEECTTCC
+T ss_pred             hHHHHHHHHHHHHCCC------ccCCcccCCCeEEEEEECCCCC
+
+
+No 17
+>d3l20a1 d.32.1.0 (A:4-151) automated matches {Staphylococcus aureus [TaxId: 367830]}
+Probab=24.61  E-value=3e+02  Score=19.33  Aligned_cols=39  Identities=5%  Similarity=-0.137  Sum_probs=0.0  Template_Neff=10.800
+
+Q ss_pred             CHHHHHHHHHHHhcCC--CCCCCCCcceeeEecCCC-CCcEEECCCCC
+Q EDP9633565.1/4   41 NKNDLKYAGQQAAKLP--AGPNGTKGSFYDIPINPD-NKSIVYHPDGS   85 (117)
+Q Consensus        41 Sk~Dl~YA~~~Aa~L~--p~~~~~~g~~~~F~lp~g-~~siv~~PdGt   85 (117)
+                      |.+|++.+.+++..++  .      -....-..+.+ ....+.+|||.
+T Consensus        94 ~~~d~~~~~~~l~~~g~~~------~~~~~~~~~~g~~~~~~~Dp~G~  135 (148)
+T d3l20a1          94 DADKVEAFYEQIKDHSSIE------IELPFADQFWGGKMGVFTDKYGV  135 (148)
+T ss_dssp             HHHHHHHHHHHHTTCTTCE------EEEEEEECTTSSEEEEEECTTSC
+T ss_pred             CHHHHHHHHHHHHhCCCcE------EEEechhccccceeEEEEcCCcc
+
+
+No 18
+>2CTF_A Vigilin; K homology type I domain, RNA-binding, cell sterol metabolism, beta-alpha-alpha-beta-beta-alpha structure, Structural Genomics, NPPSFA, National Project; NMR {Homo sapiens} SCOP: l.1.1.1, d.51.1.1
+Probab=24.30  E-value=78  Score=19.58  Aligned_cols=19  Identities=21%  Similarity=0.373  Sum_probs=0.0  Template_Neff=11.900
+
+Q ss_pred             CCCCCHHHHHHHHHHHhcC
+Q EDP9633565.1/4   37 GKWGNKNDLKYAGQQAAKL   55 (117)
+Q Consensus        37 GqwGSk~Dl~YA~~~Aa~L   55 (117)
+                      |.+|++++++.+.+....|
+T Consensus         1 ~~~~~~~~~~~~~~~~~~~   19 (102)
+T 2CTF_A            1 GSSGSSGEPEKLGQALTEV   19 (102)
+T ss_dssp             CCSCCCCCCCCCCCSCCCC
+T ss_pred             CCCCCcCcHHHHHHHHHHH
+
+
+No 19
+>4PAV_B Glyoxalase family protein; hypothetical protein, UNKNOWN FUNCTION; HET: MSE; 2.3A {Staphylococcus aureus}
+Probab=24.12  E-value=3.3e+02  Score=18.21  Aligned_cols=40  Identities=5%  Similarity=-0.082  Sum_probs=0.0  Template_Neff=11.800
+
+Q ss_pred             CHHHHHHHHHHHhcCCCCCCCCCcceeeEecCCCCCcEEECCCCC
+Q EDP9633565.1/4   41 NKNDLKYAGQQAAKLPAGPNGTKGSFYDIPINPDNKSIVYHPDGS   85 (117)
+Q Consensus        41 Sk~Dl~YA~~~Aa~L~p~~~~~~g~~~~F~lp~g~~siv~~PdGt   85 (117)
+                      |.+|++.+.+++...+.     .-.......+.+....+..|+|.
+T Consensus        99 ~~~d~~~~~~~l~~~g~-----~~~~~~~~~~~~~~~~~~dp~G~  138 (145)
+T 4PAV_B           99 TNEEVDQLVNKVKEAGG-----AVVQEPTVSQGFYGAMFKDLDGH  138 (145)
+T ss_dssp             CHHHHHHHHHHHHHHTC-----EEEEEEEEETTEEEEEEECTTCC
+T ss_pred             CHHHHHHHHHHHHHCCC-----EEecCceeeCCeEEEEEECCCCC
+
+
+No 20
+>4PAV_D Glyoxalase family protein; hypothetical protein, UNKNOWN FUNCTION; HET: MSE; 2.3A {Staphylococcus aureus}
+Probab=24.12  E-value=3.3e+02  Score=18.21  Aligned_cols=40  Identities=5%  Similarity=-0.082  Sum_probs=0.0  Template_Neff=11.800
+
+Q ss_pred             CHHHHHHHHHHHhcCCCCCCCCCcceeeEecCCCCCcEEECCCCC
+Q EDP9633565.1/4   41 NKNDLKYAGQQAAKLPAGPNGTKGSFYDIPINPDNKSIVYHPDGS   85 (117)
+Q Consensus        41 Sk~Dl~YA~~~Aa~L~p~~~~~~g~~~~F~lp~g~~siv~~PdGt   85 (117)
+                      |.+|++.+.+++...+.     .-.......+.+....+..|+|.
+T Consensus        99 ~~~d~~~~~~~l~~~g~-----~~~~~~~~~~~~~~~~~~dp~G~  138 (145)
+T 4PAV_D           99 TNEEVDQLVNKVKEAGG-----AVVQEPTVSQGFYGAMFKDLDGH  138 (145)
+T ss_dssp             CHHHHHHHHHHHHHHTC-----EEEEEEEEETTEEEEEEECTTCC
+T ss_pred             CHHHHHHHHHHHHHCCC-----EEecCceeeCCeEEEEEECCCCC
+
+
+No 21
+>d1tsja_ d.32.1.7 (A:) Hypothetical protein MW1090 {Staphylococcus aureus [TaxId: 1280]}
+Probab=23.25  E-value=3.4e+02  Score=18.14  Aligned_cols=39  Identities=10%  Similarity=-0.071  Sum_probs=0.0  Template_Neff=11.300
+
+Q ss_pred             CHHHHHHHHHHHhcCCCCCCCCCcceeeEecCCC-CCcEEECCCCC
+Q EDP9633565.1/4   41 NKNDLKYAGQQAAKLPAGPNGTKGSFYDIPINPD-NKSIVYHPDGS   85 (117)
+Q Consensus        41 Sk~Dl~YA~~~Aa~L~p~~~~~~g~~~~F~lp~g-~~siv~~PdGt   85 (117)
+                      +.++|+.+.++++..+.      -.......+.+ ....+.+|||.
+T Consensus        82 d~~~~~~~~~~l~~~G~------~~~~~~~~~~~~~~~~~~Dp~G~  121 (129)
+T d1tsja_          82 DTIEMERLFNGLKDEGA------ILMPKTNMPPYREFAWVQDKFGV  121 (129)
+T ss_dssp             SHHHHHHHHHHHHTTCE------EEEEEEEETTEEEEEEEECTTSC
+T ss_pred             CHHHHHHHHHHhcccCe------eeccCCcCCCccceEEEEcCCCC
+
+
+No 22
+>d2ehza1 d.32.1.0 (A:4-137) automated matches {Pseudomonas sp. [TaxId: 69011]}
+Probab=23.07  E-value=4e+02  Score=17.46  Aligned_cols=39  Identities=13%  Similarity=0.116  Sum_probs=0.0  Template_Neff=11.900
+
+Q ss_pred             CHHHHHHHHHHHhcCCCCCCCCCcceeeEecCCCCCc-----EEECCCCC
+Q EDP9633565.1/4   41 NKNDLKYAGQQAAKLPAGPNGTKGSFYDIPINPDNKS-----IVYHPDGS   85 (117)
+Q Consensus        41 Sk~Dl~YA~~~Aa~L~p~~~~~~g~~~~F~lp~g~~s-----iv~~PdGt   85 (117)
+                      +.+|++.+.+++..++.      ..............     .+..|+|.
+T Consensus        71 ~~~d~~~~~~~l~~~g~------~~~~~~~~~~~~~~~~~~~~~~dp~G~  114 (134)
+T d2ehza1          71 GKPEFEALGQKLIDAGY------KIRICDKVEAQERMVLGLMKTEDPGGN  114 (134)
+T ss_dssp             SHHHHHHHHHHHHHTTC------CCEECCHHHHHHHTEEEEEEEECTTSC
+T ss_pred             ChHHHHHHHHHHHHCCC------eEEEcCCcchhhcceeEEEEEECCCCC
+
+
+No 23
+>d2ze0a1 c.1.8.0 (A:2-471) automated matches {Geobacillus sp. [TaxId: 258999]}
+Probab=22.61  E-value=2.6e+02  Score=23.63  Aligned_cols=29  Identities=24%  Similarity=0.298  Sum_probs=0.0  Template_Neff=11.100
+
+Q ss_pred             CCCCHHHHHHHHHHHhcCCCCCCCCCcceeeEecC
+Q EDP9633565.1/4   38 KWGNKNDLKYAGQQAAKLPAGPNGTKGSFYDIPIN   72 (117)
+Q Consensus        38 qwGSk~Dl~YA~~~Aa~L~p~~~~~~g~~~~F~lp   72 (117)
+                      .||+.+||+.-.+.|...+-      ....+|.++
+T Consensus        73 ~~Gt~~df~~Li~~ah~~Gi------~vilD~v~n  101 (474)
+T d2ze0a1          73 EFGTMDDFDELLAQAHRRGL------KVILDLVIN  101 (474)
+T ss_dssp             GGCCHHHHHHHHHHHHHTTC------EEEEEEECS
+T ss_pred             ccCCHHHHHHHHHHHHHCCC------EEEEEEecc
+
+
+No 24
+>3GHJ_A Putative integron gene cassette protein; Integron Cassette Protein, Mobile Metagenome, Structural Genomics, PSI-2, Protein Structure Initiative, Midwest Center for Structural Genomics; HET: MSE; 1.471A {uncultured bacterium}
+Probab=22.42  E-value=3.7e+02  Score=18.06  Aligned_cols=38  Identities=5%  Similarity=-0.000  Sum_probs=0.0  Template_Neff=11.600
+
+Q ss_pred             HHHHHHHHHHhcCCCCCCCCCcceeeEecCCCC--CcEEECCCCCC
+Q EDP9633565.1/4   43 NDLKYAGQQAAKLPAGPNGTKGSFYDIPINPDN--KSIVYHPDGST   86 (117)
+Q Consensus        43 ~Dl~YA~~~Aa~L~p~~~~~~g~~~~F~lp~g~--~siv~~PdGtt   86 (117)
+                      +|++.+.+++..++.      -.......+.+.  ...+..|||..
+T Consensus        96 ~d~~~~~~~l~~~g~------~~~~~~~~~~~~~~~~~~~dp~G~~  135 (141)
+T 3GHJ_A           96 SEIEPLKKALESKGV------SVHGPVNQEWMQAVSLYFADPNGHA  135 (141)
+T ss_dssp             GGHHHHHHHHHHTTC------CCEEEEEEGGGTEEEEEEECTTCCE
+T ss_pred             HHHHHHHHHHHhCCC------ceeccccccccceEEEEEECCCCCE
+
+
+No 25
+>d3vgfa2 c.1.8.1 (A:91-490) Glycosyltrehalose trehalohydrolase, central domain {Sulfolobus solfataricus, km1 [TaxId: 2287]}
+Probab=22.12  E-value=2.8e+02  Score=23.23  Aligned_cols=29  Identities=21%  Similarity=0.322  Sum_probs=0.0  Template_Neff=10.600
+
+Q ss_pred             CCCCHHHHHHHHHHHhcCCCCCCCCCcceeeEecC
+Q EDP9633565.1/4   38 KWGNKNDLKYAGQQAAKLPAGPNGTKGSFYDIPIN   72 (117)
+Q Consensus        38 qwGSk~Dl~YA~~~Aa~L~p~~~~~~g~~~~F~lp   72 (117)
+                      .+|+.+||+...++|...+-      ....++.++
+T Consensus        73 ~~G~~~~l~~li~~~h~~gi------~vi~D~v~n  101 (400)
+T d3vgfa2          73 SYGGPEGFRKLVDEAHKKGL------GVILDVVYN  101 (400)
+T ss_dssp             GGTHHHHHHHHHHHHHHTTC------EEEEEECCS
+T ss_pred             ccCCHHHHHHHHHHHHHCCC------EEEEEEecc
+
+
+No 26
+>d1npba_ d.32.1.2 (A:) Fosfomycin resistance protein A (FosA) {Serratia marcescens [TaxId: 615]}
+Probab=21.72  E-value=3.9e+02  Score=18.25  Aligned_cols=36  Identities=14%  Similarity=0.232  Sum_probs=0.0  Template_Neff=11.200
+
+Q ss_pred             HHHHHHHHHHhcCCCCCCCCCcceeeEecCCCCCcEEECCCCC
+Q EDP9633565.1/4   43 NDLKYAGQQAAKLPAGPNGTKGSFYDIPINPDNKSIVYHPDGS   85 (117)
+Q Consensus        43 ~Dl~YA~~~Aa~L~p~~~~~~g~~~~F~lp~g~~siv~~PdGt   85 (117)
+                      +|++.+.+++..++.       .....+.+.+....+.+|||.
+T Consensus        75 ~~~~~~~~~l~~~g~-------~~~~~~~~~~~~~~~~Dp~G~  110 (140)
+T d1npba_          75 EDFEPLSQRLEQAGV-------TIWKQNKSEGASFYFLDPDGH  110 (140)
+T ss_dssp             HHHHHHHHHHHHTTC-------CEEECCCSSSEEEEEECTTCC
+T ss_pred             HHHHHHHHHHHHcCC-------ceeecCCCceEEEEEECCCCC
+
+
+No 27
+>d1qhoa4 c.1.8.1 (A:1-407) Cyclodextrin glycosyltransferase {Bacillus stearothermophilus, maltogenic alpha-amylase [TaxId: 1422]}
+Probab=21.69  E-value=3.6e+02  Score=22.86  Aligned_cols=32  Identities=13%  Similarity=0.133  Sum_probs=0.0  Template_Neff=10.400
+
+Q ss_pred             CCCCHHHHHHHHHHHhcCCCCCCCCCcceeeEecCCCCCc
+Q EDP9633565.1/4   38 KWGNKNDLKYAGQQAAKLPAGPNGTKGSFYDIPINPDNKS   77 (117)
+Q Consensus        38 qwGSk~Dl~YA~~~Aa~L~p~~~~~~g~~~~F~lp~g~~s   77 (117)
+                      .+|+.+||+...+.|.+++-        ...++++.++.+
+T Consensus       103 ~~G~~~~l~~lv~~~h~~Gi--------~vilD~v~nh~~  134 (407)
+T d1qhoa4         103 HFGNWTTFDTLVNDAHQNGI--------KVIVDFVPNHST  134 (407)
+T ss_dssp             TTCCHHHHHHHHHHHHHTTC--------EEEEEECTTEEE
+T ss_pred             ccCCHHHHHHHHHHHHHCCC--------EEEEEEcCcCCC
+
+
+No 28
+>d4aiea1 c.1.8.0 (A:2-465) automated matches {Lactobacillus acidophilus [TaxId: 272621]}
+Probab=21.65  E-value=3e+02  Score=23.18  Aligned_cols=35  Identities=11%  Similarity=0.037  Sum_probs=0.0  Template_Neff=11.100
+
+Q ss_pred             CCCCHHHHHHHHHHHhcCCCCCCCCCcceeeEecCCCCCcEEE
+Q EDP9633565.1/4   38 KWGNKNDLKYAGQQAAKLPAGPNGTKGSFYDIPINPDNKSIVY   80 (117)
+Q Consensus        38 qwGSk~Dl~YA~~~Aa~L~p~~~~~~g~~~~F~lp~g~~siv~   80 (117)
+                      .+|+.+||+...+.|...+-        ...+++..++.|.-+
+T Consensus        72 ~~Gt~~~~~~li~~~h~~Gi--------kVilD~v~nh~s~~~  106 (464)
+T d4aiea1          72 QYGTMADMDELISKAKEHHI--------KIVMDLVVNHTSDQH  106 (464)
+T ss_dssp             TTCCHHHHHHHHHHHHHTTC--------EEEEEECCSBCCTTS
+T ss_pred             hhCCHHHHHHHHHHHHHCCC--------EEEEEcccccccccC
+
+
+No 29
+>d1jaea2 c.1.8.1 (A:1-378) Animal alpha-amylase {Yellow mealworm (Tenebrio molitor), larva [TaxId: 7067]}
+Probab=21.61  E-value=2.9e+02  Score=23.24  Aligned_cols=29  Identities=14%  Similarity=0.227  Sum_probs=0.0  Template_Neff=10.200
+
+Q ss_pred             CCCCHHHHHHHHHHHhcCCCCCCCCCcceeeEecC
+Q EDP9633565.1/4   38 KWGNKNDLKYAGQQAAKLPAGPNGTKGSFYDIPIN   72 (117)
+Q Consensus        38 qwGSk~Dl~YA~~~Aa~L~p~~~~~~g~~~~F~lp   72 (117)
+                      .||+.+||+...++|.+++-      ....++.++
+T Consensus        70 ~~Gt~~d~k~Lv~~ah~~gi------~vilD~v~n   98 (378)
+T d1jaea2          70 RSGDESAFTDMTRRCNDAGV------RIYVDAVIN   98 (378)
+T ss_dssp             TTEEHHHHHHHHHHHHHTTC------EEEEEECCS
+T ss_pred             CCCCHHHHHHHHHHHHHCCC------EEEEEEEec
+
+
+No 30
+>d1lkda1 d.32.1.3 (A:2-132) 2,3-Dihydroxybiphenyl dioxygenase (DHBD, BPHC enzyme) {Burkholderia cepacia, formerly Pseudomonas cepacia [TaxId: 292]}
+Probab=21.36  E-value=4e+02  Score=17.40  Aligned_cols=39  Identities=8%  Similarity=-0.067  Sum_probs=0.0  Template_Neff=11.900
+
+Q ss_pred             CHHHHHHHHHHHhcCCCCCCCCCccee-----eEecCCCCCcEEECCCCC
+Q EDP9633565.1/4   41 NKNDLKYAGQQAAKLPAGPNGTKGSFY-----DIPINPDNKSIVYHPDGS   85 (117)
+Q Consensus        41 Sk~Dl~YA~~~Aa~L~p~~~~~~g~~~-----~F~lp~g~~siv~~PdGt   85 (117)
+                      +.+||+.+.+++..++.      -...     .-.........+..|||.
+T Consensus        68 ~~~~~~~~~~~l~~~g~------~~~~~~~~~~~~~~~~~~~~~~dp~G~  111 (131)
+T d1lkda1          68 DAAGLAQMADKLKQAGI------AVTTGDASLARRRGVTGLITFADPFGL  111 (131)
+T ss_dssp             SHHHHHHHHHHHHHTTC------CCEECCHHHHHHHTCSEEEEEECTTSC
+T ss_pred             CHHHHHHHHHHHHHCCC------ceeeCCHHHHhhcCccEEEEEECCCCC
+
+
+No 31
+>d2zica1 c.1.8.0 (A:1-463) automated matches {Streptococcus mutans}
+Probab=20.84  E-value=2.8e+02  Score=23.35  Aligned_cols=29  Identities=24%  Similarity=0.236  Sum_probs=0.0  Template_Neff=11.100
+
+Q ss_pred             CCCCHHHHHHHHHHHhcCCCCCCCCCcceeeEecC
+Q EDP9633565.1/4   38 KWGNKNDLKYAGQQAAKLPAGPNGTKGSFYDIPIN   72 (117)
+Q Consensus        38 qwGSk~Dl~YA~~~Aa~L~p~~~~~~g~~~~F~lp   72 (117)
+                      .||+.+||+..++.|..++-      ....++.++
+T Consensus        74 ~~Gt~~dl~~lv~~~h~~gi------~VilD~v~n  102 (463)
+T d2zica1          74 IFGNMADMDNLLTQAKMRGI------KIIMDLVVN  102 (463)
+T ss_dssp             GGCCHHHHHHHHHHHHTTTC------EEEEEECCS
+T ss_pred             ccCCHHHHHHHHHHHHHCCC------EEEEEeccc
+
+
+No 32
+>TIGR03806 chp_HNE_0200; conserved hypothetical protein, HNE_0200 family. The model TIGR03805 describes an uncharacterized protein family that contains repeats associated with the formation of a right-handed helical stack of parallel beta strands, homologous to those found in a number of carbohydrate-binding proteins and sugar hydrolases.
+Probab=20.73  E-value=3e+02  Score=24.21  Aligned_cols=51  Identities=22%  Similarity=0.363  Sum_probs=0.0  Template_Neff=7.900
+
+Q ss_pred             CCCCCCCCCcceeeEecCCCC---CcEEECCC-----CCCCCCCeEEEEeCCCCcEEeeec
+Q EDP9633565.1/4   55 LPAGPNGTKGSFYDIPINPDN---KSIVYHPD-----GSTSIPDKIRIRNNGNGTFHGFPI  107 (117)
+Q Consensus        55 L~p~~~~~~g~~~~F~lp~g~---~siv~~Pd-----Gtt~~at~i~vrnng~GT~HgyPi  107 (117)
+                      |..|..-+-.....|.+|.|+   +...|--|     +....-|++.||.. +| +++++.
+T Consensus        46 lP~g~~~~~~~~~~~~fP~gtv~~K~f~~~~~~~~~~~~~~iETRll~~~~-~~-w~~~~Y  104 (317)
+T TIGR03806        46 VPAGTSATYNAEGVLDFPVGTVLVKTFALPSDLRGPTNGRLIETRLLIRRA-QG-WAALPY  104 (317)
+T ss_pred             cCCCCccEecCCCCcccCCCCEEEEEEEeecCCCCCCCCcEEEEEEEEEeC-Cc-EEEece
+
+
+No 33
+>PF00903.27 ; Glyoxalase ; Glyoxalase/Bleomycin resistance protein/Dioxygenase superfamily
+Probab=20.59  E-value=3.1e+02  Score=16.55  Aligned_cols=39  Identities=21%  Similarity=0.145  Sum_probs=0.0  Template_Neff=13.100
+
+Q ss_pred             CHHHHHHHHHHHhcCCCCCCCCCcceeeEecCCCCCcE---EECCCCC
+Q EDP9633565.1/4   41 NKNDLKYAGQQAAKLPAGPNGTKGSFYDIPINPDNKSI---VYHPDGS   85 (117)
+Q Consensus        41 Sk~Dl~YA~~~Aa~L~p~~~~~~g~~~~F~lp~g~~si---v~~PdGt   85 (117)
+                      +.+|++.+.+++...+.      -..............   +..|+|.
+T Consensus        75 ~~~di~~~~~~l~~~g~------~~~~~~~~~~~~~~~~~~~~dp~G~  116 (120)
+T YWBC_BACSU/4-1   75 LTDDIAAEYTKAEKMNA------KFIDEEITTLPNGYRYFYIEGPDGE  116 (120)
+T ss_pred             EecCHHHHHHHHHHcCC------EEeccccccCCCCceEEEEECCCCC
+
+
+No 34
+>d1aqma2 c.1.8.1 (A:1-354) Bacterial alpha-amylase {Pseudoalteromonas haloplanktis [TaxId: 228]}
+Probab=20.39  E-value=3.1e+02  Score=22.77  Aligned_cols=29  Identities=17%  Similarity=0.210  Sum_probs=0.0  Template_Neff=10.300
+
+Q ss_pred             CCCCHHHHHHHHHHHhcCCCCCCCCCcceeeEecC
+Q EDP9633565.1/4   38 KWGNKNDLKYAGQQAAKLPAGPNGTKGSFYDIPIN   72 (117)
+Q Consensus        38 qwGSk~Dl~YA~~~Aa~L~p~~~~~~g~~~~F~lp   72 (117)
+                      .||+.+||+...++|...+-      ....++.++
+T Consensus        60 ~~G~~~~l~~lv~~ah~~Gi------~vi~D~v~n   88 (354)
+T d1aqma2          60 RGGNRAQFIDMVNRCSAAGV------DIYVDTLIN   88 (354)
+T ss_dssp             TTBCHHHHHHHHHHHHHHTC------EEEEEEECS
+T ss_pred             CCCCHHHHHHHHHHHHHCCC------EEEEEEEEe
+
+
+No 35
+>d3vm7a1 c.1.8.0 (A:22-400) automated matches {Malbranchea cinnamomea [TaxId: 5041]}
+Probab=20.31  E-value=3.7e+02  Score=22.36  Aligned_cols=32  Identities=13%  Similarity=0.282  Sum_probs=0.0  Template_Neff=10.600
+
+Q ss_pred             CCCCHHHHHHHHHHHhcCCCCCCCCCcceeeEecCCCCCc
+Q EDP9633565.1/4   38 KWGNKNDLKYAGQQAAKLPAGPNGTKGSFYDIPINPDNKS   77 (117)
+Q Consensus        38 qwGSk~Dl~YA~~~Aa~L~p~~~~~~g~~~~F~lp~g~~s   77 (117)
+                      ++|+.+||+..++.|...+-        ...+++..++.+
+T Consensus        92 ~~g~~~~l~~~v~~~h~~Gi--------~vi~D~v~~h~~  123 (379)
+T d3vm7a1          92 HFGTEEDLRALADELHARGM--------FLMVDVVINHNG  123 (379)
+T ss_dssp             TTCCHHHHHHHHHHHHHTTC--------EEEEEECCSBCC
+T ss_pred             ccCCHHHHHHHHHHHHHCCC--------EEEEEEecccCC
+
+
+No 36
+>PF07790.13 ; Pilin_N ; Archaeal Type IV pilin, N-terminal
+Probab=20.12  E-value=3.3e+02  Score=18.40  Aligned_cols=24  Identities=17%  Similarity=0.198  Sum_probs=0.0  Template_Neff=8.600
+
+Q ss_pred             EEECCCCCCCCC-CeEEEEeCCCCc
+Q EDP9633565.1/4   78 IVYHPDGSTSIP-DKIRIRNNGNGT  101 (117)
+Q Consensus        78 iv~~PdGtt~~a-t~i~vrnng~GT  101 (117)
+                      .+.+-.|.+... +.+.|+.+++|+
+T Consensus        53 ~l~h~gGd~i~~~~~l~v~v~~~g~   77 (77)
+T Q2FP79_METHJ/6   53 VVTYHGGKDHPDVANLSIGFAGASP   77 (77)
+T ss_pred             EEEEeCCCccCCCCcEEEEEccCCC
+
+

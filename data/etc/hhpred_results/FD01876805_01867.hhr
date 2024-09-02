@@ -1,0 +1,67 @@
+Query         FD01876805_01867 hypothetical protein
+Match_columns 138
+No_of_seqs    1 out of 5
+Neff          1
+Searched_HMMs 107766
+Date          Mon Aug 23 15:39:10 2021
+Command       hhsearch -cpu 8 -i ../results/full.a3m -d /cluster/toolkit/production/databases/hh-suite/mmcif70/pdb70 -d /cluster/toolkit/production/databases/hh-suite/scope70/scope70 -d /cluster/toolkit/production/databases/hh-suite/pfama/pfama -d /cluster/toolkit/production/databases/hh-suite/TIGRFAM/TIGRFAM -o ../results/1142872.hhr -oa3m ../results/1142872.a3m -p 20 -Z 250 -loc -z 1 -b 1 -B 250 -ssm 2 -sc 1 -seq 1 -dbstrlen 10000 -norealign -maxres 32000 -contxt /cluster/toolkit/production/bioprogs/tools/hh-suite-build-new/data/context_data.crf 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF18260.3 ; Nab2p_Zf1 ; Nuclea  46.6      19 0.00017   21.4   0.4   21   94-114     6-26  (26)
+  2 PF19669.1 ; DUF6172 ; Family o  42.0      44 0.00041   26.2   1.8   19  118-136    76-94  (95)
+  3 d2pjsa1 d.32.1.2 (A:3-113) Unc  25.9 2.7E+02  0.0025   16.1   5.3   58   70-127    53-111 (111)
+  4 PF07573.13 ; AreA_N ; Nitrogen  21.7      79 0.00073   24.4   0.2   10   97-106    74-83  (94)
+
+No 1
+>PF18260.3 ; Nab2p_Zf1 ; Nuclear polyadenylated RNA-binding 2 protein CCCH zinc finger 1
+Probab=46.57  E-value=19  Score=21.38  Aligned_cols=21  Identities=33%  Similarity=0.458  Sum_probs=0.0  Template_Neff=5.400
+
+Q ss_pred             HhhccccCccceeccchhceE
+Q FD01876805_018   94 KKERCSFFPEWKEYDVGEYSH  114 (138)
+Q Consensus        94 kkercsffpewkeydvgeysh  114 (138)
+                      +++||.+||.-+.-+-=+|.|
+T Consensus         6 ~~~RC~~wP~C~~g~~C~~~H   26 (26)
+T A0A0C7N4X6_9SA    6 KQGRCQVFPRCPLGKNCPHSH   26 (26)
+T ss_pred             ccccCCCCCCCCCCCCCCCCC
+
+
+No 2
+>PF19669.1 ; DUF6172 ; Family of unknown function (DUF6172)
+Probab=41.98  E-value=44  Score=26.20  Aligned_cols=19  Identities=37%  Similarity=0.544  Sum_probs=0.0  Template_Neff=3.800
+
+Q ss_pred             ecCceEEEEEeecceeccc
+Q FD01876805_018  118 QSNSFYIEIIAKDVKISRR  136 (138)
+Q Consensus       118 qsnsfyieiiakdvkisrr  136 (138)
+                      +..+||+||+|+-..-..+
+T Consensus        76 ~~~~fYvEIlAk~~~R~~k   94 (95)
+T Q0F2X6_9PROT/1   76 QLDSFYVEILARPDYRATT   94 (95)
+T ss_pred             CCCeEEEEEEecccccCCC
+
+
+No 3
+>d2pjsa1 d.32.1.2 (A:3-113) Uncharacterized protein Atu1953 {Agrobacterium tumefaciens [TaxId: 358]}
+Probab=25.94  E-value=2.7e+02  Score=16.10  Aligned_cols=58  Identities=10%  Similarity=-0.040  Sum_probs=0.0  Template_Neff=12.300
+
+Q ss_pred             ecCCCCCceeeEEEccc-chHHHHHHhhccccCccceeccchhceEEEeecCceEEEEE
+Q FD01876805_018   70 SKRDDDDFVSCYWIVPE-SSWIEKLKKERCSFFPEWKEYDVGEYSHYIIQSNSFYIEII  127 (138)
+Q Consensus        70 skrddddfvscywivpe-sswieklkkercsffpewkeydvgeyshyiiqsnsfyieii  127 (138)
+                      ..........+.+.|++ ....+++++..+...-+-.....|...-++...+...+|++
+T Consensus        53 ~~~~~~~~~~~~~~v~d~~~~~~~l~~~g~~~~~~~~~~~~~~~~~~~~dp~g~~~~l~  111 (111)
+T d2pjsa1          53 EGGSGTDVPDLSIEVDNFDEVHARILKAGLPIEYGPVTEAWGVQRLFLRDPFGKLINIL  111 (111)
+T ss_dssp             SSBTTBCCCSEEEEESCHHHHHHHHHHTTCCCSEEEEECTTSCEEEEEECTTSCEEEEE
+T ss_pred             cCCCCCCCCeEEEEecCHHHHHHHHHHcCCCcccCCccCCCceeEEEEECCCCCeEEEC
+
+
+No 4
+>PF07573.13 ; AreA_N ; Nitrogen regulatory protein AreA N terminus
+Probab=21.72  E-value=79  Score=24.35  Aligned_cols=10  Identities=50%  Similarity=1.232  Sum_probs=0.0  Template_Neff=4.700
+
+Q ss_pred             ccccCcccee
+Q FD01876805_018   97 RCSFFPEWKE  106 (138)
+Q Consensus        97 rcsffpewke  106 (138)
+                      |-+.|||||.
+T Consensus        74 ~DSlFPeWr~   83 (94)
+T AREA_EMENI/1-9   74 QDALFPEWKA   83 (94)
+T ss_pred             ccccChhhhc
+
+

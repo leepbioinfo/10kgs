@@ -1,0 +1,12 @@
+>EEL5164603.1/1-79
+------------------------------------------------------VGSTITGIAGTSF---GV
+ATVAEKDSACIKDVVKSVIKDGERDPTNLALTCGKSFINEGGSSFQGKVSDYLIDALFSYKAKQ
+>EAS8254015.1/54-99
+GWDSLGYGGFREICQQAGSAVHYLTPQEAAGVIHNMETMHNVYNPL--------------------------
+----------------------------------------------------------------
+>EDZ28516.1/1-47
+------------------------------------------------------------------------
+-----------------MIKDGERDPTNLALTCGKSFINEGGSSFQGKVSDYLIDALFSYKAKQ
+>WP_217188849.1/18-95
+----------------------------------------------------VSAGVPAVRK------IFSC
+GNGGRKGSAYIKDVAEAMRKGGDIEPKNLLLTCGKSFIHEGSSDYQNKTLDYLIDTLSSYEQKQ

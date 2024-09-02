@@ -1,0 +1,223 @@
+Query         TQL38185.1/2169-2247 
+Match_columns 79
+No_of_seqs    94 out of 100
+Neff          4.23887
+Searched_HMMs 107766
+Date          Mon Aug 16 19:31:36 2021
+Command       hhsearch -cpu 8 -i ../results/full.a3m -d /cluster/toolkit/production/databases/hh-suite/mmcif70/pdb70 -d /cluster/toolkit/production/databases/hh-suite/scope70/scope70 -d /cluster/toolkit/production/databases/hh-suite/pfama/pfama -d /cluster/toolkit/production/databases/hh-suite/TIGRFAM/TIGRFAM -o ../results/4829037.hhr -oa3m ../results/4829037.a3m -p 20 -Z 250 -loc -z 1 -b 1 -B 250 -ssm 2 -sc 1 -seq 1 -dbstrlen 10000 -norealign -maxres 32000 -contxt /cluster/toolkit/production/bioprogs/tools/hh-suite-build-new/data/context_data.crf 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF14064.8 ; HmuY ; HmuY protei  59.1      63 0.00058   22.7   4.5   35   29-64    109-146 (148)
+  2 PF07753.13 ; DUF1609 ; Protein  43.0 1.2E+02  0.0011   25.2   4.2   73    5-79     60-149 (225)
+  3 PF19080.2 ; DUF5772 ; Family o  42.6      90 0.00083   21.5   3.1   41    7-47     31-72  (81)
+  4 6EWM_A Haemophore HmuY; heme-b  39.9 1.8E+02  0.0017   21.8   4.6   31   33-64    152-184 (191)
+  5 6EU8_A Putative heme binding p  33.9 1.8E+02  0.0017   22.0   3.9   31   33-64    157-189 (196)
+  6 3U22_B putative HmuY_like heme  31.0   3E+02  0.0028   21.1   4.6   31   33-64    162-194 (202)
+  7 PF03984.15 ; DUF346 ; Repeat o  28.7 1.8E+02  0.0016   14.9   2.7   16   64-79      5-20  (35)
+  8 PF11453.10 ; DUF2950 ; Protein  27.6 4.1E+02  0.0038   22.2   5.1   41   31-72    200-257 (285)
+  9 6B12_B Tni2; type VI secretion  26.4   4E+02  0.0037   20.1   4.5   39   29-67     73-113 (153)
+ 10 4GBS_A Putative lipoprotein; P  26.3 3.8E+02  0.0036   20.5   4.5   35   29-64    156-192 (200)
+ 11 d1nppa2 b.34.5.4 (A:191-248) N  26.2 2.5E+02  0.0024   15.9   2.9   23   51-73     14-36  (58)
+ 12 6R2H_B HmuY protein; Porphyrom  23.7   6E+02  0.0056   19.4   5.3   42   29-71    149-194 (194)
+ 13 d2ooja1 b.159.2.1 (A:2-134) Hy  21.3 2.7E+02  0.0025   20.3   2.8   22   41-62     58-79  (133)
+ 14 PF11197.10 ; DUF2835 ; Protein  20.9 3.1E+02  0.0029   18.4   2.8   19   54-72     47-65  (71)
+
+No 1
+>PF14064.8 ; HmuY ; HmuY protein
+Probab=59.07  E-value=63  Score=22.69  Aligned_cols=35  Identities=17%  Similarity=0.163  Sum_probs=0.0  Template_Neff=8.800
+
+Q ss_pred             chhhCeEEEEeCCCCceEEEEEecceEc---CeeeEEEE
+Q TQL38185.1/216   29 LPTMRDTSMVKGGDGIPRLHVKLPGSVN---GTRGTFHW   64 (79)
+Q Consensus        29 f~~~g~~~~i~GgDGi~r~~l~I~Gsy~---Gk~GvFEy   64 (79)
+                      +....+++.|+-.||. +-+|+|.+-|.   |..|...+
+T Consensus       109 ~~~~~~vylik~~~G~-~~Klq~~~~y~~~~~~~g~~tf  146 (148)
+T B3QXU5_CHLT3/4  109 PIYSDSIYVVKTGQGK-YAKIHLKDYYGGDGTTSAMIEF  146 (148)
+T ss_pred             cccCCeEEEEEeCCCC-EEEEEEEEEEeCCCCCceeEEE
+
+
+No 2
+>PF07753.13 ; DUF1609 ; Protein of unknown function (DUF1609)
+Probab=42.98  E-value=1.2e+02  Score=25.18  Aligned_cols=73  Identities=18%  Similarity=0.199  Sum_probs=0.0  Template_Neff=3.900
+
+Q ss_pred             ccCHHHHHHHh-cCCCCCCcHHHhcc-hhhCeEEEEeCCC----CceEE------EEEecceEcCeeeEEEEEE-----C
+Q TQL38185.1/216    5 RYTEKVQEQIK-SGDDHAFPASIDTL-PTMRDTSMVKGGD----GIPRL------HVKLPGSVNGTRGTFHWIV-----E   67 (79)
+Q Consensus         5 ~Yt~KV~~Qm~-~~d~H~FP~~Vd~f-~~~g~~~~i~GgD----Gi~r~------~l~I~Gsy~Gk~GvFEyI~-----e   67 (79)
+                      +|..+-..++. +-.+|--+..+..+ ..+...+.+.-|+    |..|.      .|+..|.  =+.|+-|.-+     .
+T Consensus        60 rykn~s~EeI~eQK~~HDI~~V~~LL~~~d~d~yF~~t~~y~k~g~~R~~~~Ai~~Le~~g~--k~~GiVEigi~k~~~~  137 (225)
+T Y208_ENCCU/353   60 RWRGRSLEEIKEQKVFHDIVGVLELLKSPDADRFFMDTGKYTKGGSERQRMVAIGVLERGEK--KMTGVVEVGMFKDSPS  137 (225)
+T ss_pred             ccCCCCHHHHHHHHHhhchHHHHHHhcCcCccccceecccccCCCcceeeEEEEEEEEeCCE--EEEEEEEEEeecCCCC
+
+
+Q ss_pred             CCCcEEEEeeCC
+Q TQL38185.1/216   68 SDGSINHRFFDR   79 (79)
+Q Consensus        68 ~~g~InHR~F~p   79 (79)
+                      ....|.|-.|+|
+T Consensus       138 g~~vIYHlMFr~  149 (225)
+T Y208_ENCCU/353  138 GCPVVYHLMFRV  149 (225)
+T ss_pred             CCceEEEEEEEe
+
+
+No 3
+>PF19080.2 ; DUF5772 ; Family of unknown function (DUF5772)
+Probab=42.60  E-value=90  Score=21.51  Aligned_cols=41  Identities=12%  Similarity=-0.065  Sum_probs=0.0  Template_Neff=5.300
+
+Q ss_pred             CHHHHHHHh-cCCCCCCcHHHhcchhhCeEEEEeCCCCceEE
+Q TQL38185.1/216    7 TEKVQEQIK-SGDDHAFPASIDTLPTMRDTSMVKGGDGIPRL   47 (79)
+Q Consensus         7 t~KV~~Qm~-~~d~H~FP~~Vd~f~~~g~~~~i~GgDGi~r~   47 (79)
+                      |++|++=|- ..++||.+-....|.-..-.+...+|......
+T Consensus        31 T~~v~~y~GP~~dFhg~~vtp~dlgy~~l~f~~~~~~~~~~~   72 (81)
+T 373L_IIV6/74-1   31 TENVIKFMGPNYDFYGVKIKVNEIGYDSLMFHRPGKEPTILK   72 (81)
+T ss_pred             HHHHHHHhCCCCCCCCCcCCHHHcCCCEEEEEeCCCCCeEee
+
+
+No 4
+>6EWM_A Haemophore HmuY; heme-binding protein, CELL INVASION; HET: GOL, SO4, MES; 1.4A {Porphyromonas gingivalis}
+Probab=39.87  E-value=1.8e+02  Score=21.83  Aligned_cols=31  Identities=19%  Similarity=0.431  Sum_probs=0.0  Template_Neff=8.100
+
+Q ss_pred             CeEEEEeCCCCceEEEEEecceEcC--eeeEEEE
+Q TQL38185.1/216   33 RDTSMVKGGDGIPRLHVKLPGSVNG--TRGTFHW   64 (79)
+Q Consensus        33 g~~~~i~GgDGi~r~~l~I~Gsy~G--k~GvFEy   64 (79)
+                      .+++.|+..||. +-+|++.+-|+.  ..|.+.+
+T Consensus       152 ~~vyiIr~~~G~-y~Klq~~~~y~~~~~~g~~tf  184 (191)
+T 6EWM_A          152 KRVFFVRGADGN-IAKVQFTDYQDAELKKGVITF  184 (191)
+T ss_dssp             CCCEEEECTTSC-EEEEEEEEEECTTCCEEEEEE
+T ss_pred             CcEEEEEcCCCC-EEEEEEEEEEeCCCcceEEEE
+
+
+No 5
+>6EU8_A Putative heme binding protein; heme-binding protein; 1.47A {Tannerella forsythia}
+Probab=33.91  E-value=1.8e+02  Score=21.97  Aligned_cols=31  Identities=23%  Similarity=0.393  Sum_probs=0.0  Template_Neff=7.900
+
+Q ss_pred             CeEEEEeCCCCceEEEEEecceEc--CeeeEEEE
+Q TQL38185.1/216   33 RDTSMVKGGDGIPRLHVKLPGSVN--GTRGTFHW   64 (79)
+Q Consensus        33 g~~~~i~GgDGi~r~~l~I~Gsy~--Gk~GvFEy   64 (79)
+                      ..++.|+.+|| .+-+|++..-|+  |..|.+.+
+T Consensus       157 ~~vyvvr~~dG-~y~Kl~~~~~y~~~~~~g~~tf  189 (196)
+T 6EU8_A          157 KSVFVVKFKDG-SYAKIKFTDATNDKQEKGHVSF  189 (196)
+T ss_dssp             CCCEEEECTTS-CEEEEEEEEEECTTCCEEEEEE
+T ss_pred             CcEEEEEeCCC-CEEEEEEEEcccCCCCcceEEE
+
+
+No 6
+>3U22_B putative HmuY_like heme binding protein; transport, Structural Genomics, Joint Center for Structural Genomics, JCSG, Protein Structure Initiative, PSI-BIOLOGY, HEME-BINDING PROTEIN, HEME; HET: GOL, SO4, UNL, MSE; 2.12A {Bacteroides vulgatus}
+Probab=30.99  E-value=3e+02  Score=21.07  Aligned_cols=31  Identities=32%  Similarity=0.415  Sum_probs=0.0  Template_Neff=7.800
+
+Q ss_pred             CeEEEEeCCCCceEEEEEecceEc--CeeeEEEE
+Q TQL38185.1/216   33 RDTSMVKGGDGIPRLHVKLPGSVN--GTRGTFHW   64 (79)
+Q Consensus        33 g~~~~i~GgDGi~r~~l~I~Gsy~--Gk~GvFEy   64 (79)
+                      ..++.|+-.||. +-+|++..-|+  |..|.+.+
+T Consensus       162 ~~vyiIr~~dG~-y~Klq~~~yy~~~g~~g~~tf  194 (202)
+T 3U22_B          162 NKVYMVKLKDGT-YAAVRLTNYMNASGVKGFMTI  194 (202)
+T ss_dssp             CCCEEEECTTSC-EEEEEEEEEECTTCCEEEEEE
+T ss_pred             CeEEEEEeCCCC-EEEEEEEEeEcCCCCccEEEE
+
+
+No 7
+>PF03984.15 ; DUF346 ; Repeat of unknown function (DUF346)
+Probab=28.66  E-value=1.8e+02  Score=14.90  Aligned_cols=16  Identities=13%  Similarity=0.601  Sum_probs=0.0  Template_Neff=9.300
+
+Q ss_pred             EEECCCCcEEEEeeCC
+Q TQL38185.1/216   64 WIVESDGSINHRFFDR   79 (79)
+Q Consensus        64 yI~e~~g~InHR~F~p   79 (79)
+                      |.+.+||.+.|+.+..
+T Consensus         5 f~~~~~~~l~~~~~~~   20 (35)
+T Q9S1V9_STRCO/6    5 YAADPENRLTHWWWDS   20 (35)
+T ss_pred             EEECCCCCEEEEEEcC
+
+
+No 8
+>PF11453.10 ; DUF2950 ; Protein of unknown function (DUF2950)
+Probab=27.58  E-value=4.1e+02  Score=22.16  Aligned_cols=41  Identities=17%  Similarity=0.192  Sum_probs=0.0  Template_Neff=6.400
+
+Q ss_pred             hhCeEEEEeCCCC-----------------ceEEEEEecceEcCeeeEEEEEECCCCcE
+Q TQL38185.1/216   31 TMRDTSMVKGGDG-----------------IPRLHVKLPGSVNGTRGTFHWIVESDGSI   72 (79)
+Q Consensus        31 ~~g~~~~i~GgDG-----------------i~r~~l~I~Gsy~Gk~GvFEyI~e~~g~I   72 (79)
+                      ..|-.|.+....|                 ..+..+-.|-.| |..|+.-|+++.+|.|
+T Consensus       200 ~~GY~f~i~~~~g~~a~gga~~~~~~~~~~~gf~~~A~Pa~y-g~tG~~tF~vdq~G~I  257 (285)
+T G8AV88_AZOBR/4  200 YRGYWFRILTAQGPGAPGGAMSYLVDDRLEKGFAILAWPSDY-GENGIMSFQVGPDGHV  257 (285)
+T ss_pred             cCceEEEEEecCCCCCCCCccccccCCcccCeEEEEEeeCCC-CCCceEEEEECCCCce
+
+
+No 9
+>6B12_B Tni2; type VI secretion, effector, immunity, NADase, toxin, ANTIMICROBIAL PROTEIN; HET: MSE; 1.71A {Pseudomonas fluorescens (strain ATCC BAA-477 / NRRL B-23932 / Pf-5)}
+Probab=26.43  E-value=4e+02  Score=20.11  Aligned_cols=39  Identities=21%  Similarity=0.346  Sum_probs=0.0  Template_Neff=6.600
+
+Q ss_pred             chhhCeEEEEeCCCCceEEEEEecceEcCee--eEEEEEEC
+Q TQL38185.1/216   29 LPTMRDTSMVKGGDGIPRLHVKLPGSVNGTR--GTFHWIVE   67 (79)
+Q Consensus        29 f~~~g~~~~i~GgDGi~r~~l~I~Gsy~Gk~--GvFEyI~e   67 (79)
+                      |...-..-.+..+||..+..|.-+=..+|..  |.|-|+-+
+T Consensus        73 ~~~~~n~a~Ivn~dG~~~~~i~~~~~i~g~~~~~~F~~~ed  113 (153)
+T 6B12_B           73 DTGVAATLYVVSGDRQQQIRIADQLLINGQLEAGIYSWFEQ  113 (153)
+T ss_dssp             SSSCCEEEEEEETTSSCEEECCCEEEETTEEEEEEEEEEEC
+T ss_pred             CCCCcceEEEEcCCCCEEEEeccceeeCCeeceeEEEeccc
+
+
+No 10
+>4GBS_A Putative lipoprotein; PF14064 family, transport, Structural Genomics, Joint Center for Structural Genomics, JCSG, Protein Structure Initiative, PSI-BIOLOGY, HEME-BINDING; HET: MSE, SO4, MLY; 2.48A {Bacteroides fragilis}
+Probab=26.28  E-value=3.8e+02  Score=20.53  Aligned_cols=35  Identities=11%  Similarity=0.251  Sum_probs=0.0  Template_Neff=7.700
+
+Q ss_pred             chhhCeEEEEeCCCCceEEEEEecceEcCe--eeEEEE
+Q TQL38185.1/216   29 LPTMRDTSMVKGGDGIPRLHVKLPGSVNGT--RGTFHW   64 (79)
+Q Consensus        29 f~~~g~~~~i~GgDGi~r~~l~I~Gsy~Gk--~GvFEy   64 (79)
+                      +....+++.|+.+||. +-+|++..-|+..  .|.+.+
+T Consensus       156 ~~~~~~vyiIr~~~G~-y~Klq~~~~y~~~g~~g~~tf  192 (200)
+T 4GBS_A          156 YTPSNKVYLLRMKDDT-MAAIRLVSYMNAAGIKGYMTF  192 (200)
+T ss_dssp             EEECCCCEEEECTTSC-EEEEEEEEEECTTCCEEEEEE
+T ss_pred             EccCCcEEEEEeCCCC-EEEEEEEEEEeCCCCeeEEEE
+
+
+No 11
+>d1nppa2 b.34.5.4 (A:191-248) N-utilization substance G protein NusG, C-terminal domain {Aquifex aeolicus [TaxId: 63363]}
+Probab=26.18  E-value=2.5e+02  Score=15.94  Aligned_cols=23  Identities=13%  Similarity=0.208  Sum_probs=0.0  Template_Neff=9.600
+
+Q ss_pred             ecceEcCeeeEEEEEECCCCcEE
+Q TQL38185.1/216   51 LPGSVNGTRGTFHWIVESDGSIN   73 (79)
+Q Consensus        51 I~Gsy~Gk~GvFEyI~e~~g~In   73 (79)
+                      ..|.+.|..|.+..+...+..+.
+T Consensus        14 ~~G~~~g~~g~v~~~~~~~~~~~   36 (58)
+T d1nppa2          14 IEGPFMNFTGTVEEVHPEKRKLT   36 (58)
+T ss_dssp             CSSTTTTCEEEEEEEEGGGTEEE
+T ss_pred             EeCCCCCCEEEEEEEeCCCCEEE
+
+
+No 12
+>6R2H_B HmuY protein; Porphyromonas gingivalis, Prevotella intermedia, HmuY, heme, hemophore, heme-binding protein, phylogeny, sequence evolution, METAL BINDING PROTEIN; HET: GOL; 2.46A {Prevotella intermedia}
+Probab=23.75  E-value=6e+02  Score=19.43  Aligned_cols=42  Identities=14%  Similarity=0.160  Sum_probs=0.0  Template_Neff=7.700
+
+Q ss_pred             chhhCeEEEEeCCCCceEEEEEecceEcC----eeeEEEEEECCCCc
+Q TQL38185.1/216   29 LPTMRDTSMVKGGDGIPRLHVKLPGSVNG----TRGTFHWIVESDGS   71 (79)
+Q Consensus        29 f~~~g~~~~i~GgDGi~r~~l~I~Gsy~G----k~GvFEyI~e~~g~   71 (79)
+                      +.....++.|+-+||. +-+|++..-|+.    ..=.|+|-.-++|+
+T Consensus       149 ~~~~~~vyiVr~~dG~-y~Klq~~~yy~~~g~~g~~tf~y~~~~~g~  194 (194)
+T 6R2H_B          149 KTVMGNVFAVKFKNGN-AALIKFKDNLDKTGKKKAVSFDYKFIKKAK  194 (194)
+T ss_dssp             CEECCCEEEEEETTSC-EEEEEEEEEECTTSCSEEEEEEEEEECC--
+T ss_pred             EeeCCeEEEEEeCCCC-EEEEEEEEcccCCCCceeEEEEEEEecCCC
+
+
+No 13
+>d2ooja1 b.159.2.1 (A:2-134) Hypothetical protein SO1590 {Shewanella oneidensis [TaxId: 70863]}
+Probab=21.27  E-value=2.7e+02  Score=20.27  Aligned_cols=22  Identities=23%  Similarity=0.363  Sum_probs=0.0  Template_Neff=6.900
+
+Q ss_pred             CCCceEEEEEecceEcCeeeEE
+Q TQL38185.1/216   41 GDGIPRLHVKLPGSVNGTRGTF   62 (79)
+Q Consensus        41 gDGi~r~~l~I~Gsy~Gk~GvF   62 (79)
+                      |...-.-...+.|+++|++|.|
+T Consensus        58 g~a~~~g~e~f~G~i~Gr~Gsf   79 (133)
+T d2ooja1          58 GSAGYVAIEQVVGKLCGRQGSF   79 (133)
+T ss_dssp             TCEEEEEEEEEEEEETTEEEEE
+T ss_pred             CeEEEEEEEEEEEEECCeEEEE
+
+
+No 14
+>PF11197.10 ; DUF2835 ; Protein of unknown function (DUF2835)
+Probab=20.93  E-value=3.1e+02  Score=18.41  Aligned_cols=19  Identities=21%  Similarity=0.448  Sum_probs=0.0  Template_Neff=5.600
+
+Q ss_pred             eEcCeeeEEEEEECCCCcE
+Q TQL38185.1/216   54 SVNGTRGTFHWIVESDGSI   72 (79)
+Q Consensus        54 sy~Gk~GvFEyI~e~~g~I   72 (79)
+                      +-.|-.|.|+...|.+|..
+T Consensus        47 t~~GI~G~F~l~~d~~~kf   65 (71)
+T A0KKL1_AERHH/2   47 AISGVHGYFRLKTQDDYRF   65 (71)
+T ss_pred             eccceeeEEEEEECCCCCE
+
+

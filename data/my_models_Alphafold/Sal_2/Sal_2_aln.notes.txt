@@ -1,0 +1,11 @@
+Sequência retirada, muito pequena, truncada a esquerda e não alinha tão bem com o restante do alinhamento
+
+>GEY80937.1/142-220
+--------------------------------LGL---SASSD---LPRM-KGWGASRAA-------GVLDK
+AEFAKK---TDNGI----NEMWKHVDGSVVKIHKYGNQKICCYKSGNNAHLHKVDPTGNA------
+
+
+Seqência retirada, não conserva bem os resídos a esquerda e está truncada a direita
+>WP_086317527.1/3-61
+---------------YVKDHAKVPKLSKGDKNIFI---NDLNP---TNRS-KNWLQMRST-------G---V
+ENLGRK---NPKS-K---NYWLEHPT----------------------------------------

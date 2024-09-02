@@ -1,0 +1,185 @@
+Query         RML59804.1/8-65 
+Match_columns 58
+No_of_seqs    101 out of 124
+Neff          4.1793
+Searched_HMMs 107766
+Date          Sat Aug 14 15:13:03 2021
+Command       hhsearch -cpu 8 -i ../results/full.a3m -d /cluster/toolkit/production/databases/hh-suite/mmcif70/pdb70 -d /cluster/toolkit/production/databases/hh-suite/scope70/scope70 -d /cluster/toolkit/production/databases/hh-suite/pfama/pfama -d /cluster/toolkit/production/databases/hh-suite/TIGRFAM/TIGRFAM -o ../results/7796475.hhr -oa3m ../results/7796475.a3m -p 20 -Z 250 -loc -z 1 -b 1 -B 250 -ssm 2 -sc 1 -seq 1 -dbstrlen 10000 -norealign -maxres 32000 -contxt /cluster/toolkit/production/bioprogs/tools/hh-suite-build-new/data/context_data.crf 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF19023.2 ; DUF5749 ; Family o  72.5     5.7 5.3E-05   25.9   1.4   31    7-37     43-73  (78)
+  2 2KK4_A Uncharacterized protein  67.6     8.7 8.1E-05   26.0   1.5   28    1-28     42-70  (95)
+  3 d2csoa1 a.4.5.31 (A:8-121) Ple  49.7      49 0.00045   20.5   2.5   43   14-56     55-107 (114)
+  4 d1jvaa2 d.95.2.2 (A:464-581) V  40.5      94 0.00087   20.8   2.9   35   10-46     17-52  (118)
+  5 PF08140.13 ; Cuticle_1 ; Crust  37.0      49 0.00045   19.3   1.0   16   39-54      1-17  (40)
+  6 4KT3_B Putative lipoprotein; G  26.6   2E+02  0.0019   20.6   2.9   28   15-43     18-46  (137)
+  7 PF03243.17 ; MerB ; Alkylmercu  25.7 1.3E+02  0.0012   19.4   1.7   15   16-30    109-123 (123)
+  8 6TZO_A tRNA ligase; RNA ligase  25.0 2.2E+02   0.002   22.4   3.0   42   14-57    375-419 (432)
+  9 d5suza1 a.4.5.31 (A:416-509) a  23.3 2.8E+02  0.0026   16.2   2.7   36   14-52     53-89  (94)
+ 10 TIGR03000 plancto_dom_1; Planc  21.8 1.5E+02  0.0014   19.5   1.5   30   29-58      9-38  (75)
+ 11 PF18288.3 ; FAA_hydro_N_2 ; Fu  21.6 1.4E+02  0.0013   19.4   1.2   20   36-55     10-30  (78)
+ 12 2YSR_A DEP domain-containing p  21.3 3.2E+02   0.003   15.3   3.5   45   10-55     59-105 (105)
+
+No 1
+>PF19023.2 ; DUF5749 ; Family of unknown function (DUF5749)
+Probab=72.47  E-value=5.7  Score=25.91  Aligned_cols=31  Identities=19%  Similarity=0.347  Sum_probs=0.0  Template_Neff=3.800
+
+Q ss_pred             CCCCCCCCccCHHHHHHHHHHhcCCCcEEcc
+Q RML59804.1/8-6    7 GKGNFGIGSGTREQADAMGKAWVGDGYKVAS   37 (58)
+Q Consensus         7 ~~gNfgiG~~t~~eA~~lG~~WVG~g~~~~s   37 (58)
+                      ...+.-+|.++.++|.+||+.|.-..++..+
+T Consensus        43 ~~~~iv~g~fd~~~A~~lGe~W~~~~~~~~~   73 (78)
+T D3RZQ0_FERPA/4   43 EEDKIYVSDFDEEEAKKFGELWLEEKSKPVS   73 (78)
+T ss_pred             CCceeEeccCCHHHHHHHHHHHHHhhCCCcc
+
+
+No 2
+>2KK4_A Uncharacterized protein AF_2094; protein of unknown function, Structural Genomics, PSI-2, Protein Structure Initiative, Northeast Structural Genomics Consortium, NESG, Unknown; NMR {Archaeoglobus fulgidus}
+Probab=67.55  E-value=8.7  Score=25.96  Aligned_cols=28  Identities=18%  Similarity=0.347  Sum_probs=0.0  Template_Neff=3.600
+
+Q ss_pred             CcccccCCCCCCC-CccCHHHHHHHHHHh
+Q RML59804.1/8-6    1 THRATKGKGNFGI-GSGTREQADAMGKAW   28 (58)
+Q Consensus         1 l~~aa~~~gNfgi-G~~t~~eA~~lG~~W   28 (58)
+                      |.+.-....+.-+ |.+..++|.+||+.|
+T Consensus        42 Lk~Ve~~~~~liv~g~fd~deA~elGe~W   70 (95)
+T 2KK4_A           42 KKSIKSVEDGRIVIGEFDEEEARELGRKW   70 (95)
+T ss_dssp             TTTEEEEETTEEEECCCCHHHHHHHHHHH
+T ss_pred             HHHeEEcCCceEEEccCCHHHHHHHHHHH
+
+
+No 3
+>d2csoa1 a.4.5.31 (A:8-121) Pleckstrin {Human (Homo sapiens) [TaxId: 9606]}
+Probab=49.66  E-value=49  Score=20.55  Aligned_cols=43  Identities=14%  Similarity=0.194  Sum_probs=0.0  Template_Neff=9.200
+
+Q ss_pred             CccCHHHHHHHHHHhcCCCcEEccCC----------CEEEcCCCCcccCCCCC
+Q RML59804.1/8-6   14 GSGTREQADAMGKAWVGDGYKVASDG----------KTLVSQNGLRQYRPPTY   56 (58)
+Q Consensus        14 G~~t~~eA~~lG~~WVG~g~~~~s~G----------~~~iSaDGlR~yR~Ps~   56 (58)
+                      ...+++||..+++.++-.+....-..          ..-...++...||....
+T Consensus        55 ~~~~r~~A~~~~~~ll~~g~i~~v~~~~~~~~~~~~~~~F~ds~~~lY~~~~~  107 (114)
+T d2csoa1          55 SVRNRQEGLMIASSLLNEGYLQPAGDMSKSAVDGTAENPFLDNPDAFYYFPDS  107 (114)
+T ss_dssp             SCSSHHHHHHHHHHHHHHTSSEEESHHHHHHHHSSCSCCCCCCTTCEEECSSS
+T ss_pred             CCCCHHHHHHHHHHHHHCCCeEeccccccccCCCCCCCCcccCCCcEEEeCcc
+
+
+No 4
+>d1jvaa2 d.95.2.2 (A:464-581) VMA1-derived endonuclease (VDE) PI-SceI {Baker's yeast (Saccharomyces cerevisiae) [TaxId: 4932]}
+Probab=40.47  E-value=94  Score=20.79  Aligned_cols=35  Identities=26%  Similarity=0.489  Sum_probs=0.0  Template_Neff=6.900
+
+Q ss_pred             CCCC-CccCHHHHHHHHHHhcCCCcEEccCCCEEEcCC
+Q RML59804.1/8-6   10 NFGI-GSGTREQADAMGKAWVGDGYKVASDGKTLVSQN   46 (58)
+Q Consensus        10 Nfgi-G~~t~~eA~~lG~~WVG~g~~~~s~G~~~iSaD   46 (58)
+                      .+.+ -..+.+.|.-|| .|+|+|+.. +....+.|.|
+T Consensus        17 ~~~~~~~~~~~~aylLG-lw~gdG~~~-~~~~~i~~~D   52 (118)
+T d1jvaa2          17 KFHLTIEGPKVLAYLLG-LWIGDGLSD-RATFSVDSRD   52 (118)
+T ss_dssp             CSCCCTTHHHHHHHHHH-HHHHHBCTT-SSEEEEESSC
+T ss_pred             CCCCCCCCchHHHHHHH-HHhcCCCCC-CceEEecCCC
+
+
+No 5
+>PF08140.13 ; Cuticle_1 ; Crustacean cuticle protein repeat
+Probab=37.04  E-value=49  Score=19.30  Aligned_cols=16  Identities=31%  Similarity=0.459  Sum_probs=0.0  Template_Neff=3.700
+
+Q ss_pred             C-CEEEcCCCCcccCCC
+Q RML59804.1/8-6   39 G-KTLVSQNGLRQYRPP   54 (58)
+Q Consensus        39 G-~~~iSaDGlR~yR~P   54 (58)
+                      | .++|.+||.+||-+.
+T Consensus         1 GpSGii~~dG~~qf~~~   17 (40)
+T A1YLD8_PORPE/8    1 GPSGIVSPAGNVQFTQE   17 (40)
+T ss_pred             CCCceecCCcceecChh
+
+
+No 6
+>4KT3_B Putative lipoprotein; Glycoside hydrolase, Hydrolase, PFL_3036; HET: MSE; 1.4362A {Pseudomonas protegens}
+Probab=26.62  E-value=2e+02  Score=20.64  Aligned_cols=28  Identities=25%  Similarity=0.408  Sum_probs=0.0  Template_Neff=4.800
+
+Q ss_pred             ccCHHHHHHHHHHhcC-CCcEEccCCCEEE
+Q RML59804.1/8-6   15 SGTREQADAMGKAWVG-DGYKVASDGKTLV   43 (58)
+Q Consensus        15 ~~t~~eA~~lG~~WVG-~g~~~~s~G~~~i   43 (58)
+                      ..|.+||.+|...|+. +++.....| .++
+T Consensus        18 ~lT~~QA~~lA~~~L~heg~~~~~pG-~~i   46 (137)
+T 4KT3_B           18 GLTREQAEQVLRVALKHQDYQLQRPG-VFI   46 (137)
+T ss_dssp             CCCHHHHHHHHHHHHHHTCCCSSSTT-EEE
+T ss_pred             CCCHHHHHHHHHHHHhcCCccccCCC-cEE
+
+
+No 7
+>PF03243.17 ; MerB ; Alkylmercury lyase
+Probab=25.65  E-value=1.3e+02  Score=19.44  Aligned_cols=15  Identities=13%  Similarity=0.162  Sum_probs=0.0  Template_Neff=8.500
+
+Q ss_pred             cCHHHHHHHHHHhcC
+Q RML59804.1/8-6   16 GTREQADAMGKAWVG   30 (58)
+Q Consensus        16 ~t~~eA~~lG~~WVG   30 (58)
+                      .+.+||.+||+.|.+
+T Consensus       109 l~l~ea~~la~~~f~  123 (123)
+T B2I418_MYCMM/8  109 VSVADAYQLGRPLTQ  123 (123)
+T ss_pred             EeHHHHHHHHHHHhC
+
+
+No 8
+>6TZO_A tRNA ligase; RNA ligase, RNA repair, polynucleotide kinase, TRANSFERASE; HET: DGI; 1.69A {Candida albicans (strain SC5314 / ATCC MYA-2876)}
+Probab=24.98  E-value=2.2e+02  Score=22.39  Aligned_cols=42  Identities=14%  Similarity=0.139  Sum_probs=0.0  Template_Neff=8.700
+
+Q ss_pred             CccCHHHHHHHHHHhc--CCCcEEccCCCEEEc-CCCCcccCCCCCC
+Q RML59804.1/8-6   14 GSGTREQADAMGKAWV--GDGYKVASDGKTLVS-QNGLRQYRPPTYK   57 (58)
+Q Consensus        14 G~~t~~eA~~lG~~WV--G~g~~~~s~G~~~iS-aDGlR~yR~Ps~K   57 (58)
+                      + ..+-|++.|=+.|.  |+-.++..|| .|.+ .++.+.||.+.++
+T Consensus       375 ~-v~p~esn~ll~~~~~~~~~~~~~~~~-~~~~~~~~~~~~~~~~~~  419 (432)
+T 6TZO_A          375 P-ATAVESNITLEELYDNPDEQELKPDG-TYKCGDDTLHVFNFDNPD  419 (432)
+T ss_dssp             -----------------------------------------------
+T ss_pred             C-CChHHHHHHHHHHhhCCCccccCCCC-ceecCCceEEEEeCCCcc
+
+
+No 9
+>d5suza1 a.4.5.31 (A:416-509) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+Probab=23.30  E-value=2.8e+02  Score=16.24  Aligned_cols=36  Identities=17%  Similarity=0.142  Sum_probs=0.0  Template_Neff=9.800
+
+Q ss_pred             CccCHHHHHHHHHHhcCCCcEEccCC-CEEEcCCCCcccC
+Q RML59804.1/8-6   14 GSGTREQADAMGKAWVGDGYKVASDG-KTLVSQNGLRQYR   52 (58)
+Q Consensus        14 G~~t~~eA~~lG~~WVG~g~~~~s~G-~~~iSaDGlR~yR   52 (58)
+                      ...+++||..+|+..+-.+....-.. ..+.  |+ -.||
+T Consensus        53 ~~~~r~~A~~~~~~Ll~~g~i~~v~~~~~f~--d~-~~Y~   89 (94)
+T d5suza1          53 GFPERREARKYASGLLKAGLIRHTVNKITFS--EQ-CYYV   89 (94)
+T ss_dssp             TCSSHHHHHHHHHHHHHHTSEEESSCCSSCC--TT-SEEE
+T ss_pred             CCCCHHHHHHHHHHHHHCCCEEEeeCCCeec--cc-CeEE
+
+
+No 10
+>TIGR03000 plancto_dom_1; Planctomycetes uncharacterized domain TIGR03000. Domains described by this model are found, so far, only in the Planctomycetes (Pirellula sp.
+Probab=21.84  E-value=1.5e+02  Score=19.46  Aligned_cols=30  Identities=20%  Similarity=0.357  Sum_probs=0.0  Template_Neff=3.800
+
+Q ss_pred             cCCCcEEccCCCEEEcCCCCcccCCCCCCC
+Q RML59804.1/8-6   29 VGDGYKVASDGKTLVSQNGLRQYRPPTYKP   58 (58)
+Q Consensus        29 VG~g~~~~s~G~~~iSaDGlR~yR~Ps~K~   58 (58)
+                      |-.++++.-+|.-..|..-.|+|+.|.-|+
+T Consensus         9 vPadAkv~v~G~et~s~G~vR~F~t~~L~~   38 (75)
+T TIGR03000         9 LPADAKLSVDGIETNGTGTVRTFRTPPLPA   38 (75)
+T ss_pred             ecCCCEEEECCEEcCCccceEEEeCCCCCC
+
+
+No 11
+>PF18288.3 ; FAA_hydro_N_2 ; Fumarylacetoacetase N-terminal domain 2
+Probab=21.59  E-value=1.4e+02  Score=19.35  Aligned_cols=20  Identities=30%  Similarity=0.280  Sum_probs=0.0  Template_Neff=5.200
+
+Q ss_pred             ccCC-CEEEcCCCCcccCCCC
+Q RML59804.1/8-6   36 ASDG-KTLVSQNGLRQYRPPT   55 (58)
+Q Consensus        36 ~s~G-~~~iSaDGlR~yR~Ps   55 (58)
+                      +.|| -.+||.|++|.-..+.
+T Consensus        10 ~rDG~LvvVS~D~~~~~~a~~   30 (78)
+T A0A0C5V8I1_9GA   10 TLDGGLLLVSDNRQQAIDVSH   30 (78)
+T ss_pred             CCCceEEEEcCCCCeEEECcc
+
+
+No 12
+>2YSR_A DEP domain-containing protein 1; DEP domain  DEP domain containing 1, Structural Genomics, NPPSFA, National Project on Protein Structural and; NMR {Homo sapiens}
+Probab=21.27  E-value=3.2e+02  Score=15.34  Aligned_cols=45  Identities=20%  Similarity=0.293  Sum_probs=0.0  Template_Neff=11.400
+
+Q ss_pred             CCCCCccCHHHHHHHHHHhcCCCcEEccCCC--EEEcCCCCcccCCCC
+Q RML59804.1/8-6   10 NFGIGSGTREQADAMGKAWVGDGYKVASDGK--TLVSQNGLRQYRPPT   55 (58)
+Q Consensus        10 NfgiG~~t~~eA~~lG~~WVG~g~~~~s~G~--~~iSaDGlR~yR~Ps   55 (58)
+                      |++ ...+.+++..++...+..+....-.+.  .....|....||.+.
+T Consensus        59 ~~~-~~~~~~~~~~~~~~l~~~~~~~~~~~~~~~~~~~~~~~~y~~~~  105 (105)
+T 2YSR_A           59 NFG-PEVTRQQTIQLLRKFLKNHVIEDIKGRWGSENVDDNNQLFRFPA  105 (105)
+T ss_dssp             SST-TTCCHHHHHHHHHHHHHTTSSEESSCCCSCSCCCSSSCEEECCC
+T ss_pred             CCC-CCCCHHHHHHHHHHHHHCCCEEeCCCcCCCCCccCCCceeecCC
+
+

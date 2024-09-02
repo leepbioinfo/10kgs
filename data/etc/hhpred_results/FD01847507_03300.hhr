@@ -1,0 +1,656 @@
+Query         FD01876222_03974 hypothetical protein
+Match_columns 233
+No_of_seqs    1 out of 7
+Neff          1
+Searched_HMMs 107766
+Date          Mon Aug 23 15:14:16 2021
+Command       hhsearch -cpu 8 -i ../results/full.a3m -d /cluster/toolkit/production/databases/hh-suite/mmcif70/pdb70 -d /cluster/toolkit/production/databases/hh-suite/scope70/scope70 -d /cluster/toolkit/production/databases/hh-suite/pfama/pfama -d /cluster/toolkit/production/databases/hh-suite/TIGRFAM/TIGRFAM -o ../results/5156653.hhr -oa3m ../results/5156653.a3m -p 20 -Z 250 -loc -z 1 -b 1 -B 250 -ssm 2 -sc 1 -seq 1 -dbstrlen 10000 -norealign -maxres 32000 -contxt /cluster/toolkit/production/bioprogs/tools/hh-suite-build-new/data/context_data.crf 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF13265.8 ; DUF4056 ; Protein   99.6 2.9E-16 2.7E-21  135.5   3.5  139   14-167    63-232 (266)
+  2 d1esfa2 d.15.6.1 (A:121-233) S  45.0      36 0.00033   28.4   1.8   20  211-230    57-76  (113)
+  3 d3rq7a1 d.223.1.2 (A:373-500)   43.8      39 0.00037   27.0   1.8   27  206-232    38-74  (128)
+  4 d1fnua2 d.15.6.1 (A:108-221) S  43.7      41 0.00038   28.1   2.0   20  211-230    58-77  (114)
+  5 d1et9a2 d.15.6.1 (A:96-204) St  40.9      48 0.00045   27.6   2.0   20  211-230    55-74  (109)
+  6 d1ty0a2 d.15.6.1 (A:104-211) S  37.7      56 0.00052   27.3   1.9   20  211-230    50-69  (108)
+  7 d1enfa2 d.15.6.1 (A:102-213) S  35.9      58 0.00054   27.2   1.7   20  211-230    56-75  (112)
+  8 d1an8a2 d.15.6.1 (A:96-208) St  35.8      64 0.00059   27.2   1.9   20  211-230    56-75  (113)
+  9 d1bxta2 d.15.6.1 (A:120-234) S  35.4      66 0.00061   27.2   2.0   20  211-230    57-76  (115)
+ 10 d1i4pa2 d.15.6.1 (A:121-239) S  34.4      68 0.00063   27.3   1.9   20  211-230    59-78  (119)
+ 11 4RS6_B Serine/threonine-protei  34.3      58 0.00054   28.1   1.5   27  206-232    60-96  (242)
+ 12 d3ea6a2 d.15.6.1 (A:87-217) au  33.6      68 0.00063   27.9   1.8   20  211-230    73-92  (131)
+ 13 PF15016.8 ; DUF4520 ; Domain o  32.1      96 0.00089   25.7   2.3   20  213-232    20-39  (113)
+ 14 PF00659.20 ; POLO_box ; POLO b  30.1 1.4E+02  0.0013   19.0   2.4   20  213-232     9-28  (65)
+ 15 d4zysa2 d.15.6.0 (A:126-226) a  30.0      93 0.00086   25.7   2.0   20  211-230    54-73  (101)
+ 16 1MBY_A serine/threonine kinase  29.8 1.3E+02  0.0012   21.6   2.4   20  213-232    20-39  (88)
+ 17 PF02876.19 ; Stap_Strp_tox_C ;  29.5      86  0.0008   25.9   1.7   20  211-230    51-70  (105)
+ 18 d3mc0b2 d.15.6.0 (B:116-233) a  29.0      95 0.00088   26.5   1.9   20  211-230    59-78  (118)
+ 19 1AN8_A STREPTOCOCCAL PYROGENIC  28.3      97  0.0009   27.6   1.9   20  211-230   151-170 (208)
+ 20 PF10863.10 ; NOP19 ; Nucleolar  28.3      32  0.0003   29.9  -0.8   29    1-29      1-32  (139)
+ 21 d3r2ta2 d.15.6.0 (A:129-232) a  28.3   1E+02 0.00095   25.9   1.9   20  211-230    57-76  (104)
+ 22 2ICI_A Exotoxin I; streptococc  28.3      92 0.00085   28.8   1.9   21  210-230   168-188 (227)
+ 23 d2z8la2 d.15.6.1 (A:101-204) S  27.3 1.2E+02  0.0011   25.3   2.1   20  211-230    57-76  (104)
+ 24 1DYQ_A Enterotoxin type A; ENT  26.1      98 0.00091   28.5   1.6   21  210-230   177-197 (234)
+ 25 3N4I_B Beta-lactamase inhibito  25.9      80 0.00074   25.4   1.0   89   11-99      7-104 (165)
+ 26 d3gmxa_ d.98.1.0 (A:) automate  25.6      63 0.00059   25.1   0.4   87   11-99      7-98  (154)
+ 27 d1eu3a2 d.15.6.1 (A:97-209) St  25.3 1.2E+02  0.0011   25.5   1.9   20  211-230    56-76  (113)
+ 28 1ET9_A SUPERANTIGEN SPE-H; bet  25.2 1.1E+02   0.001   27.8   1.8   20  211-230   150-169 (204)
+ 29 3KM9_X Staphylococcal enteroto  24.7 1.4E+02  0.0013   24.8   2.1   19  212-230    55-73  (103)
+ 30 d5lhxa_ d.223.1.0 (A:) automat  24.5   2E+02  0.0019   20.5   2.6   20  213-232    18-37  (87)
+ 31 3EA6_A Staphylococcal enteroto  24.2 1.2E+02  0.0011   27.9   1.8   20  211-230   159-178 (219)
+ 32 d2rdga2 d.15.6.0 (A:94-196) au  23.5 1.4E+02  0.0013   24.9   2.0   20  211-230    57-76  (103)
+ 33 3Q1I_A Serine/threonine-protei  23.0 1.5E+02  0.0014   25.5   2.0   27  206-232    48-84  (232)
+ 34 1BXT_A PROTEIN (STREPTOCOCCAL   22.6 1.4E+02  0.0013   27.5   1.8   20  211-230   176-195 (234)
+ 35 d4ohja2 d.15.6.1 (A:134-234) a  22.5 1.7E+02  0.0016   24.3   2.2   18  213-230    56-73  (101)
+ 36 d3gmvx_ d.98.1.0 (X:) automate  22.0 1.2E+02  0.0011   24.1   1.3   89   11-99      6-100 (156)
+ 37 3MC0_D Enterotoxin SEG; IMMUNE  21.6 1.4E+02  0.0013   27.8   1.8   20  211-230   174-193 (239)
+ 38 2AQ2_B Enterotoxin type C-3; T  20.8 1.5E+02  0.0014   27.3   1.8   20  211-230   177-196 (237)
+ 39 4OHJ_B Toxic shock syndrome to  20.7 1.7E+02  0.0016   27.0   2.0   20  211-230   166-185 (229)
+ 40 4X9R_A Serine/threonine-protei  20.4 1.7E+02  0.0015   25.3   1.8   27  206-232    44-80  (237)
+
+No 1
+>PF13265.8 ; DUF4056 ; Protein of unknown function (DUF4056)
+Probab=99.63  E-value=2.9e-16  Score=135.54  Aligned_cols=139  Identities=20%  Similarity=0.282  Sum_probs=108.8  Template_Neff=5.700
+
+Q ss_pred             chhhheeeeeehhchhhccccCc--chhHHHHHhhhcCCCcCcceeEEEeeecceecchhHHHHhcCCccchhhhhcCCC
+Q FD01876222_039   14 DELKFGIVYTEVLGWLDMGHAGG--DDISLLKQQFDAGESSGNKYYSVIYKQNMRVRSKTLRQEMGTGKFTRWEIQRGRT   91 (233)
+Q Consensus        14 delkfgivytevlgwldmghagg--ddisllkqqfdagessgnkyysviykqnmrvrsktlrqemgtgkftrweiqrgrt   91 (233)
+                      .+-+-|||||+-.||+|+||+-+  |+..-|.+|+.....   +++.|.|+|.|..|.-++      +     ...++.+
+T Consensus        63 ~~E~nGliYT~~gGfID~~H~r~~AD~t~~L~~~i~~~~~---~~~~v~~~~e~~~~~i~~------~-----~~~~~ls  128 (266)
+T Q7MB90_PHOLL/4   63 SNEKVGMIYTRRGGFIDISHVRDTADNAVFLFSQIWPRLG---EEWQIELSSELALRRIQF------Y-----QFTPPAS  128 (266)
+T ss_pred             CcCcCeeEEEeceeeeeHHHhccchHHHHHHHHHHHhhhC---CceEEEeeccceeceEEE------e-----eeCCCCC
+Confidence            45689999999999999999999  999999999877763   445666666655442111      1     1367889
+
+
+Q ss_pred             HHHHHHHHHHHHhhHhhhh----H-----HHHhhhhhccccCCCCCchHHHHHHhhchhcccC-----------------
+Q FD01876222_039   92 QDEINSIMLAMMMNTALKF----E-----AYQSLKAFSWHTDSGFSGEDLVSDLFGFYRFMIP-----------------  145 (233)
+Q Consensus        92 qdeinsimlammmntalkf----e-----ayqslkafswhtdsgfsgedlvsdlfgfyrfmip-----------------  145 (233)
+                      ++|..++.++++|..|..|    |     .||+...|+ .++|+||.|||+|+|+|+|+-+..                 
+T Consensus       129 ~~er~~iA~~la~~~A~~~~~WHEI~tW~g~~s~~~~~-e~~SaFS~EDLySNLLG~~lA~~~l~~~~~~s~~~y~~amt  207 (266)
+T Q7MB90_PHOLL/4  129 IEQRYTLTAYLAAKLAFELAAWHEIAQWYGYQSVPGFS-EKVSAFSPEDLYSNLLGARLSLSLILAGQVPSMKQYRLSMQ  207 (266)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHhHHHHHHHccccccCCcc-cCCCCCChHHHHHhHHHHHHHHHHHHcCCCCCHHHHHHHHH
+Confidence            9999999999999999999    9     899999998 999999999999999999998763                 
+
+
+Q ss_pred             ---CCcccccccccccccccccccc
+Q FD01876222_039  146 ---GKYSSLVRPVSYNDAVSRWDFY  167 (233)
+Q Consensus       146 ---gkysslvrpvsyndavsrwdfy  167 (233)
+                         .++-....+|+..++...||-.
+T Consensus       208 ~~l~~~L~~L~~vs~~~a~~~~d~v  232 (266)
+T Q7MB90_PHOLL/4  208 AILPPALRELEALSPDETRKMFEQV  232 (266)
+T ss_pred             HhHHHHHHHCCCCCHHHHHHHHHhc
+Confidence               3333455566666666666644
+
+
+No 2
+>d1esfa2 d.15.6.1 (A:121-233) Staphylococcal enterotoxin A, SEA {Staphylococcus aureus [TaxId: 1280]}
+Probab=44.96  E-value=36  Score=28.40  Aligned_cols=20  Identities=20%  Similarity=0.287  Sum_probs=0.0  Template_Neff=5.300
+
+Q ss_pred             HHcCCCeEEEEeCCCCccee
+Q FD01876222_039  211 SDFTSGKIRIITNDGTSFSF  230 (233)
+Q Consensus       211 sdftsgkiriitndgtsfsf  230 (233)
+                      |.+..|+|.|.++||.+|++
+T Consensus        57 s~~~~G~I~i~~~dg~~~~~   76 (113)
+T d1esfa2          57 GKVQRGLIVFHTSTEPSVNY   76 (113)
+T ss_dssp             CCCCEEEEEEECSSSCCEEE
+T ss_pred             CCCcccEEEEEcCCCCeEEE
+
+
+No 3
+>d3rq7a1 d.223.1.2 (A:373-500) Serine/threonine-protein kinase plk C-terminal domain {Human (Homo sapiens) [TaxId: 9606]}
+Probab=43.76  E-value=39  Score=27.05  Aligned_cols=27  Identities=22%  Similarity=0.749  Sum_probs=0.0  Template_Neff=7.300
+
+Q ss_pred             ccccHHHcC----------CCeEEEEeCCCCcceeee
+Q FD01876222_039  206 WIQPWSDFT----------SGKIRIITNDGTSFSFLP  232 (233)
+Q Consensus       206 wiqpwsdft----------sgkiriitndgtsfsflp  232 (233)
+                      ||.-|-|++          +|.+-++-||+|+....|
+T Consensus        38 ~V~kWvDys~KyGlgY~LsdG~~Gv~FND~t~i~~~~   74 (128)
+T d3rq7a1          38 WVSKWVDYSDKYGLGYQLCDNSVGVLFNDSTRLILYN   74 (128)
+T ss_dssp             CEEEEEEETTTTEEEEEETTSCEEEEETTSCEEEECT
+T ss_pred             EEEEEccCccCcceEEEcCCCcEEEEEcCCCcEEEeC
+
+
+No 4
+>d1fnua2 d.15.6.1 (A:108-221) Streptococcal pyrogenic exotoxin A1 {Streptococcus pyogenes [TaxId: 1314]}
+Probab=43.72  E-value=41  Score=28.08  Aligned_cols=20  Identities=35%  Similarity=0.670  Sum_probs=0.0  Template_Neff=5.300
+
+Q ss_pred             HHcCCCeEEEEeCCCCccee
+Q FD01876222_039  211 SDFTSGKIRIITNDGTSFSF  230 (233)
+Q Consensus       211 sdftsgkiriitndgtsfsf  230 (233)
+                      |.+..|+|.|.++||.+|+|
+T Consensus        58 s~~~~G~I~i~~~d~~~~~~   77 (114)
+T d1fnua2          58 SKYETGYIKFIPKNKESFWF   77 (114)
+T ss_dssp             CSCSEEEEEEEESSSCCEEE
+T ss_pred             CCCcccEEEEEeCCCCeEEE
+
+
+No 5
+>d1et9a2 d.15.6.1 (A:96-204) Streptococcal superantigen Spe-H {Streptococcus pyogenes [TaxId: 1314]}
+Probab=40.90  E-value=48  Score=27.60  Aligned_cols=20  Identities=20%  Similarity=0.554  Sum_probs=0.0  Template_Neff=5.200
+
+Q ss_pred             HHcCCCeEEEEeCCCCccee
+Q FD01876222_039  211 SDFTSGKIRIITNDGTSFSF  230 (233)
+Q Consensus       211 sdftsgkiriitndgtsfsf  230 (233)
+                      |.+..|+|.|.++||.++++
+T Consensus        55 s~~~~G~I~i~~~d~~~~~~   74 (109)
+T d1et9a2          55 QKYSKGTVTLDLNSGKDIVF   74 (109)
+T ss_dssp             CCCCCEEEEEEETTTEEEEE
+T ss_pred             ccccccEEEEEeCCCCeEEE
+
+
+No 6
+>d1ty0a2 d.15.6.1 (A:104-211) Streptococcal pyrogenic exotoxin Spe-J {Streptococcus pyogenes [TaxId: 1314]}
+Probab=37.73  E-value=56  Score=27.29  Aligned_cols=20  Identities=30%  Similarity=0.493  Sum_probs=0.0  Template_Neff=5.100
+
+Q ss_pred             HHcCCCeEEEEeCCCCccee
+Q FD01876222_039  211 SDFTSGKIRIITNDGTSFSF  230 (233)
+Q Consensus       211 sdftsgkiriitndgtsfsf  230 (233)
+                      |.+..|+|.|.++||.+|.+
+T Consensus        50 s~~~~G~I~i~~~d~~~~~~   69 (108)
+T d1ty0a2          50 SPYIKGQLEIAINGNKHESF   69 (108)
+T ss_dssp             SSCCEEEEEEEETTTEEEEE
+T ss_pred             CCCcccEEEEEECCCcEEEE
+
+
+No 7
+>d1enfa2 d.15.6.1 (A:102-213) Staphylococcal enterotoxin H, SEH {Staphylococcus aureus [TaxId: 1280]}
+Probab=35.85  E-value=58  Score=27.21  Aligned_cols=20  Identities=25%  Similarity=0.448  Sum_probs=0.0  Template_Neff=5.300
+
+Q ss_pred             HHcCCCeEEEEeCCCCccee
+Q FD01876222_039  211 SDFTSGKIRIITNDGTSFSF  230 (233)
+Q Consensus       211 sdftsgkiriitndgtsfsf  230 (233)
+                      |.+..|+|.|.++||.+|.+
+T Consensus        56 s~~~~G~I~i~~~d~~~~~~   75 (112)
+T d1enfa2          56 SEISKGLIEFDMKTPRDYSF   75 (112)
+T ss_dssp             SSCCEEEEEEEESSSCEEEE
+T ss_pred             CCCceeEEEEEcCCCCeEEE
+
+
+No 8
+>d1an8a2 d.15.6.1 (A:96-208) Streptococcal superantigen Spe-C {Streptococcus pyogenes [TaxId: 1314]}
+Probab=35.83  E-value=64  Score=27.16  Aligned_cols=20  Identities=40%  Similarity=0.564  Sum_probs=0.0  Template_Neff=5.100
+
+Q ss_pred             HHcCCCeEEEEeCCCCccee
+Q FD01876222_039  211 SDFTSGKIRIITNDGTSFSF  230 (233)
+Q Consensus       211 sdftsgkiriitndgtsfsf  230 (233)
+                      |.+..|+|.|.++||.++.+
+T Consensus        56 s~~~~G~I~i~~~d~~~~~~   75 (113)
+T d1an8a2          56 SPYVSGRIEIGTKDGKHEQI   75 (113)
+T ss_dssp             CCCCEEEEEEEETTSCEEEE
+T ss_pred             CCCccCEEEEEeCCCCEEEE
+
+
+No 9
+>d1bxta2 d.15.6.1 (A:120-234) Streptococcal superantigen SSA {Streptococcus pyogenes [TaxId: 1314]}
+Probab=35.39  E-value=66  Score=27.20  Aligned_cols=20  Identities=35%  Similarity=0.718  Sum_probs=0.0  Template_Neff=5.000
+
+Q ss_pred             HHcCCCeEEEEeCCCCccee
+Q FD01876222_039  211 SDFTSGKIRIITNDGTSFSF  230 (233)
+Q Consensus       211 sdftsgkiriitndgtsfsf  230 (233)
+                      |.+..|+|.|..+||.++.|
+T Consensus        57 s~~~~G~I~i~~~dg~~~~~   76 (115)
+T d1bxta2          57 SPYETGYIKFIESSGDSFWY   76 (115)
+T ss_dssp             CSEEEEEEEEEETTSCEEEE
+T ss_pred             CCCCccEEEEEeCCCCEEEE
+
+
+No 10
+>d1i4pa2 d.15.6.1 (A:121-239) Staphylococcal enterotoxin C2, SEC2 {Staphylococcus aureus [TaxId: 1280]}
+Probab=34.42  E-value=68  Score=27.27  Aligned_cols=20  Identities=35%  Similarity=0.791  Sum_probs=0.0  Template_Neff=5.000
+
+Q ss_pred             HHcCCCeEEEEeCCCCccee
+Q FD01876222_039  211 SDFTSGKIRIITNDGTSFSF  230 (233)
+Q Consensus       211 sdftsgkiriitndgtsfsf  230 (233)
+                      |.+..|+|.|.++||.++.|
+T Consensus        59 s~~~~G~I~i~~~dg~~~~~   78 (119)
+T d1i4pa2          59 SPYETGYIKFIENNGNTFWY   78 (119)
+T ss_dssp             CSCSEEEEEEECTTSCEEEE
+T ss_pred             CCCcccEEEEEeCCCCEEEE
+
+
+No 11
+>4RS6_B Serine/threonine-protein kinase PLK2; First PBD domain of Polo like Kinase II, phosphorylation of target protein, Transferase; 2.6A {Homo sapiens}
+Probab=34.28  E-value=58  Score=28.06  Aligned_cols=27  Identities=30%  Similarity=0.945  Sum_probs=0.0  Template_Neff=8.100
+
+Q ss_pred             ccccHHHcC----------CCeEEEEeCCCCcceeee
+Q FD01876222_039  206 WIQPWSDFT----------SGKIRIITNDGTSFSFLP  232 (233)
+Q Consensus       206 wiqpwsdft----------sgkiriitndgtsfsflp  232 (233)
+                      ||.-|-|++          .|.+-+.-||+|++.+.|
+T Consensus        60 ~V~kWvDyS~kyG~gY~Lsdg~vGvlFnD~T~i~~~~   96 (242)
+T 4RS6_B           60 WVTKWVDYSNKYGFGYQLSDHTVGVLFNNGAHMSLLP   96 (242)
+T ss_dssp             CEEEEEEETTTTEEEEEETTSCEEEEETTSCEEEECT
+T ss_pred             EEEEEeecCCCeeEEEEecCCcEEEEEeCCCeEEEcc
+
+
+No 12
+>d3ea6a2 d.15.6.1 (A:87-217) automated matches {Staphylococcus aureus [TaxId: 1280]}
+Probab=33.56  E-value=68  Score=27.94  Aligned_cols=20  Identities=35%  Similarity=0.674  Sum_probs=0.0  Template_Neff=4.600
+
+Q ss_pred             HHcCCCeEEEEeCCCCccee
+Q FD01876222_039  211 SDFTSGKIRIITNDGTSFSF  230 (233)
+Q Consensus       211 sdftsgkiriitndgtsfsf  230 (233)
+                      |.+..|+|.|.+|||.+|++
+T Consensus        73 s~~~~G~I~~~~~d~~~~~~   92 (131)
+T d3ea6a2          73 SGFNIGKVTFHLNNNDTFSY   92 (131)
+T ss_dssp             SSCSEEEEEEEETTSCEEEE
+T ss_pred             cCCceeEEEEEeCCCCEEEE
+
+
+No 13
+>PF15016.8 ; DUF4520 ; Domain of unknown function (DUF4520)
+Probab=32.12  E-value=96  Score=25.69  Aligned_cols=20  Identities=15%  Similarity=0.476  Sum_probs=0.0  Template_Neff=5.800
+
+Q ss_pred             cCCCeEEEEeCCCCcceeee
+Q FD01876222_039  213 FTSGKIRIITNDGTSFSFLP  232 (233)
+Q Consensus       213 ftsgkiriitndgtsfsflp  232 (233)
+                      |+.|+|||+-+|+|......
+T Consensus        20 ySdGrVrvvF~DRT~L~m~~   39 (113)
+T C3ZED8_BRAFL/4   20 YSDGRVHVVFEDRTVLDTVF   39 (113)
+T ss_pred             eeCCcEEEEEcCCceEEEEE
+
+
+No 14
+>PF00659.20 ; POLO_box ; POLO box duplicated region
+Probab=30.09  E-value=1.4e+02  Score=19.02  Aligned_cols=20  Identities=20%  Similarity=0.657  Sum_probs=0.0  Template_Neff=10.000
+
+Q ss_pred             cCCCeEEEEeCCCCcceeee
+Q FD01876222_039  213 FTSGKIRIITNDGTSFSFLP  232 (233)
+Q Consensus       213 ftsgkiriitndgtsfsflp  232 (233)
+                      +..|.+.+..+|++.+.+.|
+T Consensus         9 ls~G~~~v~f~D~t~~~~~~   28 (65)
+T D2VZP4_NAEGR/6    9 MSNGCVGAVYNDSSKMTYMP   28 (65)
+T ss_pred             ecCCeEEEEeeCCCEEEEeC
+
+
+No 15
+>d4zysa2 d.15.6.0 (A:126-226) automated matches {Staphylococcus aureus [TaxId: 158878]}
+Probab=29.96  E-value=93  Score=25.72  Aligned_cols=20  Identities=30%  Similarity=0.581  Sum_probs=0.0  Template_Neff=5.200
+
+Q ss_pred             HHcCCCeEEEEeCCCCccee
+Q FD01876222_039  211 SDFTSGKIRIITNDGTSFSF  230 (233)
+Q Consensus       211 sdftsgkiriitndgtsfsf  230 (233)
+                      +++..|+|.|.++||.++.|
+T Consensus        54 ~~~~~G~I~i~~~d~~~~~~   73 (101)
+T d4zysa2          54 NGLKQGQITITMKDGKSHTI   73 (101)
+T ss_dssp             TTCCCEEEEEEETTSCEEEE
+T ss_pred             CCCccceEEEEeCCCCeEEE
+
+
+No 16
+>1MBY_A serine/threonine kinase; POLO DOMAIN, STRAND EXCHANGE, TRANSFERASE; 2.0A {Mus musculus} SCOP: d.223.1.1
+Probab=29.84  E-value=1.3e+02  Score=21.58  Aligned_cols=20  Identities=30%  Similarity=0.526  Sum_probs=0.0  Template_Neff=8.700
+
+Q ss_pred             cCCCeEEEEeCCCCcceeee
+Q FD01876222_039  213 FTSGKIRIITNDGTSFSFLP  232 (233)
+Q Consensus       213 ftsgkiriitndgtsfsflp  232 (233)
+                      ..+|.|.+.-||||++.+.|
+T Consensus        20 Ls~G~i~v~F~Dgs~l~~~~   39 (88)
+T 1MBY_A           20 LTSGAVWVQFNDGSQLVMQA   39 (88)
+T ss_dssp             SSEEEEEEEETTSCEEEEEE
+T ss_pred             cCCCcEEEEECCCCEEEEEC
+
+
+No 17
+>PF02876.19 ; Stap_Strp_tox_C ; Staphylococcal/Streptococcal toxin, beta-grasp domain
+Probab=29.53  E-value=86  Score=25.93  Aligned_cols=20  Identities=20%  Similarity=0.554  Sum_probs=0.0  Template_Neff=5.400
+
+Q ss_pred             HHcCCCeEEEEeCCCCccee
+Q FD01876222_039  211 SDFTSGKIRIITNDGTSFSF  230 (233)
+Q Consensus       211 sdftsgkiriitndgtsfsf  230 (233)
+                      +.+.+|+|.|.++||.++.+
+T Consensus        51 ~~~~~G~I~~~~~~~~~~~~   70 (105)
+T A0A4D6B5F2_9CA   51 QKYSKGTVTLDLNSGKDIVF   70 (105)
+T ss_pred             CCCceEEEEEEeCCCCEEEE
+
+
+No 18
+>d3mc0b2 d.15.6.0 (B:116-233) automated matches {Staphylococcus aureus [TaxId: 1280]}
+Probab=29.00  E-value=95  Score=26.49  Aligned_cols=20  Identities=45%  Similarity=0.688  Sum_probs=0.0  Template_Neff=4.900
+
+Q ss_pred             HHcCCCeEEEEeCCCCccee
+Q FD01876222_039  211 SDFTSGKIRIITNDGTSFSF  230 (233)
+Q Consensus       211 sdftsgkiriitndgtsfsf  230 (233)
+                      |.+..|+|.|..+||.+++|
+T Consensus        59 s~~~~G~I~i~~~dg~~~~~   78 (118)
+T d3mc0b2          59 SAFESGYIKFTEKNNTSFWF   78 (118)
+T ss_dssp             CSCSEEEEEEECTTSCEEEE
+T ss_pred             CcCCeeEEEEEeCCCCEEEE
+
+
+No 19
+>1AN8_A STREPTOCOCCAL PYROGENIC EXOTOXIN C; BACTERIAL SUPERANTIGEN, TOXIN; 2.4A {Streptococcus pyogenes} SCOP: d.15.6.1, b.40.2.2
+Probab=28.35  E-value=97  Score=27.56  Aligned_cols=20  Identities=40%  Similarity=0.564  Sum_probs=0.0  Template_Neff=6.500
+
+Q ss_pred             HHcCCCeEEEEeCCCCccee
+Q FD01876222_039  211 SDFTSGKIRIITNDGTSFSF  230 (233)
+Q Consensus       211 sdftsgkiriitndgtsfsf  230 (233)
+                      |.+.+|+|.|.++||..+.|
+T Consensus       151 s~~~~G~I~i~~~dg~~~~~  170 (208)
+T 1AN8_A          151 SPYVSGRIEIGTKDGKHEQI  170 (208)
+T ss_dssp             CCCCEEEEEEEETTSCEEEE
+T ss_pred             CCCcccEEEEEECCCCEEEE
+
+
+No 20
+>PF10863.10 ; NOP19 ; Nucleolar protein 19
+Probab=28.32  E-value=32  Score=29.94  Aligned_cols=29  Identities=31%  Similarity=0.583  Sum_probs=0.0  Template_Neff=4.700
+
+Q ss_pred             CChhhhhccccccc---hhhheeeeeehhchh
+Q FD01876222_039    1 MSKREEIKGNQKFD---ELKFGIVYTEVLGWL   29 (233)
+Q Consensus         1 mskreeikgnqkfd---elkfgivytevlgwl   29 (233)
+                      ||+|.|||..+.+.   .+-|.-.-.-||.||
+T Consensus         1 MSRrkEIkeK~~LQAkfQ~afs~~~~~VlsWL   32 (139)
+T G8ZYI4_TORDC/1    1 MSRANEIQQKLNLQAELQKTFNGNARKVMGWL   32 (139)
+T ss_pred             CchHHHHHHHHHHHHHHHHHHhhhHHHHHHhc
+
+
+No 21
+>d3r2ta2 d.15.6.0 (A:129-232) automated matches {Staphylococcus aureus [TaxId: 93061]}
+Probab=28.30  E-value=1e+02  Score=25.88  Aligned_cols=20  Identities=20%  Similarity=0.371  Sum_probs=0.0  Template_Neff=4.800
+
+Q ss_pred             HHcCCCeEEEEeCCCCccee
+Q FD01876222_039  211 SDFTSGKIRIITNDGTSFSF  230 (233)
+Q Consensus       211 sdftsgkiriitndgtsfsf  230 (233)
+                      +.+..|+|.|..+||.++.|
+T Consensus        57 ~~~~~G~I~i~~kd~~~~~~   76 (104)
+T d3r2ta2          57 GSADKGRIVINMKDENKYEI   76 (104)
+T ss_dssp             TSBCSEEEEEEETTSCEEEE
+T ss_pred             CCCCccEEEEEeCCCCeEEE
+
+
+No 22
+>2ICI_A Exotoxin I; streptococcal superantigen SpeI, TOXIN; HET: MSE; 1.56A {Streptococcus pyogenes}
+Probab=28.30  E-value=92  Score=28.79  Aligned_cols=21  Identities=33%  Similarity=0.510  Sum_probs=0.0  Template_Neff=5.500
+
+Q ss_pred             HHHcCCCeEEEEeCCCCccee
+Q FD01876222_039  210 WSDFTSGKIRIITNDGTSFSF  230 (233)
+Q Consensus       210 wsdftsgkiriitndgtsfsf  230 (233)
+                      .|.+..|+|.|.++||.+|++
+T Consensus       168 ~s~~~~G~I~~~~~~~~~~~~  188 (227)
+T 2ICI_A          168 QSGFEEGNIIFHLNSGERISY  188 (227)
+T ss_dssp             SSSEEEEEEEEEETTSCEEEE
+T ss_pred             cCCCCccEEEEEeCCCCEEEE
+
+
+No 23
+>d2z8la2 d.15.6.1 (A:101-204) Superantigen-like protein SET3 {Staphylococcus aureus [TaxId: 1280]}
+Probab=27.27  E-value=1.2e+02  Score=25.33  Aligned_cols=20  Identities=30%  Similarity=0.532  Sum_probs=0.0  Template_Neff=5.200
+
+Q ss_pred             HHcCCCeEEEEeCCCCccee
+Q FD01876222_039  211 SDFTSGKIRIITNDGTSFSF  230 (233)
+Q Consensus       211 sdftsgkiriitndgtsfsf  230 (233)
+                      .+...|+|.|..+||.++.|
+T Consensus        57 ~~~~~G~I~i~~~dg~~~~~   76 (104)
+T d2z8la2          57 KFPKDSKIKVIMKDGGYYTF   76 (104)
+T ss_dssp             SCCTTCEEEEEETTSCEEEE
+T ss_pred             CCCCccEEEEEeCCCCEEEE
+
+
+No 24
+>1DYQ_A Enterotoxin type A; ENTEROTOXIN, STAPHYLOCOCCAL ENTEROTOXIN TYPE A, VACCINE; 1.5A {Staphylococcus aureus} SCOP: d.15.6.1, b.40.2.2
+Probab=26.11  E-value=98  Score=28.54  Aligned_cols=21  Identities=19%  Similarity=0.191  Sum_probs=0.0  Template_Neff=5.800
+
+Q ss_pred             HHHcCCCeEEEEeCCCCccee
+Q FD01876222_039  210 WSDFTSGKIRIITNDGTSFSF  230 (233)
+Q Consensus       210 wsdftsgkiriitndgtsfsf  230 (233)
+                      +|.+..|+|.|.++||.+|+|
+T Consensus       177 ~s~~~~G~I~~~~~~~~~~~~  197 (234)
+T 1DYQ_A          177 DGKVQRGLIVFHTSTEPSVNY  197 (234)
+T ss_dssp             TCCCCEEEEEEECSSSCCEEE
+T ss_pred             CCCCCeeEEEEEeCCCCeEEE
+
+
+No 25
+>3N4I_B Beta-lactamase inhibitory protein; beta-lactamase, protein-protein complex, BLIP, SHV-1, HYDROLASE - HYDROLASE INHIBITOR complex, HYDROLASE-HYDROLASE INHIBITOR complex; 1.56A {Klebsiella pneumoniae} SCOP: d.98.1.1
+Probab=25.90  E-value=80  Score=25.44  Aligned_cols=89  Identities=15%  Similarity=0.187  Sum_probs=0.0  Template_Neff=8.400
+
+Q ss_pred             cccchhhheeeeeehhchhhccccCcchhHHHHHhhhcCC-CcCcceeEEEee---ecceecchhHHHHhc--CCccc--
+Q FD01876222_039   11 QKFDELKFGIVYTEVLGWLDMGHAGGDDISLLKQQFDAGE-SSGNKYYSVIYK---QNMRVRSKTLRQEMG--TGKFT--   82 (233)
+Q Consensus        11 qkfdelkfgivytevlgwldmghaggddisllkqqfdage-ssgnkyysviyk---qnmrvrsktlrqemg--tgkft--   82 (233)
+                      .+|+.++.|.-|.||..-|...-.--+....-.-...... .....+..|.+.   +|-+|.+|....-..  ..++|  
+T Consensus         7 ~~f~kIk~Gms~~eV~~~lG~p~~~~~~~~~~~~~~~~~~~~~~~~~v~V~F~~~~~~~~v~sk~~~~~~~~~~~~vt~~   86 (165)
+T 3N4I_B            7 AKFTQIQFGMTRQQVLDIAGAENCETGGSFGDSIHCRGHAAGDYYAYATFGFTSAAADAKVDSKSQEKLLAPSAPTLTLA   86 (165)
+T ss_dssp             HHHHHSCTTCCHHHHHHHHCGGGEECSGGGTTSEEEEEEEETTEEEEEEEEESSSSTTCCEEEEEEESSCCCSBCCCCHH
+T ss_pred             HHHHhCCCCCCHHHHHHHHCCCCeecccccceeEEEEecCCCCcceeEEEEEEeccCCCeEEEEEeecccCCCCCCCCHH
+
+
+Q ss_pred             -hhhhhcCCCHHHHHHHH
+Q FD01876222_039   83 -RWEIQRGRTQDEINSIM   99 (233)
+Q Consensus        83 -rweiqrgrtqdeinsim   99 (233)
+                       --.|+.|-|.+|+.+++
+T Consensus        87 ~~~~i~~Gmt~~~V~~~l  104 (165)
+T 3N4I_B           87 KFNQVTVGMTRAQVLATV  104 (165)
+T ss_dssp             HHHHCCTTCBHHHHHHHH
+T ss_pred             HHHhCCCCCCHHHHHHHH
+
+
+No 26
+>d3gmxa_ d.98.1.0 (A:) automated matches {Streptomyces clavuligerus [TaxId: 1901]}
+Probab=25.63  E-value=63  Score=25.10  Aligned_cols=87  Identities=10%  Similarity=0.088  Sum_probs=0.0  Template_Neff=9.000
+
+Q ss_pred             cccchhhheeeeeehhchhhccccCcchhHHHHHhhhcCCCcCcceeEEEeeecceecchhHHHHh--cCCccc---hhh
+Q FD01876222_039   11 QKFDELKFGIVYTEVLGWLDMGHAGGDDISLLKQQFDAGESSGNKYYSVIYKQNMRVRSKTLRQEM--GTGKFT---RWE   85 (233)
+Q Consensus        11 qkfdelkfgivytevlgwldmghaggddisllkqqfdagessgnkyysviykqnmrvrsktlrqem--gtgkft---rwe   85 (233)
+                      .+|+.+++|.-+.||..-|  |-.+--+-+......-.-....+...+|.+-+|-++.+|.+....  ...+++   --.
+T Consensus         7 ~~~~~I~~G~t~~eV~~~l--G~p~~~~~~~~~~~~y~W~~~~~~~~~v~~~~~~~v~~K~~~~~~~~~~~~it~~~~~~   84 (154)
+T d3gmxa_           7 ERYNKIQFGMDRTLVWQLA--GADQSCSDQVERIICYNNPDHYGPQGHFFFNAADKLIHKRQMELFPAPKPTMRLATYNK   84 (154)
+T ss_dssp             HHHHHCCTTCBHHHHHHHH--TGGGTEEECSSCEEEESSSCTTSSEEEEEECTTSBEEEEEEESSSCCSSCCC-CHHHHT
+T ss_pred             HHHhhCCCCCCHHHHHHHh--CCCceeccccceEEEEEcCCCCCCceEEEEccCCeEEEEEEcCCCCCCCCCCCHHHHHh
+
+
+Q ss_pred             hhcCCCHHHHHHHH
+Q FD01876222_039   86 IQRGRTQDEINSIM   99 (233)
+Q Consensus        86 iqrgrtqdeinsim   99 (233)
+                      |+.|-|.+|+..++
+T Consensus        85 I~~Gmt~~eV~~~l   98 (154)
+T d3gmxa_          85 TQTGMTEAQFWAAV   98 (154)
+T ss_dssp             CCTTCBHHHHHHHS
+T ss_pred             hhCCCCHHHHHHHC
+
+
+No 27
+>d1eu3a2 d.15.6.1 (A:97-209) Streptococcal superantigen Smez-2 {Streptococcus pyogenes [TaxId: 1314]}
+Probab=25.28  E-value=1.2e+02  Score=25.47  Aligned_cols=20  Identities=40%  Similarity=0.772  Sum_probs=0.0  Template_Neff=5.300
+
+Q ss_pred             HHcCCCeEEEEeCCCC-ccee
+Q FD01876222_039  211 SDFTSGKIRIITNDGT-SFSF  230 (233)
+Q Consensus       211 sdftsgkiriitndgt-sfsf  230 (233)
+                      |.+..|+|.|..+||. +|.|
+T Consensus        56 s~~~~G~I~i~~~d~~~~~t~   76 (113)
+T d1eu3a2          56 SSYKSGRLVFHTNDNSDKYSF   76 (113)
+T ss_dssp             CCCCEEEEEEEESSSSCCEEE
+T ss_pred             CCCcccEEEEEeCCCCceEEE
+
+
+No 28
+>1ET9_A SUPERANTIGEN SPE-H; beta grasp, OB fold, superantigen fold, IMMUNE SYSTEM; 1.9A {Streptococcus pyogenes} SCOP: d.15.6.1, b.40.2.2
+Probab=25.16  E-value=1.1e+02  Score=27.81  Aligned_cols=20  Identities=20%  Similarity=0.554  Sum_probs=0.0  Template_Neff=5.600
+
+Q ss_pred             HHcCCCeEEEEeCCCCccee
+Q FD01876222_039  211 SDFTSGKIRIITNDGTSFSF  230 (233)
+Q Consensus       211 sdftsgkiriitndgtsfsf  230 (233)
+                      |.+..|+|.|..+||.+|.|
+T Consensus       150 s~~~~G~I~~~~~d~~~~~~  169 (204)
+T 1ET9_A          150 QKYSKGTVTLDLNSGKDIVF  169 (204)
+T ss_dssp             CCCCCEEEEEEETTTEEEEE
+T ss_pred             CCCceeEEEEEeCCCCEEEE
+
+
+No 29
+>3KM9_X Staphylococcal enterotoxin-like toxin; OB-fold, beta-grasp domain, FN3 domain, Cleavage on pair of basic residues, Complement alternate pathway, Complement pathway; HET: NAG; 4.2A {Homo sapiens}
+Probab=24.75  E-value=1.4e+02  Score=24.75  Aligned_cols=19  Identities=32%  Similarity=0.356  Sum_probs=0.0  Template_Neff=5.300
+
+Q ss_pred             HcCCCeEEEEeCCCCccee
+Q FD01876222_039  212 DFTSGKIRIITNDGTSFSF  230 (233)
+Q Consensus       212 dftsgkiriitndgtsfsf  230 (233)
+                      .+.+|+|.|.++||.++.|
+T Consensus        55 ~~~~G~I~i~~kd~~~~~~   73 (103)
+T 3KM9_X           55 TTKYGKITINLKDGEKQEI   73 (103)
+T ss_dssp             SCCEEBCEEECSTTCEECC
+T ss_pred             CCCccEEEEEeCCCCEEEE
+
+
+No 30
+>d5lhxa_ d.223.1.0 (A:) automated matches {Fruit fly (Drosophila melanogaster) [TaxId: 7227]}
+Probab=24.53  E-value=2e+02  Score=20.51  Aligned_cols=20  Identities=25%  Similarity=0.584  Sum_probs=0.0  Template_Neff=8.800
+
+Q ss_pred             cCCCeEEEEeCCCCcceeee
+Q FD01876222_039  213 FTSGKIRIITNDGTSFSFLP  232 (233)
+Q Consensus       213 ftsgkiriitndgtsfsflp  232 (233)
+                      +.+|.|+|.-|||+...+.|
+T Consensus        18 Ls~g~v~v~F~Dgs~l~l~~   37 (87)
+T d5lhxa_          18 LSHGVVQVQFYDGSVVSVIP   37 (87)
+T ss_dssp             ETTSCEEEEETTSCEEEECC
+T ss_pred             CCCCeEEEEECCCCEEEEec
+
+
+No 31
+>3EA6_A Staphylococcal enterotoxin K; enterotoxin, superantigen, TOXIN; 0.92A {Staphylococcus aureus} SCOP: d.15.6.1, b.40.2.0
+Probab=24.18  E-value=1.2e+02  Score=27.86  Aligned_cols=20  Identities=35%  Similarity=0.674  Sum_probs=0.0  Template_Neff=5.600
+
+Q ss_pred             HHcCCCeEEEEeCCCCccee
+Q FD01876222_039  211 SDFTSGKIRIITNDGTSFSF  230 (233)
+Q Consensus       211 sdftsgkiriitndgtsfsf  230 (233)
+                      |.+..|+|.|.++||.+++|
+T Consensus       159 ~~~~~G~I~i~~~d~~~~~~  178 (219)
+T 3EA6_A          159 SGFNIGKVTFHLNNNDTFSY  178 (219)
+T ss_dssp             SSCSEEEEEEEETTSCEEEE
+T ss_pred             cCCceeEEEEEECCCCEEEE
+
+
+No 32
+>d2rdga2 d.15.6.0 (A:94-196) automated matches {Staphylococcus aureus [TaxId: 1280]}
+Probab=23.50  E-value=1.4e+02  Score=24.91  Aligned_cols=20  Identities=25%  Similarity=0.594  Sum_probs=0.0  Template_Neff=5.000
+
+Q ss_pred             HHcCCCeEEEEeCCCCccee
+Q FD01876222_039  211 SDFTSGKIRIITNDGTSFSF  230 (233)
+Q Consensus       211 sdftsgkiriitndgtsfsf  230 (233)
+                      .+...|+|.|..+||.++.|
+T Consensus        57 ~~~~~G~I~i~~kdg~~~~~   76 (103)
+T d2rdga2          57 TEPKDSKIRVTMKNGDFYTF   76 (103)
+T ss_dssp             SCCTTCEEEEEETTSCEEEE
+T ss_pred             CCCCccEEEEEeCCCCEEEE
+
+
+No 33
+>3Q1I_A Serine/threonine-protein kinase PLK1; KINASE, PEPTIDE BINDING PROTEIN, Plk1, Transferase; HET: SEP, 1PE; 1.4A {Homo sapiens}
+Probab=22.95  E-value=1.5e+02  Score=25.49  Aligned_cols=27  Identities=22%  Similarity=0.749  Sum_probs=0.0  Template_Neff=8.200
+
+Q ss_pred             ccccHHHcC----------CCeEEEEeCCCCcceeee
+Q FD01876222_039  206 WIQPWSDFT----------SGKIRIITNDGTSFSFLP  232 (233)
+Q Consensus       206 wiqpwsdft----------sgkiriitndgtsfsflp  232 (233)
+                      ||.-|-|++          .|.+-++-||+|++...|
+T Consensus        48 ~V~kWvDyS~kyG~gY~LsdG~~Gv~FnD~t~i~~~~   84 (232)
+T 3Q1I_A           48 WVSKWVDYSDKYGLGYQLCDNSVGVLFNDSTRLILYN   84 (232)
+T ss_dssp             CEEEEEEETTTTEEEEEETTSCEEEEETTSCEEEECT
+T ss_pred             EEeeeeccCCCeEEEEEecCCeEEEEEeCCCEEEEEc
+
+
+No 34
+>1BXT_A PROTEIN (STREPTOCOCCAL SUPERANTIGEN); BACTERIAL SUPERANTIGEN, MHC CLASS II INTERACTION, T CELL ACTIVATION, TOXIC SHOCK-LIKE SYNDROME, IMMUNE SYSTEM; 1.85A {Streptococcus pyogenes} SCOP: b.40.2.2, d.15.6.1
+Probab=22.56  E-value=1.4e+02  Score=27.47  Aligned_cols=20  Identities=35%  Similarity=0.718  Sum_probs=0.0  Template_Neff=6.100
+
+Q ss_pred             HHcCCCeEEEEeCCCCccee
+Q FD01876222_039  211 SDFTSGKIRIITNDGTSFSF  230 (233)
+Q Consensus       211 sdftsgkiriitndgtsfsf  230 (233)
+                      |.+.+|+|.|..+||.+|.|
+T Consensus       176 s~~~~G~I~~~~~~~~~~~~  195 (234)
+T 1BXT_A          176 SPYETGYIKFIESSGDSFWY  195 (234)
+T ss_dssp             CSEEEEEEEEEETTSCEEEE
+T ss_pred             CCCCeeEEEEEECCCCEEEE
+
+
+No 35
+>d4ohja2 d.15.6.1 (A:134-234) automated matches {Staphylococcus aureus [TaxId: 1280]}
+Probab=22.54  E-value=1.7e+02  Score=24.30  Aligned_cols=18  Identities=33%  Similarity=0.527  Sum_probs=0.0  Template_Neff=5.200
+
+Q ss_pred             cCCCeEEEEeCCCCccee
+Q FD01876222_039  213 FTSGKIRIITNDGTSFSF  230 (233)
+Q Consensus       213 ftsgkiriitndgtsfsf  230 (233)
+                      +..|+|.|.++||.++.|
+T Consensus        56 ~~~G~I~i~~kd~~~~~~   73 (101)
+T d4ohja2          56 KTGGYWKITMNDGSTYQS   73 (101)
+T ss_dssp             CSEEEEEEEETTSCEEEE
+T ss_pred             CCeeEEEEEeCCCCeEEE
+
+
+No 36
+>d3gmvx_ d.98.1.0 (X:) automated matches {Streptomyces exfoliatus [TaxId: 1905]}
+Probab=22.05  E-value=1.2e+02  Score=24.10  Aligned_cols=89  Identities=16%  Similarity=0.119  Sum_probs=0.0  Template_Neff=8.500
+
+Q ss_pred             cccchhhheeeeeehhchhhccccCcchhHHHHHhhhcCCCc-CcceeEEEeeecceecchhHHHHh--cCCccchhh--
+Q FD01876222_039   11 QKFDELKFGIVYTEVLGWLDMGHAGGDDISLLKQQFDAGESS-GNKYYSVIYKQNMRVRSKTLRQEM--GTGKFTRWE--   85 (233)
+Q Consensus        11 qkfdelkfgivytevlgwldmghaggddisllkqqfdagess-gnkyysviykqnmrvrsktlrqem--gtgkftrwe--   85 (233)
+                      .+|+.+++|.-|.||..-|.-+-.--+.-..-.+.+.=.... +....+|.+..+-++.+|......  ...++|+-.  
+T Consensus         6 ~~~~~Ik~G~t~~eV~~~lG~~~~~~~~~~~~~~~y~W~~~~~~~~~i~v~F~~~~kl~~K~~~~~~~~~~~~vt~~~y~   85 (156)
+T d3gmvx_           6 EKYEQIQFGMTFDEVWEIGGGEAACDTGGVIGDSILCFTESGDYAPYGGFSFTDEGELWSKRNEYLYKAKTPSVKLSHYN   85 (156)
+T ss_dssp             HHHHHCCTTCBHHHHHHHHTHHHHEECSGGGTTSEEEESSSSTTCCEEEEEECTTSBEEEEEEESSSCCSSCCCCHHHHT
+T ss_pred             HHHHHCCCCCCHHHHHHHhcCCCcccccCCcceEEEEEccCCCCCceEEEEEECCCcEEEEeehhcccCCCCCCCHHHHH
+
+
+Q ss_pred             -hhcCCCHHHHHHHH
+Q FD01876222_039   86 -IQRGRTQDEINSIM   99 (233)
+Q Consensus        86 -iqrgrtqdeinsim   99 (233)
+                       |+.|-+.+|+.+++
+T Consensus        86 ~I~~Gmsy~eV~~il  100 (156)
+T d3gmvx_          86 RTALGMTEAQLWAAV  100 (156)
+T ss_dssp             TCCTTCBHHHHHHHS
+T ss_pred             hhcCCCCHHHHHHHc
+
+
+No 37
+>3MC0_D Enterotoxin SEG; IMMUNE SYSTEM, Exotoxin; HET: ACT; 2.0A {Mus musculus} SCOP: b.40.2.0, d.15.6.0
+Probab=21.59  E-value=1.4e+02  Score=27.78  Aligned_cols=20  Identities=45%  Similarity=0.688  Sum_probs=0.0  Template_Neff=5.600
+
+Q ss_pred             HHcCCCeEEEEeCCCCccee
+Q FD01876222_039  211 SDFTSGKIRIITNDGTSFSF  230 (233)
+Q Consensus       211 sdftsgkiriitndgtsfsf  230 (233)
+                      |.+.+|+|.|..+||.+|.|
+T Consensus       174 s~~~~G~I~~~~kdg~~~~~  193 (239)
+T 3MC0_D          174 SAFESGYIKFTEKNNTSFWF  193 (239)
+T ss_dssp             CSCSEEEEEEECTTSCEEEE
+T ss_pred             CCCCeeEEEEEeCCCCEEEE
+
+
+No 38
+>2AQ2_B Enterotoxin type C-3; T-CELL RECEPTOR V BETA DOMAIN, STAPHLOCOCCAL ENTEROTOXIN C3, COMPLEX STRUCTURE, Immune system; HET: SO4; 1.8A {Mus musculus} SCOP: d.15.6.1, b.40.2.2
+Probab=20.83  E-value=1.5e+02  Score=27.32  Aligned_cols=20  Identities=35%  Similarity=0.791  Sum_probs=0.0  Template_Neff=5.900
+
+Q ss_pred             HHcCCCeEEEEeCCCCccee
+Q FD01876222_039  211 SDFTSGKIRIITNDGTSFSF  230 (233)
+Q Consensus       211 sdftsgkiriitndgtsfsf  230 (233)
+                      |.+..|+|.|..+||.+|+|
+T Consensus       177 s~~~~G~I~~~~kd~~~~~~  196 (237)
+T 2AQ2_B          177 SPYETGYIKFIENNGNTFWY  196 (237)
+T ss_dssp             CSEEEEEEEEECTTSCEEEE
+T ss_pred             CCCCeeEEEEEECCCCEEEE
+
+
+No 39
+>4OHJ_B Toxic shock syndrome toxin-1; Structural Genomics, NIAID, National Institute of Allergy and Infectious Diseases, Center for Structural Genomics of Infectious; 1.28A {Staphylococcus aureus} SCOP: d.15.6.1, l.1.1.1, b.40.2.2
+Probab=20.68  E-value=1.7e+02  Score=26.97  Aligned_cols=20  Identities=40%  Similarity=0.589  Sum_probs=0.0  Template_Neff=5.900
+
+Q ss_pred             HHcCCCeEEEEeCCCCccee
+Q FD01876222_039  211 SDFTSGKIRIITNDGTSFSF  230 (233)
+Q Consensus       211 sdftsgkiriitndgtsfsf  230 (233)
+                      |.+..|+|.|.++||.++.|
+T Consensus       166 ~~~~~G~I~i~~kd~~~~~~  185 (229)
+T 4OHJ_B          166 SDKTGGYWKITMNDGSTYQS  185 (229)
+T ss_dssp             TTSSEEEEEEEETTSCEEEE
+T ss_pred             CCCCccEEEEEECCCCEEEE
+
+
+No 40
+>4X9R_A Serine/threonine-protein kinase PLK1; POLO BOX DOMAIN PHOSPHOPEPTIDE MACROCYCLE INHIBITOR COMPLEX, TRANSFERASE-TRANSFERASE INHIBITOR complex; HET: 56A, TPO, 4L0; 1.398A {Homo sapiens}
+Probab=20.44  E-value=1.7e+02  Score=25.29  Aligned_cols=27  Identities=22%  Similarity=0.749  Sum_probs=0.0  Template_Neff=8.200
+
+Q ss_pred             ccccHHHcCC----------CeEEEEeCCCCcceeee
+Q FD01876222_039  206 WIQPWSDFTS----------GKIRIITNDGTSFSFLP  232 (233)
+Q Consensus       206 wiqpwsdfts----------gkiriitndgtsfsflp  232 (233)
+                      |+.-|-|+++          |.+-++-||+|++...|
+T Consensus        44 ~V~kWvDys~kyG~gY~LSdG~~Gv~FnD~t~~~~~~   80 (237)
+T 4X9R_A           44 WVSKWVDYSDKYGLGYQLCDNSVGVLFNDSTRLILYN   80 (237)
+T ss_dssp             CEEEEEEETTTTEEEEEETTSCEEEEETTSCEEEECT
+T ss_pred             EEEeeeecCCCceeEEEcCCCEEEEEEeCCCcEEEec
+
+

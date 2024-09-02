@@ -1,0 +1,270 @@
+Query         EEL0021152.1/1446-1572 
+Match_columns 127
+No_of_seqs    14 out of 19
+Neff          1.97092
+Searched_HMMs 107766
+Date          Sat Aug 14 02:47:27 2021
+Command       hhsearch -cpu 8 -i ../results/full.a3m -d /cluster/toolkit/production/databases/hh-suite/mmcif70/pdb70 -d /cluster/toolkit/production/databases/hh-suite/scope70/scope70 -d /cluster/toolkit/production/databases/hh-suite/pfama/pfama -d /cluster/toolkit/production/databases/hh-suite/TIGRFAM/TIGRFAM -o ../results/1751071.hhr -oa3m ../results/1751071.a3m -p 20 -Z 250 -loc -z 1 -b 1 -B 250 -ssm 2 -sc 1 -seq 1 -dbstrlen 10000 -norealign -maxres 32000 -contxt /cluster/toolkit/production/bioprogs/tools/hh-suite-build-new/data/context_data.crf 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF09954.11 ; DUF2188 ; Unchara  71.1      30 0.00028   21.4   4.3   41   21-61     12-54  (60)
+  2 PF06725.13 ; 3D ; 3D domain     49.3      44  0.0004   20.3   2.2   30   15-45     25-54  (62)
+  3 3BL4_B Uncharacterized protein  40.7      45 0.00042   20.9   1.4   15   32-46    110-124 (124)
+  4 2Q3L_A Uncharacterized protein  37.3      45 0.00042   20.6   1.0   13   32-44    114-126 (126)
+  5 2OOK_A Hypothetical protein; Y  37.2      51 0.00047   20.4   1.2   14   32-45    114-127 (127)
+  6 PF09322.12 ; DUF1979 ; Domain   31.8      78 0.00072   22.1   1.6   29   71-101     8-36  (58)
+  7 PF07661.15 ; MORN_2 ; MORN rep  28.0 1.6E+02  0.0015   14.9   2.0   14   49-62      2-15  (22)
+  8 PF14457.8 ; Prok-E2_A ; Prokar  25.3      70 0.00065   24.9   0.5   17   93-109    82-98  (162)
+  9 d2q3la1 c.13.2.2 (A:1-125) Unc  23.6 1.2E+02  0.0011   20.1   1.4   11   32-42    113-123 (125)
+ 10 TIGR01643 YD_repeat_2x; YD rep  23.5 2.3E+02  0.0021   14.5   3.3   28   47-74     14-41  (42)
+ 11 d2ooka1 c.13.2.2 (A:2-126) Hyp  23.5 1.2E+02  0.0011   20.5   1.3   14   32-45    112-125 (125)
+ 12 d3f0pa1 a.4.5.79 (A:1-80) Alky  23.1 1.6E+02  0.0015   22.5   2.0   22   43-64     53-74  (80)
+ 13 PF08350.12 ; DUF1724 ; Domain   21.8 3.6E+02  0.0034   17.2   3.1   35   13-47     19-53  (62)
+ 14 PF05593.16 ; RHS_repeat ; RHS   21.1 3.4E+02  0.0031   15.6   2.8   22   48-69     17-40  (42)
+ 15 PF11964.10 ; SpoIIAA-like ; Sp  20.8      99 0.00092   18.5   0.5   13   32-44     92-106 (106)
+ 16 5JN6_A Uncharacterized protein  20.8 4.3E+02   0.004   19.1   3.6   39   21-61     38-83  (91)
+ 17 6P4E_A Cysteine proteinase B;   20.4 2.5E+02  0.0024   19.9   2.4   39   61-104   168-206 (217)
+ 18 PF10386.11 ; DUF2441 ; Protein  20.0 2.5E+02  0.0023   21.7   2.5   25   31-55     78-102 (140)
+
+No 1
+>PF09954.11 ; DUF2188 ; Uncharacterized protein conserved in bacteria (DUF2188)
+Probab=71.07  E-value=30  Score=21.37  Aligned_cols=41  Identities=17%  Similarity=0.310  Sum_probs=0.0  Template_Neff=9.300
+
+Q ss_pred             eecCCceeeeeecCChHHHHHHHHHhhC--CCCeEEECCCCCE
+Q EEL0021152.1/1   21 TTKKGTTKVDTLFNNMNDAKNWAANQLG--LGKTRIYDSNGKW   61 (127)
+Q Consensus        21 ~tKkg~~K~d~lF~n~ndA~Nw~~~~lG--~~~~r~yd~~Gkw   61 (127)
+                      ....+..+....|+++.+|...|+.+.-  .....+++.+|++
+T Consensus        12 v~~~~~~~~~~~~~tk~~Ai~~a~~~a~~~~~~v~i~~~dG~~   54 (60)
+T B0T2Y1_CAUSK/1   12 VRRGGSSPATTVHATQDEATEAARSALRKSGGAVQVHGRDGRI   54 (60)
+T ss_pred             EEeCCCCCceEeeCCHHHHHHHHHHHHHHcCCeEEEECCCCCE
+
+
+No 2
+>PF06725.13 ; 3D ; 3D domain
+Probab=49.28  E-value=44  Score=20.27  Aligned_cols=30  Identities=30%  Similarity=0.586  Sum_probs=0.0  Template_Neff=9.900
+
+Q ss_pred             eEEeeceecCCceeeeeecCChHHHHHHHHH
+Q EEL0021152.1/1   15 VEIERLTTKKGTTKVDTLFNNMNDAKNWAAN   45 (127)
+Q Consensus        15 ~~i~~~~tKkg~~K~d~lF~n~ndA~Nw~~~   45 (127)
+                      ....++...++. ++|+.|++.++|+.|+++
+T Consensus        25 ~v~D~g~~~~~~-~iDi~~~~~~~a~~~g~~   54 (62)
+T Q46212_CLOPF/1   25 IAADTGGAIKGN-RVDLFFNTEAEASNWGVR   54 (62)
+T ss_pred             EEEeCCCCCcCC-EEEEEcCCHHHHHHhCCc
+
+
+No 3
+>3BL4_B Uncharacterized protein; Structural genomics, Joint Center for Structural Genomics, JCSG, Protein Structure Initiative, PSI-2, unknown function; HET: MSE, SO4; 2.2A {Arthrobacter sp.}
+Probab=40.67  E-value=45  Score=20.88  Aligned_cols=15  Identities=33%  Similarity=0.592  Sum_probs=0.0  Template_Neff=12.100
+
+Q ss_pred             ecCChHHHHHHHHHh
+Q EEL0021152.1/1   32 LFNNMNDAKNWAANQ   46 (127)
+Q Consensus        32 lF~n~ndA~Nw~~~~   46 (127)
+                      +|.+..+|+.|...+
+T Consensus       110 ~F~~~~~A~~WL~~~  124 (124)
+T 3BL4_B          110 FFTSERDALTWLALT  124 (124)
+T ss_dssp             EESCHHHHHHHHHCC
+T ss_pred             ecCCHHHHHHHHhcC
+
+
+No 4
+>2Q3L_A Uncharacterized protein; SPOIIAA-LIKE FOLD, STRUCTURAL GENOMICS, JOINT CENTER FOR STRUCTURAL GENOMICS, JCSG, PROTEIN STRUCTURE INITIATIVE, PSI-2, UNKNOWN FUNCTION; HET: MPD, MSE; 2.25A {Shewanella loihica PV-4} SCOP: c.13.2.2, l.1.1.1
+Probab=37.30  E-value=45  Score=20.62  Aligned_cols=13  Identities=31%  Similarity=0.813  Sum_probs=0.0  Template_Neff=12.400
+
+Q ss_pred             ecCChHHHHHHHH
+Q EEL0021152.1/1   32 LFNNMNDAKNWAA   44 (127)
+Q Consensus        32 lF~n~ndA~Nw~~   44 (127)
+                      +|.+..+|++|.+
+T Consensus       114 ~f~~~~~A~~Wl~  126 (126)
+T 2Q3L_A          114 FFEDKRDALDWLC  126 (126)
+T ss_dssp             EESCHHHHHHHHC
+T ss_pred             EeccHHHHHHhhC
+
+
+No 5
+>2OOK_A Hypothetical protein; YP_749275.1, hypothetical protein, Structural Genomics, Joint Center for Structural Genomics, JCSG, Protein Structure Initiative, PSI-2, UNKNOWN; HET: MSE, EDO; 1.8A {Shewanella frigidimarina} SCOP: c.13.2.2
+Probab=37.20  E-value=51  Score=20.43  Aligned_cols=14  Identities=29%  Similarity=0.646  Sum_probs=0.0  Template_Neff=12.400
+
+Q ss_pred             ecCChHHHHHHHHH
+Q EEL0021152.1/1   32 LFNNMNDAKNWAAN   45 (127)
+Q Consensus        32 lF~n~ndA~Nw~~~   45 (127)
+                      +|.+..+|++|...
+T Consensus       114 ~F~~~~~A~~wL~~  127 (127)
+T 2OOK_A          114 YFEDEDDALKWLRY  127 (127)
+T ss_dssp             EESCHHHHHHHHHC
+T ss_pred             hcCCHHHHHHHHhC
+
+
+No 6
+>PF09322.12 ; DUF1979 ; Domain of unknown function (DUF1979)
+Probab=31.82  E-value=78  Score=22.06  Aligned_cols=29  Identities=31%  Similarity=0.610  Sum_probs=0.0  Template_Neff=5.900
+
+Q ss_pred             ceEecCCCCCCCCcccCccccCCCceeeecC
+Q EEL0021152.1/1   71 SVYWGHGDWGHGDWGQGVGKSTFPHLNININ  101 (127)
+Q Consensus        71 ~VY~~~~~WgHgDWg~G~g~StfPHlNy~i~  101 (127)
+                      +||.|.|+=-||+  .|+-.|.|++.-..+.
+T Consensus         8 ~v~yg~g~vr~g~--~GvDls~F~~~~~gi~   36 (58)
+T A2Z0V7_ORYSI/4    8 DFYYGEGNVRCGQ--NGVDLSEFKCMTRGIE   36 (58)
+T ss_pred             EEEeCCCceeecC--CCCchhhceeeecCCC
+
+
+No 7
+>PF07661.15 ; MORN_2 ; MORN repeat variant
+Probab=27.99  E-value=1.6e+02  Score=14.85  Aligned_cols=14  Identities=29%  Similarity=0.378  Sum_probs=0.0  Template_Neff=8.700
+
+Q ss_pred             CCCeEEECCCCCEE
+Q EEL0021152.1/1   49 LGKTRIYDSNGKWI   62 (127)
+Q Consensus        49 ~~~~r~yd~~Gkw~   62 (127)
+                      ++..+.|+++|++.
+T Consensus         2 ~G~~~~y~~nG~l~   15 (22)
+T Q8RHC6_FUSNN/1    2 EGLTKSYYEDGSLE   15 (22)
+T ss_pred             CceEEEECCCCCEE
+
+
+No 8
+>PF14457.8 ; Prok-E2_A ; Prokaryotic E2 family A
+Probab=25.26  E-value=70  Score=24.90  Aligned_cols=17  Identities=29%  Similarity=0.532  Sum_probs=0.0  Template_Neff=8.000
+
+Q ss_pred             CCceeeecCCccceeee
+Q EEL0021152.1/1   93 FPHLNININGEKGHLFL  109 (127)
+Q Consensus        93 fPHlNy~i~g~kGhlFL  109 (127)
+                      |||+|++..+..|.|-|
+T Consensus        82 ~pH~~~~~~~~~~~lCL   98 (162)
+T Q21PA7_SACD2/1   82 LPHINPVVEGEDISPCI   98 (162)
+T ss_pred             CCccCCCCCCCCCCCcE
+
+
+No 9
+>d2q3la1 c.13.2.2 (A:1-125) Uncharacterized protein Shew3102 {Shewanella loihica [TaxId: 359303]}
+Probab=23.64  E-value=1.2e+02  Score=20.13  Aligned_cols=11  Identities=36%  Similarity=0.981  Sum_probs=0.0  Template_Neff=10.900
+
+Q ss_pred             ecCChHHHHHH
+Q EEL0021152.1/1   32 LFNNMNDAKNW   42 (127)
+Q Consensus        32 lF~n~ndA~Nw   42 (127)
+                      +|++..+|++|
+T Consensus       113 ~F~~~~eA~~W  123 (125)
+T d2q3la1         113 FFEDKRDALDW  123 (125)
+T ss_dssp             EESCHHHHHHH
+T ss_pred             eeCCHHHHHHH
+
+
+No 10
+>TIGR01643 YD_repeat_2x; YD repeat (two copies). This model describes two tandem copies of a 21-residue extracellular repeat found in Gram-negative, Gram-positive, and animal proteins.
+Probab=23.49  E-value=2.3e+02  Score=14.50  Aligned_cols=28  Identities=21%  Similarity=0.392  Sum_probs=0.0  Template_Neff=11.400
+
+Q ss_pred             hCCCCeEEECCCCCEEeEEcCCCCceEe
+Q EEL0021152.1/1   47 LGLGKTRIYDSNGKWIGWQNKAGDSVYW   74 (127)
+Q Consensus        47 lG~~~~r~yd~~Gkw~GW~n~~GD~VY~   74 (127)
+                      .|......||..|+......+.|..+-+
+T Consensus        14 ~~~~~~~~yd~~g~~~~~~~~~~~~~~~   41 (42)
+T TIGR01643        14 DGTTTRYTYDAAGRLVEITDADGGSTRY   41 (42)
+T ss_pred             CCCEEEEEEcCCCCEEEEEeCCCCEEEc
+
+
+No 11
+>d2ooka1 c.13.2.2 (A:2-126) Hypothetical protein Sfri0576 {Shewanella frigidimarina [TaxId: 56812]}
+Probab=23.47  E-value=1.2e+02  Score=20.53  Aligned_cols=14  Identities=29%  Similarity=0.646  Sum_probs=0.0  Template_Neff=10.500
+
+Q ss_pred             ecCChHHHHHHHHH
+Q EEL0021152.1/1   32 LFNNMNDAKNWAAN   45 (127)
+Q Consensus        32 lF~n~ndA~Nw~~~   45 (127)
+                      +|++..+|++|.+.
+T Consensus       112 ~F~~~~eA~~WL~~  125 (125)
+T d2ooka1         112 YFEDEDDALKWLRY  125 (125)
+T ss_dssp             EESCHHHHHHHHHC
+T ss_pred             ecCCHHHHHHHHhC
+
+
+No 12
+>d3f0pa1 a.4.5.79 (A:1-80) Alkylmercury lyase MerB {Escherichia coli [TaxId: 562]}
+Probab=23.12  E-value=1.6e+02  Score=22.53  Aligned_cols=22  Identities=32%  Similarity=0.555  Sum_probs=0.0  Template_Neff=4.700
+
+Q ss_pred             HHHhhCCCCeEEECCCCCEEeE
+Q EEL0021152.1/1   43 AANQLGLGKTRIYDSNGKWIGW   64 (127)
+Q Consensus        43 ~~~~lG~~~~r~yd~~Gkw~GW   64 (127)
+                      .+..|..-.---||++|+.+||
+T Consensus        53 V~~~L~~~p~~EyD~~GrIIG~   74 (80)
+T d3f0pa1          53 VAAVLEQATSTEYDKDGNIIGY   74 (80)
+T ss_dssp             HHHHHHHCTTCEECTTSCEEES
+T ss_pred             HHHHHHHcCCCEeCCCCCEEEe
+
+
+No 13
+>PF08350.12 ; DUF1724 ; Domain of unknown function (DUF1724)
+Probab=21.81  E-value=3.6e+02  Score=17.20  Aligned_cols=35  Identities=14%  Similarity=0.237  Sum_probs=0.0  Template_Neff=8.800
+
+Q ss_pred             CCeEEeeceecCCceeeeeecCChHHHHHHHHHhh
+Q EEL0021152.1/1   13 NGVEIERLTTKKGTTKVDTLFNNMNDAKNWAANQL   47 (127)
+Q Consensus        13 ~G~~i~~~~tKkg~~K~d~lF~n~ndA~Nw~~~~l   47 (127)
+                      +....-..-.+.|..-...|..+..+|..||+.+.
+T Consensus        19 d~~~~l~~~~~~g~~d~~~l~~~~~~av~Wa~~lf   53 (62)
+T Q8THW4_METAC/1   19 DRIMLLGLFDKNGKFDQQFIMSFEPAALRWGQELF   53 (62)
+T ss_pred             CCEEEEEeecCCCCcccceEEECCHHHHHHHHHHH
+
+
+No 14
+>PF05593.16 ; RHS_repeat ; RHS Repeat
+Probab=21.07  E-value=3.4e+02  Score=15.56  Aligned_cols=22  Identities=23%  Similarity=0.195  Sum_probs=0.0  Template_Neff=9.300
+
+Q ss_pred             CCCCeEEECCCCCE--EeEEcCCC
+Q EEL0021152.1/1   48 GLGKTRIYDSNGKW--IGWQNKAG   69 (127)
+Q Consensus        48 G~~~~r~yd~~Gkw--~GW~n~~G   69 (127)
+                      |....-.||+.|++  .-...+.|
+T Consensus        17 g~~~~~~yd~~g~l~~~~~~~~~g   40 (42)
+T Q8XTF5_RALSO/1   17 SKETRFGYDGLGRRTVITEVDGTG   40 (42)
+T ss_pred             CcEEEEEECCCCCeEEEEEECCCC
+
+
+No 15
+>PF11964.10 ; SpoIIAA-like ; SpoIIAA-like
+Probab=20.80  E-value=99  Score=18.48  Aligned_cols=13  Identities=31%  Similarity=0.800  Sum_probs=0.0  Template_Neff=12.400
+
+Q ss_pred             ec--CChHHHHHHHH
+Q EEL0021152.1/1   32 LF--NNMNDAKNWAA   44 (127)
+Q Consensus        32 lF--~n~ndA~Nw~~   44 (127)
+                      +|  .+..+|++|..
+T Consensus        92 ~f~~~~~~~A~~wl~  106 (106)
+T K9XV53_STAC7/1   92 YFKSNELEEAWHWLE  106 (106)
+T ss_pred             EeChHHHHHHHHHhC
+
+
+No 16
+>5JN6_A Uncharacterized protein; ribosome, protein-protein interaction, Structural Genomics, Structural Genomics Consortium, SGC, UNKNOWN FUNCTION; NMR {Rhodopseudomonas palustris (strain ATCC BAA-98 / CGA009)}
+Probab=20.76  E-value=4.3e+02  Score=19.15  Aligned_cols=39  Identities=8%  Similarity=-0.003  Sum_probs=0.0  Template_Neff=7.500
+
+Q ss_pred             eecCCceeeeeecCChHHHHHHHHHhhCC-------CCeEEECCCCCE
+Q EEL0021152.1/1   21 TTKKGTTKVDTLFNNMNDAKNWAANQLGL-------GKTRIYDSNGKW   61 (127)
+Q Consensus        21 ~tKkg~~K~d~lF~n~ndA~Nw~~~~lG~-------~~~r~yd~~Gkw   61 (127)
+                      .+..|  +.-..|.++.+|..-|+.+--.       ....+++++|+|
+T Consensus        38 v~~~g--~~~~~f~tk~eAi~~A~~~A~~~~~~G~~~~V~I~~~dG~~   83 (91)
+T 5JN6_A           38 IRHDD--DPTGDYSSKEAAFEAACAAASNAIKFGHEVRITVPGNDGSE   83 (91)
+T ss_dssp             EEECS--SCCCCCSCHHHHHHHHHHHHHHHHHHTCEEEEECCCTTCTT
+T ss_pred             EEeCC--eeceEcCCHHHHHHHHHHHHHHHHHcCCcEEEEEECCCCCE
+
+
+No 17
+>6P4E_A Cysteine proteinase B; endopeptidase, HYDROLASE-HYDROLASE INHIBITOR complex; HET: ACT, MPD, GES; 1.35A {Leishmania mexicana} SCOP: d.3.1.1
+Probab=20.44  E-value=2.5e+02  Score=19.89  Aligned_cols=39  Identities=13%  Similarity=0.338  Sum_probs=0.0  Template_Neff=11.800
+
+Q ss_pred             EEeEEcCCCCceEecCCCCCCCCcccCccccCCCceeeecCCcc
+Q EEL0021152.1/1   61 WIGWQNKAGDSVYWGHGDWGHGDWGQGVGKSTFPHLNININGEK  104 (127)
+Q Consensus        61 w~GW~n~~GD~VY~~~~~WgHgDWg~G~g~StfPHlNy~i~g~k  104 (127)
+                      .+||....+...+     +-+.-||..-|...|..+.|+.+.+.
+T Consensus       168 ivG~~~~~~~~~~-----~~~nSwG~~~G~~G~~~i~~~~~~~~  206 (217)
+T 6P4E_A          168 LVGYDMTGEVPYW-----VIKNSWGGDWGEQGYVRVVMGVNACL  206 (217)
+T ss_dssp             EEEEECSSSSCEE-----EEECSBCTTSTBTTEEEEESSSCGGG
+T ss_pred             EEEEeCCCCccEE-----EEEcccCCCccccCeEEEEecCCeEE
+
+
+No 18
+>PF10386.11 ; DUF2441 ; Protein of unknown function (DUF2441)
+Probab=20.03  E-value=2.5e+02  Score=21.69  Aligned_cols=25  Identities=4%  Similarity=0.274  Sum_probs=0.0  Template_Neff=7.700
+
+Q ss_pred             eecCChHHHHHHHHHhhCCCCeEEE
+Q EEL0021152.1/1   31 TLFNNMNDAKNWAANQLGLGKTRIY   55 (127)
+Q Consensus        31 ~lF~n~ndA~Nw~~~~lG~~~~r~y   55 (127)
+                      |+|++..+|+.|.+..-.......+
+T Consensus        78 F~~~s~e~A~~~~~~~~~~~~~~~~  102 (140)
+T R6M9U9_9CLOT/2   78 YVLKDKDEVNGWLEIFKRINRKPLQ  102 (140)
+T ss_pred             EEeCCHHHHHHHHHHhhhcCCCCeE
+
+

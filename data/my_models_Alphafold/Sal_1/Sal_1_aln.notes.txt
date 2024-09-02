@@ -1,0 +1,26 @@
+Sequências retiradas por estarem truncadas a esquerda e são bem menores de tamanho, com bastante gaps no alinhamento
+
+>WP_136771795.1/37-99
+------------------------------------------------MKNSKAG-----SD-----GN--R
+WTKVGDGKKAEYHRFQN----DGNGN----WHWNGSTNGRTANGS--PRNIR-PDNIPKDVK-------
+>GHB93635.1/2-63
+----------------------PSR-KVPFN----SSKSIIPPNAEELFKLSQLDP---NDS-----KT--T
+WVKIGEGKKAAWHRFQSS-AADDSGP----FH-------------------------------------
+>RDF01935.1/5-59
+-------------------------------------------------------------------GN--R
+WAVDYQKGKVIYHRFQN----DGNGN----FHWNGSTSGKTIDGI--DRNID-IRHVPKDITN------
+>EGU7155003.1/1280-1336
+-KGPVYENPGHHD--PNY--L-PNR-QVPFN----SSKSVIPSNAEDLFKLSQIDP---DDP-----KT---
+--------------------------------------------------------------NEMLMQL
+>PNW17277.1/18-63
+------------------------------------------------------------------------
+----QKDGTTIYHRFQN----DGNGN----FHWNGSTNGKTASGV--DRS-D-VSKIPPEIL-------
+>WP_162556658.1/17-102
+------------------------G-GAGYK----PDAGIEPRNSLELFEHSIPTK---DPK----------
+-TRLSIDSDGNIHRFFSE-SKDGSGA----FHWSGSTGDTNSSLG--HRELK---KFNSEIKTLRGA--
+>WP_034618084.1/4-58
+-------------------------------------------------------------D-----GN--R
+WAVENINGKNVYHRFQN----DGNGN----FHWNGSTNGKTAFGE--NRA-D-IGKIPAEITR------
+>WP_080741351.1/88-136
+------------------------------------------------------------------------
+-----------HHRFQSS-AADGSGP----FHWNGSTDGIDIKSK--PRAID-PRNVPKYAKNMEGIK-

@@ -1,0 +1,143 @@
+Query         WP_210939686.1/1962-2056 
+Match_columns 95
+No_of_seqs    40 out of 44
+Neff          3.74088
+Searched_HMMs 107766
+Date          Mon Aug 16 16:46:07 2021
+Command       hhsearch -cpu 8 -i ../results/full.a3m -d /cluster/toolkit/production/databases/hh-suite/mmcif70/pdb70 -d /cluster/toolkit/production/databases/hh-suite/scope70/scope70 -d /cluster/toolkit/production/databases/hh-suite/pfama/pfama -d /cluster/toolkit/production/databases/hh-suite/TIGRFAM/TIGRFAM -o ../results/3845712.hhr -oa3m ../results/3845712.a3m -p 20 -Z 250 -loc -z 1 -b 1 -B 250 -ssm 2 -sc 1 -seq 1 -dbstrlen 10000 -norealign -maxres 32000 -contxt /cluster/toolkit/production/bioprogs/tools/hh-suite-build-new/data/context_data.crf 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5T87_G CdiA toxin; Contact-dep  62.6      65  0.0006   21.9   4.9   45   23-67      1-46  (76)
+  2 5T87_H CdiA toxin; Contact-dep  62.6      65  0.0006   21.9   4.9   45   23-67      1-46  (76)
+  3 1Z1A_A Regulatory protein SIR1  44.8      43  0.0004   26.2   2.1   63   18-95     71-133 (142)
+  4 d1z1aa1 d.339.1.1 (A:484-611)   31.1 1.2E+02  0.0011   23.4   2.6   62   18-94     57-118 (128)
+  5 PF06174.13 ; DUF987 ; Protein   25.9 1.3E+02  0.0012   20.9   1.8   28   57-90     20-47  (65)
+  6 PF11603.10 ; Sir1 ; Sir1, ORC-  25.6 2.6E+02  0.0024   20.7   3.4   35   20-69     57-91  (121)
+  7 4QOA_A Putative periplasmic pr  24.2 1.8E+02  0.0017   20.3   2.3   73   23-95     10-83  (127)
+  8 d3db7a1 d.98.2.1 (A:20-145) au  23.8 1.7E+02  0.0016   20.5   2.1   72   23-95     10-82  (126)
+  9 3DB7_A putative calcium-regula  22.3 2.1E+02  0.0019   19.7   2.3   71   23-94     11-82  (127)
+
+No 1
+>5T87_G CdiA toxin; Contact-dependent growth inhibition, toxin, antitoxin, immunity protein, Structural Genomics, PSI-Biology, Midwest Center for Structural Genomics, MCSG; HET: MSE; 2.4A {Cupriavidus taiwanensis (strain DSM 17343 / BCRC 17206 / CIP 107171 / LMG 19424 / R1)}
+Probab=62.56  E-value=65  Score=21.88  Aligned_cols=45  Identities=16%  Similarity=0.265  Sum_probs=0.0  Template_Neff=7.100
+
+Q ss_pred             CCCCCCHHHHHHcCeecCCCceEEEEeC-CceEEEEeeeCCCCCee
+Q WP_210939686.1   23 GVLPADAEAQFQNSVLVEGTRWTKIGSG-KKAIYYRYSNDEHGNWH   67 (95)
+Q Consensus        23 svLP~nh~eLf~~sv~~~g~rW~k~~~~-~~g~~HRFQ~dgng~~H   67 (95)
+                      |.-|.|-.+.++.|++..+++=.+++.| +.+.|-.|.....+.||
+T Consensus         1 ~~~p~n~q~~L~~s~~~~~~~~rrigvd~~~~e~vvfd~t~~~~yh   46 (76)
+T 5T87_G            1 SRGPSNGQSVLENSVQVKETSPRRVSVDPQTGEFVVFDRTLGDVYH   46 (76)
+T ss_dssp             -CCCTTHHHHHHTCEEEETTEEEEEEECTTTCCEEEEEEEETTEEE
+T ss_pred             CCCCchhHHHhhcceecCCCCCceEEeCCCCCeEEEEeCCCCCeEE
+
+
+No 2
+>5T87_H CdiA toxin; Contact-dependent growth inhibition, toxin, antitoxin, immunity protein, Structural Genomics, PSI-Biology, Midwest Center for Structural Genomics, MCSG; HET: MSE; 2.4A {Cupriavidus taiwanensis (strain DSM 17343 / BCRC 17206 / CIP 107171 / LMG 19424 / R1)}
+Probab=62.56  E-value=65  Score=21.88  Aligned_cols=45  Identities=16%  Similarity=0.265  Sum_probs=0.0  Template_Neff=7.100
+
+Q ss_pred             CCCCCCHHHHHHcCeecCCCceEEEEeC-CceEEEEeeeCCCCCee
+Q WP_210939686.1   23 GVLPADAEAQFQNSVLVEGTRWTKIGSG-KKAIYYRYSNDEHGNWH   67 (95)
+Q Consensus        23 svLP~nh~eLf~~sv~~~g~rW~k~~~~-~~g~~HRFQ~dgng~~H   67 (95)
+                      |.-|.|-.+.++.|++..+++=.+++.| +.+.|-.|.....+.||
+T Consensus         1 ~~~p~n~q~~L~~s~~~~~~~~rrigvd~~~~e~vvfd~t~~~~yh   46 (76)
+T 5T87_H            1 SRGPSNGQSVLENSVQVKETSPRRVSVDPQTGEFVVFDRTLGDVYH   46 (76)
+T ss_dssp             --CCSSHHHHHHTCEESCTTCCCEEEECTTTCCEEEEEEEETTEEE
+T ss_pred             CCCCchhHHHhhcceecCCCCCceEEeCCCCCeEEEEeCCCCCeEE
+
+
+No 3
+>1Z1A_A Regulatory protein SIR1; novel fold, TRANSCRIPTION; HET: MSE; 2.5A {Saccharomyces cerevisiae} SCOP: d.339.1.1
+Probab=44.82  E-value=43  Score=26.16  Aligned_cols=63  Identities=11%  Similarity=0.186  Sum_probs=0.0  Template_Neff=5.600
+
+Q ss_pred             CCCCCCCCCCCHHHHHHcCeecCCCceEEEEeCCceEEEEeeeCCCCCeeeccccCCccCCCCccccCHhhCCccccC
+Q WP_210939686.1   18 YNPNKGVLPADAEAQFQNSVLVEGTRWTKIGSGKKAIYYRYSNDEHGNWHWSGSSNGVDNRGNPVQIPLNHIPIQVRR   95 (95)
+Q Consensus        18 y~~~ksvLP~nh~eLf~~sv~~~g~rW~k~~~~~~g~~HRFQ~dgng~~HWnGStng~t~~G~~r~i~i~~vP~~v~~   95 (95)
+                      |.-+...+|....+||+.+..               .-.+|.-+.+|..|.+.+....+..+..+.+...-||..+..
+T Consensus        71 ~~~~~~~iP~~S~~LF~~v~t---------------~~k~F~~d~~G~~~~~~~~~~~~~~~~~~~~~~rcIpi~l~~  133 (142)
+T 1Z1A_A           71 FKKYQDPIPLKAKTLFKFCKQ---------------IKKKFLRGADFKLHTLPTEANLKYEPERMTVLASCVPILLDD  133 (142)
+T ss_dssp             GSSCCSCEEECCSSHHHHSCC---------------EEEEEEECTTSSEECCCC-----------EEEEEEEEEECTT
+T ss_pred             HhhcCCceeeCCHHHHHHhhe---------------eEEEEEECCCCcEEeCCcccCCCCCcccceEEEEEEEEeCCc
+
+
+No 4
+>d1z1aa1 d.339.1.1 (A:484-611) Regulatory protein SIR1 {Baker's yeast (Saccharomyces cerevisiae) [TaxId: 4932]}
+Probab=31.08  E-value=1.2e+02  Score=23.36  Aligned_cols=62  Identities=11%  Similarity=0.191  Sum_probs=0.0  Template_Neff=5.800
+
+Q ss_pred             CCCCCCCCCCCHHHHHHcCeecCCCceEEEEeCCceEEEEeeeCCCCCeeeccccCCccCCCCccccCHhhCCcccc
+Q WP_210939686.1   18 YNPNKGVLPADAEAQFQNSVLVEGTRWTKIGSGKKAIYYRYSNDEHGNWHWSGSSNGVDNRGNPVQIPLNHIPIQVR   94 (95)
+Q Consensus        18 y~~~ksvLP~nh~eLf~~sv~~~g~rW~k~~~~~~g~~HRFQ~dgng~~HWnGStng~t~~G~~r~i~i~~vP~~v~   94 (95)
+                      |..++..+|....+||+.+..               .--+|--+.+|..|.++++...........+...-||...+
+T Consensus        57 l~~~~~~iP~~s~~LF~~v~t---------------~~~~f~~d~~G~~~~~~~~~~~~~~~~~~~~~~~vIpi~~~  118 (128)
+T d1z1aa1          57 FKKYQDPIPLKAKTLFKFCKQ---------------IKKKFLRGADFKLHTLPTEANLKYEPERMTVLASCVPILLD  118 (128)
+T ss_dssp             GSSCCSCEEECCSSHHHHSCC---------------EEEEEEECTTSSEECCCC-----------EEEEEEEEEECT
+T ss_pred             HccCCCceeeCCHHHHHHhce---------------EEEEEEECCCceEEeCCcccCCCCCcccceEEEEEEEeecc
+
+
+No 5
+>PF06174.13 ; DUF987 ; Protein of unknown function (DUF987)
+Probab=25.87  E-value=1.3e+02  Score=20.94  Aligned_cols=28  Identities=21%  Similarity=0.298  Sum_probs=0.0  Template_Neff=5.000
+
+Q ss_pred             EeeeCCCCCeeeccccCCccCCCCccccCHhhCC
+Q WP_210939686.1   57 RYSNDEHGNWHWSGSSNGVDNRGNPVQIPLNHIP   90 (95)
+Q Consensus        57 RFQ~dgng~~HWnGStng~t~~G~~r~i~i~~vP   90 (95)
+                      |....-.|++.|.||...      -...++.++|
+T Consensus        20 rl~~~ctgKY~W~gs~~~------y~grev~di~   47 (65)
+T YPJJ_ECOLI/1-6   20 RIFRYCTGKYQWHGSVCH------YTGRDVPDIT   47 (65)
+T ss_pred             eeecccCCceeeeccccc------ccCcccCCCC
+
+
+No 6
+>PF11603.10 ; Sir1 ; Sir1, ORC-binding domain
+Probab=25.56  E-value=2.6e+02  Score=20.71  Aligned_cols=35  Identities=23%  Similarity=0.383  Sum_probs=0.0  Template_Neff=7.200
+
+Q ss_pred             CCCCCCCCCHHHHHHcCeecCCCceEEEEeCCceEEEEeeeCCCCCeeec
+Q WP_210939686.1   20 PNKGVLPADAEAQFQNSVLVEGTRWTKIGSGKKAIYYRYSNDEHGNWHWS   69 (95)
+Q Consensus        20 ~~ksvLP~nh~eLf~~sv~~~g~rW~k~~~~~~g~~HRFQ~dgng~~HWn   69 (95)
+                      ++...+|....+||+.+..               .-++|.-+.+|..|++
+T Consensus        57 ~~~~lip~~S~~LF~~v~t---------------~~~~F~~~~~G~~~~~   91 (121)
+T G0VIY8_NAUCC/5   57 PNTDLVPCSSKELFAQSHL---------------EVKKFVRTDEGFKLLS   91 (121)
+T ss_pred             CCCceeecCCHHHHHhCcc---------------EEEEEEECCCccEEec
+
+
+No 7
+>4QOA_A Putative periplasmic protein; Two copies of DUF2874 domain (PF11396), BLIP-like fold, Structural Genomics, Joint Center for Structural Genomics, JCSG; 2.75A {Bacteroides uniformis} SCOP: d.98.2.0
+Probab=24.21  E-value=1.8e+02  Score=20.26  Aligned_cols=73  Identities=12%  Similarity=0.096  Sum_probs=0.0  Template_Neff=9.400
+
+Q ss_pred             CCCCCCHHHHHHcCeec-CCCceEEEEeCCceEEEEeeeCCCCCeeeccccCCccCCCCccccCHhhCCccccC
+Q WP_210939686.1   23 GVLPADAEAQFQNSVLV-EGTRWTKIGSGKKAIYYRYSNDEHGNWHWSGSSNGVDNRGNPVQIPLNHIPIQVRR   95 (95)
+Q Consensus        23 svLP~nh~eLf~~sv~~-~g~rW~k~~~~~~g~~HRFQ~dgng~~HWnGStng~t~~G~~r~i~i~~vP~~v~~   95 (95)
+                      +.||....+.|++.-+. .-..|.+...+.....+...-...-.+..+...+=.......+.|....||..|+.
+T Consensus        10 ~~~P~~v~~~~~~~~~~~~~~~~~~~~~~~~~~~y~v~~~~g~~~~fd~~G~~~~~~~~~~~~~~~~lP~~I~~   83 (127)
+T 4QOA_A           10 KQLPLTARNFINQYFSKPHISHIKIESEILQTKKYEVLLTDRTEIDFDKKGNWLEVDCKKSAVPEALIPVPVKE   83 (127)
+T ss_dssp             GGSCHHHHHHHHHHCSSCCCCCEEECCCCCCSEEEEEECTTSCEEEEETTSCEEEEECTTSCCCGGGSCHHHHH
+T ss_pred             hHcCHHHHHHHHHHCCCCceEEEEEeccccCCceEEEEeCCCCEEEEcCCCCEEEEecCCCcCCHHHCCHHHHH
+
+
+No 8
+>d3db7a1 d.98.2.1 (A:20-145) automated matches {Bacteroides thetaiotaomicron [TaxId: 818]}
+Probab=23.81  E-value=1.7e+02  Score=20.46  Aligned_cols=72  Identities=10%  Similarity=0.047  Sum_probs=0.0  Template_Neff=9.300
+
+Q ss_pred             CCCCCCHHHHHHcCeec-CCCceEEEEeCCceEEEEeeeCCCCCeeeccccCCccCCCCccccCHhhCCccccC
+Q WP_210939686.1   23 GVLPADAEAQFQNSVLV-EGTRWTKIGSGKKAIYYRYSNDEHGNWHWSGSSNGVDNRGNPVQIPLNHIPIQVRR   95 (95)
+Q Consensus        23 svLP~nh~eLf~~sv~~-~g~rW~k~~~~~~g~~HRFQ~dgng~~HWnGStng~t~~G~~r~i~i~~vP~~v~~   95 (95)
+                      +.||+...+.|.+.-+. .-..|.+........|--=-.++. .+..+-...=....+....|....||..|+.
+T Consensus        10 ~~lP~~v~~~~~~~fp~a~~~~~~~~~~~~~~~y~v~~~~g~-~~~f~~~G~~~~~~~~~~~i~~~~LP~~v~~   82 (126)
+T d3db7a1          10 TQMPQLAQQFIKQHFSDSKVALAKMESDFLYKSYEVIFTNGN-KVEFDKKGNWEEVDCKHTSVPVAIIPAAIQK   82 (126)
+T ss_dssp             GGSCHHHHHHHHHHCTTSCEEEEEEEEETTEEEEEEEETTSC-EEEECTTSCEEEEECTTSCCCGGGSCHHHHH
+T ss_pred             HHcCHHHHHHHHHHCCCCeeEEEEEeccccCCeEEEEEeCCC-EEEECCCCCEEEEeeCCeecCHHHcCHHHHH
+
+
+No 9
+>3DB7_A putative calcium-regulated periplasmic protein; Structural genomics, Joint Center for Structural Genomics, JCSG, Protein Structure Initiative, PSI-2, ca-binding protein; HET: MSE, EDO; 1.4A {Bacteroides thetaiotaomicron} SCOP: d.98.2.1, l.1.1.1
+Probab=22.25  E-value=2.1e+02  Score=19.67  Aligned_cols=71  Identities=10%  Similarity=0.035  Sum_probs=0.0  Template_Neff=9.900
+
+Q ss_pred             CCCCCCHHHHHHcCeec-CCCceEEEEeCCceEEEEeeeCCCCCeeeccccCCccCCCCccccCHhhCCcccc
+Q WP_210939686.1   23 GVLPADAEAQFQNSVLV-EGTRWTKIGSGKKAIYYRYSNDEHGNWHWSGSSNGVDNRGNPVQIPLNHIPIQVR   94 (95)
+Q Consensus        23 svLP~nh~eLf~~sv~~-~g~rW~k~~~~~~g~~HRFQ~dgng~~HWnGStng~t~~G~~r~i~i~~vP~~v~   94 (95)
+                      +.||....+.|++..+. .-..|.+...+....|.--..++. .+..+-...=....+....|+...||..|+
+T Consensus        11 ~~lP~~v~~~~~~~~~~~~~~~~~~~~~~~~~~y~v~f~~~~-~~~~d~~G~~~~~~~~~~~~~~~~lP~~i~   82 (127)
+T 3DB7_A           11 TQMPQLAQQFIKQHFSDSKVALAKMESDFLYKSYEVIFTNGN-KVEFDKKGNWEEVDCKHTSVPVAIIPAAIQ   82 (127)
+T ss_dssp             GGSCHHHHHHHHHHCTTSCEEEEEEEEETTEEEEEEEETTSC-EEEECTTSCEEEEECTTSCCCGGGSCHHHH
+T ss_pred             HHcCHHHHHHHHHHCCCCcEEEEEecCCcCcceEEEEEcCCC-EEEECCCCCEEEEEeCCCcCCHHHCCHHHH
+
+

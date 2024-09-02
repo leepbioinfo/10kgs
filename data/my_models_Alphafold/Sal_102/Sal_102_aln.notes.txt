@@ -1,0 +1,12 @@
+>WP_137504569.1/6-74
+-FALPAIV-EGVNWFLVA---SAAAGGAVLA-----------TPSDSQ-----QTKKKTES-LTN-CP--TI
+PPEDPCDKKIDDRLL-------KKMDI-------------------------------SD------------
+----------------------------
+>WP_212668236.1/232-337
+--ALPLLGEVAINWLVVG---SGAAAGGALI-----------TSGDS-------EKSKSEN-LTK-CE--ET
+KSCPPC-NPPAGEKFNKVT-HYTKHGRDPDPLAGSHGCMGKTGSPIHWHYDVNNQNP-KT----CECN----
+----------------------------
+>ECD9444649.1/69-126
+AFAIPAII-EGINWLFWG---STVTGGAVLA-----------TSGDSE-----KSKNKTES-LTN-CP--TM
+PPNDPCDKKL--------------------------------------------------------------
+----------------------------

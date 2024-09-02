@@ -1,0 +1,130 @@
+Query         FD01845440_00348 TIGR03756 family integrating conjugative element protein
+Match_columns 310
+No_of_seqs    1 out of 9
+Neff          1
+Searched_HMMs 107766
+Date          Mon Aug 23 15:59:38 2021
+Command       hhsearch -cpu 8 -i ../results/full.a3m -d /cluster/toolkit/production/databases/hh-suite/mmcif70/pdb70 -d /cluster/toolkit/production/databases/hh-suite/scope70/scope70 -d /cluster/toolkit/production/databases/hh-suite/pfama/pfama -d /cluster/toolkit/production/databases/hh-suite/TIGRFAM/TIGRFAM -o ../results/4212944.hhr -oa3m ../results/4212944.a3m -p 20 -Z 250 -loc -z 1 -b 1 -B 250 -ssm 2 -sc 1 -seq 1 -dbstrlen 10000 -norealign -maxres 32000 -contxt /cluster/toolkit/production/bioprogs/tools/hh-suite-build-new/data/context_data.crf 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 TIGR03756 conj_TIGR03756; inte 100.0 5.3E-77 4.9E-82  522.2  16.4  283   21-309     1-297 (297)
+  2 PF06834.13 ; TraU ; TraU prote 100.0 3.8E-34 3.5E-39  246.0   9.1  255   29-299    10-307 (307)
+  3 d1i7na1 c.30.1.5 (A:113-214) S  23.7 1.5E+02  0.0014   25.6   2.2   23   49-71     45-73  (102)
+  4 d2p0aa1 c.30.1.0 (A:90-192) au  21.1 1.9E+02  0.0017   25.0   2.2   23   49-71     45-74  (103)
+
+No 1
+>TIGR03756 conj_TIGR03756; integrating conjugative element protein, PFL_4710 family. Members of this protein family are found in genomic regions associated with conjugative transfer and integrated TOL-like plasmids.
+Probab=100.00  E-value=5.3e-77  Score=522.18  Aligned_cols=283  Identities=60%  Similarity=1.163  Sum_probs=260.5  Template_Neff=6.300
+
+Q ss_pred             cCCHHHHhhccCcchhhheeeeeeEheeeCCcCCceeecceEEeeCCCeEEEEEEecCCCCcccccCCCCCCCCccc---
+Q FD01845440_003   21 ITTPEIAASALSPTCVKYQVVGVCYWLFCSPFGCSVRTSMKVRYFRPDLVVSAYSVTGQNPWTEMSPLSSPLPGIAD---   97 (310)
+Q Consensus        21 ittpeiaasalsptcvkyqvvgvcywlfcspfgcsvrtsmkvryfrpdlvvsaysvtgqnpwtemsplssplpgiad---   97 (310)
+                      |||+||++++++|.|..|+|+|+||||+|+||||+||||.||+.|-||+|||+|.-+|+|||+||+.++.+..+.+.   
+T Consensus         1 ~~t~~i~~~~~~~~C~~y~v~GiC~wl~ct~~gc~v~ts~kV~h~~Pd~vVs~y~~~g~~Pw~e~~~l~~~~~~~~~~~~   80 (297)
+T TIGR03756         1 INTATIVASTLSPSCLDYKVVGICYWLLCTPFGCKVKTSVKVRHFIPDLVVSSYNRPGGNPWVEMRALSQPAAGAQLYQT   80 (297)
+T ss_pred             CCHHHHHHhhcCcchhceEEEEEEEEeEeCCCccEEEEcccccccCCCeEEEeeCCCCCCCcHHHHhccCcchhhHHhhe
+Confidence            79999999999999999999999999999999999999999999999999999999999999999999998875543   
+
+
+Q ss_pred             -------CCC-CCChhhhccccce-eecCCcccCCcchHHHHHHHHHhCceecCCCCCCHHHHHHHHHHHHHHhCCCchh
+Q FD01845440_003   98 -------TGG-DTNPRAVGQHSKV-RFKNADAIGFPAGDALANFFAQFGYVCAPSSQPFLPYFLSTLDALAWRSGVPEMF  168 (310)
+Q Consensus        98 -------tgg-dtnpravgqhskv-rfknadaigfpagdalanffaqfgyvcapssqpflpyflstldalawrsgvpemf  168 (310)
+                             .|| ++.. .-++|... +|||+|+||+|+...|..|..+++|.|.....+|-|||+|+||.++||+++||++
+T Consensus        81 ~g~~~~~~gG~~~~~-~~~~~~~~~~F~~v~~ig~P~~~~l~~~~~~~~~~C~~~~~~f~~~ylSelDp~wwr~~l~~~l  159 (297)
+T TIGR03756        81 LYTGSAVGGGNDGGT-PGNRHNNLERFKNADVIGHPAGAYFSAFASRSGYLCPSAATPFVPYYLSTLDALAWRTGIPELL  159 (297)
+T ss_pred             eecCCCCCCCCCCCC-CCCCCCcccceEEEeEEechHHHHHHHHHhhhCCCCCCCCCCcchhhhhcccHHhhccCCchHh
+Confidence                   233 3332 33366666 9999999999999988887677999999888899999999999999999999999
+
+
+Q ss_pred             ChhhcCccceeecC--CCCcccccccCCcccccCcchhhhhHhHHHHHHHHhhCCeecEEEeeecccCCCcCCCCCCCCC
+Q FD01845440_003  169 YPEALTPGLREVSK--DGDMWGNIYPRAGALSQTHDYKAGAVIAQRAADLVTRNGQPHVYIPLAASTHDGYWPPDPVTEG  246 (310)
+Q Consensus       169 ypealtpglrevsk--dgdmwgniypragalsqthdykagaviaqraadlvtrngqphvyiplaasthdgywppdpvteg  246 (310)
+                      |||++.++.+|+..  -.++||++|||.|.+.|.|++||++++|||++|.++|.||+|+|.++.+.-.+|||||.|+.|+
+T Consensus       160 ~Pea~l~g~~~~~l~wc~g~WG~~YPrtG~v~q~~~~kasav~A~Ra~~~v~R~g~~~~~~~~~~~c~~g~~pp~pv~~~  239 (297)
+T TIGR03756       160 YPEALIPGLREIGIGTSTNMWGNVYPRSGFVTQPDDYKAAAVVAQRAADIVTRTGQPHVYQPLTGSPGDGYWPPGPLVEN  239 (297)
+T ss_pred             CHhHhCCCCccCCCccccCCCCCcCCcCCcccCCCHHHHHHHHHHHHHHHHHhcCCceeecCCCCCCCCCccCCCCeecC
+Confidence            99999999998775  6789999999999999999999999999999999999999999999988888999999999999
+
+
+Q ss_pred             CCCCceeEEeeecCcccEEECCCCCCchhHHHHHHhcCceeeeeccccccCCCCCccccccCC
+Q FD01845440_003  247 DNNNHQWQMLVPKKSASCAIFPDGSTTDSYADKLAEDGAYVRTLWRPYKCCPRRGQTFLGSSG  309 (310)
+Q Consensus       247 dnnnhqwqmlvpkksascaifpdgsttdsyadklaedgayvrtlwrpykccprrgqtflgssg  309 (310)
+                      +.+++.||||.|+.+.+|..||+...     ...++++.|+-.|||+|+||-||||+||++.+
+T Consensus       240 ~k~~~k~Q~l~P~~~~~C~~fg~~~~-----~~~~~~~~y~w~lWR~y~CC~~~g~~~l~~~~  297 (297)
+T TIGR03756       240 DNNTGKWQELYPKLSSSCAVFPDSGP-----DKQAANGNYAWALWRPYSCCQRRGQTFLGSTD  297 (297)
+T ss_pred             CCCCceeeecccccCcceecCCCCCC-----CcccCCCceEEEEeeeeccccccCCeeeEEcC
+Confidence            99999999999999999999999873     45788899999999999999999999999864
+
+
+No 2
+>PF06834.13 ; TraU ; TraU protein
+Probab=100.00  E-value=3.8e-34  Score=245.97  Aligned_cols=255  Identities=19%  Similarity=0.206  Sum_probs=208.7  Template_Neff=7.700
+
+Q ss_pred             hccCcchhhheeee-----------------eeEheee-CCcCCceeecceEEeeCCCeEEEEEEecCCCCcccccCCCC
+Q FD01845440_003   29 SALSPTCVKYQVVG-----------------VCYWLFC-SPFGCSVRTSMKVRYFRPDLVVSAYSVTGQNPWTEMSPLSS   90 (310)
+Q Consensus        29 salsptcvkyqvvg-----------------vcywlfc-spfgcsvrtsmkvryfrpdlvvsaysvtgqnpwtemsplss   90 (310)
+                      +..+.+|+.|+++|                 ||+   | +++||+++ +++|+||.||++||++++++++|-.....+..
+T Consensus        10 ~~~~w~c~~p~~igg~~~~~~~~~~~~~~~~iC~---C~~~~~~~~~-g~~v~~w~P~~ivev~~~p~c~p~lgg~~~~~   85 (307)
+T I3Y931_THIV6/4   10 TDLCWSCLFPLRIAGAPIGGGPVPRGASDRALCA---CPDARGIPSP-GVVIGMWEPARIVELVRVPGCLPALGGARLDL   85 (307)
+T ss_pred             ccCCHHHcccEEEcCcccCCCCCCCCcCCCCcee---cCCCCCCCCC-cEEEceecceeEEEeeecCCcccccCCeeccc
+Confidence            34568999999999                 999   9 78999999 99999999999999999999999655333321
+
+
+Q ss_pred             CCCCcccCCCCCChhhhccccceeecCCcccCCcchHHHHHHHHHhCceecCC-CCCCHHHHHHHHHHHHHHhCCCchhC
+Q FD01845440_003   91 PLPGIADTGGDTNPRAVGQHSKVRFKNADAIGFPAGDALANFFAQFGYVCAPS-SQPFLPYFLSTLDALAWRSGVPEMFY  169 (310)
+Q Consensus        91 plpgiadtggdtnpravgqhskvrfknadaigfpagdalanffaqfgyvcaps-sqpflpyflstldalawrsgvpemfy  169 (310)
+                      ..   .+++|..+. ......+..|+|||+|+||++.++++   +.++.|... .++||+.|+||+||+|.++.+++++|
+T Consensus        86 ~~---~~~~~~~~~-~~~~~~~~~f~~vh~~~~P~~~~l~~---~~~~~C~~~~~~~~d~~Y~Se~Dp~W~~~~~~~~~~  158 (307)
+T I3Y931_THIV6/4   86 GR---VRTLGTPGQ-AEYDGSDKAFYNYHYYAFPVLVMLDL---FFPDRCNVDHLTDFDLLYLSELDPTWNNDELAFFTN  158 (307)
+T ss_pred             Cc---ccccCCCCC-ccccCCCceEeeEEEehhhHHHHHHH---hCCCCCcccCCCcccccccCCCCcccCChhhHHHhC
+Confidence            11   111121111 11122333999999999999998886   578999555 55898888999999944455559999
+
+
+Q ss_pred             hhhcCccce-------------------eecC--CCCcccccccCCcccccCcc-hhhhhHhHHHHHHHHhhCCeecEEE
+Q FD01845440_003  170 PEALTPGLR-------------------EVSK--DGDMWGNIYPRAGALSQTHD-YKAGAVIAQRAADLVTRNGQPHVYI  227 (310)
+Q Consensus       170 pealtpglr-------------------evsk--dgdmwgniypragalsqthd-ykagaviaqraadlvtrngqphvyi  227 (310)
+                      ||+++|+|+                   .+.+  |+|+||++|||+|++.+.++ +++|+++|+|+++++||.+++|+|.
+T Consensus       159 Pe~~l~~np~a~~aC~ad~~~~~~~G~~~d~~~Wc~G~wG~lyP~~G~~~~~~~~v~asal~A~Ra~~~~~r~g~~~~~~  238 (307)
+T I3Y931_THIV6/4  159 PEAAFVANPVAQAACLLDAAAATTAQQPLDELFWCAGAWGGLYPFTGRTPTLNGRPSEMSLASVRVLAALHRRGLARQTV  238 (307)
+T ss_pred             HHHHhccCHHHHHHHHHHHHHHhccCCCcccccccccCCCccCCCCCCCCCCCCCCcchHHHHHHHHHHHHHcCCceeec
+Confidence            999999954                   2344  99999999999999999866 5999999999999999999999999
+
+
+Q ss_pred             eeecccCCCcCCCCCCCCCCCCCceeEEeeecCcc-cEEECCCCCCchh-HHHHHHhcCceeeeeccccccCCC
+Q FD01845440_003  228 PLAASTHDGYWPPDPVTEGDNNNHQWQMLVPKKSA-SCAIFPDGSTTDS-YADKLAEDGAYVRTLWRPYKCCPR  299 (310)
+Q Consensus       228 plaasthdgywppdpvtegdnnnhqwqmlvpkksa-scaifpdgsttds-yadklaedgayvrtlwrpykccpr  299 (310)
+                      +..+.|.  .. |.|++  .|++|||||++|+++. .|++||++...|+ +++.+..+++|+|++||+|+||.+
+T Consensus       239 ~~~~~c~--~~-~~p~~--~ks~~k~Q~~~P~~~~~~c~~~G~~~~~w~~~~~~p~~~~~y~~~~Wr~~~CC~~  307 (307)
+T I3Y931_THIV6/4  239 GDAALCN--AP-LAPML--PKTQYRLSQFYPLPEANSNHVIGESELRWGMWRNIPGVGEDHLYLIWRWHDCCLT  307 (307)
+T ss_pred             CccccCC--CC-ccccc--CccccccccccccCCCCCCEecccCcccccccccCCCCCCceeEEEEEecccccC
+Confidence            9656775  44 89999  8999999999999987 8999999987777 777778889999999999999974
+
+
+No 3
+>d1i7na1 c.30.1.5 (A:113-214) Synapsin II {Norway rat (Rattus norvegicus) [TaxId: 10116]}
+Probab=23.72  E-value=1.5e+02  Score=25.58  Aligned_cols=23  Identities=43%  Similarity=0.615  Sum_probs=0.0  Template_Neff=5.100
+
+Q ss_pred             eCCcCCce-----eecceE-EeeCCCeEE
+Q FD01845440_003   49 CSPFGCSV-----RTSMKV-RYFRPDLVV   71 (310)
+Q Consensus        49 cspfgcsv-----rtsmkv-ryfrpdlvv   71 (310)
+                      ++--||.|     |...|+ |-|+||.|.
+T Consensus        45 ~s~~g~~V~i~~~~~g~k~~Rsf~PDFvL   73 (102)
+T d1i7na1          45 HADGTYAVDMQVLRNGTKVVRSFRPDFVL   73 (102)
+T ss_dssp             ETTSCEEEEEEECSSSSSEEEEECCSEEE
+T ss_pred             EeCCeEEEEeEeecCCceeeeEEcCCEEE
+
+
+No 4
+>d2p0aa1 c.30.1.0 (A:90-192) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+Probab=21.06  E-value=1.9e+02  Score=24.99  Aligned_cols=23  Identities=43%  Similarity=0.823  Sum_probs=0.0  Template_Neff=5.300
+
+Q ss_pred             eCCcCCce-----eecceE--EeeCCCeEE
+Q FD01845440_003   49 CSPFGCSV-----RTSMKV--RYFRPDLVV   71 (310)
+Q Consensus        49 cspfgcsv-----rtsmkv--ryfrpdlvv   71 (310)
+                      ++--||.|     |..-|+  |-|+||.|.
+T Consensus        45 ~s~~g~~V~i~~~~~g~k~~~Rsf~PDFvL   74 (103)
+T d2p0aa1          45 YVTGGCMVDMQVVRNGTKVVSRSFKPDFIL   74 (103)
+T ss_dssp             ETTSCEEEEEC----------CEECCSEEE
+T ss_pred             EeCCceEEEEEeeeCCcceeeEEEcCCEEE
+
+

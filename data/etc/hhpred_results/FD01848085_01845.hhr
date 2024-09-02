@@ -1,0 +1,920 @@
+Query         FD01872556_03119 hypothetical protein
+Match_columns 114
+No_of_seqs    1 out of 4
+Neff          1
+Searched_HMMs 107766
+Date          Mon Aug 23 15:31:33 2021
+Command       hhsearch -cpu 8 -i ../results/full.a3m -d /cluster/toolkit/production/databases/hh-suite/mmcif70/pdb70 -d /cluster/toolkit/production/databases/hh-suite/scope70/scope70 -d /cluster/toolkit/production/databases/hh-suite/pfama/pfama -d /cluster/toolkit/production/databases/hh-suite/TIGRFAM/TIGRFAM -o ../results/7902625.hhr -oa3m ../results/7902625.a3m -p 20 -Z 250 -loc -z 1 -b 1 -B 250 -ssm 2 -sc 1 -seq 1 -dbstrlen 10000 -norealign -maxres 32000 -contxt /cluster/toolkit/production/bioprogs/tools/hh-suite-build-new/data/context_data.crf 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF05593.16 ; RHS_repeat ; RHS   95.4   0.065   6E-07   29.0   3.3   36   46-81      1-41  (42)
+  2 TIGR01643 YD_repeat_2x; YD rep  93.9    0.43   4E-06   23.2   3.7   39   46-84      1-40  (42)
+  3 4IGL_D YenC2; Beta-Propeller,   92.0     1.2 1.1E-05   34.5   5.4   94    1-94      1-100 (690)
+  4 6L7I_G TccC2; protein transpor  90.8     2.3 2.1E-05   32.8   5.9   87    1-94      4-103 (664)
+  5 6FB3_D Teneurin-2; TTR, fibron  90.4     2.3 2.1E-05   39.3   6.5   71   12-91    946-1016(1859)
+  6 6L7I_G TccC2; protein transpor  87.9     5.3 4.9E-05   30.9   5.9   81    4-94    210-297 (664)
+  7 4IGL_D YenC2; Beta-Propeller,   87.8       3 2.7E-05   32.4   4.6   93    3-95    292-423 (690)
+  8 5KIS_B RHS2; ABC toxin, RHS, T  84.4     2.3 2.1E-05   37.3   2.9  105    3-111   244-371 (965)
+  9 4IGL_D YenC2; Beta-Propeller,   79.5      13 0.00012   29.1   5.0   73   12-94    232-311 (690)
+ 10 5KIS_B RHS2; ABC toxin, RHS, T  78.6      13 0.00012   33.0   5.3   84    9-93    120-262 (965)
+ 11 5KIS_B RHS2; ABC toxin, RHS, T  75.9      13 0.00012   32.9   4.7   93    3-95    292-423 (965)
+ 12 6L7I_G TccC2; protein transpor  75.4      12 0.00011   29.0   3.9   90    3-95    278-403 (664)
+ 13 6FB3_D Teneurin-2; TTR, fibron  75.2      27 0.00025   32.9   6.5   80    6-94   1067-1148(1859)
+ 14 6L7I_G TccC2; protein transpor  75.0      13 0.00012   28.9   3.9   52   42-93    172-248 (664)
+ 15 6L7I_F TcdB1; protein transpor  74.7     8.7 8.1E-05   36.1   3.5   92    3-94   1195-1381(1476)
+ 16 4IGL_D YenC2; Beta-Propeller,   70.7      47 0.00044   26.2   6.0   77   12-93    125-262 (690)
+ 17 6SUP_A TcdB2,TccC3,Cell divisi  69.5      19 0.00018   34.4   4.5   83   11-94   1451-1545(2128)
+ 18 6FB3_D Teneurin-2; TTR, fibron  68.9      31 0.00029   32.5   5.5   76   12-93   1227-1308(1859)
+ 19 6SUP_A TcdB2,TccC3,Cell divisi  66.7      29 0.00027   33.3   5.0   81    4-94   1654-1741(2128)
+ 20 6FB3_D Teneurin-2; TTR, fibron  65.5      81 0.00075   30.0   7.4   69   12-89   1353-1425(1859)
+ 21 6L7I_F TcdB1; protein transpor  62.7      15 0.00014   34.6   2.5   89   12-106  1371-1476(1476)
+ 22 6SUE_F TcdB2,TccC3; Complex, H  60.5      58 0.00054   31.9   5.8   85    7-94   1489-1587(2439)
+ 23 5KIS_B RHS2; ABC toxin, RHS, T  58.8      39 0.00036   30.2   4.2   54   41-94     41-100 (965)
+ 24 PF03527.16 ; RHS ; RHS protein  52.7      47 0.00043   15.3   3.0   27   64-90      3-29  (37)
+ 25 PF06788.15 ; UPF0257 ; Unchara  49.8   1E+02 0.00093   21.0   4.1   63    5-81    100-162 (236)
+ 26 6L7I_F TcdB1; protein transpor  43.6   1E+02 0.00093   29.6   4.5   54   41-94   1158-1214(1476)
+ 27 6SUE_F TcdB2,TccC3; Complex, H  42.6 1.4E+02  0.0013   29.7   5.2   81    4-94   1696-1783(2439)
+ 28 PF15283.8 ; DUF4595 ; Domain o  41.5   2E+02  0.0019   19.4   5.6   77    9-87     49-130 (202)
+ 29 5KIS_A YenB; ABC toxin, RHS, T  40.7      93 0.00087   29.7   3.9   51   43-93   1411-1478(1491)
+ 30 6SUE_F TcdB2,TccC3; Complex, H  33.6 1.6E+02  0.0015   29.1   4.3   51   43-93   1389-1458(2439)
+ 31 6SUE_F TcdB2,TccC3; Complex, H  32.6 4.7E+02  0.0044   26.3   7.0   91    3-93   1589-1734(2439)
+ 32 3W0E_A Elastase inhibitor AFUE  30.8 1.6E+02  0.0015   17.9   2.6   35   24-58     34-68  (68)
+ 33 6SUP_A TcdB2,TccC3,Cell divisi  27.8 2.3E+02  0.0022   27.8   4.3   52   42-93   1616-1692(2128)
+ 34 4GHB_B hypothetical protein; a  27.7 4.7E+02  0.0044   19.5   5.4   83    6-93     37-132 (272)
+ 35 d1a10i_ d.40.1.1 (I:) automate  27.1 1.7E+02  0.0016   18.1   2.4   31   24-54     28-58  (63)
+ 36 TIGR02781 VirB9; P-type conjug  26.7 1.8E+02  0.0017   23.1   2.9   30   60-89     38-67  (243)
+ 37 6SUP_A TcdB2,TccC3,Cell divisi  24.5   3E+02  0.0028   27.1   4.4   46   42-87   1357-1421(2128)
+ 38 d1zbsa1 c.55.1.5 (A:108-283) H  24.0 1.4E+02  0.0013   21.9   1.7   15   57-71      9-23  (176)
+ 39 PF19910.1 ; DUF6383 ; Domain o  23.8 2.4E+02  0.0023   14.9   2.7   28   59-86     38-65  (75)
+ 40 d1zxoa2 c.55.1.5 (A:107-280) H  23.5 1.4E+02  0.0013   21.9   1.6   15   57-71      8-22  (174)
+ 41 3ZBJ_G TRAO PROTEIN; CELL ADHE  23.5   4E+02  0.0037   18.8   3.8   42   49-90     10-51  (112)
+ 42 2IXM_A SERINE/THREONINE-PROTEI  23.3 1.4E+02  0.0013   25.3   1.8   24   64-98    119-142 (303)
+ 43 d1zc6a2 c.55.1.5 (A:122-292) P  22.7 1.6E+02  0.0015   21.2   1.8   15   57-71      8-22  (171)
+ 44 TIGR02775 TrbG_Ti; P-type conj  22.0 1.5E+02  0.0014   22.5   1.7   22   68-89     17-38  (206)
+ 45 1VBW_A trypsin inhibitor BGIT;  21.0 2.7E+02  0.0025   16.6   2.3   32   23-54     32-63  (68)
+ 46 PF11720.10 ; Inhibitor_I78 ; P  20.1 2.4E+02  0.0022   16.6   2.0   20   39-58     41-60  (60)
+
+No 1
+>PF05593.16 ; RHS_repeat ; RHS Repeat
+Probab=95.43  E-value=0.065  Score=29.03  Aligned_cols=36  Identities=19%  Similarity=0.200  Sum_probs=0.0  Template_Neff=9.300
+
+Q ss_pred             ccccceeeee--ec-CCCeeeeeecCCCCC--CcccCCCCC
+Q FD01872556_031   46 YDRSGWLTAE--HA-GNGSICYQRDALGNP--TDITLPDGQ   81 (114)
+Q Consensus        46 ydrsgwltae--ha-gngsicyqrdalgnp--tditlpdgq   81 (114)
+                      ||..|.++..  .+ .+..+-|+.|+.|++  +.++-|+|.
+T Consensus         1 Yd~~g~l~~~~~~~~~g~~~~~~yd~~g~l~~~~~~~~~g~   41 (42)
+T Q8XTF5_RALSO/1    1 WDAEHRLIRIRYKAQASKETRFGYDGLGRRTVITEVDGTGT   41 (42)
+T ss_pred             CCCCCCEEEEEECCCCCcEEEEEECCCCCeEEEEEECCCCC
+
+
+No 2
+>TIGR01643 YD_repeat_2x; YD repeat (two copies). This model describes two tandem copies of a 21-residue extracellular repeat found in Gram-negative, Gram-positive, and animal proteins.
+Probab=93.86  E-value=0.43  Score=23.21  Aligned_cols=39  Identities=36%  Similarity=0.541  Sum_probs=0.0  Template_Neff=11.400
+
+Q ss_pred             ccccceeeeeecCCC-eeeeeecCCCCCCcccCCCCCeEE
+Q FD01872556_031   46 YDRSGWLTAEHAGNG-SICYQRDALGNPTDITLPDGQHLT   84 (114)
+Q Consensus        46 ydrsgwltaehagng-sicyqrdalgnptditlpdgqhlt   84 (114)
+                      ||..|.+......+| .+.|..|..|+...++.|+|....
+T Consensus         1 yd~~g~~~~~~~~~~~~~~~~yd~~g~~~~~~~~~~~~~~   40 (42)
+T TIGR01643         1 YDAAGRLTGSTDADGTTTRYTYDAAGRLVEITDADGGSTR   40 (42)
+T ss_pred             CCCcCCeeeEECCCCCEEEEEEcCCCCEEEEEeCCCCEEE
+
+
+No 3
+>4IGL_D YenC2; Beta-Propeller, RHS, toxin complex, Toxin transporter/chaperone, Secreted, Toxin; HET: GOL; 2.49A {Yersinia}
+Probab=92.04  E-value=1.2  Score=34.47  Aligned_cols=94  Identities=13%  Similarity=0.012  Sum_probs=0.0  Template_Neff=11.600
+
+Q ss_pred             CceecccccccceeccchhheeEEEEccchhhhhhccccceEEecccccceeeeeecC------CCeeeeeecCCCCCCc
+Q FD01872556_031    1 MMEVEGEHSKRTFSYNRLDQLTEVILTPTAAGQKHGMQADRVRLGYDRSGWLTAEHAG------NGSICYQRDALGNPTD   74 (114)
+Q Consensus         1 mmevegehskrtfsynrldqlteviltptaagqkhgmqadrvrlgydrsgwltaehag------ngsicyqrdalgnptd   74 (114)
+                      |+.-..........|+.+.++..++..-........-....++..||..|.++..-..      ..+..|..|+.|+++.
+T Consensus         1 ~~~~~~~~~~t~~~~D~~Gr~~~~~~~~~~~~~~~~~~~~~t~~~YD~~G~~~~~~~~~~~~~~~~~~~~~yd~~g~~~~   80 (690)
+T 4IGL_D            1 MDIQLFSKTPSVTVFDNRGLSVRDIAYRRHPDTPKVTEECITYHQFDFRGFLAQSLDPRLNHKEVTNFSYLTDLNGNIIY   80 (690)
+T ss_dssp             ---CCSTTCCEEEEECTTSCEEEEEEEECCTTSTTCCEEEEEEEEECTTSCEEEEECHHHHTTTCCSEEEEECTTCCEEE
+T ss_pred             CCchhcCCCCeEEEECCCCCeeEEEEeecCCCCCCCcceeeEEEEEcCCCcEEEEeCccccccccceeEEEecCCCCEEE
+
+
+Q ss_pred             ccCCCCCeEEEEeecchhHH
+Q FD01872556_031   75 ITLPDGQHLTHLYYGSGHLL   94 (114)
+Q Consensus        75 itlpdgqhlthlyygsghll   94 (114)
+                      ++.|++......|-..|.++
+T Consensus        81 ~~~~~~~~~~~~yd~~G~~~  100 (690)
+T 4IGL_D           81 TQSVDAGNTLVLNDTEGRSV  100 (690)
+T ss_dssp             EEETTTEEEEEEECTTSCEE
+T ss_pred             EEeCCCCceEEEECCCCCEE
+
+
+No 4
+>6L7I_G TccC2; protein transportation, TcdA1, TcdB1, TccC2, TOXIN-PROTEIN TRANSPORT complex; 2.9A {Photorhabdus luminescens}
+Probab=90.81  E-value=2.3  Score=32.77  Aligned_cols=87  Identities=5%  Similarity=-0.075  Sum_probs=0.0  Template_Neff=11.600
+
+Q ss_pred             CceecccccccceeccchhheeEEEE------ccchhhhhhccccceEEecccccceeeeeecCCCe-------eeeeec
+Q FD01872556_031    1 MMEVEGEHSKRTFSYNRLDQLTEVIL------TPTAAGQKHGMQADRVRLGYDRSGWLTAEHAGNGS-------ICYQRD   67 (114)
+Q Consensus         1 mmevegehskrtfsynrldqltevil------tptaagqkhgmqadrvrlgydrsgwltaehagngs-------icyqrd   67 (114)
+                      |++..-.+++.+..++.+.+.++++.      ++       .-.....+..||..|.|+.....+|.       ..|..|
+T Consensus         4 ~~~~~~~~~~~~~~~D~~Gr~~~~~~~~~~~~~~-------~~~~~~t~~~Yd~~G~l~~~~~~~g~~~~~~~~~~~~Yd   76 (664)
+T 6L7I_G            4 YNSAIDQKTPSIKVLDNRKLNVRTLEYLRTQADE-------NSDELITFYEFNIPGFQVKSTDPRKNKNQSGPNFIRVFN   76 (664)
+T ss_dssp             CCGGGSTTCCEEEEECTTCCEEEEEEEECSSTTS-------CCEEEEEEEEECSSSCEEEEECHHHHHTTCCCSEEEEEC
+T ss_pred             ccchhcCCCCeEEEECCCCCeEEEEEeccccCCC-------CCCeeEEEEEeCCCCceEEEeCccccCCCCCCceEEEEe
+
+
+Q ss_pred             CCCCCCcccCCCCCeEEEEeecchhHH
+Q FD01872556_031   68 ALGNPTDITLPDGQHLTHLYYGSGHLL   94 (114)
+Q Consensus        68 algnptditlpdgqhlthlyygsghll   94 (114)
+                      +.|+++.++-|++...+..|-..|.+.
+T Consensus        77 ~~g~~~~~~~~~~~~~~~~yd~~g~~~  103 (664)
+T 6L7I_G           77 LAGQVLREESVDAGRTITLNDIESRPV  103 (664)
+T ss_dssp             SSSCEEEEEETTTEEEEEEECTTSCEE
+T ss_pred             CCCCEEEEEeCCCCCeEEeeCCCCCee
+
+
+No 5
+>6FB3_D Teneurin-2; TTR, fibronectin, FN-plug, NHL, YD-repeat, antibiotic-binding, colicin, nuclease, cell surface receptor, latrophilin, glycoprotein, CELL ADHESION; HET: BMA, MAN, NAG; 2.38A {Gallus gallus}
+Probab=90.43  E-value=2.3  Score=39.29  Aligned_cols=71  Identities=18%  Similarity=0.184  Sum_probs=0.0  Template_Neff=10.300
+
+Q ss_pred             ceeccchhheeEEEEccchhhhhhccccceEEecccccceeeeeecCCCeeeeeecCCCCCCcccCCCCCeEEEEeecch
+Q FD01872556_031   12 TFSYNRLDQLTEVILTPTAAGQKHGMQADRVRLGYDRSGWLTAEHAGNGSICYQRDALGNPTDITLPDGQHLTHLYYGSG   91 (114)
+Q Consensus        12 tfsynrldqlteviltptaagqkhgmqadrvrlgydrsgwltaehagngsicyqrdalgnptditlpdgqhlthlyygsg   91 (114)
+                      ++.|+...+++.++-...         ...+...||..|.++....+.....|..|+.|+.+.++.|+|+-.+.-|...+
+T Consensus       946 ~~~YD~~Gr~~~~~~~~g---------~~~~~~~Yd~~G~l~~~~~~~~~~~~~YD~~Grl~~~~~~~g~~~~y~Yd~~~ 1016 (1859)
+T 6FB3_D          946 RIIYDQLGRPFLWLPSSG---------LAAVNVSYFFNGRLAGLQRGAMSERTDIDKQGRIISRMFADGKVWSYTYLEKS 1016 (1859)
+T ss_dssp             EEEECTTSCEEEEEESTT---------CCCEEEEECTTSCEEEEEETTEEEEEEECTTSCEEEEEETTSCEEEEEEETTE
+T ss_pred             EEEECCCCCEEEEEcCCC---------cccEEEEECCCCcEEEEEECCcEEEEEEcCCCCEEEEEeCCCCEEEEEEcCCc
+
+
+No 6
+>6L7I_G TccC2; protein transportation, TcdA1, TcdB1, TccC2, TOXIN-PROTEIN TRANSPORT complex; 2.9A {Photorhabdus luminescens}
+Probab=87.88  E-value=5.3  Score=30.93  Aligned_cols=81  Identities=15%  Similarity=0.045  Sum_probs=0.0  Template_Neff=11.600
+
+Q ss_pred             ecccccccceeccchhheeEEEEccchhhhhhccccceEEecccccceeeeeecCCC-------eeeeeecCCCCCCccc
+Q FD01872556_031    4 VEGEHSKRTFSYNRLDQLTEVILTPTAAGQKHGMQADRVRLGYDRSGWLTAEHAGNG-------SICYQRDALGNPTDIT   76 (114)
+Q Consensus         4 vegehskrtfsynrldqlteviltptaagqkhgmqadrvrlgydrsgwltaehagng-------sicyqrdalgnptdit   76 (114)
+                      ........++.|+...+++.+...-          ...++..||..|.++.......       ...|..|+.|+++.++
+T Consensus       210 ~~~~~~~~~~~YD~~grl~~~~~~~----------g~~~~y~Yd~~g~l~~~~~~~~~~~~~~~~~~~~Yd~~g~~~~~~  279 (664)
+T 6L7I_G          210 LSSDVYTTQNKADATGALLTQTDAK----------GNIQRLAYDVAGQLKGCWLTLKGQAEQVIIKSLTYSAAGQKLREE  279 (664)
+T ss_dssp             BCSCCEEEEEEECTTCCEEEEECSS----------SCEEEEEECTTSCEEEEEEECTTSCCEEEEEEEEECTTSCEEEEE
+T ss_pred             cCCCeeeeeeeecccCCeeEEEcCC----------CCEEEEEEeCCCcEEEEEEeCCCCcceeEEEEEEECCCCCEEEEE
+
+
+Q ss_pred             CCCCCeEEEEeecchhHH
+Q FD01872556_031   77 LPDGQHLTHLYYGSGHLL   94 (114)
+Q Consensus        77 lpdgqhlthlyygsghll   94 (114)
+                      .++|......|-..+..+
+T Consensus       280 ~~~g~~~~~~yd~~~~~l  297 (664)
+T 6L7I_G          280 HGNGVITEYSYEPETQRL  297 (664)
+T ss_dssp             ETTCCEEEEEECTTTCCE
+T ss_pred             eCCCcEEEEEecccccee
+
+
+No 7
+>4IGL_D YenC2; Beta-Propeller, RHS, toxin complex, Toxin transporter/chaperone, Secreted, Toxin; HET: GOL; 2.49A {Yersinia}
+Probab=87.81  E-value=3  Score=32.40  Aligned_cols=93  Identities=17%  Similarity=0.212  Sum_probs=0.0  Template_Neff=11.600
+
+Q ss_pred             eecccccccceeccch-hheeEEEEccchhhhhhccccceEEecccccceeeeeecCCCee------------eeeecCC
+Q FD01872556_031    3 EVEGEHSKRTFSYNRL-DQLTEVILTPTAAGQKHGMQADRVRLGYDRSGWLTAEHAGNGSI------------CYQRDAL   69 (114)
+Q Consensus         3 evegehskrtfsynrl-dqlteviltptaagqkhgmqadrvrlgydrsgwltaehagngsi------------cyqrdal   69 (114)
+                      ...+.....++.|+.. .++.++...........+-....+...||..|.++......+..            +|..|++
+T Consensus       292 ~~~~~g~~~~~~Yd~~~~~l~~~~~~~~~~~~~~~~~~~~~~y~YD~~G~~~~~~~~~~~~~~~~~~~~~~~~~y~YD~~  371 (690)
+T 4IGL_D          292 EEGGNGVVTTYTYEAETQRLIGIKTERPNGHAAGAKVLQDLRYEYDPVGNVLSITNDAEETRFWRNQKVVPENAYRYDSL  371 (690)
+T ss_dssp             EEETTSCEEEEEECTTTCCEEEEEEEECTTCTTCCEEEEEEEEEECTTCCEEEEEECC------------CEEEEEECTT
+T ss_pred             EEeCCCeEEEEEEccccCeEEEEEeecCCCCccccceeeEeEEEECCCCCEEEEEcCCcccccccCCcccccceEeecCc
+
+
+Q ss_pred             CCCCcccCCCCC--------------------------eEEEEeecchhHHH
+Q FD01872556_031   70 GNPTDITLPDGQ--------------------------HLTHLYYGSGHLLQ   95 (114)
+Q Consensus        70 gnptditlpdgq--------------------------hlthlyygsghllq   95 (114)
+                      |+.+..+.+.+.                          ....-|-..|.+.+
+T Consensus       372 grl~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~y~YD~~G~l~~  423 (690)
+T 4IGL_D          372 YQLVSASGREVAGAGQQGSDLPSPLVPLPSDSSVYTNYTRTYTYDSAGNLMR  423 (690)
+T ss_dssp             CCEEEEEEEEESSCCSCCSSCCCCBSSCCSSSTTEEEEEEEEEECTTCCEEE
+T ss_pred             ccEEEeecceeccccCCCCCCCCCCCCCCCCcccccceEEEEEECCCCCeEE
+
+
+No 8
+>5KIS_B RHS2; ABC toxin, RHS, TOXIN; 2.4A {Yersinia entomophaga}
+Probab=84.40  E-value=2.3  Score=37.33  Aligned_cols=105  Identities=25%  Similarity=0.282  Sum_probs=0.0  Template_Neff=9.500
+
+Q ss_pred             eecccccccceeccchhheeEEEEccchhhhhhccccceEEecccccceeeeeecCCCee-eeeecCC-CCCCcccCCCC
+Q FD01872556_031    3 EVEGEHSKRTFSYNRLDQLTEVILTPTAAGQKHGMQADRVRLGYDRSGWLTAEHAGNGSI-CYQRDAL-GNPTDITLPDG   80 (114)
+Q Consensus         3 evegehskrtfsynrldqlteviltptaagqkhgmqadrvrlgydrsgwltaehagngsi-cyqrdal-gnptditlpdg   80 (114)
+                      .....-...++.|+...+|+.+.+.......    +.-...+.||..|-++.+..+||.+ .|..|+. |..+.+.....
+T Consensus       244 ~t~~~G~~~~y~YD~~Grl~~~~~~~~~~~~----~~~~~~~~Yd~~G~~~~~~~~~G~~~~y~YD~~~~rl~~~~~~~~  319 (965)
+T 5KIS_B          244 TTDAKGNIQRVRYDVAGLLSGSWLTVRDRTE----QVIVKSLTYSAAGQKQREDHGNGVVITYTYEAETQRLTGIRTERP  319 (965)
+T ss_dssp             EECTTSCEEEEEECTTSCEEEEEEECTTSCC----EEEEEEEEECTTSCEEEEEETTSCEEEEEECTTTCCEEEEEEEEC
+T ss_pred             EEeCCCCEEEEEECCCCCEEEEEEEeCCCCc----eEEEEEEEECCCCCEEEEEeCCCcEEEEEEeCCCCeEEEEEeecc
+
+
+Q ss_pred             ----------CeEEEEeecchhHHHHHhhcCchh-----------HhcCccc
+Q FD01872556_031   81 ----------QHLTHLYYGSGHLLQTALDGLTVS-----------EYGCDSL  111 (114)
+Q Consensus        81 ----------qhlthlyygsghllqtaldgltvs-----------eygcdsl  111 (114)
+                                +.+..-|-..|.+++.........           .|.=|++
+T Consensus       320 ~~~~~~~~~~~~~~Y~YD~~Gnl~~i~~~~~~~~~~~~~~~~~~~~y~YD~l  371 (965)
+T 5KIS_B          320 AGHASGAKVLQDLRYEYDPVGNVLKITNDAEATRFWSNQKVVPENTYTYDSL  371 (965)
+T ss_dssp             TTCTTCCEEEEEEEEEECTTSCEEEEEETTCTTCHHHHCCSSCTTBEEECTT
+T ss_pred             CCCCcccceeeEEEEEECCCCCEEEEEeCcccceeeeCCeeccccceeeccc
+
+
+No 9
+>4IGL_D YenC2; Beta-Propeller, RHS, toxin complex, Toxin transporter/chaperone, Secreted, Toxin; HET: GOL; 2.49A {Yersinia}
+Probab=79.47  E-value=13  Score=29.10  Aligned_cols=73  Identities=16%  Similarity=0.074  Sum_probs=0.0  Template_Neff=11.600
+
+Q ss_pred             ceeccchhheeEEEEccchhhhhhccccceEEecccccceeeeee-------cCCCeeeeeecCCCCCCcccCCCCCeEE
+Q FD01872556_031   12 TFSYNRLDQLTEVILTPTAAGQKHGMQADRVRLGYDRSGWLTAEH-------AGNGSICYQRDALGNPTDITLPDGQHLT   84 (114)
+Q Consensus        12 tfsynrldqlteviltptaagqkhgmqadrvrlgydrsgwltaeh-------agngsicyqrdalgnptditlpdgqhlt   84 (114)
+                      ++.|+...+++++.-.--.          .++..||..|.++...       ...-...|..|+.|+++.++.++|...+
+T Consensus       232 ~~~Yd~~g~l~~~~~~~g~----------~~~~~Yd~~g~~~~~~~~~~~~~~~~~~~~~~yd~~g~~~~~~~~~g~~~~  301 (690)
+T 4IGL_D          232 VTRTDAAGAVLTTIDAVGN----------QQRVAFDIAGQLSASWLTLKGGQEQVIIKVLTYSAAGQKLREEGGNGVVTT  301 (690)
+T ss_dssp             EEEECTTSCEEEEECTTSC----------EEEEEECTTSCEEEEEEECTTSCCEEEEEEEEECTTSCEEEEEETTSCEEE
+T ss_pred             EEeeCCCCCEEEEEcCCCC----------EEEEEEcCCCCEEEEEEEcCCCceEEEEEEEEECCCCCEEEEEeCCCeEEE
+
+
+Q ss_pred             EEeecchhHH
+Q FD01872556_031   85 HLYYGSGHLL   94 (114)
+Q Consensus        85 hlyygsghll   94 (114)
+                      .-|-..+..+
+T Consensus       302 ~~Yd~~~~~l  311 (690)
+T 4IGL_D          302 YTYEAETQRL  311 (690)
+T ss_dssp             EEECTTTCCE
+T ss_pred             EEEccccCeE
+
+
+No 10
+>5KIS_B RHS2; ABC toxin, RHS, TOXIN; 2.4A {Yersinia entomophaga}
+Probab=78.55  E-value=13  Score=33.03  Aligned_cols=84  Identities=19%  Similarity=0.146  Sum_probs=0.0  Template_Neff=9.500
+
+Q ss_pred             cccceecc---chhheeEEEEccchhhhhhccc----------------cceEEecccccceeeeeec------------
+Q FD01872556_031    9 SKRTFSYN---RLDQLTEVILTPTAAGQKHGMQ----------------ADRVRLGYDRSGWLTAEHA------------   57 (114)
+Q Consensus         9 skrtfsyn---rldqlteviltptaagqkhgmq----------------adrvrlgydrsgwltaeha------------   57 (114)
+                      ..+++.|+   .+.+++++.. +...+...-.+                ..++...||..|.++....            
+T Consensus       120 ~~~~~~YD~~~~~gr~~~~~~-~~~~~~~~~~~~~~Y~~~~~~~~~~n~~g~~~~~yD~~G~~~~~~~~~~g~~~~~~~~  198 (965)
+T 5KIS_B          120 VTRTWQYEDAALPGRPLNVTE-QISTEVARITERFVYAGNTGAEKTLNLAGLCVRHYDTAGLVQTDSIALTGVSLSVTRR  198 (965)
+T ss_dssp             EEEEEEECCTTSCCCEEEEEE-EETTSCCEEEEEEEECCCCHHHHHTTCTTSEEEEECSSEEEEEEEECTTSCEEEEEEE
+T ss_pred             EEEEEEeCCcCCCCCcEEEEE-cCCccceEEEEEEEecCCCccHHHhhccCcEEEEEcCCCceEeeeeeCCCCeeeEEEE
+
+
+Q ss_pred             ----------------------------CCCeeeeeecCCCCCCcccCCCCCeEEEEeecchhH
+Q FD01872556_031   58 ----------------------------GNGSICYQRDALGNPTDITLPDGQHLTHLYYGSGHL   93 (114)
+Q Consensus        58 ----------------------------gngsicyqrdalgnptditlpdgqhlthlyygsghl   93 (114)
+                                                  +.....|..|+.|+.+.++.|+|...+.-|-..|.|
+T Consensus       199 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~t~~~YD~~Grl~~~t~~~G~~~~y~YD~~Grl  262 (965)
+T 5KIS_B          199 LLKDADNPDTVADWQGEGASAWNDLLSGEEYVTLTTADATGTVLTTTDAKGNIQRVRYDVAGLL  262 (965)
+T ss_dssp             EBTTTTCTTCCCCCCSSSHHHHHTTBCSCCEEEEEEECTTSCEEEEECTTSCEEEEEECTTSCE
+T ss_pred             EecCCCCCccCCCCCCCCcchhhhhhcCCceEEEEEECCCCCEEEEEeCCCCEEEEEECCCCCE
+
+
+No 11
+>5KIS_B RHS2; ABC toxin, RHS, TOXIN; 2.4A {Yersinia entomophaga}
+Probab=75.88  E-value=13  Score=32.90  Aligned_cols=93  Identities=20%  Similarity=0.182  Sum_probs=0.0  Template_Neff=9.500
+
+Q ss_pred             eecccccccceeccch-hheeEEEEccchhhhhhccccceEEecccccceeeeeecCCCee------------eeeecCC
+Q FD01872556_031    3 EVEGEHSKRTFSYNRL-DQLTEVILTPTAAGQKHGMQADRVRLGYDRSGWLTAEHAGNGSI------------CYQRDAL   69 (114)
+Q Consensus         3 evegehskrtfsynrl-dqlteviltptaagqkhgmqadrvrlgydrsgwltaehagngsi------------cyqrdal   69 (114)
+                      +..+.....++.|+.. .+|+++...........+-....++..||..|.++......+..            +|.-|++
+T Consensus       292 ~~~~~G~~~~y~YD~~~~rl~~~~~~~~~~~~~~~~~~~~~~Y~YD~~Gnl~~i~~~~~~~~~~~~~~~~~~~~y~YD~l  371 (965)
+T 5KIS_B          292 EDHGNGVVITYTYEAETQRLTGIRTERPAGHASGAKVLQDLRYEYDPVGNVLKITNDAEATRFWSNQKVVPENTYTYDSL  371 (965)
+T ss_dssp             EEETTSCEEEEEECTTTCCEEEEEEEECTTCTTCCEEEEEEEEEECTTSCEEEEEETTCTTCHHHHCCSSCTTBEEECTT
+T ss_pred             EEeCCCcEEEEEEeCCCCeEEEEEeeccCCCCcccceeeEEEEEECCCCCEEEEEeCcccceeeeCCeeccccceeeccc
+
+
+Q ss_pred             CCCCcccCCCCC--------------------------eEEEEeecchhHHH
+Q FD01872556_031   70 GNPTDITLPDGQ--------------------------HLTHLYYGSGHLLQ   95 (114)
+Q Consensus        70 gnptditlpdgq--------------------------hlthlyygsghllq   95 (114)
+                      |..+..+.+.+.                          ..+.-|-..|.|.+
+T Consensus       372 grL~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Y~YD~~Gnl~~  423 (965)
+T 5KIS_B          372 YQLVSATGREMANVGQQGSRLPSATVPFPTDSSAYTSYTRTYTYDEASNLTQ  423 (965)
+T ss_dssp             CCEEEEEEEEEGGGCSCCSSCCCCBSSCCCSGGGEEEEEEEEEECTTCCEEE
+T ss_pred             ccEEEEeCccccccCCCCCCCCCcCCCCCCCccccccEEEEEeecCCCCeeE
+
+
+No 12
+>6L7I_G TccC2; protein transportation, TcdA1, TcdB1, TccC2, TOXIN-PROTEIN TRANSPORT complex; 2.9A {Photorhabdus luminescens}
+Probab=75.44  E-value=12  Score=29.04  Aligned_cols=90  Identities=22%  Similarity=0.185  Sum_probs=0.0  Template_Neff=11.600
+
+Q ss_pred             eecccccccceeccchhheeEEEEccchhhhhhccccceEEecccccceeeeeecCCCee------------eeeecCCC
+Q FD01872556_031    3 EVEGEHSKRTFSYNRLDQLTEVILTPTAAGQKHGMQADRVRLGYDRSGWLTAEHAGNGSI------------CYQRDALG   70 (114)
+Q Consensus         3 evegehskrtfsynrldqlteviltptaagqkhgmqadrvrlgydrsgwltaehagngsi------------cyqrdalg   70 (114)
+                      ...+......+.|+........+..+...+   +-....++..||..|.++.....++..            .|..|++|
+T Consensus       278 ~~~~~g~~~~~~yd~~~~~l~~~~~~~~~~---~~~~~~~~y~Yd~~G~l~~~~~~~~~~~~~~~~~~~~~~~y~YD~~g  354 (664)
+T 6L7I_G          278 EEHGNGVITEYSYEPETQRLIGIATRRPSD---AKVLQDLRYQYDPVGNVINIRNDAEATRFWRNQKVVPENSYTYDSLY  354 (664)
+T ss_dssp             EEETTCCEEEEEECTTTCCEEEEEEEETTT---TEEEEEEEEEECSSSCEEEEEECSCCCTTSTTCCCCCCEEEEECTTC
+T ss_pred             EEeCCCcEEEEEeccccceeeEEEEecCCC---cceeccceEEECCCCCEEEEEccccccccccCCcccCcccceecccc
+
+
+Q ss_pred             CCCcccCCCCC------------------------eEEEEeecchhHHH
+Q FD01872556_031   71 NPTDITLPDGQ------------------------HLTHLYYGSGHLLQ   95 (114)
+Q Consensus        71 nptditlpdgq------------------------hlthlyygsghllq   95 (114)
+                      ..+..+.+++.                        ..+.-|-..|.+.+
+T Consensus       355 rl~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~y~YD~~G~l~~  403 (664)
+T 6L7I_G          355 QLISATGREMANIGQQNNQLPSPALPSDNNTYTNYTRSYSYDHSGNLTQ  403 (664)
+T ss_dssp             CEEEEEEEEESSCCSCCSSCCCCBCSSSCCCEEEEEEEEEECTTCCEEE
+T ss_pred             ceEEEecccccccccccCCCCCCCCCCCCccccccEEEEEEcCCCCeEE
+
+
+No 13
+>6FB3_D Teneurin-2; TTR, fibronectin, FN-plug, NHL, YD-repeat, antibiotic-binding, colicin, nuclease, cell surface receptor, latrophilin, glycoprotein, CELL ADHESION; HET: BMA, MAN, NAG; 2.38A {Gallus gallus}
+Probab=75.15  E-value=27  Score=32.90  Aligned_cols=80  Identities=15%  Similarity=0.172  Sum_probs=0.0  Template_Neff=10.300
+
+Q ss_pred             ccccccceeccchhheeEEEEccchhhhhhccccceEEecccccceeeeeecCCCeeeeeecCCCCCCcccC--CCCCeE
+Q FD01872556_031    6 GEHSKRTFSYNRLDQLTEVILTPTAAGQKHGMQADRVRLGYDRSGWLTAEHAGNGSICYQRDALGNPTDITL--PDGQHL   83 (114)
+Q Consensus         6 gehskrtfsynrldqlteviltptaagqkhgmqadrvrlgydrsgwltaehagngsicyqrdalgnptditl--pdgqhl   83 (114)
+                      +.....+|.|+...+++.+...+..         .++...||..|.++....+.+.+.|..|+.|+....+-  +++...
+T Consensus      1067 ~~~~~~~~~Yd~~G~l~~~~~~~~g---------~~~~y~Yd~~grl~~~~~~~~~~~y~Yd~~g~~~~~~~~~~~~~~~ 1137 (1859)
+T 6FB3_D         1067 ESNASVIFDYSDDGRILKTSFLGTG---------RQVFYKYGKLSKLSEIVYDSTAVTFGYDETTGVLKMVNLQSGGFSC 1137 (1859)
+T ss_dssp             TCCCCEEEEECTTSCEEEEEETTTT---------EEEEEEECTTSSEEEEEETTEEEEEEECTTTCCEEEEEEEETTEEE
+T ss_pred             CCCCeEEEEECCCCCEEEEEECCCC---------CEEEEEeCCCCCeEEEEeCCeeEEEEEeCCCCcEEEEEEecCCeEE
+
+
+Q ss_pred             EEEeecchhHH
+Q FD01872556_031   84 THLYYGSGHLL   94 (114)
+Q Consensus        84 thlyygsghll   94 (114)
+                      +.-|-..|.++
+T Consensus      1138 ~~~Yd~~G~l~ 1148 (1859)
+T 6FB3_D         1138 TIRYRKIGPLV 1148 (1859)
+T ss_dssp             EEEEEEETTEE
+T ss_pred             EEEEEeecCce
+
+
+No 14
+>6L7I_G TccC2; protein transportation, TcdA1, TcdB1, TccC2, TOXIN-PROTEIN TRANSPORT complex; 2.9A {Photorhabdus luminescens}
+Probab=74.96  E-value=13  Score=28.95  Aligned_cols=52  Identities=17%  Similarity=0.071  Sum_probs=0.0  Template_Neff=11.600
+
+Q ss_pred             EEecccccceeeeeecCC-------------------------CeeeeeecCCCCCCcccCCCCCeEEEEeecchhH
+Q FD01872556_031   42 VRLGYDRSGWLTAEHAGN-------------------------GSICYQRDALGNPTDITLPDGQHLTHLYYGSGHL   93 (114)
+Q Consensus        42 vrlgydrsgwltaehagn-------------------------gsicyqrdalgnptditlpdgqhlthlyygsghl   93 (114)
+                      ....||..|.++..-...                         ..+.|..|+.|+++.++.|+|...+.-|-..|.+
+T Consensus       172 ~~~~yd~~g~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~YD~~grl~~~~~~~g~~~~y~Yd~~g~l  248 (664)
+T 6L7I_G          172 QLNSLSLAGVVLSQSQQLLVDDKNADWTGEDQSLWQQKLSSDVYTTQNKADATGALLTQTDAKGNIQRLAYDVAGQL  248 (664)
+T ss_dssp             EEEEECSSSCEEEEEEEEBCTTCCCCCCSSCSTTTTTSBCSCCEEEEEEECTTCCEEEEECSSSCEEEEEECTTSCE
+T ss_pred             EEeeeccCCCeeEEEEEEEeccCCCCCCCccccHHhhccCCCeeeeeeeecccCCeeEEEcCCCCEEEEEEeCCCcE
+
+
+No 15
+>6L7I_F TcdB1; protein transportation, TcdA1, TcdB1, TccC2, TOXIN-PROTEIN TRANSPORT complex; 2.9A {Photorhabdus luminescens}
+Probab=74.70  E-value=8.7  Score=36.08  Aligned_cols=92  Identities=11%  Similarity=0.094  Sum_probs=0.0  Template_Neff=9.200
+
+Q ss_pred             eecccccccceeccchhheeEEEEccchhhhhhccccc-----------------------eEEecccccceeeeeec--
+Q FD01872556_031    3 EVEGEHSKRTFSYNRLDQLTEVILTPTAAGQKHGMQAD-----------------------RVRLGYDRSGWLTAEHA--   57 (114)
+Q Consensus         3 evegehskrtfsynrldqlteviltptaagqkhgmqad-----------------------rvrlgydrsgwltaeha--   57 (114)
+                      .+........+.|+.+.+++.+....+..++..|....                       ..+..||..+|++..+.  
+T Consensus      1195 ~tD~ng~~~~~~YD~~Grl~~~~~~G~~~~~~~g~~~~~~y~yd~~~~~~~~~~~~~~~~~~~~y~YD~~~~~~~~~~~~ 1274 (1476)
+T 6L7I_F         1195 LTDINDNVHLITLDALGRPVTQRFWGIESGVATGYSSSEEKPFSPPNDIDTAINLTGPLPVAQCLVYAPDSWMPLFSQET 1274 (1476)
+T ss_dssp             EECTTCCEEEEEECTTSCEEEEEEEEESSSSEEESCCTTTSCCCCCSSHHHHHTCCSCCSSSEEEEEEGGGGSCCCCHHH
+T ss_pred             EECCCCCEEEEEECCCCCEEEEEEEeecCCeeCCCCCCcCCCCCCCCCHHHHHhccCCcCeEEEEEEccccccccCCHHH
+
+
+Q ss_pred             ---------------------------------------------------------------------CCCeeeeee-c
+Q FD01872556_031   58 ---------------------------------------------------------------------GNGSICYQR-D   67 (114)
+Q Consensus        58 ---------------------------------------------------------------------gngsicyqr-d   67 (114)
+                                                                                           +...+-|.. |
+T Consensus      1275 ~~~~~~~~~~~~~~~~~~~~~G~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~p~~~~~~~~~~~~~~~~~~~~~~~~Y~D 1354 (1476)
+T 6L7I_F         1275 FNTLTQEEQETLRDSRIITEDWRICALTRRRWLQSQKISTPLVKLLTNSIGLPPHNLTLTTDRYDRDSEQQIRQQVAFSD 1354 (1476)
+T ss_dssp             HTTSCHHHHHHHHTTTCBCTTSCBCHHHHHHHHHHCCSCCHHHHHHHSCCCCCSEEEEEEESSCTTCTTCCEEEEEEEEC
+T ss_pred             hccccHHHHHHHHHCCCcCCCceehHHHHHHHHhcCCCChHHHHHHHccCCCCCEEEEEEeecCCCCccccEEEEEEEeC
+
+
+Q ss_pred             CCCCCCcccCCCCCeEEEEeecchhHH
+Q FD01872556_031   68 ALGNPTDITLPDGQHLTHLYYGSGHLL   94 (114)
+Q Consensus        68 algnptditlpdgqhlthlyygsghll   94 (114)
+                      ++|+++.++.++|.-.+..|-..|.+.
+T Consensus      1355 ~~GR~~~~~~~~~~~~~~~yd~~G~l~ 1381 (1476)
+T 6L7I_F         1355 GFGRLLQASVRHEAGEAWQRNQDGSLV 1381 (1476)
+T ss_dssp             SSSCEEEEEEEECSEEEEEECSSSCEE
+T ss_pred             CCChhhEEEEecCCcccceeCCCCCEe
+
+
+No 16
+>4IGL_D YenC2; Beta-Propeller, RHS, toxin complex, Toxin transporter/chaperone, Secreted, Toxin; HET: GOL; 2.49A {Yersinia}
+Probab=70.65  E-value=47  Score=26.19  Aligned_cols=77  Identities=14%  Similarity=0.113  Sum_probs=0.0  Template_Neff=11.600
+
+Q ss_pred             ceeccch-hheeEEEEccchhhhhhccccceEEecccc----------cceeeeeecCCC--------------------
+Q FD01872556_031   12 TFSYNRL-DQLTEVILTPTAAGQKHGMQADRVRLGYDR----------SGWLTAEHAGNG--------------------   60 (114)
+Q Consensus        12 tfsynrl-dqlteviltptaagqkhgmqadrvrlgydr----------sgwltaehagng--------------------   60 (114)
+                      .|.|+.+ .+++++........     ..-..+..|+.          .|.+....-.+|                    
+T Consensus       125 ~y~yd~~~gr~~~~~~~~~~~~-----~~~~~~~~y~~~~~~~~~~~~~g~~~~~~d~~g~~~~~~yd~~g~~~~~~~~~  199 (690)
+T 4IGL_D          125 QYENAPLPGRPLSVTEQVNGEN-----ARITEHFVYAGNTPQEKNLNLAGQCVSYYDAAGLIQTDSVSLTGKPLSVSRKL  199 (690)
+T ss_dssp             EECCTTSCCCEEEEEEEETTSC-----CEEEEEEEECCSCHHHHHTTCTTSEEEEECSSEEEEEEEECTTSCEEEEEEEE
+T ss_pred             EEcCCCCCCCCeEEEEEcCCcc-----cEEEEEEEecCCChhHHHhccCCCEEEEECCCCCEEEEeEcCCCCeeeEEEEh
+
+
+Q ss_pred             ------------------------------eeeeeecCCCCCCcccCCCCCeEEEEeecchhH
+Q FD01872556_031   61 ------------------------------SICYQRDALGNPTDITLPDGQHLTHLYYGSGHL   93 (114)
+Q Consensus        61 ------------------------------sicyqrdalgnptditlpdgqhlthlyygsghl   93 (114)
+                                                    ...|.-|+.|+++.++.|+|......|-..|.+
+T Consensus       200 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Yd~~g~l~~~~~~~g~~~~~~Yd~~g~~  262 (690)
+T 4IGL_D          200 LKNLDDTNILADWQGNDTSAWNSLLATEIYTTVTRTDAAGAVLTTIDAVGNQQRVAFDIAGQL  262 (690)
+T ss_dssp             ETTTTSTTCCCCCCSSCHHHHHTTEEEEEEEEEEEECTTSCEEEEECTTSCEEEEEECTTSCE
+T ss_pred             hHhcCCcCcCCCCCCCChhHhhhhhcCeeEEEEEeeCCCCCEEEEEcCCCCEEEEEEcCCCCE
+
+
+No 17
+>6SUP_A TcdB2,TccC3,Cell division control protein 42 homolog; Toxins, Tc Toxins, TOXIN; 2.0A {Photorhabdus luminescens}
+Probab=69.50  E-value=19  Score=34.44  Aligned_cols=83  Identities=19%  Similarity=0.123  Sum_probs=0.0  Template_Neff=10.200
+
+Q ss_pred             cceeccchhheeEEEEccchhhhhhccccceEEecccccceeeeeecCCCeee------------eeecCCCCCCcccCC
+Q FD01872556_031   11 RTFSYNRLDQLTEVILTPTAAGQKHGMQADRVRLGYDRSGWLTAEHAGNGSIC------------YQRDALGNPTDITLP   78 (114)
+Q Consensus        11 rtfsynrldqlteviltptaagqkhgmqadrvrlgydrsgwltaehagngsic------------yqrdalgnptditlp   78 (114)
+                      .++.|+.+.++.+++ .+........-.....+..||..|.|+..--.+|...            |+.|.+|+++.++-|
+T Consensus      1451 ~~~~yD~~G~~~~~~-~~~~~~~~~~~~~~~t~y~YD~~Grl~~~~dp~g~~~~~~~~~~~~~~~~~YD~~Gr~~~~~~~ 1529 (2128)
+T 6SUP_A         1451 TVSVYDNRGLIIRNI-DFHRTTANGDPDTRITRHQYDIHGHLNQSIDPRLYEAKQTNNTIKPNFLWQYDLTGNPLCTESI 1529 (2128)
+T ss_dssp             EEEEECTTSCEEEEE-EEECSSSSSCCEEEEEEEEECTTSSEEEEECHHHHHHHHHCTTCCCSEEEEECTTSCEEEEEET
+T ss_pred             eEEEECCCCCEEEEE-EcCccCCCCCCCceEEEEEEeCCCCEEEEECCchhcccccCCccccceEEEEeCCCCEEEEEeC
+
+
+Q ss_pred             CCCeEEEEeecchhHH
+Q FD01872556_031   79 DGQHLTHLYYGSGHLL   94 (114)
+Q Consensus        79 dgqhlthlyygsghll   94 (114)
+                      |+......|-..|.++
+T Consensus      1530 d~g~~~~~yD~~Gr~~ 1545 (2128)
+T 6SUP_A         1530 DAGRTVTLNDIEGRPL 1545 (2128)
+T ss_dssp             TTEEEEEEECTTSCEE
+T ss_pred             CCCceEEEECCCCCEE
+
+
+No 18
+>6FB3_D Teneurin-2; TTR, fibronectin, FN-plug, NHL, YD-repeat, antibiotic-binding, colicin, nuclease, cell surface receptor, latrophilin, glycoprotein, CELL ADHESION; HET: BMA, MAN, NAG; 2.38A {Gallus gallus}
+Probab=68.94  E-value=31  Score=32.53  Aligned_cols=76  Identities=18%  Similarity=0.245  Sum_probs=0.0  Template_Neff=10.300
+
+Q ss_pred             ceeccchhheeEEEEccchhhhhhccccceEEecccccceeeeee------cCCCeeeeeecCCCCCCcccCCCCCeEEE
+Q FD01872556_031   12 TFSYNRLDQLTEVILTPTAAGQKHGMQADRVRLGYDRSGWLTAEH------AGNGSICYQRDALGNPTDITLPDGQHLTH   85 (114)
+Q Consensus        12 tfsynrldqlteviltptaagqkhgmqadrvrlgydrsgwltaeh------agngsicyqrdalgnptditlpdgqhlth   85 (114)
+                      ++.|+...+++++...      ..+...-+..+.||..|.++...      ......-|.-|+.|+.+.++.+++...+.
+T Consensus      1227 ~~~yD~~Grl~~~~~~------~~~~~~~~~~~~YD~~Gri~~~~~~~~~~~~~~~~~y~YD~~g~L~~v~~~~~~~~~y 1300 (1859)
+T 6FB3_D         1227 SKHFDTHGRIKEVQYE------MFRSLMYWMTVQYDSMGRVTKRELKLGPYANTTKYTYDYDGDGQLQSVAVNDRPTWRY 1300 (1859)
+T ss_dssp             EEEECTTSCEEEEEEE------ETTEEEEEEEEEECTTSCEEEEEEEESSSSCEEEEEEEECTTSCEEEEEETTEEEEEC
+T ss_pred             EEEECCCCCEEEEEEE------eCCeEeEEEEEEEcCCCCEEEEEEEccCCcceEEEEEEECCCCCEEEEEECCcceEEE
+
+
+Q ss_pred             EeecchhH
+Q FD01872556_031   86 LYYGSGHL   93 (114)
+Q Consensus        86 lyygsghl   93 (114)
+                      -|-..|.+
+T Consensus      1301 ~YD~~Gn~ 1308 (1859)
+T 6FB3_D         1301 SYDLNGNL 1308 (1859)
+T ss_dssp             EECTTCCE
+T ss_pred             EECCCCCE
+
+
+No 19
+>6SUP_A TcdB2,TccC3,Cell division control protein 42 homolog; Toxins, Tc Toxins, TOXIN; 2.0A {Photorhabdus luminescens}
+Probab=66.67  E-value=29  Score=33.29  Aligned_cols=81  Identities=14%  Similarity=0.092  Sum_probs=0.0  Template_Neff=10.200
+
+Q ss_pred             ecccccccceeccchhheeEEEEccchhhhhhccccceEEecccccceeeeeecCCCee-------eeeecCCCCCCccc
+Q FD01872556_031    4 VEGEHSKRTFSYNRLDQLTEVILTPTAAGQKHGMQADRVRLGYDRSGWLTAEHAGNGSI-------CYQRDALGNPTDIT   76 (114)
+Q Consensus         4 vegehskrtfsynrldqlteviltptaagqkhgmqadrvrlgydrsgwltaehagngsi-------cyqrdalgnptdit   76 (114)
+                      .+++....+|.|+.+.++++++          --....++..||..|.|+......+..       -|+.|+.|+++.++
+T Consensus      1654 ~~~~~~~t~~~YD~~Grl~~~~----------~p~g~~~~y~YD~~G~l~~~~~~~~~~~~~~~~~~~~Yd~~G~~~~~~ 1723 (2128)
+T 6SUP_A         1654 LADDIYTTLSTFDATGALLTQT----------DAKGNIQRLAYDVAGQLNGSWLTLKGQTEQVIIKSLTYSAAGQKLREE 1723 (2128)
+T ss_dssp             BCSCCEEEEEEECTTSCEEEEE----------CTTSCEEEEEECTTSCEEEEEEECTTSCCEEEEEEEEECTTSCEEEEE
+T ss_pred             ccCceEEEEEEECCCCCEEEEE----------CCCCCEEEEEEcCCCCeeeEEEEeCCCCceEEEEEEEECCCCCEEEEE
+
+
+Q ss_pred             CCCCCeEEEEeecchhHH
+Q FD01872556_031   77 LPDGQHLTHLYYGSGHLL   94 (114)
+Q Consensus        77 lpdgqhlthlyygsghll   94 (114)
+                      .++|...+.-|...+..|
+T Consensus      1724 ~~ng~~t~y~YD~~~~rl 1741 (2128)
+T 6SUP_A         1724 HGNDVITEYSYEPETQRL 1741 (2128)
+T ss_dssp             ETTSCEEEEEECTTTCCE
+T ss_pred             ECCCeEEEEEEccccceE
+
+
+No 20
+>6FB3_D Teneurin-2; TTR, fibronectin, FN-plug, NHL, YD-repeat, antibiotic-binding, colicin, nuclease, cell surface receptor, latrophilin, glycoprotein, CELL ADHESION; HET: BMA, MAN, NAG; 2.38A {Gallus gallus}
+Probab=65.49  E-value=81  Score=30.00  Aligned_cols=69  Identities=28%  Similarity=0.363  Sum_probs=0.0  Template_Neff=10.300
+
+Q ss_pred             ceeccchhheeEEEEccchhhhhhccccceEEecccccceeee-eecCCCeeeeeecCCCCCCccc---CCCCCeEEEEe
+Q FD01872556_031   12 TFSYNRLDQLTEVILTPTAAGQKHGMQADRVRLGYDRSGWLTA-EHAGNGSICYQRDALGNPTDIT---LPDGQHLTHLY   87 (114)
+Q Consensus        12 tfsynrldqlteviltptaagqkhgmqadrvrlgydrsgwlta-ehagngsicyqrdalgnptdit---lpdgqhlthly   87 (114)
+                      +|.||...+|+.+...+..         ..++..||..|.+.+ ...+....-|..+..++|..++   -+.+...+.++
+T Consensus      1353 ~y~Yd~~G~L~~~~~~~~~---------~~~~y~YD~~Grrv~~~~~~g~~~~~~y~~~~~~~~~~~~~~~~~~~~~~~~ 1423 (1859)
+T 6FB3_D         1353 VFEYNSKGLLTRAYNKANG---------WNVQYRYDGLGRRASCKTNLGHHLQYFYADLHNPTRVTHVYNHSNSEITSLY 1423 (1859)
+T ss_dssp             EEEECTTSCEEEEEETTTT---------EEEEEEECTTSCEEEEEETTSCEEEEECCCSSSTTSCCEEEETTTTEEEEEE
+T ss_pred             EEEECCCCCEEEEEECCCc---------eEEEEEECCCCCEEEEEECCCcEEEEEEcCCCCceEEEEEEeCCCCeEEEEE
+
+
+Q ss_pred             ec
+Q FD01872556_031   88 YG   89 (114)
+Q Consensus        88 yg   89 (114)
+                      |.
+T Consensus      1424 yd 1425 (1859)
+T 6FB3_D         1424 YD 1425 (1859)
+T ss_dssp             EC
+T ss_pred             Ec
+
+
+No 21
+>6L7I_F TcdB1; protein transportation, TcdA1, TcdB1, TccC2, TOXIN-PROTEIN TRANSPORT complex; 2.9A {Photorhabdus luminescens}
+Probab=62.73  E-value=15  Score=34.65  Aligned_cols=89  Identities=13%  Similarity=0.058  Sum_probs=0.0  Template_Neff=9.200
+
+Q ss_pred             ceeccchhheeEEEEccchhhhhhccccceEEecccccceeeee-----------------ecCCCeeeeeecCCCCCCc
+Q FD01872556_031   12 TFSYNRLDQLTEVILTPTAAGQKHGMQADRVRLGYDRSGWLTAE-----------------HAGNGSICYQRDALGNPTD   74 (114)
+Q Consensus        12 tfsynrldqlteviltptaagqkhgmqadrvrlgydrsgwltae-----------------hagngsicyqrdalgnptd   74 (114)
+                      +|.|+...+++...      ...-....-..+.-||..|.++.+                 .....+.-|..|++|+.+.
+T Consensus      1371 ~~~yd~~G~l~~~~------~~~~~~~~~~~~~~YD~~G~~v~~~~p~~~~~~~y~~~~~~~~~~~~t~~~YD~~GR~~~ 1444 (1476)
+T 6L7I_F         1371 AWQRNQDGSLVTKV------ENTKTRWAVTGRTEYDNKGQTIRTYQPYFLNDWRYVSDDSARKEAYADTHIYDPIGREIR 1444 (1476)
+T ss_dssp             EEEECSSSCEEEEE------EEESSEEEEESCEEECTTSCEEEEECCEEESSSSCCCHHHHHHSSCEEEEEECTTSCEEE
+T ss_pred             cceeCCCCCEeeec------CCCCCeEEEEeeEEECCCCCeeEEEcCceeCCcceeccHHHHhhcCCcEEEECCCCCeEE
+
+
+Q ss_pred             ccCCCCCeEEEEeecchhHHHHHhhcCchhHh
+Q FD01872556_031   75 ITLPDGQHLTHLYYGSGHLLQTALDGLTVSEY  106 (114)
+Q Consensus        75 itlpdgqhlthlyygsghllqtaldgltvsey  106 (114)
+                      ++.|+|.-...-|-..+.+..-+-|-+.-|++
+T Consensus      1445 ~~~~~G~~~~~~Yd~~~~~~~d~ndt~~~~~~ 1476 (1476)
+T 6L7I_F         1445 VITAKGWLRQSQYFPWFTVSEDENDTAADALV 1476 (1476)
+T ss_dssp             EECSSSCEEEEEECSSEEEEECTTTSCC----
+T ss_pred             EeCCCCeEEEEEEcCCeEEEeCCCccchhhcC
+
+
+No 22
+>6SUE_F TcdB2,TccC3; Complex, Holotoxin, Photorhabdus, Insecticidal, TOXIN; 3.4A {Photorhabdus luminescens}
+Probab=60.54  E-value=58  Score=31.93  Aligned_cols=85  Identities=22%  Similarity=0.225  Sum_probs=0.0  Template_Neff=10.300
+
+Q ss_pred             cccccceeccchhheeEEEE--ccchhhhhhccccceEEecccccceeeeeecC------------CCeeeeeecCCCCC
+Q FD01872556_031    7 EHSKRTFSYNRLDQLTEVIL--TPTAAGQKHGMQADRVRLGYDRSGWLTAEHAG------------NGSICYQRDALGNP   72 (114)
+Q Consensus         7 ehskrtfsynrldqltevil--tptaagqkhgmqadrvrlgydrsgwltaehag------------ngsicyqrdalgnp   72 (114)
+                      .....++.|+.+.++.+++-  ..++.+..   .....+..||..|.++...-.            .....|+.|.+|++
+T Consensus      1489 ~~~~t~~~yD~~Gr~v~~~~~~~~~~~~~~---~~~~t~~~YD~~Grl~~~~dp~g~~~~~~~~~~~~~~~~~YD~~Gr~ 1565 (2439)
+T 6SUE_F         1489 QKTPTVSVYDNRGLIIRNIDFHRTTANGDP---DTRITRHQYDIHGHLNQSIDPRLYEAKQTNNTIKPNFLWQYDLTGNP 1565 (2439)
+T ss_dssp             TTCCEEEEECTTSCEEEEEEEECSSTTSCC---EEEEEEEEECTTSCEEEEECHHHHHHHHHCTTCCCSEEEEECTTSCE
+T ss_pred             CCCCEEEEECCCCCEEEEEEccCCCCCCCC---CccEEEEEEcCCCCEEEEECCchhhccccCCCCCCcEEEEEcCCCCe
+
+
+Q ss_pred             CcccCCCCCeEEEEeecchhHH
+Q FD01872556_031   73 TDITLPDGQHLTHLYYGSGHLL   94 (114)
+Q Consensus        73 tditlpdgqhlthlyygsghll   94 (114)
+                      +.++-||+...+..|...|.++
+T Consensus      1566 ~~~~~~d~g~~~~~yD~~Gr~~ 1587 (2439)
+T 6SUE_F         1566 LCTESIDAGRTVTLNDIEGRPL 1587 (2439)
+T ss_dssp             EEEEETTTEEEEEEECTTSCEE
+T ss_pred             eEEEeCCCCcEEEEECCCCCEE
+
+
+No 23
+>5KIS_B RHS2; ABC toxin, RHS, TOXIN; 2.4A {Yersinia entomophaga}
+Probab=58.75  E-value=39  Score=30.18  Aligned_cols=54  Identities=20%  Similarity=0.198  Sum_probs=0.0  Template_Neff=9.500
+
+Q ss_pred             eEEecccccceeeeeecCC------CeeeeeecCCCCCCcccCCCCCeEEEEeecchhHH
+Q FD01872556_031   41 RVRLGYDRSGWLTAEHAGN------GSICYQRDALGNPTDITLPDGQHLTHLYYGSGHLL   94 (114)
+Q Consensus        41 rvrlgydrsgwltaehagn------gsicyqrdalgnptditlpdgqhlthlyygsghll   94 (114)
+                      ..+..||..|.|+...-..      ..+.|..|+.|+.+.+..+|+.-.+.+|-..|.++
+T Consensus        41 ~t~~~YD~~G~l~~~~d~~~~~~~~~~~~y~YD~~Gr~~~~~~~d~g~~~~~yD~~G~~~  100 (965)
+T 5KIS_B           41 ITPHQYDARGFLTQSADPRLHDAGRVNFSYLTDLAGGVLRTQGADNGTSVSLNDVAGRPF  100 (965)
+T ss_dssp             EEEEEECTTSCEEEECCHHHHHTTCCSEEEEECTTSCEEEEEETTTEEEEEEECTTSCEE
+T ss_pred             eeeEEEccccCEEEEECCcccccCCeeEEEEEcCCCCeeEEEcCCCCcEEEEEcCCCCEE
+
+
+No 24
+>PF03527.16 ; RHS ; RHS protein
+Probab=52.68  E-value=47  Score=15.34  Aligned_cols=27  Identities=30%  Similarity=0.502  Sum_probs=0.0  Template_Neff=11.500
+
+Q ss_pred             eeecCCCCCCcccCCCCCeEEEEeecc
+Q FD01872556_031   64 YQRDALGNPTDITLPDGQHLTHLYYGS   90 (114)
+Q Consensus        64 yqrdalgnptditlpdgqhlthlyygs   90 (114)
+                      |..|..|+|..++-+.|+-+...-|..
+T Consensus         3 ~~~d~~g~~~~~~~~~g~~~~~~~~~~   29 (37)
+T B9TLY9_RICCO/2    3 LHTDHLGTPREMTDADGRVVWAARYRA   29 (37)
+T ss_pred             EEeCCCCCcEEEECCCCCEEEEEEeCC
+
+
+No 25
+>PF06788.15 ; UPF0257 ; Uncharacterised protein family (UPF0257)
+Probab=49.81  E-value=1e+02  Score=20.98  Aligned_cols=63  Identities=19%  Similarity=0.215  Sum_probs=0.0  Template_Neff=11.300
+
+Q ss_pred             cccccccceeccchhheeEEEEccchhhhhhccccceEEecccccceeeeeecCCCeeeeeecCCCCCCcccCCCCC
+Q FD01872556_031    5 EGEHSKRTFSYNRLDQLTEVILTPTAAGQKHGMQADRVRLGYDRSGWLTAEHAGNGSICYQRDALGNPTDITLPDGQ   81 (114)
+Q Consensus         5 egehskrtfsynrldqlteviltptaagqkhgmqadrvrlgydrsgwltaehagngsicyqrdalgnptditlpdgq   81 (114)
+                      .....+ .+.|+.-.++++..             ..+...-||..|-++-....+..+-|+-|+.|+++.+...+..
+T Consensus       100 ~~~~~~-~~~yd~~g~~~~~~-------------~~~~~~~Yd~~g~l~~~~~~~~~~~y~Yd~~g~~~~~~~~~~~  162 (236)
+T YNFC_SALTY/1-2  100 AQTLEK-KVQLQGKCQLAALP-------------SAGVTWETDDNGFVVSATGKEMKVEYRYDSEGYPLGKTTINSQ  162 (236)
+T ss_pred             ccccce-eEEeCCCceEEEcC-------------CCceEEEECCCCcEEEEEeCCCeEEEEECCCCCEEEEEEECCC
+
+
+No 26
+>6L7I_F TcdB1; protein transportation, TcdA1, TcdB1, TccC2, TOXIN-PROTEIN TRANSPORT complex; 2.9A {Photorhabdus luminescens}
+Probab=43.63  E-value=1e+02  Score=29.64  Aligned_cols=54  Identities=17%  Similarity=0.196  Sum_probs=0.0  Template_Neff=9.200
+
+Q ss_pred             eEEecccccc-eeeeeecCCC-eeeeeec-CCCCCCcccCCCCCeEEEEeecchhHH
+Q FD01872556_031   41 RVRLGYDRSG-WLTAEHAGNG-SICYQRD-ALGNPTDITLPDGQHLTHLYYGSGHLL   94 (114)
+Q Consensus        41 rvrlgydrsg-wltaehagng-sicyqrd-algnptditlpdgqhlthlyygsghll   94 (114)
+                      ..+..||..| .++......| ..-|..| +.|+|+.++-|+|+.....|-..|.+.
+T Consensus      1158 ~t~y~YD~~g~~~~~~td~~g~~t~~~YD~~~g~~~~~tD~ng~~~~~~YD~~Grl~ 1214 (1476)
+T 6L7I_F         1158 KMTLKWDTHYCVITQTQDAAGLTVSANYDWRFLTPTQLTDINDNVHLITLDALGRPV 1214 (1476)
+T ss_dssp             CEECCBCTTSSSBCCEECSSSCEEEEEEETTTTEEEEEECTTCCEEEEEECTTSCEE
+T ss_pred             eEEEEEeCCeEEEEEEEcCCCCEEEEEEeccccCcEEEECCCCCEEEEEECCCCCEE
+
+
+No 27
+>6SUE_F TcdB2,TccC3; Complex, Holotoxin, Photorhabdus, Insecticidal, TOXIN; 3.4A {Photorhabdus luminescens}
+Probab=42.64  E-value=1.4e+02  Score=29.66  Aligned_cols=81  Identities=14%  Similarity=0.055  Sum_probs=0.0  Template_Neff=10.300
+
+Q ss_pred             ecccccccceeccchhheeEEEEccchhhhhhccccceEEecccccceeeeeecCCCee-------eeeecCCCCCCccc
+Q FD01872556_031    4 VEGEHSKRTFSYNRLDQLTEVILTPTAAGQKHGMQADRVRLGYDRSGWLTAEHAGNGSI-------CYQRDALGNPTDIT   76 (114)
+Q Consensus         4 vegehskrtfsynrldqlteviltptaagqkhgmqadrvrlgydrsgwltaehagngsi-------cyqrdalgnptdit   76 (114)
+                      .+.+.....+.|+.+.+++.+...--.          .++..||..|.|+.........       .|..|+.|+.+.++
+T Consensus      1696 ~~~~~~~~~~~YD~~Grl~~~t~~~g~----------~~~~~Yd~~G~l~~~~~~~~~~~~~~~~~~~~Yd~~G~~~~~~ 1765 (2439)
+T 6SUE_F         1696 LADDIYTTLSTFDATGALLTQTDAKGN----------IQRLAYDVAGQLNGSWLTLKGQTEQVIIKSLTYSAAGQKLREE 1765 (2439)
+T ss_dssp             BCSCCEEEEEEECSSCCEEEEECTTSC----------EEEEEECTTSSEEEEEEECTTSCEEEEEEEEEECTTCCEEEEE
+T ss_pred             hcCceEEEEEEECCCCCEEEEEcCCCC----------EEEEEECCCCCEEEEEEEeCCCCceEEEEEEEECCCCCEEEEE
+
+
+Q ss_pred             CCCCCeEEEEeecchhHH
+Q FD01872556_031   77 LPDGQHLTHLYYGSGHLL   94 (114)
+Q Consensus        77 lpdgqhlthlyygsghll   94 (114)
+                      .++|...+.-|...+..|
+T Consensus      1766 ~~ng~~~~~~YD~~~~rl 1783 (2439)
+T 6SUE_F         1766 HGNDVITEYSYEPETQRL 1783 (2439)
+T ss_dssp             ETTSCEEEEEEETTTTEE
+T ss_pred             ECCceEEEEEEeCccCeE
+
+
+No 28
+>PF15283.8 ; DUF4595 ; Domain of unknown function (DUF4595) with porin-like fold
+Probab=41.45  E-value=2e+02  Score=19.43  Aligned_cols=77  Identities=17%  Similarity=0.173  Sum_probs=0.0  Template_Neff=10.900
+
+Q ss_pred             cccceeccchhheeEEEE--ccchhhhhhccccceEEecccccceeeeeecCC---CeeeeeecCCCCCCcccCCCCCeE
+Q FD01872556_031    9 SKRTFSYNRLDQLTEVIL--TPTAAGQKHGMQADRVRLGYDRSGWLTAEHAGN---GSICYQRDALGNPTDITLPDGQHL   83 (114)
+Q Consensus         9 skrtfsynrldqltevil--tptaagqkhgmqadrvrlgydrsgwltaehagn---gsicyqrdalgnptditlpdgqhl   83 (114)
+                      .+.+|.||....++++..  + ...+...+-........||..|.|+......   +...|.- +.||++.+...++.-.
+T Consensus        49 ~~~~~~yn~~G~i~~~~~~~~-~~~~~~~~~~~~~~~~~Yd~~g~l~~~~~~~~~~~~~~~~y-~~gn~~~~~~~~~~~~  126 (202)
+T W0ESP0_9BACT/1   49 DKGTATLDEAGRVASGEYFYT-YEKNGEWISGSWSYQLSYDTEGCLVGCESSSSEQGTSHITW-ENGNPVQVRWGAENNL  126 (202)
+T ss_pred             eEEEEEECCCCCEEEEEEeee-eccCCcccCceeEEEEEEcCCCCEEEEEEecCCCceEEEEE-eCCCeEEEEecCCCCe
+
+
+Q ss_pred             EEEe
+Q FD01872556_031   84 THLY   87 (114)
+Q Consensus        84 thly   87 (114)
+                      ...+
+T Consensus       127 ~~~~  130 (202)
+T W0ESP0_9BACT/1  127 IDKA  130 (202)
+T ss_pred             EEEE
+
+
+No 29
+>5KIS_A YenB; ABC toxin, RHS, TOXIN; 2.4A {Yersinia entomophaga}
+Probab=40.71  E-value=93  Score=29.69  Aligned_cols=51  Identities=18%  Similarity=0.041  Sum_probs=0.0  Template_Neff=9.400
+
+Q ss_pred             EecccccceeeeeecCC----------------C-eeeeeecCCCCCCcccCCCCCeEEEEeecchhH
+Q FD01872556_031   43 RLGYDRSGWLTAEHAGN----------------G-SICYQRDALGNPTDITLPDGQHLTHLYYGSGHL   93 (114)
+Q Consensus        43 rlgydrsgwltaehagn----------------g-sicyqrdalgnptditlpdgqhlthlyygsghl   93 (114)
+                      +..||..|.+.......                | +.-|..|++|..+.++.|+|.....-|..-+.+
+T Consensus      1411 ~~~Yd~~G~~~~~~~p~~~~~~~y~~~~~~~~~g~~~~~~YDa~GRl~~~~~~~G~~~~~~yd~~~~~ 1478 (1491)
+T 5KIS_A         1411 RTEYDGKGQGIRVYQPYFLDDWRYLSDDSARTDLFADTHIYDPLGREYQVITAKGYRRERQYTPWFVV 1478 (1491)
+T ss_dssp             CEEECTTSCEEEEECCEEESCSSCCCHHHHHHHSCEEEEEECTTSCEEEEECTTSCEEEEEECSSEEE
+T ss_pred             eEEECCCCCeeEEEcCceeCCcceechhHHHhcCCCCEEEECCCCCeEEEeCCCCeEEEEEECCCeEE
+
+
+No 30
+>6SUE_F TcdB2,TccC3; Complex, Holotoxin, Photorhabdus, Insecticidal, TOXIN; 3.4A {Photorhabdus luminescens}
+Probab=33.64  E-value=1.6e+02  Score=29.14  Aligned_cols=51  Identities=16%  Similarity=0.098  Sum_probs=0.0  Template_Neff=10.300
+
+Q ss_pred             EecccccceeeeeecC-------------------CCeeeeeecCCCCCCcccCCCCCeEEEEeecchhH
+Q FD01872556_031   43 RLGYDRSGWLTAEHAG-------------------NGSICYQRDALGNPTDITLPDGQHLTHLYYGSGHL   93 (114)
+Q Consensus        43 rlgydrsgwltaehag-------------------ngsicyqrdalgnptditlpdgqhlthlyygsghl   93 (114)
+                      +.-||..|.+..+...                   .....|..|++|+++.++.|+|...+..|...+..
+T Consensus      1389 ~~~YD~~Gr~~~~~~p~~~~~~~~~~~~~~~~~~~~~~t~~~YD~~GR~~~~~~p~G~~~~~~y~~~~~~ 1458 (2439)
+T 6SUE_F         1389 RTEYDNKGQPIRTYQPYFLNDWRYVSNDSARQEKEAYADTHVYDPIGREIKVITAKGWFRRTLFTPWFTV 1458 (2439)
+T ss_dssp             CEECCSSSCCCEEBCCEEESSCSCCCHHHHHHHSSSCBCEEEECTTSCEEEEECTTSCEEEEEECSSEEE
+T ss_pred             eEEECCCCCeeEEEcCceecCcceecchhhHhhccccCcEEEEcCCCCeEEEECCCceEEEEEecCcccc
+
+
+No 31
+>6SUE_F TcdB2,TccC3; Complex, Holotoxin, Photorhabdus, Insecticidal, TOXIN; 3.4A {Photorhabdus luminescens}
+Probab=32.63  E-value=4.7e+02  Score=26.35  Aligned_cols=91  Identities=21%  Similarity=0.131  Sum_probs=0.0  Template_Neff=10.300
+
+Q ss_pred             eecccccccceeccc---hhheeEEEEccch----------------hhhhhccccceEEecccccceeeeeecCC----
+Q FD01872556_031    3 EVEGEHSKRTFSYNR---LDQLTEVILTPTA----------------AGQKHGMQADRVRLGYDRSGWLTAEHAGN----   59 (114)
+Q Consensus         3 evegehskrtfsynr---ldqlteviltpta----------------agqkhgmqadrvrlgydrsgwltaehagn----   59 (114)
+                      .........+|.|+.   +.+++++......                ......-...++..-||..|..+...-..    
+T Consensus      1589 ~~d~~g~~~~~~YD~~~~~gr~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~G~~~~~~D~~G~~~~~~yd~~G~~ 1668 (2439)
+T 6SUE_F         1589 TVTATGVIQTRQYETSSLPGRLLSVAEQTPEEKTSRITERLIWAGNTEAEKDHNLAGQCVRHYDTAGVTRLESLSLTGTV 1668 (2439)
+T ss_dssp             EECTTCCEEEEEECCTTSCCCEEEEEEECTTCSSCEEEEEEEECCSCHHHHTTTCTTCEEEEECSSEEEEEEEECTTSSE
+T ss_pred             EEcCCCCEEEEEeCCCCCCCCeEEEEEeCCCcccceEEEEEEcCCCChhHHhcccCCCEEEEECCCCceEEEEECCCCCe
+
+
+Q ss_pred             --------------------------------CeeeeeecCCCCCCcccCCCCCeEEEEeecchhH
+Q FD01872556_031   60 --------------------------------GSICYQRDALGNPTDITLPDGQHLTHLYYGSGHL   93 (114)
+Q Consensus        60 --------------------------------gsicyqrdalgnptditlpdgqhlthlyygsghl   93 (114)
+                                                      ....|..|+.|+++.++.|+|.-...-|-..|.|
+T Consensus      1669 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~YD~~Grl~~~t~~~g~~~~~~Yd~~G~l 1734 (2439)
+T 6SUE_F         1669 LSQSSQLLIDTQEANWTGDNETVWQNMLADDIYTTLSTFDATGALLTQTDAKGNIQRLAYDVAGQL 1734 (2439)
+T ss_dssp             EEEEEEEBCTTCCCCCCSSCHHHHGGGBCSCCEEEEEEECSSCCEEEEECTTSCEEEEEECTTSSE
+T ss_pred             eEEEEEeccccCcCCCCCCcchHHHHhhcCceEEEEEEECCCCCEEEEEcCCCCEEEEEECCCCCE
+
+
+No 32
+>3W0E_A Elastase inhibitor AFUEI; elastase inhibitor, secreted protein, HYDROLASE INHIBITOR; 1.8A {Aspergillus fumigatus Af293}
+Probab=30.75  E-value=1.6e+02  Score=17.87  Aligned_cols=35  Identities=9%  Similarity=0.109  Sum_probs=0.0  Template_Neff=8.900
+
+Q ss_pred             EEEccchhhhhhccccceEEecccccceeeeeecC
+Q FD01872556_031   24 VILTPTAAGQKHGMQADRVRLGYDRSGWLTAEHAG   58 (114)
+Q Consensus        24 viltptaagqkhgmqadrvrlgydrsgwltaehag   58 (114)
+                      +.+.+.....-.....+|+++-+|.++.++.-+-|
+T Consensus        34 ~rvi~~g~~~t~d~~~~Rl~v~~d~~~~I~~v~cG   68 (68)
+T 3W0E_A           34 IRVLHPGDMITMEYIASRLNIQVNENNEIISAHCA   68 (68)
+T ss_dssp             EEEECTTCEEECCCCTTCEEEEECTTSBEEEEEEC
+T ss_pred             EEEeCCCCeecCCcCCCcEEEEECCCCcEEEEEeC
+
+
+No 33
+>6SUP_A TcdB2,TccC3,Cell division control protein 42 homolog; Toxins, Tc Toxins, TOXIN; 2.0A {Photorhabdus luminescens}
+Probab=27.78  E-value=2.3e+02  Score=27.81  Aligned_cols=52  Identities=17%  Similarity=0.050  Sum_probs=0.0  Template_Neff=10.200
+
+Q ss_pred             EEecccccceeeeeecCC-------------------------CeeeeeecCCCCCCcccCCCCCeEEEEeecchhH
+Q FD01872556_031   42 VRLGYDRSGWLTAEHAGN-------------------------GSICYQRDALGNPTDITLPDGQHLTHLYYGSGHL   93 (114)
+Q Consensus        42 vrlgydrsgwltaehagn-------------------------gsicyqrdalgnptditlpdgqhlthlyygsghl   93 (114)
+                      ....||..|.+.......                         ....|..|++|+++.++.|+|.....-|-..|.|
+T Consensus      1616 ~~~~yd~~G~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~t~~~YD~~Grl~~~~~p~g~~~~y~YD~~G~l 1692 (2128)
+T 6SUP_A         1616 RLESLSLTGTVLSQSSQLLIDTQEANWTGDNETVWQNMLADDIYTTLSTFDATGALLTQTDAKGNIQRLAYDVAGQL 1692 (2128)
+T ss_dssp             EEEEECTTSCEEEEEEEEBCTTCCCCCCSSCHHHHHTTBCSCCEEEEEEECTTSCEEEEECTTSCEEEEEECTTSCE
+T ss_pred             EEEEeCCCCCeeEEEEEeccccCCCCCCCCcchHHHHhccCceEEEEEEECCCCCEEEEECCCCCEEEEEEcCCCCe
+
+
+No 34
+>4GHB_B hypothetical protein; a porin like fold, uncharacterized protein of PF06788 family, Structural Genomics, Joint Center for Structural Genomics; HET: SO4, MSE, GOL; 2.32A {Bacteroides uniformis}
+Probab=27.66  E-value=4.7e+02  Score=19.53  Aligned_cols=83  Identities=16%  Similarity=0.116  Sum_probs=0.0  Template_Neff=9.900
+
+Q ss_pred             ccccccceeccchhheeEEEEccchhhhhhcc-----ccceEEecccccceeeeeecCCCeeeeeecCCCCCCcccCCC-
+Q FD01872556_031    6 GEHSKRTFSYNRLDQLTEVILTPTAAGQKHGM-----QADRVRLGYDRSGWLTAEHAGNGSICYQRDALGNPTDITLPD-   79 (114)
+Q Consensus         6 gehskrtfsynrldqlteviltptaagqkhgm-----qadrvrlgydrsgwltaehagngsicyqrdalgnptditlpd-   79 (114)
+                      +......|.|+.-.+|+++....    ...+.     ......+-|+. +-++.++......-|.-|+.|.++.++... 
+T Consensus        37 ~~~~~~~f~Yd~~grl~~i~~~~----~~~~~~~~~~~~~~~~~~Y~~-~~i~~~~~~~~~~~y~yn~~G~~~~~~~~~~  111 (272)
+T 4GHB_B           37 PVTATHTYLYNSAGRLTGYTGKQ----SFTAGDELFEIENTTTVEYKD-HQAVITDEAGTVSTYTLNDKGYATTCTSQDM  111 (272)
+T ss_dssp             CEEEEEEEEECTTSCEEEEEEEE----EEEETTEEEEEEEEEEEEEET-TEEEEECTTCCEEEEEECTTSCEEEEEEECT
+T ss_pred             ceeEEEEEEEcCCCCEEEEEEee----ecccCCceeeEEEEEEEEEcC-CEEEEEcCCCcEEEEEECCCCCEEEEEEeCC
+
+
+Q ss_pred             --CCeEEEEeec---ch--hH
+Q FD01872556_031   80 --GQHLTHLYYG---SG--HL   93 (114)
+Q Consensus        80 --gqhlthlyyg---sg--hl   93 (114)
+                        ......+-|.   .|  .|
+T Consensus       112 ~~~~~~~~~~Y~~~~~g~~~L  132 (272)
+T 4GHB_B          112 AGNTRTYTFSYLINTEDKYYL  132 (272)
+T ss_dssp             TCCEEEEEEEEEECTTCCEEE
+T ss_pred             CCCeEEEEEEEEecCCCeeEE
+
+
+No 35
+>d1a10i_ d.40.1.1 (I:) automated matches {Hordeum vulgare [TaxId: 112509]}
+Probab=27.10  E-value=1.7e+02  Score=18.14  Aligned_cols=31  Identities=26%  Similarity=0.318  Sum_probs=0.0  Template_Neff=8.100
+
+Q ss_pred             EEEccchhhhhhccccceEEecccccceeee
+Q FD01872556_031   24 VILTPTAAGQKHGMQADRVRLGYDRSGWLTA   54 (114)
+Q Consensus        24 viltptaagqkhgmqadrvrlgydrsgwlta   54 (114)
+                      +-..+...........+||++-.|..|+++.
+T Consensus        28 vrv~~~g~~~t~d~~~~Rv~i~~d~~g~I~~   58 (63)
+T d1a10i_          28 IIVLPVGTIVTPEYRIDRVRLFVDKLDNIAE   58 (63)
+T ss_dssp             EEEEETTCEECCCCCTTEEEEEECTTSBBCS
+T ss_pred             EEEccCCCccCCCCCCCeEEEEECCCCcEee
+
+
+No 36
+>TIGR02781 VirB9; P-type conjugative transfer protein VirB9. The VirB9 protein is found in the vir locus of Agrobacterium Ti plasmids where it is involved in a type IV secretion system .
+Probab=26.72  E-value=1.8e+02  Score=23.12  Aligned_cols=30  Identities=17%  Similarity=0.309  Sum_probs=0.0  Template_Neff=7.700
+
+Q ss_pred             CeeeeeecCCCCCCcccCCCCCeEEEEeec
+Q FD01872556_031   60 GSICYQRDALGNPTDITLPDGQHLTHLYYG   89 (114)
+Q Consensus        60 gsicyqrdalgnptditlpdgqhlthlyyg   89 (114)
+                      +.+---+-+.|..|+|.||+|+++..+.-|
+T Consensus        38 ~~~~~I~~~~g~~T~I~l~~gE~i~~~~~G   67 (243)
+T TIGR02781        38 DDVVRVVTSYGYSTTIEFADDETIKTVAVG   67 (243)
+T ss_pred             CCeEEEEecCCceEEEEeCCCCeEEEEEec
+
+
+No 37
+>6SUP_A TcdB2,TccC3,Cell division control protein 42 homolog; Toxins, Tc Toxins, TOXIN; 2.0A {Photorhabdus luminescens}
+Probab=24.47  E-value=3e+02  Score=27.12  Aligned_cols=46  Identities=17%  Similarity=0.166  Sum_probs=0.0  Template_Neff=10.200
+
+Q ss_pred             EEecccccceeeeeec-------------------CCCeeeeeecCCCCCCcccCCCCCeEEEEe
+Q FD01872556_031   42 VRLGYDRSGWLTAEHA-------------------GNGSICYQRDALGNPTDITLPDGQHLTHLY   87 (114)
+Q Consensus        42 vrlgydrsgwltaeha-------------------gngsicyqrdalgnptditlpdgqhlthly   87 (114)
+                      .+.-||..|.+..+..                   ......|.-|++|+++.++.|+|......|
+T Consensus      1357 ~~~~YD~~Gr~v~~~~P~~~~~~~~~~~~~~~~~~~~~~t~~~YD~lGR~i~~~~p~G~~~~~~y 1421 (2128)
+T 6SUP_A         1357 GRTEYDNKGQPIRTYQPYFLNDWRYVSNDSARQEKEAYADTHVYDPIGREIKVITAKGWFRRTLF 1421 (2128)
+T ss_dssp             CCEEECTTSCEEEEECCEEESCSSCCCHHHHHHCTTSCEEEEEECTTSCEEEEECTTSCEEEEEE
+T ss_pred             ceEEECCCCCeeEEEcCcccCCcceecchHHHhhccccCcEEEECCCCCeEEEECCCCeEEEEEE
+
+
+No 38
+>d1zbsa1 c.55.1.5 (A:108-283) Hypothetical protein PG1100 {Porphyromonas gingivalis [TaxId: 837]}
+Probab=24.02  E-value=1.4e+02  Score=21.93  Aligned_cols=15  Identities=27%  Similarity=0.138  Sum_probs=0.0  Template_Neff=8.500
+
+Q ss_pred             cCCCeeeeeecCCCC
+Q FD01872556_031   57 AGNGSICYQRDALGN   71 (114)
+Q Consensus        57 agngsicyqrdalgn   71 (114)
+                      +|.||+|+-+|..|+
+T Consensus         9 ~GTGS~~~~~~~~g~   23 (176)
+T d1zbsa1           9 LGTGSNSCLFDGREI   23 (176)
+T ss_dssp             ESSSEEEEEECSSSE
+T ss_pred             eCCCceEEEEcCCCc
+
+
+No 39
+>PF19910.1 ; DUF6383 ; Domain of unknown function (DUF6383)
+Probab=23.79  E-value=2.4e+02  Score=14.92  Aligned_cols=28  Identities=11%  Similarity=0.165  Sum_probs=0.0  Template_Neff=11.800
+
+Q ss_pred             CCeeeeeecCCCCCCcccCCCCCeEEEE
+Q FD01872556_031   59 NGSICYQRDALGNPTDITLPDGQHLTHL   86 (114)
+Q Consensus        59 ngsicyqrdalgnptditlpdgqhlthl   86 (114)
+                      +|.+.+......+-..+.+|.|.++..+
+T Consensus        38 ~G~~~~~~~~~~~~~~~~~~~g~yi~~~   65 (75)
+T G8UMK7_TANFA/1   38 LGQTLVNTVLTSDRATVAAPQGVVVVVV   65 (75)
+T ss_pred             CCCEEEEEEcCCCeEEEcCCCcEEEEEE
+
+
+No 40
+>d1zxoa2 c.55.1.5 (A:107-280) Hypothetical protein BT3618 {Bacteroides thetaiotaomicron [TaxId: 818]}
+Probab=23.50  E-value=1.4e+02  Score=21.89  Aligned_cols=15  Identities=20%  Similarity=0.093  Sum_probs=0.0  Template_Neff=8.500
+
+Q ss_pred             cCCCeeeeeecCCCC
+Q FD01872556_031   57 AGNGSICYQRDALGN   71 (114)
+Q Consensus        57 agngsicyqrdalgn   71 (114)
+                      +|.||+|+-++..|+
+T Consensus         8 ~GTGS~~~~~~~~g~   22 (174)
+T d1zxoa2           8 LGTGSNSCFYNGKEI   22 (174)
+T ss_dssp             ESSSEEEEEECSSSE
+T ss_pred             eCCCceEEEECCCcc
+
+
+No 41
+>3ZBJ_G TRAO PROTEIN; CELL ADHESION, BACTERIAL SECRETION; 8.5A {ESCHERICHIA COLI}
+Probab=23.49  E-value=4e+02  Score=18.78  Aligned_cols=42  Identities=10%  Similarity=0.074  Sum_probs=0.0  Template_Neff=7.700
+
+Q ss_pred             cceeeeeecCCCeeeeeecCCCCCCcccCCCCCeEEEEeecc
+Q FD01872556_031   49 SGWLTAEHAGNGSICYQRDALGNPTDITLPDGQHLTHLYYGS   90 (114)
+Q Consensus        49 sgwltaehagngsicyqrdalgnptditlpdgqhlthlyygs   90 (114)
+                      .+.+..-.-..+.+.--+-+.|.++.|.||+|..+....-|.
+T Consensus        10 d~ri~~~~y~~~~v~~i~~~~g~~t~I~l~~gE~I~~v~~Gd   51 (112)
+T 3ZBJ_G           10 DYRIKSVVYNPVNVVKIDAVAGVATHIVVAPDETYITHAFGD   51 (112)
+T ss_dssp             SSSCCCCCCSSSSSCCCCSSCCSSCSCSSCCSSCCCCCCCTT
+T ss_pred             CCceEEEEcCCCCeEEEEEEcCceEEEEeCCCCEEEEeeccC
+
+
+No 42
+>2IXM_A SERINE/THREONINE-PROTEIN PHOSPHATASE 2A REGULATORY SUBUNIT B'; PROTEIN PHOSPHATASE 2A, 2 PTPA, PPIASE, HYDROLASE ACTIVATOR; 1.5A {HOMO SAPIENS} SCOP: a.268.1.1
+Probab=23.29  E-value=1.4e+02  Score=25.33  Aligned_cols=24  Identities=42%  Similarity=0.761  Sum_probs=0.0  Template_Neff=6.700
+
+Q ss_pred             eeecCCCCCCcccCCCCCeEEEEeecchhHHHHHh
+Q FD01872556_031   64 YQRDALGNPTDITLPDGQHLTHLYYGSGHLLQTAL   98 (114)
+Q Consensus        64 yqrdalgnptditlpdgqhlthlyygsghllqtal   98 (114)
+                      |-.++.||++.|.           ||+||=|.-..
+T Consensus       119 Yl~~SFGn~~RiD-----------YGTGHEL~Fl~  142 (303)
+T 2IXM_A          119 YLKESVGNSTRID-----------YGTGHEAAFAA  142 (303)
+T ss_dssp             HHHTSSCBTTTTE-----------ECHHHHHHHHH
+T ss_pred             hhcCccCCccccc-----------cCchHHHHHHH
+
+
+No 43
+>d1zc6a2 c.55.1.5 (A:122-292) Probable N-acetylglucosamine kinase CV2896 {Chromobacterium violaceum [TaxId: 536]}
+Probab=22.65  E-value=1.6e+02  Score=21.22  Aligned_cols=15  Identities=33%  Similarity=0.282  Sum_probs=0.0  Template_Neff=8.800
+
+Q ss_pred             cCCCeeeeeecCCCC
+Q FD01872556_031   57 AGNGSICYQRDALGN   71 (114)
+Q Consensus        57 agngsicyqrdalgn   71 (114)
+                      +|.||+|+-++..|+
+T Consensus         8 ~GTGS~~~~~~~~g~   22 (171)
+T d1zc6a2           8 LGTGSIGEALYPDGS   22 (171)
+T ss_dssp             ESSSEEEEEECTTSC
+T ss_pred             eCCCcEEEEEcCCCC
+
+
+No 44
+>TIGR02775 TrbG_Ti; P-type conjugative transfer protein TrbG. The TrbG protein is found in the trb locus of Agrobacterium Ti plasmids where it is involved in the type IV secretion system for plasmid conjugative transfer.
+Probab=22.05  E-value=1.5e+02  Score=22.47  Aligned_cols=22  Identities=32%  Similarity=0.439  Sum_probs=0.0  Template_Neff=8.200
+
+Q ss_pred             CCCCCCcccCCCCCeEEEEeec
+Q FD01872556_031   68 ALGNPTDITLPDGQHLTHLYYG   89 (114)
+Q Consensus        68 algnptditlpdgqhlthlyyg   89 (114)
+                      +.|..|.|.||+|.++.....|
+T Consensus        17 ~~g~~T~I~l~~gE~i~~~~~G   38 (206)
+T TIGR02775        17 APLQVCDIALQPGEQLNNILAG   38 (206)
+T ss_pred             cCCceEEEEeCCCCEEEEeeee
+
+
+No 45
+>1VBW_A trypsin inhibitor BGIT; BGTI, TRYPSIN INHIBITOR, PROTEIN BINDING; HET: TLA; 0.93A {Momordica charantia} SCOP: d.40.1.1
+Probab=20.99  E-value=2.7e+02  Score=16.57  Aligned_cols=32  Identities=19%  Similarity=0.403  Sum_probs=0.0  Template_Neff=9.300
+
+Q ss_pred             EEEEccchhhhhhccccceEEecccccceeee
+Q FD01872556_031   23 EVILTPTAAGQKHGMQADRVRLGYDRSGWLTA   54 (114)
+Q Consensus        23 eviltptaagqkhgmqadrvrlgydrsgwlta   54 (114)
+                      .+..-+...........+|+++-+|.+++++.
+T Consensus        32 ~vr~i~~g~~~t~d~~~~Rl~i~~d~~~~i~~   63 (68)
+T 1VBW_A           32 RAVIIKVGSGATKDFRCDRVRVWVTERGIVAR   63 (68)
+T ss_dssp             EEEEEETTSCCCCSCCTTEEEEEECTTSBBCS
+T ss_pred             EEEEEcCCCCCCCCCCCCeEEEEECCCCeEec
+
+
+No 46
+>PF11720.10 ; Inhibitor_I78 ; Peptidase inhibitor I78 family
+Probab=20.13  E-value=2.4e+02  Score=16.63  Aligned_cols=20  Identities=15%  Similarity=0.332  Sum_probs=0.0  Template_Neff=9.000
+
+Q ss_pred             cceEEecccccceeeeeecC
+Q FD01872556_031   39 ADRVRLGYDRSGWLTAEHAG   58 (114)
+Q Consensus        39 adrvrlgydrsgwltaehag   58 (114)
+                      .+|+++-+|.+|.++.-.-|
+T Consensus        41 ~~Rl~v~~d~~g~V~~v~cg   60 (60)
+T Q3J6I4_RHOS4/3   41 PARLTVETNEAGRIVRLACG   60 (60)
+T ss_pred             CCcEEEEECCCCcEEEEEeC
+
+

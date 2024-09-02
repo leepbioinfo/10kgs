@@ -1,0 +1,107 @@
+Query         FD01847549_02012 hypothetical protein
+Match_columns 134
+No_of_seqs    1 out of 4
+Neff          1
+Searched_HMMs 107766
+Date          Mon Aug 23 15:47:39 2021
+Command       hhsearch -cpu 8 -i ../results/full.a3m -d /cluster/toolkit/production/databases/hh-suite/mmcif70/pdb70 -d /cluster/toolkit/production/databases/hh-suite/scope70/scope70 -d /cluster/toolkit/production/databases/hh-suite/pfama/pfama -d /cluster/toolkit/production/databases/hh-suite/TIGRFAM/TIGRFAM -o ../results/8544101.hhr -oa3m ../results/8544101.a3m -p 20 -Z 250 -loc -z 1 -b 1 -B 250 -ssm 2 -sc 1 -seq 1 -dbstrlen 10000 -norealign -maxres 32000 -contxt /cluster/toolkit/production/bioprogs/tools/hh-suite-build-new/data/context_data.crf 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF15607.8 ; Ntox44 ; Bacterial  99.7   2E-18 1.8E-23  113.4   1.0   81   42-130     1-106 (107)
+  2 PF06796.13 ; NapE ; Periplasmi  28.4      92 0.00086   21.9   1.5   10   41-52     42-51  (54)
+  3 d1b0nb_ a.34.1.1 (B:) SinI ant  26.0 1.8E+02  0.0016   17.1   2.2   18  116-134     2-19  (31)
+  4 TIGR02972 TMAO_torE; trimethyl  24.6 1.2E+02  0.0011   21.3   1.4   10   41-52     36-45  (47)
+  5 d1qexa_ b.32.1.1 (A:) gp9 {Bac  23.7      33  0.0003   31.0  -1.6   50   61-111    38-89  (288)
+  6 TIGR02973 nitrate_rd_NapE; per  21.3 1.6E+02  0.0015   20.4   1.5   10   41-52     31-40  (42)
+
+No 1
+>PF15607.8 ; Ntox44 ; Bacterial toxin 44
+Probab=99.72  E-value=2e-18  Score=113.37  Aligned_cols=81  Identities=35%  Similarity=0.554  Sum_probs=70.4  Template_Neff=8.600
+
+Q ss_pred             HHHHHHHhhCCCccccCC-------------------------cccccccccchhhHHHhcCCCCceeeccccchHHhhC
+Q FD01847549_020   42 WFYQMVRNHGPWDYKQGH-------------------------PQYANFGNFHYGAIGAAAGIPDGVLLRGAGAAQILAG   96 (134)
+Q Consensus        42 wfyqmvrnhgpwdykqgh-------------------------pqyanfgnfhygaigaaagipdgvllrgagaaqilag   96 (134)
+                      ||+.+|++.++||+|..-                         ..+..+||+|||.+|+++|++..+|++|++++|+..+
+T Consensus         1 ~f~~~V~~~g~wD~K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~d~~gNi~yGy~G~a~Gf~~~~L~~gag~~q~~~~   80 (107)
+T H6L0H2_SAPGL/4    1 NFANLVTDNAPFDLKSTSRSNLDKIPSYAAIVIGEWSMLNGRLTRYDDYGNISYGYWGRAYGYTTKTLLRGSNDNQIKKD   80 (107)
+T ss_pred             ChHHhhCCCCCCCCChhhHHhhcCCccccccccCceeeeCCeEeeccccccccHHHHHHHcCCCHHHHHhhhccccccCC
+Confidence            689999999999999431                         2456699999999999999999999999999999998
+
+
+Q ss_pred             CCCchHHHhhhchhhcCCCCCChHHHHHhHHHHH
+Q FD01847549_020   97 TSNPVEFAQYHAVDAYGDDPVDQSWIKAGIDYAR  130 (134)
+Q Consensus        97 tsnpvefaqyhavdaygddpvdqswikagidyar  130 (134)
+                      +++..        ..++|||-|+.||+.|+++..
+T Consensus        81 ~~~~~--------~~~~Dd~~D~~~I~~G~~~y~  106 (107)
+T H6L0H2_SAPGL/4   81 ESGQT--------DGNGDEQRDIDAIKMGIKQYD  106 (107)
+T ss_pred             CCCCC--------CCCCCCHHHHHHHHHHHHHHh
+Confidence            87642        349999999999999998754
+
+
+No 2
+>PF06796.13 ; NapE ; Periplasmic nitrate reductase protein NapE
+Probab=28.37  E-value=92  Score=21.89  Aligned_cols=10  Identities=50%  Similarity=1.321  Sum_probs=0.0  Template_Neff=4.500
+
+Q ss_pred             HHHHHHHHhhCC
+Q FD01847549_020   41 VWFYQMVRNHGP   52 (134)
+Q Consensus        41 vwfyqmvrnhgp   52 (134)
+                      ||++||+  -||
+T Consensus        42 VW~~Q~~--~Gp   51 (54)
+T A1BB86_PARDP/4   42 VWMSQII--FGP   51 (54)
+T ss_pred             HHHHHHH--hCC
+
+
+No 3
+>d1b0nb_ a.34.1.1 (B:) SinI anti-repressor {Bacillus subtilis [TaxId: 1423]}
+Probab=25.97  E-value=1.8e+02  Score=17.06  Aligned_cols=18  Identities=22%  Similarity=0.577  Sum_probs=0.0  Template_Neff=6.700
+
+Q ss_pred             CCChHHHHHhHHHHHhhCC
+Q FD01847549_020  116 PVDQSWIKAGIDYARRSGF  134 (134)
+Q Consensus       116 pvdqswikagidyarrsgf  134 (134)
+                      +.|+.|++. |..|+.+|.
+T Consensus         2 ~~D~EW~~l-i~~a~~~G~   19 (31)
+T d1b0nb_           2 ELDQEWVEL-MVEAKEANI   19 (31)
+T ss_dssp             CCCHHHHHH-HHHHHHTTC
+T ss_pred             cccHHHHHH-HHHHHHCCC
+
+
+No 4
+>TIGR02972 TMAO_torE; trimethylamine N-oxide reductase system, TorE protein. Members of this small, apparent transmembrane protein are designated TorE and occur in operons for the trimethylamine N-oxide (TMAO) reductase system.
+Probab=24.64  E-value=1.2e+02  Score=21.29  Aligned_cols=10  Identities=30%  Similarity=0.803  Sum_probs=0.0  Template_Neff=3.700
+
+Q ss_pred             HHHHHHHHhhCC
+Q FD01847549_020   41 VWFYQMVRNHGP   52 (134)
+Q Consensus        41 vwfyqmvrnhgp   52 (134)
+                      ||+|||.-  ||
+T Consensus        36 VW~~Q~~~--Gp   45 (47)
+T TIGR02972        36 IWMIQAFG--GV   45 (47)
+T ss_pred             HHHHHHHh--CC
+
+
+No 5
+>d1qexa_ b.32.1.1 (A:) gp9 {Bacteriophage T4 [TaxId: 10665]}
+Probab=23.65  E-value=33  Score=31.01  Aligned_cols=50  Identities=28%  Similarity=0.467  Sum_probs=0.0  Template_Neff=4.100
+
+Q ss_pred             ccccccccchhhHHHhcCCCCceeeccccchHHhhCC--CCchHHHhhhchhh
+Q FD01847549_020   61 QYANFGNFHYGAIGAAAGIPDGVLLRGAGAAQILAGT--SNPVEFAQYHAVDA  111 (134)
+Q Consensus        61 qyanfgnfhygaigaaagipdgvllrgagaaqilagt--snpvefaqyhavda  111 (134)
+                      .|..|||...-.++...+. ++-.|+.+|+-|-...+  .+|++|-+-|.+|.
+T Consensus        38 ~y~~~Gd~~~~~~~~~~~~-~~q~lh~~Gyyqk~~~~~~~~~v~~Gs~~diDT   89 (288)
+T d1qexa_          38 IYNAFGDQRKMAVANGTGA-DGQIIHATGYYQKHSITEYATPVKVGTRHDIDT   89 (288)
+T ss_dssp             HHTTSSCGGGGGSSSSCST-TCCCCCTTCCCBCCCTTGGGSCBCTTCEEECCC
+T ss_pred             HHHHhccceeeeeccCCCC-CCceeeeccceeecCCCCCccccCCcceEEEEC
+
+
+No 6
+>TIGR02973 nitrate_rd_NapE; periplasmic nitrate reductase, NapE protein. NapE, homologous to TorE (TIGR02972), is a membrane protein of unknown function that is part of the periplasmic nitrate reductase system.
+Probab=21.28  E-value=1.6e+02  Score=20.37  Aligned_cols=10  Identities=60%  Similarity=1.584  Sum_probs=0.0  Template_Neff=3.500
+
+Q ss_pred             HHHHHHHHhhCC
+Q FD01847549_020   41 VWFYQMVRNHGP   52 (134)
+Q Consensus        41 vwfyqmvrnhgp   52 (134)
+                      ||+||+.-  ||
+T Consensus        31 VW~~Q~~~--Gp   40 (42)
+T TIGR02973        31 VWMYQILA--GP   40 (42)
+T ss_pred             HHHHHHHh--CC
+
+

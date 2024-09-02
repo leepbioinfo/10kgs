@@ -1,0 +1,99 @@
+<pre>Query         WP_204934109.1/681-815 
+</pre><pre>Match_columns 135
+</pre><pre>No_of_seqs    60 out of 75
+</pre><pre>Neff          4.63341
+</pre><pre>Searched_HMMs 107766
+</pre><pre>Date          Tue Aug 24 16:00:27 2021
+</pre><pre>Command       hhsearch -cpu 8 -i ../results/full.a3m -d /cluster/toolkit/production/databases/hh-suite/mmcif70/pdb70 -d /cluster/toolkit/production/databases/hh-suite/scope70/scope70 -d /cluster/toolkit/production/databases/hh-suite/pfama/pfama -d /cluster/toolkit/production/databases/hh-suite/TIGRFAM/TIGRFAM -o ../results/6280914.hhr -oa3m ../results/6280914.a3m -p 20 -Z 250 -loc -z 1 -b 1 -B 250 -ssm 2 -sc 1 -seq 1 -dbstrlen 10000 -norealign -maxres 32000 -contxt /cluster/toolkit/production/bioprogs/tools/hh-suite-build-new/data/context_data.crf 
+</pre><pre>
+</pre><pre> No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+</pre><pre>  1 PF16386.7 ; DUF4995 ; Domain o  66.4      12 0.00011   27.3   2.2   23   62-84     36-59  (73)
+</pre><pre>  2 PF07192.13 ; SNURF ; SNURF/RPN  49.1      28 0.00026   25.8   1.6   14  104-117    56-69  (69)
+</pre><pre>  3 d1ef4a_ a.4.11.1 (A:) RNA poly  28.1      79 0.00073   22.3   1.1   27  104-130    14-40  (55)
+</pre><pre>  4 6B4H_B Nucleoporin AMO1; Compl  25.3 1.7E+02  0.0016   21.8   2.4   30   54-83     32-62  (73)
+</pre><pre>  5 4H5Y_A LidA protein, substrate  23.7 1.6E+02  0.0015   29.7   2.6   24  100-124    68-91  (570)
+</pre><pre>  6 3I71_B Ethanolamine utilizatio  22.3 2.6E+02  0.0024   20.2   2.9   28  103-130     4-31  (68)
+</pre><pre>
+</pre><pre>No 1
+</pre><pre>>PF16386.7 ; DUF4995 ; Domain of unknown function
+</pre><pre>Probab=66.37  E-value=12  Score=27.31  Aligned_cols=23  Identities=13%  Similarity=-0.002  Sum_probs=0.0  Template_Neff=5.500
+</pre><pre>
+</pre><pre>Q ss_pred             HHHHHHHHHHHHHhCCc-cCCceE
+</pre><pre>Q WP_204934109.1   62 DIAWVQRNLVRKLTGMI-DFPSVI   84 (135)
+</pre><pre>Q Consensus        62 DVa~~QY~~va~~~gf~-~lPs~I   84 (135)
+</pre><pre>                      |||.+|+...|++-+-. .||..|
+</pre><pre>T Consensus        36 dvA~~QL~~ta~ei~ds~~lPRSI   59 (73)
+</pre><pre>T R6FM43_9BACE/1   36 EVAVYQLLSTASELADSTKMPRTA   59 (73)
+</pre><pre>T ss_pred             HHHHHHHHHHHHHHHhhCCCCCcc
+</pre><pre>
+</pre><pre>
+</pre><pre>No 2
+</pre><pre>>PF07192.13 ; SNURF ; SNURF/RPN4 protein
+</pre><pre>Probab=49.14  E-value=28  Score=25.79  Aligned_cols=14  Identities=43%  Similarity=0.864  Sum_probs=0.0  Template_Neff=2.100
+</pre><pre>
+</pre><pre>Q ss_pred             hhHHHHHHhcCCCc
+</pre><pre>Q WP_204934109.1  104 DNLKDIFLNKTPNG  117 (135)
+</pre><pre>Q Consensus       104 ~~l~~~Fl~~TpNG  117 (135)
+</pre><pre>                      .+|..+||.+||-|
+</pre><pre>T Consensus        56 ~elrqaFlaetPRg   69 (69)
+</pre><pre>T SNURF_RAT/2-70   56 AELRQAFLAETPRG   69 (69)
+</pre><pre>T ss_pred             HHHHHHHhhcCCCC
+</pre><pre>
+</pre><pre>
+</pre><pre>No 3
+</pre><pre>>d1ef4a_ a.4.11.1 (A:) RNA polymerase subunit RPB10 {Methanobacterium thermoautotrophicum [TaxId: 145262]}
+</pre><pre>Probab=28.11  E-value=79  Score=22.27  Aligned_cols=27  Identities=19%  Similarity=0.429  Sum_probs=0.0  Template_Neff=4.900
+</pre><pre>
+</pre><pre>Q ss_pred             hhHHHHHHhcCCCcHHHHHHHHHhCCe
+</pre><pre>Q WP_204934109.1  104 DNLKDIFLNKTPNGRATNRVLERFGLA  130 (135)
+</pre><pre>Q Consensus       104 ~~l~~~Fl~~TpNGKsTqRIL~~fgL~  130 (135)
+</pre><pre>                      ....+.|+.....|.....+|+++||+
+</pre><pre>T Consensus        14 ~~~~e~y~~~l~~~~~~~~aLd~Lgl~   40 (55)
+</pre><pre>T d1ef4a_          14 SAYFNEYQRRVADGEDPKDVLDDLGLK   40 (55)
+</pre><pre>T ss_dssp             HHHHHHHHHHHHHTCCHHHHHHHHTCS
+</pre><pre>T ss_pred             hHHHHHHHHHHHCCCChHHHHHHcCCC
+</pre><pre>
+</pre><pre>
+</pre><pre>No 4
+</pre><pre>>6B4H_B Nucleoporin AMO1; Complex, Nuclear Pore Complex, mRNA export, DEAD-box helicase, TRANSPORT PROTEIN; HET: MES, IHP; 2.17A {Chaetomium thermophilum}
+</pre><pre>Probab=25.27  E-value=1.7e+02  Score=21.78  Aligned_cols=30  Identities=13%  Similarity=0.125  Sum_probs=0.0  Template_Neff=5.200
+</pre><pre>
+</pre><pre>Q ss_pred             CCCCCChHHHHHHHHHHHHHHhCCc-cCCce
+</pre><pre>Q WP_204934109.1   54 MSPEYFASDIAWVQRNLVRKLTGMI-DFPSV   83 (135)
+</pre><pre>Q Consensus        54 ~~~~y~AsDVa~~QY~~va~~~gf~-~lPs~   83 (135)
+</pre><pre>                      +...||..+..+.+|+.|++...|. .||.+
+</pre><pre>T Consensus        32 ~~e~Y~~~~~~~~~Y~~~~~~G~F~dGmPev   62 (73)
+</pre><pre>T 6B4H_B           32 EDPKVYEDEGVKRQWQSFLEKGRFEGGMPEV   62 (73)
+</pre><pre>T ss_dssp             SSGGGTTSHHHHHHTHHHHHHSSCSSCCCSS
+</pre><pre>T ss_pred             CChhhcCCHHHHHHHHHHHHhCCCCCCCCCC
+</pre><pre>
+</pre><pre>
+</pre><pre>No 5
+</pre><pre>>4H5Y_A LidA protein, substrate of the Dot/Icm system; twisted beta-hairpin repeat, coiled-coil, type IV secretion system, Rab-binding, Rab1, Rab6, Rab8, PtdIns(3)P, PtdIns(4)P, membrane, PROTEIN; 2.1A {Legionella pneumophila}
+</pre><pre>Probab=23.72  E-value=1.6e+02  Score=29.73  Aligned_cols=24  Identities=25%  Similarity=0.351  Sum_probs=0.0  Template_Neff=5.900
+</pre><pre>
+</pre><pre>Q ss_pred             ccCChhHHHHHHhcCCCcHHHHHHH
+</pre><pre>Q WP_204934109.1  100 ELDGDNLKDIFLNKTPNGRATNRVL  124 (135)
+</pre><pre>Q Consensus       100 ~l~~~~l~~~Fl~~TpNGKsTqRIL  124 (135)
+</pre><pre>                      ||..+.....|| .||.|++|...+
+</pre><pre>T Consensus        68 GLKna~dV~~FL-kSPaGetv~~~I   91 (570)
+</pre><pre>T 4H5Y_A           68 GLKNASQVKKFL-LSPAGKDVIAEL   91 (570)
+</pre><pre>T ss_dssp             TCCSHHHHHHHH-TCCSSSCSCCSS
+</pre><pre>T ss_pred             CCCCHHHHHHHH-cCHhHHHHHHHH
+</pre><pre>
+</pre><pre>
+</pre><pre>No 6
+</pre><pre>>3I71_B Ethanolamine utilization protein eutK; helix-turn-helix, UNKNOWN FUNCTION; HET: FLC; 2.1A {Escherichia coli}
+</pre><pre>Probab=22.34  E-value=2.6e+02  Score=20.16  Aligned_cols=28  Identities=18%  Similarity=0.262  Sum_probs=0.0  Template_Neff=6.100
+</pre><pre>
+</pre><pre>Q ss_pred             ChhHHHHHHhcCCCcHHHHHHHHHhCCe
+</pre><pre>Q WP_204934109.1  103 GDNLKDIFLNKTPNGRATNRVLERFGLA  130 (135)
+</pre><pre>Q Consensus       103 ~~~l~~~Fl~~TpNGKsTqRIL~~fgL~  130 (135)
+</pre><pre>                      +++-+-.||...|-|-+|..|.+.||+.
+</pre><pre>T Consensus         4 s~~eIL~~i~~~~p~~ta~EVAe~l~~~   31 (68)
+</pre><pre>T 3I71_B            4 SADELLALLTSVRQGMTAGEVAAHFGWP   31 (68)
+</pre><pre>T ss_dssp             HHHHHHHHHHHHHHCBCHHHHHHHHTCC
+</pre><pre>T ss_pred             cHHHHHHHHHhCCCCccHHHHHHHHCCC
+</pre><pre>
+</pre><pre>
+</pre>

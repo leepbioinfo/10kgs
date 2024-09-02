@@ -1,0 +1,27 @@
+Sequencias retiradas 
+
+>EFB86003.1/68-188
+-----RPNNGKDHIFFDHKL-DSGI---R--YS-SDAVQFN--DANKAFIKKMESNP--------SF-----
+---------KR-D------ML------------NRYPEIK-E---WMKSGD-------MSSSPNWGK-G---
+------------KNK----------Q--G----LTWHHHE---------DT-------------KRSVLVDY
+NDH--R----RN-------------HGLYQP----QR-----KGGRSIWGGGR---
+>WP_205873675.1/1924-2047
+-------TRGSYSPVAEARI-PREM---W--QH-SDARHFQ--EANRQLYHQVLNSP--------DL-----
+---------LD-F------IE------------SRYPGTM-E---HVTPSRVGEDGLPNGQ----FS-R---
+------------RPP----------P--G----LTWHHHE---------L------------P-GLMQLVDR
+IDH--A----TR-------------HGDYHP----KG-----YGGRAIWGGGST-R
+>WP_121007243.1/548-675
+-------NSPHYSVAYEAEL-DSSH---F--PGRSANHHFS--EANRQLHAAFQSDP--------AF-----
+---------AR-S------ME------------QLYPGIV-D---GVAPGP-------RGG----FP-R---
+------------RGP--IPGVDGGDP--P----LTWHHHP---------TR-----------P-GVLQLIPY
+EHH--T----AA----G------PVQGSLHP----NG-----RGGMENWGGGR---
+>MBR7119350.1/198-310
+---------PEFDSVFETNL-PEGL---Y--EA-SDSAQFA--ECNKQLQEWVNQNP--------DQ-----
+---------AA-KI-----FT---------------PEQL-E---VIK------------------N-NPVV
+IQGANGKTIIVWKNP----------P--G----LTWHHNQ---------K------------P-GLMQLVDS
+KTH--A----AT----G------------H------------TGGQAIWGNSS---
+>WP_187011133.1/191-315
+------------HSAFSTSL-PEKY---Y--TY-NDNNTFD--ICKNALRKEYEKNPPKIEQILRDLNRGKV
+YKSNGVVLNEE-E------ML---------------KKQI-K---DILQE---------------NS-G---
+------------QQKGRI-------F--G----FTWHHNE---------A------------V-GRMDLVAD
+DIH--K----KV----K------------H------------VGGNSIWGGGSTCR

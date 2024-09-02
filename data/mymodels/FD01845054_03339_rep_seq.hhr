@@ -1,0 +1,38 @@
+Query         FD01845054_03339 
+Match_columns 63
+No_of_seqs    2 out of 6
+Neff          1.02287
+Searched_HMMs 107766
+Date          Tue Aug 24 13:41:42 2021
+Command       hhsearch -cpu 8 -i ../results/full.a3m -d /cluster/toolkit/production/databases/hh-suite/mmcif70/pdb70 -d /cluster/toolkit/production/databases/hh-suite/scope70/scope70 -d /cluster/toolkit/production/databases/hh-suite/pfama/pfama -d /cluster/toolkit/production/databases/hh-suite/TIGRFAM/TIGRFAM -o ../results/1872022.hhr -oa3m ../results/1872022.a3m -p 20 -Z 250 -loc -z 1 -b 1 -B 250 -ssm 2 -sc 1 -seq 1 -dbstrlen 10000 -norealign -maxres 32000 -contxt /cluster/toolkit/production/bioprogs/tools/hh-suite-build-new/data/context_data.crf 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF06233.14 ; Usg ; Usg-like fa  32.6      58 0.00054   21.9   1.0   11    5-15     26-36  (80)
+  2 PF17038.7 ; CBP_BcsN ; Cellulo  20.9 1.3E+02  0.0012   21.7   1.1   12    2-13    108-119 (186)
+
+No 1
+>PF06233.14 ; Usg ; Usg-like family
+Probab=32.64  E-value=58  Score=21.91  Aligned_cols=11  Identities=64%  Similarity=1.189  Sum_probs=0.0  Template_Neff=4.300
+
+Q ss_pred             eeceecCCCCc
+Q FD01845054_033    5 YRWQELDGAPR   15 (63)
+Q Consensus         5 yrwqeldgapr   15 (63)
+                      |-||++|-+|+
+T Consensus        26 fiWQ~~D~aP~   36 (80)
+T USG_CAUVC/9-88   26 YVWQEYDLAPK   36 (80)
+T ss_pred             eeceeccCCCC
+
+
+No 2
+>PF17038.7 ; CBP_BcsN ; Cellulose biosynthesis protein BcsN
+Probab=20.91  E-value=1.3e+02  Score=21.75  Aligned_cols=12  Identities=33%  Similarity=1.127  Sum_probs=0.0  Template_Neff=6.500
+
+Q ss_pred             cceeeceecCCC
+Q FD01845054_033    2 TCRYRWQELDGA   13 (63)
+Q Consensus         2 tcryrwqeldga   13 (63)
+                      +|-|-||.+|..
+T Consensus       108 ~CvyAWQ~I~~~  119 (186)
+T A0A0Q6S6K7_9RH  108 SCLYAWQQIRSS  119 (186)
+T ss_pred             eeEEEEEEccCc
+
+

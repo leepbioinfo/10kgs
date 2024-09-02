@@ -1,0 +1,625 @@
+Query         FD01846392_02288 DUF2778 domain-containing protein
+Match_columns 87
+No_of_seqs    1 out of 6
+Neff          1
+Searched_HMMs 107766
+Date          Mon Aug 23 15:37:35 2021
+Command       hhsearch -cpu 8 -i ../results/full.a3m -d /cluster/toolkit/production/databases/hh-suite/mmcif70/pdb70 -d /cluster/toolkit/production/databases/hh-suite/scope70/scope70 -d /cluster/toolkit/production/databases/hh-suite/pfama/pfama -d /cluster/toolkit/production/databases/hh-suite/TIGRFAM/TIGRFAM -o ../results/6890483.hhr -oa3m ../results/6890483.a3m -p 20 -Z 250 -loc -z 1 -b 1 -B 250 -ssm 2 -sc 1 -seq 1 -dbstrlen 10000 -norealign -maxres 32000 -contxt /cluster/toolkit/production/bioprogs/tools/hh-suite-build-new/data/context_data.crf 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF10908.10 ; DUF2778 ; Protein  91.4    0.36 3.4E-06   30.4   1.9   32   18-49      1-34  (121)
+  2 PF18925.2 ; DUF5675 ; Family o  61.1      20 0.00018   24.8   2.3   29   28-56     39-68  (131)
+  3 PF18175.3 ; HU-CCDC81_bac_2 ;   47.0      25 0.00023   19.6   0.9   16    8-23     35-50  (70)
+  4 PF14734.8 ; DUF4469 ; Domain o  44.2      55 0.00051   21.7   2.3   16   37-54     69-84  (99)
+  5 PF18174.3 ; HU-CCDC81_bac_1 ;   43.2      28 0.00026   19.7   0.7   15    8-22     14-28  (59)
+  6 d4n1va1 a.55.1.0 (A:1-93) auto  35.9      49 0.00045   19.7   1.0   16    8-23     40-55  (93)
+  7 d4p3va_ a.55.1.1 (A:) HU prote  35.8      49 0.00046   19.5   1.0   16    8-23     38-53  (90)
+  8 d1exea_ a.55.1.1 (A:) Transcri  35.2      50 0.00046   20.1   1.0   16    8-23     38-53  (99)
+  9 5EKA_A DNA-binding protein HU;  34.3      52 0.00049   18.8   0.9   20    8-27     43-62  (96)
+ 10 PF11164.10 ; DUF2948 ; Protein  32.7 1.1E+02   0.001   22.6   2.5   35   44-78     97-137 (138)
+ 11 TIGR00987 himA; integration ho  30.3      69 0.00064   19.3   1.0   18    8-25     39-56  (96)
+ 12 1HUU_B PROTEIN HU; DNA-BINDING  29.0      68 0.00063   17.9   0.8   17    8-24     38-54  (90)
+ 13 1HUU_C PROTEIN HU; DNA-BINDING  29.0      68 0.00063   17.9   0.8   17    8-24     38-54  (90)
+ 14 4P3V_A DNA-binding protein HU-  28.7      84 0.00078   17.6   1.1   24    8-31     38-61  (90)
+ 15 d1hxra_ b.88.1.1 (A:) RabGEF M  27.8      63 0.00059   22.5   0.6    7   63-69     87-93  (115)
+ 16 PF11619.10 ; P53_C ; Transcrip  27.6 1.2E+02  0.0011   21.0   1.9   11   43-53      9-19  (67)
+ 17 1MUL_A DNA binding protein HU-  27.5 1.2E+02  0.0011   17.1   1.5   28    8-35     38-65  (90)
+ 18 1HXR_B GUANINE NUCLEOTIDE EXCH  27.3      65  0.0006   22.1   0.6    7   63-69     87-93  (115)
+ 19 PF11797.10 ; DUF3324 ; Protein  27.3 1.5E+02  0.0013   19.5   2.1   31   26-56     87-117 (139)
+ 20 1P71_A DNA-binding protein HU;  27.0      85 0.00079   18.0   1.0   16    8-23     38-53  (94)
+ 21 PF06744.14 ; IcmF_C ; Type VI   25.0 2.1E+02  0.0019   17.8   2.4   48    3-56     15-62  (103)
+ 22 d1huua_ a.55.1.1 (A:) HU prote  24.9 1.1E+02   0.001   18.1   1.2   16    8-23     38-53  (90)
+ 23 1XPN_A hypothetical protein PA  23.9   2E+02  0.0018   20.4   2.5   39   42-80    124-162 (170)
+ 24 1B8Z_B PROTEIN (HISTONELIKE PR  23.8   1E+02 0.00095   17.2   0.9   16    8-23     38-53  (90)
+ 25 d1mula_ a.55.1.1 (A:) HU prote  23.5 1.1E+02 0.00098   18.2   1.0   16    8-23     38-53  (90)
+ 26 2RP4_A Transcription factor p5  23.5 1.6E+02  0.0015   21.0   1.9   11   43-53     18-28  (76)
+ 27 2RP4_C Transcription factor p5  23.5 1.6E+02  0.0015   21.0   1.9   11   43-53     18-28  (76)
+ 28 1WTU_B TRANSCRIPTION FACTOR 1;  22.9 1.2E+02  0.0012   17.7   1.2   17    8-24     38-54  (99)
+ 29 PF04421.15 ; Mss4 ; Mss4 prote  22.7      90 0.00083   20.9   0.6    7   63-69     67-73  (94)
+ 30 PF16451.7 ; bCoV_S1_N ; Betaco  22.4 1.1E+02   0.001   24.3   1.2   21   49-69    185-205 (246)
+ 31 2O14_A Hypothetical protein yx  22.1 1.8E+02  0.0016   21.3   2.0   14   42-55     84-97  (375)
+ 32 1OWF_B Integration Host Factor  21.9 1.2E+02  0.0011   17.2   1.0   15    8-22     39-53  (94)
+ 33 TIGR00988 hip; integration hos  21.7 1.3E+02  0.0012   18.2   1.0   16    8-23     39-54  (94)
+ 34 PF15507.8 ; DUF4649 ; Domain o  21.5 1.9E+02  0.0018   19.5   1.9   14    3-16     40-53  (68)
+ 35 d1p71a_ a.55.1.1 (A:) HU prote  21.2 1.5E+02  0.0014   17.9   1.2   16    8-23     38-53  (94)
+ 36 2KPP_A Lin0431 protein; soluti  20.8 2.3E+02  0.0021   19.9   2.3   36   32-67     60-102 (114)
+ 37 6N2L_A Histone family protein   20.5 1.3E+02  0.0012   18.5   0.9   16    8-23     46-61  (100)
+ 38 PF00216.23 ; Bac_DNA_binding ;  20.4 1.2E+02  0.0011   17.1   0.8   16    8-23     38-53  (90)
+ 39 d1owfa_ a.55.1.1 (A:) Integrat  20.4 1.3E+02  0.0012   18.2   0.9   16    8-23     39-54  (96)
+ 40 4PT4_B DNA-binding protein HU   20.3 1.2E+02  0.0011   17.8   0.7   14    8-21     38-51  (99)
+ 41 3GOE_A DNA repair protein rad6  20.2   2E+02  0.0019   17.2   1.7   11    3-13     51-61  (82)
+ 42 2MNJ_B Protein interacting wit  20.0 2.9E+02  0.0027   19.0   2.5   26   42-67     18-43  (88)
+
+No 1
+>PF10908.10 ; DUF2778 ; Protein of unknown function (DUF2778)
+Probab=91.44  E-value=0.36  Score=30.42  Aligned_cols=32  Identities=34%  Similarity=0.645  Sum_probs=0.0  Template_Neff=9.200
+
+Q ss_pred             eeeeeccCCCCCC-CCccccccc-ccCCCcceEE
+Q FD01846392_022   18 GIFKATTGLPDLQ-WPDKQCVPD-AAIPEGNYKL   49 (87)
+Q Consensus        18 gifkattglpdlq-wpdkqcvpd-aaipegnykl   49 (87)
+                      +.|.|+.|.+..+ -|+.|++++ ..||+|+|.+
+T Consensus         1 ~~~~a~SG~~~~~n~~~~~~~~~~GPiP~G~Y~i   34 (121)
+T Q8XVE3_RALSO/2    1 HAFPAFSGLRSHANRRSSVCLPSVGAIPPGKYYI   34 (121)
+T ss_pred             CCccCcCCCccccCCchhccCCCCCCCCCeEEEE
+
+
+No 2
+>PF18925.2 ; DUF5675 ; Family of unknown function (DUF5675)
+Probab=61.13  E-value=20  Score=24.82  Aligned_cols=29  Identities=24%  Similarity=0.288  Sum_probs=0.0  Template_Neff=7.400
+
+Q ss_pred             CCCCCcc-cccccccCCCcceEEEEEEecc
+Q FD01846392_022   28 DLQWPDK-QCVPDAAIPEGNYKLFIQFQGE   56 (87)
+Q Consensus        28 dlqwpdk-qcvpdaaipegnyklfiqfqge   56 (87)
+                      +|+-|+. ..-.+..||+|.|+++......
+T Consensus        39 ~~~~~~~~~~~~~scIP~G~Y~l~~~~s~~   68 (131)
+T A0A0Q5TTP3_9BA   39 PLSEILSVKVKTRTAIPVGRYKVAVTHSTR   68 (131)
+T ss_pred             CcchhccccCCCCceecCeEEEEEEEecCC
+
+
+No 3
+>PF18175.3 ; HU-CCDC81_bac_2 ; CCDC81-like prokaryotic HU domain 2
+Probab=47.05  E-value=25  Score=19.59  Aligned_cols=16  Identities=19%  Similarity=0.364  Sum_probs=0.0  Template_Neff=9.900
+
+Q ss_pred             CCeecccCeeeeeeec
+Q FD01846392_022    8 DGQKLTWPGIGIFKAT   23 (87)
+Q Consensus         8 dgqkltwpgigifkat   23 (87)
+                      .|+++.|+|+|.|+..
+T Consensus        35 ~g~~v~l~~lG~f~~~   50 (70)
+T H2BUT3_9FLAO/5   35 KENKVALDTLGNFAIS   50 (70)
+T ss_pred             hCCcEEcCCCceEEEC
+
+
+No 4
+>PF14734.8 ; DUF4469 ; Domain of unknown function (DUF4469) with IG-like fold
+Probab=44.24  E-value=55  Score=21.69  Aligned_cols=16  Identities=38%  Similarity=0.723  Sum_probs=0.0  Template_Neff=7.400
+
+Q ss_pred             cccccCCCcceEEEEEEe
+Q FD01846392_022   37 VPDAAIPEGNYKLFIQFQ   54 (87)
+Q Consensus        37 vpdaaipegnyklfiqfq   54 (87)
+                      +|+  +++|+|.|-|.-|
+T Consensus        69 vP~--L~~G~Y~l~i~t~   84 (99)
+T A6LGM9_PARD8/1   69 IPQ--LAEGQYWLSVTTQ   84 (99)
+T ss_pred             eCC--CCCCEEEEEEEEe
+
+
+No 5
+>PF18174.3 ; HU-CCDC81_bac_1 ; CCDC81-like prokaryotic HU domain 1
+Probab=43.20  E-value=28  Score=19.69  Aligned_cols=15  Identities=20%  Similarity=0.377  Sum_probs=0.0  Template_Neff=8.900
+
+Q ss_pred             CCeecccCeeeeeee
+Q FD01846392_022    8 DGQKLTWPGIGIFKA   22 (87)
+Q Consensus         8 dgqkltwpgigifka   22 (87)
+                      .|.+++.||+|-|+.
+T Consensus        14 ~~~~v~l~gfGtF~~   28 (59)
+T D3ID00_9BACT/1   14 NNDCVIIPNFGGFMV   28 (59)
+T ss_pred             hCCEEEeCCCCcEEE
+
+
+No 6
+>d4n1va1 a.55.1.0 (A:1-93) automated matches {Spiroplasma melliferum [TaxId: 570509]}
+Probab=35.94  E-value=49  Score=19.66  Aligned_cols=16  Identities=31%  Similarity=0.669  Sum_probs=0.0  Template_Neff=9.700
+
+Q ss_pred             CCeecccCeeeeeeec
+Q FD01846392_022    8 DGQKLTWPGIGIFKAT   23 (87)
+Q Consensus         8 dgqkltwpgigifkat   23 (87)
+                      +|..+.++|+|.|+..
+T Consensus        40 ~g~~V~l~~lG~f~~~   55 (93)
+T d4n1va1          40 AGKEVSIAGFGKFAVT   55 (93)
+T ss_dssp             TTCCEEETTTEEEEEE
+T ss_pred             CCCcEEeCCCeEEEEE
+
+
+No 7
+>d4p3va_ a.55.1.1 (A:) HU protein {Escherichia coli, beta-isoform [TaxId: 562]}
+Probab=35.75  E-value=49  Score=19.52  Aligned_cols=16  Identities=25%  Similarity=0.646  Sum_probs=0.0  Template_Neff=9.700
+
+Q ss_pred             CCeecccCeeeeeeec
+Q FD01846392_022    8 DGQKLTWPGIGIFKAT   23 (87)
+Q Consensus         8 dgqkltwpgigifkat   23 (87)
+                      +|..+.++|+|.|+.+
+T Consensus        38 ~g~~V~l~~~G~f~~~   53 (90)
+T d4p3va_          38 EGDDVALVGFGTFAVK   53 (90)
+T ss_dssp             TTCCEEETTTEEEEEE
+T ss_pred             cCCcEEecCCeEEEEE
+
+
+No 8
+>d1exea_ a.55.1.1 (A:) Transcription factor 1, TF1 {Bacteriophage SPO1 [TaxId: 10685]}
+Probab=35.21  E-value=50  Score=20.13  Aligned_cols=16  Identities=25%  Similarity=0.362  Sum_probs=0.0  Template_Neff=9.400
+
+Q ss_pred             CCeecccCeeeeeeec
+Q FD01846392_022    8 DGQKLTWPGIGIFKAT   23 (87)
+Q Consensus         8 dgqkltwpgigifkat   23 (87)
+                      +|..+.++|+|.|+.+
+T Consensus        38 ~g~~V~l~~~G~f~~~   53 (99)
+T d1exea_          38 KGDKVQLTGFLNIKPV   53 (99)
+T ss_dssp             HTCCCCBTTTBCCCCC
+T ss_pred             CCCcEEeCCCeeEEEE
+
+
+No 9
+>5EKA_A DNA-binding protein HU; HU PROTEIN, HISTONE-LIKE PROTEIN, THERMOSTABLE DNA-BINDING PROTEIN, DNA BINDING PROTEIN; 1.69A {Thermus thermophilus HB8} SCOP: a.55.1.0
+Probab=34.34  E-value=52  Score=18.79  Aligned_cols=20  Identities=25%  Similarity=0.541  Sum_probs=0.0  Template_Neff=10.600
+
+Q ss_pred             CCeecccCeeeeeeeccCCC
+Q FD01846392_022    8 DGQKLTWPGIGIFKATTGLP   27 (87)
+Q Consensus         8 dgqkltwpgigifkattglp   27 (87)
+                      +|..+.++++|.|+.+...+
+T Consensus        43 ~g~~v~i~~~G~f~~~~~~~   62 (96)
+T 5EKA_A           43 NGSKVQLTGFGTFEVRKRKA   62 (96)
+T ss_dssp             TTCCEEETTTEEEEEEEECS
+T ss_pred             CCCCEEcCCCceEEEEEcCC
+
+
+No 10
+>PF11164.10 ; DUF2948 ; Protein of unknown function (DUF2948)
+Probab=32.74  E-value=1.1e+02  Score=22.60  Aligned_cols=35  Identities=20%  Similarity=0.420  Sum_probs=0.0  Template_Neff=5.900
+
+Q ss_pred             CcceEEEEEEeccCcccchhcC------CCCCccccccCCC
+Q FD01846392_022   44 EGNYKLFIQFQGEAPIRNAADC------DLGPSWGWSTIPR   78 (87)
+Q Consensus        44 egnyklfiqfqgeapirnaadc------dlgpswgwstipr   78 (87)
+                      .++..+.+.|.|.+.||--.+|      |+|.+|.-...|.
+T Consensus        97 ~~~~~i~L~Fsgg~~IrL~ve~i~~~L~D~~~pw~t~~~P~  137 (138)
+T E0TBY7_PARBH/9   97 ENGGTVSLDFAGGGTVALDVEAINITLKDLSAPWRTKHKPN  137 (138)
+T ss_pred             CCCeEEEEEEcCCCeEEEEEEEEEEEEEeCCCCCCCCCCCC
+
+
+No 11
+>TIGR00987 himA; integration host factor, alpha subunit. This protein forms a site-specific DNA-binding heterodimer with the integration host factor beta subunit.
+Probab=30.27  E-value=69  Score=19.33  Aligned_cols=18  Identities=22%  Similarity=0.556  Sum_probs=0.0  Template_Neff=9.500
+
+Q ss_pred             CCeecccCeeeeeeeccC
+Q FD01846392_022    8 DGQKLTWPGIGIFKATTG   25 (87)
+Q Consensus         8 dgqkltwpgigifkattg   25 (87)
+                      +|..+.++|+|.|+....
+T Consensus        39 ~G~~V~l~~lG~f~~~~~   56 (96)
+T TIGR00987        39 NGEQVKLSGFGNFDLRDK   56 (96)
+T ss_pred             CCCCEEeCCCeEEEEEEC
+
+
+No 12
+>1HUU_B PROTEIN HU; DNA-BINDING PROTEIN, DNA SUPERCOILING, ALPHA/BETA CLASS, MINOR GROOVE BINDER; 2.0A {Geobacillus stearothermophilus} SCOP: a.55.1.1
+Probab=28.99  E-value=68  Score=17.90  Aligned_cols=17  Identities=29%  Similarity=0.571  Sum_probs=0.0  Template_Neff=10.800
+
+Q ss_pred             CCeecccCeeeeeeecc
+Q FD01846392_022    8 DGQKLTWPGIGIFKATT   24 (87)
+Q Consensus         8 dgqkltwpgigifkatt   24 (87)
+                      +|..+.++++|.|+.+.
+T Consensus        38 ~g~~v~i~~~g~~~~~~   54 (90)
+T 1HUU_B           38 KGDKVQLIGFGNFEVRE   54 (90)
+T ss_dssp             TTCCEEETTTEEEEEEE
+T ss_pred             cCCCEEecCCeeEEEEE
+
+
+No 13
+>1HUU_C PROTEIN HU; DNA-BINDING PROTEIN, DNA SUPERCOILING, ALPHA/BETA CLASS, MINOR GROOVE BINDER; 2.0A {Geobacillus stearothermophilus} SCOP: a.55.1.1
+Probab=28.99  E-value=68  Score=17.90  Aligned_cols=17  Identities=29%  Similarity=0.571  Sum_probs=0.0  Template_Neff=10.800
+
+Q ss_pred             CCeecccCeeeeeeecc
+Q FD01846392_022    8 DGQKLTWPGIGIFKATT   24 (87)
+Q Consensus         8 dgqkltwpgigifkatt   24 (87)
+                      +|..+.++++|.|+.+.
+T Consensus        38 ~g~~v~i~~~g~~~~~~   54 (90)
+T 1HUU_C           38 KGDKVQLIGFGNFEVRE   54 (90)
+T ss_dssp             TTCCEEETTTEEEEEET
+T ss_pred             cCCCEEecCCeeEEEEE
+
+
+No 14
+>4P3V_A DNA-binding protein HU-beta; Histone-like, homodimer, DNA BINDING PROTEIN; 1.25A {Escherichia coli} SCOP: a.55.1.1
+Probab=28.69  E-value=84  Score=17.63  Aligned_cols=24  Identities=17%  Similarity=0.346  Sum_probs=0.0  Template_Neff=10.700
+
+Q ss_pred             CCeecccCeeeeeeeccCCCCCCC
+Q FD01846392_022    8 DGQKLTWPGIGIFKATTGLPDLQW   31 (87)
+Q Consensus         8 dgqkltwpgigifkattglpdlqw   31 (87)
+                      +|+.+.++++|.|+....-+...+
+T Consensus        38 ~g~~v~i~~~g~f~~~~~~~~~~~   61 (90)
+T 4P3V_A           38 EGDDVALVGFGTFAVKERAARTGR   61 (90)
+T ss_dssp             TTCCEEETTTEEEEEEECC-----
+T ss_pred             cCCcEEEcCCCeEEEeEcCCcccc
+
+
+No 15
+>d1hxra_ b.88.1.1 (A:) RabGEF Mss4 {Norway rat (Rattus norvegicus) [TaxId: 10116]}
+Probab=27.81  E-value=63  Score=22.53  Aligned_cols=7  Identities=71%  Similarity=1.820  Sum_probs=0.0  Template_Neff=6.700
+
+Q ss_pred             hcCCCCC
+Q FD01846392_022   63 ADCDLGP   69 (87)
+Q Consensus        63 adcdlgp   69 (87)
+                      ||||+||
+T Consensus        87 aDCe~GP   93 (115)
+T d1hxra_          87 ADCEIGP   93 (115)
+T ss_dssp             TTTCCBC
+T ss_pred             CCCCCCC
+
+
+No 16
+>PF11619.10 ; P53_C ; Transcription factor P53 - C terminal domain
+Probab=27.59  E-value=1.2e+02  Score=20.98  Aligned_cols=11  Identities=45%  Similarity=1.044  Sum_probs=0.0  Template_Neff=4.100
+
+Q ss_pred             CCcceEEEEEE
+Q FD01846392_022   43 PEGNYKLFIQF   53 (87)
+Q Consensus        43 pegnyklfiqf   53 (87)
+                      |+|+|.|-|.+
+T Consensus         9 ~~G~YrL~i~~   19 (67)
+T Q9N6D8_DROME/3    9 PDGDYRLAITC   19 (67)
+T ss_pred             CCCCeEEEEEe
+
+
+No 17
+>1MUL_A DNA binding protein HU-alpha; histone-like, DNA BINDING PROTEIN; 2.3A {Escherichia coli} SCOP: a.55.1.1
+Probab=27.50  E-value=1.2e+02  Score=17.09  Aligned_cols=28  Identities=18%  Similarity=0.314  Sum_probs=0.0  Template_Neff=10.700
+
+Q ss_pred             CCeecccCeeeeeeeccCCCCCCCCccc
+Q FD01846392_022    8 DGQKLTWPGIGIFKATTGLPDLQWPDKQ   35 (87)
+Q Consensus         8 dgqkltwpgigifkattglpdlqwpdkq   35 (87)
+                      +|..+.++|+|.|+....-+-..+....
+T Consensus        38 ~g~~v~i~~~g~~~~~~~~~~~~~~~~~   65 (90)
+T 1MUL_A           38 EGDAVQLVGFGTFKVNHRAERTGRNPQT   65 (90)
+T ss_dssp             TTCCEEETTTEEEEEEEECC--------
+T ss_pred             cCCCEEECCCeEEEEeecCCcceeCCCC
+
+
+No 18
+>1HXR_B GUANINE NUCLEOTIDE EXCHANGE FACTOR MSS4; nucleotide exchange factor, Rab GTPase, membrane trafficking, Zn binding site, METAL BINDING PROTEIN; 1.65A {Rattus norvegicus} SCOP: b.88.1.1
+Probab=27.32  E-value=65  Score=22.08  Aligned_cols=7  Identities=71%  Similarity=1.820  Sum_probs=0.0  Template_Neff=7.200
+
+Q ss_pred             hcCCCCC
+Q FD01846392_022   63 ADCDLGP   69 (87)
+Q Consensus        63 adcdlgp   69 (87)
+                      ||||+||
+T Consensus        87 adCe~GP   93 (115)
+T 1HXR_B           87 ADCEIGP   93 (115)
+T ss_dssp             TTTCEEC
+T ss_pred             CCCCCCC
+
+
+No 19
+>PF11797.10 ; DUF3324 ; Protein of unknown function C-terminal (DUF3324)
+Probab=27.31  E-value=1.5e+02  Score=19.47  Aligned_cols=31  Identities=13%  Similarity=0.398  Sum_probs=0.0  Template_Neff=9.200
+
+Q ss_pred             CCCCCCCcccccccccCCCcceEEEEEEecc
+Q FD01846392_022   26 LPDLQWPDKQCVPDAAIPEGNYKLFIQFQGE   56 (87)
+Q Consensus        26 lpdlqwpdkqcvpdaaipegnyklfiqfqge   56 (87)
+                      .|.-.++-..-.++..++.|+|.+.+....+
+T Consensus        87 aP~s~~~~~~~~~~~~L~~G~Y~~~~~~~~~  117 (139)
+T Q38ZA5_LACSS/1   87 APNSSFNANLLLGGKRLVPGRYTMIADFKSD  117 (139)
+T ss_pred             CCCCeEeeeEecCCceeCCEEEEEEEEEEeC
+
+
+No 20
+>1P71_A DNA-binding protein HU; protein-DNA complex, DNA bending, HU, DNA Binding Protein-DNA COMPLEX; 1.9A {Anabaena sp.} SCOP: a.55.1.1
+Probab=27.01  E-value=85  Score=17.96  Aligned_cols=16  Identities=38%  Similarity=0.719  Sum_probs=0.0  Template_Neff=10.500
+
+Q ss_pred             CCeecccCeeeeeeec
+Q FD01846392_022    8 DGQKLTWPGIGIFKAT   23 (87)
+Q Consensus         8 dgqkltwpgigifkat   23 (87)
+                      +|..+.++++|.|+.+
+T Consensus        38 ~g~~v~i~~~g~f~~~   53 (94)
+T 1P71_A           38 SGDKVTLVGFGSFESR   53 (94)
+T ss_dssp             TTCCEEETTTEEEEEE
+T ss_pred             CCCeEEeCCCceEEEE
+
+
+No 21
+>PF06744.14 ; IcmF_C ; Type VI secretion protein IcmF C2-like domain
+Probab=25.02  E-value=2.1e+02  Score=17.81  Aligned_cols=48  Identities=13%  Similarity=0.103  Sum_probs=0.0  Template_Neff=9.200
+
+Q ss_pred             eEEEECCeecccCeeeeeeeccCCCCCCCCcccccccccCCCcceEEEEEEecc
+Q FD01846392_022    3 VRLTFDGQKLTWPGIGIFKATTGLPDLQWPDKQCVPDAAIPEGNYKLFIQFQGE   56 (87)
+Q Consensus         3 vrltfdgqkltwpgigifkattglpdlqwpdkqcvpdaaipegnyklfiqfqge   56 (87)
+                      +.|..|||++.+..-..     .-..+.||.. -+--...+.++-....+|.|+
+T Consensus        15 ~~l~~~g~~~~y~~g~~-----~~~~~~WP~~-~~~l~~~~~~~~~~~~~~~G~   62 (103)
+T W0BBJ3_9GAMM/8   15 FQLMLGHTRLYDDQNSE-----SFVRFSWPQS-DVKLKLNSIEGKQYELEETGP   62 (103)
+T ss_pred             EEEEECCEEEEEcCCCc-----eeEEEEcCCC-ceEEEEEecCCceEEEEEEcC
+
+
+No 22
+>d1huua_ a.55.1.1 (A:) HU protein {Bacillus stearothermophilus [TaxId: 1422]}
+Probab=24.91  E-value=1.1e+02  Score=18.11  Aligned_cols=16  Identities=31%  Similarity=0.609  Sum_probs=0.0  Template_Neff=9.700
+
+Q ss_pred             CCeecccCeeeeeeec
+Q FD01846392_022    8 DGQKLTWPGIGIFKAT   23 (87)
+Q Consensus         8 dgqkltwpgigifkat   23 (87)
+                      .|..+..+|+|.|+.+
+T Consensus        38 ~g~~V~l~~lG~f~~~   53 (90)
+T d1huua_          38 KGDKVQLIGFGNFEVR   53 (90)
+T ss_dssp             TTCCEEETTTEEEEEE
+T ss_pred             cCCeEEecCCeEEEEE
+
+
+No 23
+>1XPN_A hypothetical protein PA1324; b-barrel, structural genomics, Northeast Structural Genomics Consortium, NESG, Protein Structure Initiative, PSI, UNKNOWN FUNCTION; NMR {Pseudomonas aeruginosa} SCOP: b.3.7.1, l.1.1.1
+Probab=23.94  E-value=2e+02  Score=20.43  Aligned_cols=39  Identities=21%  Similarity=0.221  Sum_probs=0.0  Template_Neff=8.100
+
+Q ss_pred             CCCcceEEEEEEeccCcccchhcCCCCCccccccCCCCc
+Q FD01846392_022   42 IPEGNYKLFIQFQGEAPIRNAADCDLGPSWGWSTIPRGQ   80 (87)
+Q Consensus        42 ipegnyklfiqfqgeapirnaadcdlgpswgwstiprgq   80 (87)
+                      +|.|+|.|++.+.+..+......-.-+.-.---++..|+
+T Consensus       124 lppG~Y~l~a~~~~~~~~~~~~~~~~~~~~~~V~V~~G~  162 (170)
+T 1XPN_A          124 IPNGTYYISSELTWSAQSDGKTITEGGTVTKLVTVSGSQ  162 (170)
+T ss_dssp             CCSEEEEEEEEEEEEEEETTEEEEEEEEEEEEEEECCSS
+T ss_pred             cCCeeEEEEEEEeeccCCCCceecCCceEEEEEEEcCCC
+
+
+No 24
+>1B8Z_B PROTEIN (HISTONELIKE PROTEIN HU); THERMOTOGA MARITIMA, THERMOSTABLE DNA BINDING PROTEIN, DNA BINDING PROTEIN; 1.6A {Thermotoga maritima} SCOP: a.55.1.1
+Probab=23.82  E-value=1e+02  Score=17.21  Aligned_cols=16  Identities=31%  Similarity=0.640  Sum_probs=0.0  Template_Neff=10.800
+
+Q ss_pred             CCeecccCeeeeeeec
+Q FD01846392_022    8 DGQKLTWPGIGIFKAT   23 (87)
+Q Consensus         8 dgqkltwpgigifkat   23 (87)
+                      +|..+.++++|.|+..
+T Consensus        38 ~g~~v~l~~~g~~~~~   53 (90)
+T 1B8Z_B           38 KGEKVQIVGFGSFEVR   53 (90)
+T ss_dssp             TTCCEEETTTEEEEC-
+T ss_pred             CCCCEEecCCeEEEEE
+
+
+No 25
+>d1mula_ a.55.1.1 (A:) HU protein {Escherichia coli [TaxId: 562]}
+Probab=23.52  E-value=1.1e+02  Score=18.23  Aligned_cols=16  Identities=31%  Similarity=0.698  Sum_probs=0.0  Template_Neff=9.600
+
+Q ss_pred             CCeecccCeeeeeeec
+Q FD01846392_022    8 DGQKLTWPGIGIFKAT   23 (87)
+Q Consensus         8 dgqkltwpgigifkat   23 (87)
+                      +|..+.++|+|.|...
+T Consensus        38 ~g~~V~l~g~G~f~~~   53 (90)
+T d1mula_          38 EGDAVQLVGFGTFKVN   53 (90)
+T ss_dssp             TTCCEEETTTEEEEEE
+T ss_pred             cCCcEEeCCCeEEEEE
+
+
+No 26
+>2RP4_A Transcription factor p53; Dmp53, p53, oligomerization domain, tetramerizaiton domain, Nucleus, TRANSCRIPTION; NMR {Drosophila melanogaster}
+Probab=23.46  E-value=1.6e+02  Score=20.95  Aligned_cols=11  Identities=45%  Similarity=1.044  Sum_probs=0.0  Template_Neff=3.900
+
+Q ss_pred             CCcceEEEEEE
+Q FD01846392_022   43 PEGNYKLFIQF   53 (87)
+Q Consensus        43 pegnyklfiqf   53 (87)
+                      |+|+|.|-|.+
+T Consensus        18 ~~G~YrL~I~~   28 (76)
+T 2RP4_A           18 PDGDYRLAITC   28 (76)
+T ss_dssp             TTTBEEEEEEE
+T ss_pred             CCCCEEEEEEe
+
+
+No 27
+>2RP4_C Transcription factor p53; Dmp53, p53, oligomerization domain, tetramerizaiton domain, Nucleus, TRANSCRIPTION; NMR {Drosophila melanogaster}
+Probab=23.46  E-value=1.6e+02  Score=20.95  Aligned_cols=11  Identities=45%  Similarity=1.044  Sum_probs=0.0  Template_Neff=3.900
+
+Q ss_pred             CCcceEEEEEE
+Q FD01846392_022   43 PEGNYKLFIQF   53 (87)
+Q Consensus        43 pegnyklfiqf   53 (87)
+                      |+|+|.|-|.+
+T Consensus        18 ~~G~YrL~I~~   28 (76)
+T 2RP4_C           18 PDGDYRLAITC   28 (76)
+T ss_dssp             TTTSEEEEEEE
+T ss_pred             CCCCEEEEEEe
+
+
+No 28
+>1WTU_B TRANSCRIPTION FACTOR 1; TRANSCRIPTION FACTOR, TYPE II DNA-BINDING PROTEIN; NMR {Bacillus phage SPO1} SCOP: a.55.1.1
+Probab=22.95  E-value=1.2e+02  Score=17.73  Aligned_cols=17  Identities=24%  Similarity=0.352  Sum_probs=0.0  Template_Neff=10.200
+
+Q ss_pred             CCeecccCeeeeeeecc
+Q FD01846392_022    8 DGQKLTWPGIGIFKATT   24 (87)
+Q Consensus         8 dgqkltwpgigifkatt   24 (87)
+                      +|..+.++++|.|+...
+T Consensus        38 ~g~~v~l~~~G~f~~~~   54 (99)
+T 1WTU_B           38 KGDKVQLTGFLNIKPVA   54 (99)
+T ss_dssp             CCCCBCCTTTCEEEEEC
+T ss_pred             cCCeEEeCCCeeEEEee
+
+
+No 29
+>PF04421.15 ; Mss4 ; Mss4 protein
+Probab=22.69  E-value=90  Score=20.94  Aligned_cols=7  Identities=71%  Similarity=1.820  Sum_probs=0.0  Template_Neff=6.900
+
+Q ss_pred             hcCCCCC
+Q FD01846392_022   63 ADCDLGP   69 (87)
+Q Consensus        63 adcdlgp   69 (87)
+                      |||++||
+T Consensus        67 adCe~GP   73 (94)
+T T1G4L0_HELRO/4   67 ADCEIGP   73 (94)
+T ss_pred             CCCCCCC
+
+
+No 30
+>PF16451.7 ; bCoV_S1_N ; Betacoronavirus-like spike glycoprotein S1, N-terminal
+Probab=22.43  E-value=1.1e+02  Score=24.29  Aligned_cols=21  Identities=10%  Similarity=0.377  Sum_probs=0.0  Template_Neff=6.300
+
+Q ss_pred             EEEEEeccCcccchhcCCCCC
+Q FD01846392_022   49 LFIQFQGEAPIRNAADCDLGP   69 (87)
+Q Consensus        49 lfiqfqgeapirnaadcdlgp   69 (87)
+                      +.++|....-|.||+||..++
+T Consensus       185 ~Lv~fd~~G~I~~avDC~~d~  205 (246)
+T A0A240FW18_9AL  185 FLVNYNQSGYVSNLLNCSESI  205 (246)
+T ss_pred             EEEEeCCCCcEEEEEecCCCH
+
+
+No 31
+>2O14_A Hypothetical protein yxiM; NESG, SR595, YXIM, Structural Genomics, PSI-2, Protein Structure Initiative, Northeast Structural Genomics Consortium, UNKNOWN FUNCTION; HET: MSE; 2.1A {Bacillus subtilis} SCOP: c.23.10.8, b.18.1.32
+Probab=22.14  E-value=1.8e+02  Score=21.32  Aligned_cols=14  Identities=21%  Similarity=0.641  Sum_probs=0.0  Template_Neff=10.400
+
+Q ss_pred             CCCcceEEEEEEec
+Q FD01846392_022   42 IPEGNYKLFIQFQG   55 (87)
+Q Consensus        42 ipegnyklfiqfqg   55 (87)
+                      +|+|||++-+.+.+
+T Consensus        84 vp~G~Y~Vtv~~~~   97 (375)
+T 2O14_A           84 LPNGLYEVKVTLGN   97 (375)
+T ss_dssp             CCSEEEEEEEEESS
+T ss_pred             cCCceEEEEEEECC
+
+
+No 32
+>1OWF_B Integration Host Factor beta-subunit; protein-DNA recognition, indirect readout, IHF, DNA bending, minor groove, TRANSCRIPTION-DNA COMPLEX; 1.95A {Escherichia coli} SCOP: a.55.1.1
+Probab=21.88  E-value=1.2e+02  Score=17.23  Aligned_cols=15  Identities=27%  Similarity=0.687  Sum_probs=0.0  Template_Neff=10.600
+
+Q ss_pred             CCeecccCeeeeeee
+Q FD01846392_022    8 DGQKLTWPGIGIFKA   22 (87)
+Q Consensus         8 dgqkltwpgigifka   22 (87)
+                      +|..+.++++|.|+.
+T Consensus        39 ~g~~v~i~~~g~f~~   53 (94)
+T 1OWF_B           39 QGERIAIRGFGSFSL   53 (94)
+T ss_dssp             TTCCEEETTTEEEEE
+T ss_pred             cCCCEEeCCCeEEEE
+
+
+No 33
+>TIGR00988 hip; integration host factor, beta subunit. This protein forms a site-specific DNA-binding heterodimer with the homologous integration host factor alpha subunit.
+Probab=21.70  E-value=1.3e+02  Score=18.24  Aligned_cols=16  Identities=25%  Similarity=0.607  Sum_probs=0.0  Template_Neff=9.400
+
+Q ss_pred             CCeecccCeeeeeeec
+Q FD01846392_022    8 DGQKLTWPGIGIFKAT   23 (87)
+Q Consensus         8 dgqkltwpgigifkat   23 (87)
+                      +|.++.++|+|.|...
+T Consensus        39 ~G~~V~l~g~G~f~~~   54 (94)
+T TIGR00988        39 QGDRIEIRGFGSFSLH   54 (94)
+T ss_pred             CCCcEEeCCCEEEEEE
+
+
+No 34
+>PF15507.8 ; DUF4649 ; Domain of unknown function (DUF4649)
+Probab=21.52  E-value=1.9e+02  Score=19.55  Aligned_cols=14  Identities=14%  Similarity=0.719  Sum_probs=0.0  Template_Neff=5.100
+
+Q ss_pred             eEEEECCeecccCe
+Q FD01846392_022    3 VRLTFDGQKLTWPG   16 (87)
+Q Consensus         3 vrltfdgqkltwpg   16 (87)
+                      +.+|.||+.+.+.|
+T Consensus        40 ~~vt~dG~~l~~~g   53 (68)
+T Q8DZ00_STRA5/2   40 TKMTYKDKDIAYSG   53 (68)
+T ss_pred             EEEEECCEEcccce
+
+
+No 35
+>d1p71a_ a.55.1.1 (A:) HU protein {Anabaena sp. [TaxId: 1167]}
+Probab=21.22  E-value=1.5e+02  Score=17.88  Aligned_cols=16  Identities=38%  Similarity=0.719  Sum_probs=0.0  Template_Neff=9.500
+
+Q ss_pred             CCeecccCeeeeeeec
+Q FD01846392_022    8 DGQKLTWPGIGIFKAT   23 (87)
+Q Consensus         8 dgqkltwpgigifkat   23 (87)
+                      +|..+.++|+|.|+..
+T Consensus        38 ~g~~V~l~~~G~f~~~   53 (94)
+T d1p71a_          38 SGDKVTLVGFGSFESR   53 (94)
+T ss_dssp             TTCCEEETTTEEEEEE
+T ss_pred             CCCeEEEccceEEEEE
+
+
+No 36
+>2KPP_A Lin0431 protein; solution NMR structure, Structural Genomics, PSI-2, Protein Structure Initiative, Northeast Structural Genomics Consortium, NESG, UNKNOWN FUNCTION; NMR {Listeria innocua}
+Probab=20.84  E-value=2.3e+02  Score=19.94  Aligned_cols=36  Identities=22%  Similarity=0.314  Sum_probs=0.0  Template_Neff=6.600
+
+Q ss_pred             CcccccccccCCCcc-------eEEEEEEeccCcccchhcCCC
+Q FD01846392_022   32 PDKQCVPDAAIPEGN-------YKLFIQFQGEAPIRNAADCDL   67 (87)
+Q Consensus        32 pdkqcvpdaaipegn-------yklfiqfqgeapirnaadcdl   67 (87)
+                      |++-|+-...|....       -|+.|.+.|+..-.+..|.|+
+T Consensus        60 p~kiCv~~G~Is~~g~~IVClPN~v~I~I~g~~~~~~~~D~~~  102 (114)
+T 2KPP_A           60 PDQVGVKMGWKSKAGDTIVCLPHKVFVEIKSTQKDSKDPDTDL  102 (114)
+T ss_dssp             SSCHHHHHCSBCSTTCEEEEGGGTEEEEEEETTTCCCCCCCCC
+T ss_pred             CCCchhhcceecCCCCeEEECCCcEEEEEEcCCCCCCCCChhh
+
+
+No 37
+>6N2L_A Histone family protein DNA-binding protein; SSGCID, Burkholderia ambifaria, Histone family, DNA binding protein, Structural Genomics, Seattle Structural Genomics Center for Infectious; 1.85A {Burkholderia ambifaria (strain MC40-6)} SCOP: a.55.1.0, l.1.1.1
+Probab=20.54  E-value=1.3e+02  Score=18.50  Aligned_cols=16  Identities=25%  Similarity=0.509  Sum_probs=0.0  Template_Neff=9.300
+
+Q ss_pred             CCeecccCeeeeeeec
+Q FD01846392_022    8 DGQKLTWPGIGIFKAT   23 (87)
+Q Consensus         8 dgqkltwpgigifkat   23 (87)
+                      +|..+.++++|.|+..
+T Consensus        46 ~g~~v~i~~~G~f~~~   61 (100)
+T 6N2L_A           46 KGDAVQLIGFGSFGSG   61 (100)
+T ss_dssp             TTCCEEETTTEEEEEE
+T ss_pred             CCCCEEecCCeEEEEE
+
+
+No 38
+>PF00216.23 ; Bac_DNA_binding ; Bacterial DNA-binding protein
+Probab=20.42  E-value=1.2e+02  Score=17.09  Aligned_cols=16  Identities=25%  Similarity=0.308  Sum_probs=0.0  Template_Neff=10.600
+
+Q ss_pred             CCeecccCeeeeeeec
+Q FD01846392_022    8 DGQKLTWPGIGIFKAT   23 (87)
+Q Consensus         8 dgqkltwpgigifkat   23 (87)
+                      +|..+.++|+|.|...
+T Consensus        38 ~g~~v~i~~~g~f~~~   53 (90)
+T A6LHR2_PARD8/1   38 SDGSLMLLGFGTLSAW   53 (90)
+T ss_pred             cCCcEEeCCCceEEEE
+
+
+No 39
+>d1owfa_ a.55.1.1 (A:) Integration host factor alpha subunit (IHFA) {Escherichia coli [TaxId: 562]}
+Probab=20.41  E-value=1.3e+02  Score=18.23  Aligned_cols=16  Identities=25%  Similarity=0.648  Sum_probs=0.0  Template_Neff=9.400
+
+Q ss_pred             CCeecccCeeeeeeec
+Q FD01846392_022    8 DGQKLTWPGIGIFKAT   23 (87)
+Q Consensus         8 dgqkltwpgigifkat   23 (87)
+                      +|..+.++|+|.|..+
+T Consensus        39 ~G~~V~l~~~G~f~~~   54 (96)
+T d1owfa_          39 NGEQVKLSGFGNFDLR   54 (96)
+T ss_dssp             TTCCEEETTTEEEEEE
+T ss_pred             CCCCEEcCCCeEEEEE
+
+
+No 40
+>4PT4_B DNA-binding protein HU homolog; DIMERIZATION BY FOUR HELIX BUNDLE INTERACTION, DNA condensation, DNA-binding, DNA BINDING PROTEIN; HET: FMT; 2.04A {Mycobacterium tuberculosis} SCOP: a.55.1.0
+Probab=20.32  E-value=1.2e+02  Score=17.78  Aligned_cols=14  Identities=36%  Similarity=0.862  Sum_probs=0.0  Template_Neff=10.300
+
+Q ss_pred             CCeecccCeeeeee
+Q FD01846392_022    8 DGQKLTWPGIGIFK   21 (87)
+Q Consensus         8 dgqkltwpgigifk   21 (87)
+                      +|..+.++++|.|+
+T Consensus        38 ~g~~V~i~~~g~f~   51 (99)
+T 4PT4_B           38 KGDSVTITGFGVFE   51 (99)
+T ss_dssp             TTCCEEETTTEEEE
+T ss_pred             CCCcEEecCCceEE
+
+
+No 41
+>3GOE_A DNA repair protein rad60; SUMO-like domain, DNA repair, sumoylation, SUMO, genome stability, DNA damage, DNA recombination, Nucleus, Phosphoprotein, RECOMBINATION, REPLICATION; 0.97A {Schizosaccharomyces pombe}
+Probab=20.18  E-value=2e+02  Score=17.24  Aligned_cols=11  Identities=45%  Similarity=0.915  Sum_probs=0.0  Template_Neff=9.000
+
+Q ss_pred             eEEEECCeecc
+Q FD01846392_022    3 VRLTFDGQKLT   13 (87)
+Q Consensus         3 vrltfdgqklt   13 (87)
+                      +|+.|||+.|.
+T Consensus        51 ~~~~fdG~~l~   61 (82)
+T 3GOE_A           51 IRLEFEGEWLD   61 (82)
+T ss_dssp             CEEEETTEECC
+T ss_pred             EEEEECCEEcC
+
+
+No 42
+>2MNJ_B Protein interacting with Hsp90 1; CS-domain, R2TP, HSP90, snoRNP assembly, PROTEIN BINDING; NMR {Saccharomyces cerevisiae}
+Probab=20.02  E-value=2.9e+02  Score=18.98  Aligned_cols=26  Identities=23%  Similarity=0.299  Sum_probs=0.0  Template_Neff=6.100
+
+Q ss_pred             CCCcceEEEEEEeccCcccchhcCCC
+Q FD01846392_022   42 IPEGNYKLFIQFQGEAPIRNAADCDL   67 (87)
+Q Consensus        42 ipegnyklfiqfqgeapirnaadcdl   67 (87)
+                      +..++|||.|+|..+.......|-++
+T Consensus        18 ~~~~~~kL~I~i~S~~~~~~~~d~~v   43 (88)
+T 2MNJ_B           18 FKGAAYKLRILIENKAPNSKPDRFSP   43 (88)
+T ss_dssp             CSSSSCSEEEEEEECSSSCCCCCCCC
+T ss_pred             cCCCceEEEEEEEeCCCCCCccceee
+
+

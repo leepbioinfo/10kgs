@@ -1,0 +1,150 @@
+Query         FD01872734_03129 hypothetical protein
+Match_columns 262
+No_of_seqs    1 out of 2
+Neff          1
+Searched_HMMs 17929
+Date          Fri Aug 13 09:56:16 2021
+Command       hhsearch -i FD01844600_01511.c80e3.aln -d /databases/hhsuite/pfam -M 50 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF05593.14 ; RHS_repeat ; RHS   88.2   0.053   3E-06   30.3   0.0   27  141-167     1-30  (42)
+  2 PF06788.13 ; UPF0257 ; Unchara  88.2   0.053   3E-06   38.6   0.0   57  135-191   121-177 (236)
+  3 PF15283.6 ; DUF4595 ; Domain o  33.8     7.8 0.00043   26.9   0.0   40  133-173    67-116 (204)
+  4 PF05488.13 ; PAAR_motif ; PAAR  33.5     7.9 0.00044   23.0   0.0   16   11-26      3-18  (72)
+  5 PF16435.5 ; DUF5032 ; Domain o  16.0      29  0.0016   26.3   0.0   31  133-163    27-57  (259)
+  6 PF12142.8 ; PPO1_DWL ; Polyphe  11.9      45  0.0025   20.9   0.0   13  140-152    16-28  (52)
+  7 PF09143.10 ; AvrPphF-ORF-2 ; A  11.8      45  0.0025   26.1   0.0   53  116-174    10-62  (176)
+  8 PF00320.27 ; GATA ; GATA zinc   11.5      47  0.0026   14.2   0.0   13  216-228     4-16  (36)
+  9 PF15283.6 ; DUF4595 ; Domain o  10.6      52  0.0029   22.4   0.0   13  141-153     2-14  (204)
+ 10 PF06788.13 ; UPF0257 ; Unchara  10.6      52  0.0029   22.5   0.0   55   96-169    41-99  (236)
+
+No 1
+>PF05593.14 ; RHS_repeat ; RHS Repeat
+Probab=88.21  E-value=0.053  Score=30.29  Aligned_cols=27  Identities=30%  Similarity=0.554  Sum_probs=20.9  Template_Neff=8.800
+
+Q FD01872734_031  141 YDEGGRLVRI-SGP--QQTREYRYSESGRL  167 (262)
+Q Consensus       141 ydeggrlvri-sgp--qqtreyrysesgrl  167 (262)
+                      ||+.|+|+++ ..|  .+...|.|...|+|
+T Consensus         1 yd~~g~l~~~~~~~~~g~~~~y~yd~~g~l   30 (42)
+T Q8XTF5_RALSO/1    1 WDAEHRLIRIRYKAQASKETRFGYDGLGRR   30 (42)
+T ss_pred             CCCCCCEEEEEEcCCCCcEEEEEECCCCCe
+Confidence            7888899888 655  34557888888888
+
+
+No 2
+>PF06788.13 ; UPF0257 ; Uncharacterised protein family (UPF0257)
+Probab=88.19  E-value=0.053  Score=38.64  Aligned_cols=57  Identities=19%  Similarity=0.321  Sum_probs=40.2  Template_Neff=10.000
+
+Q FD01872734_031  135 LNREYGYDEGGRLVRISGPQQTREYRYSESGRLTGVHTSAENLDITLPYATDPAGNR  191 (262)
+Q Consensus       135 lnreygydeggrlvrisgpqqtreyrysesgrltgvhtsaenlditlpyatdpagnr  191 (262)
+                      -...|-||+.|+++.........+|.|++.|+++.+..-..+--+..-|.-|..|+.
+T Consensus       121 ~~~~~~Yd~~G~l~~~~~~~~~~~y~YD~~g~l~~~~~~~~~~~~~~~~~Yd~~~~~  177 (236)
+T YNFC_SALTY/1-2  121 AGVTWETDDNGFVVSATGKEMKVEYRYDSEGYPLGKTTINSQNTLSVTAKPSADPRK  177 (236)
+T ss_pred             CccEEEeCCCCcEEEeeCCceEEEEEECCCCCEEEEEEECCCCEEEEEEEeCCCCCC
+Confidence            456788999999999887788889999999999887654322111234555666664
+
+
+No 3
+>PF15283.6 ; DUF4595 ; Domain of unknown function (DUF4595) with porin-like fold
+Probab=33.79  E-value=7.8  Score=26.88  Aligned_cols=40  Identities=18%  Similarity=0.371  Sum_probs=28.3  Template_Neff=9.500
+
+Q FD01872734_031  133 PQLNREYGYDEGGRLVRISGPQ----------QTREYRYSESGRLTGVHTS  173 (262)
+Q Consensus       133 pqlnreygydeggrlvrisgpq----------qtreyrysesgrltgvhts  173 (262)
+                      ......|-||+.|+|++|....          .+.+|.|+ .|.|+-+...
+T Consensus        67 ~~~~~~y~Yd~~g~L~~~~~~~~~~~~~~~~~~~~~~~y~-nGNl~~~~~~  116 (204)
+T R5B669_9BACE/7   67 TDVTWNFSYDSSGHLIEAVYEERGRGNSDWMKGSTTLTWS-NGLLLSAYGT  116 (204)
+T ss_pred             eeEEEEEEECCCCCEEEEEEccCCCCcccccceeEEEEEe-CCeEEEEEEE
+Confidence            3456678899999999876421          15568885 7888877764
+
+
+No 4
+>PF05488.13 ; PAAR_motif ; PAAR motif
+Probab=33.49  E-value=7.9  Score=23.00  Aligned_cols=16  Identities=25%  Similarity=0.480  Sum_probs=10.4  Template_Neff=8.900
+
+Q FD01872734_031   11 DMTAEGGPIVQGSAGV   26 (262)
+Q Consensus        11 dmtaeggpivqgsagv   26 (262)
+                      |.+.-|++|+.++..|
+T Consensus         3 d~t~~gg~v~~g~~~v   18 (72)
+T X2GZE2_9GAMM/7    3 DPHSHGGNVISASGAD   18 (72)
+T ss_pred             CCCCCCcEEEecccCe
+Confidence            5566666777666666
+
+
+No 5
+>PF16435.5 ; DUF5032 ; Domain of unknown function (DUF5032)
+Probab=16.00  E-value=29  Score=26.29  Aligned_cols=31  Identities=19%  Similarity=0.416  Sum_probs=19.9  Template_Neff=7.800
+
+Q FD01872734_031  133 PQLNREYGYDEGGRLVRISGPQQTREYRYSE  163 (262)
+Q Consensus       133 pqlnreygydeggrlvrisgpqqtreyryse  163 (262)
+                      +....+|-||..|||++|.--.....|.|+.
+T Consensus        27 ~~~~~~f~YD~~grl~~i~~~~~~~~ytYs~   57 (259)
+T A6LBA4_PARD8/1   27 PLFTADINYTSDGKISNINLGVDKLLFIYSD   57 (259)
+T ss_pred             ceEEEEEEECCCCCEEEEEEccceEEEEEEC
+Confidence            4556678888888888864333344666644
+
+
+No 6
+>PF12142.8 ; PPO1_DWL ; Polyphenol oxidase middle domain
+Probab=11.86  E-value=45  Score=20.86  Aligned_cols=13  Identities=23%  Similarity=0.097  Sum_probs=11.0  Template_Neff=5.500
+
+Q FD01872734_031  140 GYDEGGRLVRISG  152 (262)
+Q Consensus       140 gydeggrlvrisg  152 (262)
+                      -|||.|++|++.-
+T Consensus        16 F~Deng~~v~~~v   28 (52)
+T Q8Y2J8_RALSO/2   16 YIDPQGRYYTQGV   28 (52)
+T ss_pred             eeCCCCCEEEEEe
+Confidence            6899999998764
+
+
+No 7
+>PF09143.10 ; AvrPphF-ORF-2 ; AvrPphF-ORF-2
+Probab=11.83  E-value=45  Score=26.09  Aligned_cols=53  Identities=25%  Similarity=0.325  Sum_probs=42.8  Template_Neff=4.400
+
+Q FD01872734_031  116 SSVYNLTGQLQSQHLNHPQLNREYGYDEGGRLVRISGPQQTREYRYSESGRLTGVHTSA  174 (262)
+Q Consensus       116 ssvynltgqlqsqhlnhpqlnreygydeggrlvrisgpqqtreyrysesgrltgvhtsa  174 (262)
+                      .|||.|+-+...+.||.-.--|.+|.+.+..++|+...+-+      ..+.+.|--.+.
+T Consensus        10 tsv~qLs~~~R~~Fl~~~DpMr~lgL~~dt~~~Rtt~~~~~------kn~~i~GnP~s~   62 (176)
+T Q88A90_PSESM/2   10 TSIHQLSHSQREQFLNMHDPMRVMGLDHDTELFRTTDSRYI------KNDKLAGNPQSM   62 (176)
+T ss_pred             ccHhhCCHHHHHHHHhhhHHHHHcCCCCCceEEECCCchhh------ccCeecCCCCcc
+Confidence            48999999999999999889999999999999998765433      667776654443
+
+
+No 8
+>PF00320.27 ; GATA ; GATA zinc finger
+Probab=11.48  E-value=47  Score=14.19  Aligned_cols=13  Identities=38%  Similarity=1.165  Sum_probs=8.0  Template_Neff=11.600
+
+Q FD01872734_031  216 CAHSTTPSWRRGG  228 (262)
+Q Consensus       216 cahsttpswrrgg  228 (262)
+                      |....++.||++.
+T Consensus         4 c~~~~~~~~~~~~   16 (36)
+T WC2_NEUCR/468-    4 CGTLDSPEWRKGP   16 (36)
+T ss_pred             CCCCCCCCeeeCC
+Confidence            4455667787654
+
+
+No 9
+>PF15283.6 ; DUF4595 ; Domain of unknown function (DUF4595) with porin-like fold
+Probab=10.63  E-value=52  Score=22.41  Aligned_cols=13  Identities=23%  Similarity=0.572  Sum_probs=10.2  Template_Neff=9.500
+
+Q FD01872734_031  141 YDEGGRLVRISGP  153 (262)
+Q Consensus       141 ydeggrlvrisgp  153 (262)
+                      ||+.|||++|..-
+T Consensus         2 YD~~grl~~~~~~   14 (204)
+T R5B669_9BACE/7    2 YDAAGLIKTVTDD   14 (204)
+T ss_pred             ccCCCCEEEEEeC
+Confidence            7888998887653
+
+
+No 10
+>PF06788.13 ; UPF0257 ; Uncharacterised protein family (UPF0257)
+Probab=10.60  E-value=52  Score=22.47  Aligned_cols=55  Identities=7%  Similarity=0.094  Sum_probs=32.2  Template_Neff=10.000
+
+Q FD01872734_031   96 EVSGNVTGVTDGAGTETYEQSSVYNLTGQLQSQHLNHPQLNREYGYDEGGRLVRISGP----QQTREYRYSESGRLTG  169 (262)
+Q Consensus        96 evsgnvtgvtdgagtetyeqssvynltgqlqsqhlnhpqlnreygydeggrlvrisgp----qqtreyrysesgrltg  169 (262)
+                      .+.|+|.-++-          ..|+-.|++..        .-.+-||+.|++++..--    .....|.|... +|+.
+T Consensus        41 ~l~G~Vk~~~~----------~~y~~~g~~~~--------~~~~~fd~~G~~~~~~~~~~~~~~~~~~~yd~~-~l~~   99 (236)
+T YNFC_SALTY/1-2   41 PLRGPVKDFSQ----------TLMSENGEVAK--------QVTGTLSQEGCFDTLELHDLENNTGLALVLDAN-YYRD   99 (236)
+T ss_pred             CCCCCeeEEEE----------EEECCCCcEEE--------EEEEEeCCCCeEEEEEEEeCCCceEEEEEEeCc-eEee
+Confidence            45778766652          22333454443        347889999999876421    12446777665 5544
+
+

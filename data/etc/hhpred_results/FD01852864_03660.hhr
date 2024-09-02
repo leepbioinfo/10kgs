@@ -1,0 +1,1146 @@
+Query         FD01852864_03660 type VI secretion system-associated protein TagK
+Match_columns 165
+No_of_seqs    1 out of 5
+Neff          1
+Searched_HMMs 107766
+Date          Mon Aug 23 15:17:04 2021
+Command       hhsearch -cpu 8 -i ../results/full.a3m -d /cluster/toolkit/production/databases/hh-suite/mmcif70/pdb70 -d /cluster/toolkit/production/databases/hh-suite/scope70/scope70 -d /cluster/toolkit/production/databases/hh-suite/pfama/pfama -d /cluster/toolkit/production/databases/hh-suite/TIGRFAM/TIGRFAM -o ../results/4253314.hhr -oa3m ../results/4253314.a3m -p 20 -Z 250 -loc -z 1 -b 1 -B 250 -ssm 2 -sc 1 -seq 1 -dbstrlen 10000 -norealign -maxres 32000 -contxt /cluster/toolkit/production/bioprogs/tools/hh-suite-build-new/data/context_data.crf 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6HBZ_A GGDEF domain protein; G  84.4     5.4   5E-05   28.3   4.2   85   51-135    49-133 (279)
+  2 d2brfa1 b.26.1.2 (A:8-108) Pol  76.3      14 0.00013   22.7   3.7   42   52-94     46-89  (101)
+  3 d3po8a1 b.26.1.0 (A:3-97) auto  76.3      12 0.00011   22.4   3.3   42   50-94     45-86  (95)
+  4 d3kt9a_ b.26.1.0 (A:) automate  75.1      12 0.00011   22.6   3.1   35   59-94     56-90  (102)
+  5 5ZTB_E Sulfur carrier protein   74.0     7.8 7.3E-05   25.0   2.3   25   66-92     42-66  (74)
+  6 3I6U_A Serine/threonine-protei  73.2      12 0.00011   28.6   3.3   62   50-112    61-127 (419)
+  7 d2affa_ b.26.1.2 (A:) Antigen   71.1      23 0.00022   20.8   3.7   41   52-94     49-89  (98)
+  8 5W7W_T Aprataxin and PNK-like   70.3      23 0.00021   19.8   3.4   57   50-107    46-108 (108)
+  9 d1wlna1 b.26.1.2 (A:8-114) Afa  68.3      27 0.00025   21.7   3.7   41   52-94     57-97  (107)
+ 10 d2piea2 b.26.1.2 (A:13-140) au  66.0      30 0.00028   23.5   3.8   45   50-94     52-97  (128)
+ 11 PF02597.22 ; ThiS ; ThiS famil  65.8      17 0.00016   21.9   2.4   26   66-93     45-70  (77)
+ 12 d1uhta1 b.26.1.2 (A:8-112) FHA  64.0      41 0.00038   20.6   3.8   43   52-94     53-95  (105)
+ 13 5XZW_A Serine/threonine-protei  62.7      29 0.00027   27.4   3.7   75   23-97     62-136 (471)
+ 14 5GHA_E Sulfur Carrier TtuB; su  60.9      22  0.0002   23.4   2.4   26   66-93     53-78  (85)
+ 15 5GHA_H Sulfur Carrier TtuB; su  60.9      22  0.0002   23.4   2.4   26   66-93     53-78  (85)
+ 16 d2ff4a3 b.26.1.2 (A:284-382) P  59.8      52 0.00048   20.0   3.7   41   52-94     49-89  (99)
+ 17 d1lgqa_ b.26.1.2 (A:) Cell cyc  59.4      39 0.00036   21.6   3.3   44   50-94     49-94  (112)
+ 18 5NSA_A Transcobalamin-2; bindi  59.4      28 0.00026   22.9   2.7   34   59-98     75-108 (108)
+ 19 d2xt9b_ b.26.1.0 (B:) automate  56.9      53 0.00049   19.4   3.3   42   50-94     48-89  (97)
+ 20 d3gqsa_ b.26.1.0 (A:) automate  56.3      45 0.00042   20.0   3.0   34   59-94     58-91  (101)
+ 21 d1gxca_ b.26.1.2 (A:) Chk2 kin  53.9      64 0.00059   22.3   3.8   47   59-106    67-116 (116)
+ 22 d3fm8a_ b.26.1.0 (A:) automate  51.8      70 0.00065   19.6   3.4   42   50-94     46-88  (98)
+ 23 d1ryja_ d.15.3.2 (A:) Hypothet  50.9 1.1E+02  0.0011   19.3   4.3   51   22-92     11-62  (70)
+ 24 6HC1_B GGDEF domain protein; G  50.6      72 0.00067   16.9   4.2   54   52-105    50-103 (103)
+ 25 PF14453.8 ; ThiS-like ; ThiS-l  49.7      41 0.00038   19.2   2.1   23   68-92     30-52  (57)
+ 26 PF03658.16 ; Ub-RnfH ; RnfH fa  48.8      37 0.00035   21.4   2.0   26   66-93     45-70  (83)
+ 27 d1g6ga_ b.26.1.2 (A:) Phosphot  48.7      76 0.00071   21.8   3.5   44   50-94     61-105 (127)
+ 28 PF14451.8 ; Ub-Mut7C ; Mut7-C   46.7      43  0.0004   21.3   2.0   22   70-93     52-73  (81)
+ 29 d1wv3a2 b.26.1.4 (A:79-186) Pr  46.3      96 0.00089   21.0   3.7   44   48-94     36-82  (108)
+ 30 d1dmza_ b.26.1.2 (A:) Phosphot  46.2      70 0.00065   23.4   3.2   35   59-94     75-109 (158)
+ 31 5LDA_B SAMP2; JAMM/MPN+, metal  43.6      72 0.00067   18.1   2.4   26   66-93     37-62  (69)
+ 32 5A8I_A ARNA; TRANSCRIPTION, ZI  42.8      93 0.00086   22.6   3.4   43   52-94    152-196 (214)
+ 33 PF14478.8 ; DUF4430 ; Domain o  41.8      37 0.00034   20.8   1.1   15   82-96     61-75  (75)
+ 34 2N84_A Uncharacterized protein  41.0 1.7E+02  0.0016   20.7   4.3   59   52-110   119-179 (179)
+ 35 2Q5W_D Molybdopterin convertin  40.7      76  0.0007   19.0   2.3   26   66-93     45-70  (77)
+ 36 4HRS_A Small archaeal modifier  39.8      70 0.00065   19.8   2.1   24   66-92     36-59  (67)
+ 37 d1mzka1 b.26.1.2 (A:180-298) K  39.7 1.6E+02  0.0015   19.3   3.8   49   59-107    62-118 (119)
+ 38 6JBZ_D MoaD/ThiS family protei  39.1      75 0.00069   19.9   2.2   27   66-93     59-85  (92)
+ 39 TIGR01683 thiS; thiamine biosy  37.8      83 0.00077   18.8   2.2   27   66-92     28-56  (64)
+ 40 d2cu3a1 d.15.3.2 (A:1-63) Unch  36.6      76  0.0007   19.6   1.9   23   71-93     33-57  (63)
+ 41 d5ldab_ d.15.3.2 (B:) Hypothet  33.8 1.1E+02   0.001   18.7   2.3   25   66-92     33-57  (65)
+ 42 d1jyha_ d.60.1.3 (A:) Gyrase i  33.5   1E+02 0.00094   19.7   2.2   19   23-41     90-108 (155)
+ 43 d1kwga1 b.71.1.1 (A:591-644) A  31.8      81 0.00075   19.5   1.5   18   50-67      8-25  (54)
+ 44 TIGR01682 moaD; molybdopterin   31.0 1.3E+02  0.0012   19.0   2.3   26   65-92     47-72  (80)
+ 45 1RWS_A hypothetical protein PF  29.7 1.4E+02  0.0013   19.3   2.3   26   66-93     45-70  (77)
+ 46 2K22_A Putative uncharacterize  28.8 1.7E+02  0.0015   18.3   2.5   29   65-93     53-83  (90)
+ 47 1YJM_C Polynucleotide 5'-hydro  28.7 2.1E+02  0.0019   15.8   3.8   49   52-101    53-103 (110)
+ 48 2M19_A Molybdopterin convertin  28.4 1.5E+02  0.0014   19.5   2.4   28   66-93     70-99  (106)
+ 49 4HRO_A Small archaeal modifier  28.3 1.7E+02  0.0016   18.2   2.5   27   65-93     57-83  (90)
+ 50 PF13211.8 ; DUF4019 ; Protein   27.7 2.5E+02  0.0024   16.5   3.8   42   18-64     60-102 (102)
+ 51 4WWM_A Uncharacterized protein  27.7 1.2E+02  0.0011   20.1   1.8   25   68-92     51-75  (91)
+ 52 TIGR04332 gamma_Glu_sys; poly-  27.6      96  0.0009   28.9   1.9   35   82-130   104-138 (307)
+ 53 4KKI_A Transcobalamin-1; Cobal  27.1 1.4E+02  0.0013   26.0   2.7   56   59-123   401-456 (467)
+ 54 2K9X_A Uncharacterized protein  27.0 1.4E+02  0.0013   20.9   2.2   29   65-93     65-95  (110)
+ 55 TIGR01687 moaD_arch; MoaD fami  26.7 1.4E+02  0.0013   19.0   1.9   23   70-92     58-80  (88)
+ 56 2FF4_B Probable regulatory pro  26.6 4.3E+02   0.004   20.0   4.6   57   52-110   332-388 (388)
+ 57 3UMZ_A Mediator of DNA damage   26.5 2.4E+02  0.0022   15.7   3.7   51   56-106    59-111 (113)
+ 58 TIGR03354 VI_FHA; type VI secr  26.3 2.4E+02  0.0022   25.2   3.8   42   52-94     52-95  (396)
+ 59 TIGR01663 PNK-3'Pase; polynucl  26.1 2.7E+02  0.0025   24.7   4.1   59   50-109    54-116 (526)
+ 60 d1r8ea2 d.60.1.1 (A:121-277) M  26.0 1.3E+02  0.0012   19.5   1.8   14   23-36     93-106 (157)
+ 61 6I2Q_B Glycogen accumulation r  25.4 2.6E+02  0.0024   15.8   4.7   59   51-112    56-114 (115)
+ 62 1XO3_A RIKEN cDNA 2900073H19;   25.2   2E+02  0.0018   18.6   2.5   31   63-93     62-94  (101)
+ 63 d2g1la1 b.26.1.2 (A:498-599) K  25.1 2.5E+02  0.0023   17.3   2.8   43   50-94     47-93  (102)
+ 64 3E0H_A uncharacterized protein  25.0 2.1E+02   0.002   17.6   2.5   21   21-41     91-111 (158)
+ 65 1RYJ_A unknown; beta/alpha pro  24.5 2.8E+02  0.0026   15.9   3.8   53   21-93     10-63  (70)
+ 66 d1zud2_ d.15.3.2 (2:) Thiamin   24.4 3.1E+02  0.0029   16.4   3.2   50   25-92      6-57  (65)
+ 67 1JYH_A DNA Gyrase inhibitory p  24.2 1.5E+02  0.0014   18.2   1.7   14   23-36     90-103 (157)
+ 68 1BOW_A MULTIDRUG-EFFLUX TRANSP  23.4 2.5E+02  0.0023   17.5   2.6   21   23-43     94-114 (159)
+ 69 3OUN_A Putative uncharacterize  23.1 3.2E+02   0.003   19.5   3.3   46   52-100   111-156 (157)
+ 70 6JC0_C Putative molybdenum cof  22.9 2.2E+02  0.0021   17.3   2.3   27   66-93     55-81  (88)
+ 71 3LUR_B Putative bacterial tran  21.7 2.9E+02  0.0027   17.6   2.7   21   23-43     93-114 (158)
+ 72 PF14526.8 ; Cass2 ; Integron-a  21.7 1.8E+02  0.0017   18.2   1.8   14   23-36     93-107 (157)
+ 73 d1tygb_ d.15.3.2 (B:) Thiamin   21.5 1.9E+02  0.0018   18.3   1.9   28   66-93     30-59  (65)
+ 74 PF06445.17 ; GyrI-like ; GyrI-  21.5 2.5E+02  0.0023   16.9   2.3   19   23-41     87-105 (152)
+ 75 2PIE_A E3 ubiquitin-protein li  21.4 4.2E+02  0.0039   16.7   4.0   72   23-94     26-101 (138)
+ 76 4H87_B Kanadaptin; FHA domain   20.4 4.3E+02   0.004   16.5   3.6   43   52-94     67-120 (130)
+
+No 1
+>6HBZ_A GGDEF domain protein; GGDEF, FHA, c-di-GMP, diguanylate cyclase, SIGNALING PROTEIN; HET: C2E, EDO; 1.79A {Bdellovibrio bacteriovorus (strain ATCC 15356 / DSM 50701 / NCIB 9529 / HD100)}
+Probab=84.36  E-value=5.4  Score=28.31  Aligned_cols=85  Identities=11%  Similarity=0.035  Sum_probs=0.0  Template_Neff=11.900
+
+Q ss_pred             heeehhhcEEEeecccceeeeecccccCCccccccCCCCceeeccchhheecCCCCCCCCCChhHHhcCChhHHHHcChh
+Q FD01852864_036   51 SLVRHEEAWWIVNHSDELCCAVNEQVMEPHHRMRLNDGDTIEWGLSSWCLARTNDESRPDVSFPQLVQSSESVAEYLDLD  130 (165)
+Q Consensus        51 slvrheeawwivnhsdelccavneqvmephhrmrlndgdtiewglsswclartndesrpdvsfpqlvqssesvaeyldld  130 (165)
+                      .+......|++......-.+.||...+.+.....|.+||.|..|-....+...............-....+.+.......
+T Consensus        49 ~i~~~~~~~~~~~~~s~~g~~vn~~~~~~~~~~~l~~gd~i~~g~~~~~~~~~~~~~~~~~~~~~~~~~~d~~t~l~n~~  128 (279)
+T 6HBZ_A           49 KFAVNGSEVSVIDLGSTNKTIVNGQVIPPLASCLLKNNDQIKTGNVIFKFLEKGSIEAMTNAAMYDRAQKDALTGAHSKG  128 (279)
+T ss_dssp             EEEEETTEEEEEECSCSSCEEETTEEECBTCEEECCTTCEEEETTEEEEEESSCC---------CCHHHHHHHHTTTTTS
+T ss_pred             EEEEeCCEEEEEECCCCCcEEECCEECCCCCceeccCCCEEEEcCEEEEEEeCCChhhhchHHHHhhhchhhhccccccc
+
+
+Q ss_pred             HHHhc
+Q FD01852864_036  131 WFKQQ  135 (165)
+Q Consensus       131 wfkqq  135 (165)
+                      .|.+.
+T Consensus       129 ~~~~~  133 (279)
+T 6HBZ_A          129 ALLDK  133 (279)
+T ss_dssp             CHHHH
+T ss_pred             hhHhc
+
+
+No 2
+>d2brfa1 b.26.1.2 (A:8-108) Polynucleotide kinase 3'-phosphatase {Human (Homo sapiens) [TaxId: 9606]}
+Probab=76.31  E-value=14  Score=22.67  Aligned_cols=42  Identities=19%  Similarity=0.095  Sum_probs=0.0  Template_Neff=11.300
+
+Q ss_pred             eeeh--hhcEEEeecccceeeeecccccCCccccccCCCCceeec
+Q FD01852864_036   52 LVRH--EEAWWIVNHSDELCCAVNEQVMEPHHRMRLNDGDTIEWG   94 (165)
+Q Consensus        52 lvrh--eeawwivnhsdelccavneqvmephhrmrlndgdtiewg   94 (165)
+                      +...  ...|++.+.+. -..-+|.....+-....|.+||.|.+|
+T Consensus        46 i~~~~~~~~~~~~~~~~-~~~~~n~~~~~~~~~~~l~~gd~i~~g   89 (101)
+T d2brfa1          46 LVADPETRTVAVKQLGV-NPSTTGTQELKPGLEGSLGVGDTLYLV   89 (101)
+T ss_dssp             EEEETTTTEEEEEECSS-SCCEEC-CBCCTTCEEEEETTCEEEEE
+T ss_pred             EEEeCCCCeEEEEEccC-CceEeCCEecCCCCeEECCCCCEEEEc
+
+
+No 3
+>d3po8a1 b.26.1.0 (A:3-97) automated matches {Mycobacterium tuberculosis [TaxId: 1773]}
+Probab=76.31  E-value=12  Score=22.43  Aligned_cols=42  Identities=21%  Similarity=0.322  Sum_probs=0.0  Template_Neff=11.600
+
+Q ss_pred             hheeehhhcEEEeecccceeeeecccccCCccccccCCCCceeec
+Q FD01852864_036   50 LSLVRHEEAWWIVNHSDELCCAVNEQVMEPHHRMRLNDGDTIEWG   94 (165)
+Q Consensus        50 lslvrheeawwivnhsdelccavneqvmephhrmrlndgdtiewg   94 (165)
+                      ..+..+.+.|++.+....-...+|.....   ...+.+||.|.+|
+T Consensus        45 ~~~~~~~~~~~i~~~~~~~~~~~~~~~~~---~~~~~~~d~i~~g   86 (95)
+T d3po8a1          45 LEIRWDGQVALLADLNSTNGTTVNNAPVQ---EWQLADGDVIRLG   86 (95)
+T ss_dssp             EEEEECSSCEEEEECSCSSCCEETTEECS---EEECCTTCEEEET
+T ss_pred             EEEEEeCCEEEEEECCCCCCEEECCEECc---eEECCCCCEEEEC
+
+
+No 4
+>d3kt9a_ b.26.1.0 (A:) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+Probab=75.11  E-value=12  Score=22.62  Aligned_cols=35  Identities=9%  Similarity=0.109  Sum_probs=0.0  Template_Neff=11.700
+
+Q ss_pred             EEEeecccceeeeecccccCCccccccCCCCceeec
+Q FD01852864_036   59 WWIVNHSDELCCAVNEQVMEPHHRMRLNDGDTIEWG   94 (165)
+Q Consensus        59 wwivnhsdelccavneqvmephhrmrlndgdtiewg   94 (165)
+                      |++...+. -...+|...+.+.....|.+||.|..|
+T Consensus        56 ~~~~~~~~-~~~~~n~~~~~~~~~~~l~~gd~i~~g   90 (102)
+T d3kt9a_          56 VKVKQVGV-NPTSIDSVVIGKDQEVKLQPGQVLHMV   90 (102)
+T ss_dssp             EEEEECSS-SCCEETTEECCBTCEEEECTTCCEEEE
+T ss_pred             EEEEEccc-CceEeCCEEeCCCCeEEcCCCCEEEEc
+
+
+No 5
+>5ZTB_E Sulfur carrier protein TtuB; Sulfur transfer, iron-sulfur cluster, tRNA binding protein, complex, RNA BINDING PROTEIN, RNA BINDING PROTEIN-TRANSFERASE complex; HET: SF4, SO4, ATP; 2.2A {Thermus thermophilus (strain HB27 / ATCC BAA-163 / DSM 7039)}
+Probab=74.00  E-value=7.8  Score=24.95  Aligned_cols=25  Identities=16%  Similarity=0.397  Sum_probs=0.0  Template_Neff=9.100
+
+Q ss_pred             cceeeeecccccCCccccccCCCCcee
+Q FD01852864_036   66 DELCCAVNEQVMEPHHRMRLNDGDTIE   92 (165)
+Q Consensus        66 delccavneqvmephhrmrlndgdtie   92 (165)
+                      ++..++||.+...+.+  +|+|||.|+
+T Consensus        42 ~~v~v~vng~~v~~~~--~l~~gd~I~   66 (74)
+T 5ZTB_E           42 ETVVAVRGEELLTLED--EVREEDTLE   66 (74)
+T ss_dssp             GGEEEEETTEECCTTS--EECSSCEEE
+T ss_pred             ccEEEEECCEEeCCCC--CCCCCCEEE
+
+
+No 6
+>3I6U_A Serine/threonine-protein kinase Chk2; Ser/Thr protein kinase, FHA domain, ATP-binding, Cell cycle, Disease mutation, Kinase, Li-Fraumeni syndrome, Magnesium, Metal-binding, Nucleotide-binding; 3.0A {Homo sapiens}
+Probab=73.17  E-value=12  Score=28.57  Aligned_cols=62  Identities=24%  Similarity=0.217  Sum_probs=0.0  Template_Neff=11.800
+
+Q ss_pred             hheee-----hhhcEEEeecccceeeeecccccCCccccccCCCCceeeccchhheecCCCCCCCCCC
+Q FD01852864_036   50 LSLVR-----HEEAWWIVNHSDELCCAVNEQVMEPHHRMRLNDGDTIEWGLSSWCLARTNDESRPDVS  112 (165)
+Q Consensus        50 lslvr-----heeawwivnhsdelccavneqvmephhrmrlndgdtiewglsswclartndesrpdvs  112 (165)
+                      +.+.+     ....|||.+||+.-.. ||...+.+..+.++.+||.|.|+.+........+.+.++..
+T Consensus        61 ~~~~~~~~~~~~~~~~~~~~s~~~t~-v~~~~l~~~~~~~l~~~~~i~~~~~~~~~~~~~~~~~~~~~  127 (419)
+T 3I6U_A           61 FRIFREVGPKNSYIAYIEDHSGNGTF-VNTELVGKGKRRPLNNNSEIALSLSRNKVFVFFDLTVDDQS  127 (419)
+T ss_dssp             EEEECCEETTTEECCEEEECCSSCEE-ETTEECCTTCEEECCTTEEEEESSTTCEEEEEEESCSSCGG
+T ss_pred             EEEEEecCCCcCceEEEEecCCCceE-ECcEEccCCccccCCCCCceeeeccCCcEEEEEEeecCCcc
+
+
+No 7
+>d2affa_ b.26.1.2 (A:) Antigen ki-67 {Human (Homo sapiens) [TaxId: 9606]}
+Probab=71.13  E-value=23  Score=20.81  Aligned_cols=41  Identities=29%  Similarity=0.325  Sum_probs=0.0  Template_Neff=12.000
+
+Q ss_pred             eeehhhcEEEeecccceeeeecccccCCccccccCCCCceeec
+Q FD01852864_036   52 LVRHEEAWWIVNHSDELCCAVNEQVMEPHHRMRLNDGDTIEWG   94 (165)
+Q Consensus        52 lvrheeawwivnhsdelccavneqvmephhrmrlndgdtiewg   94 (165)
+                      +.++...||+......-...+|.....  ....|.+||.+.+|
+T Consensus        49 ~~~~~~~~~~~~~~~~~~~~vn~~~~~--~~~~l~~gd~i~~g   89 (98)
+T d2affa_          49 IEIHEQEAILHNFSSTNPTQVNGSVID--EPVRLKHGDVITII   89 (98)
+T ss_dssp             EEECSSCEEEEECCSSSCCEETTEECS--SCEEECTTCEEEET
+T ss_pred             EEEeCCEEEEEECCCCCCEEECCEEcC--CCEECCCCCEEEEC
+
+
+No 8
+>5W7W_T Aprataxin and PNK-like factor; scaffold protein, DNA repair, NHEJ, PROTEIN BINDING; HET: FMT; 1.348A {Homo sapiens}
+Probab=70.31  E-value=23  Score=19.81  Aligned_cols=57  Identities=16%  Similarity=0.073  Sum_probs=0.0  Template_Neff=13.200
+
+Q ss_pred             hheeehhhcEEEeecccceeeeec------ccccCCccccccCCCCceeeccchhheecCCCCC
+Q FD01852864_036   50 LSLVRHEEAWWIVNHSDELCCAVN------EQVMEPHHRMRLNDGDTIEWGLSSWCLARTNDES  107 (165)
+Q Consensus        50 lslvrheeawwivnhsdelccavn------eqvmephhrmrlndgdtiewglsswclartndes  107 (165)
+                      ..+...+..|++.+.+ .-...+|      ...+.+.....+.+||.+.++.....+.....++
+T Consensus        46 ~~~~~~~~~~~~~~~~-~~~~~~~~~~~~~~~~~~~~~~~~l~~~~~~~~~~~~~~~~~~~~~~  108 (108)
+T 5W7W_T           46 AILEVAGGQLRIKPIH-TNPCFYQSSEKSQLLPLKPNLWCYLNPGDSFSLLVDKYIFRILSIPS  108 (108)
+T ss_dssp             EEEEEETTEEEEEECS-SSCCEEECTTCCCCEECCTTSCEECCTTCEEEEETTEEEEEEEEC--
+T ss_pred             EEEEEeCCeEEEEECe-eCCeEEECCCCCCcEecCCCceEEcCCCCEEEEccCceEEEEEeCCC
+
+
+No 9
+>d1wlna1 b.26.1.2 (A:8-114) Afadin {Mouse (Mus musculus) [TaxId: 10090]}
+Probab=68.26  E-value=27  Score=21.70  Aligned_cols=41  Identities=17%  Similarity=0.214  Sum_probs=0.0  Template_Neff=11.300
+
+Q ss_pred             eeehhhcEEEeecccceeeeecccccCCccccccCCCCceeec
+Q FD01852864_036   52 LVRHEEAWWIVNHSDELCCAVNEQVMEPHHRMRLNDGDTIEWG   94 (165)
+Q Consensus        52 lvrheeawwivnhsdelccavneqvmephhrmrlndgdtiewg   94 (165)
+                      +..+...+.+.+.+..-.+.+|.+...  ....|.+||.|.+|
+T Consensus        57 i~~~~~~~~l~~~~~~~~~~~n~~~~~--~~~~l~~gd~i~~g   97 (107)
+T d1wlna1          57 LTNMDGVVTVTPRSMDAETYVDGQRIS--ETTMLQSGMRLQFG   97 (107)
+T ss_dssp             EEESSSCEEEEESCSSSCEEETSCBCS--SCEEECTTCEEEET
+T ss_pred             EEEeCCeEEEEeCCCCCcEEECCEEcC--CCeecCCCCEEEEC
+
+
+No 10
+>d2piea2 b.26.1.2 (A:13-140) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+Probab=66.03  E-value=30  Score=23.48  Aligned_cols=45  Identities=24%  Similarity=0.401  Sum_probs=0.0  Template_Neff=10.200
+
+Q ss_pred             hheeeh-hhcEEEeecccceeeeecccccCCccccccCCCCceeec
+Q FD01852864_036   50 LSLVRH-EEAWWIVNHSDELCCAVNEQVMEPHHRMRLNDGDTIEWG   94 (165)
+Q Consensus        50 lslvrh-eeawwivnhsdelccavneqvmephhrmrlndgdtiewg   94 (165)
+                      +.+... ...|++.+....-.+.+|......--...|.+||.|..|
+T Consensus        52 ~~l~~~~~~~~~l~~~~~~~~~~~ng~~~~~~~~~~l~~gd~i~ig   97 (128)
+T d2piea2          52 CVLKQNPEGQWTIMDNKSLNGVWLNRARLEPLRVYSIHQGDYIQLG   97 (128)
+T ss_dssp             EEEEECTTSCEEEEECSCSSCEEETTEECCTTCCEECCTTCEEEES
+T ss_pred             EEEEECCCCCEEEEeCCCCCeEEECCeecCCCCcEECCCCCEEEEc
+
+
+No 11
+>PF02597.22 ; ThiS ; ThiS family
+Probab=65.79  E-value=17  Score=21.86  Aligned_cols=26  Identities=27%  Similarity=0.464  Sum_probs=0.0  Template_Neff=10.700
+
+Q ss_pred             cceeeeecccccCCccccccCCCCceee
+Q FD01852864_036   66 DELCCAVNEQVMEPHHRMRLNDGDTIEW   93 (165)
+Q Consensus        66 delccavneqvmephhrmrlndgdtiew   93 (165)
+                      ....+.+|.+....  ...+++||+|..
+T Consensus        45 ~~~~v~vng~~v~~--~~~l~~gd~I~i   70 (77)
+T Q8ZYL1_PYRAE/5   45 EELLVLVNGRSLDW--SYELKEGDEVAL   70 (77)
+T ss_pred             cceEEEECCEecCC--CCccCCCCEEEE
+
+
+No 12
+>d1uhta1 b.26.1.2 (A:8-112) FHA domain containing protein At4G14490 {Thale cress (Arabidopsis thaliana) [TaxId: 3702]}
+Probab=63.96  E-value=41  Score=20.61  Aligned_cols=43  Identities=23%  Similarity=0.482  Sum_probs=0.0  Template_Neff=11.500
+
+Q ss_pred             eeehhhcEEEeecccceeeeecccccCCccccccCCCCceeec
+Q FD01852864_036   52 LVRHEEAWWIVNHSDELCCAVNEQVMEPHHRMRLNDGDTIEWG   94 (165)
+Q Consensus        52 lvrheeawwivnhsdelccavneqvmephhrmrlndgdtiewg   94 (165)
+                      +..+...|.+.+....-...+|...+.......|.+||.|..|
+T Consensus        53 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~g~~i~~g   95 (105)
+T d1uhta1          53 IESDSGNWVIQDLGSSNGTLLNSNALDPETSVNLGDGDVIKLG   95 (105)
+T ss_dssp             EEECSSSEEEECCCCSSCCEESSSBCCTTCEEECCTTEEEEET
+T ss_pred             EEEeCCCEEEEeCCCCCCeEECCEEcCCCCcEECCCCCEEEEC
+
+
+No 13
+>5XZW_A Serine/threonine-protein kinase RAD53; serine/threonine-protein kinase, FHA domain, checkpoint kinase, TRANSFERASE; 2.8A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=62.66  E-value=29  Score=27.38  Aligned_cols=75  Identities=16%  Similarity=0.099  Sum_probs=0.0  Template_Neff=11.500
+
+Q ss_pred             CCceEEEEEeeccchhHHHHhCCCceehheeehhhcEEEeecccceeeeecccccCCccccccCCCCceeeccch
+Q FD01852864_036   23 PAGTYIVFTAAAPYIPLFEQHGKDDIALSLVRHEEAWWIVNHSDELCCAVNEQVMEPHHRMRLNDGDTIEWGLSS   97 (165)
+Q Consensus        23 pagtyivftaaapyiplfeqhgkddialslvrheeawwivnhsdelccavneqvmephhrmrlndgdtiewglss   97 (165)
+                      ..+.+++-......|.+-....-...-..+...++.+|++.....--..||.+...+.....|.+||.|..|...
+T Consensus        62 ~~~~~~iGr~~~~~~~~~~~~~vs~~h~~i~~~~~~~~~~~~~s~~gt~~n~~~~~~~~~~~l~~gd~i~~g~~~  136 (471)
+T 5XZW_A           62 IKKVWTFGRNPACDYHLGNISRLSNKHFQILLGEDGNLLLNDISTNGTWLNGQKVEKNSNQLLSQGDEITVGVGV  136 (471)
+T ss_dssp             CCEEEEBSSSTTSSBCC--------CEEEEEECGGGCEEEEEESSSCCEETSSBCCBTSCEECCTTEEEEEEC--
+T ss_pred             CCCcEEEecCCCCCEeCCCcccccCCcEEEEECCCCeEEEecCCCCCcEECCEEcCCCCcEECCCCCEEEEeeCC
+
+
+No 14
+>5GHA_E Sulfur Carrier TtuB; sulfur transferase, TRANSFERASE, TRANSFERASE-TRANSPORT PROTEIN complex; HET: SO4, EDO; 2.502A {Thermus thermophilus HB27}
+Probab=60.86  E-value=22  Score=23.36  Aligned_cols=26  Identities=15%  Similarity=0.349  Sum_probs=0.0  Template_Neff=9.300
+
+Q ss_pred             cceeeeecccccCCccccccCCCCceee
+Q FD01852864_036   66 DELCCAVNEQVMEPHHRMRLNDGDTIEW   93 (165)
+Q Consensus        66 delccavneqvmephhrmrlndgdtiew   93 (165)
+                      +.+.++||.+......  +|+|||.|+.
+T Consensus        53 ~~v~i~vng~~v~~~~--~l~~gd~v~i   78 (85)
+T 5GHA_E           53 ETVVAVRGEELLTLED--EVREEDTLEV   78 (85)
+T ss_dssp             GGEEEEETTEECCTTC--EECTTCCEEE
+T ss_pred             hcEEEEECCEEeCCCC--cCCCCCEEEE
+
+
+No 15
+>5GHA_H Sulfur Carrier TtuB; sulfur transferase, TRANSFERASE, TRANSFERASE-TRANSPORT PROTEIN complex; HET: SO4, EDO; 2.502A {Thermus thermophilus HB27}
+Probab=60.86  E-value=22  Score=23.36  Aligned_cols=26  Identities=15%  Similarity=0.349  Sum_probs=0.0  Template_Neff=9.300
+
+Q ss_pred             cceeeeecccccCCccccccCCCCceee
+Q FD01852864_036   66 DELCCAVNEQVMEPHHRMRLNDGDTIEW   93 (165)
+Q Consensus        66 delccavneqvmephhrmrlndgdtiew   93 (165)
+                      +.+.++||.+......  +|+|||.|+.
+T Consensus        53 ~~v~i~vng~~v~~~~--~l~~gd~v~i   78 (85)
+T 5GHA_H           53 ETVVAVRGEELLTLED--EVREEDTLEV   78 (85)
+T ss_dssp             GGEEEEETTEEECTTC--EECTTCEEEE
+T ss_pred             hcEEEEECCEEeCCCC--cCCCCCEEEE
+
+
+No 16
+>d2ff4a3 b.26.1.2 (A:284-382) Probable regulatory protein EmbR, C-terminal domain {Mycobacterium tuberculosis [TaxId: 1773]}
+Probab=59.83  E-value=52  Score=19.96  Aligned_cols=41  Identities=22%  Similarity=0.282  Sum_probs=0.0  Template_Neff=11.500
+
+Q ss_pred             eeehhhcEEEeecccceeeeecccccCCccccccCCCCceeec
+Q FD01852864_036   52 LVRHEEAWWIVNHSDELCCAVNEQVMEPHHRMRLNDGDTIEWG   94 (165)
+Q Consensus        52 lvrheeawwivnhsdelccavneqvmephhrmrlndgdtiewg   94 (165)
+                      +..++..||+......-.+.+|.....  ....|.+||.+..|
+T Consensus        49 ~~~~~~~~~~~~~~~~~~~~v~~~~~~--~~~~l~~~d~~~~g   89 (99)
+T d2ff4a3          49 IVDTGTNYVINDLRSSNGVHVQHERIR--SAVTLNDGDHIRIC   89 (99)
+T ss_dssp             EEECSSCEEEEECSCSSCCEETTEECS--SEEEECTTCEEEET
+T ss_pred             EEEcCCeEEEEeCCCCCCeEECCEECC--CCEeCCCCCEEEEC
+
+
+No 17
+>d1lgqa_ b.26.1.2 (A:) Cell cycle checkpoint protein Chfr {Human (Homo sapiens) [TaxId: 9606]}
+Probab=59.44  E-value=39  Score=21.62  Aligned_cols=44  Identities=14%  Similarity=0.105  Sum_probs=0.0  Template_Neff=10.900
+
+Q ss_pred             hheeeh--hhcEEEeecccceeeeecccccCCccccccCCCCceeec
+Q FD01852864_036   50 LSLVRH--EEAWWIVNHSDELCCAVNEQVMEPHHRMRLNDGDTIEWG   94 (165)
+Q Consensus        50 lslvrh--eeawwivnhsdelccavneqvmephhrmrlndgdtiewg   94 (165)
+                      ..+.+.  +..|++.+ ...-...+|...+...-...|++||.|..|
+T Consensus        49 ~~i~~~~~~~~~~l~~-~~~~~~~~n~~~~~~~~~~~l~~gd~i~ig   94 (112)
+T d1lgqa_          49 CRIVVDEKSGQVTLED-TSTSGTVINKLKVVKKQTCPLQTGDVIYLV   94 (112)
+T ss_dssp             EEEEECTTTCCEEEEE-CSSSCEEEEEEEEECSSEEECCTTCEEEEE
+T ss_pred             EEEEEeCCCCeEEEEe-CCCCCeEECCEEccCCceEeCCCCCEEEEe
+
+
+No 18
+>5NSA_A Transcobalamin-2; binding protein, bloodstream, antivitamin B12, TRANSPORT PROTEIN; HET: 8FS, B12; 1.273A {Homo sapiens}
+Probab=59.40  E-value=28  Score=22.87  Aligned_cols=34  Identities=32%  Similarity=0.636  Sum_probs=0.0  Template_Neff=10.200
+
+Q ss_pred             EEEeecccceeeeecccccCCccccccCCCCceeeccchh
+Q FD01852864_036   59 WWIVNHSDELCCAVNEQVMEPHHRMRLNDGDTIEWGLSSW   98 (165)
+Q Consensus        59 wwivnhsdelccavneqvmephhrmrlndgdtiewglssw   98 (165)
+                      +|.....+      ++.....-....+.|||+|+|-...|
+T Consensus        75 ~W~~~vn~------~~~~~~g~~~~~l~~gd~i~~~y~~~  108 (108)
+T 5NSA_A           75 FWQLLRDP------NTPLLQGIADYRPKDGETIELRLVSW  108 (108)
+T ss_dssp             EEEEEETT------TEECSSCTTTCCCCTTCEEEEEEEEC
+T ss_pred             eEEEEcCC------CCCCCcccCeecCCCCCEEEEEeeeC
+
+
+No 19
+>d2xt9b_ b.26.1.0 (B:) automated matches {Mycobacterium smegmatis [TaxId: 246196]}
+Probab=56.85  E-value=53  Score=19.40  Aligned_cols=42  Identities=17%  Similarity=0.234  Sum_probs=0.0  Template_Neff=11.900
+
+Q ss_pred             hheeehhhcEEEeecccceeeeecccccCCccccccCCCCceeec
+Q FD01852864_036   50 LSLVRHEEAWWIVNHSDELCCAVNEQVMEPHHRMRLNDGDTIEWG   94 (165)
+Q Consensus        50 lslvrheeawwivnhsdelccavneqvmephhrmrlndgdtiewg   94 (165)
+                      ..+......+++...+..-...+|.....   +..+..||+|.+|
+T Consensus        48 ~~~~~~~~~~~i~~~~~~~~~~~n~~~~~---~~~l~~gd~i~~g   89 (97)
+T d2xt9b_          48 AEFRLEGGEFQVVDVGSLNGTYVNREPVD---SAVLANGDEVQIG   89 (97)
+T ss_dssp             EEEEEETTEEEEEECSCSSCEEETTEECS---EEEECTTCEEEET
+T ss_pred             EEEEEeCCEEEEEECCCCCCEEECCEECC---ceeCCCCCEEEEC
+
+
+No 20
+>d3gqsa_ b.26.1.0 (A:) automated matches {Chlamydia trachomatis [TaxId: 272561]}
+Probab=56.31  E-value=45  Score=19.96  Aligned_cols=34  Identities=15%  Similarity=0.183  Sum_probs=0.0  Template_Neff=11.800
+
+Q ss_pred             EEEeecccceeeeecccccCCccccccCCCCceeec
+Q FD01852864_036   59 WWIVNHSDELCCAVNEQVMEPHHRMRLNDGDTIEWG   94 (165)
+Q Consensus        59 wwivnhsdelccavneqvmephhrmrlndgdtiewg   94 (165)
+                      |.+.++...-+..+|....++  ...+.+||.|.+|
+T Consensus        58 ~~i~~~~~~~~~~~n~~~~~~--~~~l~~~d~i~~g   91 (101)
+T d3gqsa_          58 VLIEDLGSKNGVIVEGRKIEH--QSTLSANQVVALG   91 (101)
+T ss_dssp             EEEEECSCSSCCEETTEECSS--EEECCTTCCEEET
+T ss_pred             EEEEeCCCCCCeEECCEEcCC--CeEeCCCCEEEEC
+
+
+No 21
+>d1gxca_ b.26.1.2 (A:) Chk2 kinase {Human (Homo sapiens) [TaxId: 9606]}
+Probab=53.93  E-value=64  Score=22.26  Aligned_cols=47  Identities=21%  Similarity=0.266  Sum_probs=0.0  Template_Neff=9.500
+
+Q ss_pred             EEEeecccceeeeecccccCCccccccCCCCceeeccch---hheecCCCC
+Q FD01852864_036   59 WWIVNHSDELCCAVNEQVMEPHHRMRLNDGDTIEWGLSS---WCLARTNDE  106 (165)
+Q Consensus        59 wwivnhsdelccavneqvmephhrmrlndgdtiewglss---wclartnde  106 (165)
+                      |++... ..-...+|.+...+--.+.|++||.|+.|.++   .-+...+.+
+T Consensus        67 ~~i~~~-s~~~~~vng~~~~~~~~~~l~~gd~i~~g~~~~~~~~~~~~~~~  116 (116)
+T d1gxca_          67 AYIEDH-SGNGTFVNTELVGKGKRRPLNNNSEIALSLSRNKVFVFFDLTVD  116 (116)
+T ss_dssp             EEEEEC-CSSCEEETTEECCTTCEEECCTTEEEEESSTTCEEEEEEETTCC
+T ss_pred             EEEEEC-CCCCeEECCEEcCCCCcEeCCCCCEEEEecCCCeEEEEEeCCCC
+
+
+No 22
+>d3fm8a_ b.26.1.0 (A:) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+Probab=51.76  E-value=70  Score=19.57  Aligned_cols=42  Identities=21%  Similarity=0.327  Sum_probs=0.0  Template_Neff=11.300
+
+Q ss_pred             hheeeh-hhcEEEeecccceeeeecccccCCccccccCCCCceeec
+Q FD01852864_036   50 LSLVRH-EEAWWIVNHSDELCCAVNEQVMEPHHRMRLNDGDTIEWG   94 (165)
+Q Consensus        50 lslvrh-eeawwivnhsdelccavneqvmephhrmrlndgdtiewg   94 (165)
+                      ..+... ...|++.+++. -..-+|.....  ..+.|.+||.+.+|
+T Consensus        46 ~~~~~~~~~~~~~~~~~~-~~~~~ng~~~~--~~~~l~~gd~i~~g   88 (98)
+T d3fm8a_          46 CIIDITSEGQVMLTPQKN-TRTFVNGSSVS--SPIQLHHGDRILWG   88 (98)
+T ss_dssp             EEEEECTTSCEEEEECTT-CCEEETTEECC--SCEEECTTCEEEET
+T ss_pred             eEEEECCCCeEEEEeCCC-CCEEECCEEcC--CCeeCCCCCEEEEC
+
+
+No 23
+>d1ryja_ d.15.3.2 (A:) Hypothetical protein MTH1743 {Methanobacterium thermoautotrophicum [TaxId: 145262]}
+Probab=50.87  E-value=1.1e+02  Score=19.26  Aligned_cols=51  Identities=18%  Similarity=0.199  Sum_probs=0.0  Template_Neff=9.400
+
+Q ss_pred             cCCceEEEEEe-eccchhHHHHhCCCceehheeehhhcEEEeecccceeeeecccccCCccccccCCCCcee
+Q FD01852864_036   22 YPAGTYIVFTA-AAPYIPLFEQHGKDDIALSLVRHEEAWWIVNHSDELCCAVNEQVMEPHHRMRLNDGDTIE   92 (165)
+Q Consensus        22 ypagtyivfta-aapyiplfeqhgkddialslvrheeawwivnhsdelccavneqvmephhrmrlndgdtie   92 (165)
+                      ++.|....... ....-.+.++.+..                  .+....++|.....  ...+|+|||.|+
+T Consensus        11 ~~~g~~~~~~~~~~tv~~ll~~l~~~------------------~~~~~v~vng~~v~--~~~~l~~gd~v~   62 (70)
+T d1ryja_          11 TDDGKKILESGAPRRIKDVLGELEIP------------------IETVVVKKNGQIVI--DEEEIFDGDIIE   62 (70)
+T ss_dssp             ETTEEEEEEESSCCBHHHHHHHTTCC------------------TTTEEEEETTEECC--TTSBCCTTCEEE
+T ss_pred             eCCCeEEEEcCCCCcHHHHHHHCCCC------------------cccEEEEECCEEec--CCcccCCCCEEE
+
+
+No 24
+>6HC1_B GGDEF domain protein; GGDEF, FHA, c-di-GMP, diguanylate cyclase, SIGNALING PROTEIN; HET: TPO; 1.49A {Bdellovibrio bacteriovorus HD100} SCOP: b.26.1.0
+Probab=50.62  E-value=72  Score=16.90  Aligned_cols=54  Identities=17%  Similarity=0.179  Sum_probs=0.0  Template_Neff=13.900
+
+Q ss_pred             eeehhhcEEEeecccceeeeecccccCCccccccCCCCceeeccchhheecCCC
+Q FD01852864_036   52 LVRHEEAWWIVNHSDELCCAVNEQVMEPHHRMRLNDGDTIEWGLSSWCLARTND  105 (165)
+Q Consensus        52 lvrheeawwivnhsdelccavneqvmephhrmrlndgdtiewglsswclartnd  105 (165)
+                      +......|++.+.+....+.+|.........-.+..||.+..|-....+...+.
+T Consensus        50 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  103 (103)
+T 6HC1_B           50 FAVNGSEVSVIDLGSTNKTIVNGQVIPPLASCLLKNNDQIKTGNVIFKFLEKGS  103 (103)
+T ss_dssp             EEEETTEEEEEECSCSSCEEETTEECCTTCEEECCTTCEEEETTEEEEEESCC-
+T ss_pred             EEEeCCEEEEEECCCCCCEEECCEEcCCCCceeCCCCCEEEECcEEEEEEeCCC
+
+
+No 25
+>PF14453.8 ; ThiS-like ; ThiS-like ubiquitin
+Probab=49.65  E-value=41  Score=19.24  Aligned_cols=23  Identities=17%  Similarity=0.219  Sum_probs=0.0  Template_Neff=10.500
+
+Q ss_pred             eeeeecccccCCccccccCCCCcee
+Q FD01852864_036   68 LCCAVNEQVMEPHHRMRLNDGDTIE   92 (165)
+Q Consensus        68 lccavneqvmephhrmrlndgdtie   92 (165)
+                      +..++|.++..  ...+|+|||.|+
+T Consensus        30 ~~~~vn~~~~~--~~~~l~~gd~v~   52 (57)
+T D4H1A3_DENA2/1   30 DIIIQNGHIVK--ADSLLETGDSVY   52 (57)
+T ss_pred             eEEEECCEEcC--ccccCCCCCEEE
+
+
+No 26
+>PF03658.16 ; Ub-RnfH ; RnfH family Ubiquitin
+Probab=48.83  E-value=37  Score=21.35  Aligned_cols=26  Identities=23%  Similarity=0.381  Sum_probs=0.0  Template_Neff=10.100
+
+Q ss_pred             cceeeeecccccCCccccccCCCCceee
+Q FD01852864_036   66 DELCCAVNEQVMEPHHRMRLNDGDTIEW   93 (165)
+Q Consensus        66 delccavneqvmephhrmrlndgdtiew   93 (165)
+                      +...+++|.+...  ..-.+++||.|.+
+T Consensus        45 ~~~~i~vn~~~v~--~~~~l~~gd~i~i   70 (83)
+T A0L9F7_MAGMM/1   45 AEQKLGIYAKLVE--NDQVLEEGDRVEI   70 (83)
+T ss_pred             ccceEEEecEEcc--ccccCCCCCEEEE
+
+
+No 27
+>d1g6ga_ b.26.1.2 (A:) Phosphotyrosine binding domain of Rad53 {Baker's yeast (Saccharomyces cerevisiae) [TaxId: 4932]}
+Probab=48.71  E-value=76  Score=21.84  Aligned_cols=44  Identities=18%  Similarity=0.219  Sum_probs=0.0  Template_Neff=9.900
+
+Q ss_pred             hheeeh-hhcEEEeecccceeeeecccccCCccccccCCCCceeec
+Q FD01852864_036   50 LSLVRH-EEAWWIVNHSDELCCAVNEQVMEPHHRMRLNDGDTIEWG   94 (165)
+Q Consensus        50 lslvrh-eeawwivnhsdelccavneqvmephhrmrlndgdtiewg   94 (165)
+                      +.+... ...|++..+ ..-...+|.+...+.-.+.|.+||.|.+|
+T Consensus        61 ~~l~~~~~~~~~~~~~-~~~~~~~ng~~~~~~~~~~l~~gd~i~ig  105 (127)
+T d1g6ga_          61 FQILLGEDGNLLLNDI-STNGTWLNGQKVEKNSNQLLSQGDEITVG  105 (127)
+T ss_dssp             EEEEECTTSCEEEEEC-CSSCCEETTEECCTTCCEECCTTCEEEEC
+T ss_pred             EEEEECCCCCEEEEEC-CCCCeEECCEEcCCCCcEECCCCCEEEEC
+
+
+No 28
+>PF14451.8 ; Ub-Mut7C ; Mut7-C ubiquitin
+Probab=46.67  E-value=43  Score=21.30  Aligned_cols=22  Identities=27%  Similarity=0.330  Sum_probs=0.0  Template_Neff=9.800
+
+Q ss_pred             eeecccccCCccccccCCCCceee
+Q FD01852864_036   70 CAVNEQVMEPHHRMRLNDGDTIEW   93 (165)
+Q Consensus        70 cavneqvmephhrmrlndgdtiew   93 (165)
+                      +++|.+.....  ..|+|||+|+.
+T Consensus        52 i~vn~~~v~~~--~~l~~gd~V~i   73 (81)
+T Q13TC6_PARXL/1   52 ILVNGESVGFN--HPLSDGDRLAV   73 (81)
+T ss_pred             EEECCEEecCC--CCCCCCCEEEE
+
+
+No 29
+>d1wv3a2 b.26.1.4 (A:79-186) Protein EssC {Staphylococcus aureus [TaxId: 1280]}
+Probab=46.27  E-value=96  Score=20.95  Aligned_cols=44  Identities=16%  Similarity=0.109  Sum_probs=0.0  Template_Neff=9.700
+
+Q ss_pred             eehheeehhhc---EEEeecccceeeeecccccCCccccccCCCCceeec
+Q FD01852864_036   48 IALSLVRHEEA---WWIVNHSDELCCAVNEQVMEPHHRMRLNDGDTIEWG   94 (165)
+Q Consensus        48 ialslvrheea---wwivnhsdelccavneqvmephhrmrlndgdtiewg   94 (165)
+                      +.+.+.+.+..   |++.+  ..-..-+|.+....... .|.+||.|..|
+T Consensus        36 ~~~~~~~~~~~~~~~~l~~--~~~~~~~ng~~~~~~~~-~l~~gd~i~ig   82 (108)
+T d1wv3a2          36 IIKDFQSIQESQYVRIVHD--KNTDVYINYELQEQLTN-KAYIGDHIYVE   82 (108)
+T ss_dssp             EEECGGGHHHHCEEEEECC--TTCCEEETTEECCSSEE-EEETTCEEEET
+T ss_pred             eEEEEEEeCCCeeEEEEEe--CCCCEEECCEEcccCCc-cCCCCCEEEEC
+
+
+No 30
+>d1dmza_ b.26.1.2 (A:) Phosphotyrosine binding domain of Rad53 {Baker's yeast (Saccharomyces cerevisiae) [TaxId: 4932]}
+Probab=46.21  E-value=70  Score=23.37  Aligned_cols=35  Identities=23%  Similarity=0.325  Sum_probs=0.0  Template_Neff=9.400
+
+Q ss_pred             EEEeecccceeeeecccccCCccccccCCCCceeec
+Q FD01852864_036   59 WWIVNHSDELCCAVNEQVMEPHHRMRLNDGDTIEWG   94 (165)
+Q Consensus        59 wwivnhsdelccavneqvmephhrmrlndgdtiewg   94 (165)
+                      ||+... ..-.+-+|...+...-..+|.+||.|++|
+T Consensus        75 ~~l~~~-s~~gt~vng~~~~~~~~~~L~~gd~I~~g  109 (158)
+T d1dmza_          75 IWYCHT-GTNVSYLNNNRMIQGTKFLLQDGDEIKII  109 (158)
+T ss_dssp             EEEEEC-STTCCEETTEECCSSEEEECCSSCCEESC
+T ss_pred             EEEEEc-CCCceEECCEEcCCCCeEECCCCCEEEEE
+
+
+No 31
+>5LDA_B SAMP2; JAMM/MPN+, metalloprotease, deubiquitination, ubiquitin-like protein, cell cycle; HET: GOL, MSE; 1.9A {Pyrococcus furiosus} SCOP: d.15.3.2
+Probab=43.57  E-value=72  Score=18.07  Aligned_cols=26  Identities=27%  Similarity=0.411  Sum_probs=0.0  Template_Neff=11.400
+
+Q ss_pred             cceeeeecccccCCccccccCCCCceee
+Q FD01852864_036   66 DELCCAVNEQVMEPHHRMRLNDGDTIEW   93 (165)
+Q Consensus        66 delccavneqvmephhrmrlndgdtiew   93 (165)
+                      +.+.+++|.+......  .|++||.|+.
+T Consensus        37 ~~~~v~vn~~~~~~~~--~l~~~d~i~~   62 (69)
+T 5LDA_B           37 ESAIAKVNGKVVLEDD--EVKDGDFVEV   62 (69)
+T ss_dssp             TTEEEEETTEEECTTC--BCCTTCCEEE
+T ss_pred             CCeEEEECCEEeCCCC--CCCCCCEEEE
+
+
+No 32
+>5A8I_A ARNA; TRANSCRIPTION, ZINC BINDING PROTEIN, FHA, ARCHAEA, REGULATION, MOTILITY; HET: SO4, GOL; 1.75A {SULFOLOBUS ACIDOCALDARIUS}
+Probab=42.80  E-value=93  Score=22.62  Aligned_cols=43  Identities=12%  Similarity=0.231  Sum_probs=0.0  Template_Neff=10.700
+
+Q ss_pred             eeehhhcEEEeecccceeeee-cccccCCc-cccccCCCCceeec
+Q FD01852864_036   52 LVRHEEAWWIVNHSDELCCAV-NEQVMEPH-HRMRLNDGDTIEWG   94 (165)
+Q Consensus        52 lvrheeawwivnhsdelccav-neqvmeph-hrmrlndgdtiewg   94 (165)
+                      +.+....||+......--..+ |...+.+. .+.+|.+||.|..|
+T Consensus       152 i~~~~~~~~~~d~~s~ngt~~~~~~~~~~~~~~~~l~~gd~i~lg  196 (214)
+T 5A8I_A          152 IYLDNSELYIEDLNSTNGTYVYDGKQFTPIKGKQKIEPNSIIKLG  196 (214)
+T ss_dssp             EEEETTEEEEEECSCSSCEEEECSSSEEECCSSEEECTTCEEEET
+T ss_pred             EEEeCCeEEEEeCCCCCCeEEeCCeeeeeCCCcEEcCCCCEEEEC
+
+
+No 33
+>PF14478.8 ; DUF4430 ; Domain of unknown function (DUF4430)
+Probab=41.83  E-value=37  Score=20.76  Aligned_cols=15  Identities=27%  Similarity=0.519  Sum_probs=0.0  Template_Neff=10.300
+
+Q ss_pred             ccccCCCCceeeccc
+Q FD01852864_036   82 RMRLNDGDTIEWGLS   96 (165)
+Q Consensus        82 rmrlndgdtiewgls   96 (165)
+                      ...|++||+|+|-++
+T Consensus        61 ~~~l~~gd~i~~~~~   75 (75)
+T R5LCD0_9FIRM/5   61 EQQIKDGDVIVFYYA   75 (75)
+T ss_pred             eeecCCCCEEEEEEC
+
+
+No 34
+>2N84_A Uncharacterized protein; FHA domain, parvulin, ISOMERASE; NMR {Trypanosoma brucei brucei TREU927}
+Probab=41.03  E-value=1.7e+02  Score=20.69  Aligned_cols=59  Identities=17%  Similarity=0.230  Sum_probs=0.0  Template_Neff=10.700
+
+Q ss_pred             eeehhhc--EEEeecccceeeeecccccCCccccccCCCCceeeccchhheecCCCCCCCC
+Q FD01852864_036   52 LVRHEEA--WWIVNHSDELCCAVNEQVMEPHHRMRLNDGDTIEWGLSSWCLARTNDESRPD  110 (165)
+Q Consensus        52 lvrheea--wwivnhsdelccavneqvmephhrmrlndgdtiewglsswclartndesrpd  110 (165)
+                      +......  |.+......--..+|.+.+.+.....|.+||.|..|-+...+.-.-+...++
+T Consensus       119 i~~~~~~~~~~~~d~~s~~g~~~~~~~~~~~~~~~l~~gd~i~~g~~~~~~~~~~~~~~~~  179 (179)
+T 2N84_A          119 LVFHGGQRCFVLMDLGSTNGVKLNGNRIEKRRPLPAPVGSSIQFGFSSRVYKVQLGPPSSS  179 (179)
+T ss_dssp             EEEETTTTEEEEEECCCSSCCEETTEECCSSSEEECCTTCEEECTTCSCCEEEEECCCSCC
+T ss_pred             EEEECCccEEEEEECCCCCCeEECCEECCCCCCEECCCCCEEEECCCeEEEEEEeCCCCCC
+
+
+No 35
+>2Q5W_D Molybdopterin converting factor, subunit 1; MOLYBDOPTERIN, MOCO, MPT SYNTHASE, MOAD, MOAE, TRANSFERASE, MOLYBDENUM COFACTOR BIOSYNTHESIS, beta-Grasp (ubiquitin-like), alpha beta hammerhead fold; 2.0A {Staphylococcus aureus}
+Probab=40.72  E-value=76  Score=19.01  Aligned_cols=26  Identities=23%  Similarity=0.327  Sum_probs=0.0  Template_Neff=10.800
+
+Q ss_pred             cceeeeecccccCCccccccCCCCceee
+Q FD01852864_036   66 DELCCAVNEQVMEPHHRMRLNDGDTIEW   93 (165)
+Q Consensus        66 delccavneqvmephhrmrlndgdtiew   93 (165)
+                      +....++|......  ...++|||+|..
+T Consensus        45 ~~~~v~in~~~~~~--~~~l~~~d~i~i   70 (77)
+T 2Q5W_D           45 KKFQVAVNEEFVQK--SDFIQPNDTVAL   70 (77)
+T ss_dssp             CCCEEEETTEEECT--TSEECTTCEEEE
+T ss_pred             CceEEEECCEecCC--CcccCCCCEEEE
+
+
+No 36
+>4HRS_A Small archaeal modifier protein 2; beta-grasp fold  beta-hinge motif, small ubiquitin-like modifier, PROTEIN BINDING; 2.3A {Haloferax volcanii DS2}
+Probab=39.84  E-value=70  Score=19.82  Aligned_cols=24  Identities=13%  Similarity=0.263  Sum_probs=0.0  Template_Neff=9.600
+
+Q ss_pred             cceeeeecccccCCccccccCCCCcee
+Q FD01852864_036   66 DELCCAVNEQVMEPHHRMRLNDGDTIE   92 (165)
+Q Consensus        66 delccavneqvmephhrmrlndgdtie   92 (165)
+                      +...+++|.++....+.  ++ ||+|+
+T Consensus        36 ~~~~v~vn~~~~~~~~~--i~-gd~v~   59 (67)
+T 4HRS_A           36 HEVTVLVDGRPVPEDQS--VE-VDRVK   59 (67)
+T ss_dssp             GGCCEEETTEEECTTSB--SS-CCCCC
+T ss_pred             hcEEEEECCEECCCCCc--cC-CCEEE
+
+
+No 37
+>d1mzka1 b.26.1.2 (A:180-298) Kinase associated protein phosphatase {Thale cress (Arabidopsis thaliana) [TaxId: 3702]}
+Probab=39.71  E-value=1.6e+02  Score=19.34  Aligned_cols=49  Identities=18%  Similarity=0.295  Sum_probs=0.0  Template_Neff=10.700
+
+Q ss_pred             EEEeecccceeeeecccccCC--------ccccccCCCCceeeccchhheecCCCCC
+Q FD01852864_036   59 WWIVNHSDELCCAVNEQVMEP--------HHRMRLNDGDTIEWGLSSWCLARTNDES  107 (165)
+Q Consensus        59 wwivnhsdelccavneqvmep--------hhrmrlndgdtiewglsswclartndes  107 (165)
+                      |++....+.-..-+|......        .....|.+||.|..|-....+.....+.
+T Consensus        62 ~~i~~~~~~~~~~in~~~~~~~~~~~~~~~~~~~l~~gd~i~~g~~~~~~~~~~~~~  118 (119)
+T d1mzka1          62 WELVDMGSLNGTLVNSHSISHPDLGSRKWGNPVELASDDIITLGTTTKVYVRISSQN  118 (119)
+T ss_dssp             EEEEETTCSSCCEETTEESSCCCTTTCCCCCCEECCTTEEEECSSSCEEEEEEEECC
+T ss_pred             EEEEeCCCCCceEECCEEcCCCCCCCcCCCCCEeCCCCCEEEECCeEEEEEEcccCC
+
+
+No 38
+>6JBZ_D MoaD/ThiS family protein; molybdopterin synthases, molybdenum cofactor biosynthesis, sulfur transfer, TRANSFERASE; HET: SO4; 2.603A {Mycobacterium tuberculosis}
+Probab=39.05  E-value=75  Score=19.93  Aligned_cols=27  Identities=22%  Similarity=0.303  Sum_probs=0.0  Template_Neff=10.600
+
+Q ss_pred             cceeeeecccccCCccccccCCCCceee
+Q FD01852864_036   66 DELCCAVNEQVMEPHHRMRLNDGDTIEW   93 (165)
+Q Consensus        66 delccavneqvmephhrmrlndgdtiew   93 (165)
+                      +...+++|.+... ....++.+||+|+.
+T Consensus        59 ~~~~v~vng~~~~-~~~~~l~~gd~i~i   85 (92)
+T 6JBZ_D           59 SRCSYLRDGIVVR-DDAVALSAGDTIDV   85 (92)
+T ss_dssp             TTCEEEETTEECS-CTTCBCCTTCEEEE
+T ss_pred             hccEEEECCEEeC-CCCCcCCCCCEEEE
+
+
+No 39
+>TIGR01683 thiS; thiamine biosynthesis protein ThiS. This model represents ThiS, a small, ubiquitin-like thiamine biosynthesis protein related to MoaD, a molybdenum cofactor biosynthesis protein.
+Probab=37.83  E-value=83  Score=18.83  Aligned_cols=27  Identities=30%  Similarity=0.486  Sum_probs=0.0  Template_Neff=10.100
+
+Q ss_pred             cceeeeecccccCCcc--ccccCCCCcee
+Q FD01852864_036   66 DELCCAVNEQVMEPHH--RMRLNDGDTIE   92 (165)
+Q Consensus        66 delccavneqvmephh--rmrlndgdtie   92 (165)
+                      +..-+++|.+..++..  .-.+++||+|+
+T Consensus        28 ~~~~v~in~~~i~~~~~~~~~i~~~d~i~   56 (64)
+T TIGR01683        28 RRVAVAVNGEIVPRSEWDDTILKEGDRIE   56 (64)
+T ss_pred             CCEEEEECCEEcCcccccccccCCCCEEE
+
+
+No 40
+>d2cu3a1 d.15.3.2 (A:1-63) Uncharacterised protein TTHA0675 {Thermus thermophilus [TaxId: 274]}
+Probab=36.63  E-value=76  Score=19.61  Aligned_cols=23  Identities=30%  Similarity=0.371  Sum_probs=0.0  Template_Neff=9.400
+
+Q ss_pred             eecccccCCc--cccccCCCCceee
+Q FD01852864_036   71 AVNEQVMEPH--HRMRLNDGDTIEW   93 (165)
+Q Consensus        71 avneqvmeph--hrmrlndgdtiew   93 (165)
+                      ++|.....+.  ..-.|+|||.|+.
+T Consensus        33 ~vng~~v~~~~~~~~~l~~gd~v~i   57 (63)
+T d2cu3a1          33 LLNEEAFLGLEVPDRPLRDGDVVEV   57 (63)
+T ss_dssp             EETTEEEEGGGCCCCCCCTTCEEEE
+T ss_pred             EECCEecccccCCCCcCCCCCEEEE
+
+
+No 41
+>d5ldab_ d.15.3.2 (B:) Hypothetical protein PF1061 {Pyrococcus furiosus [TaxId: 2261]}
+Probab=33.79  E-value=1.1e+02  Score=18.75  Aligned_cols=25  Identities=28%  Similarity=0.417  Sum_probs=0.0  Template_Neff=9.700
+
+Q ss_pred             cceeeeecccccCCccccccCCCCcee
+Q FD01852864_036   66 DELCCAVNEQVMEPHHRMRLNDGDTIE   92 (165)
+Q Consensus        66 delccavneqvmephhrmrlndgdtie   92 (165)
+                      +.+-+++|.+...+.  ..|+|||.|+
+T Consensus        33 ~~~~v~vn~~~v~~~--~~l~~gd~i~   57 (65)
+T d5ldab_          33 ESAIAKVNGKVVLED--DEVKDGDFVE   57 (65)
+T ss_dssp             TTEEEEETTEEECTT--CBCCTTCCEE
+T ss_pred             CcEEEEECCEEcCCC--CcCCCCCEEE
+
+
+No 42
+>d1jyha_ d.60.1.3 (A:) Gyrase inhibitory protein GyrI (SbmC, YeeB) {Escherichia coli [TaxId: 562]}
+Probab=33.48  E-value=1e+02  Score=19.66  Aligned_cols=19  Identities=21%  Similarity=0.139  Sum_probs=0.0  Template_Neff=12.200
+
+Q ss_pred             CCceEEEEEeeccchhHHH
+Q FD01852864_036   23 PAGTYIVFTAAAPYIPLFE   41 (165)
+Q Consensus        23 pagtyivftaaapyiplfe   41 (165)
+                      |+|+|++++...++-.+.+
+T Consensus        90 p~g~y~~~~~~g~~~~~~~  108 (155)
+T d1jyha_          90 TGGQYAVAVARVVGDDFAK  108 (155)
+T ss_dssp             CCEEEEEEEEEECSSCCHH
+T ss_pred             CCccEEEEEEEECHHHhHH
+
+
+No 43
+>d1kwga1 b.71.1.1 (A:591-644) A4 beta-galactosidase {Thermus thermophilus [TaxId: 274]}
+Probab=31.80  E-value=81  Score=19.54  Aligned_cols=18  Identities=28%  Similarity=0.220  Sum_probs=0.0  Template_Neff=8.700
+
+Q ss_pred             hheeehhhcEEEeecccc
+Q FD01852864_036   50 LSLVRHEEAWWIVNHSDE   67 (165)
+Q Consensus        50 lslvrheeawwivnhsde   67 (165)
+                      +.+.+..+.++++||+++
+T Consensus         8 vev~~R~~~~f~~N~~~~   25 (54)
+T d1kwga1           8 LRLRRRGTWVFAFNYGPE   25 (54)
+T ss_dssp             EEEEEETTEEEEEECSSS
+T ss_pred             EEEEEcCcEEEEEECCCC
+
+
+No 44
+>TIGR01682 moaD; molybdopterin converting factor, subunit 1, non-archaeal. This model describes MoaD.
+Probab=30.99  E-value=1.3e+02  Score=19.00  Aligned_cols=26  Identities=31%  Similarity=0.505  Sum_probs=0.0  Template_Neff=10.000
+
+Q ss_pred             ccceeeeecccccCCccccccCCCCcee
+Q FD01852864_036   65 SDELCCAVNEQVMEPHHRMRLNDGDTIE   92 (165)
+Q Consensus        65 sdelccavneqvmephhrmrlndgdtie   92 (165)
+                      .+..-+++|.+...+.++  +++||+|.
+T Consensus        47 ~~~~~i~vn~~~~~~~~~--l~~gd~i~   72 (80)
+T TIGR01682        47 RGQVMVAVNEEYVTDDAL--LNEGDEVA   72 (80)
+T ss_pred             CCcEEEEECCEEccCccc--cCCCCEEE
+
+
+No 45
+>1RWS_A hypothetical protein PF1061; residual dipolar couplings, structural genomics, UNKNOWN FUNCTION; NMR {Pyrococcus furiosus} SCOP: d.15.3.2
+Probab=29.67  E-value=1.4e+02  Score=19.25  Aligned_cols=26  Identities=27%  Similarity=0.371  Sum_probs=0.0  Template_Neff=9.400
+
+Q ss_pred             cceeeeecccccCCccccccCCCCceee
+Q FD01852864_036   66 DELCCAVNEQVMEPHHRMRLNDGDTIEW   93 (165)
+Q Consensus        66 delccavneqvmephhrmrlndgdtiew   93 (165)
+                      +....+||.+...  ..-.|++||.|..
+T Consensus        45 ~~~~v~vn~~~v~--~~~~l~~gd~I~i   70 (77)
+T 1RWS_A           45 ESAIAKVNGKVVL--EDDEVKDGDFVEV   70 (77)
+T ss_dssp             CSSCEEETTEEEC--SSSCCCSSCCCBC
+T ss_pred             CcEEEEECCEEeC--CCCcCCCCCEEEE
+
+
+No 46
+>2K22_A Putative uncharacterized protein Ta0895; AUTOMATION, FAPSY, MOAD, MOLYBDOPTERIN, UNKNOWN FUNCTION; NMR {Thermoplasma acidophilum}
+Probab=28.80  E-value=1.7e+02  Score=18.34  Aligned_cols=29  Identities=17%  Similarity=0.233  Sum_probs=0.0  Template_Neff=10.600
+
+Q ss_pred             ccceeeeecccccCC--ccccccCCCCceee
+Q FD01852864_036   65 SDELCCAVNEQVMEP--HHRMRLNDGDTIEW   93 (165)
+Q Consensus        65 sdelccavneqvmep--hhrmrlndgdtiew   93 (165)
+                      ...+.+.+|.+....  .....|++||+|..
+T Consensus        53 ~~~~~v~vn~~~~~~~~~~~~~l~~~d~v~i   83 (90)
+T 2K22_A           53 FKNVIILVNGNNITSMKGLDTEIKDDDKIDL   83 (90)
+T ss_dssp             SSCCEEEETTSCGGGSCSTTCBCCSSCCEEE
+T ss_pred             cCcEEEEECCEeccccCCCCCcCCCCCEEEE
+
+
+No 47
+>1YJM_C Polynucleotide 5'-hydroxyl-kinase; polynucleotide kinase, FHA domain, XRCC4 phosphopeptide, Transferase-DNA BINDING PROTEIN COMPLEX; HET: TPO; 2.2A {Mus musculus} SCOP: b.26.1.2
+Probab=28.70  E-value=2.1e+02  Score=15.77  Aligned_cols=49  Identities=14%  Similarity=0.064  Sum_probs=0.0  Template_Neff=13.500
+
+Q ss_pred             eee--hhhcEEEeecccceeeeecccccCCccccccCCCCceeeccchhhee
+Q FD01852864_036   52 LVR--HEEAWWIVNHSDELCCAVNEQVMEPHHRMRLNDGDTIEWGLSSWCLA  101 (165)
+Q Consensus        52 lvr--heeawwivnhsdelccavneqvmephhrmrlndgdtiewglsswcla  101 (165)
+                      +..  ....|.+-+.+. -...++...+.+.....+..||.+..+-+.+.+.
+T Consensus        53 ~~~~~~~~~~~~~~~~~-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  103 (110)
+T 1YJM_C           53 LIADPESRTVAVKQLGV-NPSTVGVHELKPGLSGSLSLGDVLYLVNGLYPLT  103 (110)
+T ss_dssp             EEEETTTTEEEEEECSS-SCCEETTEECCTTCEEEECTTCEEEEETTEEEEE
+T ss_pred             EEEeCCCCeEEEEEecC-CCeEECCEEcCCCCEEECCCCCEEEEcCCeeeEE
+
+
+No 48
+>2M19_A Molybdopterin converting factor subunit 1; ubiquitin-like protein, PROTEIN BINDING; NMR {Haloferax volcanii}
+Probab=28.37  E-value=1.5e+02  Score=19.49  Aligned_cols=28  Identities=18%  Similarity=0.204  Sum_probs=0.0  Template_Neff=10.200
+
+Q ss_pred             cceeeeecccccCC--ccccccCCCCceee
+Q FD01852864_036   66 DELCCAVNEQVMEP--HHRMRLNDGDTIEW   93 (165)
+Q Consensus        66 delccavneqvmep--hhrmrlndgdtiew   93 (165)
+                      ..+.+.+|.+..+.  ...+.|++||.|..
+T Consensus        70 ~~~~i~~ng~~~~~~~~~~~~l~~gd~i~i   99 (106)
+T 2M19_A           70 PHVNVLKNGREVVHLDGMATALDDGDAVSV   99 (106)
+T ss_dssp             TTCEEEETTEETTSSCSSSSCCCTTCEEEE
+T ss_pred             CcEEEEECCEEccccCCcCcccCCCCEEEE
+
+
+No 49
+>4HRO_A Small archaeal modifier protein 1; beta-grasp, small ubiquitin-like modifier, PROTEIN BINDING; 1.15A {Haloferax volcanii DS2}
+Probab=28.32  E-value=1.7e+02  Score=18.22  Aligned_cols=27  Identities=15%  Similarity=0.158  Sum_probs=0.0  Template_Neff=10.700
+
+Q ss_pred             ccceeeeecccccCCccccccCCCCceee
+Q FD01852864_036   65 SDELCCAVNEQVMEPHHRMRLNDGDTIEW   93 (165)
+Q Consensus        65 sdelccavneqvmephhrmrlndgdtiew   93 (165)
+                      ...+-+++|.+......  ++++||+|..
+T Consensus        57 ~~~~~i~vn~~~~~~~~--~l~~~~~i~i   83 (90)
+T 4HRO_A           57 YDHINVLRNGEAAALGE--ATAAGDELAL   83 (90)
+T ss_dssp             CTTCEEEETTEECCTTS--BCCTTCEEEE
+T ss_pred             cCcEEEEECCEeccccC--CCCCCCEEEE
+
+
+No 50
+>PF13211.8 ; DUF4019 ; Protein of unknown function (DUF4019)
+Probab=27.73  E-value=2.5e+02  Score=16.45  Aligned_cols=42  Identities=19%  Similarity=0.328  Sum_probs=0.0  Template_Neff=12.200
+
+Q ss_pred             CCcccCCceEEEEEeeccchhHHHHhCC-CceehheeehhhcEEEeec
+Q FD01852864_036   18 DNAQYPAGTYIVFTAAAPYIPLFEQHGK-DDIALSLVRHEEAWWIVNH   64 (165)
+Q Consensus        18 dnaqypagtyivftaaapyiplfeqhgk-ddialslvrheeawwivnh   64 (165)
+                      .+...+.|.|.+++....|-     .|. ..+.+.+++.++.|.|.++
+T Consensus        60 ~~~~~~~~~~~~v~~~~~~~-----~~~~~~~~~~~~~~~g~w~i~g~  102 (102)
+T B8GU58_THISH/5   60 IMPGVPEGRYAMFEYRSVFE-----KQDQGAELVVCAREEGEWRVVGY  102 (102)
+T ss_pred             cCCCCCCceEEEEEEEEEec-----CCCCeEEEEEEEEeCCeEEEeeC
+
+
+No 51
+>4WWM_A Uncharacterized protein; Ubiquitin-like, Modifier, Archaea, signaling protein; 2.2A {Sulfolobus solfataricus}
+Probab=27.68  E-value=1.2e+02  Score=20.08  Aligned_cols=25  Identities=28%  Similarity=0.280  Sum_probs=0.0  Template_Neff=9.500
+
+Q ss_pred             eeeeecccccCCccccccCCCCcee
+Q FD01852864_036   68 LCCAVNEQVMEPHHRMRLNDGDTIE   92 (165)
+Q Consensus        68 lccavneqvmephhrmrlndgdtie   92 (165)
+                      +.+++|.+..++.....|.+||.|.
+T Consensus        51 ~~i~vn~~~~~~~~~~~l~~gd~v~   75 (91)
+T 4WWM_A           51 ILILINGKDWRLYRNQLLNDNDIIE   75 (91)
+T ss_dssp             EEEEETTEEGGGGTTBCCCTTCEEE
+T ss_pred             EEEEECCeehhhcCCCcCCCCCEEE
+
+
+No 52
+>TIGR04332 gamma_Glu_sys; poly-gamma-glutamate system protein. Poly(gamma-glutamic acid), or PGA, is an extracellular structural polymer found in Bacillus subtilis and a number of other species.
+Probab=27.59  E-value=96  Score=28.95  Aligned_cols=35  Identities=43%  Similarity=0.561  Sum_probs=0.0  Template_Neff=4.800
+
+Q ss_pred             ccccCCCCceeeccchhheecCCCCCCCCCChhHHhcCChhHHHHcChh
+Q FD01852864_036   82 RMRLNDGDTIEWGLSSWCLARTNDESRPDVSFPQLVQSSESVAEYLDLD  130 (165)
+Q Consensus        82 rmrlndgdtiewglsswclartndesrpdvsfpqlvqssesvaeyldld  130 (165)
+                      ++-|..||+|--|.|+              |||-|.-+.=+.||.++|+
+T Consensus       104 ~aGlk~GD~VAv~~Sg--------------SFPaLnla~lsAae~l~L~  138 (307)
+T TIGR04332       104 KAGLKEGDTIAVGASG--------------SFPGLNLAVLSAAETMGLK  138 (307)
+T ss_pred             HCCCCCCCEEEEecCC--------------ChHHHHHHHHHHHHHcCCe
+
+
+No 53
+>4KKI_A Transcobalamin-1; Cobalamin transport protein, alpha6-alpha6 helical barrel, transport protein; HET: CNC, PEG, NAG; 2.35A {Homo sapiens}
+Probab=27.12  E-value=1.4e+02  Score=26.04  Aligned_cols=56  Identities=23%  Similarity=0.364  Sum_probs=0.0  Template_Neff=9.200
+
+Q ss_pred             EEEeecccceeeeecccccCCccccccCCCCceeeccchhheecCCCCCCCCCChhHHhcCChhH
+Q FD01852864_036   59 WWIVNHSDELCCAVNEQVMEPHHRMRLNDGDTIEWGLSSWCLARTNDESRPDVSFPQLVQSSESV  123 (165)
+Q Consensus        59 wwivnhsdelccavneqvmephhrmrlndgdtiewglsswclartndesrpdvsfpqlvqssesv  123 (165)
+                      +|..--.       ++.....-....+++||+|.|-...|-......+++  ..|||-.-+.|.+
+T Consensus       401 ~W~~~vn-------g~~~~~g~~~~~l~~gd~i~~~y~~~~~~~~~~~~~--~~~~~~~~~~~~~  456 (467)
+T 4KKI_A          401 YWELLSG-------GEPLSQGAGSYVVRNGENLEVRWSKYLVPRGSLESR--GPFEQKLISEEDL  456 (467)
+T ss_dssp             EEEEEET-------TEECSSCTTTCBCCTTCCEEEEEEECC------------------------
+T ss_pred             eEEEEEC-------CeecCcccCeeecCCCCEEEEEEEecCCCCCcccee--ccccccccCHHHh
+
+
+No 54
+>2K9X_A Uncharacterized protein; TbUrm1, UNKNOWN FUNCTION; NMR {Trypanosoma brucei} SCOP: d.15.3.0
+Probab=26.95  E-value=1.4e+02  Score=20.87  Aligned_cols=29  Identities=34%  Similarity=0.381  Sum_probs=0.0  Template_Neff=9.000
+
+Q ss_pred             ccceeeeecccccCC--ccccccCCCCceee
+Q FD01852864_036   65 SDELCCAVNEQVMEP--HHRMRLNDGDTIEW   93 (165)
+Q Consensus        65 sdelccavneqvmep--hhrmrlndgdtiew   93 (165)
+                      ....-|+||.....+  -....|+|||+|..
+T Consensus        65 ~~~~~v~vng~~i~~~~~~~~~l~~gd~I~i   95 (110)
+T 2K9X_A           65 RPGILVLVNSCDAEVVGGMDYVLNDGDTVEF   95 (110)
+T ss_dssp             CTTEEEEESSSBHHHHTSSCCCCCSSCEEEE
+T ss_pred             cCceEEEECCeeeeecCccccccCCCCEEEE
+
+
+No 55
+>TIGR01687 moaD_arch; MoaD family protein, archaeal. Members of this family appear to be archaeal versions of MoaD, subunit 1 of molybdopterin converting factor.
+Probab=26.75  E-value=1.4e+02  Score=19.03  Aligned_cols=23  Identities=26%  Similarity=0.322  Sum_probs=0.0  Template_Neff=10.200
+
+Q ss_pred             eeecccccCCccccccCCCCcee
+Q FD01852864_036   70 CAVNEQVMEPHHRMRLNDGDTIE   92 (165)
+Q Consensus        70 cavneqvmephhrmrlndgdtie   92 (165)
+                      +.+|.+.........+++||.|.
+T Consensus        58 v~vn~~~~~~~~~~~l~~gd~i~   80 (88)
+T TIGR01687        58 ILVNGRNVDWGLGTELKDGDVVA   80 (88)
+T ss_pred             EEECCEEecCCCCcccCCCCEEE
+
+
+No 56
+>2FF4_B Probable regulatory protein embR; winged-helix  tetratricopeptide repeat  beta-sandwich, TRANSCRIPTION; HET: TPO; 1.9A {Mycobacterium tuberculosis} SCOP: a.118.8.3, a.4.6.1, b.26.1.2
+Probab=26.57  E-value=4.3e+02  Score=20.00  Aligned_cols=57  Identities=16%  Similarity=0.189  Sum_probs=0.0  Template_Neff=12.200
+
+Q ss_pred             eeehhhcEEEeecccceeeeecccccCCccccccCCCCceeeccchhheecCCCCCCCC
+Q FD01852864_036   52 LVRHEEAWWIVNHSDELCCAVNEQVMEPHHRMRLNDGDTIEWGLSSWCLARTNDESRPD  110 (165)
+Q Consensus        52 lvrheeawwivnhsdelccavneqvmephhrmrlndgdtiewglsswclartndesrpd  110 (165)
+                      +....+.|++.+-+..-.+.+|.+....  +..|.+||.+.-|-....+......+..+
+T Consensus       332 l~~~~~~~~~~~~~~~~~~~~~~~~~~~--~~~l~~~~~~~~g~~~~~~~~~~~~~~~~  388 (388)
+T 2FF4_B          332 IVDTGTNYVINDLRSSNGVHVQHERIRS--AVTLNDGDHIRICDHEFTFQISAGTHGGT  388 (388)
+T ss_dssp             EEECSSCEEEEECSCSSCCEETTEECSS--CEECCTTCEEEETTEEEEEEC--------
+T ss_pred             EEEeCCeEEEEeCCCCCCEEECCEEccC--CEeCCCCCEEEECCEEEEEEECCCCCCCC
+
+
+No 57
+>3UMZ_A Mediator of DNA damage checkpoint protein 1; FHA, Protein binding, Phosphothreonine binding; 1.65A {Homo sapiens}
+Probab=26.54  E-value=2.4e+02  Score=15.74  Aligned_cols=51  Identities=16%  Similarity=0.087  Sum_probs=0.0  Template_Neff=13.400
+
+Q ss_pred             hhcEEEeecccceeeeeccc--ccCCccccccCCCCceeeccchhheecCCCC
+Q FD01852864_036   56 EEAWWIVNHSDELCCAVNEQ--VMEPHHRMRLNDGDTIEWGLSSWCLARTNDE  106 (165)
+Q Consensus        56 eeawwivnhsdelccavneq--vmephhrmrlndgdtiewglsswclartnde  106 (165)
+                      +..|++.+.....-..+|..  .+.+.....+..||.+..|-....+......
+T Consensus        59 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  111 (113)
+T 3UMZ_A           59 DKAPILRDCGSLNGTQILRPPKVLSPGVSHRLRDQELILFADLLCQYHRLDVS  111 (113)
+T ss_dssp             TCCCEEEECSCSSCEEETTTTEECCTTCCEECCTTCEEEETTEEEEEEEC---
+T ss_pred             CCCeEEEECCCCCceEeCCCCeecCCCCeEEcCCCCEEEECCEEEEEEeccCC
+
+
+No 58
+>TIGR03354 VI_FHA; type VI secretion system FHA domain protein. Members of this protein family are FHA (forkhead-associated) domain-containing proteins that are part of type VI secretion loci in a considerable number of bacteria, most of which are known pathogens.
+Probab=26.28  E-value=2.4e+02  Score=25.15  Aligned_cols=42  Identities=19%  Similarity=0.325  Sum_probs=0.0  Template_Neff=8.100
+
+Q ss_pred             eeehhhcEEEeecccceeeeec--ccccCCccccccCCCCceeec
+Q FD01852864_036   52 LVRHEEAWWIVNHSDELCCAVN--EQVMEPHHRMRLNDGDTIEWG   94 (165)
+Q Consensus        52 lvrheeawwivnhsdelccavn--eqvmephhrmrlndgdtiewg   94 (165)
+                      +......||+.+.|. --.-||  .....+..+.+|++||.|.-|
+T Consensus        52 I~~~~~~~~l~d~s~-ng~~vn~~~~~l~~~~~~~L~~Gd~i~iG   95 (396)
+T TIGR03354        52 IRYRDGAYLLTDLST-NGVFLNGSGSPLGRGNPVRLEQGDRLRLG   95 (396)
+T ss_pred             EEEeCCeEEEEECCC-CceEeCCCCCCCCCCCCeeCCCCCEEEEC
+
+
+No 59
+>TIGR01663 PNK-3'Pase; polynucleotide 5'-kinase 3'-phosphatase. This model represents the metazoan 5'-polynucleotide-kinase-3'-phosphatase, PNKP, which is believed to be involved in repair of oxidative DNA damage.
+Probab=26.11  E-value=2.7e+02  Score=24.71  Aligned_cols=59  Identities=17%  Similarity=0.162  Sum_probs=0.0  Template_Neff=9.400
+
+Q ss_pred             hheeehh--hcEEEeecccceeeeecccccCCccccccCCCCceee--ccchhheecCCCCCCC
+Q FD01852864_036   50 LSLVRHE--EAWWIVNHSDELCCAVNEQVMEPHHRMRLNDGDTIEW--GLSSWCLARTNDESRP  109 (165)
+Q Consensus        50 lslvrhe--eawwivnhsdelccavneqvmephhrmrlndgdtiew--glsswclartndesrp  109 (165)
+                      +.+..+.  ..+|+...+. --|-+|...+.+..+..|.+||+|+-  |-..+.+........+
+T Consensus        54 ~~i~~~~~~~~~~v~~lg~-n~~~vng~~l~~~~~~~L~~gd~i~l~~g~~~~~~~~~~~~~~~  116 (526)
+T TIGR01663        54 IELQADLEKATVALKQLGV-NPCGTGGLELKPGGEGELGHGDLLEIVNGLHPLTLQFEETFNPE  116 (526)
+T ss_pred             EEEEEeCccCeEEEEecCC-CCceeCCeecCCCCcEeCCCCCEEEEcCCCeeEEEEecCCCCCC
+
+
+No 60
+>d1r8ea2 d.60.1.1 (A:121-277) Multidrug-binding domain of transcription activator BmrR {Bacillus subtilis [TaxId: 1423]}
+Probab=25.97  E-value=1.3e+02  Score=19.47  Aligned_cols=14  Identities=21%  Similarity=0.351  Sum_probs=0.0  Template_Neff=11.900
+
+Q ss_pred             CCceEEEEEeeccc
+Q FD01852864_036   23 PAGTYIVFTAAAPY   36 (165)
+Q Consensus        23 pagtyivftaaapy   36 (165)
+                      |+|+|++|+--.++
+T Consensus        93 p~g~y~~~~~~g~~  106 (157)
+T d1r8ea2          93 PKGRYACIAYNFSP  106 (157)
+T ss_dssp             CSEEEEEEEEECCH
+T ss_pred             cCeeEEEEEEecCh
+
+
+No 61
+>6I2Q_B Glycogen accumulation regulator GarA; oxoglutarate dehydrogenase, decarboxylase, OXIDOREDUCTASE; HET: TPP; 2.15A {Mycobacterium smegmatis (strain ATCC 700084 / mc(2)155)} SCOP: b.26.1.0
+Probab=25.42  E-value=2.6e+02  Score=15.76  Aligned_cols=59  Identities=12%  Similarity=0.143  Sum_probs=0.0  Template_Neff=13.300
+
+Q ss_pred             heeehhhcEEEeecccceeeeecccccCCccccccCCCCceeeccchhheecCCCCCCCCCC
+Q FD01852864_036   51 SLVRHEEAWWIVNHSDELCCAVNEQVMEPHHRMRLNDGDTIEWGLSSWCLARTNDESRPDVS  112 (165)
+Q Consensus        51 slvrheeawwivnhsdelccavneqvmephhrmrlndgdtiewglsswclartndesrpdvs  112 (165)
+                      .+......|.+.+.+..-...++.....+.   .+..||.+..|-...-+....++.....+
+T Consensus        56 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~---~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  114 (115)
+T 6I2Q_B           56 EFRLEGGEFQVVDVGSLNGTYVNREPVDSA---VLANGDEVQIGKFRLVFLTGPKSDDSGSN  114 (115)
+T ss_dssp             EEEEETTEEEEEECSCSSCEEETTEEESEE---EECTTCEEEETTEEEEEEC----------
+T ss_pred             EEEEECCeEEEEECCCCCcEEECCEEcCce---eCCCCCEEEECCEEEEEEeCCCCCCCCCC
+
+
+No 62
+>1XO3_A RIKEN cDNA 2900073H19; Structural Genomics, Protein Structure Initiative, Center for Eukaryotic Structural Genomics, PSI, CESG, UNKNOWN FUNCTION; NMR {Mus musculus} SCOP: d.15.3.3, l.1.1.1
+Probab=25.24  E-value=2e+02  Score=18.62  Aligned_cols=31  Identities=19%  Similarity=0.249  Sum_probs=0.0  Template_Neff=10.400
+
+Q ss_pred             ecccceeeeecccccCC--ccccccCCCCceee
+Q FD01852864_036   63 NHSDELCCAVNEQVMEP--HHRMRLNDGDTIEW   93 (165)
+Q Consensus        63 nhsdelccavneqvmep--hhrmrlndgdtiew   93 (165)
+                      +.....-+.+|.+...+  ..+..+++||.|.+
+T Consensus        62 ~~~~~~~v~vn~~~v~~~~~~~~~l~~gd~i~i   94 (101)
+T 1XO3_A           62 SVRPGILVLINDADWELLGELDYQLQDQDSILF   94 (101)
+T ss_dssp             SCCSSEEEEETTEEHHHHTTTSCCCCTTCEEEE
+T ss_pred             eecCCeEEEECCccccccCcccccCCCCCEEEE
+
+
+No 63
+>d2g1la1 b.26.1.2 (A:498-599) Kinesin-like protein kif1c {Human (Homo sapiens) [TaxId: 9606]}
+Probab=25.13  E-value=2.5e+02  Score=17.34  Aligned_cols=43  Identities=16%  Similarity=0.127  Sum_probs=0.0  Template_Neff=11.300
+
+Q ss_pred             hheeehh--hcEEEeeccccee--eeecccccCCccccccCCCCceeec
+Q FD01852864_036   50 LSLVRHE--EAWWIVNHSDELC--CAVNEQVMEPHHRMRLNDGDTIEWG   94 (165)
+Q Consensus        50 lslvrhe--eawwivnhsdelc--cavneqvmephhrmrlndgdtiewg   94 (165)
+                      ..+.+.+  ..+++......-.  ..+|......  ...|.+||.|..|
+T Consensus        47 ~~l~~~~~~~~~~~~~~~~~~~~~~~~n~~~~~~--~~~l~~~d~i~~g   93 (102)
+T d2g1la1          47 CLFRSIPQPDGEVVVTLEPCEGAETYVNGKLVTE--PLVLKSGNRIVMG   93 (102)
+T ss_dssp             EEEEEEECTTSCEEEEEEECTTCCEEETTEECCS--CEECCTTCEEEET
+T ss_pred             EEEEEecCCCCCEEEEEEeCCCCcEEECCEEcCC--CEeCCCCCEEEeC
+
+
+No 64
+>3E0H_A uncharacterized protein; uncharacterized protein, Chlorobium tepidum, Structural Genomics, PSI-2, Protein Structure Initiative, Northeast Structural Genomics Consortium, NESG, unknown; HET: MSE; 1.81A {Chlorobaculum tepidum}
+Probab=25.01  E-value=2.1e+02  Score=17.59  Aligned_cols=21  Identities=19%  Similarity=0.170  Sum_probs=0.0  Template_Neff=12.900
+
+Q ss_pred             ccCCceEEEEEeeccchhHHH
+Q FD01852864_036   21 QYPAGTYIVFTAAAPYIPLFE   41 (165)
+Q Consensus        21 qypagtyivftaaapyiplfe   41 (165)
+                      ..|+|.|++|....++-.+.+
+T Consensus        91 ~~p~g~y~~~~~~g~~~~~~~  111 (158)
+T 3E0H_A           91 LTPSGKAASSLYIGPYGEIEA  111 (158)
+T ss_dssp             ECCCEEEEEEEEESCGGGTHH
+T ss_pred             ecCCeeEEEEEEEcChHHHHH
+
+
+No 65
+>1RYJ_A unknown; beta/alpha protein, Structural Genomics, Protein Structure Initiative, OCSP, NESG, PSI, Northeast Structural Genomics Consortium, unknown function; NMR {Methanothermococcus thermolithotrophicus} SCOP: d.15.3.2
+Probab=24.48  E-value=2.8e+02  Score=15.90  Aligned_cols=53  Identities=17%  Similarity=0.139  Sum_probs=0.0  Template_Neff=11.200
+
+Q ss_pred             ccCCceE-EEEEeeccchhHHHHhCCCceehheeehhhcEEEeecccceeeeecccccCCccccccCCCCceee
+Q FD01852864_036   21 QYPAGTY-IVFTAAAPYIPLFEQHGKDDIALSLVRHEEAWWIVNHSDELCCAVNEQVMEPHHRMRLNDGDTIEW   93 (165)
+Q Consensus        21 qypagty-ivftaaapyiplfeqhgkddialslvrheeawwivnhsdelccavneqvmephhrmrlndgdtiew   93 (165)
+                      .+++|.- +.+........+++..+..                  .+.+...+|.+..  .....|.|||.|+.
+T Consensus        10 ~~~~~~~~~~~~~~~~~~~~~~~~~~~------------------~~~~~~~vng~~~--~~~~~l~~~~~v~~   63 (70)
+T 1RYJ_A           10 ITDDGKKILESGAPRRIKDVLGELEIP------------------IETVVVKKNGQIV--IDEEEIFDGDIIEV   63 (70)
+T ss_dssp             EETTEEEEEEESSCCBHHHHHHHTTCC------------------TTTEEEEETTEEC--CTTSBCCTTCEEEE
+T ss_pred             EeCCCcEEEEcCCCccHHHHHHhcCCC------------------cccEEEEECCEEe--cCCcccCCCCEEEE
+
+
+No 66
+>d1zud2_ d.15.3.2 (2:) Thiamin biosynthesis sulfur carrier protein ThiS {Escherichia coli [TaxId: 562]}
+Probab=24.35  E-value=3.1e+02  Score=16.36  Aligned_cols=50  Identities=22%  Similarity=0.284  Sum_probs=0.0  Template_Neff=10.200
+
+Q ss_pred             ceEEEEEeeccchhHHHHhCCCceehheeehhhcEEEeecccceeeeecccccCCcc--ccccCCCCcee
+Q FD01852864_036   25 GTYIVFTAAAPYIPLFEQHGKDDIALSLVRHEEAWWIVNHSDELCCAVNEQVMEPHH--RMRLNDGDTIE   92 (165)
+Q Consensus        25 gtyivftaaapyiplfeqhgkddialslvrheeawwivnhsdelccavneqvmephh--rmrlndgdtie   92 (165)
+                      |.-+.+........+++..+..                  ....-+++|.+......  .-.|.+||.|+
+T Consensus         6 ~~~~~~~~~~tv~~ll~~l~~~------------------~~~~~v~vNg~~~~~~~~~~~~l~~gd~I~   57 (65)
+T d1zud2_           6 DQAMQCAAGQTVHELLEQLDQR------------------QAGAALAINQQIVPREQWAQHIVQDGDQIL   57 (65)
+T ss_dssp             TEEECCCTTCBHHHHHHHHTCC------------------CTTEEEEETTEECCGGGTTTCBCCTTCEEE
+T ss_pred             CEEeecCCCCcHHHHHHHhCCC------------------CCcEEEEECCEEecHHHhccccCCCCCEEE
+
+
+No 67
+>1JYH_A DNA Gyrase inhibitory protein; gyrase inhibitor, Structural Genomics, PSI, Protein Structure Initiative, New York SGX Research Center for Structural Genomics; 1.8A {Escherichia coli} SCOP: d.60.1.3
+Probab=24.17  E-value=1.5e+02  Score=18.19  Aligned_cols=14  Identities=29%  Similarity=0.273  Sum_probs=0.0  Template_Neff=12.900
+
+Q ss_pred             CCceEEEEEeeccc
+Q FD01852864_036   23 PAGTYIVFTAAAPY   36 (165)
+Q Consensus        23 pagtyivftaaapy   36 (165)
+                      |+|.|++|..-.++
+T Consensus        90 p~g~ya~~~~~g~~  103 (157)
+T 1JYH_A           90 TGGQYAVAVARVVG  103 (157)
+T ss_dssp             CCEEEEEEEEEECS
+T ss_pred             CCccEEEEEEEECc
+
+
+No 68
+>1BOW_A MULTIDRUG-EFFLUX TRANSPORTER 1 REGULATOR BMRR; TRANSCRIPTION ACTIVATOR, MULTIDRUG BINDING; 2.7A {Bacillus subtilis} SCOP: l.1.1.1, d.60.1.1
+Probab=23.44  E-value=2.5e+02  Score=17.45  Aligned_cols=21  Identities=19%  Similarity=0.222  Sum_probs=0.0  Template_Neff=12.800
+
+Q ss_pred             CCceEEEEEeeccchhHHHHh
+Q FD01852864_036   23 PAGTYIVFTAAAPYIPLFEQH   43 (165)
+Q Consensus        23 pagtyivftaaapyiplfeqh   43 (165)
+                      |+|+|+++....++-.+.+..
+T Consensus        94 p~g~ya~~~~~g~~~~~~~~~  114 (159)
+T 1BOW_A           94 PKGRYACIAYNFSPEHYFLNL  114 (159)
+T ss_dssp             CSEEEEEEEEECCHHHHHHHH
+T ss_pred             cCccEEEEEEecChHHHHHHH
+
+
+No 69
+>3OUN_A Putative uncharacterized protein TB39.8; peptidoglycan, Ser/Thr kinase, pseudokinase, FHA domain, regulation, phosphorylation, membrane associated intracellular, PROTEIN BINDING-TRANSFERASE complex; HET: TPO; 2.705A {Mycobacterium tuberculosis} SCOP: b.26.1.0
+Probab=23.10  E-value=3.2e+02  Score=19.47  Aligned_cols=46  Identities=20%  Similarity=0.253  Sum_probs=0.0  Template_Neff=10.100
+
+Q ss_pred             eeehhhcEEEeecccceeeeecccccCCccccccCCCCceeeccchhhe
+Q FD01852864_036   52 LVRHEEAWWIVNHSDELCCAVNEQVMEPHHRMRLNDGDTIEWGLSSWCL  100 (165)
+Q Consensus        52 lvrheeawwivnhsdelccavneqvmephhrmrlndgdtiewglsswcl  100 (165)
+                      +....+.|++......--..+|.....+   ..|.+||.|.-|-....+
+T Consensus       111 i~~~~~~~~l~d~~s~~g~~v~~~~~~~---~~l~~gd~i~~g~~~~~~  156 (157)
+T 3OUN_A          111 IRWDGQVALLADLNSTNGTTVNNAPVQE---WQLADGDVIRLGHSEIIV  156 (157)
+T ss_dssp             EEECSSCEEEEECSCSSCCEETTEECSE---EECCTTCEEEETTEEEEE
+T ss_pred             EEEeCCEEEEEeCCCCCCEEECCEECCe---EECCCCCEEEECCeEEEE
+
+
+No 70
+>6JC0_C Putative molybdenum cofactor biosynthesis protein D2 (MoaD2) / thiamine S; molybdopterin synthases, molybdenum cofactor biosynthesis, sulfur transfer, TRANSFERASE; 2.1A {Mycobacterium smegmatis (strain ATCC 700084 / mc(2)155)}
+Probab=22.87  E-value=2.2e+02  Score=17.32  Aligned_cols=27  Identities=11%  Similarity=0.078  Sum_probs=0.0  Template_Neff=11.000
+
+Q ss_pred             cceeeeecccccCCccccccCCCCceee
+Q FD01852864_036   66 DELCCAVNEQVMEPHHRMRLNDGDTIEW   93 (165)
+Q Consensus        66 delccavneqvmephhrmrlndgdtiew   93 (165)
+                      +...+++|....... ...+.+||.|+.
+T Consensus        55 ~~~~v~vn~~~~~~~-~~~l~~gd~i~i   81 (88)
+T 6JC0_C           55 KRCSYLCDEVAVRDM-AKPLVTPQTVDV   81 (88)
+T ss_dssp             TTCEEEETTEECSCT-TCEECSCEEEEE
+T ss_pred             hccEEEECCEecCCC-CccCCCCCEEEE
+
+
+No 71
+>3LUR_B Putative bacterial transcription regulation protein; Structural Genomics, Joint Center for Structural Genomics, JCSG, Protein Structure Initiative, PSI-2, Bacterial transcription activator, effector; HET: MSE, PG4, EDO; 1.81A {Staphylococcus aureus}
+Probab=21.74  E-value=2.9e+02  Score=17.63  Aligned_cols=21  Identities=19%  Similarity=0.377  Sum_probs=0.0  Template_Neff=12.300
+
+Q ss_pred             CCceEEEEEeeccc-hhHHHHh
+Q FD01852864_036   23 PAGTYIVFTAAAPY-IPLFEQH   43 (165)
+Q Consensus        23 pagtyivftaaapy-iplfeqh   43 (165)
+                      |+|.|++|+...++ ..+.+..
+T Consensus        93 p~g~ya~~~~~g~~~~~~~~~~  114 (158)
+T 3LUR_B           93 ASSKYMVFEAQGAVPKAVQQKM  114 (158)
+T ss_dssp             CCEEEEEEEEESSTTHHHHHHH
+T ss_pred             cCceEEEEEecCCcCHHHHHHH
+
+
+No 72
+>PF14526.8 ; Cass2 ; Integron-associated effector binding protein
+Probab=21.70  E-value=1.8e+02  Score=18.18  Aligned_cols=14  Identities=57%  Similarity=0.968  Sum_probs=0.0  Template_Neff=12.600
+
+Q ss_pred             CCceEEEEEee-ccc
+Q FD01852864_036   23 PAGTYIVFTAA-APY   36 (165)
+Q Consensus        23 pagtyivftaa-apy   36 (165)
+                      |+|.|++|+.. .++
+T Consensus        93 p~g~ya~~~~~~g~~  107 (157)
+T C0ZCT2_BREBN/5   93 PASTYAVFTTRVGPM  107 (157)
+T ss_pred             CcceEEEEEecCCCh
+
+
+No 73
+>d1tygb_ d.15.3.2 (B:) Thiamin biosynthesis sulfur carrier protein ThiS {Bacillus subtilis [TaxId: 1423]}
+Probab=21.49  E-value=1.9e+02  Score=18.33  Aligned_cols=28  Identities=25%  Similarity=0.389  Sum_probs=0.0  Template_Neff=9.000
+
+Q ss_pred             cceeeeecccccCCc--cccccCCCCceee
+Q FD01852864_036   66 DELCCAVNEQVMEPH--HRMRLNDGDTIEW   93 (165)
+Q Consensus        66 delccavneqvmeph--hrmrlndgdtiew   93 (165)
+                      +...+++|.....+.  ..-.+.+||.|+.
+T Consensus        30 ~~~~v~vNg~~v~~~~~~~~~l~~gd~V~i   59 (65)
+T d1tygb_          30 KIVIVERNKEIIGKERYHEVELCDRDVIEI   59 (65)
+T ss_dssp             SCCEEEETTEEECGGGTTTSBCCSSSEEEE
+T ss_pred             CeEEEEECCEEeCHHHhcCeeCCCCCEEEE
+
+
+No 74
+>PF06445.17 ; GyrI-like ; GyrI-like small molecule binding domain
+Probab=21.49  E-value=2.5e+02  Score=16.87  Aligned_cols=19  Identities=21%  Similarity=0.382  Sum_probs=0.0  Template_Neff=13.200
+
+Q ss_pred             CCceEEEEEeeccchhHHH
+Q FD01852864_036   23 PAGTYIVFTAAAPYIPLFE   41 (165)
+Q Consensus        23 pagtyivftaaapyiplfe   41 (165)
+                      |+|.|++|..-.++-.+.+
+T Consensus        87 p~g~y~~~~~~g~~~~~~~  105 (152)
+T Q8XQH8_RALSO/1   87 EGGLYARHRLVGPYALIAP  105 (152)
+T ss_pred             CCccEEEEEEEeCHHHHHH
+
+
+No 75
+>2PIE_A E3 ubiquitin-protein ligase RNF8; FHA domain, phosphopeptide, complex, LIGASE, SIGNALING PROTEIN; HET: TPO; 1.35A {Homo sapiens} SCOP: l.1.1.1, b.26.1.2
+Probab=21.40  E-value=4.2e+02  Score=16.75  Aligned_cols=72  Identities=17%  Similarity=0.147  Sum_probs=0.0  Template_Neff=12.000
+
+Q ss_pred             CCceEEEEEeeccchhHH----HHhCCCceehheeehhhcEEEeecccceeeeecccccCCccccccCCCCceeec
+Q FD01852864_036   23 PAGTYIVFTAAAPYIPLF----EQHGKDDIALSLVRHEEAWWIVNHSDELCCAVNEQVMEPHHRMRLNDGDTIEWG   94 (165)
+Q Consensus        23 pagtyivftaaapyiplf----eqhgkddialslvrheeawwivnhsdelccavneqvmephhrmrlndgdtiewg   94 (165)
+                      ..+.+.+.......+.+.    ........+.........|++.+....--+.++.....+.....+.+||.+..|
+T Consensus        26 ~~~~~~~g~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~~~~~~~~  101 (138)
+T 2PIE_A           26 DGCEVTVGRGFGVTYQLVSKICPLMISRNHCVLKQNPEGQWTIMDNKSLNGVWLNRARLEPLRVYSIHQGDYIQLG  101 (138)
+T ss_dssp             TTCCEEEESSSSSSEECCCSSCTTSSCSSCEEEEECTTSCEEEEECSCSSCEEETTEECCTTCCEECCTTCEEEES
+T ss_pred             CCCEEEEeCCCCCCceeecCCCCCcccCCcEEEEECCCCCEEEEeCCCCCCcEECCEeCCCCCcEEcCCCCEEEEC
+
+
+No 76
+>4H87_B Kanadaptin; FHA domain of PF00498, mRNA processing, nucleus, Structural Genomics, Joint Center for Structural Genomics, JCSG, Protein; HET: GOL, SO4; 1.55A {Homo sapiens}
+Probab=20.44  E-value=4.3e+02  Score=16.50  Aligned_cols=43  Identities=14%  Similarity=0.344  Sum_probs=0.0  Template_Neff=12.000
+
+Q ss_pred             eeeh-----------hhcEEEeecccceeeeecccccCCccccccCCCCceeec
+Q FD01852864_036   52 LVRH-----------EEAWWIVNHSDELCCAVNEQVMEPHHRMRLNDGDTIEWG   94 (165)
+Q Consensus        52 lvrh-----------eeawwivnhsdelccavneqvmephhrmrlndgdtiewg   94 (165)
+                      +...           ...|.+.+.....-..+|...+.+.....+..||.+.+|
+T Consensus        67 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~~~~~~~~  120 (130)
+T 4H87_B           67 LQHRASGPDGECDSNGPGFYLYDLGSTHGTFLNKTRIPPRTYCRVHVGHVVRFG  120 (130)
+T ss_dssp             EEEBCCCC-------CCCEEEEECSCSSCEEETTEECCTTCCEECCTTCEEEET
+T ss_pred             EEEecCCCCCCCcCCCCcEEEEeCCCCCcceeCCeeCCCCCeEECcCCCEEEEC
+
+

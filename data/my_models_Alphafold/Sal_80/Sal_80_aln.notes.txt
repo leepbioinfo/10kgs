@@ -1,0 +1,16 @@
+>SUB31521.1/5-145
+------THGSPRVRIGGGSVVVRDIKSGKNPVMDLLGQVIG-SAGVGLLAAGARTLLTGG---------VRK
+CLSTV------GC--------TLVME----TVGAGLGAVVG-----------GAIG----QAV-SAVANPVH
+AATGAKVLSGEEDRDFVLQGQYPLYWQRIYNSRNAH-D----SVLGRGWSLA--------
+>WP_124967072.1/315-377
+------------------------------------------------------------------------
+------------------------------------------------------------VSA-ASTAFPVN
+IASGAKILAKEEDLDFVLPDRMPLYWQRIYNSRNRA-S----GMFGPGWMMPFETRL---
+>WP_196718009.1/332-397
+------------------------------------------------------------------------
+------------------------------------GSMVT-----------AMVV----QAF-NSLHHPVH
+AATGSKVLNGENDTDFIIEGAYPLVWSRIYQSRNQR-E----SRFGRGWAM---------
+>HAM5934237.1/192-289
+-APGNGAFVSPDVRIGGPLLVVRDIRSGRSQITLVSTVALM--------------FLR-----------PGK
+MLSEI------AC--------FAAG--------IG-MSILTQ------------------KAA-TALPHPVS
+AATGAKYLAGDDDFDFSLPGHF--------------------------------------

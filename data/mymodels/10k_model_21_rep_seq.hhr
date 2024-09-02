@@ -1,0 +1,595 @@
+Query         10K_MODEL_21 
+Match_columns 116
+No_of_seqs    27 out of 30
+Neff          3.34556
+Searched_HMMs 107766
+Date          Sat Aug 14 15:17:09 2021
+Command       hhsearch -cpu 8 -i ../results/full.a3m -d /cluster/toolkit/production/databases/hh-suite/mmcif70/pdb70 -d /cluster/toolkit/production/databases/hh-suite/scope70/scope70 -d /cluster/toolkit/production/databases/hh-suite/pfama/pfama -d /cluster/toolkit/production/databases/hh-suite/TIGRFAM/TIGRFAM -o ../results/8186747.hhr -oa3m ../results/8186747.a3m -p 20 -Z 250 -loc -z 1 -b 1 -B 250 -ssm 2 -sc 1 -seq 1 -dbstrlen 10000 -norealign -maxres 32000 -contxt /cluster/toolkit/production/bioprogs/tools/hh-suite-build-new/data/context_data.crf 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4N8N_C Cell division protein F  59.6      44 0.00041   23.7   3.9   31    7-37     40-70  (115)
+  2 6WRU_H uL25; antibiotic, tediz  58.4      36 0.00033   25.1   3.4   29   72-114    75-104 (107)
+  3 PF15535.8 ; Ntox37 ; Bacterial  56.5      16 0.00015   26.4   1.4   35   76-113    34-70  (73)
+  4 PF06169.14 ; DUF982 ; Protein   51.7      60 0.00056   21.5   3.3   28   10-37      4-31  (72)
+  5 d1feua_ b.53.1.1 (A:) Ribosoma  47.7      73 0.00067   26.2   3.8   32   69-114    69-100 (185)
+  6 PF18075.3 ; FtsX_ECD ; FtsX ex  43.3 1.1E+02   0.001   20.7   3.7   31    7-37     20-50  (95)
+  7 6DZI_W 50S ribosomal protein L  40.6 1.1E+02 0.00099   25.3   3.8   32   69-114    75-107 (192)
+  8 d2zjrs1 b.53.1.1 (S:1-175) Rib  39.6      96 0.00089   25.1   3.4   32   69-114    64-96  (175)
+  9 5XYM_V 50S ribosomal protein L  38.3 1.1E+02   0.001   25.8   3.6   32   69-114    78-110 (215)
+ 10 7JIL_V 50S ribosomal protein L  37.9 1.2E+02  0.0011   25.4   3.7   32   69-114    72-104 (203)
+ 11 6SPB_V 50S ribosomal protein L  37.6 1.2E+02  0.0011   24.7   3.6   32   69-114    72-104 (188)
+ 12 PF12021.10 ; DUF3509 ; Protein  36.2      62 0.00058   24.0   1.7   13   27-39      2-14  (88)
+ 13 d1e44b_ b.101.1.1 (B:) Ribonuc  35.5   1E+02 0.00095   23.6   2.8   57   34-96     20-85  (96)
+ 14 2ZJR_S 50S ribosomal protein L  34.9 1.2E+02  0.0011   26.2   3.5   32   69-114    64-96  (237)
+ 15 2KPQ_A Uncharacterized protein  32.9 1.4E+02  0.0013   21.7   3.1   24   14-37     22-45  (100)
+ 16 6HE6_B Cell division protein F  32.6 1.5E+02  0.0014   21.7   3.2   37    1-37     37-73  (117)
+ 17 PF07129.13 ; DUF1381 ; Protein  32.4      58 0.00053   22.2   1.0   25    6-30     18-42  (44)
+ 18 5NGM_AT 50S ribosomal protein   29.9 1.9E+02  0.0017   24.5   3.7   32   69-114    72-104 (217)
+ 19 3JBN_Ad 60S ribosomal protein   29.7 1.8E+02  0.0016   21.1   3.1   24   18-41     50-73  (76)
+ 20 PF11184.10 ; DUF2969 ; Protein  28.7 1.9E+02  0.0018   21.1   3.1   22   14-35     49-71  (74)
+ 21 5DM6_S 50S ribosomal protein L  28.1 2.1E+02  0.0019   23.2   3.5   32   69-114    64-96  (175)
+ 22 PF08946.12 ; Osmo_CC ; Osmosen  27.9   1E+02 0.00096   21.1   1.6   14   22-35      1-14  (46)
+ 23 TIGR00731 bL25_bact_ctc; ribos  27.9 2.4E+02  0.0022   23.1   3.8   32   69-114    68-100 (176)
+ 24 6TPI_B Cell division protein F  27.8 2.6E+02  0.0024   20.0   3.7   41    7-47     21-61  (110)
+ 25 PF18472.3 ; HP1451_C ; HP1451   27.7   1E+02 0.00096   22.6   1.7   11   27-37     38-48  (64)
+ 26 7O7Y_Bk eL38; Frameshift, viru  25.3 2.3E+02  0.0021   20.2   3.0   24   18-41     44-67  (70)
+ 27 6AZ3_k ribosomal protein eL38;  25.3 2.3E+02  0.0021   20.6   3.0   24   18-41     43-66  (76)
+ 28 PF18847.3 ; LPD29 ; Large poly  25.0 1.6E+02  0.0015   21.6   2.2   15   25-39      8-22  (91)
+ 29 d4qbna_ c.52.1.35 (A:) stNUC {  24.1 3.2E+02   0.003   19.1   3.5   28    7-35     66-93  (93)
+ 30 4LBH_A 5-chloro-2-hydroxyhydro  23.5 1.9E+02  0.0018   19.6   2.3   16   18-33     59-74  (100)
+ 31 d4lbha_ d.58.4.0 (A:) automate  23.2 1.9E+02  0.0018   19.4   2.2   16   18-33     59-74  (94)
+ 32 3J79_d 60S ribosomal protein e  23.0 2.7E+02  0.0025   20.9   3.1   24   18-41     51-74  (87)
+ 33 3FLD_A Protein traI; NOVEL ALP  22.5 2.1E+02   0.002   23.2   2.7   24   10-33     99-122 (153)
+ 34 PF03795.16 ; YCII ; YCII-relat  22.2 2.1E+02   0.002   18.6   2.2   16   18-33     55-70  (88)
+ 35 PF08979.13 ; DUF1894 ; Domain   21.9 2.2E+02   0.002   22.1   2.5   22   22-43     17-38  (88)
+ 36 d3bsua1 d.100.1.0 (A:27-73) au  21.4 2.9E+02  0.0027   16.3   2.5   26    8-33     22-47  (47)
+ 37 PF05303.14 ; DUF727 ; Protein   21.0 3.1E+02  0.0028   19.6   3.0   23   93-115    27-49  (101)
+ 38 d1mwqa_ d.58.4.7 (A:) Hypothet  21.0 2.2E+02   0.002   19.6   2.2   16   18-33     64-79  (100)
+ 39 6T4Q_Lk 60S ribosomal protein   20.3 3.2E+02  0.0029   20.0   2.9   24   18-41     52-75  (77)
+ 40 PF08955.12 ; BofC_C ; BofC C-t  20.3 2.2E+02   0.002   18.8   2.0   25    4-33     46-70  (73)
+
+No 1
+>4N8N_C Cell division protein FtsX; Cell wall, MEMBRANE PROTEIN; 1.874A {Mycobacterium tuberculosis}
+Probab=59.60  E-value=44  Score=23.70  Aligned_cols=31  Identities=19%  Similarity=0.257  Sum_probs=0.0  Template_Neff=9.300
+
+Q ss_pred             hhHhhcCCCCcEEEeccHHHHHHHHHHHCCC
+Q 10K_MODEL_21      7 IDGLRTGPNKTVVRVKTKKDAQELLDAAFPG   37 (116)
+Q Consensus         7 ik~L~~G~~~t~VtV~S~kEA~~lL~~AFP~   37 (116)
+                      ...|+.-+.-..|+..|.+||-+.|++.|++
+T Consensus        40 ~~~l~~~~~V~~v~~~s~~eal~~~~~~~~~   70 (115)
+T 4N8N_C           40 REKIETRSDVKAVRFLNRQQAYDDAIRKFPQ   70 (115)
+T ss_dssp             HHHHHTSTTEEEEEEECHHHHHHHHHHHCGG
+T ss_pred             HHHHHcCCCeeeEEEECHHHHHHHHHHHCcc
+
+
+No 2
+>6WRU_H uL25; antibiotic, tedizolid, oxazolidinone, RIBOSOME; HET: U7Y; 3.1A {Staphylococcus aureus}
+Probab=58.37  E-value=36  Score=25.11  Aligned_cols=29  Identities=21%  Similarity=0.359  Sum_probs=0.0  Template_Neff=7.600
+
+Q ss_pred             eeccccCCCCeEeecCCCCCCCCCCCCeeEEEcCC-CcEEEEEE
+Q 10K_MODEL_21     72 KDYPIDSKTGRVYGHDDPKGNGHGSLPHINIKRAD-GTLVRIDI  114 (116)
+Q Consensus        72 KDY~idp~TG~vyGH~~p~g~~H~~~PHINI~r~d-G~kv~I~I  114 (116)
+                      +|.|+||-|+++.              ||....-+ +.++++.|
+T Consensus        75 kevQ~~pv~~~i~--------------HvDF~~v~~~~~v~v~v  104 (107)
+T 6WRU_H           75 ADYQFDPLKNQIT--------------HIDFLAINMSEDVLLKY  104 (107)
+T ss_dssp             EEEEEETTTTEEE--------------EEEEEEC----------
+T ss_pred             EEEEEcCCCCcEE--------------EEEEEEeCCCCcEEEEe
+
+
+No 3
+>PF15535.8 ; Ntox37 ; Bacterial toxin 37
+Probab=56.54  E-value=16  Score=26.40  Aligned_cols=35  Identities=31%  Similarity=0.529  Sum_probs=0.0  Template_Neff=5.400
+
+Q ss_pred             ccCCCCeEeecCCCC--CCCCCCCCeeEEEcCCCcEEEEE
+Q 10K_MODEL_21     76 IDSKTGRVYGHDDPK--GNGHGSLPHINIKRADGTLVRID  113 (116)
+Q Consensus        76 idp~TG~vyGH~~p~--g~~H~~~PHINI~r~dG~kv~I~  113 (116)
+                      +||+||+-+ |.++.  ++.| .-||+.+.+++| ...|+
+T Consensus        34 ~nPktG~~~-~~d~~~~g~~~-~gPHwDv~~~~g-~~~v~   70 (73)
+T D6YV35_WADCW/2   34 INPKNGRQF-HIDPKNSGRYR-EPNHVDVSRPEK-YNGSL   70 (73)
+T ss_pred             eCCCCCCcc-cCCCccCCCCC-CCCccccCCCCc-cccCC
+
+
+No 4
+>PF06169.14 ; DUF982 ; Protein of unknown function (DUF982)
+Probab=51.71  E-value=60  Score=21.52  Aligned_cols=28  Identities=29%  Similarity=0.309  Sum_probs=0.0  Template_Neff=8.700
+
+Q ss_pred             hhcCCCCcEEEeccHHHHHHHHHHHCCC
+Q 10K_MODEL_21     10 LRTGPNKTVVRVKTKKDAQELLDAAFPG   37 (116)
+Q Consensus        10 L~~G~~~t~VtV~S~kEA~~lL~~AFP~   37 (116)
+                      +..+..+...+|.|..||-+.|...+|.
+T Consensus         4 v~~~~~~~~~~v~~~~~A~~~L~~~Wp~   31 (72)
+T B9J8Y8_AGRRK/9    4 VICTRTGTTYTVSTTKEALDMLLNAWPV   31 (72)
+T ss_pred             EEeCCCCCEEEECCHHHHHHHHHHHCCc
+
+
+No 5
+>d1feua_ b.53.1.1 (A:) Ribosomal protein TL5 (general stress protein CTC) {Thermus thermophilus [TaxId: 274]}
+Probab=47.66  E-value=73  Score=26.22  Aligned_cols=32  Identities=13%  Similarity=0.203  Sum_probs=0.0  Template_Neff=7.000
+
+Q ss_pred             ceeeeccccCCCCeEeecCCCCCCCCCCCCeeEEEcCCCcEEEEEE
+Q 10K_MODEL_21     69 RYRKDYPIDSKTGRVYGHDDPKGNGHGSLPHINIKRADGTLVRIDI  114 (116)
+Q Consensus        69 ~YHKDY~idp~TG~vyGH~~p~g~~H~~~PHINI~r~dG~kv~I~I  114 (116)
+                      +.-||+|.||-|+.+.              ||...+-++.++++.|
+T Consensus        69 ~~ikeiQ~~pv~~~i~--------------Hvdf~~v~~~~v~v~V  100 (185)
+T d1feua_          69 TLVRQVNLDKRRRRPE--------------HVDFFVLSDEPVEMYV  100 (185)
+T ss_dssp             EEEEEEEECSSSSCEE--------------EEEEEECCSSCEEEEE
+T ss_pred             EEEEEEEEcCCCCCEE--------------EEEEEEeCCceEEEEe
+
+
+No 6
+>PF18075.3 ; FtsX_ECD ; FtsX extracellular domain
+Probab=43.32  E-value=1.1e+02  Score=20.71  Aligned_cols=31  Identities=16%  Similarity=0.157  Sum_probs=0.0  Template_Neff=9.600
+
+Q ss_pred             hhHhhcCCCCcEEEeccHHHHHHHHHHHCCC
+Q 10K_MODEL_21      7 IDGLRTGPNKTVVRVKTKKDAQELLDAAFPG   37 (116)
+Q Consensus         7 ik~L~~G~~~t~VtV~S~kEA~~lL~~AFP~   37 (116)
+                      ...|+.-++=..|+..|.+||-+.+.+.|++
+T Consensus        20 ~~~l~~~~~v~~v~~~s~~ea~~~~~~~~~~   50 (95)
+T B1CBS3_9FIRM/3   20 KTNIEKNSLCKSVTYESKNDALTNFKQDFGD   50 (95)
+T ss_pred             HHHHHcCCCceEEEEecHHHHHHHHHHHHcc
+
+
+No 7
+>6DZI_W 50S ribosomal protein L25; Hibernation factor complex, RIBOSOME; 3.46A {Mycobacterium smegmatis str. MC2 155}
+Probab=40.63  E-value=1.1e+02  Score=25.28  Aligned_cols=32  Identities=13%  Similarity=0.286  Sum_probs=0.0  Template_Neff=7.300
+
+Q ss_pred             ceeeeccccCCCCeEeecCCCCCCCCCCCCeeEEEcCC-CcEEEEEE
+Q 10K_MODEL_21     69 RYRKDYPIDSKTGRVYGHDDPKGNGHGSLPHINIKRAD-GTLVRIDI  114 (116)
+Q Consensus        69 ~YHKDY~idp~TG~vyGH~~p~g~~H~~~PHINI~r~d-G~kv~I~I  114 (116)
+                      +.-||+|+||-|+++.              ||...+-+ +.++++.|
+T Consensus        75 ~iikevQ~~pv~~~i~--------------HvDF~~v~~~~~v~v~V  107 (192)
+T 6DZI_W           75 ALTKALDVHPIRRNIQ--------------HADLLVVQRGEKVTVEV  107 (192)
+T ss_dssp             EEEEEEECCSSSCCCC--------------EEEEEECCTTCCEEEEE
+T ss_pred             EEEEEEEEcCCCCCEE--------------EEEEEEEcCCCeEEEEE
+
+
+No 8
+>d2zjrs1 b.53.1.1 (S:1-175) Ribosomal protein TL5 (general stress protein CTC) {Deinococcus radiodurans [TaxId: 1299]}
+Probab=39.59  E-value=96  Score=25.15  Aligned_cols=32  Identities=16%  Similarity=0.296  Sum_probs=0.0  Template_Neff=7.300
+
+Q ss_pred             ceeeeccccCCCCeEeecCCCCCCCCCCCCeeEEEcCC-CcEEEEEE
+Q 10K_MODEL_21     69 RYRKDYPIDSKTGRVYGHDDPKGNGHGSLPHINIKRAD-GTLVRIDI  114 (116)
+Q Consensus        69 ~YHKDY~idp~TG~vyGH~~p~g~~H~~~PHINI~r~d-G~kv~I~I  114 (116)
+                      +.-+++|.||-|+++.              ||+..+-+ +.++.+.|
+T Consensus        64 v~ikevQ~~p~~~~i~--------------HvDf~~v~~~~~v~v~V   96 (175)
+T d2zjrs1          64 ALVKAVQMDKRKRAPI--------------HVDFYMVTYGEPVEVSV   96 (175)
+T ss_dssp             CCEEEEEECSSSCCEE--------------EEEEECCCSSCCCEEEE
+T ss_pred             EEEEEEEECCCCCCeE--------------EEEEEEeCCCCCEEEEc
+
+
+No 9
+>5XYM_V 50S ribosomal protein L25; Mycobacterium smegmatis ribosome, rRNA, rprotein, RIBOSOME; HET: MG; 3.08A {Mycobacterium smegmatis (strain ATCC 700084 / mc(2)155)}
+Probab=38.26  E-value=1.1e+02  Score=25.79  Aligned_cols=32  Identities=13%  Similarity=0.286  Sum_probs=0.0  Template_Neff=7.000
+
+Q ss_pred             ceeeeccccCCCCeEeecCCCCCCCCCCCCeeEEEcCC-CcEEEEEE
+Q 10K_MODEL_21     69 RYRKDYPIDSKTGRVYGHDDPKGNGHGSLPHINIKRAD-GTLVRIDI  114 (116)
+Q Consensus        69 ~YHKDY~idp~TG~vyGH~~p~g~~H~~~PHINI~r~d-G~kv~I~I  114 (116)
+                      +.-||+|+||-|+++.              ||...+-+ |.++++.|
+T Consensus        78 ~likeiQ~~pv~~~i~--------------HvdF~~v~~~~~v~~~V  110 (215)
+T 5XYM_V           78 ALTKALDVHPIRRNIQ--------------HADLLVVQRGEKVTVEV  110 (215)
+T ss_dssp             EEEEEEEECTTTCCEE--------------EEEEEECCC---CCEEE
+T ss_pred             EEEEEEEEcCCCCCEE--------------EEEEEEEcCCCcEEEEE
+
+
+No 10
+>7JIL_V 50S ribosomal protein L25; Translation Initiation, Protein synthesis, bS21, RIBOSOME; HET: MG; 2.8A {Flavobacterium johnsoniae}
+Probab=37.86  E-value=1.2e+02  Score=25.39  Aligned_cols=32  Identities=13%  Similarity=0.280  Sum_probs=0.0  Template_Neff=7.100
+
+Q ss_pred             ceeeeccccCCCCeEeecCCCCCCCCCCCCeeEEEcCC-CcEEEEEE
+Q 10K_MODEL_21     69 RYRKDYPIDSKTGRVYGHDDPKGNGHGSLPHINIKRAD-GTLVRIDI  114 (116)
+Q Consensus        69 ~YHKDY~idp~TG~vyGH~~p~g~~H~~~PHINI~r~d-G~kv~I~I  114 (116)
+                      +.-||+|+||-|+++.              ||...+-+ +.++++.|
+T Consensus        72 vlikevQ~~pv~~~i~--------------HvDF~~v~~~~~i~v~V  104 (203)
+T 7JIL_V           72 AILQDIQVHPVTDKIL--------------HIDFFQLFDDKEITMEV  104 (203)
+T ss_dssp             EEEEEEEECTTTCCEE--------------EEEEEECSSCCCEEEEE
+T ss_pred             EEEEEEEEcCCCCcEE--------------EEEEEEeCCCCceEEEe
+
+
+No 11
+>6SPB_V 50S ribosomal protein L25; Ribosome, Pseudomonas aeruginosa, mutation; 2.82A {Pseudomonas aeruginosa}
+Probab=37.59  E-value=1.2e+02  Score=24.68  Aligned_cols=32  Identities=16%  Similarity=0.140  Sum_probs=0.0  Template_Neff=7.700
+
+Q ss_pred             ceeeeccccCCCCeEeecCCCCCCCCCCCCeeEEEcCC-CcEEEEEE
+Q 10K_MODEL_21     69 RYRKDYPIDSKTGRVYGHDDPKGNGHGSLPHINIKRAD-GTLVRIDI  114 (116)
+Q Consensus        69 ~YHKDY~idp~TG~vyGH~~p~g~~H~~~PHINI~r~d-G~kv~I~I  114 (116)
+                      ++-+|+|+||-|+.+.              ||...+-+ +.++++.|
+T Consensus        72 viik~vq~~pv~~~i~--------------Hvdf~~v~~~~~v~~~V  104 (188)
+T 6SPB_V           72 VLIKALQRHPAKGFVM--------------HADFLRVVADHKLTAHV  104 (188)
+T ss_dssp             EECCCCEECSSSCCEE--------------CCCEEECCSSSCCCCEE
+T ss_pred             EEEEEEEecCCCCcEE--------------EEEEEEEcCCCcEEEEe
+
+
+No 12
+>PF12021.10 ; DUF3509 ; Protein of unknown function (DUF3509)
+Probab=36.20  E-value=62  Score=23.96  Aligned_cols=13  Identities=31%  Similarity=0.273  Sum_probs=0.0  Template_Neff=6.200
+
+Q ss_pred             HHHHHHHHCCCCe
+Q 10K_MODEL_21     27 AQELLDAAFPGAQ   39 (116)
+Q Consensus        27 A~~lL~~AFP~aq   39 (116)
+                      +.++|.+|||+|+
+T Consensus         2 ~~~~L~~Af~~y~   14 (88)
+T Q88MU5_PSEPK/3    2 ICSLLNEALTPYQ   14 (88)
+T ss_pred             hHHHHHHhCCCcE
+
+
+No 13
+>d1e44b_ b.101.1.1 (B:) Ribonuclease domain of colicin E3 {Escherichia coli [TaxId: 562]}
+Probab=35.47  E-value=1e+02  Score=23.55  Aligned_cols=57  Identities=14%  Similarity=0.147  Sum_probs=0.0  Template_Neff=5.600
+
+Q ss_pred             HCCCCeeccCCCCCCch--HHHHHHhHHHhhhcCCCcceeeecc------ccCCCCeEeecCC-CCCCCCCC
+Q 10K_MODEL_21     34 AFPGAQKVKGIGSQDAI--GVRKKNKMDQFKRNDGKVRYRKDYP------IDSKTGRVYGHDD-PKGNGHGS   96 (116)
+Q Consensus        34 AFP~aqKv~G~G~~~~~--~~rk~~K~~~fk~~~g~~~YHKDY~------idp~TG~vyGH~~-p~g~~H~~   96 (116)
+                      +||++..+++-.+....  .      ..+++..+|...|.-|++      +|.+.|+..|.-+ ..|.....
+T Consensus        20 ~fp~~~~~~~kt~~~gGg~~------r~rW~d~~G~~iy~wD~~Hg~~Evy~~~~G~HlG~~d~~tg~~~k~   85 (96)
+T d1e44b_          20 GLGDLKPGIPKTPKQNGGGK------RKRWTGDKGRKIYEWDSQHGELEGYRASDGQHLGSFDPKTGNQLKG   85 (96)
+T ss_dssp             SSCSEEEECCCCBCSSSSCB------CCEEEETTTTEEEEEETTTTEEEEEETTTCBEEEEECTTTCCBCSC
+T ss_pred             CcCCCcCCCCCCCCCCCCCC------cceeeCCCCCEEEEEeCCCCeEEEEeCCCCceEEEECCCCCCccCC
+
+
+No 14
+>2ZJR_S 50S ribosomal protein L25; ribosome, large ribosomal subunit, 50S, Ribonucleoprotein, Ribosomal protein, RNA-binding, rRNA-binding, tRNA-binding, Methylation, Metal-binding, Zinc-finger; HET: MG; 2.91A {Deinococcus radiodurans} SCOP: b.53.1.1
+Probab=34.93  E-value=1.2e+02  Score=26.22  Aligned_cols=32  Identities=16%  Similarity=0.296  Sum_probs=0.0  Template_Neff=6.500
+
+Q ss_pred             ceeeeccccCCCCeEeecCCCCCCCCCCCCeeEEEcCC-CcEEEEEE
+Q 10K_MODEL_21     69 RYRKDYPIDSKTGRVYGHDDPKGNGHGSLPHINIKRAD-GTLVRIDI  114 (116)
+Q Consensus        69 ~YHKDY~idp~TG~vyGH~~p~g~~H~~~PHINI~r~d-G~kv~I~I  114 (116)
+                      ++-||+|+||-++.+.              ||...+-+ +.++++.|
+T Consensus        64 vlikevQ~dpv~~~il--------------HvDF~~v~~~~~v~v~V   96 (237)
+T 2ZJR_S           64 ALVKAVQMDKRKRAPI--------------HVDFYMVTYGEPVEVSV   96 (237)
+T ss_dssp             CCEEEEEECSSSCCEE--------------EEEEECCCSSCCCEEEE
+T ss_pred             EEEEEEEEcCCCCCeE--------------EEEEEEecCCCCeEEEE
+
+
+No 15
+>2KPQ_A Uncharacterized protein; Protein, Structural Genomics, PSI-2, Protein Structure Initiative, Northeast Structural Genomics Consortium, NESG, UNKNOWN FUNCTION; NMR {Agrobacterium tumefaciens str. C58}
+Probab=32.92  E-value=1.4e+02  Score=21.66  Aligned_cols=24  Identities=17%  Similarity=0.223  Sum_probs=0.0  Template_Neff=7.900
+
+Q ss_pred             CCCcEEEeccHHHHHHHHHHHCCC
+Q 10K_MODEL_21     14 PNKTVVRVKTKKDAQELLDAAFPG   37 (116)
+Q Consensus        14 ~~~t~VtV~S~kEA~~lL~~AFP~   37 (116)
+                      +.+..++|.|..||-+.|...+|.
+T Consensus        22 ~~g~~~~V~s~~eA~~~L~~~WP~   45 (100)
+T 2KPQ_A           22 QNGAPRIFNGVYEAFDFLQHEWPA   45 (100)
+T ss_dssp             TTSCEEEEEEHHHHHHHHHHCCSC
+T ss_pred             CCCCcEEEcCHHHHHHHHHhhCCc
+
+
+No 16
+>6HE6_B Cell division protein FtsX; cell division, MEMBRANE PROTEIN, cell cycle; HET: CAT; 2.0A {Streptococcus pneumoniae}
+Probab=32.57  E-value=1.5e+02  Score=21.67  Aligned_cols=37  Identities=16%  Similarity=0.181  Sum_probs=0.0  Template_Neff=8.600
+
+Q ss_pred             CCchhhhhHhhcCCCCcEEEeccHHHHHHHHHHHCCC
+Q 10K_MODEL_21      1 KPCARDIDGLRTGPNKTVVRVKTKKDAQELLDAAFPG   37 (116)
+Q Consensus         1 ~~~~k~ik~L~~G~~~t~VtV~S~kEA~~lL~~AFP~   37 (116)
+                      +.+.+-...|+.-+.-.+|+..|.+||-+.+.+.|++
+T Consensus        37 ~~~~~l~~~l~~~~~V~~v~~~s~e~a~~~~~~~~~~   73 (117)
+T 6HE6_B           37 NDYHKVYDSLKNMSTVKSVTFSSKEEQYEKLTEIMGD   73 (117)
+T ss_dssp             TTTTHHHHHHHHSTTEEEEEEECHHHHHHHHHHSSCT
+T ss_pred             HHHHHHHHHHhCCCCceEEEEECHHHHHHHHHHHhch
+
+
+No 17
+>PF07129.13 ; DUF1381 ; Protein of unknown function (DUF1381)
+Probab=32.44  E-value=58  Score=22.20  Aligned_cols=25  Identities=28%  Similarity=0.372  Sum_probs=0.0  Template_Neff=3.900
+
+Q ss_pred             hhhHhhcCCCCcEEEeccHHHHHHH
+Q 10K_MODEL_21      6 DIDGLRTGPNKTVVRVKTKKDAQEL   30 (116)
+Q Consensus         6 ~ik~L~~G~~~t~VtV~S~kEA~~l   30 (116)
+                      .|...|+...-+.|.+.|++||.+.
+T Consensus        18 ~v~k~r~Ne~~~vVeAeskeea~~k   42 (44)
+T Q2FWS7_STAA8/2   18 HFTAARDNQTFTVVEAESKEEAKEK   42 (44)
+T ss_pred             eeEeCCCCCeEEEEEcCCHHHHHhh
+
+
+No 18
+>5NGM_AT 50S ribosomal protein L25; Ribosome Cryo-EM Structural Biology Hibernation, Ribosome; HET: MG; 2.9A {Staphylococcus aureus}
+Probab=29.88  E-value=1.9e+02  Score=24.47  Aligned_cols=32  Identities=16%  Similarity=0.324  Sum_probs=0.0  Template_Neff=7.200
+
+Q ss_pred             ceeeeccccCCCCeEeecCCCCCCCCCCCCeeEEEcCC-CcEEEEEE
+Q 10K_MODEL_21     69 RYRKDYPIDSKTGRVYGHDDPKGNGHGSLPHINIKRAD-GTLVRIDI  114 (116)
+Q Consensus        69 ~YHKDY~idp~TG~vyGH~~p~g~~H~~~PHINI~r~d-G~kv~I~I  114 (116)
+                      +.-+|+|+||-++++.              ||.+.+.+ +.++++.|
+T Consensus        72 v~ik~vQ~~pv~~~i~--------------HvdF~~v~~~~~v~~~V  104 (217)
+T 5NGM_AT          72 VMVADYQFDPLKNQIT--------------HIDFLAINMSEERTVEV  104 (217)
+T ss_dssp             EEEEEEEEETTTTEEE--------------EEEEEECC---------
+T ss_pred             EEEEEEEECCCCCcEE--------------EEEEEEeCCCCceEEEe
+
+
+No 19
+>3JBN_Ad 60S ribosomal protein eL38; RIBOSOME; 4.7A {Plasmodium falciparum 3D7}
+Probab=29.69  E-value=1.8e+02  Score=21.12  Aligned_cols=24  Identities=13%  Similarity=0.396  Sum_probs=0.0  Template_Neff=6.200
+
+Q ss_pred             EEEeccHHHHHHHHHHHCCCCeec
+Q 10K_MODEL_21     18 VVRVKTKKDAQELLDAAFPGAQKV   41 (116)
+Q Consensus        18 ~VtV~S~kEA~~lL~~AFP~aqKv   41 (116)
+                      +..|.+.++|+.|+....|+.+++
+T Consensus        50 Tl~v~d~~ka~kl~~slpp~l~~~   73 (76)
+T 3JBN_Ad          50 TMVFADRKKAERIENSLLPSLKRI   73 (76)
+T ss_dssp             EEEECSHHHHHHHHHHSCTTSEEE
+T ss_pred             EEEeCCHHHHHHHHHhcCCCceEE
+
+
+No 20
+>PF11184.10 ; DUF2969 ; Protein of unknown function (DUF2969)
+Probab=28.70  E-value=1.9e+02  Score=21.08  Aligned_cols=22  Identities=23%  Similarity=0.139  Sum_probs=0.0  Template_Neff=5.800
+
+Q ss_pred             CCCcEEE-eccHHHHHHHHHHHC
+Q 10K_MODEL_21     14 PNKTVVR-VKTKKDAQELLDAAF   35 (116)
+Q Consensus        14 ~~~t~Vt-V~S~kEA~~lL~~AF   35 (116)
+                      +++.... |+|++||-+.|-..|
+T Consensus        49 ~~~~~~~~~ks~deai~~li~~y   71 (74)
+T Q38WL2_LACSS/1   49 EGTGQSIITKTHDDAVNELLREY   71 (74)
+T ss_pred             cCCceEEEEccHHHHHHHHHHhc
+
+
+No 21
+>5DM6_S 50S ribosomal protein L25; protein synthesis, peptidyltransferase, ribozyme, ribonucleoprotein, ribosome; HET: MG; 2.9A {Deinococcus radiodurans}
+Probab=28.12  E-value=2.1e+02  Score=23.21  Aligned_cols=32  Identities=16%  Similarity=0.296  Sum_probs=0.0  Template_Neff=7.500
+
+Q ss_pred             ceeeeccccCCCCeEeecCCCCCCCCCCCCeeEEEcCC-CcEEEEEE
+Q 10K_MODEL_21     69 RYRKDYPIDSKTGRVYGHDDPKGNGHGSLPHINIKRAD-GTLVRIDI  114 (116)
+Q Consensus        69 ~YHKDY~idp~TG~vyGH~~p~g~~H~~~PHINI~r~d-G~kv~I~I  114 (116)
+                      ++-|++|+||-|+++.              ||...+-+ +.++.+.|
+T Consensus        64 ~~ikevq~~p~~~~i~--------------Hidf~~v~~~~~v~~~V   96 (175)
+T 5DM6_S           64 ALVKAVQMDKRKRAPI--------------HVDFYMVTYGEPVEVSV   96 (175)
+T ss_dssp             EEEEEEEEETTTTEEE--------------EEEEEECCSSCCCCEEE
+T ss_pred             EEEEEEEEcCCCCCEE--------------EEEEEEecCCCCeEEEe
+
+
+No 22
+>PF08946.12 ; Osmo_CC ; Osmosensory transporter coiled coil
+Probab=27.92  E-value=1e+02  Score=21.09  Aligned_cols=14  Identities=21%  Similarity=0.427  Sum_probs=0.0  Template_Neff=4.300
+
+Q ss_pred             ccHHHHHHHHHHHC
+Q 10K_MODEL_21     22 KTKKDAQELLDAAF   35 (116)
+Q Consensus        22 ~S~kEA~~lL~~AF   35 (116)
+                      .+.+||.+||.+++
+T Consensus         1 S~~~EAkelL~e~~   14 (46)
+T PROP_ECOLI/454    1 SDIQEAKEILVEHY   14 (46)
+T ss_pred             CcHHHHHHHHHHHH
+
+
+No 23
+>TIGR00731 bL25_bact_ctc; ribosomal protein bL25, Ctc-form. This model models a family of proteins with full-length homology to the general stress protein Ctc of Bacillus subtilis, a mesophile, and ribosomal protein TL5 of Thermus thermophilus, a thermophile.
+Probab=27.87  E-value=2.4e+02  Score=23.07  Aligned_cols=32  Identities=22%  Similarity=0.453  Sum_probs=0.0  Template_Neff=7.300
+
+Q ss_pred             ceeeeccccCCCCeEeecCCCCCCCCCCCCeeEEEcCC-CcEEEEEE
+Q 10K_MODEL_21     69 RYRKDYPIDSKTGRVYGHDDPKGNGHGSLPHINIKRAD-GTLVRIDI  114 (116)
+Q Consensus        69 ~YHKDY~idp~TG~vyGH~~p~g~~H~~~PHINI~r~d-G~kv~I~I  114 (116)
+                      +.-|++|.||-|+.+.              ||+..+-+ +.++.+.|
+T Consensus        68 ~~ik~vq~~p~~~~i~--------------Hvdf~~v~~~~~v~v~V  100 (176)
+T TIGR00731        68 VLVKDYQYNPVTNEVI--------------HVDFLEVVEGVKLKVEV  100 (176)
+T ss_pred             EEEEEEEEcCCCCCEE--------------EEEEEEEcCCCeEEEEE
+
+
+No 24
+>6TPI_B Cell division protein FtsX; Complex, PROTEIN BINDING; 2.1A {Escherichia coli (strain K12)}
+Probab=27.84  E-value=2.6e+02  Score=20.04  Aligned_cols=41  Identities=10%  Similarity=0.007  Sum_probs=0.0  Template_Neff=8.900
+
+Q ss_pred             hhHhhcCCCCcEEEeccHHHHHHHHHHHCCCCeeccCCCCC
+Q 10K_MODEL_21      7 IDGLRTGPNKTVVRVKTKKDAQELLDAAFPGAQKVKGIGSQ   47 (116)
+Q Consensus         7 ik~L~~G~~~t~VtV~S~kEA~~lL~~AFP~aqKv~G~G~~   47 (116)
+                      ...|++=+.=..|++-|.+||-+.+.+.|++..-..+++..
+T Consensus        21 ~~~L~~~~~V~~v~~~s~eea~~~~~~~~~~~~~~~~~~~n   61 (110)
+T 6TPI_B           21 VAQLQAEQGVEKVNYLSREDALGEFRNWSGFGGALDMLEEN   61 (110)
+T ss_dssp             HHHHHTSTTEEEEEEECHHHHHHHHHTCCSSTTTGGGCSSC
+T ss_pred             HHHHHhCCCeeEEEEECHHHHHHHHHHhhcccchHhhhcCC
+
+
+No 25
+>PF18472.3 ; HP1451_C ; HP1451 C-terminal domain
+Probab=27.72  E-value=1e+02  Score=22.57  Aligned_cols=11  Identities=27%  Similarity=0.607  Sum_probs=0.0  Template_Neff=3.900
+
+Q ss_pred             HHHHHHHHCCC
+Q 10K_MODEL_21     27 AQELLDAAFPG   37 (116)
+Q Consensus        27 A~~lL~~AFP~   37 (116)
+                      |-+-|+++|||
+T Consensus        38 AL~~LRe~fP~   48 (64)
+T C8PLD2_9PROT/1   38 VADKLKQAYPD   48 (64)
+T ss_pred             HHHHHHHHCCC
+
+
+No 26
+>7O7Y_Bk eL38; Frameshift, virus, pseudoknot, RIBOSOME; HET: A2M, UNX, HIC, 1MA, AME, PSU, OMC, 4AC, 5MC, OMG, 5MU, B8N, SAC, 2MG, NMM, 7MG, M2G, GTP, MG, UY1, MA6, 6MZ, YYG, M3L, MLZ, H2U, V5N, UR3, OMU, SPD, SPM; 2.2A {Oryctolagus cuniculus}
+Probab=25.31  E-value=2.3e+02  Score=20.16  Aligned_cols=24  Identities=21%  Similarity=0.300  Sum_probs=0.0  Template_Neff=6.400
+
+Q ss_pred             EEEeccHHHHHHHHHHHCCCCeec
+Q 10K_MODEL_21     18 VVRVKTKKDAQELLDAAFPGAQKV   41 (116)
+Q Consensus        18 ~VtV~S~kEA~~lL~~AFP~aqKv   41 (116)
+                      +..|.+.++|+.|+....|+.++.
+T Consensus        44 Tl~v~d~~ka~~l~~sl~~~l~~~   67 (70)
+T 7O7Y_Bk          44 TLVITDKEKAEKLKQSLPPGLAVK   67 (70)
+T ss_pred             EEEeCCHHHHHHHHhhCCCCceeE
+
+
+No 27
+>6AZ3_k ribosomal protein eL38; Leishmania, ribosome, aminoglycoside, paromomycin, RIBOSOME-ANTIBIOTIC complex; HET: OMC, OMU, OMG, A2M, C, PAR, MG; 2.5A {Leishmania donovani}
+Probab=25.30  E-value=2.3e+02  Score=20.59  Aligned_cols=24  Identities=25%  Similarity=0.434  Sum_probs=0.0  Template_Neff=6.200
+
+Q ss_pred             EEEeccHHHHHHHHHHHCCCCeec
+Q 10K_MODEL_21     18 VVRVKTKKDAQELLDAAFPGAQKV   41 (116)
+Q Consensus        18 ~VtV~S~kEA~~lL~~AFP~aqKv   41 (116)
+                      +..|.+.++|+.|+....|+.+++
+T Consensus        43 Tl~v~d~~ka~~l~~sl~~~l~~~   66 (76)
+T 6AZ3_k           43 TLVVNDKKKADKIERSIHPSVKKI   66 (76)
+T ss_dssp             EEEECCHHHHHHHHGGGCSSSEEE
+T ss_pred             EEEeCCHHHHHHHHhhcCCCceEE
+
+
+No 28
+>PF18847.3 ; LPD29 ; Large polyvalent protein associated domain 29
+Probab=24.97  E-value=1.6e+02  Score=21.56  Aligned_cols=15  Identities=40%  Similarity=0.660  Sum_probs=0.0  Template_Neff=7.100
+
+Q ss_pred             HHHHHHHHHHCCCCe
+Q 10K_MODEL_21     25 KDAQELLDAAFPGAQ   39 (116)
+Q Consensus        25 kEA~~lL~~AFP~aq   39 (116)
+                      ++..+.|+++||+.+
+T Consensus         8 ~~ir~~LK~~fP~~k   22 (91)
+T A0A231QZR5_9BA    8 KKIRAALRRAFPGQT   22 (91)
+T ss_pred             HHHHHHHHHHCCCCe
+
+
+No 29
+>d4qbna_ c.52.1.35 (A:) stNUC {Salmonella phage SETP3 [TaxId: 424944]}
+Probab=24.06  E-value=3.2e+02  Score=19.12  Aligned_cols=28  Identities=18%  Similarity=0.309  Sum_probs=0.0  Template_Neff=8.700
+
+Q ss_pred             hhHhhcCCCCcEEEeccHHHHHHHHHHHC
+Q 10K_MODEL_21      7 IDGLRTGPNKTVVRVKTKKDAQELLDAAF   35 (116)
+Q Consensus         7 ik~L~~G~~~t~VtV~S~kEA~~lL~~AF   35 (116)
+                      +..|++ -......+.|++||.++|.+.|
+T Consensus        66 ~~~~~~-~G~~~~v~~~~~~~~~~l~~~~   93 (93)
+T d4qbna_          66 HERFRK-RGANVFVVGSFKQVDKLIEHYY   93 (93)
+T ss_dssp             HHHHHH-TTCEEEEECSHHHHHHHHHHHC
+T ss_pred             HHHHHH-CCCeEEEECCHHHHHHHHHhhC
+
+
+No 30
+>4LBH_A 5-chloro-2-hydroxyhydroquinone dehydrochlorinase (TftG); LYASE; 1.75A {Burkholderia cepacia} SCOP: d.58.4.0
+Probab=23.46  E-value=1.9e+02  Score=19.58  Aligned_cols=16  Identities=0%  Similarity=0.320  Sum_probs=0.0  Template_Neff=9.900
+
+Q ss_pred             EEEeccHHHHHHHHHH
+Q 10K_MODEL_21     18 VVRVKTKKDAQELLDA   33 (116)
+Q Consensus        18 ~VtV~S~kEA~~lL~~   33 (116)
+                      .|.+.|.+||.++|.+
+T Consensus        59 iv~a~~~~ea~~~~~~   74 (100)
+T 4LBH_A           59 IMEAESWDEVHSFVEN   74 (100)
+T ss_dssp             EEECSSHHHHHHHHHT
+T ss_pred             EEEeCCHHHHHHHHHc
+
+
+No 31
+>d4lbha_ d.58.4.0 (A:) automated matches {Burkholderia cepacia [TaxId: 292]}
+Probab=23.23  E-value=1.9e+02  Score=19.43  Aligned_cols=16  Identities=0%  Similarity=0.320  Sum_probs=0.0  Template_Neff=9.800
+
+Q ss_pred             EEEeccHHHHHHHHHH
+Q 10K_MODEL_21     18 VVRVKTKKDAQELLDA   33 (116)
+Q Consensus        18 ~VtV~S~kEA~~lL~~   33 (116)
+                      .+.+.|.+||.+++.+
+T Consensus        59 i~~a~s~~ea~~~~~~   74 (94)
+T d4lbha_          59 IMEAESWDEVHSFVEN   74 (94)
+T ss_dssp             EEECSSHHHHHHHHHT
+T ss_pred             EEEeCCHHHHHHHHhc
+
+
+No 32
+>3J79_d 60S ribosomal protein eL38; emetine, RIBOSOME-INHIBITOR complex; HET: MG; 3.2A {Plasmodium falciparum}
+Probab=23.01  E-value=2.7e+02  Score=20.91  Aligned_cols=24  Identities=13%  Similarity=0.396  Sum_probs=0.0  Template_Neff=5.900
+
+Q ss_pred             EEEeccHHHHHHHHHHHCCCCeec
+Q 10K_MODEL_21     18 VVRVKTKKDAQELLDAAFPGAQKV   41 (116)
+Q Consensus        18 ~VtV~S~kEA~~lL~~AFP~aqKv   41 (116)
+                      +..|.+.++|+.|+....|+.+.+
+T Consensus        51 Tl~v~d~~kA~kl~~slp~~l~~~   74 (87)
+T 3J79_d           51 TMVFADRKKAERIENSLLPSLKRI   74 (87)
+T ss_dssp             EEEESCHHHHHHHHHHSCTTSCCE
+T ss_pred             EEEeCCHHHHHHHHHhcCCCceEE
+
+
+No 33
+>3FLD_A Protein traI; NOVEL ALPHA/BETA CORE DOMAIN, ALTERNATIVE INITIATION, ATP- BINDING, CONJUGATION, DNA-BINDING, HELICASE, HYDROLASE, NUCLEOTIDE-BINDING, PLASMID, ATP-binding; HET: SO4; 2.4A {Escherichia coli K-12}
+Probab=22.49  E-value=2.1e+02  Score=23.16  Aligned_cols=24  Identities=13%  Similarity=0.160  Sum_probs=0.0  Template_Neff=6.600
+
+Q ss_pred             hhcCCCCcEEEeccHHHHHHHHHH
+Q 10K_MODEL_21     10 LRTGPNKTVVRVKTKKDAQELLDA   33 (116)
+Q Consensus        10 L~~G~~~t~VtV~S~kEA~~lL~~   33 (116)
+                      |+.+.++.++.+.|..||.+|..+
+T Consensus        99 lq~s~ng~t~~a~~l~ea~~la~~  122 (153)
+T 3FLD_A           99 LQGSRNGESLLADNMQDGVRIARD  122 (153)
+T ss_dssp             EEBCSSSEEEEESSHHHHHHHHHH
+T ss_pred             EeCCCCCCeeEEechHHHHHHHHH
+
+
+No 34
+>PF03795.16 ; YCII ; YCII-related domain
+Probab=22.16  E-value=2.1e+02  Score=18.58  Aligned_cols=16  Identities=6%  Similarity=0.092  Sum_probs=0.0  Template_Neff=10.300
+
+Q ss_pred             EEEeccHHHHHHHHHH
+Q 10K_MODEL_21     18 VVRVKTKKDAQELLDA   33 (116)
+Q Consensus        18 ~VtV~S~kEA~~lL~~   33 (116)
+                      .+.+.|.+||.++|..
+T Consensus        55 i~~a~~~~ea~~~~~~   70 (88)
+T Q9AJZ7_STRCO/1   55 ILDLPDPAAARTFAFD   70 (88)
+T ss_pred             EEEeCCHHHHHHHHhc
+
+
+No 35
+>PF08979.13 ; DUF1894 ; Domain of unknown function (DUF1894)
+Probab=21.87  E-value=2.2e+02  Score=22.08  Aligned_cols=22  Identities=14%  Similarity=0.199  Sum_probs=0.0  Template_Neff=4.300
+
+Q ss_pred             ccHHHHHHHHHHHCCCCeeccC
+Q 10K_MODEL_21     22 KTKKDAQELLDAAFPGAQKVKG   43 (116)
+Q Consensus        22 ~S~kEA~~lL~~AFP~aqKv~G   43 (116)
+                      .||+||++.+++.|.+.--|+.
+T Consensus        17 ~tfkec~~yI~k~~~E~y~v~p   38 (88)
+T L0HFF4_METFS/1   17 ASFKECREYVEKNYSEFWYVDP   38 (88)
+T ss_pred             CCHHHHHHHHHHHCCeeEEeCC
+
+
+No 36
+>d3bsua1 d.100.1.0 (A:27-73) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+Probab=21.37  E-value=2.9e+02  Score=16.26  Aligned_cols=26  Identities=12%  Similarity=0.156  Sum_probs=0.0  Template_Neff=9.400
+
+Q ss_pred             hHhhcCCCCcEEEeccHHHHHHHHHH
+Q 10K_MODEL_21      8 DGLRTGPNKTVVRVKTKKDAQELLDA   33 (116)
+Q Consensus         8 k~L~~G~~~t~VtV~S~kEA~~lL~~   33 (116)
+                      .++..-+...-....|+.||.+.|.+
+T Consensus        22 ~~v~g~~~~~~k~f~s~~eA~~~~~~   47 (47)
+T d3bsua1          22 AQVDRFPAARFKKFATEDEAWAFVRK   47 (47)
+T ss_dssp             HHHTTCTTCEEEEESSHHHHHHHHHC
+T ss_pred             HHhCCCCCCeEEccCCHHHHHHHHhC
+
+
+No 37
+>PF05303.14 ; DUF727 ; Protein of unknown function (DUF727)
+Probab=21.03  E-value=3.1e+02  Score=19.60  Aligned_cols=23  Identities=22%  Similarity=0.153  Sum_probs=0.0  Template_Neff=8.600
+
+Q ss_pred             CCCCCCeeEEEcCCCcEEEEEEe
+Q 10K_MODEL_21     93 GHGSLPHINIKRADGTLVRIDIT  115 (116)
+Q Consensus        93 ~H~~~PHINI~r~dG~kv~I~I~  115 (116)
+                      .+++.-+++|.+.+|..+.|...
+T Consensus        27 ~~~~~~yl~i~tlE~~~~~I~~s   49 (101)
+T B3RSY6_TRIAD/9   27 WLFEICYINVITQEGKNYCIEVT   49 (101)
+T ss_pred             CCCeEEEEEEEeCCCCEEEEEEe
+
+
+No 38
+>d1mwqa_ d.58.4.7 (A:) Hypothetical protein HI0828 {Haemophilus influenzae [TaxId: 727]}
+Probab=21.01  E-value=2.2e+02  Score=19.65  Aligned_cols=16  Identities=6%  Similarity=0.206  Sum_probs=0.0  Template_Neff=9.500
+
+Q ss_pred             EEEeccHHHHHHHHHH
+Q 10K_MODEL_21     18 VVRVKTKKDAQELLDA   33 (116)
+Q Consensus        18 ~VtV~S~kEA~~lL~~   33 (116)
+                      .+.+.|.+||.+++..
+T Consensus        64 i~~a~s~eea~~i~~~   79 (100)
+T d1mwqa_          64 IAQFENLQAAKDWAAQ   79 (100)
+T ss_dssp             EEECSSHHHHHHHHHT
+T ss_pred             EEEcCCHHHHHHHHhc
+
+
+No 39
+>6T4Q_Lk 60S ribosomal protein L38; stalling dicodon codon pair, TRANSLATION; HET: MG; 2.6A {Saccharomyces cerevisiae}
+Probab=20.33  E-value=3.2e+02  Score=20.04  Aligned_cols=24  Identities=13%  Similarity=0.203  Sum_probs=0.0  Template_Neff=6.000
+
+Q ss_pred             EEEeccHHHHHHHHHHHCCCCeec
+Q 10K_MODEL_21     18 VVRVKTKKDAQELLDAAFPGAQKV   41 (116)
+Q Consensus        18 ~VtV~S~kEA~~lL~~AFP~aqKv   41 (116)
+                      +..|.+.++|+.|+....|+.+..
+T Consensus        52 Tl~v~d~~kA~kl~~slpp~l~~~   75 (77)
+T 6T4Q_Lk          52 TLVINDAGKAKKLIQSLPPTLKVN   75 (77)
+T ss_dssp             EEEECCHHHHHHHHHTSCSSSEEE
+T ss_pred             EEEeCChHHHHHHHhhCCCCceEe
+
+
+No 40
+>PF08955.12 ; BofC_C ; BofC C-terminal domain
+Probab=20.25  E-value=2.2e+02  Score=18.83  Aligned_cols=25  Identities=24%  Similarity=0.514  Sum_probs=0.0  Template_Neff=8.900
+
+Q ss_pred             hhhhhHhhcCCCCcEEEeccHHHHHHHHHH
+Q 10K_MODEL_21      4 ARDIDGLRTGPNKTVVRVKTKKDAQELLDA   33 (116)
+Q Consensus         4 ~k~ik~L~~G~~~t~VtV~S~kEA~~lL~~   33 (116)
+                      +.....|++|     +.+.|.+||.++|..
+T Consensus        46 ~~~~~~l~~g-----i~~~s~~e~~~~l~~   70 (73)
+T K0J3M6_AMPXN/1   46 EAEQKQLEKG-----IKIDSKSTYQEVIDV   70 (73)
+T ss_pred             HHHHHHHHcC-----CCCCCHHHHHHHHHh
+
+

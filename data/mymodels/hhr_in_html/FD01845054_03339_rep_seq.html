@@ -1,0 +1,39 @@
+<pre>Query         FD01845054_03339 
+</pre><pre>Match_columns 63
+</pre><pre>No_of_seqs    2 out of 6
+</pre><pre>Neff          1.02287
+</pre><pre>Searched_HMMs 107766
+</pre><pre>Date          Tue Aug 24 13:41:42 2021
+</pre><pre>Command       hhsearch -cpu 8 -i ../results/full.a3m -d /cluster/toolkit/production/databases/hh-suite/mmcif70/pdb70 -d /cluster/toolkit/production/databases/hh-suite/scope70/scope70 -d /cluster/toolkit/production/databases/hh-suite/pfama/pfama -d /cluster/toolkit/production/databases/hh-suite/TIGRFAM/TIGRFAM -o ../results/1872022.hhr -oa3m ../results/1872022.a3m -p 20 -Z 250 -loc -z 1 -b 1 -B 250 -ssm 2 -sc 1 -seq 1 -dbstrlen 10000 -norealign -maxres 32000 -contxt /cluster/toolkit/production/bioprogs/tools/hh-suite-build-new/data/context_data.crf 
+</pre><pre>
+</pre><pre> No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+</pre><pre>  1 PF06233.14 ; Usg ; Usg-like fa  32.6      58 0.00054   21.9   1.0   11    5-15     26-36  (80)
+</pre><pre>  2 PF17038.7 ; CBP_BcsN ; Cellulo  20.9 1.3E+02  0.0012   21.7   1.1   12    2-13    108-119 (186)
+</pre><pre>
+</pre><pre>No 1
+</pre><pre>>PF06233.14 ; Usg ; Usg-like family
+</pre><pre>Probab=32.64  E-value=58  Score=21.91  Aligned_cols=11  Identities=64%  Similarity=1.189  Sum_probs=0.0  Template_Neff=4.300
+</pre><pre>
+</pre><pre>Q ss_pred             eeceecCCCCc
+</pre><pre>Q FD01845054_033    5 YRWQELDGAPR   15 (63)
+</pre><pre>Q Consensus         5 yrwqeldgapr   15 (63)
+</pre><pre>                      |-||++|-+|+
+</pre><pre>T Consensus        26 fiWQ~~D~aP~   36 (80)
+</pre><pre>T USG_CAUVC/9-88   26 YVWQEYDLAPK   36 (80)
+</pre><pre>T ss_pred             eeceeccCCCC
+</pre><pre>
+</pre><pre>
+</pre><pre>No 2
+</pre><pre>>PF17038.7 ; CBP_BcsN ; Cellulose biosynthesis protein BcsN
+</pre><pre>Probab=20.91  E-value=1.3e+02  Score=21.75  Aligned_cols=12  Identities=33%  Similarity=1.127  Sum_probs=0.0  Template_Neff=6.500
+</pre><pre>
+</pre><pre>Q ss_pred             cceeeceecCCC
+</pre><pre>Q FD01845054_033    2 TCRYRWQELDGA   13 (63)
+</pre><pre>Q Consensus         2 tcryrwqeldga   13 (63)
+</pre><pre>                      +|-|-||.+|..
+</pre><pre>T Consensus       108 ~CvyAWQ~I~~~  119 (186)
+</pre><pre>T A0A0Q6S6K7_9RH  108 SCLYAWQQIRSS  119 (186)
+</pre><pre>T ss_pred             eeEEEEEEccCc
+</pre><pre>
+</pre><pre>
+</pre>

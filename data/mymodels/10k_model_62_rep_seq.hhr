@@ -1,0 +1,141 @@
+Query         EBX9240658.1/29-156 
+Match_columns 128
+No_of_seqs    6 out of 10
+Neff          1.38685
+Searched_HMMs 107766
+Date          Tue Aug 17 14:36:22 2021
+Command       hhsearch -cpu 8 -i ../results/full.a3m -d /cluster/toolkit/production/databases/hh-suite/mmcif70/pdb70 -d /cluster/toolkit/production/databases/hh-suite/scope70/scope70 -d /cluster/toolkit/production/databases/hh-suite/pfama/pfama -d /cluster/toolkit/production/databases/hh-suite/TIGRFAM/TIGRFAM -o ../results/7127530.hhr -oa3m ../results/7127530.a3m -p 20 -Z 250 -loc -z 1 -b 1 -B 250 -ssm 2 -sc 1 -seq 1 -dbstrlen 10000 -norealign -maxres 32000 -contxt /cluster/toolkit/production/bioprogs/tools/hh-suite-build-new/data/context_data.crf 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6AKK_B Suppressor of IKBKE 1;   34.2      55 0.00051   22.8   1.1    9   19-27     38-46  (54)
+  2 PF02962.17 ; CHMI ; 5-carboxym  25.7 2.8E+02  0.0026   19.1   3.3   27   98-124    67-93  (125)
+  3 PF08153.14 ; NGP1NT ; NGP1NT (  25.4 1.4E+02  0.0013   23.7   2.1   32   92-124    29-60  (128)
+  4 d2h8ea_ d.79.6.1 (A:) automate  25.2 1.5E+02  0.0014   20.5   2.0   25   99-123    62-86  (120)
+  5 1OTG_B 5-CARBOXYMETHYL-2-HYDRO  24.4 3.1E+02  0.0028   18.8   3.3   27   98-124    66-92  (125)
+  6 PF16476.7 ; DUF5053 ; Domain o  22.1 4.5E+02  0.0042   18.9   3.8   51   71-125     8-58  (59)
+  7 5EFQ_A Cyclin-dependent kinase  21.6 1.2E+02  0.0011   21.9   1.0   12   20-31    331-342 (347)
+  8 PF05769.13 ; SIKE ; SIKE famil  20.3 1.3E+02  0.0012   23.3   1.0    8   19-26    100-107 (184)
+  9 4NWP_G Uncharacterized protein  20.3 3.8E+02  0.0035   18.7   3.2   27   98-124    67-93  (131)
+
+No 1
+>6AKK_B Suppressor of IKBKE 1; homotetramer, Coiled-coil, PROTEIN BINDING; 1.5A {Homo sapiens}
+Probab=34.19  E-value=55  Score=22.83  Aligned_cols=9  Identities=56%  Similarity=0.840  Sum_probs=0.0  Template_Neff=4.900
+
+Q ss_pred             cHHHHHHHH
+Q EBX9240658.1/2   19 MGKYRQQAA   27 (128)
+Q Consensus        19 M~KYRQQAa   27 (128)
+                      |.|||+|..
+T Consensus        38 M~KyR~q~~   46 (54)
+T 6AKK_B           38 MSKYRKQML   46 (54)
+T ss_dssp             HHHHHHHHH
+T ss_pred             HHHHHHHHH
+
+
+No 2
+>PF02962.17 ; CHMI ; 5-carboxymethyl-2-hydroxymuconate isomerase
+Probab=25.66  E-value=2.8e+02  Score=19.07  Aligned_cols=27  Identities=19%  Similarity=0.155  Sum_probs=0.0  Template_Neff=9.700
+
+Q ss_pred             hcCCCCchhHHHHHHHHHHHHHHHHHh
+Q EBX9240658.1/2   98 KWFPGRHDKDIQNEKKALRSAIKDVIN  124 (128)
+Q Consensus        98 k~~pg~~~~~~~~~kk~lr~~i~d~~~  124 (128)
+                      ..++||.....+.+-++|.+++.+...
+T Consensus        67 ~~~~GRs~e~k~~l~~~i~~~l~~~~~   93 (125)
+T A0A1X7EE78_9BA   67 KIGAGRSPGEKDKVCNELFEVMKEHFA   93 (125)
+T ss_pred             EecCCCCHHHHHHHHHHHHHHHHHHhH
+
+
+No 3
+>PF08153.14 ; NGP1NT ; NGP1NT (NUC091) domain
+Probab=25.44  E-value=1.4e+02  Score=23.68  Aligned_cols=32  Identities=28%  Similarity=0.446  Sum_probs=0.0  Template_Neff=5.700
+
+Q ss_pred             cccchhhcCCCCchhHHHHHHHHHHHHHHHHHh
+Q EBX9240658.1/2   92 RSDWDRKWFPGRHDKDIQNEKKALRSAIKDVIN  124 (128)
+Q Consensus        92 rsdwdrk~~pg~~~~~~~~~kk~lr~~i~d~~~  124 (128)
+                      |-.-||+|| |..+-.-|......|++|....+
+T Consensus        29 RI~PdrrWF-gNTRvI~Q~~L~~fRe~~~~~~~   60 (128)
+T D5GM98_TUBMM/2   29 RVEPNRKWF-GNTRVISQSALTSFREAMAAKAA   60 (128)
+T ss_pred             cCCCCcccc-cceeecCHHHHHHHHHHHHHHhh
+
+
+No 4
+>d2h8ea_ d.79.6.1 (A:) automated matches {Escherichia coli [TaxId: 562]}
+Probab=25.24  E-value=1.5e+02  Score=20.55  Aligned_cols=25  Identities=24%  Similarity=0.371  Sum_probs=0.0  Template_Neff=9.300
+
+Q ss_pred             cCCCCchhHHHHHHHHHHHHHHHHH
+Q EBX9240658.1/2   99 WFPGRHDKDIQNEKKALRSAIKDVI  123 (128)
+Q Consensus        99 ~~pg~~~~~~~~~kk~lr~~i~d~~  123 (128)
+                      .+|.+...|+.|+.|+|..++.+++
+T Consensus        62 ~~~~~~~~D~DN~~K~i~D~l~~~g   86 (120)
+T d2h8ea_          62 HMPDRRRRNLDNLQKAAFDALTKAG   86 (120)
+T ss_dssp             ECSSSSCCCTHHHHHHHHHHHHHHT
+T ss_pred             ECCCCCCCCcHHHHHHHHHHHhhcc
+
+
+No 5
+>1OTG_B 5-CARBOXYMETHYL-2-HYDROXYMUCONATE ISOMERASE; HYDROXYMUCONATE, ISOMERASE; HET: SO4; 2.1A {Escherichia coli} SCOP: d.80.1.2
+Probab=24.44  E-value=3.1e+02  Score=18.77  Aligned_cols=27  Identities=26%  Similarity=0.143  Sum_probs=0.0  Template_Neff=9.800
+
+Q ss_pred             hcCCCCchhHHHHHHHHHHHHHHHHHh
+Q EBX9240658.1/2   98 KWFPGRHDKDIQNEKKALRSAIKDVIN  124 (128)
+Q Consensus        98 k~~pg~~~~~~~~~kk~lr~~i~d~~~  124 (128)
+                      ++++|+.+...+.+-++|.+++.++..
+T Consensus        66 ~~~~gr~~e~k~~l~~~i~~~l~~~~~   92 (125)
+T 1OTG_B           66 KIGAGRSLESRQQAGEMLFELIKTHFA   92 (125)
+T ss_dssp             EECSCCCHHHHHHHHHHHHHHHHHHTH
+T ss_pred             EEcCCCCHHHHHHHHHHHHHHHHHHhH
+
+
+No 6
+>PF16476.7 ; DUF5053 ; Domain of unknown function (DUF5053)
+Probab=22.11  E-value=4.5e+02  Score=18.88  Aligned_cols=51  Identities=18%  Similarity=0.093  Sum_probs=0.0  Template_Neff=4.900
+
+Q ss_pred             chHHHHHHHHHhccchhHHhccccchhhcCCCCchhHHHHHHHHHHHHHHHHHhh
+Q EBX9240658.1/2   71 NLSRCAAAIFEKNRHEDCLKMRSDWDRKWFPGRHDKDIQNEKKALRSAIKDVINR  125 (128)
+Q Consensus        71 nlsrcaaaifeknrhedclkmrsdwdrk~~pg~~~~~~~~~kk~lr~~i~d~~~r  125 (128)
+                      ++|..|...|.|.|.==.-++...    ..-|....--..+++.|+.|+.|...|
+T Consensus         8 s~s~iAk~YFgKS~sWlyqrlnG~----~vnGk~~~Ft~eE~~~L~~AL~Dia~r   58 (59)
+T R5PUR2_9BACT/1    8 AWDEISKHYFGKSNSWLYHKLNGI----DENKNITEFSEKEKEQLKEALMDLSSR   58 (59)
+T ss_pred             cHHHHHHHHhCCCHHHHHHHHcCC----CCCCCCCCCCHHHHHHHHHHHHHHHhc
+
+
+No 7
+>5EFQ_A Cyclin-dependent kinase 13; kinase, cyclin, ADP, transferase; HET: TPO, ADP; 2.0A {Homo sapiens} SCOP: d.144.1.0
+Probab=21.62  E-value=1.2e+02  Score=21.92  Aligned_cols=12  Identities=33%  Similarity=0.459  Sum_probs=0.0  Template_Neff=12.400
+
+Q ss_pred             HHHHHHHHhhhH
+Q EBX9240658.1/2   20 GKYRQQAAIDLT   31 (128)
+Q Consensus        20 ~KYRQQAaidLT   31 (128)
+                      .|||+|+.+.||
+T Consensus       331 ~~~~~~~~~~~~  342 (347)
+T 5EFQ_A          331 KKRRRQKQMGMT  342 (347)
+T ss_dssp             HHC---------
+T ss_pred             HHHHHHHHhCCC
+
+
+No 8
+>PF05769.13 ; SIKE ; SIKE family
+Probab=20.29  E-value=1.3e+02  Score=23.33  Aligned_cols=8  Identities=50%  Similarity=0.875  Sum_probs=0.0  Template_Neff=8.300
+
+Q ss_pred             cHHHHHHH
+Q EBX9240658.1/2   19 MGKYRQQA   26 (128)
+Q Consensus        19 M~KYRQQA   26 (128)
+                      |+|||+|+
+T Consensus       100 M~K~R~~~  107 (184)
+T W4XVX1_STRPU/2  100 MSSYRDQV  107 (184)
+T ss_pred             HHHHHHHH
+
+
+No 9
+>4NWP_G Uncharacterized protein; two-component, self-assembling, tetrahedron, designed protein cage, computational design, computational biology, protein engineering, multimerization, nanomaterial, nanostructure, PROTEIN; HET: SO4; 2.1A {Pyrococcus horikoshii}
+Probab=20.28  E-value=3.8e+02  Score=18.65  Aligned_cols=27  Identities=11%  Similarity=0.119  Sum_probs=0.0  Template_Neff=9.600
+
+Q ss_pred             hcCCCCchhHHHHHHHHHHHHHHHHHh
+Q EBX9240658.1/2   98 KWFPGRHDKDIQNEKKALRSAIKDVIN  124 (128)
+Q Consensus        98 k~~pg~~~~~~~~~kk~lr~~i~d~~~  124 (128)
+                      .+++|+.....+.+-++|.+++.+.+.
+T Consensus        67 ~~~~gR~~e~k~~l~~~l~~~l~~~~~   93 (131)
+T 4NWP_G           67 SILDGRDIATRTLLGASLCAVLAEAVA   93 (131)
+T ss_dssp             EEESCCCHHHHHHHHHHHHHHHHHTEE
+T ss_pred             EEcCCCCHHHHHHHHHHHHHHHHHHhh
+
+

@@ -1,0 +1,99 @@
+<pre>Query         FD01848869_02564 
+</pre><pre>Match_columns 148
+</pre><pre>No_of_seqs    2 out of 7
+</pre><pre>Neff          1.15528
+</pre><pre>Searched_HMMs 107766
+</pre><pre>Date          Tue Aug 24 15:49:56 2021
+</pre><pre>Command       hhsearch -cpu 8 -i ../results/full.a3m -d /cluster/toolkit/production/databases/hh-suite/mmcif70/pdb70 -d /cluster/toolkit/production/databases/hh-suite/scope70/scope70 -d /cluster/toolkit/production/databases/hh-suite/pfama/pfama -d /cluster/toolkit/production/databases/hh-suite/TIGRFAM/TIGRFAM -o ../results/9551329.hhr -oa3m ../results/9551329.a3m -p 20 -Z 250 -loc -z 1 -b 1 -B 250 -ssm 2 -sc 1 -seq 1 -dbstrlen 10000 -norealign -maxres 32000 -contxt /cluster/toolkit/production/bioprogs/tools/hh-suite-build-new/data/context_data.crf 
+</pre><pre>
+</pre><pre> No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+</pre><pre>  1 6RM9_C Putative pre-mRNA splic  45.7      14 0.00013   24.9  -0.3   17   35-51      3-19  (47)
+</pre><pre>  2 TIGR04272 cxxc_cxxc_Mbark; Cxx  36.6      55 0.00051   20.7   1.3   18   28-45     17-34  (37)
+</pre><pre>  3 PF14822.8 ; Vasohibin ; Vasohi  21.9 1.6E+02  0.0014   26.1   2.0   28   15-42     32-59  (246)
+</pre><pre>  4 d1e0fi_ g.3.15.2 (I:) Haemadin  21.9      83 0.00077   23.6   0.4   18   41-58     24-41  (57)
+</pre><pre>  5 4V7E_BM 40S ribosomal protein   21.1   1E+02 0.00095   23.7   0.7   14   32-45      9-22  (171)
+</pre><pre>  6 7DCO_y Pre-mRNA-splicing facto  20.7      62 0.00058   27.4  -0.5   17   35-51    101-117 (185)
+</pre><pre>
+</pre><pre>No 1
+</pre><pre>>6RM9_C Putative pre-mRNA splicing protein; Prp2, DEAH-box ATPase, G-patch, spliceosome, HYDROLASE; HET: ADP, GOL; 1.85A {Chaetomium thermophilum var. thermophilum DSM 1495}
+</pre><pre>Probab=45.70  E-value=14  Score=24.93  Aligned_cols=17  Identities=24%  Similarity=0.395  Sum_probs=0.0  Template_Neff=5.500
+</pre><pre>
+</pre><pre>Q ss_pred             CCCeecchhhcCCCCCC
+</pre><pre>Q FD01848869_025   35 PMPVFAKSCLRGMGCTD   51 (148)
+</pre><pre>Q Consensus        35 P~PVFAKSCLRG~GCTD   51 (148)
+</pre><pre>                      |+-.|..++|||||+..
+</pre><pre>T Consensus         3 PVe~FG~A~LrGmGW~~   19 (47)
+</pre><pre>T 6RM9_C            3 MVDDFGENLLRSFGWDG   19 (47)
+</pre><pre>T ss_dssp             CHHHHHHHHHHHTTCCS
+</pre><pre>T ss_pred             ChHHHHHHHHhccCCCC
+</pre><pre>
+</pre><pre>
+</pre><pre>No 2
+</pre><pre>>TIGR04272 cxxc_cxxc_Mbark; CxxC-x17-CxxC domain. This domain, with a pair of CXXC motifs separated by 17 amino acids, is a candidate zinc finger domain based on these motifs.
+</pre><pre>Probab=36.57  E-value=55  Score=20.68  Aligned_cols=18  Identities=28%  Similarity=0.861  Sum_probs=0.0  Template_Neff=6.200
+</pre><pre>
+</pre><pre>Q ss_pred             CCCCCCCCCCeecchhhc
+</pre><pre>Q FD01848869_025   28 LPQQPPPPMPVFAKSCLR   45 (148)
+</pre><pre>Q Consensus        28 lpq~P~PP~PVFAKSCLR   45 (148)
+</pre><pre>                      +|..|.+.-|||.+.|++
+</pre><pre>T Consensus        17 vpF~P~~~rpvyC~~C~~   34 (37)
+</pre><pre>T TIGR04272        17 VPFKPTGDRPVYCRECFQ   34 (37)
+</pre><pre>T ss_pred             cCCCCCCCCCcccHHHHH
+</pre><pre>
+</pre><pre>
+</pre><pre>No 3
+</pre><pre>>PF14822.8 ; Vasohibin ; Vasohibin
+</pre><pre>Probab=21.94  E-value=1.6e+02  Score=26.07  Aligned_cols=28  Identities=25%  Similarity=0.350  Sum_probs=0.0  Template_Neff=5.800
+</pre><pre>
+</pre><pre>Q ss_pred             cHHHHhhhccCcCCCCCCCCCCCeecch
+</pre><pre>Q FD01848869_025   15 SEELSQSHANNDFLPQQPPPPMPVFAKS   42 (148)
+</pre><pre>Q Consensus        15 seelsqshanndflpq~P~PP~PVFAKS   42 (148)
+</pre><pre>                      .+++-+...++++||..|.|..|.|-.+
+</pre><pre>T Consensus        32 g~~~~~~ir~~~~lp~~p~p~~p~~~~~   59 (246)
+</pre><pre>T B3RKK8_TRIAD/8   32 GEEAENQIRGNRSLSKVPVPIAPTITPG   59 (246)
+</pre><pre>T ss_pred             hHHHHHHHHcCccccCCCCCCCCCCCCC
+</pre><pre>
+</pre><pre>
+</pre><pre>No 4
+</pre><pre>>d1e0fi_ g.3.15.2 (I:) Haemadin {Indian leech (Haemadipsa sylvestris) [TaxId: 13555]}
+</pre><pre>Probab=21.93  E-value=83  Score=23.59  Aligned_cols=18  Identities=44%  Similarity=0.883  Sum_probs=0.0  Template_Neff=1.000
+</pre><pre>
+</pre><pre>Q ss_pred             chhhcCCCCCCCCCCCCc
+</pre><pre>Q FD01848869_025   41 KSCLRGMGCTDAGTSPEP   58 (148)
+</pre><pre>Q Consensus        41 KSCLRG~GCTDAGTS~EP   58 (148)
+</pre><pre>                      |-||-|..|.|.--|+.|
+</pre><pre>T Consensus        24 kiclygqscndgqcsgdp   41 (57)
+</pre><pre>T d1e0fi_          24 KICLYGQSCNDGQCSGDP   41 (57)
+</pre><pre>T ss_dssp             SEECTTCCBSSSCBCSCC
+</pre><pre>T ss_pred             eEEeeeeecCCCccCCCC
+</pre><pre>
+</pre><pre>
+</pre><pre>No 5
+</pre><pre>>4V7E_BM 40S ribosomal protein S12E; eukaryotic ribosome, homology modeling, de novo modeling, ribosomal RNA, rRNA, RNA expansion segments, RIBOSOME; 5.5A {Triticum aestivum}
+</pre><pre>Probab=21.13  E-value=1e+02  Score=23.65  Aligned_cols=14  Identities=50%  Similarity=1.094  Sum_probs=0.0  Template_Neff=8.400
+</pre><pre>
+</pre><pre>Q ss_pred             CCCCCCeecchhhc
+</pre><pre>Q FD01848869_025   32 PPPPMPVFAKSCLR   45 (148)
+</pre><pre>Q Consensus        32 P~PP~PVFAKSCLR   45 (148)
+</pre><pre>                      ||||.|.|...+.+
+</pre><pre>T Consensus         9 ~~~~~~~~~~~~~~   22 (171)
+</pre><pre>T 4V7E_BM           9 TPPPPPLFATRSFR   22 (171)
+</pre><pre>T ss_dssp             --------------
+</pre><pre>T ss_pred             CCCCCCcccccccc
+</pre><pre>
+</pre><pre>
+</pre><pre>No 6
+</pre><pre>>7DCO_y Pre-mRNA-splicing factor SPP2; RNA splicing, spliceosome, Bact complex, Prp2, Spp2, ATPase/helicase, activation, SPLICING; HET: GTP, ZN, IHP; 2.5A {Saccharomyces cerevisiae}
+</pre><pre>Probab=20.75  E-value=62  Score=27.43  Aligned_cols=17  Identities=41%  Similarity=0.784  Sum_probs=0.0  Template_Neff=5.500
+</pre><pre>
+</pre><pre>Q ss_pred             CCCeecchhhcCCCCCC
+</pre><pre>Q FD01848869_025   35 PMPVFAKSCLRGMGCTD   51 (148)
+</pre><pre>Q Consensus        35 P~PVFAKSCLRG~GCTD   51 (148)
+</pre><pre>                      |+--|....|||||+..
+</pre><pre>T Consensus       101 PVE~FG~AlLRGMGW~~  117 (185)
+</pre><pre>T 7DCO_y          101 PVEEFGDALLRGMGWES  117 (185)
+</pre><pre>T ss_dssp             CHHHHHHHHHHTTTCC-
+</pre><pre>T ss_pred             CHHHHHHHHHhccCCCC
+</pre><pre>
+</pre><pre>
+</pre>

@@ -1,0 +1,331 @@
+Query         FD01846512_03854 
+Match_columns 130
+No_of_seqs    31 out of 33
+Neff          2.74814
+Searched_HMMs 107766
+Date          Tue Aug 24 15:32:46 2021
+Command       hhsearch -cpu 8 -i ../results/full.a3m -d /cluster/toolkit/production/databases/hh-suite/mmcif70/pdb70 -d /cluster/toolkit/production/databases/hh-suite/scope70/scope70 -d /cluster/toolkit/production/databases/hh-suite/pfama/pfama -d /cluster/toolkit/production/databases/hh-suite/TIGRFAM/TIGRFAM -o ../results/6000793.hhr -oa3m ../results/6000793.a3m -p 20 -Z 250 -loc -z 1 -b 1 -B 250 -ssm 2 -sc 1 -seq 1 -dbstrlen 10000 -norealign -maxres 32000 -contxt /cluster/toolkit/production/bioprogs/tools/hh-suite-build-new/data/context_data.crf 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 TIGR01641 phageSPP1_gp7; phage  90.0    0.47 4.4E-06   32.5   1.6   40   47-106    67-106 (108)
+  2 PF04233.16 ; Phage_Mu_F ; Phag  82.1     2.2 2.1E-05   27.7   1.6   36   47-103    70-105 (107)
+  3 PF06152.13 ; Phage_min_cap2 ;   68.3      13 0.00012   31.8   3.0   47   47-106   236-292 (365)
+  4 TIGR00192 urease_beta; urease,  60.3     7.1 6.5E-05   31.1   0.1   11   84-94     36-46  (101)
+  5 d4ep8b_ b.85.3.1 (B:) Urease,   47.7      11  0.0001   29.8  -0.6   11   85-95     37-47  (101)
+  6 d4z42b_ b.85.3.0 (B:) automate  45.6      13 0.00012   30.1  -0.5   11   85-95     38-48  (114)
+  7 d1e9ya1 b.85.3.1 (A:106-238) U  44.1      16 0.00015   30.3  -0.2   12   85-96     37-48  (133)
+  8 5T86_A CdiA toxin; Contact-dep  42.9      24 0.00023   24.0   0.5   26   59-91     47-72  (106)
+  9 d4ubpb_ b.85.3.1 (B:) Urease,   42.5      13 0.00012   30.4  -1.0   12   84-95     38-49  (122)
+ 10 3PG6_B E3 ubiquitin-protein li  40.7      69 0.00064   26.4   2.8   49   47-97     11-65  (159)
+ 11 3PG6_D E3 ubiquitin-protein li  40.7      69 0.00064   26.4   2.8   49   47-97     11-65  (159)
+ 12 2MN3_A Defensin-BvL; defensin-  39.9      44 0.00041   23.6   1.3   20   52-71      7-26  (44)
+ 13 PF17858.3 ; Defensin_int ; Pla  39.9      44 0.00041   23.6   1.3   20   52-71      7-26  (44)
+ 14 PF00699.22 ; Urease_beta ; Ure  35.2      29 0.00027   26.8  -0.0   11   84-94     34-44  (98)
+ 15 4EP8_B Urease subunit beta; al  32.3      32  0.0003   26.9  -0.2   11   84-94     36-46  (101)
+ 16 PF11021.10 ; DUF2613 ; Protein  32.1 1.4E+02  0.0013   21.4   2.8   31    2-32      2-32  (53)
+ 17 PF10589.11 ; NADH_4Fe-4S ; NAD  25.8      78 0.00072   19.7   0.7    8   45-55     15-22  (85)
+ 18 5OL4_B Urease subunit beta; Ur  23.0      57 0.00053   26.4  -0.3   11   84-94     38-48  (122)
+ 19 6YL3_K Urease subunit beta; Ur  22.8      59 0.00055   26.9  -0.3   11   84-94     40-50  (132)
+ 20 6YL3_X Urease subunit beta; Ur  22.8      59 0.00055   26.9  -0.3   11   84-94     40-50  (132)
+ 21 PF18423.3 ; zf_CopZ ; Zinc bin  21.9   1E+02 0.00095   21.3   0.8   19   48-67      1-19  (62)
+ 22 1E9Y_A UREASE SUBUNIT ALPHA; H  20.4      73 0.00068   28.5  -0.2   11   84-94    141-151 (238)
+
+No 1
+>TIGR01641 phageSPP1_gp7; phage putative head morphogenesis protein, SPP1 gp7 family. This model describes a region of about 110 amino acids found exclusively in phage-related proteins, internally or toward the C-terminus.
+Probab=90.02  E-value=0.47  Score=32.52  Aligned_cols=40  Identities=20%  Similarity=0.453  Sum_probs=0.0  Template_Neff=9.900
+
+Q ss_pred             CCCCCCCCcccCCCEEcCcceeeecccCCCCCCCCCCCCcchhHHhhhcCCCCCccccee
+Q FD01846512_038   47 EKKPCPPCKTISGNIVPRGTIGYRHDLVPPGKPHHPYTGDHYNLYKANQNPNNCQCFWKE  106 (130)
+Q Consensus        47 ~~k~CPPCkt~sG~ivpvgTi~YR~D~vp~~k~~hg~~G~H~n~~~anQnP~nC~CfW~~  106 (130)
+                      +.+.|+-|...+|++++.+.        +.....++.            .-.||+|+|..
+T Consensus        67 d~~~c~~c~~~~G~~~~~~~--------~~~~~~~pp------------~h~~CrC~~~~  106 (108)
+T TIGR01641        67 DSRTRPICRALNGKIFKVDD--------AVPGVNAPP------------LHPNCRCTLAP  106 (108)
+T ss_pred             CCCccHHHHHHCCeEEeccc--------CCCCCCCCC------------CCCCCeeeeee
+
+
+No 2
+>PF04233.16 ; Phage_Mu_F ; Phage Mu protein F like protein
+Probab=82.06  E-value=2.2  Score=27.66  Aligned_cols=36  Identities=22%  Similarity=0.518  Sum_probs=0.0  Template_Neff=11.300
+
+Q ss_pred             CCCCCCCCcccCCCEEcCcceeeecccCCCCCCCCCCCCcchhHHhhhcCCCCCccc
+Q FD01846512_038   47 EKKPCPPCKTISGNIVPRGTIGYRHDLVPPGKPHHPYTGDHYNLYKANQNPNNCQCF  103 (130)
+Q Consensus        47 ~~k~CPPCkt~sG~ivpvgTi~YR~D~vp~~k~~hg~~G~H~n~~~anQnP~nC~Cf  103 (130)
+                      +.+.||=|...+|++++++-        +...   +..+.|          .+|+|.
+T Consensus        70 d~~~~~~c~~~~g~~~~~~~--------~~~~---~~~~~h----------~~CrC~  105 (107)
+T Q9RZ57_DEIRA/1   70 DRRVRPEHAKRDGKRFSWDD--------PPPD---GHPGEP----------INCRCV  105 (107)
+T ss_pred             CCccCHHHHHHCCeEEeCCC--------CCCC---CCCCCC----------CCCcEE
+
+
+No 3
+>PF06152.13 ; Phage_min_cap2 ; Phage minor capsid protein 2
+Probab=68.32  E-value=13  Score=31.75  Aligned_cols=47  Identities=6%  Similarity=-0.165  Sum_probs=0.0  Template_Neff=9.400
+
+Q ss_pred             CCCCCCCCcccCCCEE---cCc------ceeee-cccCCCCCCCCCCCCcchhHHhhhcCCCCCccccee
+Q FD01846512_038   47 EKKPCPPCKTISGNIV---PRG------TIGYR-HDLVPPGKPHHPYTGDHYNLYKANQNPNNCQCFWKE  106 (130)
+Q Consensus        47 ~~k~CPPCkt~sG~iv---pvg------Ti~YR-~D~vp~~k~~hg~~G~H~n~~~anQnP~nC~CfW~~  106 (130)
+                      +...||-|....|+++   +..      +..|- +..........|..+            .||+| |.+
+T Consensus       236 ~~~~~~~C~~~qGkv~~~~~~~~~~~~~~~~~p~~~~~~~~g~~~g~~h------------pNCRc-~~p  292 (365)
+T R6YG84_9CLOT/3  236 GGEDYTNHAWWQEKQFFCWNYDGNATEEEKKLPDFMEHCNYGDVQGIVG------------INCKH-LFT  292 (365)
+T ss_pred             CCCCCccccccCCeEeEeeecCCCCcccccccCChhHhcCCCcCCCccc------------CCCCC-Ccc
+
+
+No 4
+>TIGR00192 urease_beta; urease, beta subunit. In a number of species, including B.subtilis, Synechocystis, and Haemophilus influenzae, urease subunits beta and gamma are encoded as separate polypeptides.
+Probab=60.31  E-value=7.1  Score=31.07  Aligned_cols=11  Identities=27%  Similarity=0.957  Sum_probs=0.0  Template_Neff=3.900
+
+Q ss_pred             CCcchhHHhhh
+Q FD01846512_038   84 TGDHYNLYKAN   94 (130)
+Q Consensus        84 ~G~H~n~~~an   94 (130)
+                      .|||||+|+.|
+T Consensus        36 VGSH~HF~E~N   46 (101)
+T TIGR00192        36 VGSHFHFFEVN   46 (101)
+T ss_pred             eeccccHHhcc
+
+
+No 5
+>d4ep8b_ b.85.3.1 (B:) Urease, beta-subunit {Enterobacter aerogenes [TaxId: 548]}
+Probab=47.66  E-value=11  Score=29.83  Aligned_cols=11  Identities=36%  Similarity=0.812  Sum_probs=0.0  Template_Neff=4.500
+
+Q ss_pred             CcchhHHhhhc
+Q FD01846512_038   85 GDHYNLYKANQ   95 (130)
+Q Consensus        85 G~H~n~~~anQ   95 (130)
+                      |||||+|+.|.
+T Consensus        37 gSH~hf~EvN~   47 (101)
+T d4ep8b_          37 GSHYHFAEVNP   47 (101)
+T ss_dssp             ETTSCGGGSCT
+T ss_pred             EecceeeecCc
+
+
+No 6
+>d4z42b_ b.85.3.0 (B:) automated matches {Yersinia enterocolitica [TaxId: 913028]}
+Probab=45.55  E-value=13  Score=30.07  Aligned_cols=11  Identities=27%  Similarity=1.002  Sum_probs=0.0  Template_Neff=4.300
+
+Q ss_pred             CcchhHHhhhc
+Q FD01846512_038   85 GDHYNLYKANQ   95 (130)
+Q Consensus        85 G~H~n~~~anQ   95 (130)
+                      |||||+|+.|.
+T Consensus        38 GSH~Hf~EvN~   48 (114)
+T d4z42b_          38 GSHFHFFEVNR   48 (114)
+T ss_dssp             ETTSCGGGSCS
+T ss_pred             Eeeeecccccc
+
+
+No 7
+>d1e9ya1 b.85.3.1 (A:106-238) Urease, beta-subunit {Helicobacter pylori [TaxId: 210]}
+Probab=44.11  E-value=16  Score=30.30  Aligned_cols=12  Identities=25%  Similarity=0.869  Sum_probs=0.0  Template_Neff=4.300
+
+Q ss_pred             CcchhHHhhhcC
+Q FD01846512_038   85 GDHYNLYKANQN   96 (130)
+Q Consensus        85 G~H~n~~~anQn   96 (130)
+                      |||||+|+.|..
+T Consensus        37 GSH~HF~EvN~a   48 (133)
+T d1e9ya1          37 GSHFHFFEVNRC   48 (133)
+T ss_dssp             ETTSCGGGSCTT
+T ss_pred             Eecccccccccc
+
+
+No 8
+>5T86_A CdiA toxin; Contact-dependent growth inhibition, toxin, antitoxin, immunity protein, Structural Genomics, PSI-Biology, Midwest Center for Structural Genomics, MCSG; HET: ACT, MSE; 2.0A {Escherichia coli}
+Probab=42.87  E-value=24  Score=23.99  Aligned_cols=26  Identities=35%  Similarity=0.755  Sum_probs=0.0  Template_Neff=10.200
+
+Q ss_pred             CCEEcCcceeeecccCCCCCCCCCCCCcchhHH
+Q FD01846512_038   59 GNIVPRGTIGYRHDLVPPGKPHHPYTGDHYNLY   91 (130)
+Q Consensus        59 G~ivpvgTi~YR~D~vp~~k~~hg~~G~H~n~~   91 (130)
+                      |+..+.|.++||+|..|.       .|.|.|++
+T Consensus        47 g~~~~~~~~~~~~~~d~~-------~g~~~nv~   72 (106)
+T 5T86_A           47 GRQSSDGKVGWRVDYDPE-------KGTHINIW   72 (106)
+T ss_dssp             EEECTTSSEEEEEEEETT-------TEEEEEEE
+T ss_pred             EEECCCCCEEEEeeCCCC-------CCceeEEe
+
+
+No 9
+>d4ubpb_ b.85.3.1 (B:) Urease, beta-subunit {Bacillus pasteurii [TaxId: 1474]}
+Probab=42.54  E-value=13  Score=30.39  Aligned_cols=12  Identities=25%  Similarity=0.587  Sum_probs=0.0  Template_Neff=4.500
+
+Q ss_pred             CCcchhHHhhhc
+Q FD01846512_038   84 TGDHYNLYKANQ   95 (130)
+Q Consensus        84 ~G~H~n~~~anQ   95 (130)
+                      .|||||+|++|.
+T Consensus        38 VGSHyHF~EvN~   49 (122)
+T d4ubpb_          38 VGSHIHFVEVNK   49 (122)
+T ss_dssp             EETTSCGGGSCT
+T ss_pred             EEeeceeeecCc
+
+
+No 10
+>3PG6_B E3 ubiquitin-protein ligase DTX3L; DNA-DAMAGE, LIGASE, METAL-BINDING, NUCLEUS, PHOSPHORYLATION, CHROMATIN REGULATOR, UBL CONJUGATION PATHWAY, ZINC-FINGER, STRUCTURAL GENOMICS CONSORTIUM, SGC; HET: CIT, PEG; 1.7A {Homo sapiens}
+Probab=40.66  E-value=69  Score=26.43  Aligned_cols=49  Identities=18%  Similarity=0.214  Sum_probs=0.0  Template_Neff=6.500
+
+Q ss_pred             CCCCCCCCcccCCCEE---cCcceeeecccCCCCCCCCCCCCc---chhHHhhhcCC
+Q FD01846512_038   47 EKKPCPPCKTISGNIV---PRGTIGYRHDLVPPGKPHHPYTGD---HYNLYKANQNP   97 (130)
+Q Consensus        47 ~~k~CPPCkt~sG~iv---pvgTi~YR~D~vp~~k~~hg~~G~---H~n~~~anQnP   97 (130)
+                      ....||=|+++.|.+.   |.||+.++.+  +.+.+.|...|.   .|+|-..-|.+
+T Consensus        11 ~~~~cP~C~~~yg~~~G~qP~G~M~~~~~--~~sLpGy~~~~TI~I~Y~ip~GiQ~~   65 (159)
+T 3PG6_B           11 SSGLVPRGSTSYGIQKGNQPEGSMVFTVS--RDSLPGYESFGTIVITYSMKAGIQTE   65 (159)
+T ss_dssp             ---------------CCCCCSEEEEEEEE--SSCCTTCTTSCEEEEEEEECCEECCT
+T ss_pred             CCCCCCCccceEeceEcccCCcEEEEEEc--cCCCCCCCCccEEEEEEEecCcccCC
+
+
+No 11
+>3PG6_D E3 ubiquitin-protein ligase DTX3L; DNA-DAMAGE, LIGASE, METAL-BINDING, NUCLEUS, PHOSPHORYLATION, CHROMATIN REGULATOR, UBL CONJUGATION PATHWAY, ZINC-FINGER, STRUCTURAL GENOMICS CONSORTIUM, SGC; HET: CIT, PEG; 1.7A {Homo sapiens}
+Probab=40.66  E-value=69  Score=26.43  Aligned_cols=49  Identities=18%  Similarity=0.214  Sum_probs=0.0  Template_Neff=6.500
+
+Q ss_pred             CCCCCCCCcccCCCEE---cCcceeeecccCCCCCCCCCCCCc---chhHHhhhcCC
+Q FD01846512_038   47 EKKPCPPCKTISGNIV---PRGTIGYRHDLVPPGKPHHPYTGD---HYNLYKANQNP   97 (130)
+Q Consensus        47 ~~k~CPPCkt~sG~iv---pvgTi~YR~D~vp~~k~~hg~~G~---H~n~~~anQnP   97 (130)
+                      ....||=|+++.|.+.   |.||+.++.+  +.+.+.|...|.   .|+|-..-|.+
+T Consensus        11 ~~~~cP~C~~~yg~~~G~qP~G~M~~~~~--~~sLpGy~~~~TI~I~Y~ip~GiQ~~   65 (159)
+T 3PG6_D           11 SSGLVPRGSTSYGIQKGNQPEGSMVFTVS--RDSLPGYESFGTIVITYSMKAGIQTE   65 (159)
+T ss_dssp             ---------------CCCCCSEEEEEEEE--SSCCTTCTTSEEEEEEEEECCEECCT
+T ss_pred             CCCCCCCccceEeceEcccCCcEEEEEEc--cCCCCCCCCccEEEEEEEecCcccCC
+
+
+No 12
+>2MN3_A Defensin-BvL; defensin-like peptide, platypus defensin, beta-defensin, intermediate-DLP, ANTIMICROBIAL PROTEIN; NMR {N/A}
+Probab=39.93  E-value=44  Score=23.56  Aligned_cols=20  Identities=40%  Similarity=0.903  Sum_probs=0.0  Template_Neff=1.300
+
+Q ss_pred             CCCcccCCCEEcCcceeeec
+Q FD01846512_038   52 PPCKTISGNIVPRGTIGYRH   71 (130)
+Q Consensus        52 PPCkt~sG~ivpvgTi~YR~   71 (130)
+                      |||..+.|.--|.||.-.||
+T Consensus         7 ppcedvngqcqp~~~~~~rl   26 (44)
+T 2MN3_A            7 PPCEDVNGQCQPRGNPCLRL   26 (44)
+T ss_dssp             CHHHHTTCEEECSSSSSEEE
+T ss_pred             CCcccCCCccCCCCCcceEE
+
+
+No 13
+>PF17858.3 ; Defensin_int ; Platypus intermediate defensin-like peptide
+Probab=39.93  E-value=44  Score=23.56  Aligned_cols=20  Identities=40%  Similarity=0.903  Sum_probs=0.0  Template_Neff=1.300
+
+Q ss_pred             CCCcccCCCEEcCcceeeec
+Q FD01846512_038   52 PPCKTISGNIVPRGTIGYRH   71 (130)
+Q Consensus        52 PPCkt~sG~ivpvgTi~YR~   71 (130)
+                      |||..+.|.--|.||.-.||
+T Consensus         7 ppcedvngqcqp~~~~~~rl   26 (44)
+T DEFBL_ORNAN/25    7 PPCEDVNGQCQPRGNPCLRL   26 (44)
+T ss_pred             CCcccCCCccCCCCCcceEE
+
+
+No 14
+>PF00699.22 ; Urease_beta ; Urease beta subunit
+Probab=35.23  E-value=29  Score=26.80  Aligned_cols=11  Identities=36%  Similarity=1.032  Sum_probs=0.0  Template_Neff=5.800
+
+Q ss_pred             CCcchhHHhhh
+Q FD01846512_038   84 TGDHYNLYKAN   94 (130)
+Q Consensus        84 ~G~H~n~~~an   94 (130)
+                      .|+|||+++.|
+T Consensus        34 VgSH~hf~e~N   44 (98)
+T R5WFX3_9CLOT/1   34 TGSHFHFFEVN   44 (98)
+T ss_pred             cCCccccccCC
+
+
+No 15
+>4EP8_B Urease subunit beta; alpha-beta barrel, nickel metalloenzyme, hydrolase, radiation damage; HET: KCX; 1.55A {Enterobacter aerogenes} SCOP: b.85.3.1
+Probab=32.32  E-value=32  Score=26.85  Aligned_cols=11  Identities=36%  Similarity=0.818  Sum_probs=0.0  Template_Neff=5.500
+
+Q ss_pred             CCcchhHHhhh
+Q FD01846512_038   84 TGDHYNLYKAN   94 (130)
+Q Consensus        84 ~G~H~n~~~an   94 (130)
+                      .|||||+++.|
+T Consensus        36 vgSH~hf~e~N   46 (101)
+T 4EP8_B           36 VGSHYHFAEVN   46 (101)
+T ss_dssp             EETTSCGGGSC
+T ss_pred             cccccccCCCC
+
+
+No 16
+>PF11021.10 ; DUF2613 ; Protein of unknown function (DUF2613)
+Probab=32.09  E-value=1.4e+02  Score=21.43  Aligned_cols=31  Identities=23%  Similarity=0.064  Sum_probs=0.0  Template_Neff=4.500
+
+Q ss_pred             ccchhhhhHHHHHHHHHHHhhhhhhcccCCc
+Q FD01846512_038    2 FAIPAILEGINWLFWGSAAAGGTVLATSGDS   32 (130)
+Q Consensus         2 falp~i~e~inWl~~g~g~A~~~~l~t~~ds   32 (130)
+                      |.+|++.-++-=++.|+++..+.++....++
+T Consensus         2 ~~~pa~aSavvG~~lG~aav~gvt~~~~~~~   32 (53)
+T X5EFN1_9CORY/1    2 TLGPAIASAVVGIVLGGAAALFAGSIADSTD   32 (53)
+T ss_pred             chHHHHHHHHHHHHHHHHHHHHHHHHHccCC
+
+
+No 17
+>PF10589.11 ; NADH_4Fe-4S ; NADH-ubiquinone oxidoreductase-F iron-sulfur binding region
+Probab=25.81  E-value=78  Score=19.74  Aligned_cols=8  Identities=38%  Similarity=1.485  Sum_probs=0.0  Template_Neff=11.300
+
+Q ss_pred             cCCCCCCCCCc
+Q FD01846512_038   45 CEEKKPCPPCK   55 (130)
+Q Consensus        45 C~~~k~CPPCk   55 (130)
+                      |   .+|+||+
+T Consensus        15 c---g~c~~cr   22 (85)
+T R5D6N8_9FIRM/4   15 C---GKCTTCR   22 (85)
+T ss_pred             C---CCCCCch
+
+
+No 18
+>5OL4_B Urease subunit beta; Urease Nickel NBPT enzyme, HYDROLASE; HET: KCX, SO4, CXM, EDO; 1.28A {Sporosarcina pasteurii} SCOP: b.85.3.1
+Probab=23.00  E-value=57  Score=26.37  Aligned_cols=11  Identities=27%  Similarity=0.594  Sum_probs=0.0  Template_Neff=5.500
+
+Q ss_pred             CCcchhHHhhh
+Q FD01846512_038   84 TGDHYNLYKAN   94 (130)
+Q Consensus        84 ~G~H~n~~~an   94 (130)
+                      .|+|||+++.|
+T Consensus        38 VgSH~hf~e~N   48 (122)
+T 5OL4_B           38 VGSHIHFVEVN   48 (122)
+T ss_dssp             EETTSCGGGSC
+T ss_pred             ccccceecccC
+
+
+No 19
+>6YL3_K Urease subunit beta; Urease, enzyme, nickel, metalloenzyme, pathogen, METAL BINDING PROTEIN; HET: KCX, NI; 1.98A {Yersinia enterocolitica W22703}
+Probab=22.76  E-value=59  Score=26.91  Aligned_cols=11  Identities=27%  Similarity=0.957  Sum_probs=0.0  Template_Neff=4.900
+
+Q ss_pred             CCcchhHHhhh
+Q FD01846512_038   84 TGDHYNLYKAN   94 (130)
+Q Consensus        84 ~G~H~n~~~an   94 (130)
+                      .|+|||+++.|
+T Consensus        40 VgSH~hf~e~N   50 (132)
+T 6YL3_K           40 VGSHFHFFEVN   50 (132)
+T ss_dssp             EETTSCGGGSC
+T ss_pred             eecccccccCC
+
+
+No 20
+>6YL3_X Urease subunit beta; Urease, enzyme, nickel, metalloenzyme, pathogen, METAL BINDING PROTEIN; HET: NI, KCX; 1.98A {Yersinia enterocolitica W22703}
+Probab=22.76  E-value=59  Score=26.91  Aligned_cols=11  Identities=27%  Similarity=0.957  Sum_probs=0.0  Template_Neff=4.900
+
+Q ss_pred             CCcchhHHhhh
+Q FD01846512_038   84 TGDHYNLYKAN   94 (130)
+Q Consensus        84 ~G~H~n~~~an   94 (130)
+                      .|+|||+++.|
+T Consensus        40 VgSH~hf~e~N   50 (132)
+T 6YL3_X           40 VGSHFHFFEVN   50 (132)
+T ss_dssp             EETTSCGGGSC
+T ss_pred             eecccccccCC
+
+
+No 21
+>PF18423.3 ; zf_CopZ ; Zinc binding domain
+Probab=21.87  E-value=1e+02  Score=21.34  Aligned_cols=19  Identities=32%  Similarity=0.454  Sum_probs=0.0  Template_Neff=7.000
+
+Q ss_pred             CCCCCCCcccCCCEEcCcce
+Q FD01846512_038   48 KKPCPPCKTISGNIVPRGTI   67 (130)
+Q Consensus        48 ~k~CPPCkt~sG~ivpvgTi   67 (130)
+                      +..||=|... |+.|+..|+
+T Consensus         1 ~~~CP~Cg~~-g~~V~~~Tv   19 (62)
+T E6W2G3_DESIS/1    1 KHKCPVNGKK-YSLVSSSTI   19 (62)
+T ss_pred             CCCCCCCCCc-ceecChHHH
+
+
+No 22
+>1E9Y_A UREASE SUBUNIT ALPHA; HYDROLASE, DODECAMER; HET: KCX; 3.0A {HELICOBACTER PYLORI} SCOP: d.8.1.1, b.85.3.1
+Probab=20.36  E-value=73  Score=28.52  Aligned_cols=11  Identities=27%  Similarity=0.939  Sum_probs=0.0  Template_Neff=5.500
+
+Q ss_pred             CCcchhHHhhh
+Q FD01846512_038   84 TGDHYNLYKAN   94 (130)
+Q Consensus        84 ~G~H~n~~~an   94 (130)
+                      .|||||+|..|
+T Consensus       141 vgSH~hf~e~N  151 (238)
+T 1E9Y_A          141 IGSHFHFFEVN  151 (238)
+T ss_dssp             EETTSCGGGSC
+T ss_pred             ccCcccccCCC
+
+

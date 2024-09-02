@@ -1,0 +1,150 @@
+Query         FD01542829_03333 Shiga toxin A subunit
+Match_columns 147
+No_of_seqs    1 out of 37
+Neff          1
+Searched_HMMs 17929
+Date          Mon Aug  9 15:10:17 2021
+Command       hhsearch -i FD01851341_04362.c80e3.aln -d /databases/hhsuite/pfam -M 50 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF18071.1 ; HMW1C_N ; HMW1C N-   8.6      70  0.0039   20.8   0.0   20  119-138    88-107 (137)
+  2 PF08435.11 ; Calici_coat_C ; C   7.8      79  0.0044   23.3   0.0   51   85-144   143-195 (233)
+  3 PF06174.11 ; DUF987 ; Protein    7.2      88  0.0049   20.0   0.0   20   52-71     37-56  (65)
+  4 PF08615.11 ; RNase_H2_suC ; Ri   6.7      96  0.0054   18.5   0.0   15  132-146     6-20  (128)
+  5 PF05480.11 ; Staph_haemo ; Sta   6.4   1E+02  0.0058   17.9   0.0   11   32-42      2-12  (43)
+  6 PF01628.21 ; HrcA ; HrcA prote   5.3 1.3E+02  0.0073   19.6   0.0   23   57-79    179-212 (214)
+  7 PF08699.10 ; ArgoL1 ; Argonaut   5.2 1.3E+02  0.0074   14.2   0.0    8   41-48     36-43  (48)
+  8 PF15717.5 ; PCM1_C ; Pericentr   5.0 1.4E+02  0.0079   25.4   0.0   23   30-52      2-24  (610)
+  9 PF09190.11 ; DALR_2 ; DALR dom   4.9 1.4E+02  0.0081   14.7   0.0   13   35-47      3-15  (62)
+ 10 PF08633.10 ; Rox3 ; Rox3 media   4.9 1.5E+02  0.0081   21.5   0.0   37   69-116    20-58  (208)
+
+No 1
+>PF18071.1 ; HMW1C_N ; HMW1C N-terminal
+Probab=8.58  E-value=70  Score=20.82  Aligned_cols=20  Identities=40%  Similarity=0.561  Sum_probs=14.6  Template_Neff=6.700
+
+Q FD01542829_033   90 KDIFIASSFMNADECSVRFN  109 (118)
+Q Consensus       119 kdifiassfmnadecsvrfn  138 (147)
+                      ..||-+|+|-|||-.--.+|
+T Consensus        88 ~~iFaaS~f~naDHilr~l~  107 (137)
+T C4S7Z1_YERMO/1   88 ALIFAASPFLHADHVITNLN  107 (137)
+T ss_pred             HHHHHhccccCHHHHHHHHh
+Confidence            35888999999997544443
+
+
+No 2
+>PF08435.11 ; Calici_coat_C ; Calicivirus coat protein C-terminal
+Probab=7.82  E-value=79  Score=23.27  Aligned_cols=51  Identities=27%  Similarity=0.541  Sum_probs=35.9  Template_Neff=5.200
+
+Q FD01542829_033   56 KVAILDKKSYFDSYYENQ--VKSIVAKYTYINKDKEKDIFIASSFMNADECSVRFNGYITLS  115 (118)
+Q Consensus        85 kvaildkksyfdsyyenq--vksivakytyinkdkekdifiassfmnadecsvrfngyitls  144 (147)
+                      .|--|=...++..+|+.|  ..+-||-..|+|.|....+|         ||...=+||||.+
+T Consensus       143 ~i~ClLPqE~v~hf~~e~ap~qg~vALlrYvnpdTgr~Lf---------E~KLy~~GfiTv~  195 (233)
+T Q6EAX3_9CALI/3  143 VIDCLLPQEWIQHFYQESAPSQSDVALIRYVNPDTGRTLF---------EAKLHRTGYITVA  195 (233)
+T ss_pred             ceeeccCHHHHHHHhhcCCCCccceEEeEEECCCCCCEEE---------EEEEeCCCeEEee
+Confidence            344444556777888877  56778889999999777766         6666666666654
+
+
+No 3
+>PF06174.11 ; DUF987 ; Protein of unknown function (DUF987)
+Probab=7.22  E-value=88  Score=19.97  Aligned_cols=20  Identities=40%  Similarity=0.463  Sum_probs=16.2  Template_Neff=2.700
+
+Q FD01542829_033   23 DKTKVEILDISPVSKVYAES   42 (118)
+Q Consensus        52 dktkveildispvskvyaes   71 (147)
+                      .-+..|+-||+.|-.||||-
+T Consensus        37 hY~G~ev~di~gvLAV~aER   56 (65)
+T YPJJ_ECOLI/1-6   37 HYTGRDVPDITGVLAVYAER   56 (65)
+T ss_pred             cccCCcccCCCceEEeeeee
+Confidence            44567888999999999984
+
+
+No 4
+>PF08615.11 ; RNase_H2_suC ; Ribonuclease H2 non-catalytic subunit (Ylr154p-like)
+Probab=6.74  E-value=96  Score=18.55  Aligned_cols=15  Identities=7%  Similarity=0.182  Sum_probs=10.6  Template_Neff=8.500
+
+Q FD01542829_033  103 ECSVRFNGYITLSRE  117 (118)
+Q Consensus       132 ecsvrfngyitlsre  146 (147)
+                      -|.+.++|..-.+.-
+T Consensus         6 Pc~I~~~G~a~v~~y   20 (128)
+T A5DMP5_PICGU/1    6 PLHIQYSGPANTKEY   20 (128)
+T ss_pred             ceEecCCCCCChHHh
+Confidence            488888887765543
+
+
+No 5
+>PF05480.11 ; Staph_haemo ; Staphylococcus haemolytic protein
+Probab=6.36  E-value=1e+02  Score=17.88  Aligned_cols=11  Identities=45%  Similarity=0.634  Sum_probs=8.0  Template_Neff=3.700
+
+Q FD01542829_033    3 SSLFDAIKNDL   13 (118)
+Q Consensus        32 sslfdaikndl   42 (147)
+                      +.||+||+|-.
+T Consensus         2 ~~L~eAI~n~V   12 (43)
+T Q5HQ21_STAEQ/1    2 MKLFNAFKDIL   12 (43)
+T ss_pred             hHHHHHHHHHH
+Confidence            46888888754
+
+
+No 6
+>PF01628.21 ; HrcA ; HrcA protein C terminal domain
+Probab=5.29  E-value=1.3e+02  Score=19.59  Aligned_cols=23  Identities=17%  Similarity=0.267  Sum_probs=12.9  Template_Neff=8.400
+
+Q FD01542829_033   28 EILDISPVSKVYAES-----------LARMDYEK   50 (118)
+Q Consensus        57 eildispvskvyaes-----------larmdyek   79 (147)
+                      +.-|.|-++..|.-.           --||||++
+T Consensus       179 ~l~~~siv~~~y~~~~~~~G~igviGP~RM~Y~k  212 (214)
+T I0IPF5_LEPFC/1  179 ALEPCTLISIPLRNGNVWLGSIGLVGPIRMQYDQ  212 (214)
+T ss_pred             hhCCeEEEEEEeEeCCcceEEEEEEecCCCCccc
+Confidence            344566666655322           24788875
+
+
+No 7
+>PF08699.10 ; ArgoL1 ; Argonaute linker 1 domain
+Probab=5.24  E-value=1.3e+02  Score=14.20  Aligned_cols=8  Identities=50%  Similarity=0.713  Sum_probs=6.0  Template_Neff=9.200
+
+Q FD01542829_033   12 DLNIDVAT   19 (118)
+Q Consensus        41 dlnidvat   48 (147)
+                      .||+|+++
+T Consensus        36 ~lnvD~s~   43 (48)
+T F9X0M5_ZYMTI/3   36 LLNVNIAT   43 (48)
+T ss_pred             EEEEEeee
+Confidence            67888875
+
+
+No 8
+>PF15717.5 ; PCM1_C ; Pericentriolar material 1 C terminus
+Probab=4.99  E-value=1.4e+02  Score=25.39  Aligned_cols=23  Identities=30%  Similarity=0.577  Sum_probs=18.4  Template_Neff=3.800
+
+Q FD01542829_033    1 MESSLFDAIKNDLNIDVATIIKD   23 (118)
+Q Consensus        30 messlfdaikndlnidvatiikd   52 (147)
+                      .+.+||++++...--.||++|-.
+T Consensus         2 sd~sLFE~Lre~IYsEVAtLISq   24 (610)
+T I3JV64_ORENI/1    2 SDFSLFETLRETIYSEVATLISQ   24 (610)
+T ss_pred             CcchHHHHHHHHHHHHHHHHHHc
+Confidence            35688999998888888888753
+
+
+No 9
+>PF09190.11 ; DALR_2 ; DALR domain
+Probab=4.91  E-value=1.4e+02  Score=14.71  Aligned_cols=13  Identities=38%  Similarity=0.447  Sum_probs=8.6  Template_Neff=9.400
+
+Q FD01542829_033    6 FDAIKNDLNIDVA   18 (118)
+Q Consensus        35 fdaikndlnidva   47 (147)
+                      .+++.+|+|...|
+T Consensus         3 ~~am~dD~nt~~a   15 (62)
+T SYC_IDILO/343-    3 QQAMDDDLNAPEA   15 (62)
+T ss_pred             HHHHhhccCHHHH
+Confidence            4567777776644
+
+
+No 10
+>PF08633.10 ; Rox3 ; Rox3 mediator complex subunit
+Probab=4.88  E-value=1.5e+02  Score=21.47  Aligned_cols=37  Identities=22%  Similarity=0.419  Sum_probs=24.4  Template_Neff=5.100
+
+Q FD01542829_033   40 AESLARMDYEKDKAKNKVAILDKKSYFDSYYENQVKSI--VAKYTYINKD   87 (118)
+Q Consensus        69 aeslarmdyekdkaknkvaildkksyfdsyyenqvksi--vakytyinkd  116 (147)
+                      |.+.||.|-  +-.|||+         ..-|++|+|.+  -.++..+.++
+T Consensus        20 A~sVAR~dP--~GeKnkL---------RKSYkg~IkdLgl~Gk~~~vk~e   58 (208)
+T G4N156_MAGO7/1   20 AAEVARVLP--NGEKNAM---------RKTYKGHIKKLGVAGHFDAVKKN   58 (208)
+T ss_pred             HHHheecCC--CCccccc---------chhHHHHHHhhcCCCCcccccCC
+Confidence            567888876  3223543         33478999987  8888777544
+
+

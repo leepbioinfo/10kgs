@@ -1,0 +1,39 @@
+Query         EDU0618704.1/1-106 
+Match_columns 106
+No_of_seqs    30 out of 44
+Neff          3.30874
+Searched_HMMs 107766
+Date          Tue Aug 24 15:58:57 2021
+Command       hhsearch -cpu 8 -i ../results/full.a3m -d /cluster/toolkit/production/databases/hh-suite/mmcif70/pdb70 -d /cluster/toolkit/production/databases/hh-suite/scope70/scope70 -d /cluster/toolkit/production/databases/hh-suite/pfama/pfama -d /cluster/toolkit/production/databases/hh-suite/TIGRFAM/TIGRFAM -o ../results/2862780.hhr -oa3m ../results/2862780.a3m -p 20 -Z 250 -loc -z 1 -b 1 -B 250 -ssm 2 -sc 1 -seq 1 -dbstrlen 10000 -norealign -maxres 32000 -contxt /cluster/toolkit/production/bioprogs/tools/hh-suite-build-new/data/context_data.crf 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2D42_B non-toxic crystal prote  35.1   3E+02  0.0028   21.7   5.3   39   41-79    210-248 (249)
+  2 PF09263.12 ; PEX-2N ; Peroxiso  28.4      43  0.0004   22.3  -0.1   26   52-77     58-83  (83)
+
+No 1
+>2D42_B non-toxic crystal protein; parasporin, bacterial toxin, beta-pore-forming toxin, parasporal inclusion, hinge-bending motion, TOXIN; 2.07A {Bacillus thuringiensis}
+Probab=35.13  E-value=3e+02  Score=21.72  Aligned_cols=39  Identities=15%  Similarity=0.161  Sum_probs=0.0  Template_Neff=9.800
+
+Q ss_pred             eEEEeCCCeEEEEEeeceeEEeeeCcceEEEEEccCCCC
+Q EDU0618704.1/1   41 GVWWDTDNLMFRVKLAGKLALGVGIDWEEDIEIGPFTET   79 (106)
+Q Consensus        41 ~~~~Dtdd~~l~vk~sGelA~~LGl~gDi~vkigP~~d~   79 (106)
+                      +..+|.++-.+.++..|.+-...|++..++++--|+...
+T Consensus       210 ~~~~~~~~~~~~~~~~G~~~g~~g~~~~v~v~~~pl~~~  248 (249)
+T 2D42_B          210 GFTISKEQNRAYFTGEGTISGQIGLQTFIDVVIEPLPGH  248 (249)
+T ss_dssp             TEEEEGGGTEEEEEEEEEEEEEEEEEEEEEEEEEECTTC
+T ss_pred             CeEEeCCCCEEEEEeeEEEEEEEEEeEEEEEEEEeCCCC
+
+
+No 2
+>PF09263.12 ; PEX-2N ; Peroxisome biogenesis factor 1, N-terminal
+Probab=28.44  E-value=43  Score=22.34  Aligned_cols=26  Identities=23%  Similarity=0.248  Sum_probs=0.0  Template_Neff=8.800
+
+Q ss_pred             EEEeeceeEEeeeCcceEEEEEccCC
+Q EDU0618704.1/1   52 RVKLAGKLALGVGIDWEEDIEIGPFT   77 (106)
+Q Consensus        52 ~vk~sGelA~~LGl~gDi~vkigP~~   77 (106)
+                      .+.+...+|..|||+.+-+|.+.|..
+T Consensus        58 ~iei~~~~A~~Lgl~eg~~v~v~~~~   83 (83)
+T I3J1J9_ORENI/1   58 KVELCRQLGEKQGLTDGEQGFLRPCH   83 (83)
+T ss_pred             eEEECHHHHHHcCCCCCCEEEEEECC
+
+

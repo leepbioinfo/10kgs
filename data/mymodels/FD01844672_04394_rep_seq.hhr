@@ -1,0 +1,219 @@
+Query         FD01844672_04394 
+Match_columns 155
+No_of_seqs    6 out of 15
+Neff          1.78517
+Searched_HMMs 107766
+Date          Tue Aug 24 13:35:02 2021
+Command       hhsearch -cpu 8 -i ../results/full.a3m -d /cluster/toolkit/production/databases/hh-suite/mmcif70/pdb70 -d /cluster/toolkit/production/databases/hh-suite/scope70/scope70 -d /cluster/toolkit/production/databases/hh-suite/pfama/pfama -d /cluster/toolkit/production/databases/hh-suite/TIGRFAM/TIGRFAM -o ../results/6913132.hhr -oa3m ../results/6913132.a3m -p 20 -Z 250 -loc -z 1 -b 1 -B 250 -ssm 2 -sc 1 -seq 1 -dbstrlen 10000 -norealign -maxres 32000 -contxt /cluster/toolkit/production/bioprogs/tools/hh-suite-build-new/data/context_data.crf 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6ATY_A Venom protein 51.1; Kno  62.0     3.7 3.4E-05   28.7  -1.0   23  105-127     5-28  (39)
+  2 d3riia_ d.3.1.0 (A:) automated  32.9      73 0.00068   26.9   1.8   25  126-150   167-191 (222)
+  3 PF01088.23 ; Peptidase_C12 ; U  32.5      82 0.00076   25.9   2.0   25  126-150   172-196 (209)
+  4 d2wdta_ d.3.1.0 (A:) automated  31.7      76  0.0007   27.0   1.8   25  126-150   168-192 (222)
+  5 1XD3_A Ubiquitin Carboxyl-term  27.7 1.1E+02   0.001   25.5   2.0   25  126-150   177-201 (230)
+  6 4WLR_A Ubiquitin carboxyl-term  27.5   1E+02 0.00095   27.7   1.9   25  126-150   172-196 (328)
+  7 d4i6na1 d.3.1.0 (A:2-225) auto  26.7 1.1E+02   0.001   26.0   1.9   25  126-150   168-193 (224)
+  8 2WDT_C UBIQUITIN CARBOXYL-TERM  26.2 1.1E+02   0.001   25.5   1.8   25  126-150   172-196 (232)
+  9 3PVV_A Chromosomal replication  26.0 2.3E+02  0.0022   18.8   2.9   62   19-80      1-64  (101)
+ 10 d1xd3a_ d.3.1.6 (A:) Ubiquitin  22.7 1.5E+02  0.0014   25.4   1.9   25  126-150   176-200 (229)
+ 11 6D8T_A Potassium channel toxin  22.3 1.2E+02  0.0011   21.0   1.0   18   55-72      5-22  (31)
+ 12 6D9P_A Potassium channel toxin  22.2 1.2E+02  0.0011   21.0   1.0   18   55-72      5-22  (31)
+ 13 d3ifwa_ d.3.1.6 (A:) automated  20.2 1.7E+02  0.0015   25.1   1.7   25  126-150   169-193 (223)
+ 14 4I6N_A Ubiquitin carboxyl-hydr  20.2 1.7E+02  0.0016   24.7   1.8   25  126-150   174-199 (231)
+
+No 1
+>6ATY_A Venom protein 51.1; Knottins, Cystine knot, Toxins, TOXIN; 1.8A {Lychas mucronatus}
+Probab=62.01  E-value=3.7  Score=28.67  Aligned_cols=23  Identities=43%  Similarity=1.125  Sum_probs=0.0  Template_Neff=1.000
+
+Q ss_pred             eeeeehhchhhcchhH-HHHHhCC
+Q FD01844672_043  105 VGLACAKSSDDCSSSC-IQKYYNG  127 (155)
+Q Consensus       105 VGisC~~ss~~C~~sC-ieKY~~G  127 (155)
+                      +||.|..|-+.|.-.| |.||..|
+T Consensus         5 igikcspsidlcegqcrirkyftg   28 (39)
+T 6ATY_A            5 IGIKCSPSIDLCEGQCRIRKYFTG   28 (39)
+T ss_dssp             EEEECCGGGCCHHHHHHHTTCSEE
+T ss_pred             eeeeecCCceeccceEEeeeeecc
+
+
+No 2
+>d3riia_ d.3.1.0 (A:) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+Probab=32.90  E-value=73  Score=26.89  Aligned_cols=25  Identities=36%  Similarity=0.841  Sum_probs=0.0  Template_Neff=7.800
+
+Q ss_pred             CCceeeCCCccCCCceecCcccccc
+Q FD01844672_043  126 NGELYDLNGLIDDPKLISPTLTNEW  150 (155)
+Q Consensus       126 ~GELy~L~G~~~~p~litpt~~~~~  150 (155)
+                      +|.||.|||.+..|....|+-..+|
+T Consensus       167 ~g~l~ELDG~~~~Pi~~G~~~~~~~  191 (222)
+T d3riia_         167 NGRLYELDGLREGPIDLGACNQDDW  191 (222)
+T ss_dssp             TTEEEEECTTSSSCEEEEECCSSSC
+T ss_pred             CCEEEEECCCCCCCeeccCCCcccH
+
+
+No 3
+>PF01088.23 ; Peptidase_C12 ; Ubiquitin carboxyl-terminal hydrolase, family 1
+Probab=32.54  E-value=82  Score=25.87  Aligned_cols=25  Identities=28%  Similarity=0.421  Sum_probs=0.0  Template_Neff=8.400
+
+Q ss_pred             CCceeeCCCccCCCceecCcccccc
+Q FD01844672_043  126 NGELYDLNGLIDDPKLISPTLTNEW  150 (155)
+Q Consensus       126 ~GELy~L~G~~~~p~litpt~~~~~  150 (155)
+                      +|.||.|||.+..|...-|+....|
+T Consensus       172 ~g~l~ELDG~~~~Pi~~G~~~~~~~  196 (209)
+T A0A0D2UQX7_CAP  172 DGFLYELDGRKSFPINHGPSSQQTL  196 (209)
+T ss_pred             CCEEEEeCCCCCCceeecCCCccch
+
+
+No 4
+>d2wdta_ d.3.1.0 (A:) automated matches {Malaria parasite (Plasmodium falciparum) [TaxId: 5833]}
+Probab=31.66  E-value=76  Score=26.96  Aligned_cols=25  Identities=24%  Similarity=0.478  Sum_probs=0.0  Template_Neff=7.600
+
+Q ss_pred             CCceeeCCCccCCCceecCcccccc
+Q FD01844672_043  126 NGELYDLNGLIDDPKLISPTLTNEW  150 (155)
+Q Consensus       126 ~GELy~L~G~~~~p~litpt~~~~~  150 (155)
+                      +|.||.|||.+..|....++-...|
+T Consensus       168 ~g~l~ELDG~k~~Pi~~g~~~~~~~  192 (222)
+T d2wdta_         168 EGKIIELDGRKDHPTVHCFTNGDNF  192 (222)
+T ss_dssp             SSEEEEECTTSSSCEEEEECCGGGH
+T ss_pred             CCEEEEEcCCCCCcEEeeeCCcCcH
+
+
+No 5
+>1XD3_A Ubiquitin Carboxyl-terminal esterase L3; Enzyme-Ligand complex, active site crossover loop, HYDROLASE; HET: GVE, MG; 1.45A {Homo sapiens} SCOP: d.3.1.6
+Probab=27.67  E-value=1.1e+02  Score=25.48  Aligned_cols=25  Identities=28%  Similarity=0.371  Sum_probs=0.0  Template_Neff=8.500
+
+Q ss_pred             CCceeeCCCccCCCceecCcccccc
+Q FD01844672_043  126 NGELYDLNGLIDDPKLISPTLTNEW  150 (155)
+Q Consensus       126 ~GELy~L~G~~~~p~litpt~~~~~  150 (155)
+                      +|.||.|||.+..|...-|+-...|
+T Consensus       177 ~g~l~eLDG~~~~Pi~~G~~~~~~~  201 (230)
+T 1XD3_A          177 DGHLYELDGRKPFPINHGETSDETL  201 (230)
+T ss_dssp             TTEEEEECTTSSSCEEEEECCTTTH
+T ss_pred             CCEEEEeCCCCCCCEEecCCCcccH
+
+
+No 6
+>4WLR_A Ubiquitin carboxyl-terminal hydrolase isozyme L5; UCH37 RPN13 Proteasome INO80 DUB, PROTEIN BINDING; 1.997A {Mus musculus}
+Probab=27.50  E-value=1e+02  Score=27.70  Aligned_cols=25  Identities=36%  Similarity=0.841  Sum_probs=0.0  Template_Neff=7.700
+
+Q ss_pred             CCceeeCCCccCCCceecCcccccc
+Q FD01844672_043  126 NGELYDLNGLIDDPKLISPTLTNEW  150 (155)
+Q Consensus       126 ~GELy~L~G~~~~p~litpt~~~~~  150 (155)
+                      +|.||.|||.+..|....|+-...|
+T Consensus       172 ~g~l~ELDG~~~~Pi~~G~~~~~~w  196 (328)
+T 4WLR_A          172 NGRLYELDGLREGPIDLGACNQDDW  196 (328)
+T ss_dssp             TTEEEEECTTSSSCEEEEECBTTBC
+T ss_pred             CCEEEEeCCCCCCCeeccCCCccch
+
+
+No 7
+>d4i6na1 d.3.1.0 (A:2-225) automated matches {Trichinella spiralis [TaxId: 6334]}
+Probab=26.66  E-value=1.1e+02  Score=26.00  Aligned_cols=25  Identities=28%  Similarity=0.690  Sum_probs=0.0  Template_Neff=7.700
+
+Q ss_pred             CCceeeCCCccCCCceecCccccc-c
+Q FD01844672_043  126 NGELYDLNGLIDDPKLISPTLTNE-W  150 (155)
+Q Consensus       126 ~GELy~L~G~~~~p~litpt~~~~-~  150 (155)
+                      +|.||.|||.+..|....++...+ |
+T Consensus       168 ~g~l~ELDG~k~~Pi~~G~~~~~~~~  193 (224)
+T d4i6na1         168 NDGVYELDGLRAAPLRLGTVASDGDW  193 (224)
+T ss_dssp             TTEEEEECTTSSSCEEEEECCSSCCH
+T ss_pred             CCeEEEECCCCcCCEEEeccCCCCCh
+
+
+No 8
+>2WDT_C UBIQUITIN CARBOXYL-TERMINAL HYDROLASE L3; HYDROLASE-PROTEIN BINDING COMPLEX, ENZYME-LIGAND COMPLEX, UBIQUITIN ISOPEPTIDASE, UCH-L SUPERFAMILY, CYSTEIN PROTEINASE, PEPTIDASE_C12, HYDROLASE; HET: GVE; 2.3A {PLASMODIUM FALCIPARUM} SCOP: d.3.1.0
+Probab=26.21  E-value=1.1e+02  Score=25.53  Aligned_cols=25  Identities=24%  Similarity=0.478  Sum_probs=0.0  Template_Neff=8.400
+
+Q ss_pred             CCceeeCCCccCCCceecCcccccc
+Q FD01844672_043  126 NGELYDLNGLIDDPKLISPTLTNEW  150 (155)
+Q Consensus       126 ~GELy~L~G~~~~p~litpt~~~~~  150 (155)
+                      +|.||.|||.+..|....|+-...|
+T Consensus       172 ~g~l~eLDG~~~~P~~~g~~~~~~~  196 (232)
+T 2WDT_C          172 EGKIIELDGRKDHPTVHCFTNGDNF  196 (232)
+T ss_dssp             TTEEEEECTTSSSCEEEEECCTTCH
+T ss_pred             CCEEEEEcCCCCcCEEeeeCCCCch
+
+
+No 9
+>3PVV_A Chromosomal replication initiator protein dnaA; Helix-turn-Helix motif, Interacting with DnaA-box, DnaA-box, DNA BINDING PROTEIN-DNA complex; 2.0A {Mycobacterium tuberculosis}
+Probab=26.02  E-value=2.3e+02  Score=18.83  Aligned_cols=62  Identities=24%  Similarity=0.320  Sum_probs=0.0  Template_Neff=10.600
+
+Q ss_pred             CCCcccccccccccHHHHhhcHHHHhcccccchHHHHHH--HHHHHHHHHHHChHHHHHHccch
+Q FD01844672_043   19 GPAGIHRARIIKNDAEDFGENMDKYVGGSWNGHADALRH--CYLMCAFAKEFGHDIAKRIGDNH   80 (155)
+Q Consensus        19 Gp~g~~~A~~i~n~A~~fg~~m~kiVGg~hNG~adALRH--CYlmC~~tk~Fg~~~A~~IG~nH   80 (155)
+                      ++.-+-....+..-+..|+-+...++...........|.  .|++......=-..+|.+.|.+|
+T Consensus         1 ~~~~~~~~~i~~~v~~~~~~~~~~~~~~~r~~~~~~~R~~~~~~~~~~~~~~~~~ia~~~~~~~   64 (101)
+T 3PVV_A            1 GPHMISAATIMAATAEYFDTTVEELRGPGKTRALAQSRQIAMYLCRELTDLSLPKIGQAFGRDH   64 (101)
+T ss_dssp             ----CCHHHHHHHHHHHTTCCHHHHHSSCCCHHHHHHHHHHHHHHHHHCCCCHHHHHHHTTCCH
+T ss_pred             CCCCCCHHHHHHHHHHHhCCCHHHHcCCCcchhHHHHHHHHHHHHHHHhCCCHHHHHHHHCCCH
+
+
+No 10
+>d1xd3a_ d.3.1.6 (A:) Ubiquitin carboxyl-terminal hydrolase UCH-l3 {Human (Homo sapiens) [TaxId: 9606]}
+Probab=22.72  E-value=1.5e+02  Score=25.41  Aligned_cols=25  Identities=28%  Similarity=0.371  Sum_probs=0.0  Template_Neff=7.700
+
+Q ss_pred             CCceeeCCCccCCCceecCcccccc
+Q FD01844672_043  126 NGELYDLNGLIDDPKLISPTLTNEW  150 (155)
+Q Consensus       126 ~GELy~L~G~~~~p~litpt~~~~~  150 (155)
+                      +|.||.|||.+..|....+.....|
+T Consensus       176 ~g~l~ELDG~~~~Pi~~G~~~~~~~  200 (229)
+T d1xd3a_         176 DGHLYELDGRKPFPINHGETSDETL  200 (229)
+T ss_dssp             TTEEEEECTTSSSCEEEEECCTTTH
+T ss_pred             CCEEEEECCCCCCCEEecCCCcccH
+
+
+No 11
+>6D8T_A Potassium channel toxin alpha-KTx 5.4; Tamapin mutant, E25K/K27E, CSalpha/beta, SK channels, TOXIN; NMR {Mesobuthus tamulus} SCOP: g.3.7.2
+Probab=22.35  E-value=1.2e+02  Score=20.97  Aligned_cols=18  Identities=39%  Similarity=0.624  Sum_probs=0.0  Template_Neff=1.900
+
+Q ss_pred             HHHHHHHHHHHHHHChHH
+Q FD01844672_043   55 LRHCYLMCAFAKEFGHDI   72 (155)
+Q Consensus        55 LRHCYlmC~~tk~Fg~~~   72 (155)
+                      +|-||+.|+-.+-.|.-+
+T Consensus         5 ~~~C~~~C~~~~l~g~ci   22 (31)
+T 6D8T_A            5 LRRCELSCRSLGLLGKCI   22 (31)
+T ss_dssp             HHHHHHHHHTTTCCEEEC
+T ss_pred             chhHHHHHHhhChhhhhh
+
+
+No 12
+>6D9P_A Potassium channel toxin alpha-KTx 5.4; Tamapin mutant, K27A, CSalpha/beta, SK channels, TOXIN; NMR {Mesobuthus tamulus} SCOP: g.3.7.2
+Probab=22.24  E-value=1.2e+02  Score=20.99  Aligned_cols=18  Identities=39%  Similarity=0.624  Sum_probs=0.0  Template_Neff=1.900
+
+Q ss_pred             HHHHHHHHHHHHHHChHH
+Q FD01844672_043   55 LRHCYLMCAFAKEFGHDI   72 (155)
+Q Consensus        55 LRHCYlmC~~tk~Fg~~~   72 (155)
+                      +|-||+.|+-.+-.|.-+
+T Consensus         5 ~~~C~~~C~~~~l~g~ci   22 (31)
+T 6D9P_A            5 LRRCELSCRSLGLLGKCI   22 (31)
+T ss_dssp             HHHHHHHHHTTTSEEEEE
+T ss_pred             chhHHHHHHhhChhhhhc
+
+
+No 13
+>d3ifwa_ d.3.1.6 (A:) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+Probab=20.17  E-value=1.7e+02  Score=25.09  Aligned_cols=25  Identities=24%  Similarity=0.450  Sum_probs=0.0  Template_Neff=7.600
+
+Q ss_pred             CCceeeCCCccCCCceecCcccccc
+Q FD01844672_043  126 NGELYDLNGLIDDPKLISPTLTNEW  150 (155)
+Q Consensus       126 ~GELy~L~G~~~~p~litpt~~~~~  150 (155)
+                      +|.||.|||.+..|....+.-...|
+T Consensus       169 ~g~l~ELDG~~~~Pi~~G~~~~~~~  193 (223)
+T d3ifwa_         169 DGHLYELDGRMPFPVNHGASSEDTL  193 (223)
+T ss_dssp             TTEEEEECTTSSSCEEEEECCSTTH
+T ss_pred             CCEEEEECCCCCCCEEecCCChhhH
+
+
+No 14
+>4I6N_A Ubiquitin carboxyl-hydrolase; helix-beta-helix sandwich, protein-protein complex, deubiquitination, ubiquitin c-terminal hydrolase, cytosol, Hydrolase-Signaling Protein complex; HET: MSE, GVE; 1.701A {Trichinella spiralis} SCOP: d.3.1.0, l.1.1.1
+Probab=20.17  E-value=1.7e+02  Score=24.69  Aligned_cols=25  Identities=28%  Similarity=0.690  Sum_probs=0.0  Template_Neff=8.200
+
+Q ss_pred             CCceeeCCCccCCCceecCccccc-c
+Q FD01844672_043  126 NGELYDLNGLIDDPKLISPTLTNE-W  150 (155)
+Q Consensus       126 ~GELy~L~G~~~~p~litpt~~~~-~  150 (155)
+                      +|.||.|||.+..|...-|+...+ |
+T Consensus       174 ~g~l~ELDG~~~~Pi~~g~~~~~~~~  199 (231)
+T 4I6N_A          174 NDGVYELDGLRAAPLRLGTVASDGDW  199 (231)
+T ss_dssp             TTEEEEECTTSSSCEEEEECCSSCCH
+T ss_pred             CCEEEEecCCcccCEEEecCCCCCCH
+
+

@@ -1,0 +1,40 @@
+<pre>Query         EAZ9033900.1/1-29 
+</pre><pre>Match_columns 29
+</pre><pre>No_of_seqs    1 out of 7
+</pre><pre>Neff          1
+</pre><pre>Searched_HMMs 107766
+</pre><pre>Date          Tue Aug 24 15:51:30 2021
+</pre><pre>Command       hhsearch -cpu 8 -i ../results/full.a3m -d /cluster/toolkit/production/databases/hh-suite/mmcif70/pdb70 -d /cluster/toolkit/production/databases/hh-suite/scope70/scope70 -d /cluster/toolkit/production/databases/hh-suite/pfama/pfama -d /cluster/toolkit/production/databases/hh-suite/TIGRFAM/TIGRFAM -o ../results/9099870.hhr -oa3m ../results/9099870.a3m -p 20 -Z 250 -loc -z 1 -b 1 -B 250 -ssm 2 -sc 1 -seq 1 -dbstrlen 10000 -norealign -maxres 32000 -contxt /cluster/toolkit/production/bioprogs/tools/hh-suite-build-new/data/context_data.crf 
+</pre><pre>
+</pre><pre> No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+</pre><pre>  1 PF15152.8 ; Kisspeptin ; Kissp  29.6      44 0.00041   19.6   0.1   13   10-22     62-74  (77)
+</pre><pre>  2 5VOB_E Envelope glycoprotein U  25.0      37 0.00034   22.1  -0.8   24    6-29     96-119 (129)
+</pre><pre>
+</pre><pre>No 1
+</pre><pre>>PF15152.8 ; Kisspeptin ; Kisspeptin
+</pre><pre>Probab=29.59  E-value=44  Score=19.59  Aligned_cols=13  Identities=38%  Similarity=1.066  Sum_probs=0.0  Template_Neff=4.100
+</pre><pre>
+</pre><pre>Q ss_pred             ccccchhHHHHhh
+</pre><pre>Q EAZ9033900.1/1   10 KQQDRYTWNALGL   22 (29)
+</pre><pre>Q Consensus        10 kqqdrytwnalgl   22 (29)
+</pre><pre>                      |.-..|.||.+||
+</pre><pre>T Consensus        62 kDLsaYNWNSFGL   74 (77)
+</pre><pre>T G1RVK7_NOMLE/4   62 RDLPNYNWNSFGL   74 (77)
+</pre><pre>T ss_pred             ccCCccchhhccc
+</pre><pre>
+</pre><pre>
+</pre><pre>No 2
+</pre><pre>>5VOB_E Envelope glycoprotein UL131A; HCMV, neutralizing epitope, immunogen, viral entry, Pentamer, vaccine, Viral Protein-Immune System complex; HET: BMA, NAG; 3.02A {Human cytomegalovirus}
+</pre><pre>Probab=25.02  E-value=37  Score=22.11  Aligned_cols=24  Identities=38%  Similarity=0.562  Sum_probs=0.0  Template_Neff=2.800
+</pre><pre>
+</pre><pre>Q ss_pred             CCCCccccchhHHHHhhhhhccCC
+</pre><pre>Q EAZ9033900.1/1    6 NSPGKQQDRYTWNALGLMSSHRRI   29 (29)
+</pre><pre>Q Consensus         6 nspgkqqdrytwnalglmsshrri   29 (29)
+</pre><pre>                      +.++..|-+.|+||.|...+|.||
+</pre><pre>T Consensus        96 ~r~~~~~~~itf~as~~~tp~~R~  119 (129)
+</pre><pre>T 5VOB_E           96 NRRGGTNKRTTFNAAGSLAPHARS  119 (129)
+</pre><pre>T ss_dssp             CEECC---CCSEEEEEEECSSEEE
+</pre><pre>T ss_pred             cCCCCccceEEEeccccccccceE
+</pre><pre>
+</pre><pre>
+</pre>

@@ -1,0 +1,3 @@
+Sequências retiradas
+WP_060783481.1 : truncamento a esquerda
+WP_009415648.1 : truncamento a esquerda

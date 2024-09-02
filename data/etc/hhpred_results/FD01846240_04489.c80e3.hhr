@@ -1,0 +1,159 @@
+Query         FD01843954_04023 hypothetical protein
+Match_columns 174
+No_of_seqs    1 out of 7
+Neff          1
+Searched_HMMs 17929
+Date          Mon Aug  9 15:45:44 2021
+Command       hhsearch -i FD01846240_04489.c80e3.aln -d /databases/hhsuite/pfam -M 50 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF17463.2 ; GP79 ; Gene produc  63.7     1.2 6.7E-05   28.9   0.0   10  108-117    39-48  (51)
+  2 PF12712.7 ; DUF3805 ; Domain o  24.2      15 0.00082   26.1   0.0   43  109-154    35-80  (152)
+  3 PF07757.13 ; AdoMet_MTase ; Pr  17.7      25  0.0014   18.6   0.0   17   95-111    61-77  (113)
+  4 PF17582.2 ; UL20 ; Cytomegalov  16.4      28  0.0015   28.5   0.0   14   18-31    252-265 (304)
+  5 PF06080.12 ; DUF938 ; Protein   14.5      34  0.0019   19.0   0.0   16   95-110    29-44  (204)
+  6 PF03166.14 ; MH2 ; MH2 domain   13.2      38  0.0021   22.1   0.0   11  135-145   163-173 (175)
+  7 PF18137.1 ; ORC_WH_C ; Origin   12.1      44  0.0024   21.7   0.0   65   24-88     39-130 (144)
+  8 PF16545.5 ; CCM2_C ; Cerebral   11.9      45  0.0025   21.2   0.0   71   35-112    27-99  (100)
+  9 PF17779.1 ; NOD2_WH ; NOD2 win  11.2      48  0.0027   17.9   0.0   20   82-101     4-23  (58)
+ 10 PF07021.12 ; MetW ; Methionine  11.0      50  0.0028   18.3   0.0   17   95-111    15-31  (188)
+
+No 1
+>PF17463.2 ; GP79 ; Gene product 79
+Probab=63.66  E-value=1.2  Score=28.87  Aligned_cols=10  Identities=50%  Similarity=1.355  Sum_probs=8.6  Template_Neff=2.200
+
+Q FD01843954_040   92 SNRVGCLHIT  101 (158)
+Q Consensus       108 snrvgclhit  117 (174)
+                      .+||||+||-
+T Consensus        39 PD~VGCIHId   48 (51)
+T VG79_BPML5/22-   39 PDRVGCIHVD   48 (51)
+T ss_pred             CCceeeEecc
+Confidence            5799999985
+
+
+No 2
+>PF12712.7 ; DUF3805 ; Domain of unknown function (DUF3805)
+Probab=24.17  E-value=15  Score=26.09  Aligned_cols=43  Identities=21%  Similarity=0.295  Sum_probs=29.5  Template_Neff=5.700
+
+Q FD01843954_040   93 NRVGCLHITVCHENSLKIRHYSAD---SLSADTPCWVAADFGAFASVFS  138 (158)
+Q Consensus       109 nrvgclhitvchenslkirhysad---slsadtpcwvaadfgafasvfs  154 (174)
+                      |.+|||+|+.-+..+-   .|..+   ..-++.+-|...++|.|.-+++
+T Consensus        35 ~~~G~lqISa~~~~~g---~~~~~~l~~el~~~~~~~~v~~G~~~gay~   80 (152)
+T R6SVB5_9BACE/1   35 KWNGNFRISAYRGKSA---KYAQDCMADELQQNQSARREQAGPWACVYS   80 (152)
+T ss_pred             CCcceEEEEEEEcCCc---ccchHHHHHHHHhcccceeeeecCceeEEE
+Confidence            4789999999886652   23333   3344556778888888777766
+
+
+No 3
+>PF07757.13 ; AdoMet_MTase ; Predicted AdoMet-dependent methyltransferase
+Probab=17.72  E-value=25  Score=18.65  Aligned_cols=17  Identities=29%  Similarity=0.677  Sum_probs=12.0  Template_Neff=11.500
+
+Q FD01843954_040   79 QRIKFTGCGDGILSNRV   95 (158)
+Q Consensus        95 qrikftgcgdgilsnrv  111 (174)
+                      .++---|||.|.++...
+T Consensus        61 ~~vLdiG~G~G~~~~~l   77 (113)
+T TRM44_DROME/15   61 TAFADLGCGNGLLVHVL   77 (113)
+T ss_pred             CEEEEeCCCCChHHHHH
+Confidence            45556799999876544
+
+
+No 4
+>PF17582.2 ; UL20 ; Cytomegalovirus UL20
+Probab=16.42  E-value=28  Score=28.49  Aligned_cols=14  Identities=57%  Similarity=0.906  Sum_probs=11.0  Template_Neff=2.200
+
+Q FD01843954_040    2 LHTAPRGFQLLPVG   15 (158)
+Q Consensus        18 lhtaprgfqllpvg   31 (174)
+                      +-..||||++||--
+T Consensus       252 llicprgf~~l~e~  265 (304)
+T UL20_HCMVM/1-3  252 LLICPRGFELLPEF  265 (304)
+T ss_pred             EEeCccchhccccc
+Confidence            44579999999953
+
+
+No 5
+>PF06080.12 ; DUF938 ; Protein of unknown function (DUF938)
+Probab=14.48  E-value=34  Score=18.97  Aligned_cols=16  Identities=13%  Similarity=0.104  Sum_probs=11.3  Template_Neff=12.700
+
+Q FD01843954_040   79 QRIKFTGCGDGILSNR   94 (158)
+Q Consensus        95 qrikftgcgdgilsnr  110 (174)
+                      .+|---|||.|.++..
+T Consensus        29 ~~vldlG~G~G~~~~~   44 (204)
+T U585_DROME/18-   29 LQLLEIASGSGQHAGF   44 (204)
+T ss_pred             ceEEEeCCCCCHHHHH
+Confidence            3466679999976643
+
+
+No 6
+>PF03166.14 ; MH2 ; MH2 domain
+Probab=13.19  E-value=38  Score=22.06  Aligned_cols=11  Identities=45%  Similarity=1.129  Sum_probs=8.0  Template_Neff=8.600
+
+Q FD01843954_040  119 SADTPCWVAAD  129 (158)
+Q Consensus       135 sadtpcwvaad  145 (174)
+                      -.++|||+..-
+T Consensus       163 i~~~PcWiei~  173 (175)
+T E4XF28_OIKDI/1  163 ITSTPCWVELT  173 (175)
+T ss_pred             cccCCEEEEEE
+Confidence            36799998653
+
+
+No 7
+>PF18137.1 ; ORC_WH_C ; Origin recognition complex winged helix C-terminal
+Probab=12.08  E-value=44  Score=21.75  Aligned_cols=65  Identities=22%  Similarity=0.304  Sum_probs=39.4  Template_Neff=7.800
+
+Q FD01843954_040    8 GFQL-LPVGMLQNQFDLFGQFKVDLRNNSADAFIGV--------------------------IADGDRVRQRLLRQRLHR   60 (158)
+Q Consensus        24 gfql-lpvgmlqnqfdlfgqfkvdlrnnsadafigv--------------------------iadgdrvrqrllrqrlhr   76 (174)
+                      -|+| +-.|.+-|-+|.|..|+.-+...........                          -.+.+...++.+..|..|
+T Consensus        39 ly~Ly~E~G~~INl~Dw~~aF~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~arF~~  118 (144)
+T A0A0C9SYY5_PAX   39 VFQRYLQAGKMINVYDWFESFSIVLEAQRRRARTRGLSEDAQTPSRKGKQRQTEEVENYPEESEEDSEKWKMEVQARFIR  118 (144)
+T ss_pred             HHHHHHHHCCceeHHHHHHHHHHHHHHHHHHHHHhccccccCCcccccccccchhhhcCcccccchhHHHHHHHHHHHHH
+Confidence            3443 2458899999999999988866554322211                          111223445666677777
+
+
+Q FD01843954_040   61 GFHGFCRLGSLG   72 (158)
+Q Consensus        77 gfhgfcrlgslg   88 (174)
+                      +.|-+--+|-+.
+T Consensus       119 av~EL~~lG~ik  130 (144)
+T A0A0C9SYY5_PAX  119 ALHELDYIGLIK  130 (144)
+T ss_pred             HHHHHHHccccc
+Confidence            777666665443
+
+
+No 8
+>PF16545.5 ; CCM2_C ; Cerebral cavernous malformation protein, harmonin-homology
+Probab=11.85  E-value=45  Score=21.24  Aligned_cols=71  Identities=17%  Similarity=0.244  Sum_probs=36.7  Template_Neff=6.700
+
+Q FD01843954_040   19 NQFDLFGQFKVDLRNN-SADAFIGVIADGDRVRQRLLRQRLHRGFHGFCRLGSLGSEGLIQQRI-KFTGCGDGILSNRVG   96 (158)
+Q Consensus        35 nqfdlfgqfkvdlrnn-sadafigviadgdrvrqrllrqrlhrgfhgfcrlgslgsegliqqri-kftgcgdgilsnrvg  112 (174)
+                      ..+..|.+.-.+.+.+ +.+.|+..+.+   +--. -|.-|-+||.-|.+-.-   .....+.+ +.++-++|||+.+.|
+T Consensus        27 ~eyk~F~~~L~~yk~~~~~~~~~~~l~~---Lf~~-~r~~LL~g~r~FI~~~h---~~~Fd~~l~~~~~~~~~~~~~~~~   99 (100)
+T W5MDU1_LEPOC/4   27 PEIQQFALLLREYRMGAHIEEFCSDLLQ---LYGD-KRKFLLLGMRPFIPDKD---VGVFESFLESIGIREGGILTDSFG   99 (100)
+T ss_pred             HHHHHHHHHHHHHHCCCCHHHHHHHHHH---HhCc-ccHHHHHcccccCCHHH---HHHHHHHHHHcCCCCCceeeccCC
+Confidence            4455566655555543 12223322221   1111 34456677888877532   22233333 367788899998765
+
+
+No 9
+>PF17779.1 ; NOD2_WH ; NOD2 winged helix domain
+Probab=11.23  E-value=48  Score=17.95  Aligned_cols=20  Identities=15%  Similarity=0.212  Sum_probs=15.9  Template_Neff=8.200
+
+Q FD01843954_040   66 CRLGSLGSEGLIQQRIKFTG   85 (158)
+Q Consensus        82 crlgslgsegliqqrikftg  101 (174)
+                      .+||.|.-+|+.++++.|..
+T Consensus         4 ~~Lg~LA~~gL~~~~~~F~~   23 (58)
+T A0A0F8ADN3_LAR    4 LKIGKMAFKMLEKNVSVFCE   23 (58)
+T ss_pred             HHHHHHHHHHHHcCCcEEcH
+Confidence            46888889999998887753
+
+
+No 10
+>PF07021.12 ; MetW ; Methionine biosynthesis protein MetW
+Probab=11.03  E-value=50  Score=18.31  Aligned_cols=17  Identities=35%  Similarity=0.649  Sum_probs=11.6  Template_Neff=12.300
+
+Q FD01843954_040   79 QRIKFTGCGDGILSNRV   95 (158)
+Q Consensus        95 qrikftgcgdgilsnrv  111 (174)
+                      .+|-=-|||+|..+...
+T Consensus        15 ~~vldiG~G~G~~~~~l   31 (188)
+T Q8F4I1_LEPIN/1   15 SRVLDLGCGNGTLLYLL   31 (188)
+T ss_pred             CEEEEECCcCcHHHHHH
+Confidence            35556799999876443
+
+

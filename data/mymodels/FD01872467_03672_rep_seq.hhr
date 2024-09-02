@@ -1,0 +1,578 @@
+Query         ECJ5209038.1/21-58 
+Match_columns 38
+No_of_seqs    13 out of 30
+Neff          1.71757
+Searched_HMMs 107766
+Date          Tue Aug 24 16:01:52 2021
+Command       hhsearch -cpu 8 -i ../results/full.a3m -d /cluster/toolkit/production/databases/hh-suite/mmcif70/pdb70 -d /cluster/toolkit/production/databases/hh-suite/scope70/scope70 -d /cluster/toolkit/production/databases/hh-suite/pfama/pfama -d /cluster/toolkit/production/databases/hh-suite/TIGRFAM/TIGRFAM -o ../results/3217434.hhr -oa3m ../results/3217434.a3m -p 20 -Z 250 -loc -z 1 -b 1 -B 250 -ssm 2 -sc 1 -seq 1 -dbstrlen 10000 -norealign -maxres 32000 -contxt /cluster/toolkit/production/bioprogs/tools/hh-suite-build-new/data/context_data.crf 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF20148.1 ; DUF6531 ; Domain o  70.7     4.3   4E-05   18.6   0.4   13   26-38      1-13  (75)
+  2 7AE1_P DNA-directed RNA polyme  69.2     5.9 5.5E-05   26.6   1.0   20   12-31    283-304 (316)
+  3 PF05158.14 ; RNA_pol_Rpc34 ; R  64.5     8.1 7.5E-05   26.0   0.9   20   12-31    315-336 (347)
+  4 d1dw0a_ a.3.1.1 (A:) SHP, an o  61.8      14 0.00013   20.8   1.5   28    9-37     36-63  (112)
+  5 d2o62a1 b.60.1.9 (A:133-269) U  56.2      21 0.00019   23.1   1.6   17   11-28     83-99  (137)
+  6 PF01190.19 ; Pollen_Ole_e_1 ;   48.4      25 0.00023   18.4   1.0   19   14-37      5-23  (89)
+  7 PF10813.10 ; DUF2733 ; Protein  45.2      42 0.00039   18.2   1.5   18   13-30      2-24  (32)
+  8 TIGR03951 Fe_III_red_FhuF; sid  43.7      23 0.00021   21.0   0.4   10   11-20    171-180 (182)
+  9 1ZHX_A KES1 protein; oxysterol  40.6      43  0.0004   24.0   1.4   19   16-34    102-120 (438)
+ 10 PF11575.10 ; FhuF_C ; FhuF 2Fe  33.6      47 0.00044   14.8   0.5   10   11-20     11-20  (21)
+ 11 6CYY_A HTH-type transcriptiona  32.6      89 0.00083   21.6   1.9   25   11-35    385-409 (429)
+ 12 6TUT_P DNA-directed RNA polyme  31.1      58 0.00054   22.6   0.9   23    9-31    281-306 (317)
+ 13 PF02276.20 ; CytoC_RC ; Photos  28.6      96 0.00089   22.2   1.6   26    8-38    276-301 (308)
+ 14 1JDP_B ATRIAL NATRIURETIC PEPT  28.4      70 0.00065   19.4   0.8   15   11-25    425-439 (441)
+ 15 PF07330.14 ; DUF1467 ; Protein  27.6      34 0.00031   20.6  -0.6   17   22-38     39-55  (83)
+ 16 4Z8W_A Major pollen allergen P  27.2 1.1E+02 0.00098   17.8   1.3   24   14-37     15-38  (131)
+ 17 4JS0_B Brain-specific angiogen  27.0      93 0.00087   15.5   1.0    9   30-38     10-18  (32)
+ 18 PF04502.15 ; Saf4_Yju2 ; Saf4/  25.8 1.2E+02  0.0011   21.5   1.6   30    1-30     20-49  (302)
+ 19 PF17249.4 ; DUF5318 ; Family o  25.6      67 0.00062   21.3   0.4   12    8-19     45-56  (131)
+ 20 TIGR03950 sidero_Fe_reduc; sid  24.4      75 0.00069   20.0   0.4   10   11-20    213-222 (223)
+ 21 2O62_B hypothetical protein; S  23.7 1.2E+02  0.0011   20.2   1.3   17   11-28    216-232 (270)
+ 22 d1zhxa2 d.338.1.1 (A:2-434) Ox  23.7      90 0.00084   22.7   0.8    8   27-34    108-115 (433)
+ 23 5WNA_A Major surface glycoprot  23.7      74 0.00069   18.8   0.3   14   14-27     13-26  (45)
+ 24 5ZM5_A Oxysterol-binding prote  23.6      93 0.00086   21.8   0.8    9   26-34     90-98  (426)
+ 25 3ORU_A DUF1989 family protein;  23.1 1.5E+02  0.0014   20.3   1.7   18   14-31    203-220 (234)
+ 26 4IC4_A Oxysterol-binding prote  22.7      84 0.00078   21.7   0.5    8   27-34    118-125 (397)
+ 27 PF17982.3 ; C5HCH ; NSD Cys-Hi  22.5      71 0.00066   16.3   0.1   14    9-22      8-21  (50)
+ 28 PF19126.2 ; DUF5810 ; Family o  22.3      69 0.00064   18.8   0.0    7   13-19      2-8   (66)
+ 29 2MFP_A EC protein I/II; Metall  22.2 1.5E+02  0.0014   16.3   1.2   15   11-26     14-28  (31)
+ 30 1Q01_A lebetin 2 isoform alpha  22.1      88 0.00082   17.4   0.4   10    7-16     21-30  (38)
+ 31 PF01237.20 ; Oxysterol_BP ; Ox  22.1   1E+02 0.00094   21.0   0.7    8   27-34     73-80  (348)
+ 32 6BLH_G Major surface glycoprot  21.9      92 0.00085   18.4   0.5   14   14-27     19-32  (45)
+ 33 7CYZ_B Oxysterol-binding prote  21.5 1.1E+02   0.001   20.8   0.8    8   27-34     93-100 (377)
+ 34 d2dlqa4 g.37.1.1 (A:8-34) GLI-  21.4      76 0.00071    9.3   0.0    7   14-20      1-7   (27)
+ 35 PF12760.9 ; Zn_Tnp_IS1595 ; Tr  21.0 1.1E+02   0.001   13.9   0.5   11   11-21     16-26  (44)
+ 36 PF06373.13 ; CART ; Cocaine an  20.9 1.5E+02  0.0014   17.4   1.2   18    6-24     43-60  (69)
+ 37 PF00212.20 ; ANP ; Atrial natr  20.8      96 0.00089   16.0   0.4   10    7-16     22-31  (31)
+ 38 1HRO_B CYTOCHROME C2; ELECTRON  20.7   1E+02 0.00093   14.1   0.4   19   16-34     19-37  (106)
+ 39 d1x6ea2 g.37.1.1 (A:41-66) Zin  20.7 1.1E+02   0.001    9.8   0.5   10   16-25      5-14  (26)
+
+No 1
+>PF20148.1 ; DUF6531 ; Domain of unknown function (DUF6531)
+Probab=70.70  E-value=4.3  Score=18.60  Aligned_cols=13  Identities=23%  Similarity=0.100  Sum_probs=0.0  Template_Neff=11.800
+
+Q ss_pred             CCcCCCCCCCccC
+Q ECJ5209038.1/2   26 GEPVNPLPGAKVL   38 (38)
+Q Consensus        26 g~PvNPllGAKVl   38 (38)
+                      |+|||+..|.+++
+T Consensus         1 g~pV~~~~g~~~~   13 (75)
+T A0A085WJS1_9DE    1 NSTVNMATGNLRE   13 (75)
+T ss_pred             CCceeCCCCcEEE
+
+
+No 2
+>7AE1_P DNA-directed RNA polymerase III subunit RPC6; HUMAN, TRANSCRIPTION, SHORT RNAs; 2.8A {Homo sapiens}
+Probab=69.20  E-value=5.9  Score=26.58  Aligned_cols=20  Identities=25%  Similarity=0.805  Sum_probs=0.0  Template_Neff=8.400
+
+Q ss_pred             CcceeeeCC--CCCccCCcCCC
+Q ECJ5209038.1/2   12 TGVACSVCP--GGMTSGEPVNP   31 (38)
+Q Consensus        12 ~gvacsvCp--gg~t~g~PvNP   31 (38)
+                      +.++|..||  ..-..|.++||
+T Consensus       283 ~~~PC~~Cpv~~~C~~~g~i~p  304 (316)
+T 7AE1_P          283 VRAPCGLCPVFDDCHEGGEISP  304 (316)
+T ss_dssp             HHSGGGGCTTGGGCCSSSSSCG
+T ss_pred             ccccCCcCCCcccCCCCCccCH
+
+
+No 3
+>PF05158.14 ; RNA_pol_Rpc34 ; RNA polymerase Rpc34 subunit
+Probab=64.54  E-value=8.1  Score=26.03  Aligned_cols=20  Identities=40%  Similarity=0.777  Sum_probs=0.0  Template_Neff=8.700
+
+Q ss_pred             CcceeeeCC--CCCccCCcCCC
+Q ECJ5209038.1/2   12 TGVACSVCP--GGMTSGEPVNP   31 (38)
+Q Consensus        12 ~gvacsvCp--gg~t~g~PvNP   31 (38)
+                      +.++|..||  ..-..|.+|||
+T Consensus       315 ~~~PC~~Cpv~~~C~~~g~isp  336 (347)
+T Q4WAM7_ASPFU/1  315 TEVPCGPCPVFKLCVPGGAVSP  336 (347)
+T ss_pred             ccCCCcccccccceecCCCCCh
+
+
+No 4
+>d1dw0a_ a.3.1.1 (A:) SHP, an oxygen binding cytochrome c {Rhodobacter sphaeroides [TaxId: 1063]}
+Probab=61.76  E-value=14  Score=20.79  Aligned_cols=28  Identities=21%  Similarity=0.541  Sum_probs=0.0  Template_Neff=8.900
+
+Q ss_pred             cCCCcceeeeCCCCCccCCcCCCCCCCcc
+Q ECJ5209038.1/2    9 GAPTGVACSVCPGGMTSGEPVNPLPGAKV   37 (38)
+Q Consensus         9 Gap~gvacsvCpgg~t~g~PvNPllGAKV   37 (38)
+                      |++.+..|+.|-+....+.+. +..+.++
+T Consensus        36 ~~~~~~~Ca~CHg~~~~g~~~-~~~~~~~   63 (112)
+T d1dw0a_          36 GKPDTPSCTTCHGADVTRAGQ-TRTGKEI   63 (112)
+T ss_dssp             SCTTCCSTHHHHCSSTTSCEE-CTTSCEE
+T ss_pred             CCCCCCChHHhcCCCccCCCC-CCCCccc
+
+
+No 5
+>d2o62a1 b.60.1.9 (A:133-269) Uncharacterized protein All1756 ortholog {Nostoc punctiforme [TaxId: 272131]}
+Probab=56.23  E-value=21  Score=23.05  Aligned_cols=17  Identities=24%  Similarity=0.538  Sum_probs=0.0  Template_Neff=6.000
+
+Q ss_pred             CCcceeeeCCCCCccCCc
+Q ECJ5209038.1/2   11 PTGVACSVCPGGMTSGEP   28 (38)
+Q Consensus        11 p~gvacsvCpgg~t~g~P   28 (38)
+                      |.|+.|+ ||..+..+.|
+T Consensus        83 PdG~s~~-~P~~I~~~q~   99 (137)
+T d2o62a1          83 PDGASAT-SPLKVQLRQP   99 (137)
+T ss_dssp             GGGEEEE-EESSCCTTSC
+T ss_pred             CCceEEE-ccccccCCCC
+
+
+No 6
+>PF01190.19 ; Pollen_Ole_e_1 ; Pollen protein Ole e 1 like
+Probab=48.39  E-value=25  Score=18.43  Aligned_cols=19  Identities=32%  Similarity=0.543  Sum_probs=0.0  Template_Neff=9.700
+
+Q ss_pred             ceeeeCCCCCccCCcCCCCCCCcc
+Q ECJ5209038.1/2   14 VACSVCPGGMTSGEPVNPLPGAKV   37 (38)
+Q Consensus        14 vacsvCpgg~t~g~PvNPllGAKV   37 (38)
+                      +.|..|     ....-.|+.||+|
+T Consensus         5 v~C~~c-----~~~~~~~l~Ga~V   23 (89)
+T D8R4E3_SELML/3    5 VYCQDC-----QGHWTKKISDALV   23 (89)
+T ss_pred             EEecCC-----CCccceecCCCEE
+
+
+No 7
+>PF10813.10 ; DUF2733 ; Protein of unknown function (DUF2733)
+Probab=45.22  E-value=42  Score=18.19  Aligned_cols=18  Identities=39%  Similarity=0.468  Sum_probs=0.0  Template_Neff=3.300
+
+Q ss_pred             cceeeeCCCCCcc-----CCcCC
+Q ECJ5209038.1/2   13 GVACSVCPGGMTS-----GEPVN   30 (38)
+Q Consensus        13 gvacsvCpgg~t~-----g~PvN   30 (38)
+                      |..+|.|-....+     |+|+|
+T Consensus         2 G~~~SiCrrr~~~i~Dv~G~~Id   24 (32)
+T CEP3_ALHV1/1-3    2 GSYISVCCWRRHSIKDVHGNDIN   24 (32)
+T ss_pred             ceEEEeeecCCCccccCCCCccc
+
+
+No 8
+>TIGR03951 Fe_III_red_FhuF; siderophore-iron reductase FhuF. Members of this protein family, including FhuF of E.
+Probab=43.71  E-value=23  Score=20.97  Aligned_cols=10  Identities=40%  Similarity=0.926  Sum_probs=0.0  Template_Neff=9.700
+
+Q ss_pred             CCcceeeeCC
+Q ECJ5209038.1/2   11 PTGVACSVCP   20 (38)
+Q Consensus        11 p~gvacsvCp   20 (38)
+                      |.|..|+.||
+T Consensus       171 ~~~~~C~tCP  180 (182)
+T TIGR03951       171 PGVGQCGDCP  180 (182)
+T ss_pred             CCCCcCCCCC
+
+
+No 9
+>1ZHX_A KES1 protein; oxysterol, sterol binding protein, LIPID BINDING PROTEIN; HET: HC3; 1.5A {Saccharomyces cerevisiae} SCOP: l.1.1.1, d.338.1.1
+Probab=40.61  E-value=43  Score=24.02  Aligned_cols=19  Identities=32%  Similarity=0.541  Sum_probs=0.0  Template_Neff=8.100
+
+Q ss_pred             eeeCCCCCccCCcCCCCCC
+Q ECJ5209038.1/2   16 CSVCPGGMTSGEPVNPLPG   34 (38)
+Q Consensus        16 csvCpgg~t~g~PvNPllG   34 (38)
+                      |+.+........|.||+||
+T Consensus       102 ~~r~~~~~~~kKP~NPiLG  120 (438)
+T 1ZHX_A          102 CSRNESLGSEKKPLNPFLG  120 (438)
+T ss_dssp             HHHHHHHSSCCEEECCCTT
+T ss_pred             cccccccCcccCCCCcccc
+
+
+No 10
+>PF11575.10 ; FhuF_C ; FhuF 2Fe-2S C-terminal domain
+Probab=33.58  E-value=47  Score=14.80  Aligned_cols=10  Identities=30%  Similarity=1.092  Sum_probs=0.0  Template_Neff=6.600
+
+Q ss_pred             CCcceeeeCC
+Q ECJ5209038.1/2   11 PTGVACSVCP   20 (38)
+Q Consensus        11 p~gvacsvCp   20 (38)
+                      |.+..|+.||
+T Consensus        11 ~~~~~C~~CP   20 (21)
+T U5LE08_9BACI/2   11 DDSMRCTTCP   20 (21)
+T ss_pred             CCCCcccCCC
+
+
+No 11
+>6CYY_A HTH-type transcriptional regulator PrpR; Transcription, regulator, DNA BINDING PROTEIN; HET: SF4, COA; 2.506A {Mycobacterium tuberculosis}
+Probab=32.61  E-value=89  Score=21.57  Aligned_cols=25  Identities=24%  Similarity=0.545  Sum_probs=0.0  Template_Neff=9.300
+
+Q ss_pred             CCcceeeeCCCCCccCCcCCCCCCC
+Q ECJ5209038.1/2   11 PTGVACSVCPGGMTSGEPVNPLPGA   35 (38)
+Q Consensus        11 p~gvacsvCpgg~t~g~PvNPllGA   35 (38)
+                      |.|..|..||...-.-....|+...
+T Consensus       385 ~vg~~C~~C~r~~C~~R~~p~~~~~  409 (429)
+T 6CYY_A          385 PIGAGCKICNRTSCAQRAFPYLGGR  409 (429)
+T ss_dssp             ECCSCGGGCCCSSCTTCCSCCSSSC
+T ss_pred             ccCCCCcccCCcCCccCCCCcccCC
+
+
+No 12
+>6TUT_P DNA-directed RNA polymerase III subunit RPC6; Transcription, RNA Polymerase III, Pol III, Maf1, transcription inhibition; 3.25A {Saccharomyces cerevisiae S288C}
+Probab=31.09  E-value=58  Score=22.64  Aligned_cols=23  Identities=4%  Similarity=-0.217  Sum_probs=0.0  Template_Neff=7.700
+
+Q ss_pred             cCCCcceeeeCC--CCCccCC-cCCC
+Q ECJ5209038.1/2    9 GAPTGVACSVCP--GGMTSGE-PVNP   31 (38)
+Q Consensus         9 Gap~gvacsvCp--gg~t~g~-PvNP   31 (38)
+                      |...-.+|..||  ..-..|. ||||
+T Consensus       281 g~~~~~pc~~cpvf~~c~~~g~~v~~  306 (317)
+T 6TUT_P          281 GNKALEDEEEFSIFNYFKMFPASKHD  306 (317)
+T ss_dssp             --CCCCSCCSSCCSSCCCCSSCSSCC
+T ss_pred             hcccccCCCCCCchhccccCCCCCCh
+
+
+No 13
+>PF02276.20 ; CytoC_RC ; Photosynthetic reaction centre cytochrome C subunit
+Probab=28.62  E-value=96  Score=22.24  Aligned_cols=26  Identities=31%  Similarity=0.672  Sum_probs=0.0  Template_Neff=6.700
+
+Q ss_pred             ecCCCcceeeeCCCCCccCCcCCCCCCCccC
+Q ECJ5209038.1/2    8 IGAPTGVACSVCPGGMTSGEPVNPLPGAKVL   38 (38)
+Q Consensus         8 iGap~gvacsvCpgg~t~g~PvNPllGAKVl   38 (38)
+                      .+...+|.|..|..|.     ..|+.|++++
+T Consensus       276 ~~~~~~VtC~TCH~G~-----~~P~~~~~~~  301 (308)
+T B8EPZ6_METSB/2  276 GGDVPKINCATCHQGE-----SKPLNGASMI  301 (308)
+T ss_pred             CCCCCCCchhhccCCC-----CcCCCCCCch
+
+
+No 14
+>1JDP_B ATRIAL NATRIURETIC PEPTIDE CLEARANCE RECEPTOR; hormone-receptor complex, natriuretic peptide receptor, allosteric activation, SIGNALING PROTEIN; HET: NAG; 2.0A {Homo sapiens} SCOP: c.93.1.1
+Probab=28.40  E-value=70  Score=19.36  Aligned_cols=15  Identities=13%  Similarity=0.361  Sum_probs=0.0  Template_Neff=12.600
+
+Q ss_pred             CCcceeeeCCCCCcc
+Q ECJ5209038.1/2   11 PTGVACSVCPGGMTS   25 (38)
+Q Consensus        11 p~gvacsvCpgg~t~   25 (38)
+                      .....|+.|+.+++.
+T Consensus       425 ~~~~~c~~C~~~~~~  439 (441)
+T 1JDP_B          425 TNSSPCKSCGLEESA  439 (441)
+T ss_dssp             ---------------
+T ss_pred             CCCCCCccCCccccc
+
+
+No 15
+>PF07330.14 ; DUF1467 ; Protein of unknown function (DUF1467)
+Probab=27.64  E-value=34  Score=20.61  Aligned_cols=17  Identities=24%  Similarity=0.151  Sum_probs=0.0  Template_Neff=5.700
+
+Q ss_pred             CCccCCcCCCCCCCccC
+Q ECJ5209038.1/2   22 GMTSGEPVNPLPGAKVL   38 (38)
+Q Consensus        22 g~t~g~PvNPllGAKVl   38 (38)
+                      |...|.|.||.++-|.+
+T Consensus        39 G~~~gAP~~p~l~~K~l   55 (83)
+T A7HY32_PARL1/1   39 GTDAGAPARHGLLIKAG   55 (83)
+T ss_pred             CCCCCCCccccHHHHHH
+
+
+No 16
+>4Z8W_A Major pollen allergen Pla l 1; Major plantain pollen allergen Ole e 1-like, allergen; 1.98A {Plantago lanceolata}
+Probab=27.21  E-value=1.1e+02  Score=17.76  Aligned_cols=24  Identities=33%  Similarity=0.545  Sum_probs=0.0  Template_Neff=9.100
+
+Q ss_pred             ceeeeCCCCCccCCcCCCCCCCcc
+Q ECJ5209038.1/2   14 VACSVCPGGMTSGEPVNPLPGAKV   37 (38)
+Q Consensus        14 vacsvCpgg~t~g~PvNPllGAKV   37 (38)
+                      |.|..|..+......-.|+.||+|
+T Consensus        15 v~C~~c~~~~~~~~~~~~l~ga~V   38 (131)
+T 4Z8W_A           15 VYCNVCHSRNLINELSERMAGAQV   38 (131)
+T ss_dssp             EEEECBTTCCSCCTTCEECTTCEE
+T ss_pred             EEeecccccCccccCceecCCCEE
+
+
+No 17
+>4JS0_B Brain-specific angiogenesis inhibitor 1-associated protein 2; GTPase binding domain, CRIB domain, cytoskeleton regulation, SIGNALING PROTEIN-SIGNALING PROTEIN complex; HET: PE4, GNP; 1.9A {Homo sapiens}
+Probab=26.96  E-value=93  Score=15.51  Aligned_cols=9  Identities=67%  Similarity=1.280  Sum_probs=0.0  Template_Neff=6.100
+
+Q ss_pred             CCCCCCccC
+Q ECJ5209038.1/2   30 NPLPGAKVL   38 (38)
+Q Consensus        30 NPllGAKVl   38 (38)
+                      +|+.|||+|
+T Consensus        10 ~~~~gak~l   18 (32)
+T 4JS0_B           10 DPIPGAKPL   18 (32)
+T ss_dssp             CCBSCCCCC
+T ss_pred             CCCCCCCCC
+
+
+No 18
+>PF04502.15 ; Saf4_Yju2 ; Saf4/Yju2 protein
+Probab=25.77  E-value=1.2e+02  Score=21.45  Aligned_cols=30  Identities=20%  Similarity=0.276  Sum_probs=0.0  Template_Neff=7.100
+
+Q ss_pred             CCcceeeecCCCcceeeeCCCCCccCCcCC
+Q ECJ5209038.1/2    1 QGLRGGLIGAPTGVACSVCPGGMTSGEPVN   30 (38)
+Q Consensus         1 qGs~gvliGap~gvacsvCpgg~t~g~PvN   30 (38)
+                      +|...|++=.|-.+-|..|..-+.-|.-.|
+T Consensus        20 ~~~~~vRf~~Pf~i~C~~C~~~i~kG~rfN   49 (302)
+T H0UUI7_CAVPO/1   20 DRQYVVRLMAPFNMRCKTCGEYIYKGKKFN   49 (302)
+T ss_pred             CCceEEeeecCCceeeCcCCCEecccceec
+
+
+No 19
+>PF17249.4 ; DUF5318 ; Family of unknown function (DUF5318)
+Probab=25.58  E-value=67  Score=21.29  Aligned_cols=12  Identities=50%  Similarity=1.226  Sum_probs=0.0  Template_Neff=5.000
+
+Q ss_pred             ecCCCcceeeeC
+Q ECJ5209038.1/2    8 IGAPTGVACSVC   19 (38)
+Q Consensus         8 iGap~gvacsvC   19 (38)
+                      .|.|++..|++|
+T Consensus        45 ~G~~t~~~CPvC   56 (131)
+T F4CXU4_PSEUX/4   45 HGQPSDVTCPVC   56 (131)
+T ss_pred             cCccCCCCCCcc
+
+
+No 20
+>TIGR03950 sidero_Fe_reduc; siderophore ferric iron reductase, AHA_1954 family. Members of this protein family are 2Fe-2S cluster binding proteins, found regularly in the context of siderophore transporters.
+Probab=24.36  E-value=75  Score=20.02  Aligned_cols=10  Identities=50%  Similarity=1.095  Sum_probs=0.0  Template_Neff=9.100
+
+Q ss_pred             CCcceeeeCC
+Q ECJ5209038.1/2   11 PTGVACSVCP   20 (38)
+Q Consensus        11 p~gvacsvCp   20 (38)
+                      |.+-.|..||
+T Consensus       213 ~~~~~C~tCP  222 (223)
+T TIGR03950       213 EDGELCSDCP  222 (223)
+T ss_pred             CCCCCCCCCC
+
+
+No 21
+>2O62_B hypothetical protein; STRUCTURAL GENOMICS, JOINT CENTER FOR STRUCTURAL GENOMICS, JCSG, PROTEIN STRUCTURE INITIATIVE, PSI-2, UNKNOWN FUNCTION; HET: MSE, GOL; 1.75A {Nostoc punctiforme} SCOP: b.60.1.9
+Probab=23.71  E-value=1.2e+02  Score=20.22  Aligned_cols=17  Identities=24%  Similarity=0.538  Sum_probs=0.0  Template_Neff=8.400
+
+Q ss_pred             CCcceeeeCCCCCccCCc
+Q ECJ5209038.1/2   11 PTGVACSVCPGGMTSGEP   28 (38)
+Q Consensus        11 p~gvacsvCpgg~t~g~P   28 (38)
+                      |.|+.|+ ||..+..+.+
+T Consensus       216 P~g~~~~-~P~~i~~~~~  232 (270)
+T 2O62_B          216 PDGASAT-SPLKVQLRQP  232 (270)
+T ss_dssp             STTEEEE-EESSCCTTSC
+T ss_pred             CCceEEE-eceeccCCCC
+
+
+No 22
+>d1zhxa2 d.338.1.1 (A:2-434) Oxysterol-binding protein homolog 4, KES1 {Baker's yeast (Saccharomyces cerevisiae) [TaxId: 4932]}
+Probab=23.70  E-value=90  Score=22.68  Aligned_cols=8  Identities=50%  Similarity=1.178  Sum_probs=0.0  Template_Neff=7.800
+
+Q ss_pred             CcCCCCCC
+Q ECJ5209038.1/2   27 EPVNPLPG   34 (38)
+Q Consensus        27 ~PvNPllG   34 (38)
+                      .|.||+||
+T Consensus       108 KPfNPiLG  115 (433)
+T d1zhxa2         108 KPLNPFLG  115 (433)
+T ss_dssp             EEECCCTT
+T ss_pred             cCCCcccC
+
+
+No 23
+>5WNA_A Major surface glycoprotein G; RSV, glycoprotein, G glycoprotein, viral protein, viral attachment protein, antibody, VIRAL PROTEIN-IMMUNE SYSTEM complex; 2.4A {Homo sapiens}
+Probab=23.69  E-value=74  Score=18.77  Aligned_cols=14  Identities=36%  Similarity=0.700  Sum_probs=0.0  Template_Neff=1.500
+
+Q ss_pred             ceeeeCCCCCccCC
+Q ECJ5209038.1/2   14 VACSVCPGGMTSGE   27 (38)
+Q Consensus        14 vacsvCpgg~t~g~   27 (38)
+                      |.||.|.+..+-+.
+T Consensus        13 vPcsIC~nNptc~a   26 (45)
+T 5WNA_A           13 VPCSICSNNPTCWA   26 (45)
+T ss_dssp             CBGGGCTTCHHHHH
+T ss_pred             ccccccCCChhhhh
+
+
+No 24
+>5ZM5_A Oxysterol-binding protein-related protein 1; Transporter, Complex, LIPID TRANSPORT; HET: CLR, CAS; 2.6A {Homo sapiens}
+Probab=23.55  E-value=93  Score=21.83  Aligned_cols=9  Identities=67%  Similarity=1.302  Sum_probs=0.0  Template_Neff=8.800
+
+Q ss_pred             CCcCCCCCC
+Q ECJ5209038.1/2   26 GEPVNPLPG   34 (38)
+Q Consensus        26 g~PvNPllG   34 (38)
+                      ..|.||++|
+T Consensus        90 ~KPfNPiLG   98 (426)
+T 5ZM5_A           90 GKPFNPLLG   98 (426)
+T ss_dssp             SEEECCCTT
+T ss_pred             CCCCCcccc
+
+
+No 25
+>3ORU_A DUF1989 family protein; STRUCTURAL GENOMICS, JOINT CENTER FOR STRUCTURAL GENOMICS, JCSG, PROTEIN STRUCTURE INITIATIVE, PSI-BIOLOGY, METAL BINDING PROTEIN; HET: MSE; 1.11A {Ruegeria sp. TM1040}
+Probab=23.14  E-value=1.5e+02  Score=20.27  Aligned_cols=18  Identities=22%  Similarity=0.303  Sum_probs=0.0  Template_Neff=7.000
+
+Q ss_pred             ceeeeCCCCCccCCcCCC
+Q ECJ5209038.1/2   14 VACSVCPGGMTSGEPVNP   31 (38)
+Q Consensus        14 vacsvCpgg~t~g~PvNP   31 (38)
+                      +++|.||......+--+|
+T Consensus       203 v~iSaCP~~~~~~n~~~p  220 (234)
+T 3ORU_A          203 VVISCCPMDLLPINGEEA  220 (234)
+T ss_dssp             EEEEECCCCSCCBTTBCC
+T ss_pred             EEEeCCCCccCccCCCCC
+
+
+No 26
+>4IC4_A Oxysterol-binding protein homolog 3; beta barrel, lipid transport, PI(4)P binding, LIPID BINDING PROTEIN; 1.5A {Saccharomyces cerevisiae}
+Probab=22.68  E-value=84  Score=21.74  Aligned_cols=8  Identities=50%  Similarity=0.937  Sum_probs=0.0  Template_Neff=8.900
+
+Q ss_pred             CcCCCCCC
+Q ECJ5209038.1/2   27 EPVNPLPG   34 (38)
+Q Consensus        27 ~PvNPllG   34 (38)
+                      .|.||++|
+T Consensus       118 KPfNPiLG  125 (397)
+T 4IC4_A          118 KPFNPLLA  125 (397)
+T ss_dssp             EEECCCTT
+T ss_pred             CCCCccce
+
+
+No 27
+>PF17982.3 ; C5HCH ; NSD Cys-His rich domain
+Probab=22.51  E-value=71  Score=16.30  Aligned_cols=14  Identities=21%  Similarity=0.608  Sum_probs=0.0  Template_Neff=7.800
+
+Q ss_pred             cCCCcceeeeCCCC
+Q ECJ5209038.1/2    9 GAPTGVACSVCPGG   22 (38)
+Q Consensus         9 Gap~gvacsvCpgg   22 (38)
+                      |.+.-..|+.||..
+T Consensus         8 gk~~~~~c~~Cpns   21 (50)
+T A0A091E159_FUK    8 SGAAVSFCEFCPRS   21 (50)
+T ss_pred             CcccHHhCCCCCch
+
+
+No 28
+>PF19126.2 ; DUF5810 ; Family of unknown function (DUF5810)
+Probab=22.27  E-value=69  Score=18.77  Aligned_cols=7  Identities=71%  Similarity=1.706  Sum_probs=0.0  Template_Neff=5.400
+
+Q ss_pred             cceeeeC
+Q ECJ5209038.1/2   13 GVACSVC   19 (38)
+Q Consensus        13 gvacsvC   19 (38)
+                      |..|+||
+T Consensus         2 ~~~CPVC    8 (66)
+T A0A1H3JEU3_9EU    2 GFACPVC    8 (66)
+T ss_pred             CCCCCCC
+
+
+No 29
+>2MFP_A EC protein I/II; Metallothionein, Metal-thiolate cluster, Backbone cyclized protein, METAL BINDING PROTEIN; HET: CD; NMR {Triticum aestivum}
+Probab=22.22  E-value=1.5e+02  Score=16.27  Aligned_cols=15  Identities=33%  Similarity=0.981  Sum_probs=0.0  Template_Neff=2.700
+
+Q ss_pred             CCcceeeeCCCCCccC
+Q ECJ5209038.1/2   11 PTGVACSVCPGGMTSG   26 (38)
+Q Consensus        11 p~gvacsvCpgg~t~g   26 (38)
+                      |.|++|+ |....+.|
+T Consensus        14 pGg~sCr-Ct~~~~g~   28 (31)
+T 2MFP_A           14 PGGTGCR-CTSARSGG   28 (31)
+T ss_dssp             CSSTTCT-TSSCSSCC
+T ss_pred             CCCCcee-eccccCCC
+
+
+No 30
+>1Q01_A lebetin 2 isoform alpha; BETA-BULGED HAIRPAIN, BLOOD CLOTTING; NMR {Macrovipera lebetina}
+Probab=22.15  E-value=88  Score=17.35  Aligned_cols=10  Identities=40%  Similarity=1.009  Sum_probs=0.0  Template_Neff=3.800
+
+Q ss_pred             eecCCCccee
+Q ECJ5209038.1/2    7 LIGAPTGVAC   16 (38)
+Q Consensus         7 liGap~gvac   16 (38)
+                      +||+++|..|
+T Consensus        21 RIg~~sglGC   30 (38)
+T 1Q01_A           21 RIGSHSGLGC   30 (38)
+T ss_dssp             CCCSSCCCCC
+T ss_pred             ccCCcccCCC
+
+
+No 31
+>PF01237.20 ; Oxysterol_BP ; Oxysterol-binding protein
+Probab=22.09  E-value=1e+02  Score=21.04  Aligned_cols=8  Identities=50%  Similarity=1.198  Sum_probs=0.0  Template_Neff=8.800
+
+Q ss_pred             CcCCCCCC
+Q ECJ5209038.1/2   27 EPVNPLPG   34 (38)
+Q Consensus        27 ~PvNPllG   34 (38)
+                      .|.||++|
+T Consensus        73 kP~nPilG   80 (348)
+T F1A5X8_DICPU/6   73 NPLNPILG   80 (348)
+T ss_pred             CCCCcccc
+
+
+No 32
+>6BLH_G Major surface glycoprotein G; Antibody, RSV, Attachment, RSV G, VIRAL PROTEIN, VIRAL PROTEIN-IMMUNE SYSTEM complex; 2.0A {Homo sapiens}
+Probab=21.92  E-value=92  Score=18.42  Aligned_cols=14  Identities=36%  Similarity=0.700  Sum_probs=0.0  Template_Neff=1.600
+
+Q ss_pred             ceeeeCCCCCccCC
+Q ECJ5209038.1/2   14 VACSVCPGGMTSGE   27 (38)
+Q Consensus        14 vacsvCpgg~t~g~   27 (38)
+                      |.||+|.+..+-+.
+T Consensus        19 vPcsiCsnNptc~a   32 (45)
+T 6BLH_G           19 VPCSICSNNPTCWA   32 (45)
+T ss_dssp             CBGGGCTTCHHHHH
+T ss_pred             cceeccCCChhhhh
+
+
+No 33
+>7CYZ_B Oxysterol-binding protein-related protein 3; lipid transfer protein, lipid binding protein, OSBP related protein; HET: CAF; 2.1A {Homo sapiens}
+Probab=21.50  E-value=1.1e+02  Score=20.83  Aligned_cols=8  Identities=50%  Similarity=1.099  Sum_probs=0.0  Template_Neff=9.200
+
+Q ss_pred             CcCCCCCC
+Q ECJ5209038.1/2   27 EPVNPLPG   34 (38)
+Q Consensus        27 ~PvNPllG   34 (38)
+                      .|.||++|
+T Consensus        93 KP~nPiLG  100 (377)
+T 7CYZ_B           93 KPFNPVLG  100 (377)
+T ss_dssp             EEECCCTT
+T ss_pred             CCCCcccC
+
+
+No 34
+>d2dlqa4 g.37.1.1 (A:8-34) GLI-Krueppel family member HKR3 {Mouse (Mus musculus) [TaxId: 10090]}
+Probab=21.38  E-value=76  Score=9.33  Aligned_cols=7  Identities=43%  Similarity=1.222  Sum_probs=0.0  Template_Neff=14.100
+
+Q ss_pred             ceeeeCC
+Q ECJ5209038.1/2   14 VACSVCP   20 (38)
+Q Consensus        14 vacsvCp   20 (38)
+                      +.|..|.
+T Consensus         1 ~~~~~~~    7 (27)
+T d2dlqa4           1 VECPTCH    7 (27)
+T ss_dssp             CCCTTTC
+T ss_pred             CCCCCCC
+
+
+No 35
+>PF12760.9 ; Zn_Tnp_IS1595 ; Transposase zinc-ribbon domain
+Probab=20.99  E-value=1.1e+02  Score=13.92  Aligned_cols=11  Identities=36%  Similarity=1.029  Sum_probs=0.0  Template_Neff=9.700
+
+Q ss_pred             CCcceeeeCCC
+Q ECJ5209038.1/2   11 PTGVACSVCPG   21 (38)
+Q Consensus        11 p~gvacsvCpg   21 (38)
+                      |.|..|+.|..
+T Consensus        16 ~~~~~Cp~C~~   26 (44)
+T A1TA31_MYCVP/4   16 PDGFRCPSCDH   26 (44)
+T ss_pred             CCCccCCCCCC
+
+
+No 36
+>PF06373.13 ; CART ; Cocaine and amphetamine regulated transcript protein (CART)
+Probab=20.86  E-value=1.5e+02  Score=17.45  Aligned_cols=18  Identities=44%  Similarity=0.809  Sum_probs=0.0  Template_Neff=5.600
+
+Q ss_pred             eeecCCCcceeeeCCCCCc
+Q ECJ5209038.1/2    6 GLIGAPTGVACSVCPGGMT   24 (38)
+Q Consensus         6 vliGap~gvacsvCpgg~t   24 (38)
+                      +.-|+..|--|+ ||.|..
+T Consensus        43 ~~~g~r~G~lC~-Cprgs~   60 (69)
+T M4A6V6_XIPMA/4   43 VRKGARIGTLCS-CPRGTA   60 (69)
+T ss_pred             hhcCCCCcceee-cCCCCe
+
+
+No 37
+>PF00212.20 ; ANP ; Atrial natriuretic peptide
+Probab=20.82  E-value=96  Score=16.02  Aligned_cols=10  Identities=40%  Similarity=0.966  Sum_probs=0.0  Template_Neff=4.900
+
+Q ss_pred             eecCCCccee
+Q ECJ5209038.1/2    7 LIGAPTGVAC   16 (38)
+Q Consensus         7 liGap~gvac   16 (38)
+                      .||+++|..|
+T Consensus        22 RIg~~s~lGC   31 (31)
+T G1NRL5_MELGA/1   22 RIGSMSGLGC   31 (31)
+T ss_pred             ccccccCCCC
+
+
+No 38
+>1HRO_B CYTOCHROME C2; ELECTRON TRANSPORT, PHOTOSYNTHESIS, HEME; HET: HEM; 2.2A {Rhodopila globiformis} SCOP: a.3.1.1
+Probab=20.71  E-value=1e+02  Score=14.12  Aligned_cols=19  Identities=21%  Similarity=0.455  Sum_probs=0.0  Template_Neff=13.000
+
+Q ss_pred             eeeCCCCCccCCcCCCCCC
+Q ECJ5209038.1/2   16 CSVCPGGMTSGEPVNPLPG   34 (38)
+Q Consensus        16 csvCpgg~t~g~PvNPllG   34 (38)
+                      |..|.+.-..+...+|.+.
+T Consensus        19 c~~Ch~~~~~~~~~~~~~~   37 (106)
+T 1HRO_B           19 CITCHTDIKGANKVGPSLY   37 (106)
+T ss_dssp             GGGTCCSSTTCBSSSCCCT
+T ss_pred             hHHhccccccCccCCcccc
+
+
+No 39
+>d1x6ea2 g.37.1.1 (A:41-66) Zinc finger protein 24 {Human (Homo sapiens) [TaxId: 9606]}
+Probab=20.69  E-value=1.1e+02  Score=9.78  Aligned_cols=10  Identities=20%  Similarity=0.670  Sum_probs=0.0  Template_Neff=12.900
+
+Q ss_pred             eeeCCCCCcc
+Q ECJ5209038.1/2   16 CSVCPGGMTS   25 (38)
+Q Consensus        16 csvCpgg~t~   25 (38)
+                      |++|......
+T Consensus         5 c~~c~~~~~~   14 (26)
+T d1x6ea2           5 CLECGKAFSQ   14 (26)
+T ss_dssp             CSSSCCEESS
+T ss_pred             CCCCCCcCCC
+
+

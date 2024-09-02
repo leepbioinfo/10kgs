@@ -1,0 +1,620 @@
+Query         10K_MODEL_28 
+Match_columns 128
+No_of_seqs    105 out of 139
+Neff          3.91176
+Searched_HMMs 107766
+Date          Mon Aug 16 17:11:25 2021
+Command       hhsearch -cpu 8 -i ../results/full.a3m -d /cluster/toolkit/production/databases/hh-suite/mmcif70/pdb70 -d /cluster/toolkit/production/databases/hh-suite/scope70/scope70 -d /cluster/toolkit/production/databases/hh-suite/pfama/pfama -d /cluster/toolkit/production/databases/hh-suite/TIGRFAM/TIGRFAM -o ../results/7593791.hhr -oa3m ../results/7593791.a3m -p 20 -Z 250 -loc -z 1 -b 1 -B 250 -ssm 2 -sc 1 -seq 1 -dbstrlen 10000 -norealign -maxres 32000 -contxt /cluster/toolkit/production/bioprogs/tools/hh-suite-build-new/data/context_data.crf 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF08803.13 ; ydhR ; Putative m  47.8      40 0.00037   23.7   2.2   18   45-62      2-19  (96)
+  2 2Z7J_A Capsid assembly protein  42.0      45 0.00041   27.6   1.9   30    7-36     31-60  (125)
+  3 d2omoa1 d.58.4.11 (A:1-98) Hyp  40.8      85 0.00079   20.1   2.7   18   45-62      4-21  (98)
+  4 d1y0ha_ d.58.4.11 (A:) Hypothe  37.0 1.1E+02   0.001   19.8   2.8   18   45-62      8-25  (101)
+  5 d4dpoa1 d.58.4.0 (A:3-96) auto  33.5 1.2E+02  0.0011   19.3   2.6   18   45-62      4-21  (94)
+  6 d3qmqa1 d.58.4.0 (A:1-96) auto  32.5 1.4E+02  0.0013   19.1   2.8   18   45-62      4-21  (96)
+  7 6DS7_B Heme-degrading monooxyg  30.5 1.4E+02  0.0013   18.8   2.5   18   45-62      4-21  (99)
+  8 d2bbea_ d.58.4.0 (A:) automate  30.0 1.6E+02  0.0015   19.0   2.8   18   45-62     11-28  (103)
+  9 2PD1_C Hypothetical protein; u  29.7 1.7E+02  0.0016   18.2   2.8   18   45-62      8-25  (104)
+ 10 2PD1_D Hypothetical protein; u  29.7 1.7E+02  0.0016   18.2   2.8   18   45-62      8-25  (104)
+ 11 d1x7va1 d.58.4.11 (A:1-97) Hyp  29.4 1.7E+02  0.0016   18.8   2.8   17   45-61      7-23  (97)
+ 12 1Y0H_B hypothetical protein Rv  28.9 1.9E+02  0.0017   17.9   2.8   18   45-62      8-25  (102)
+ 13 1X7V_C PA3566 protein; structu  28.3   2E+02  0.0018   17.5   2.8   18   45-62      9-26  (99)
+ 14 2FB0_A conserved hypothetical   27.7 1.9E+02  0.0018   17.5   2.7   18   45-62      7-24  (94)
+ 15 4H03_A Iota toxin component Ia  27.3 2.6E+02  0.0024   24.7   4.2   51    5-55     95-169 (418)
+ 16 d1q8ba_ d.58.4.6 (A:) Hypothet  26.3 2.1E+02  0.0019   18.8   2.8   18   45-62      5-23  (93)
+ 17 4ZOS_A protein YE0340 from Yer  25.1 2.1E+02   0.002   17.8   2.6   18   45-62     14-31  (106)
+ 18 2GFF_B LsrG Protein; dimeric a  25.0 2.2E+02   0.002   18.3   2.7   18   45-62      4-21  (106)
+ 19 d2pd1a1 d.58.4.11 (A:1-100) Hy  24.9 2.3E+02  0.0021   18.4   2.8   18   45-62      6-23  (100)
+ 20 3FGV_A uncharacterized protein  24.8 2.1E+02   0.002   18.0   2.6   18   45-62     17-34  (106)
+ 21 3E8O_B uncharacterized protein  24.5 1.9E+02  0.0018   18.7   2.4   18   45-62     22-39  (119)
+ 22 1Q8B_A Protein yjcS; Structura  23.9 2.5E+02  0.0023   18.0   2.8   18   45-62     16-34  (105)
+ 23 4DPO_A Conserved protein; Stru  23.8 2.1E+02  0.0019   19.2   2.5   18   45-62     28-45  (119)
+ 24 6KJK_A N-terminal domain of Po  23.7 1.8E+02  0.0017   24.5   2.5   31   75-107   114-147 (147)
+ 25 3BM7_A Protein of unknown func  23.5 2.3E+02  0.0021   19.1   2.6   18   45-62     23-40  (115)
+ 26 d1tz0a_ d.58.4.5 (A:) Hypothet  23.5 2.4E+02  0.0022   19.2   2.7   18   45-62      6-23  (108)
+ 27 TIGR03792 TIGR03792; uncharact  23.4 2.1E+02  0.0019   18.4   2.3   18   45-62      3-20  (90)
+ 28 1IUJ_B hypothetical protein TT  22.8 2.1E+02   0.002   18.1   2.3   18   45-62      4-21  (106)
+ 29 3GZ7_B Putative antibiotic bio  22.7 2.5E+02  0.0024   18.6   2.7   18   45-62     23-40  (115)
+ 30 d2j3xa1 d.166.1.0 (A:2-217) au  22.6 3.1E+02  0.0029   22.7   3.7   53    2-55     95-171 (216)
+ 31 3ZED_F CAPSID PROTEIN VP3; VIR  22.1 1.5E+02  0.0014   27.2   2.0   30    7-36    114-143 (242)
+ 32 1GIQ_B IOTA TOXIN COMPONENT IA  21.6 3.8E+02  0.0035   23.7   4.1   51    5-55     90-164 (413)
+ 33 d4h03a2 d.166.1.1 (A:210-413)   21.5 2.9E+02  0.0027   21.9   3.2   54    2-55     80-155 (204)
+ 34 PF09156.12 ; Anthrax-tox_M ; A  21.5 3.7E+02  0.0034   23.8   4.1   53    1-55    169-246 (287)
+ 35 d3hx9a_ d.58.4.0 (A:) automate  21.1   3E+02  0.0028   17.7   2.8   18   45-62      4-21  (101)
+ 36 2BBE_A hypothetical protein SO  21.0 3.1E+02  0.0029   17.2   2.8   18   45-62     16-33  (108)
+ 37 3LGN_A Heme-degrading monooxyg  20.9   3E+02  0.0028   18.4   2.8   18   45-62      6-23  (110)
+ 38 3LGN_B Heme-degrading monooxyg  20.9   3E+02  0.0028   18.4   2.8   18   45-62      6-23  (110)
+ 39 TIGR00523 eIF-1A; eukaryotic/a  20.9 2.8E+02  0.0026   20.9   2.9   23    3-26     76-98  (98)
+ 40 1LQ9_A ACTVA-ORF6 MONOOXYGENAS  20.4 2.7E+02  0.0025   18.4   2.5   18   45-62     12-30  (112)
+ 41 2RIL_A Antibiotic biosynthesis  20.3 2.2E+02   0.002   18.1   2.0   18   45-62      8-25  (99)
+
+No 1
+>PF08803.13 ; ydhR ; Putative mono-oxygenase ydhR
+Probab=47.83  E-value=40  Score=23.71  Aligned_cols=18  Identities=11%  Similarity=0.152  Sum_probs=0.0  Template_Neff=9.200
+
+Q ss_pred             eEEEEEecCchHHHHHHh
+Q 10K_MODEL_28     45 VLVKFNMKSGTQKSLENI   62 (128)
+Q Consensus        45 VlVkf~~kpGT~~~L~~I   62 (128)
+                      ++|.|+++||+.+.+.++
+T Consensus         2 ~~v~f~~~~~~~~~~~~~   19 (96)
+T A0A3N4BJC0_YER    2 LQVDFPYTGPWGNEMTKA   19 (96)
+T ss_pred             EEEEecCCCCCHHHHHHH
+
+
+No 2
+>2Z7J_A Capsid assembly protein VP3; helix, Capsid protein, Hydrolase, Protease, Serine protease, Virion, Viral protein; 2.4A {Infectious bursal disease virus}
+Probab=41.97  E-value=45  Score=27.62  Aligned_cols=30  Identities=20%  Similarity=0.194  Sum_probs=0.0  Template_Neff=2.700
+
+Q ss_pred             EecCCHHHHHHHHHhCCCCCCCcceecCCH
+Q 10K_MODEL_28      7 YRTMSEDNYATLQSTGRMPGTTETTISPTR   36 (128)
+Q Consensus         7 YRtMS~~~y~~L~~TG~lpaT~ETfiSPt~   36 (128)
+                      ||-=|+.+++..+.||..|.-+|+..++..
+T Consensus        31 yRGPs~~Q~KY~~~tg~~P~pg~~~~~~~~   60 (125)
+T 2Z7J_A           31 HRGPSPGQLKYWQNTREIPDPNEDYLDYVH   60 (125)
+T ss_dssp             SCCCCHHHHHHHHHHCSCCCTTCCCTTCCC
+T ss_pred             CCCCCHHHhhhhhhccCCCCCCCccchhcc
+
+
+No 3
+>d2omoa1 d.58.4.11 (A:1-98) Hypothetical protein NE0621 {Nitrosomonas europaea [TaxId: 915]}
+Probab=40.78  E-value=85  Score=20.06  Aligned_cols=18  Identities=11%  Similarity=0.276  Sum_probs=0.0  Template_Neff=11.800
+
+Q ss_pred             eEEEEEecCchHHHHHHh
+Q 10K_MODEL_28     45 VLVKFNMKSGTQKSLENI   62 (128)
+Q Consensus        45 VlVkf~~kpGT~~~L~~I   62 (128)
+                      +.++|.++||..+.+.++
+T Consensus         4 ~~~~~~~~~~~~~~~~~~   21 (98)
+T d2omoa1           4 TIVYASVKTDKTEAFKEA   21 (98)
+T ss_dssp             EEEEEEBCGGGHHHHHHH
+T ss_pred             EEEEEEECcccHHHHHHH
+
+
+No 4
+>d1y0ha_ d.58.4.11 (A:) Hypothetical protein Rv0793 {Mycobacterium tuberculosis [TaxId: 1773]}
+Probab=37.02  E-value=1.1e+02  Score=19.80  Aligned_cols=18  Identities=17%  Similarity=0.460  Sum_probs=0.0  Template_Neff=11.700
+
+Q ss_pred             eEEEEEecCchHHHHHHh
+Q 10K_MODEL_28     45 VLVKFNMKSGTQKSLENI   62 (128)
+Q Consensus        45 VlVkf~~kpGT~~~L~~I   62 (128)
+                      +.++|.++||..+.+.+.
+T Consensus         8 ~~~~~~~~~~~~~~~~~~   25 (101)
+T d1y0ha_           8 VIARFMPRPDARSALRAL   25 (101)
+T ss_dssp             EEEEECBCGGGHHHHHHH
+T ss_pred             EEEEEEeCcchHHHHHHH
+
+
+No 5
+>d4dpoa1 d.58.4.0 (A:3-96) automated matches {Methanosarcina mazei [TaxId: 192952]}
+Probab=33.53  E-value=1.2e+02  Score=19.26  Aligned_cols=18  Identities=22%  Similarity=0.324  Sum_probs=0.0  Template_Neff=11.700
+
+Q ss_pred             eEEEEEecCchHHHHHHh
+Q 10K_MODEL_28     45 VLVKFNMKSGTQKSLENI   62 (128)
+Q Consensus        45 VlVkf~~kpGT~~~L~~I   62 (128)
+                      +.++|+++||..+.+.+.
+T Consensus         4 ~~~~~~~~~~~~~~~~~~   21 (94)
+T d4dpoa1           4 VVAKNQVKPEKVQEFMNL   21 (94)
+T ss_dssp             EEEEEEBCTTTHHHHHHH
+T ss_pred             EEEEEEeChhhHHHHHHH
+
+
+No 6
+>d3qmqa1 d.58.4.0 (A:1-96) automated matches {Escherichia coli [TaxId: 511145]}
+Probab=32.46  E-value=1.4e+02  Score=19.05  Aligned_cols=18  Identities=17%  Similarity=0.344  Sum_probs=0.0  Template_Neff=11.700
+
+Q ss_pred             eEEEEEecCchHHHHHHh
+Q 10K_MODEL_28     45 VLVKFNMKSGTQKSLENI   62 (128)
+Q Consensus        45 VlVkf~~kpGT~~~L~~I   62 (128)
+                      +.++|+++||..+.+.+.
+T Consensus         4 ~~~~~~~~~~~~~~~~~~   21 (96)
+T d3qmqa1           4 TLVEINVHEDKVDEFIEV   21 (96)
+T ss_dssp             EEEEEEBCGGGHHHHHHH
+T ss_pred             EEEEEEeCchhHHHHHHH
+
+
+No 7
+>6DS7_B Heme-degrading monooxygenase HmoB; Heme Oxygenase (decyclizing) Activity, Monooxygenase Activity, Oxidoreductase Activity, Heme Binding, Metal Ion Binding, Heme Catabolic Process; HET: HEM; 1.9A {Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv)} SCOP: d.58.4.0
+Probab=30.46  E-value=1.4e+02  Score=18.77  Aligned_cols=18  Identities=17%  Similarity=0.266  Sum_probs=0.0  Template_Neff=12.200
+
+Q ss_pred             eEEEEEecCchHHHHHHh
+Q 10K_MODEL_28     45 VLVKFNMKSGTQKSLENI   62 (128)
+Q Consensus        45 VlVkf~~kpGT~~~L~~I   62 (128)
+                      +++.|.++||..+.+.+.
+T Consensus         4 ~~~~~~~~~~~~~~~~~~   21 (99)
+T 6DS7_B            4 KINAIEVPAGAGPELEKR   21 (99)
+T ss_dssp             EEEEEECCTTCHHHHHHH
+T ss_pred             EEEEEEeCCCccHHHHHH
+
+
+No 8
+>d2bbea_ d.58.4.0 (A:) automated matches {Shewanella oneidensis [TaxId: 211586]}
+Probab=30.02  E-value=1.6e+02  Score=19.03  Aligned_cols=18  Identities=22%  Similarity=0.320  Sum_probs=0.0  Template_Neff=11.700
+
+Q ss_pred             eEEEEEecCchHHHHHHh
+Q 10K_MODEL_28     45 VLVKFNMKSGTQKSLENI   62 (128)
+Q Consensus        45 VlVkf~~kpGT~~~L~~I   62 (128)
+                      +.++|.++||..+.+.+.
+T Consensus        11 ~~~~~~~~~~~~~~~~~~   28 (103)
+T d2bbea_          11 CVASFLSKEGKTEALIAA   28 (103)
+T ss_dssp             EEEEEEECTTCHHHHHHH
+T ss_pred             EEEEEEECCCCHHHHHHH
+
+
+No 9
+>2PD1_C Hypothetical protein; unknown function, NE2512 protein, structural genomics, APC7253, PSI-2, Protein Structure Initiative, Midwest Center for Structural Genomics; HET: ACT, MSE; 1.86A {Nitrosomonas europaea} SCOP: d.58.4.11, l.1.1.1
+Probab=29.72  E-value=1.7e+02  Score=18.19  Aligned_cols=18  Identities=22%  Similarity=0.591  Sum_probs=0.0  Template_Neff=12.600
+
+Q ss_pred             eEEEEEecCchHHHHHHh
+Q 10K_MODEL_28     45 VLVKFNMKSGTQKSLENI   62 (128)
+Q Consensus        45 VlVkf~~kpGT~~~L~~I   62 (128)
+                      +.++|+++||..+.+.+.
+T Consensus         8 ~~~~~~~~~~~~~~~~~~   25 (104)
+T 2PD1_C            8 LFVRLEAKPGQEAALADF   25 (104)
+T ss_dssp             EEEEEEBCTTCHHHHHHH
+T ss_pred             EEEEEEeCCCCHHHHHHH
+
+
+No 10
+>2PD1_D Hypothetical protein; unknown function, NE2512 protein, structural genomics, APC7253, PSI-2, Protein Structure Initiative, Midwest Center for Structural Genomics; HET: MSE, ACT; 1.86A {Nitrosomonas europaea} SCOP: d.58.4.11, l.1.1.1
+Probab=29.72  E-value=1.7e+02  Score=18.19  Aligned_cols=18  Identities=22%  Similarity=0.591  Sum_probs=0.0  Template_Neff=12.600
+
+Q ss_pred             eEEEEEecCchHHHHHHh
+Q 10K_MODEL_28     45 VLVKFNMKSGTQKSLENI   62 (128)
+Q Consensus        45 VlVkf~~kpGT~~~L~~I   62 (128)
+                      +.++|+++||..+.+.+.
+T Consensus         8 ~~~~~~~~~~~~~~~~~~   25 (104)
+T 2PD1_D            8 LFVRLEAKPGQEAALADF   25 (104)
+T ss_dssp             EEEEEEBCTTCHHHHHHH
+T ss_pred             EEEEEEeCCCCHHHHHHH
+
+
+No 11
+>d1x7va1 d.58.4.11 (A:1-97) Hypothetical protein PA3566 {Pseudomonas aeruginosa [TaxId: 287]}
+Probab=29.43  E-value=1.7e+02  Score=18.83  Aligned_cols=17  Identities=18%  Similarity=0.431  Sum_probs=0.0  Template_Neff=11.600
+
+Q ss_pred             eEEEEEecCchHHHHHH
+Q 10K_MODEL_28     45 VLVKFNMKSGTQKSLEN   61 (128)
+Q Consensus        45 VlVkf~~kpGT~~~L~~   61 (128)
+                      +.++|+++||..+.+.+
+T Consensus         7 ~~~~~~~~~~~~~~~~~   23 (97)
+T d1x7va1           7 LIATITAAPGHAEALER   23 (97)
+T ss_dssp             EEEEEEECTTCHHHHHH
+T ss_pred             EEEEEEECCCcHHHHHH
+
+
+No 12
+>1Y0H_B hypothetical protein Rv0793; ferredoxin-like fold, alpha+beta sandwich with antiparallel beta-sheet, Structural Genomics, PSI, Protein Structure Initiative, TB Structural Genomics; HET: ACT; 1.6A {Mycobacterium tuberculosis} SCOP: d.58.4.11
+Probab=28.90  E-value=1.9e+02  Score=17.90  Aligned_cols=18  Identities=17%  Similarity=0.460  Sum_probs=0.0  Template_Neff=12.700
+
+Q ss_pred             eEEEEEecCchHHHHHHh
+Q 10K_MODEL_28     45 VLVKFNMKSGTQKSLENI   62 (128)
+Q Consensus        45 VlVkf~~kpGT~~~L~~I   62 (128)
+                      ++++|+++||..+.+.+.
+T Consensus         8 ~~~~~~~~~~~~~~~~~~   25 (102)
+T 1Y0H_B            8 VIARFMPRPDARSALRAL   25 (102)
+T ss_dssp             EEEEECBCGGGHHHHHHH
+T ss_pred             EEEEEeeCcchHHHHHHH
+
+
+No 13
+>1X7V_C PA3566 protein; structural genomics, protein structure initiative, Midwest Center for Structural Genomics, alpha-beta plait, PSI, MCSG, UNKNOWN FUNCTION; HET: MSE; 1.78A {Pseudomonas aeruginosa} SCOP: d.58.4.11, l.1.1.1
+Probab=28.27  E-value=2e+02  Score=17.49  Aligned_cols=18  Identities=17%  Similarity=0.357  Sum_probs=0.0  Template_Neff=12.900
+
+Q ss_pred             eEEEEEecCchHHHHHHh
+Q 10K_MODEL_28     45 VLVKFNMKSGTQKSLENI   62 (128)
+Q Consensus        45 VlVkf~~kpGT~~~L~~I   62 (128)
+                      ++++|.++||..+.+.+.
+T Consensus         9 ~~~~~~~~~~~~~~~~~~   26 (99)
+T 1X7V_C            9 LIATITAAPGHAEALERE   26 (99)
+T ss_dssp             EEEEEEECTTCHHHHHHH
+T ss_pred             EEEEEEeCCCcHHHHHHH
+
+
+No 14
+>2FB0_A conserved hypothetical protein; Conserved hypothetical protein, SAD, Bacteroides thetaiotaomicron, Structural Genomics, PSI, Protein Structure Initiative, Midwest Center for Structural; HET: GOL, MSE; 2.1A {Bacteroides thetaiotaomicron}
+Probab=27.73  E-value=1.9e+02  Score=17.53  Aligned_cols=18  Identities=6%  Similarity=0.008  Sum_probs=0.0  Template_Neff=12.700
+
+Q ss_pred             eEEEEEecCchHHHHHHh
+Q 10K_MODEL_28     45 VLVKFNMKSGTQKSLENI   62 (128)
+Q Consensus        45 VlVkf~~kpGT~~~L~~I   62 (128)
+                      +.+.|+++||..+.+.++
+T Consensus         7 ~~~~~~~~~~~~~~~~~~   24 (94)
+T 2FB0_A            7 LNVFVRVNETNREKAIEA   24 (94)
+T ss_dssp             EEEEEECCTTTHHHHHHH
+T ss_pred             EEEEEEeChhhHHHHHHH
+
+
+No 15
+>4H03_A Iota toxin component Ia; ADP-ribosyltransferase, TOXIN-STRUCTURAL PROTEIN complex; HET: HIC, ATP, LAR, NAD, EDO; 1.75A {Clostridium perfringens} SCOP: l.1.1.1, d.166.1.1
+Probab=27.31  E-value=2.6e+02  Score=24.74  Aligned_cols=51  Identities=14%  Similarity=0.223  Sum_probs=0.0  Template_Neff=10.100
+
+Q ss_pred             eeEe-------------------cCCHHHHHHHHH---hCCC--CCCCcceecCCHHHHhcCCceEEEEEecCch
+Q 10K_MODEL_28      5 IFYR-------------------TMSEDNYATLQS---TGRM--PGTTETTISPTRVFSEAYDGVLVKFNMKSGT   55 (128)
+Q Consensus         5 i~YR-------------------tMS~~~y~~L~~---TG~l--paT~ETfiSPt~~yS~~Y~GVlVkf~~kpGT   55 (128)
+                      +.||                   .++++.++.|++   .+.+  ++=.-|++++....+..-..+++++.+.+||
+T Consensus        95 ~vyR~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~g~~~~~~~f~Sts~~~~~~~~~~~~~~~~~i~~p~G~  169 (418)
+T 4H03_A           95 NVYYFESPEKFAFNKEIRTENQNEISLEKFNELKETIQDKLFKQDGFKDVSLYEPGNGDEKPTPLLIHLKLPKNT  169 (418)
+T ss_dssp             EEEEECCGGGGTCCSCSSCSSCCCCCHHHHHHHHHHHTTCEEEEEEEEEEBSSCCCTTSCCCSSEEEEEEECTTC
+T ss_pred             EEEEeCCHHHhcCCccccCCCCCccCHHHHHHHHHHhcCCccccCCceeccccCCCCCCCCCCcEEEEEEcCCCC
+
+
+No 16
+>d1q8ba_ d.58.4.6 (A:) Hypothetical protein YjcS {Bacillus subtilis [TaxId: 1423]}
+Probab=26.25  E-value=2.1e+02  Score=18.82  Aligned_cols=18  Identities=6%  Similarity=0.058  Sum_probs=0.0  Template_Neff=10.900
+
+Q ss_pred             eEEEEEecCch-HHHHHHh
+Q 10K_MODEL_28     45 VLVKFNMKSGT-QKSLENI   62 (128)
+Q Consensus        45 VlVkf~~kpGT-~~~L~~I   62 (128)
+                      +++.|+++||. .+.+.+.
+T Consensus         5 ~~~~~~v~~~~~~~~~~~~   23 (93)
+T d1q8ba_           5 ITACLKIISDKDLNEIMKE   23 (93)
+T ss_dssp             EEEEEEECCCSCHHHHHHH
+T ss_pred             EEEEEEEcCcchHHHHHHH
+
+
+No 17
+>4ZOS_A protein YE0340 from Yersinia enterocolitica subsp. enterocolitica 8081; Yersinia enterocolitica subsp. enterocolitica 8081, hypothetical protein YE0340, Structural Genomics, CSGID, Center for Structural Genomics of; HET: PO4; 2.2A {Yersinia enterocolitica}
+Probab=25.11  E-value=2.1e+02  Score=17.77  Aligned_cols=18  Identities=0%  Similarity=0.353  Sum_probs=0.0  Template_Neff=12.700
+
+Q ss_pred             eEEEEEecCchHHHHHHh
+Q 10K_MODEL_28     45 VLVKFNMKSGTQKSLENI   62 (128)
+Q Consensus        45 VlVkf~~kpGT~~~L~~I   62 (128)
+                      +++.|.++||..+.+.+.
+T Consensus        14 ~~~~~~~~~~~~~~~~~~   31 (106)
+T 4ZOS_A           14 IICELRCEPENRERVKEL   31 (106)
+T ss_dssp             EEEEEEECGGGHHHHHHH
+T ss_pred             EEEEEEeChhhHHHHHHH
+
+
+No 18
+>2GFF_B LsrG Protein; dimeric alpha+beta barrel Ferredoxin fold, SUGAR BINDING PROTEIN; HET: MSE; 1.75A {Yersinia pestis} SCOP: d.58.4.0, l.1.1.1
+Probab=25.04  E-value=2.2e+02  Score=18.28  Aligned_cols=18  Identities=22%  Similarity=0.392  Sum_probs=0.0  Template_Neff=12.100
+
+Q ss_pred             eEEEEEecCchHHHHHHh
+Q 10K_MODEL_28     45 VLVKFNMKSGTQKSLENI   62 (128)
+Q Consensus        45 VlVkf~~kpGT~~~L~~I   62 (128)
+                      +.++|+++||..+.+.++
+T Consensus         4 ~i~~~~~~~~~~~~~~~~   21 (106)
+T 2GFF_B            4 TLVEINVKEDKVDQFIEV   21 (106)
+T ss_dssp             EEEEEEBCGGGHHHHHHH
+T ss_pred             EEEEEEeChhhHHHHHHH
+
+
+No 19
+>d2pd1a1 d.58.4.11 (A:1-100) Hypothetical protein NE2512 {Nitrosomonas europaea [TaxId: 915]}
+Probab=24.89  E-value=2.3e+02  Score=18.41  Aligned_cols=18  Identities=22%  Similarity=0.591  Sum_probs=0.0  Template_Neff=11.500
+
+Q ss_pred             eEEEEEecCchHHHHHHh
+Q 10K_MODEL_28     45 VLVKFNMKSGTQKSLENI   62 (128)
+Q Consensus        45 VlVkf~~kpGT~~~L~~I   62 (128)
+                      +.++|+++||..+.+.+.
+T Consensus         6 ~~~~~~~~~~~~~~~~~~   23 (100)
+T d2pd1a1           6 LFVRLEAKPGQEAALADF   23 (100)
+T ss_dssp             EEEEEEBCTTCHHHHHHH
+T ss_pred             EEEEEEeCCCcHHHHHHH
+
+
+No 20
+>3FGV_A uncharacterized protein with ferredoxin-like fold; PHOSPHOSERINE AMINOTRANSFERASE SERC, STRUCTURAL GENOMICS, JOINT CENTER FOR STRUCTURAL GENOMICS, JCSG, PROTEIN STRUCTURE INITIATIVE, PSI-2, OXIDOREDUCTASE; HET: MSE, EDO, UNL; 1.3A {Silicibacter pomeroyi DSS-3}
+Probab=24.79  E-value=2.1e+02  Score=18.04  Aligned_cols=18  Identities=22%  Similarity=0.392  Sum_probs=0.0  Template_Neff=12.400
+
+Q ss_pred             eEEEEEecCchHHHHHHh
+Q 10K_MODEL_28     45 VLVKFNMKSGTQKSLENI   62 (128)
+Q Consensus        45 VlVkf~~kpGT~~~L~~I   62 (128)
+                      +.++|.++||..+.+.++
+T Consensus        17 ~~~~~~~~~~~~~~~~~~   34 (106)
+T 3FGV_A           17 VIVKSTPQRGKFNAFAEL   34 (106)
+T ss_dssp             EEEEECBCTTCHHHHHHH
+T ss_pred             EEEEEecCcccHHHHHHH
+
+
+No 21
+>3E8O_B uncharacterized protein with ferredoxin-like fold; PUTATIVE ANTIBIOTIC BIOSYNTHESIS MONOOXYGENASE, STRUCTURAL GENOMICS, JOINT CENTER FOR STRUCTURAL GENOMICS, JCSG, PROTEIN STRUCTURE INITIATIVE, PSI-2; HET: MSE, UNL; 1.4A {Deinococcus radiodurans}
+Probab=24.50  E-value=1.9e+02  Score=18.68  Aligned_cols=18  Identities=6%  Similarity=0.063  Sum_probs=0.0  Template_Neff=12.400
+
+Q ss_pred             eEEEEEecCchHHHHHHh
+Q 10K_MODEL_28     45 VLVKFNMKSGTQKSLENI   62 (128)
+Q Consensus        45 VlVkf~~kpGT~~~L~~I   62 (128)
+                      ++++|+++||..+.+.++
+T Consensus        22 ~~~~~~~~~~~~~~~~~~   39 (119)
+T 3E8O_B           22 SHGTLSASAEHAAHLRQL   39 (119)
+T ss_dssp             EEEEEECCHHHHHHHHHH
+T ss_pred             EEEEEEeCHHHHHHHHHH
+
+
+No 22
+>1Q8B_A Protein yjcS; Structural Genomics, PSI, Protein Structure Initiative, Midwest Center for Structural Genomics, MCSG, Unknown Function; HET: MSE; 1.9A {Bacillus subtilis} SCOP: d.58.4.6
+Probab=23.94  E-value=2.5e+02  Score=17.98  Aligned_cols=18  Identities=6%  Similarity=0.058  Sum_probs=0.0  Template_Neff=12.100
+
+Q ss_pred             eEEEEEecCch-HHHHHHh
+Q 10K_MODEL_28     45 VLVKFNMKSGT-QKSLENI   62 (128)
+Q Consensus        45 VlVkf~~kpGT-~~~L~~I   62 (128)
+                      +.+.|.++||. .+.+.+.
+T Consensus        16 ~~~~~~~~~~~~~~~~~~~   34 (105)
+T 1Q8B_A           16 ITACLKIISDKDLNEIMKE   34 (105)
+T ss_dssp             EEEEEEECCCSCHHHHHHH
+T ss_pred             EEEEEEeCCcccHHHHHHH
+
+
+No 23
+>4DPO_A Conserved protein; Structural Genomics, PSI-Biology, New York Structural Genomics Research Consortium, NYSGRC, Putative antibitic biosynthesis mono oxygenase, UNKNOWN; HET: MSE; 2.73A {Methanosarcina mazei} SCOP: d.58.4.0, l.1.1.1
+Probab=23.78  E-value=2.1e+02  Score=19.22  Aligned_cols=18  Identities=22%  Similarity=0.324  Sum_probs=0.0  Template_Neff=11.600
+
+Q ss_pred             eEEEEEecCchHHHHHHh
+Q 10K_MODEL_28     45 VLVKFNMKSGTQKSLENI   62 (128)
+Q Consensus        45 VlVkf~~kpGT~~~L~~I   62 (128)
+                      ++++|+++||..+.+.+.
+T Consensus        28 ~i~~~~~~~~~~~~~~~~   45 (119)
+T 4DPO_A           28 VVAKNQVKPEKVQEFMNL   45 (119)
+T ss_dssp             EEEEEEBCTTTHHHHHHH
+T ss_pred             EEEEEEeChHHHHHHHHH
+
+
+No 24
+>6KJK_A N-terminal domain of PorA (28-171); T9SS cargo protein, SIGNALING PROTEIN; 1.3A {Porphyromonas gingivalis ATCC 33277}
+Probab=23.71  E-value=1.8e+02  Score=24.49  Aligned_cols=31  Identities=29%  Similarity=0.502  Sum_probs=0.0  Template_Neff=1.200
+
+Q ss_pred             CCCCCCCCCCCCcccccEEeEecC---ceeeeCCCc
+Q 10K_MODEL_28     75 YPDMPSPTKTKGWGYNYARFKGEG---EQINIGLGK  107 (128)
+Q Consensus        75 ~p~m~~p~~~~gW~~~~a~FK~Eg---~qinigLGk  107 (128)
+                      ||+-  -........-|..||..|   +-.|||||+
+T Consensus       114 fpes--gapgtelatvninfkykgggt~ltniglgr  147 (147)
+T 6KJK_A          114 FPES--GAPGTELATVNINFKYKGGGTDLTNIGLGR  147 (147)
+T ss_dssp             EETT--CCTTCCSEEEEEEEEETTCC----------
+T ss_pred             ccCC--CCCCceEEEEEEeeEecCCCcCcceeccCC
+
+
+No 25
+>3BM7_A Protein of unknown function with ferredoxin-like fold; FERREDOXIN-LIKE FOLD, ANTIBIOTIC BIOSYNTHESIS MONOOXYGENASE, STRUCTURAL GENOMICS, JOINT CENTER FOR STRUCTURAL GENOMICS, JCSG, PROTEIN STRUCTURE INITIATIVE; HET: MSE; 1.35A {Caulobacter crescentus}
+Probab=23.47  E-value=2.3e+02  Score=19.06  Aligned_cols=18  Identities=11%  Similarity=0.397  Sum_probs=0.0  Template_Neff=11.400
+
+Q ss_pred             eEEEEEecCchHHHHHHh
+Q 10K_MODEL_28     45 VLVKFNMKSGTQKSLENI   62 (128)
+Q Consensus        45 VlVkf~~kpGT~~~L~~I   62 (128)
+                      +++.|.++||..+.+.++
+T Consensus        23 ~~~~~~~~~~~~~~~~~~   40 (115)
+T 3BM7_A           23 VVATLKVQPAKAAEFEKV   40 (115)
+T ss_dssp             EEEEEEECGGGHHHHHHH
+T ss_pred             EEEEEEEChhhHHHHHHH
+
+
+No 26
+>d1tz0a_ d.58.4.5 (A:) Hypothetical protein BC2969 {Bacillus cereus [TaxId: 1396]}
+Probab=23.46  E-value=2.4e+02  Score=19.22  Aligned_cols=18  Identities=22%  Similarity=0.268  Sum_probs=0.0  Template_Neff=10.800
+
+Q ss_pred             eEEEEEecCchHHHHHHh
+Q 10K_MODEL_28     45 VLVKFNMKSGTQKSLENI   62 (128)
+Q Consensus        45 VlVkf~~kpGT~~~L~~I   62 (128)
+                      ++++|.++||..+.+.++
+T Consensus         6 ~~~~~~v~~~~~~~f~~~   23 (108)
+T d1tz0a_           6 ETKTFTVKEGTSNIVVER   23 (108)
+T ss_dssp             EEEEEEECTTCHHHHHHH
+T ss_pred             EEEEEEeCCCcHHHHHHH
+
+
+No 27
+>TIGR03792 TIGR03792; uncharacterized cyanobacterial protein, TIGR03792 family. Members of this family are found, no more than one to a genome, exclusively in (but not universal to) the Cyanobacteria.
+Probab=23.41  E-value=2.1e+02  Score=18.39  Aligned_cols=18  Identities=6%  Similarity=0.250  Sum_probs=0.0  Template_Neff=11.300
+
+Q ss_pred             eEEEEEecCchHHHHHHh
+Q 10K_MODEL_28     45 VLVKFNMKSGTQKSLENI   62 (128)
+Q Consensus        45 VlVkf~~kpGT~~~L~~I   62 (128)
+                      .++.|+++||..+.+.+.
+T Consensus         3 ~~~~~~~~~~~~~~~~~~   20 (90)
+T TIGR03792         3 EWLRFKVPPEDREAFLEA   20 (90)
+T ss_pred             EEEEEEcChHHHHHHHHH
+
+
+No 28
+>1IUJ_B hypothetical protein TT1380; STRUCTURAL GENOMICS, RIKEN Structural Genomics/Proteomics Initiative, RSGI, UNKNOWN FUNCTION; 1.6A {Thermus thermophilus} SCOP: d.58.4.5
+Probab=22.81  E-value=2.1e+02  Score=18.15  Aligned_cols=18  Identities=6%  Similarity=0.230  Sum_probs=0.0  Template_Neff=12.300
+
+Q ss_pred             eEEEEEecCchHHHHHHh
+Q 10K_MODEL_28     45 VLVKFNMKSGTQKSLENI   62 (128)
+Q Consensus        45 VlVkf~~kpGT~~~L~~I   62 (128)
+                      +++.|.++||..+.+.+.
+T Consensus         4 ~~~~~~~~~~~~~~~~~~   21 (106)
+T 1IUJ_B            4 TMNRIPVRPEYAEQFEEA   21 (106)
+T ss_dssp             EEEEECBCGGGHHHHHHH
+T ss_pred             EEEEEEcCHHHHHHHHHH
+
+
+No 29
+>3GZ7_B Putative antibiotic biosynthesis monooxygenase; NP_888398.1, Putative antibiotic biosynthesis monooxygenase, Structural Genomics, Joint Center for Structural Genomics, JCSG, Protein Structure Initiative; HET: CIT, MSE; 2.15A {Bordetella bronchiseptica}
+Probab=22.73  E-value=2.5e+02  Score=18.60  Aligned_cols=18  Identities=11%  Similarity=0.217  Sum_probs=0.0  Template_Neff=11.700
+
+Q ss_pred             eEEEEEecCchHHHHHHh
+Q 10K_MODEL_28     45 VLVKFNMKSGTQKSLENI   62 (128)
+Q Consensus        45 VlVkf~~kpGT~~~L~~I   62 (128)
+                      ++++|+++||..+.+.+.
+T Consensus        23 ~i~~~~~~~~~~~~~~~~   40 (115)
+T 3GZ7_B           23 EIASILVQPGREADFEAG   40 (115)
+T ss_dssp             EEEEEEBCTTCHHHHHHH
+T ss_pred             EEEEEEeCCCCHHHHHHH
+
+
+No 30
+>d2j3xa1 d.166.1.0 (A:2-217) automated matches {Clostridium botulinum [TaxId: 1491]}
+Probab=22.64  E-value=3.1e+02  Score=22.69  Aligned_cols=53  Identities=9%  Similarity=0.026  Sum_probs=0.0  Template_Neff=8.800
+
+Q ss_pred             ccceeEecCCHHHH------------------------HHHHHhCCCCCCCcceecCCHHHHhcCCceEEEEEecCch
+Q 10K_MODEL_28      2 EAEIFYRTMSEDNY------------------------ATLQSTGRMPGTTETTISPTRVFSEAYDGVLVKFNMKSGT   55 (128)
+Q Consensus         2 e~Ei~YRtMS~~~y------------------------~~L~~TG~lpaT~ETfiSPt~~yS~~Y~GVlVkf~~kpGT   55 (128)
+                      ++=+.||.++..++                        +.|. .+.+...+=+++|..........-+++++.+..||
+T Consensus        95 ~~~~vYR~~~~~~~~~~~~~~~~~~~~~i~~e~~~~~~~~~~-g~~~~~~gf~Stsl~~~~~~~~~~i~l~i~vPkGt  171 (216)
+T d2j3xa1          95 RDAIGYVNFTPKELGINFSIRDVELDRDISDETLDKVRQQII-NQEYTKFSFISLGLNDNSINESVPVIVKTRVPTTF  171 (216)
+T ss_dssp             SCEEEEECCCTGGGTCCSCSCCBTTTTBCCHHHHHHHHHHHT-TCCEEECSCEEEECSGGGCCTTSCEEEEEEECTTC
+T ss_pred             CCeEEEEecCHHHhCCCCccccCCcCCCCCHHHHHHHHHHHc-CCeeeecccEEeeccCCCCCCCCCEEEEEEeCCCC
+
+
+No 31
+>3ZED_F CAPSID PROTEIN VP3; VIRAL PROTEIN, VIRUS MORPHOGENESIS; HET: GOL; 2.2A {INFECTIOUS PANCREATIC NECROSIS VIRUS}
+Probab=22.09  E-value=1.5e+02  Score=27.24  Aligned_cols=30  Identities=30%  Similarity=0.389  Sum_probs=0.0  Template_Neff=3.000
+
+Q ss_pred             EecCCHHHHHHHHHhCCCCCCCcceecCCH
+Q 10K_MODEL_28      7 YRTMSEDNYATLQSTGRMPGTTETTISPTR   36 (128)
+Q Consensus         7 YRtMS~~~y~~L~~TG~lpaT~ETfiSPt~   36 (128)
+                      ||-=|+.+++..+.||.+|.-+|+..++..
+T Consensus       114 yRGPs~~Q~KYy~~tg~~P~pg~~~~~~~~  143 (242)
+T 3ZED_F          114 YRGPSPGQFKYYMITGRVPNPGEEYEDYVR  143 (242)
+T ss_pred             CCCCCHHHHhhhhhccCCCCCCCCcccccC
+
+
+No 32
+>1GIQ_B IOTA TOXIN COMPONENT IA; enzymatic component, TOXIN; HET: NAI; 1.8A {Clostridium perfringens} SCOP: d.166.1.1
+Probab=21.56  E-value=3.8e+02  Score=23.67  Aligned_cols=51  Identities=14%  Similarity=0.223  Sum_probs=0.0  Template_Neff=10.200
+
+Q ss_pred             eeEe-------------------cCCHHHHHHHHH---hCCC--CCCCcceecCCHHHHhcCCceEEEEEecCch
+Q 10K_MODEL_28      5 IFYR-------------------TMSEDNYATLQS---TGRM--PGTTETTISPTRVFSEAYDGVLVKFNMKSGT   55 (128)
+Q Consensus         5 i~YR-------------------tMS~~~y~~L~~---TG~l--paT~ETfiSPt~~yS~~Y~GVlVkf~~kpGT   55 (128)
+                      +.||                   +++.+.++.|.+   .+.+  ++=..|++++....+..-..|++++.+.+||
+T Consensus        90 ~vyr~~~~~~~~~~~~~~~~~~~~i~~~~~~~~~~~~~g~~~~~~~f~sts~~~~~~~~~~~~~i~~~i~~p~g~  164 (413)
+T 1GIQ_B           90 NVYYFESPEKFAFNKEIRTENQNEISLEKFNELKETIQDKLFKQDGFKDVSLYEPGNGDEKPTPLLIHLKLPKNT  164 (413)
+T ss_dssp             EEEEECCGGGGTCCSCSSCSSCCCCCHHHHHHHHHHTSSCEEEEEEEEEEBSSCCCTTSCCCSSEEEEEEECTTC
+T ss_pred             EEEEeCCHHHhCCCccccCCCCCccCHHHHHHHHHHhcCCccccccceeeeccCCCCCCCCCccEEEEEEcCCCC
+
+
+No 33
+>d4h03a2 d.166.1.1 (A:210-413) automated matches {Clostridium perfringens [TaxId: 1502]}
+Probab=21.51  E-value=2.9e+02  Score=21.88  Aligned_cols=54  Identities=13%  Similarity=0.172  Sum_probs=0.0  Template_Neff=9.900
+
+Q ss_pred             ccceeEecCCHHHH--------------------HHHHHhCCCCCCCcceecCCHHHHhcC--CceEEEEEecCch
+Q 10K_MODEL_28      2 EAEIFYRTMSEDNY--------------------ATLQSTGRMPGTTETTISPTRVFSEAY--DGVLVKFNMKSGT   55 (128)
+Q Consensus         2 e~Ei~YRtMS~~~y--------------------~~L~~TG~lpaT~ETfiSPt~~yS~~Y--~GVlVkf~~kpGT   55 (128)
+                      ++-+.||.++...+                    ..+.....+-..+-++.|.....+..+  .++.+++.+..||
+T Consensus        80 ~~~~vyrg~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~g~~~~~~~f~Sts~~~~~a~~~~~~~i~~~i~~p~g~  155 (204)
+T d4h03a2          80 SNLIVYRRSGPQEFGLTLTSPEYDFNKIENIDAFKEKWEGKVITYPNFISTSIGSVNMSAFAKRKIILRINIPKDS  155 (204)
+T ss_dssp             SCEEEEEEECGGGGTCCTTCGGGCTTSHHHHHHHHHHHTTCEEEESSCEEEESCCCBCGGGTTCCEEEEEEECTTC
+T ss_pred             CCEEEEEeeChHHhcccCCCCCcCccchhcHHHHHHHhCCCEEeeCCceeeeccccccchhcCCcEEEEEEcCCCC
+
+
+No 34
+>PF09156.12 ; Anthrax-tox_M ; Anthrax toxin lethal factor, middle domain
+Probab=21.48  E-value=3.7e+02  Score=23.78  Aligned_cols=53  Identities=9%  Similarity=0.100  Sum_probs=0.0  Template_Neff=8.100
+
+Q ss_pred             CccceeEecCCHHHHHHHH-------------------------HhCCCCCCCcceecCCHHHHhcCCceEEEEEecCch
+Q 10K_MODEL_28      1 AEAEIFYRTMSEDNYATLQ-------------------------STGRMPGTTETTISPTRVFSEAYDGVLVKFNMKSGT   55 (128)
+Q Consensus         1 ~e~Ei~YRtMS~~~y~~L~-------------------------~TG~lpaT~ETfiSPt~~yS~~Y~GVlVkf~~kpGT   55 (128)
+                      .++=+.||.++...+....                         ..+..++=--|++++..++  +-..|++++.+.+||
+T Consensus       169 ~~~i~vyRg~~~~~~~~~~~~~l~~~~~~~~i~~e~~~~l~~~l~g~~~~gf~STSl~~~~~~--~~~~i~l~I~vPkGt  246 (287)
+T LEF_BACAN/297-  169 YNKIYLYENMNINNLTATLGADLVDSTDNTKINRGIFNEFKKNFKYSISSNYMIVDINERPAL--DNERLKWRIQLSPDT  246 (287)
+T ss_pred             CCCEEEEEccCHHHhhhhccccccCCCCCCccCHHHHHHHHHHcccCccccceEEEccCCccc--CCCcEEEEEEeCCCC
+
+
+No 35
+>d3hx9a_ d.58.4.0 (A:) automated matches {Mycobacterium tuberculosis [TaxId: 1773]}
+Probab=21.13  E-value=3e+02  Score=17.66  Aligned_cols=18  Identities=17%  Similarity=0.266  Sum_probs=0.0  Template_Neff=11.800
+
+Q ss_pred             eEEEEEecCchHHHHHHh
+Q 10K_MODEL_28     45 VLVKFNMKSGTQKSLENI   62 (128)
+Q Consensus        45 VlVkf~~kpGT~~~L~~I   62 (128)
+                      +++.|.++||..+.+.+.
+T Consensus         4 ~~~~~~~~~~~~~~~~~~   21 (101)
+T d3hx9a_           4 KINAIEVPAGAGPELEKR   21 (101)
+T ss_dssp             EEEEECCCTTCHHHHHHH
+T ss_pred             EEEEEEeCCCCHHHHHHH
+
+
+No 36
+>2BBE_A hypothetical protein SO0527; MCSG, SO0527, Structural Genomics, PSI, Protein Structure Initiative, Midwest Center for Structural Genomics, UNKNOWN FUNCTION; HET: SO4; 1.97A {Shewanella oneidensis} SCOP: d.58.4.0
+Probab=20.97  E-value=3.1e+02  Score=17.20  Aligned_cols=18  Identities=22%  Similarity=0.320  Sum_probs=0.0  Template_Neff=12.600
+
+Q ss_pred             eEEEEEecCchHHHHHHh
+Q 10K_MODEL_28     45 VLVKFNMKSGTQKSLENI   62 (128)
+Q Consensus        45 VlVkf~~kpGT~~~L~~I   62 (128)
+                      +.+.|.++||..+.+.+.
+T Consensus        16 ~~~~~~~~~~~~~~~~~~   33 (108)
+T 2BBE_A           16 CVASFLSKEGKTEALIAA   33 (108)
+T ss_dssp             EEEEEEECTTCHHHHHHH
+T ss_pred             EEEEEEeCCCcHHHHHHH
+
+
+No 37
+>3LGN_A Heme-degrading monooxygenase isdI; Dimeric alpha+beta barrel, Cytoplasm, Heme, Iron, Metal-binding, Monooxygenase, Oxidoreductase; HET: HEM; 1.5A {Staphylococcus aureus} SCOP: l.1.1.1, d.58.4.5
+Probab=20.90  E-value=3e+02  Score=18.42  Aligned_cols=18  Identities=6%  Similarity=0.163  Sum_probs=0.0  Template_Neff=11.300
+
+Q ss_pred             eEEEEEecCchHHHHHHh
+Q 10K_MODEL_28     45 VLVKFNMKSGTQKSLENI   62 (128)
+Q Consensus        45 VlVkf~~kpGT~~~L~~I   62 (128)
+                      +++.|.++||..+.+.+.
+T Consensus         6 ~i~~~~~~~~~~~~~~~~   23 (110)
+T 3LGN_A            6 AENRLQLQKGSAEETIER   23 (110)
+T ss_dssp             EEEEEEEETTCHHHHHHT
+T ss_pred             EEEEEEECCCCHHHHHHH
+
+
+No 38
+>3LGN_B Heme-degrading monooxygenase isdI; Dimeric alpha+beta barrel, Cytoplasm, Heme, Iron, Metal-binding, Monooxygenase, Oxidoreductase; HET: HEM; 1.5A {Staphylococcus aureus} SCOP: l.1.1.1, d.58.4.5
+Probab=20.90  E-value=3e+02  Score=18.42  Aligned_cols=18  Identities=6%  Similarity=0.163  Sum_probs=0.0  Template_Neff=11.300
+
+Q ss_pred             eEEEEEecCchHHHHHHh
+Q 10K_MODEL_28     45 VLVKFNMKSGTQKSLENI   62 (128)
+Q Consensus        45 VlVkf~~kpGT~~~L~~I   62 (128)
+                      +++.|.++||..+.+.+.
+T Consensus         6 ~i~~~~~~~~~~~~~~~~   23 (110)
+T 3LGN_B            6 AENRLQLQKGSAEETIER   23 (110)
+T ss_dssp             EEEEEEECTTCHHHHHHT
+T ss_pred             EEEEEEECCCCHHHHHHH
+
+
+No 39
+>TIGR00523 eIF-1A; eukaryotic/archaeal initiation factor 1A. Recommended nomenclature: eIF-1A for eukaryotes, aIF-1A for Archaea.
+Probab=20.86  E-value=2.8e+02  Score=20.86  Aligned_cols=23  Identities=17%  Similarity=0.303  Sum_probs=0.0  Template_Neff=7.200
+
+Q ss_pred             cceeEecCCHHHHHHHHHhCCCCC
+Q 10K_MODEL_28      3 AEIFYRTMSEDNYATLQSTGRMPG   26 (128)
+Q Consensus         3 ~Ei~YRtMS~~~y~~L~~TG~lpa   26 (128)
+                      .||-||. +++|...|.+.|.+|+
+T Consensus        76 g~Iv~~~-~~~~vk~L~~~~~wP~   98 (98)
+T TIGR00523        76 CDIVWRY-TLTEVEWLKRKGYLKE   98 (98)
+T ss_pred             EEEEEEc-CHHHHHHHHHcCCCCC
+
+
+No 40
+>1LQ9_A ACTVA-ORF6 MONOOXYGENASE; MONOOXYGENASE, AROMATIC POLYKETIDES, ACTINORHODIN, DIHYDROKALAFUNGIN, STREPTOMYCES COELICOLOR, OXIDOREDUCTASE; HET: PG4; 1.3A {Streptomyces coelicolor} SCOP: d.58.4.3
+Probab=20.44  E-value=2.7e+02  Score=18.36  Aligned_cols=18  Identities=28%  Similarity=0.457  Sum_probs=0.0  Template_Neff=11.700
+
+Q ss_pred             eEEEEEe-cCchHHHHHHh
+Q 10K_MODEL_28     45 VLVKFNM-KSGTQKSLENI   62 (128)
+Q Consensus        45 VlVkf~~-kpGT~~~L~~I   62 (128)
+                      ++++|.+ +||..+.+.+.
+T Consensus        12 ~i~~~~~~~~~~~~~~~~~   30 (112)
+T 1LQ9_A           12 AVVTFPVDGPATQHKLVEL   30 (112)
+T ss_dssp             EEEEEEBSSHHHHHHHHHH
+T ss_pred             EEEEEEeCChHHHHHHHHH
+
+
+No 41
+>2RIL_A Antibiotic biosynthesis monooxygenase; YP_001095275.1, Putative monooxygenase, Antibiotic biosynthesis monooxygenase, Structural Genomics, Joint Center for Structural Genomics, JCSG, Protein Structure; HET: MSE; 1.26A {Shewanella loihica}
+Probab=20.29  E-value=2.2e+02  Score=18.06  Aligned_cols=18  Identities=6%  Similarity=0.167  Sum_probs=0.0  Template_Neff=12.000
+
+Q ss_pred             eEEEEEecCchHHHHHHh
+Q 10K_MODEL_28     45 VLVKFNMKSGTQKSLENI   62 (128)
+Q Consensus        45 VlVkf~~kpGT~~~L~~I   62 (128)
+                      +++.|+++||..+.+.+.
+T Consensus         8 ~i~~~~~~~~~~~~~~~~   25 (99)
+T 2RIL_A            8 LINPFKVPADKLEAAIEY   25 (99)
+T ss_dssp             EEEEEBCCTTCHHHHHHH
+T ss_pred             EEEEEEcCHHHHHHHHHH
+
+
